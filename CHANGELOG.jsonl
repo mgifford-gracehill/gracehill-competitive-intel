@@ -19,3 +19,14 @@
 {"date": "2026-08-21", "kind": "changed", "summary": "Corrected the all-party recording-consent list to 14 states including Oregon, and flagged the internal policy that still says 13", "because": "Recording-consent state list is 14, not 13"}
 {"date": "2026-08-21", "kind": "changed", "summary": "Split two claims that were half right into four honest ones, and added two comparison rows where we are strong: asking an AI assistant about policy content, and whether answers stay inside customer data", "via": "approval thread"}
 {"date": "2026-08-21", "kind": "shipped", "summary": "Beta build live at ci-gracehill.com — 98 competitor records, 104 sourced Grace Hill claims, editorial gate clean"}
+{"date": "2026-08-21", "kind": "heard", "summary": "Too long — front-line staff need the important information at a glance, not more information", "who": "VP of Product Marketing", "via": "DM"}
+{"date": "2026-08-21", "kind": "heard", "summary": "Us vs them detail too long; point to a source instead of the technical depth", "who": "VP of Product Marketing", "via": "DM"}
+{"date": "2026-08-21", "kind": "heard", "summary": "Deep-dive research is too much on screen — show the key points, download the full report", "who": "VP of Product Marketing", "via": "DM"}
+{"date": "2026-08-21", "kind": "heard", "summary": "By product is too many boxes — hard to view", "who": "VP of Product Marketing", "via": "DM"}
+{"date": "2026-08-21", "kind": "heard", "summary": "Back button on a competitor card goes to the login page instead of the last page", "who": "VP of Product Marketing", "via": "DM"}
+{"date": "2026-08-21", "kind": "changed", "summary": "Added a Quick / Full detail switch. Quick is the default, so a rep sees the line they'd say and the source; Full detail expands everything for validating a claim", "because": "Too long — front-line staff need the important information at a glance"}
+{"date": "2026-08-21", "kind": "changed", "summary": "Us vs them is now one line per capability with the source link and a Detail toggle — about a fifth of its former length", "because": "Us vs them detail too long; point to a source instead of the technical depth"}
+{"date": "2026-08-21", "kind": "changed", "summary": "Deep-dive pages show the findings that change a conversation, what changed recently, and what customers say. Everything else prints as a full report", "because": "Deep-dive research is too much on screen"}
+{"date": "2026-08-21", "kind": "changed", "summary": "By product is a ranked list, one line per competitor, head-to-head first", "because": "By product is too many boxes"}
+{"date": "2026-08-21", "kind": "changed", "summary": "Fixed the Back button — it now returns to the page you came from, and competitor URLs can be shared", "because": "Back button on a competitor card goes to the login page"}
+{"date": "2026-08-21", "kind": "shipped", "summary": "Second build of the day: progressive disclosure pass"}
