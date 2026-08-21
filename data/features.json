@@ -1,0 +1,479 @@
+{
+  "note": "Canonical feature taxonomy. Competitor records reference these ids. Support values: Yes | No | Partial | Unknown. Unknown is a real answer — never guess.",
+  "lines": [
+    {
+      "line": "Training",
+      "features": [
+        {
+          "id": "tr-multifamily-content",
+          "label": "Multifamily-specific content library",
+          "why": "A generic LMS gives you a delivery mechanism; the question is what goes in it."
+        },
+        {
+          "id": "tr-vendor-maintained",
+          "label": "Content maintained and updated by the vendor",
+          "why": "Who owns keeping courses current as regulation changes."
+        },
+        {
+          "id": "tr-fair-housing",
+          "label": "Fair housing content"
+        },
+        {
+          "id": "tr-state-specific",
+          "label": "State-specific compliance content",
+          "why": "Multi-state portfolios need jurisdiction variants, not one national course."
+        },
+        {
+          "id": "tr-cec-eligible",
+          "label": "CEC / credential-eligible content (CAM, CAPS, CALP)"
+        },
+        {
+          "id": "tr-role-assignment",
+          "label": "Role- and property-based automatic assignment"
+        },
+        {
+          "id": "tr-competency",
+          "label": "Competency assessment, not just completion",
+          "why": "Completion proves attendance. Competency proves what they know."
+        },
+        {
+          "id": "tr-compliance-reporting",
+          "label": "Compliance and completion reporting"
+        },
+        {
+          "id": "tr-scorm",
+          "label": "SCORM / xAPI third-party course import"
+        },
+        {
+          "id": "tr-authoring",
+          "label": "Custom course authoring"
+        },
+        {
+          "id": "tr-mobile",
+          "label": "Mobile and offline access",
+          "why": "Maintenance techs and leasing consultants are not at desks."
+        },
+        {
+          "id": "tr-bilingual",
+          "label": "Bilingual (Spanish) content"
+        },
+        {
+          "id": "tr-pms-integration",
+          "label": "PMS integration"
+        },
+        {
+          "id": "tr-hris-integration",
+          "label": "HRIS / payroll integration"
+        },
+        {
+          "id": "tr-benchmarking",
+          "label": "Benchmarking against industry data"
+        },
+        {
+          "id": "tr-microlearning",
+          "label": "Short-form microlearning library",
+          "why": "Onsite teams do not have an hour. A 2-to-5-minute lesson gets taken; a 45-minute course gets deferred."
+        },
+        {
+          "id": "tr-performance-mgmt",
+          "label": "Performance management (reviews, goals, PIPs)",
+          "why": "Enterprise RFPs ask for it as a Must Have. Know exactly what we do and do not have before the question lands."
+        },
+        {
+          "id": "tr-data-retention",
+          "label": "Record retention, archiving and export",
+          "why": "The answer to a litigation hold or a multi-year audit. Decides deals quietly and is rarely demoed."
+        },
+        {
+          "id": "tr-content-types",
+          "label": "Distinct content types matched to the learning need",
+          "why": "A generic LMS has one format. Which format a topic gets — course, Spark, Booster, In the Know — is a design decision, and it is the thing a rep most often flattens."
+        },
+        {
+          "id": "tr-refresher-strategy",
+          "label": "2026 refresher model — quarterly, personalized, always current",
+          "why": "Surfaced by the GHU and AdminHQ sourcing pass, 2026-08-21."
+        },
+        {
+          "id": "tr-pathways",
+          "label": "Pathways — onboarding and remediation journeys",
+          "why": "Surfaced by the GHU and AdminHQ sourcing pass, 2026-08-21."
+        },
+        {
+          "id": "tr-partner-content",
+          "label": "Partner content in the catalog, and how it behaves differently",
+          "why": "Surfaced by the GHU and AdminHQ sourcing pass, 2026-08-21."
+        }
+      ]
+    },
+    {
+      "line": "Policies",
+      "features": [
+        {
+          "id": "po-prewritten-library",
+          "label": "Prewritten multifamily policy library",
+          "why": "The difference between a policy product and an empty document shell."
+        },
+        {
+          "id": "po-regulatory-updates",
+          "label": "Vendor-maintained regulatory updates"
+        },
+        {
+          "id": "po-jurisdiction-variants",
+          "label": "State / jurisdiction-specific variants",
+          "why": "Ask what a vendor means by \"variant\": a separate policy version per state, or a federal document with localization guidance. Grace Hill ships a federal baseline you localize in the editor — read the note before answering this one in a state-law deal."
+        },
+        {
+          "id": "po-version-control",
+          "label": "Version control and change history"
+        },
+        {
+          "id": "po-attestation",
+          "label": "Attestation / acknowledgment tracking"
+        },
+        {
+          "id": "po-esignature",
+          "label": "E-signature"
+        },
+        {
+          "id": "po-overdue-reporting",
+          "label": "Overdue and exception reporting"
+        },
+        {
+          "id": "po-position-assignment",
+          "label": "Position-based assignment"
+        },
+        {
+          "id": "po-content-search",
+          "label": "Full-text search of policy content",
+          "why": "Not just document titles — the distinction that brought one customer back."
+        },
+        {
+          "id": "po-ai-content-question",
+          "label": "Ask an AI assistant a question about policy content",
+          "why": "The other half of the search job. A search box finds the document; this answers the question. Grace Hill is a Yes here and a Partial on full-text search, so the two rows tell different stories. Competitor values are not yet researched — a blank is Unknown, not a No."
+        },
+        {
+          "id": "po-training-linkage",
+          "label": "Linkage from policy to training"
+        },
+        {
+          "id": "po-review-approval",
+          "label": "Review and approval workflow with an audit trail",
+          "why": "A policy that changed without a recorded approval is the thing an auditor asks about."
+        },
+        {
+          "id": "po-substitution-variables",
+          "label": "Central substitution variables, versioned",
+          "why": "Change a title once and every policy updates — and the old value stays provable."
+        },
+        {
+          "id": "po-version-restore",
+          "label": "Restore a prior revision",
+          "why": "Reverting language without rebuilding it, and without losing what came after."
+        },
+        {
+          "id": "po-manual-scope",
+          "label": "Manual scope and per-policy visibility",
+          "why": "How a customer stages a rollout or keeps a region-specific manual private."
+        },
+        {
+          "id": "po-implementation",
+          "label": "Implementation paths and timelines",
+          "why": "Quoting the wrong timeline is how an implementation starts behind."
+        }
+      ]
+    },
+    {
+      "line": "Surveys",
+      "features": [
+        {
+          "id": "sv-resident",
+          "label": "Resident surveys"
+        },
+        {
+          "id": "sv-employee",
+          "label": "Employee surveys"
+        },
+        {
+          "id": "sv-cre-tenant",
+          "label": "CRE tenant surveys"
+        },
+        {
+          "id": "sv-benchmark-dataset",
+          "label": "Industry benchmark dataset",
+          "why": "A score of 78 means nothing without a comparison set."
+        },
+        {
+          "id": "sv-benchmark-scale",
+          "label": "Benchmark scale and history disclosed"
+        },
+        {
+          "id": "sv-portfolio-rollup",
+          "label": "Property / region / portfolio rollup"
+        },
+        {
+          "id": "sv-lifecycle",
+          "label": "Event-triggered lifecycle surveys"
+        },
+        {
+          "id": "sv-custom-questions",
+          "label": "Custom questions on top of a benchmarked core"
+        },
+        {
+          "id": "sv-sentiment",
+          "label": "Open-text sentiment analysis"
+        },
+        {
+          "id": "sv-investor-grade",
+          "label": "Investor / GRESB-grade reporting"
+        },
+        {
+          "id": "sv-action-planning",
+          "label": "Action planning from results"
+        },
+        {
+          "id": "sv-published-pricing",
+          "label": "Published pricing"
+        },
+        {
+          "id": "sv-survey-logic",
+          "label": "Survey logic — display, skip and branching",
+          "why": "Surfaced by the GHU and AdminHQ sourcing pass, 2026-08-21."
+        },
+        {
+          "id": "sv-anonymous",
+          "label": "Anonymous surveys, and the reporting trade-off",
+          "why": "Surfaced by the GHU and AdminHQ sourcing pass, 2026-08-21."
+        },
+        {
+          "id": "sv-benchmark-integrity",
+          "label": "How a survey score is kept comparable",
+          "why": "Surfaced by the GHU and AdminHQ sourcing pass, 2026-08-21."
+        },
+        {
+          "id": "sv-sms",
+          "label": "SMS delivery — available, not universal, not self-serve",
+          "why": "Surfaced by the GHU and AdminHQ sourcing pass, 2026-08-21."
+        },
+        {
+          "id": "sv-international",
+          "label": "Canada and EU programs carry non-negotiable compliance language",
+          "why": "Surfaced by the GHU and AdminHQ sourcing pass, 2026-08-21."
+        }
+      ]
+    },
+    {
+      "line": "Reputation Management",
+      "features": [
+        {
+          "id": "rm-monitoring",
+          "label": "Review monitoring across sites"
+        },
+        {
+          "id": "rm-response-managed",
+          "label": "Managed review response (they write them)"
+        },
+        {
+          "id": "rm-response-ai",
+          "label": "AI-assisted response drafting"
+        },
+        {
+          "id": "rm-generation",
+          "label": "Review generation / solicitation"
+        },
+        {
+          "id": "rm-gbp",
+          "label": "Google Business Profile management"
+        },
+        {
+          "id": "rm-listings",
+          "label": "Listings management"
+        },
+        {
+          "id": "rm-social",
+          "label": "Social publishing"
+        },
+        {
+          "id": "rm-analytics",
+          "label": "Sentiment and topic analytics"
+        },
+        {
+          "id": "rm-competitor-bench",
+          "label": "Competitor benchmarking"
+        },
+        {
+          "id": "rm-property-rollup",
+          "label": "Property-level and portfolio rollup"
+        }
+      ]
+    },
+    {
+      "line": "Mystery Shopping",
+      "features": [
+        {
+          "id": "ms-human-shoppers",
+          "label": "Human shopper network"
+        },
+        {
+          "id": "ms-phone",
+          "label": "Phone shops"
+        },
+        {
+          "id": "ms-email",
+          "label": "Email / internet lead shops"
+        },
+        {
+          "id": "ms-onsite",
+          "label": "Onsite shops"
+        },
+        {
+          "id": "ms-video",
+          "label": "Video shops"
+        },
+        {
+          "id": "ms-rubric",
+          "label": "Standardized scoring rubric"
+        },
+        {
+          "id": "ms-coaching",
+          "label": "Coaching linked to training assignment"
+        },
+        {
+          "id": "ms-full-call-analysis",
+          "label": "Analysis of every call, not a sample",
+          "why": "The structural difference between sampled shopping and conversation intelligence."
+        },
+        {
+          "id": "ms-benchmarking",
+          "label": "Benchmarking against industry"
+        },
+        {
+          "id": "ms-scoring-and-score-adjustment",
+          "label": "How a shop score is produced — and that you can change it",
+          "why": "Surfaced by the GHU and AdminHQ sourcing pass, 2026-08-21."
+        },
+        {
+          "id": "ms-shop-to-course-mapping",
+          "label": "A missed shop question turns into a specific assignable course",
+          "why": "Surfaced by the GHU and AdminHQ sourcing pass, 2026-08-21."
+        },
+        {
+          "id": "ms-ordering-and-turnaround",
+          "label": "Ordering mechanics, timing windows and what cannot be cancelled",
+          "why": "Surfaced by the GHU and AdminHQ sourcing pass, 2026-08-21."
+        },
+        {
+          "id": "ms-questionnaire-customization",
+          "label": "You can tailor the questionnaire — inside stated rules",
+          "why": "Surfaced by the GHU and AdminHQ sourcing pass, 2026-08-21."
+        }
+      ]
+    },
+    {
+      "line": "Realync",
+      "features": [
+        {
+          "id": "vl-diy-capture",
+          "label": "DIY capture by the onsite team",
+          "why": "Contractor-only capture is why 'free' tours never actually get created."
+        },
+        {
+          "id": "vl-live-tours",
+          "label": "Live video tours"
+        },
+        {
+          "id": "vl-unit-level",
+          "label": "Recorded unit-level video"
+        },
+        {
+          "id": "vl-3d",
+          "label": "3D / 360 tours"
+        },
+        {
+          "id": "vl-self-guided",
+          "label": "Self-guided tour access"
+        },
+        {
+          "id": "vl-crm-integration",
+          "label": "CRM / PMS sales integration"
+        },
+        {
+          "id": "vl-analytics",
+          "label": "Engagement analytics"
+        },
+        {
+          "id": "vl-syndication",
+          "label": "ILS syndication"
+        }
+      ]
+    },
+    {
+      "line": "HelloData®",
+      "features": [
+        {
+          "id": "md-rent-comps",
+          "label": "Rent comparables"
+        },
+        {
+          "id": "md-concessions",
+          "label": "Concession tracking"
+        },
+        {
+          "id": "md-coverage",
+          "label": "Coverage (properties / units)"
+        },
+        {
+          "id": "md-refresh",
+          "label": "Refresh frequency"
+        },
+        {
+          "id": "md-api",
+          "label": "API access"
+        },
+        {
+          "id": "md-submarket",
+          "label": "Submarket analytics"
+        },
+        {
+          "id": "md-availability",
+          "label": "Real-time availability data"
+        }
+      ]
+    },
+    {
+      "line": "Platform & AI",
+      "features": [
+        {
+          "id": "ai-nl-query",
+          "label": "Natural-language questions over your own data"
+        },
+        {
+          "id": "ai-cross-signal",
+          "label": "Correlates signals across training, surveys, shops, reputation, market"
+        },
+        {
+          "id": "ai-recommended-actions",
+          "label": "Recommends a specific next action"
+        },
+        {
+          "id": "ai-source-attribution",
+          "label": "Source attribution on every answer"
+        },
+        {
+          "id": "ai-data-boundary",
+          "label": "Answers limited to the customer's own approved content",
+          "why": "Split from source attribution, which is a different promise. Grace Hill is a Yes on attribution and a Partial here, because Intelligence+ also draws HelloData® market comps. Competitor values are not yet researched — a blank is Unknown, not a No."
+        },
+        {
+          "id": "ai-rbac",
+          "label": "Respects role-based access control"
+        },
+        {
+          "id": "ai-proof",
+          "label": "Verifies the action moved the number"
+        }
+      ]
+    }
+  ]
+}

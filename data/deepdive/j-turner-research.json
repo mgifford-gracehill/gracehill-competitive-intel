@@ -1,0 +1,245 @@
+{
+  "competitor": "J Turner Research",
+  "competitorId": "j-turner-research",
+  "protocol": "deep-dive v1 — seven public source classes",
+  "retrieved": "2026-08-21",
+  "confidenceOverall": "medium",
+  "status": "evidence — not yet promoted into the competitor record. A human promotes facts from here.",
+  "highValueFinds": [
+    "ORA was re-baselined in 2026 after Apartments.com dropped the CoStar building-quality component on 2026-04-22. Average Apartments.com rating fell from 4.18 to 3.43 across 65,820 properties, and J Turner reports a +0.15 average ORA change for properties with 10 or more reviews. If another re-baseline lands, buyers will see score movement they cannot attribute to their own operations.",
+    "Published scale is 149,000+ properties and 18,346,238 reviews (dated 2026-03-11), superseding the 132,000 figure still live elsewhere on their own site. Quote the dated one.",
+    "Published entry price of $30 per month with four named tiers (SMART, SMARTER, SMARTEST, GENIUS) — on a pricing page that is absent from their own sitemap and still contains placeholder text, which suggests active build-out.",
+    "The per-ORA-point market-return claim moved from 3 basis points (2021 joint RealPage release) to 9.3 basis points (current page), both attributed to RealPage research, with the current figure self-qualified 'Study coming 2026'.",
+    "ORA scoring eligibility is broad by their own description — one online rating qualifies a property for a score — while Power Ranking recognition applies stricter gates (minimum ORA 94 and at least 20 reviews for the 2025 Elite 1%).",
+    "Two different AI-review-scale figures appear on their own properties: 1.5 million on the why-us page and over 12 million in the 2025 year-end summary. Likely different scopes. Do not cite either as 'their dataset size' until reconciled."
+  ],
+  "methodology": {
+    "what": "ORA (Online Reputation Assessment) is a 0-100 score aggregating publicly available ratings and review content for apartment communities. Their FAQ states it is not a simple average of star ratings, and names four inputs: review ratings across platforms, feedback across 22 operational areas, review volume and consistency, and review recency. A February 2026 revision added per-review content analysis via their Einstein tool. A 2021 revision added recency weighting, per-site bias adjustment through percentile normalization, and a cross-platform consistency reward. The specific weighting algorithm is not published. TALi (Turner Apartment Loyalty Index) is a separate monthly resident-survey index.",
+    "scale": "Company-published and dated: 149,000+ properties monitored, 18,346,238 reviews, and 136,225 properties (91%) with at least one review, per the 15th Edition of 'The Mechanics of Online Review Sites and ILSs' (2026-03-11), which also references a purge of 2M+ historical reviews. This supersedes the 132,000-property figure that still appears elsewhere on their own site — both are first-party and both are reachable, which is a trap for a rep quoting a number. Sources stated as 20+ major review sites and ILSs. No public figure for total survey responses or survey benchmark size was located as of 2026-08-21.",
+    "refresh": "ORA scores updated monthly. Power Rankings released monthly by category with an annual Elite 1% cycle published with Multifamily Executive. TALi resident surveys described as monthly. 'The Mechanics of Online Review Sites and ILSs' described as biannual, 15th Edition current as of March 2026.",
+    "url": "https://www.jturnerresearch.com/the-15th-edition-of-the-mechanics-of-online-review-sites-and-ilss",
+    "editorialNote": "Describe what ORA covers and how it refreshes. Never characterize its accuracy, bias, or inflation — there is no public basis for it and the record already carries a do-not-say on exactly this."
+  },
+  "facts": [
+    {
+      "area": "Product line",
+      "fact": "Publicly described solution set: Survey Program, Review Management, Review Response, Social Suite, Business Listings, ORA Monitoring, and Dedicated Support, plus an ORA App and ORA Power Rankings.",
+      "url": "https://www.jturnerresearch.com/solutions",
+      "date": "retrieved 2026-08-21",
+      "confidence": "high"
+    },
+    {
+      "area": "Survey portfolio",
+      "fact": "Survey types described: Resident, Prospect, Student Housing (Spring, Fall, Guarantor, Prospect), Employee, and Custom (offered as 'Do It Yourself' and 'Made to Order'). Named features include APT (Action Planning Tool) for S.M.A.R.T. goals and 'PUSH for Reviews', which converts survey respondents into public reviewers.",
+      "url": "https://www.jturnerresearch.com/solutions/surveys",
+      "date": "retrieved 2026-08-21",
+      "confidence": "high"
+    },
+    {
+      "area": "Integrations",
+      "fact": "Named PMS integrations: Entrata, Yardi, RealPage, ResMan. Named technology partners: Google, CoStar, Facebook, Rent.",
+      "url": "https://www.jturnerresearch.com/solutions/surveys",
+      "date": "retrieved 2026-08-21",
+      "confidence": "high"
+    },
+    {
+      "area": "ORA methodology",
+      "fact": "ORA 'monitors reputation across 20+ major review sites and ILSs relevant to multifamily' and scores 0-100 using ratings, feedback across 22 operational areas, review volume and consistency, and recency.",
+      "url": "https://www.jturnerresearch.com/ora/faqs",
+      "date": "retrieved 2026-08-21",
+      "confidence": "high"
+    },
+    {
+      "area": "ORA eligibility",
+      "fact": "'A property only needs one online rating to receive an ORA score.' No higher minimum-review threshold for scoring is described on the FAQ page as of 2026-08-21.",
+      "url": "https://www.jturnerresearch.com/ora/faqs",
+      "date": "retrieved 2026-08-21",
+      "confidence": "high"
+    },
+    {
+      "area": "New ORA model",
+      "fact": "A February 2026 enhancement incorporates the content of individual reviews into each property's ORA score, using their Einstein tool to assess what each property does well and where operational opportunities sit.",
+      "url": "https://www.jturnerresearch.com/blog/insights-from-turner-the-new-ora-is-2.38x-more-predictive-than-the-old-ora",
+      "date": "2026-04-28",
+      "confidence": "high"
+    },
+    {
+      "area": "New ORA validation",
+      "fact": "They report a RealPage study finding the New ORA is 2.38x more predictive of revenue versus direct competitors than the prior model, and that correlation to their TALi index improved 19.4% to 0.62, compared with 0.45 for Google.",
+      "url": "https://www.jturnerresearch.com/blog/insights-from-turner-the-new-ora-is-2.38x-more-predictive-than-the-old-ora",
+      "date": "2026-04-28",
+      "confidence": "high"
+    },
+    {
+      "area": "Published pricing",
+      "fact": "Their pricing page states solutions start 'as little as $30 per month' and lists four tiers — SMART, SMARTER, SMARTEST, GENIUS — noting these are 'only suggested pairings' with custom plans available. The tier comparison table displayed placeholder text rather than feature inclusions at retrieval.",
+      "url": "https://www.jturnerresearch.com/pricing",
+      "date": "retrieved 2026-08-21",
+      "confidence": "high"
+    },
+    {
+      "area": "Data residency",
+      "fact": "Privacy Policy (last updated 2023-12-15) states information 'may be transferred to, stored, and/or processed in the United States.'",
+      "url": "https://www.jturnerresearch.com/privacy-policy",
+      "date": "2023-12-15",
+      "confidence": "high"
+    },
+    {
+      "area": "Survey data collection",
+      "fact": "Privacy Policy states 'We generally do not require survey participants to submit personal information when completing a survey.'",
+      "url": "https://www.jturnerresearch.com/privacy-policy",
+      "date": "2023-12-15",
+      "confidence": "high"
+    },
+    {
+      "area": "Trust and compliance disclosure",
+      "fact": "No SOC 2, ISO 27001, subprocessor list, DPA, SSO/SAML, SCIM, or VPAT/WCAG accessibility statement is described on their public pages as of 2026-08-21. The Privacy Policy is the only trust-class document located, and the sitemap contains no security, legal, accessibility, or terms URL. This is an absence of public evidence, not evidence of absence.",
+      "url": "https://www.jturnerresearch.com/sitemap.xml",
+      "date": "retrieved 2026-08-21",
+      "confidence": "medium"
+    },
+    {
+      "area": "Documentation surfaces",
+      "fact": "No help center, knowledge base, public API reference, changelog, or status page is described on their public pages or listed in their sitemap as of 2026-08-21. The ORA FAQs page is the most documentation-like public artifact located.",
+      "url": "https://www.jturnerresearch.com/sitemap.xml",
+      "date": "retrieved 2026-08-21",
+      "confidence": "medium"
+    },
+    {
+      "area": "RealPage relationship",
+      "fact": "RealPage added ORA scores to its reputation tooling, establishing a distribution relationship between the two companies.",
+      "url": "https://investor.realpage.com/news-events/press-releases/detail/348/realpage-adds-online-reputation-assessment-ora-scores",
+      "date": "2020-11-04",
+      "confidence": "medium"
+    },
+    {
+      "area": "Published research cadence",
+      "fact": "'The Mechanics of Online Review Sites and ILSs' is published biannually; the 15th Edition is featured as of March 2026, with prior editions still publicly posted.",
+      "url": "https://www.jturnerresearch.com/ora/faqs",
+      "date": "retrieved 2026-08-21",
+      "confidence": "high"
+    }
+  ],
+  "reviewThemes": [
+    {
+      "theme": "Strong, named customer-support and account-management relationships",
+      "frequency": "recurring",
+      "source": "Revyse product reviews (2 reviews, avg 4.8/5)",
+      "dates": "approximately 2023",
+      "verbatimAvailable": true
+    },
+    {
+      "theme": "Reporting and data-visualization depth seen as limited — requests for more graphing and more flexible data slicing",
+      "frequency": "recurring",
+      "source": "Revyse product reviews (both reviews)",
+      "dates": "approximately 2023",
+      "verbatimAvailable": true
+    },
+    {
+      "theme": "Desire for real-time aggregation of per-review-site scores and volumes",
+      "frequency": "occasional",
+      "source": "Revyse product reviews",
+      "dates": "approximately 2023",
+      "verbatimAvailable": true
+    },
+    {
+      "theme": "Review-response workflow and approval process described as easy and burden-reducing",
+      "frequency": "recurring",
+      "source": "Revyse product reviews",
+      "dates": "approximately 2023",
+      "verbatimAvailable": true
+    }
+  ],
+  "reviewThemesCaveat": "Two reviews is not a trend. Directionally consistent and cheap to validate in win/loss interviews, but do not present as a pattern.",
+  "changedOverTime": [
+    {
+      "what": "The per-ORA-point market-return claim changed from 3 basis points (2021 joint RealPage release) to 9.3 basis points (current ORA page). Both attributed to RealPage research.",
+      "when": "2021-04-08 versus retrieved 2026-08-21",
+      "url": "https://www.businesswire.com/news/home/20210408005132/en/RealPage-and-J-Turner-Research-Reveals-Measurable-Impact-of-Online-Reputation-on-Apartment-Property-Performance"
+    },
+    {
+      "what": "Stated properties-monitored figure moved from over 120,000 (2021) to 132,000 on the why-us page and 150,000+ in 2026 materials.",
+      "when": "2021 to 2026",
+      "url": "https://www.jturnerresearch.com/about/why-j-turner-research"
+    },
+    {
+      "what": "ORA scoring model materially revised at least twice — September 2021 (recency weighting, site-bias normalization, cross-platform consistency; their own communication acknowledged most scores would change, some by 10+ points, and the Elite 1% cutoff would move) and February 2026 (per-review content analysis via Einstein).",
+      "when": "September 2021 and February 2026",
+      "url": "https://www.multifamilyexecutive.com/property-management/ora-model-update-why-your-ora-score-will-likely-change_o"
+    }
+  ],
+  "roadmapSignals": [
+    {
+      "signal": "AI review-content analysis is the central investment area, moving ORA from rating aggregation toward per-review semantic categorization",
+      "evidence": "February 2026 New ORA deploys Einstein across 22 operational areas",
+      "url": "https://www.jturnerresearch.com/blog/insights-from-turner-the-new-ora-is-2.38x-more-predictive-than-the-old-ora"
+    },
+    {
+      "signal": "A further ORA value-impact study is planned for 2026",
+      "evidence": "The get-your-score page qualifies the 9.3 bps claim with 'Expected to increase (Study coming 2026)'",
+      "url": "https://www.jturnerresearch.com/get-your-score"
+    },
+    {
+      "signal": "Expansion from measurement into adjacent marketing-services delivery",
+      "evidence": "Solution set now includes Social Suite, Business Listings management, and Review Response as delivered services",
+      "url": "https://www.jturnerresearch.com/solutions"
+    },
+    {
+      "signal": "Productized, self-serve-style packaging at a low entry price",
+      "evidence": "Four named tiers with a published $30/month entry point, on a page absent from their sitemap and containing placeholder text",
+      "url": "https://www.jturnerresearch.com/pricing"
+    },
+    {
+      "signal": "Vertical extension beyond conventional multifamily into student and senior housing",
+      "evidence": "Power Rankings include off-campus student housing and Top 100 Senior Housing; survey line includes Student Housing variants",
+      "url": "https://www.jturnerresearch.com/ora/power-rankings"
+    },
+    {
+      "signal": "Survey-to-public-review conversion is a named product mechanic",
+      "evidence": "'PUSH for Reviews' and 'PUSH 2.0 for Reviews' use survey responses to prompt residents to post public reviews",
+      "url": "https://www.jturnerresearch.com/solutions/surveys"
+    }
+  ],
+  "statedLimitations": [
+    {
+      "limitation": "On the asset-value claim: the 9.3 bps figure carries the qualifier 'Expected to increase (Study coming 2026)', indicating the current figure rests on prior-study data.",
+      "url": "https://www.jturnerresearch.com/get-your-score"
+    },
+    {
+      "limitation": "On generalizability: 'the level of impact that online reputation can have on value creation varies by market and property type.'",
+      "url": "https://www.businesswire.com/news/home/20210408005132/en/RealPage-and-J-Turner-Research-Reveals-Measurable-Impact-of-Online-Reputation-on-Apartment-Property-Performance"
+    },
+    {
+      "limitation": "On Einstein Best of Awards eligibility: properties without reviews dating back at least one year were not considered, and properties must not have received any online complaints in the respective operational category — so newer properties are excluded from that recognition set.",
+      "url": "https://www.jturnerresearch.com/2025-year-end-ora-power-ranking-summary"
+    },
+    {
+      "limitation": "On score volatility from model changes: their own 2021 communication acknowledged most properties' scores would change and some by 10+ points.",
+      "url": "https://www.multifamilyexecutive.com/property-management/ora-model-update-why-your-ora-score-will-likely-change_o"
+    }
+  ],
+  "sourcesNotFound": [
+    "Documentation, API, changelog, status — partial. FAQs and solution pages found; no help center, knowledge base, developer docs, release notes, or status page described on their public pages or listed in their sitemap as of 2026-08-21.",
+    "Trust and security — largely empty. Only a Privacy Policy (2023-12-15). No Terms of Service page located.",
+    "Review sites — thin. No G2, Capterra, TrustRadius, or Software Advice product listing located. Only Revyse, with 2 reviews from approximately 2023.",
+    "Site change over time — INCOMPLETE. Wayback content retrieval returned HTTP 403 on every path and the availability API returned only May 2026 snapshots regardless of requested timestamp. Archive-based removal detection was NOT performed. Draw no conclusions about removed pages from this run.",
+    "Job postings — thin. Careers page exists with no individual requisitions, routing to a general portal. No engineering, data-science, or product roles located, so no tech-stack or hiring-velocity inference is supported.",
+    "Public procurement — empty. No contract award, state or municipal listing, or RFP result naming them with a price located. The only price evidence is their own published figure.",
+    "Funding, M&A, leadership change — none located in the last 24 months as of 2026-08-21."
+  ],
+  "analystActions": [
+    "RealPage's newsroom describes obtaining exclusive rights to embed ORA scores in its benchmarking and AI Revenue Management. Dated 2020, no public update found. Material to positioning but six years old — PMM and Legal need to rule on whether we may cite it at all, and whether it may be described as current.",
+    "Reconcile the 1.5 million versus over 12 million AI-review figures before citing either as their dataset size.",
+    "The 3 bps to 9.3 bps drift is a legitimate 'which study are you citing' question for a rep. Frame it as a question about the source, never as an accuracy or inflation claim — the record already carries a do-not-say on characterizing their methodology.",
+    "URL-slug risk flagged by the research pass: the strongest source for the 150,000-property figure and the Elite 1% thresholds is a wire release whose slug names a specific property-management company. Substitute the J Turner-hosted get-your-score page for the scale figure before this appears in any customer-facing asset. No first-party source was found for the minimum-ORA-94 and 20-review thresholds.",
+    "Re-run the archive class when Wayback is reachable. Removed-capability detection is the one source class that produced nothing usable."
+  ],
+  "legalHold": [
+    {
+      "item": "RealPage / ORA exclusivity claim (2020, no public update)",
+      "status": "NOT CLEARED — do not use",
+      "instruction": "Do not cite this in any rep-facing material or conversation until Legal rules. Not as background, not hedged, not 'as of 2020'. The finding stays here as evidence; it does not reach the record.",
+      "url": "https://www.realpage.com/news/realpage-adds-online-reputation-assessment-ora-scores/"
+    }
+  ]
+}

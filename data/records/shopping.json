@@ -1,0 +1,3284 @@
+[
+ {
+  "id": "rema-remington-evaluations",
+  "name": "REMA (Remington Evaluations)",
+  "aka": [
+   "Remington Evaluations LLC",
+   "REMysteryShops"
+  ],
+  "parent": null,
+  "website": "https://www.remysteryshops.com/",
+  "toolCategory": "Traditional mystery shopping provider, multifamily specialist",
+  "ciCategory": "Direct",
+  "tier": "Tier 1",
+  "verdict": {
+   "stance": "Compete",
+   "line": "A multifamily-native shop shop with published per-shop pricing and every shop type we run — compete on scoring consistency, benchmarking and the coaching-to-training handoff, not on whether they can shop an apartment.",
+   "doInstead": null
+  },
+  "overlaps": [
+   {
+    "product": "Mystery Shopping",
+    "degree": "High"
+   },
+   {
+    "product": "Surveys",
+    "degree": "Partial"
+   },
+   {
+    "product": "Training",
+    "degree": "None"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "founded": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "ownership": {
+    "value": "Private (Remington Evaluations LLC)",
+    "source": "https://www.remysteryshops.com/client-faqs.php",
+    "verifiedOn": "2026-08-11"
+   },
+   "size": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "funding": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   }
+  },
+  "pricing": {
+   "value": "Public FAQ states shops run \"$55 to $170 per shop\" depending on level of detail and report length; rush service available for an additional charge.",
+   "source": "https://www.remysteryshops.com/client-faqs.php",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "Multifamily-focused evaluation firm offering phone, onsite and email leasing consultant evaluations plus competitor, fair housing, customer service, potential-employee and video shops, with trending, graphing and benchmarking reports.",
+   "source": "https://www.remysteryshops.com/client-faqs.php",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "Full shop-type coverage in one vendor: \"phone and onsite leasing consultant evaluations as well as email shops,\" plus competitor, fair housing, potential-employee, customer service and video shops.",
+    "source": "https://www.remysteryshops.com/client-faqs.php",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Publishes a per-shop price range on the public site, which makes them easy for a buyer to budget against.",
+    "source": "https://www.remysteryshops.com/client-faqs.php",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Offers trending, graphing and benchmarking reports alongside individual shop reports.",
+    "source": "https://www.remysteryshops.com/client-faqs.php",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Multifamily is the core vertical; the same firm also serves mini storage, moving, retail, real estate and automotive.",
+    "source": "https://www.remysteryshops.com/client-faqs.php",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "Published standard turnaround is slow: \"Normally a report will take about 2 to 3 weeks,\" and the FAQ notes delays of 30+ days are possible when shopper or target scheduling breaks down.",
+    "source": "https://www.remysteryshops.com/client-faqs.php",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Public site describes shop delivery and reporting; it does not describe linking shop results to assigned training or courseware.",
+    "source": "https://www.remysteryshops.com/client-faqs.php",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [
+   "Shop scores land in the same platform as the training assignment, so a low fair housing score becomes a course on that person's plate rather than a PDF in someone's inbox.",
+   "Benchmarking is drawn from a multifamily shop dataset built over decades, not a per-client trendline.",
+   "One vendor covers phone, email, onsite and video shops alongside surveys, training and policy in a single system of record."
+  ],
+  "askThis": [
+   "When a shop comes back at 60, what happens next in your process — who gets told, and what do they do that week?",
+   "How long from shop completion to a report a regional can act on? What's your contractual turnaround?",
+   "How is a shopper's score normalized across shoppers so a 78 in Dallas means the same as a 78 in Atlanta?",
+   "What are you benchmarking against — your own portfolio last quarter, or the industry?"
+  ],
+  "objections": [
+   {
+    "objection": "REMA quoted us $55 a shop.",
+    "response": "Price the outcome, not the shop. Ask what the shop costs plus what it costs to turn 400 shop reports into coaching that changes a score. If shops and training live in two systems, that second cost is a person's job."
+   },
+   {
+    "objection": "They do video shops too.",
+    "response": "So do we. The question isn't the format, it's what the video does after it's recorded — whether it's a file a manager may watch or a scored, benchmarked event that assigns the follow-up."
+   }
+  ],
+  "doNotSay": [
+   "Never say they can't do video or fair housing shops — their public FAQ lists both.",
+   "Never quote their pricing as a current number in a competitive deal; the published range is a website figure, not a quote."
+  ],
+  "features": {
+   "ms-human-shoppers": {
+    "support": "Yes",
+    "note": "Independent shoppers conduct evaluations; FAQ discusses shopper scheduling.",
+    "source": "https://www.remysteryshops.com/client-faqs.php",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-phone": {
+    "support": "Yes",
+    "note": "\"phone and onsite leasing consultant evaluations.\"",
+    "source": "https://www.remysteryshops.com/client-faqs.php",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-email": {
+    "support": "Yes",
+    "note": "\"as well as email shops.\"",
+    "source": "https://www.remysteryshops.com/client-faqs.php",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-onsite": {
+    "support": "Yes",
+    "note": "Onsite leasing consultant evaluations.",
+    "source": "https://www.remysteryshops.com/client-faqs.php",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-video": {
+    "support": "Yes",
+    "note": "Video shops listed among shop types.",
+    "source": "https://www.remysteryshops.com/client-faqs.php",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-rubric": {
+    "support": "Unknown",
+    "note": "Reports vary by \"level of detail and report length\"; a standardized cross-client rubric is not described publicly.",
+    "source": "https://www.remysteryshops.com/client-faqs.php",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-coaching": {
+    "support": "Unknown",
+    "note": "No public description of coaching linked to training assignment.",
+    "source": "https://www.remysteryshops.com/client-faqs.php",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-full-call-analysis": {
+    "support": "Unknown",
+    "note": "Public materials describe a sampled, per-shop program; analysis of all inbound calls is not described.",
+    "source": "https://www.remysteryshops.com/client-faqs.php",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-benchmarking": {
+    "support": "Partial",
+    "note": "\"trending and graphing reports...and also benchmarking reports\"; the benchmark dataset scale is not disclosed.",
+    "source": "https://www.remysteryshops.com/client-faqs.php",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Medium",
+   "owner": null,
+   "autoUpdated": false,
+   "pendingReview": []
+  },
+  "news": [],
+  "sources": [
+   {
+    "title": "REMA / Remington Evaluations — Client FAQs",
+    "url": "https://www.remysteryshops.com/client-faqs.php",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Revyse — Multifamily Mystery Shopping Solutions category",
+    "url": "https://revyse.com/categories/mystery-shops",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 5,
+   "name": "Resolution · The Resolution Layer for Multifamily",
+   "note": "Competes for the resolution layer position, or for one slice of it."
+  },
+  "whenItComesUp": {
+   "why": "A multifamily-native shopping firm with published per-shop pricing and every shop type we run. A straight head-to-head on execution, not on category.",
+   "say": "REMA is a real multifamily shop shop and their published pricing makes them easy to compare. Compete on scoring consistency, on benchmark depth, and on what happens after the shop — whether a low score routes into training and gets re-measured.",
+   "avoid": "Don't argue they can't shop an apartment. They can, and they've done it for years.",
+   "redirect": "After a shop comes back low, what happens? Who gets told, and how do you know it improved?"
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name Remington Evaluations LLC, REMysteryShops, or describe traditional mystery shopping provider, multifamily specialist already in place.",
+    "ask": "When a shop comes back at 60, what happens next in your process — who gets told, and what do they do that week?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "Published standard turnaround is slow: \"Normally a report will take about 2 to 3 weeks,\" and the FAQ notes delays of 30+ days are possible when shopper or target scheduling breaks down.",
+    "ask": "How long from shop completion to a report a regional can act on? What's your contractual turnaround?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the REMA (Remington Evaluations) contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the REMA (Remington Evaluations) agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether REMA (Remington Evaluations) sits on someone else's budget line — that changes who has to agree.",
+    "ask": "How is a shopper's score normalized across shoppers so a 78 in Dallas means the same as a 78 in Atlanta?"
+   }
+  ],
+  "play": "Head-to-head"
+ },
+ {
+  "id": "jancyn",
+  "name": "Jancyn",
+  "aka": [
+   "Jancyn Evaluation Shops"
+  ],
+  "parent": null,
+  "website": "https://jancyn.com/",
+  "toolCategory": "Traditional mystery shopping provider, multi-industry with a property management practice",
+  "ciCategory": "Direct",
+  "tier": "Tier 2",
+  "verdict": {
+   "stance": "Compete",
+   "line": "A generalist shop house with a real property management practice and all four shop types — compete on multifamily depth, benchmark scale and what happens after the score, not on capability checkboxes.",
+   "doInstead": null
+  },
+  "overlaps": [
+   {
+    "product": "Mystery Shopping",
+    "degree": "High"
+   },
+   {
+    "product": "Surveys",
+    "degree": "Partial"
+   },
+   {
+    "product": "Reputation Management",
+    "degree": "Partial"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": "8260 College Parkway #104, Fort Myers, FL 33919",
+    "source": "https://jancyn.com/property-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   "founded": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "ownership": {
+    "value": "Private",
+    "source": "https://jancyn.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "size": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "funding": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   }
+  },
+  "pricing": {
+   "value": "No pricing published on the public site.",
+   "source": "https://jancyn.com/property-management/",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "\"Insight from the Outside\" — mystery shopping, performance evaluations, surveys, Smart Shop, comment cards, audits and reputation management across property management, retail, restaurants and financial services.",
+   "source": "https://jancyn.com/mystery-shopping/",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "Property management is the first-listed industry on their site, alongside retail, restaurants and financial services.",
+    "source": "https://jancyn.com/mystery-shopping/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Covers phone, email, onsite and video shops for property management clients.",
+    "source": "https://jancyn.com/property-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "States shop reports are \"typically completed within 7–10 days\" and that assessors are \"specifically trained in the leasing experience.\"",
+    "source": "https://jancyn.com/property-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "MSPA Elite member 2019–2025; also sells resident retention surveys and performance evaluation surveys.",
+    "source": "https://jancyn.com/property-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Acquired New Hampshire-based Customer Perspectives, expanding the shop business.",
+    "source": "https://www.prweb.com/releases/mystery_shopping_company_jancyn_evaluation_shops_announces_acquisition_of_new_hampshire_based_customer_perspectives/prweb14594205.htm",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "Multifamily is one of five verticals rather than the whole business; the same shopper operation serves retail, restaurants and financial services.",
+    "source": "https://jancyn.com/mystery-shopping/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Public materials describe shop reporting and 24/7 statistical access; they do not describe assigning training from a shop result.",
+    "source": "https://jancyn.com/property-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Video shops are noted on their own site as taking longer to complete.",
+    "source": "https://jancyn.com/property-management/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [
+   "Multifamily is not a vertical for us; it is the whole company, and the rubric reflects how apartments are actually leased.",
+   "A shop result triggers the training assignment automatically rather than requiring a manager to notice it.",
+   "Benchmarks come from a multifamily-only shop dataset rather than a shopper pool shared with restaurants and banks."
+  ],
+  "askThis": [
+   "Are the shoppers evaluating your communities the same pool that shops restaurants and bank branches that week?",
+   "When a shop flags a fair housing risk, who is notified and what training gets assigned?",
+   "What is your benchmark set — how many multifamily shops does it contain, and over what period?"
+  ],
+  "objections": [
+   {
+    "objection": "Jancyn turns shops around in 7–10 days.",
+    "response": "Good — ask what happens on day 11. Turnaround is the easy half; the hard half is whether the score changes anyone's behavior. Ask them to walk you through the coaching path from a 62 to a retest."
+   }
+  ],
+  "doNotSay": [
+   "Never say Jancyn doesn't understand multifamily — they publish a dedicated property management practice and leasing-trained assessors.",
+   "Never claim they lack video shops."
+  ],
+  "features": {
+   "ms-human-shoppers": {
+    "support": "Yes",
+    "note": "Assessors are independent contractors \"specifically trained in the leasing experience.\"",
+    "source": "https://jancyn.com/property-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-phone": {
+    "support": "Yes",
+    "note": "Phone inquiries listed for property management.",
+    "source": "https://jancyn.com/property-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-email": {
+    "support": "Yes",
+    "note": "Email communications listed.",
+    "source": "https://jancyn.com/property-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-onsite": {
+    "support": "Yes",
+    "note": "Onsite visits listed.",
+    "source": "https://jancyn.com/property-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-video": {
+    "support": "Yes",
+    "note": "Video shops offered; site notes they take longer.",
+    "source": "https://jancyn.com/property-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-rubric": {
+    "support": "Unknown",
+    "note": "Scoring approach not described publicly.",
+    "source": "https://jancyn.com/property-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-coaching": {
+    "support": "Unknown",
+    "note": "No public description of coaching linked to training assignment.",
+    "source": "https://jancyn.com/property-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-full-call-analysis": {
+    "support": "Unknown",
+    "note": "Public materials describe sampled shops, not analysis of all inbound calls.",
+    "source": "https://jancyn.com/property-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-benchmarking": {
+    "support": "Unknown",
+    "note": "Statistical reporting is offered 24/7; an industry benchmark dataset is not described.",
+    "source": "https://jancyn.com/property-management/",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Medium",
+   "owner": null,
+   "autoUpdated": false,
+   "pendingReview": []
+  },
+  "news": [],
+  "sources": [
+   {
+    "title": "Jancyn — Property Management",
+    "url": "https://jancyn.com/property-management/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Jancyn — Mystery Shopping",
+    "url": "https://jancyn.com/mystery-shopping/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "PRWeb — Jancyn acquires Customer Perspectives",
+    "url": "https://www.prweb.com/releases/mystery_shopping_company_jancyn_evaluation_shops_announces_acquisition_of_new_hampshire_based_customer_perspectives/prweb14594205.htm",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 5,
+   "name": "Resolution · The Resolution Layer for Multifamily",
+   "note": "Competes for the resolution layer position, or for one slice of it."
+  },
+  "whenItComesUp": {
+   "why": "A real head-to-head. A generalist shop house with a real property management practice and all four shop types — compete on multifamily depth, benchmark scale and what happens after the score, not on capability checkboxes.",
+   "say": "Acknowledge what they do well, then move the conversation to the ground in 'Win with' — don't open with a feature list.",
+   "avoid": "Never say Jancyn doesn't understand multifamily — they publish a dedicated property management practice and leasing-trained assessors.",
+   "redirect": "Are the shoppers evaluating your communities the same pool that shops restaurants and bank branches that week?",
+   "derived": true
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name Jancyn Evaluation Shops, or describe traditional mystery shopping provider, multi-industry with a property management practice already in place.",
+    "ask": "Are the shoppers evaluating your communities the same pool that shops restaurants and bank branches that week?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "Multifamily is one of five verticals rather than the whole business; the same shopper operation serves retail, restaurants and financial services.",
+    "ask": "When a shop flags a fair housing risk, who is notified and what training gets assigned?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the Jancyn contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the Jancyn agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether Jancyn sits on someone else's budget line — that changes who has to agree.",
+    "ask": "What is your benchmark set — how many multifamily shops does it contain, and over what period?"
+   }
+  ],
+  "play": "Sometimes in the room"
+ },
+ {
+  "id": "jm-ridgway",
+  "name": "JM Ridgway",
+  "aka": [
+   "J.M. Ridgway",
+   "JM Ridgway Mystery Shopping"
+  ],
+  "parent": null,
+  "website": "https://jmridgway.com/",
+  "toolCategory": "Traditional mystery shopping and investigations firm, multi-industry with a real estate and property management practice",
+  "ciCategory": "Direct",
+  "tier": "Tier 2",
+  "verdict": {
+   "stance": "Compete",
+   "line": "A century-old generalist investigations and shopping firm that sells into apartments alongside brokers, builders and short-term rentals — compete on multifamily-specific scoring, benchmarks and the training handoff, and never on longevity.",
+   "doInstead": null
+  },
+  "overlaps": [
+   {
+    "product": "Mystery Shopping",
+    "degree": "High"
+   },
+   {
+    "product": "Surveys",
+    "degree": "Partial"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": "Discovery Bay, CA (per BBB business profile)",
+    "source": "https://www.bbb.org/us/ca/discovery-bay/profile/investigator/j-m-ridgway-1116-879672",
+    "verifiedOn": "2026-08-11"
+   },
+   "founded": {
+    "value": "1924 (\"since 1924\", per company site)",
+    "source": "https://jmridgway.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ownership": {
+    "value": "Private; company states the business \"has been handed down for generations\"",
+    "source": "https://jmridgway.com/mystery-shopper-services-for-property-managers-short-term-rentals-and-real-estate-industry/",
+    "verifiedOn": "2026-08-11"
+   },
+   "size": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "funding": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   }
+  },
+  "pricing": {
+   "value": "No pricing published on the public site.",
+   "source": "https://jmridgway.com/",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "Third-party feedback through mystery shopper services since 1924, serving multisite retail and service companies plus real estate agents and brokers, home builders, apartment communities, property management and short-term rentals; also offers undercover operatives, background checks and workers comp fraud investigation.",
+   "source": "https://jmridgway.com/",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "Serves apartment communities, property management, real estate agents and brokers, home builders and short-term rentals, with stated availability across all 50 states.",
+    "source": "https://jmridgway.com/mystery-shopper-services-for-property-managers-short-term-rentals-and-real-estate-industry/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "States it has provided professional third-party mystery shopper feedback \"since 1924,\" a longevity claim few competitors can match.",
+    "source": "https://jmridgway.com/mystery-shopper-services-for-property-managers-short-term-rentals-and-real-estate-industry/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Publishes a named multifamily reference (Edward Rose & Sons) praising report comprehensiveness and timeliness.",
+    "source": "https://jmridgway.com/mystery-shopper-services-for-property-managers-short-term-rentals-and-real-estate-industry/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Adjacent investigative services — undercover operatives, background checks, workers comp fraud — that a shop-only vendor does not offer.",
+    "source": "https://jmridgway.com/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "The property management page does not specify which shop methodologies are offered (phone, email, onsite, video); it describes the value of shops in general terms only.",
+    "source": "https://jmridgway.com/mystery-shopper-services-for-property-managers-short-term-rentals-and-real-estate-industry/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Positioned to \"multisite retail and service industry companies\" broadly; multifamily is one of several real estate segments served rather than the core focus.",
+    "source": "https://jmridgway.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "No public description of coaching linked to training assignment or of an industry benchmark dataset.",
+    "source": "https://jmridgway.com/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [
+   "Multifamily-only scoring and benchmarks rather than a shop template adapted from retail and service industries.",
+   "Shop score to coaching to assigned course happens in one platform, not as a report handed to a regional.",
+   "Video, phone, email and onsite shop types are all published and scored on the same rubric."
+  ],
+  "askThis": [
+   "Which shop types are you buying from them — phone only, or the full prospect journey including email and onsite?",
+   "What does their rubric measure that is specific to leasing rather than generic customer service?",
+   "How do they benchmark your score against other apartment portfolios?"
+  ],
+  "objections": [
+   {
+    "objection": "They've been doing this since 1924.",
+    "response": "Longevity is real and worth respecting. Ask what the 2026 leasing rubric measures — AI leasing assistants, text follow-up, self-guided tours. Age of the firm is not the age of the rubric."
+   }
+  ],
+  "doNotSay": [
+   "Never say they don't serve multifamily — apartment communities and property management are named on their site.",
+   "Never assert which shop types they lack; their property management page simply doesn't itemize them."
+  ],
+  "features": {
+   "ms-human-shoppers": {
+    "support": "Yes",
+    "note": "Core service is human mystery shoppers; also offers undercover operatives.",
+    "source": "https://jmridgway.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-phone": {
+    "support": "Unknown",
+    "note": "Not itemized on the property management page.",
+    "source": "https://jmridgway.com/mystery-shopper-services-for-property-managers-short-term-rentals-and-real-estate-industry/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-email": {
+    "support": "Unknown",
+    "note": "Not itemized on the property management page.",
+    "source": "https://jmridgway.com/mystery-shopper-services-for-property-managers-short-term-rentals-and-real-estate-industry/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-onsite": {
+    "support": "Yes",
+    "note": "In-person shopping is the described core service across industries.",
+    "source": "https://jmridgway.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-video": {
+    "support": "Unknown",
+    "note": "Not described publicly.",
+    "source": "https://jmridgway.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-rubric": {
+    "support": "Unknown",
+    "note": "Scoring approach not described publicly.",
+    "source": "https://jmridgway.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-coaching": {
+    "support": "Unknown",
+    "note": "No public description of training linkage.",
+    "source": "https://jmridgway.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-full-call-analysis": {
+    "support": "Unknown",
+    "note": "Public materials describe sampled shops, not analysis of all inbound calls.",
+    "source": "https://jmridgway.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-benchmarking": {
+    "support": "Unknown",
+    "note": "No industry benchmark dataset described publicly.",
+    "source": "https://jmridgway.com/",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Medium",
+   "owner": null,
+   "autoUpdated": false,
+   "pendingReview": []
+  },
+  "news": [],
+  "sources": [
+   {
+    "title": "JM Ridgway — home",
+    "url": "https://jmridgway.com/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "JM Ridgway — Mystery Shopper Services for Property Managers, Short Term Rentals and Real Estate",
+    "url": "https://jmridgway.com/mystery-shopper-services-for-property-managers-short-term-rentals-and-real-estate-industry/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "BBB business profile — J M Ridgway",
+    "url": "https://www.bbb.org/us/ca/discovery-bay/profile/investigator/j-m-ridgway-1116-879672",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 5,
+   "name": "Resolution · The Resolution Layer for Multifamily",
+   "note": "Competes for the resolution layer position, or for one slice of it."
+  },
+  "whenItComesUp": {
+   "why": "A real head-to-head. A century-old generalist investigations and shopping firm that sells into apartments alongside brokers, builders and short-term rentals — compete on multifamily-specific scoring, benchmarks and the training handoff, and never on longevity.",
+   "say": "Acknowledge what they do well, then move the conversation to the ground in 'Win with' — don't open with a feature list.",
+   "avoid": "Never say they don't serve multifamily — apartment communities and property management are named on their site.",
+   "redirect": "Which shop types are you buying from them — phone only, or the full prospect journey including email and onsite?",
+   "derived": true
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name J.M. Ridgway, JM Ridgway Mystery Shopping, or describe traditional mystery shopping and investigations firm, multi-industry with a real estate and property management practice already in place.",
+    "ask": "Which shop types are you buying from them — phone only, or the full prospect journey including email and onsite?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "The property management page does not specify which shop methodologies are offered (phone, email, onsite, video); it describes the value of shops in general terms only.",
+    "ask": "What does their rubric measure that is specific to leasing rather than generic customer service?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the JM Ridgway contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the JM Ridgway agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether JM Ridgway sits on someone else's budget line — that changes who has to agree.",
+    "ask": "How do they benchmark your score against other apartment portfolios?"
+   }
+  ],
+  "play": "Sometimes in the room"
+ },
+ {
+  "id": "markerheads-journey-reports",
+  "name": "MarkerHeads (Journey Reports)",
+  "aka": [
+   "Journey Reports",
+   "journeyreports.co"
+  ],
+  "parent": "MarkerHeads",
+  "website": "https://journeyreports.co/",
+  "toolCategory": "Multifamily end-to-end prospect journey evaluation, sold as an annual audit rather than a recurring shop program",
+  "ciCategory": "Direct",
+  "tier": "Tier 2",
+  "verdict": {
+   "stance": "Compete",
+   "line": "A once-a-year multifamily journey audit from a small branding agency — it competes for the shop budget as a one-time diagnostic, so compete on continuous measurement and the coaching loop, not on report design.",
+   "doInstead": null
+  },
+  "overlaps": [
+   {
+    "product": "Mystery Shopping",
+    "degree": "High"
+   },
+   {
+    "product": "Reputation Management",
+    "degree": "Partial"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": "Atlanta, GA",
+    "source": "https://revyse.com/vendors/markerheads",
+    "verifiedOn": "2026-08-11"
+   },
+   "founded": {
+    "value": "2023",
+    "source": "https://revyse.com/vendors/markerheads",
+    "verifiedOn": "2026-08-11"
+   },
+   "ownership": {
+    "value": "Private",
+    "source": "https://revyse.com/vendors/markerheads",
+    "verifiedOn": "2026-08-11"
+   },
+   "size": {
+    "value": "1–10 employees (vendor directory listing)",
+    "source": "https://revyse.com/vendors/markerheads",
+    "verifiedOn": "2026-08-11"
+   },
+   "funding": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   }
+  },
+  "pricing": {
+   "value": "Not published. Site states the report is bought \"Just once a year. At a familiar price\" and directs buyers to contact for portfolio and property pricing.",
+   "source": "https://journeyreports.co/",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "\"THE INDUSTRY'S ONLY END-TO-END JOURNEY EVALUATION\" — an unbiased view of the prospect experience from reach through sales conversion, scored across email, text, phone, chatbot and tour, presented in a visual journey map with emotional signals at each stage.",
+   "source": "https://journeyreports.co/",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "Scores performance across the full channel set — email, text, phone, chatbot and tours — rather than a single shop event.",
+    "source": "https://journeyreports.co/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Claims 1,500 property evaluations completed for large investment groups across market rate, senior, student, active adult and new development assets.",
+    "source": "https://journeyreports.co/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Uses \"market data and technology to model the behavior of location-specific, real in-market prospects\" rather than a generic shopper script.",
+    "source": "https://journeyreports.co/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Output is a visual journey map with emotional signals at each stage — designed to be read by executives, not just operations.",
+    "source": "https://journeyreports.co/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Comes from a multifamily branding and placemaking agency, so the report lands with marketing budget holders as easily as operations.",
+    "source": "https://markerheads.co/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "Sold as an annual evaluation — the site's own framing is \"Just once a year\" — rather than a continuous shop program with retests.",
+    "source": "https://journeyreports.co/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "The shop methodology is not disclosed; the site describes modeled in-market prospect behavior and characterizes the product as \"like a shop on steroids\" without specifying human shopper mechanics.",
+    "source": "https://journeyreports.co/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "1–10 employee firm founded in 2023, per its vendor directory listing — a small operation relative to enterprise portfolio shop volume.",
+    "source": "https://revyse.com/vendors/markerheads",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "No public description of coaching linked to training assignment or of an industry benchmark dataset.",
+    "source": "https://journeyreports.co/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [
+   "An annual snapshot tells you where you stood in March; a continuous program tells you whether the coaching worked in April.",
+   "Scores feed training assignment automatically, so the diagnostic becomes an intervention.",
+   "Shop volume and delivery capacity for national portfolios, with published shop types and a consistent rubric across every property."
+  ],
+  "askThis": [
+   "If the report is annual, how do you know whether the fixes you made actually moved the number?",
+   "How many shops per property per year are you doing today, and what is the retest cadence?",
+   "Who does the follow-up coaching after the journey report lands — and what do they assign?"
+  ],
+  "objections": [
+   {
+    "objection": "The Journey Report is the only end-to-end evaluation in the industry.",
+    "response": "It is a strong diagnostic and the visual is genuinely good. Ask what happens between annual reports. A diagnostic once a year plus nothing in between is a photograph; you're trying to run a film."
+   },
+   {
+    "objection": "It's cheaper than a full shop program.",
+    "response": "It should be — it's a different product. One audit versus a measured, retested coaching cycle across every community. Compare on outcome per property per year, not per report."
+   }
+  ],
+  "doNotSay": [
+   "Never characterize the report as low quality or as 'not a real shop' — the methodology simply isn't disclosed publicly.",
+   "Never quote a price."
+  ],
+  "features": {
+   "ms-human-shoppers": {
+    "support": "Unknown",
+    "note": "Site describes modeled in-market prospect behavior; human shopper mechanics not disclosed.",
+    "source": "https://journeyreports.co/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-phone": {
+    "support": "Yes",
+    "note": "Phone is one of the scored channels.",
+    "source": "https://journeyreports.co/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-email": {
+    "support": "Yes",
+    "note": "Email and text are scored channels.",
+    "source": "https://journeyreports.co/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-onsite": {
+    "support": "Yes",
+    "note": "Tours are a scored stage of the journey.",
+    "source": "https://journeyreports.co/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-video": {
+    "support": "Unknown",
+    "note": "Not described publicly.",
+    "source": "https://journeyreports.co/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-rubric": {
+    "support": "Partial",
+    "note": "Performance scoring across channels is described; a published standardized rubric is not.",
+    "source": "https://journeyreports.co/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-coaching": {
+    "support": "Unknown",
+    "note": "No public description of training linkage.",
+    "source": "https://journeyreports.co/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-full-call-analysis": {
+    "support": "No",
+    "note": "Product is an annual evaluation of a modeled prospect journey; it does not analyze the operator's live call volume.",
+    "source": "https://journeyreports.co/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-benchmarking": {
+    "support": "Unknown",
+    "note": "1,500 evaluations claimed, but no benchmark product described.",
+    "source": "https://journeyreports.co/",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Medium",
+   "owner": null,
+   "autoUpdated": false,
+   "pendingReview": []
+  },
+  "news": [],
+  "sources": [
+   {
+    "title": "Journey Reports — product site",
+    "url": "https://journeyreports.co/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "MarkerHeads — company site",
+    "url": "https://markerheads.co/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Revyse — MarkerHeads vendor profile",
+    "url": "https://revyse.com/vendors/markerheads",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 5,
+   "name": "Resolution · The Resolution Layer for Multifamily",
+   "note": "Competes for the resolution layer position, or for one slice of it."
+  },
+  "whenItComesUp": {
+   "why": "A real head-to-head. A once-a-year multifamily journey audit from a small branding agency — it competes for the shop budget as a one-time diagnostic, so compete on continuous measurement and the coaching loop, not on report design.",
+   "say": "Acknowledge what they do well, then move the conversation to the ground in 'Win with' — don't open with a feature list.",
+   "avoid": "Never characterize the report as low quality or as 'not a real shop' — the methodology simply isn't disclosed publicly.",
+   "redirect": "If the report is annual, how do you know whether the fixes you made actually moved the number?",
+   "derived": true
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name Journey Reports, journeyreports.co, or describe multifamily end-to-end prospect journey evaluation, sold as an annual audit rather than a recurring shop program already in place.",
+    "ask": "If the report is annual, how do you know whether the fixes you made actually moved the number?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "Sold as an annual evaluation — the site's own framing is \"Just once a year\" — rather than a continuous shop program with retests.",
+    "ask": "How many shops per property per year are you doing today, and what is the retest cadence?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the MarkerHeads (Journey Reports) contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the MarkerHeads (Journey Reports) agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether MarkerHeads (Journey Reports) sits on someone else's budget line — that changes who has to agree.",
+    "ask": "Who does the follow-up coaching after the journey report lands — and what do they assign?"
+   }
+  ],
+  "play": "Sometimes in the room"
+ },
+ {
+  "id": "intouch-insight",
+  "name": "Intouch Insight",
+  "aka": [
+   "Intouch Insight Ltd.",
+   "TSXV: INX"
+  ],
+  "parent": null,
+  "website": "https://www.intouchinsight.com/",
+  "toolCategory": "Traditional mystery shopping and CX measurement provider, generalist (restaurants, retail, petro-convenience, banking) with property management listed",
+  "ciCategory": "Direct",
+  "tier": "Tier 3",
+  "verdict": {
+   "stance": "Compete",
+   "line": "A publicly traded generalist CX firm built around QSR and convenience chains that lists property management among its verticals — compete on multifamily depth and the training loop; you will rarely meet them in an apartment deal.",
+   "doInstead": null
+  },
+  "overlaps": [
+   {
+    "product": "Mystery Shopping",
+    "degree": "Partial"
+   },
+   {
+    "product": "Surveys",
+    "degree": "Partial"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": "Ottawa, ON, Canada (400 March Road)",
+    "source": "https://stockanalysis.com/quote/tsxv/INX/company/",
+    "verifiedOn": "2026-08-11"
+   },
+   "founded": {
+    "value": "1992",
+    "source": "https://stockanalysis.com/quote/tsxv/INX/company/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ownership": {
+    "value": "Public company, TSX Venture Exchange, ticker INX",
+    "source": "https://stockanalysis.com/quote/tsxv/INX/company/",
+    "verifiedOn": "2026-08-11"
+   },
+   "size": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "funding": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   }
+  },
+  "pricing": {
+   "value": "No pricing published on the public site.",
+   "source": "https://www.intouchinsight.com/what-we-do/mystery-shopping-services/",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "\"Intouch Insight Ltd. provides customer experience management products and software solutions in Canada, the United States, and internationally\" — mystery shopping across onsite, telephone, online/virtual, curbside and video, plus compliance monitoring and franchise audits.",
+   "source": "https://stockanalysis.com/quote/tsxv/INX/company/",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "Multi-channel shop coverage: onsite, telephone, online/virtual (websites, apps, chat assistants), curbside and video.",
+    "source": "https://www.intouchinsight.com/what-we-do/mystery-shopping-services/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Lists property management among the sectors served, alongside restaurants & QSR, retail, grocery, petro-convenience, automotive, banking & finance, CPG and hospitality.",
+    "source": "https://www.intouchinsight.com/what-we-do/mystery-shopping-services/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Enterprise credibility from named chain penetration: \"4 of the top 10 and 19 of the top 50 QSR chains\" and \"6 of the top 10 gas and convenience store chains.\"",
+    "source": "https://www.intouchinsight.com/what-we-do/mystery-shopping-services/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Publicly traded (TSXV: INX) with audited financials, which some enterprise procurement teams treat as a vendor stability signal.",
+    "source": "https://stockanalysis.com/quote/tsxv/INX/company/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Also sells competitor benchmarking, compliance monitoring, franchise audit and employee training evaluation programs.",
+    "source": "https://www.intouchinsight.com/what-we-do/mystery-shopping-services/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "Industry pages for the mystery shopping line are built for retail, restaurants, automotive, grocery, petro-convenience and hospitality; there is no dedicated property management mystery shopping page (the URL returns 404).",
+    "source": "https://www.intouchinsight.com/what-we-do/mystery-shopping-services/retail/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Public materials do not describe use of AI or speech analytics for call analysis in the mystery shopping line.",
+    "source": "https://www.intouchinsight.com/what-we-do/mystery-shopping-services/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "No public description of coaching linked to training assignment or of a multifamily benchmark dataset.",
+    "source": "https://www.intouchinsight.com/what-we-do/mystery-shopping-services/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [
+   "Multifamily-only rubric and benchmarks rather than a QSR-derived CX framework adapted to leasing.",
+   "The shop is the start of a coaching workflow that assigns training, not the end of a measurement engagement.",
+   "Shop content is written by people who have run leasing offices, so the questions match how apartments actually get leased."
+  ],
+  "askThis": [
+   "What does their rubric measure that is specific to a leasing conversation rather than generic customer service?",
+   "How many multifamily properties are in their benchmark set?",
+   "Who writes your shop questions, and how often are they updated for fair housing changes?"
+  ],
+  "objections": [
+   {
+    "objection": "They're a public company, so they're a safer vendor.",
+    "response": "Fair on stability. Ask about relevance instead: which of their industry teams owns your account, and what percentage of their shop volume is apartments? Vendor size and vertical fit are different questions."
+   }
+  ],
+  "doNotSay": [
+   "Never say they don't serve property management — it is listed on their mystery shopping services page.",
+   "Never make claims about their revenue or headcount without a filing."
+  ],
+  "features": {
+   "ms-human-shoppers": {
+    "support": "Yes",
+    "note": "In-person and telephone evaluations by shoppers.",
+    "source": "https://www.intouchinsight.com/what-we-do/mystery-shopping-services/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-phone": {
+    "support": "Yes",
+    "note": "Telephone shops assess how staff handle inquiries.",
+    "source": "https://www.intouchinsight.com/what-we-do/mystery-shopping-services/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-email": {
+    "support": "Partial",
+    "note": "Online/virtual shops cover websites, apps and chat assistants; email lead shops are not specifically named.",
+    "source": "https://www.intouchinsight.com/what-we-do/mystery-shopping-services/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-onsite": {
+    "support": "Yes",
+    "note": "In-person shops offered.",
+    "source": "https://www.intouchinsight.com/what-we-do/mystery-shopping-services/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-video": {
+    "support": "Yes",
+    "note": "\"Video mystery shopping can be a valuable asset if you utilize franchising as a business model.\"",
+    "source": "https://www.intouchinsight.com/what-we-do/mystery-shopping-services/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-rubric": {
+    "support": "Unknown",
+    "note": "Program types are described; scoring rubric is not published.",
+    "source": "https://www.intouchinsight.com/what-we-do/mystery-shopping-services/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-coaching": {
+    "support": "Unknown",
+    "note": "Employee training evaluation programs exist; training assignment linkage is not described.",
+    "source": "https://www.intouchinsight.com/what-we-do/mystery-shopping-services/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-full-call-analysis": {
+    "support": "Unknown",
+    "note": "Sampled shop programs described; no AI call analysis described in public materials.",
+    "source": "https://www.intouchinsight.com/what-we-do/mystery-shopping-services/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-benchmarking": {
+    "support": "Partial",
+    "note": "Competitor benchmarking is a named program type; a multifamily industry benchmark dataset is not described.",
+    "source": "https://www.intouchinsight.com/what-we-do/mystery-shopping-services/",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Medium",
+   "owner": null,
+   "autoUpdated": false,
+   "pendingReview": []
+  },
+  "news": [],
+  "sources": [
+   {
+    "title": "Intouch Insight — Mystery Shopping Services",
+    "url": "https://www.intouchinsight.com/what-we-do/mystery-shopping-services/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Intouch Insight — Retail mystery shopping",
+    "url": "https://www.intouchinsight.com/what-we-do/mystery-shopping-services/retail/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "StockAnalysis — Intouch Insight Ltd. (TSXV:INX) company profile",
+    "url": "https://stockanalysis.com/quote/tsxv/INX/company/",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 5,
+   "name": "Resolution · The Resolution Layer for Multifamily",
+   "note": "Competes for the resolution layer position, or for one slice of it."
+  },
+  "whenItComesUp": {
+   "why": "A real head-to-head. A publicly traded generalist CX firm built around QSR and convenience chains that lists property management among its verticals — compete on multifamily depth and the training loop; you will rarely meet them in an apartment deal.",
+   "say": "Acknowledge what they do well, then move the conversation to the ground in 'Win with' — don't open with a feature list.",
+   "avoid": "Never say they don't serve property management — it is listed on their mystery shopping services page.",
+   "redirect": "What does their rubric measure that is specific to a leasing conversation rather than generic customer service?",
+   "derived": true
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name Intouch Insight Ltd., TSXV: INX, or describe traditional mystery shopping and cx measurement provider, generalist (restaurants, retail, petro-convenience, banking) with property management listed already in place.",
+    "ask": "What does their rubric measure that is specific to a leasing conversation rather than generic customer service?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "Industry pages for the mystery shopping line are built for retail, restaurants, automotive, grocery, petro-convenience and hospitality; there is no dedicated property management mystery shopping page (the URL returns 404).",
+    "ask": "How many multifamily properties are in their benchmark set?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the Intouch Insight contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the Intouch Insight agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether Intouch Insight sits on someone else's budget line — that changes who has to agree.",
+    "ask": "Who writes your shop questions, and how often are they updated for fair housing changes?"
+   }
+  ],
+  "play": "Sometimes in the room"
+ },
+ {
+  "id": "bestmark",
+  "name": "BestMark",
+  "aka": [],
+  "parent": null,
+  "website": "https://www.bestmark.com/",
+  "toolCategory": "Traditional mystery shopping provider, generalist across 15+ industries with an apartment/leasing vertical",
+  "ciCategory": "Direct",
+  "tier": "Tier 3",
+  "verdict": {
+   "stance": "Compete",
+   "line": "A large generalist shop house with a huge shopper panel and an apartment vertical among a dozen others — compete on multifamily-specific scoring and the training loop; they win on scale and geographic coverage.",
+   "doInstead": null
+  },
+  "overlaps": [
+   {
+    "product": "Mystery Shopping",
+    "degree": "Partial"
+   },
+   {
+    "product": "Surveys",
+    "degree": "Partial"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": "1600 Utica Avenue South, 9th Floor, St. Louis Park, MN 55416",
+    "source": "https://www.bestmark.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "founded": {
+    "value": "1986",
+    "source": "https://www.bestmark.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ownership": {
+    "value": "Private",
+    "source": "https://www.bestmark.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "size": {
+    "value": "Company states a panel of \"more than 600,000 mystery shoppers, intercept interviewers and compliance auditors\" (panel size, not employees)",
+    "source": "https://www.bestmark.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "funding": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   }
+  },
+  "pricing": {
+   "value": "No pricing published on the public site.",
+   "source": "https://www.bestmark.com/services/mystery-shopping-services/",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "Mystery shopping, customer satisfaction research, compliance audits, employee satisfaction surveys, CX consulting and competitive intelligence — \"BestMark has helped businesses large and small improve employee and customer experiences and in turn, their brand reputation.\"",
+   "source": "https://www.bestmark.com/",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "Very large shopper panel: \"more than 600,000 mystery shoppers, intercept interviewers and compliance auditors.\"",
+    "source": "https://www.bestmark.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Explicitly lists \"Apartment / Leasing / Property Management / Real Estate\" as a served industry.",
+    "source": "https://www.bestmark.com/industries/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Operating since 1986 with a broad services bundle: mystery shopping, compliance audits, customer and employee satisfaction research, CX consulting and competitive intelligence.",
+    "source": "https://www.bestmark.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Serves 15+ verticals including banking, casino, grocery, hotels, restaurants and automotive — useful to a buyer who wants one vendor across mixed-use or diversified portfolios.",
+    "source": "https://www.bestmark.com/industries/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "Apartment/leasing is one of 13+ listed verticals; the shopper panel and program design are shared with retail, restaurants, banking, casinos and grocery.",
+    "source": "https://www.bestmark.com/industries/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Public materials do not describe multifamily benchmarking or coaching tied to training assignment.",
+    "source": "https://www.bestmark.com/services/mystery-shopping-services/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [
+   "Shoppers who understand the leasing conversation, evaluated against a multifamily rubric rather than a general retail service script.",
+   "Benchmarks drawn from apartment shops only, so a score means something against peers.",
+   "The shop result assigns the training — the loop closes inside one platform."
+  ],
+  "askThis": [
+   "Of their 600,000-person panel, how many have shopped an apartment community in the last year?",
+   "Does the shop question set cover fair housing language and leasing-specific closing behaviors?",
+   "What do you do with a bad shop today — walk me through the last one."
+  ],
+  "objections": [
+   {
+    "objection": "BestMark has 600,000 shoppers; you can't match that coverage.",
+    "response": "Panel size is a coverage claim, not a relevance claim. The question is how many of those have shopped an apartment and been calibrated to a leasing rubric. Ask them for their multifamily shop volume, not their panel size."
+   }
+  ],
+  "doNotSay": [
+   "Never say BestMark doesn't serve apartments — it is a named industry on their site.",
+   "Never restate their panel figure as an employee headcount."
+  ],
+  "features": {
+   "ms-human-shoppers": {
+    "support": "Yes",
+    "note": "Panel of 600,000+ shoppers, interviewers and auditors.",
+    "source": "https://www.bestmark.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-phone": {
+    "support": "Unknown",
+    "note": "Not itemized in public service descriptions.",
+    "source": "https://www.bestmark.com/services/mystery-shopping-services/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-email": {
+    "support": "Unknown",
+    "note": "Not itemized in public service descriptions.",
+    "source": "https://www.bestmark.com/services/mystery-shopping-services/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-onsite": {
+    "support": "Yes",
+    "note": "In-person mystery shopping and compliance audits are the core service.",
+    "source": "https://www.bestmark.com/services/mystery-shopping-services/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-video": {
+    "support": "Unknown",
+    "note": "Not described publicly.",
+    "source": "https://www.bestmark.com/services/mystery-shopping-services/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-rubric": {
+    "support": "Unknown",
+    "note": "Scoring approach not published.",
+    "source": "https://www.bestmark.com/services/mystery-shopping-services/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-coaching": {
+    "support": "Unknown",
+    "note": "No public description of training assignment linkage.",
+    "source": "https://www.bestmark.com/services/mystery-shopping-services/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-full-call-analysis": {
+    "support": "Unknown",
+    "note": "Sampled shop programs described; analysis of all inbound calls is not described.",
+    "source": "https://www.bestmark.com/services/mystery-shopping-services/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-benchmarking": {
+    "support": "Unknown",
+    "note": "Competitive intelligence is offered; a multifamily benchmark dataset is not described.",
+    "source": "https://www.bestmark.com/",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Medium",
+   "owner": null,
+   "autoUpdated": false,
+   "pendingReview": []
+  },
+  "news": [],
+  "sources": [
+   {
+    "title": "BestMark — home",
+    "url": "https://www.bestmark.com/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "BestMark — Industries",
+    "url": "https://www.bestmark.com/industries/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "BestMark — Mystery Shopping Services",
+    "url": "https://www.bestmark.com/services/mystery-shopping-services/",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 5,
+   "name": "Resolution · The Resolution Layer for Multifamily",
+   "note": "Competes for the resolution layer position, or for one slice of it."
+  },
+  "whenItComesUp": {
+   "why": "A real head-to-head. A large generalist shop house with a huge shopper panel and an apartment vertical among a dozen others — compete on multifamily-specific scoring and the training loop; they win on scale and geographic coverage.",
+   "say": "Acknowledge what they do well, then move the conversation to the ground in 'Win with' — don't open with a feature list.",
+   "avoid": "Never say BestMark doesn't serve apartments — it is a named industry on their site.",
+   "redirect": "Of their 600,000-person panel, how many have shopped an apartment community in the last year?",
+   "derived": true
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name BestMark, or describe traditional mystery shopping provider, generalist across 15+ industries with an apartment/leasing vertical already in place.",
+    "ask": "Of their 600,000-person panel, how many have shopped an apartment community in the last year?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "Apartment/leasing is one of 13+ listed verticals; the shopper panel and program design are shared with retail, restaurants, banking, casinos and grocery.",
+    "ask": "Does the shop question set cover fair housing language and leasing-specific closing behaviors?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the BestMark contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the BestMark agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether BestMark sits on someone else's budget line — that changes who has to agree.",
+    "ask": "What do you do with a bad shop today — walk me through the last one."
+   }
+  ],
+  "play": "Sometimes in the room"
+ },
+ {
+  "id": "bare-international",
+  "name": "BARE International",
+  "aka": [
+   "Bare Associates International",
+   "BARE"
+  ],
+  "parent": null,
+  "website": "https://www.bareinternational.com/",
+  "toolCategory": "Traditional mystery shopping and CX research provider, global generalist (retail, restaurants, hospitality, banking, automotive)",
+  "ciCategory": "Direct",
+  "tier": "Tier 3",
+  "verdict": {
+   "stance": "Compete",
+   "line": "A global CX research firm whose published verticals do not include multifamily — you will meet them mainly in enterprise procurement bundles, so compete on multifamily rubric relevance and the training loop.",
+   "doInstead": null
+  },
+  "overlaps": [
+   {
+    "product": "Mystery Shopping",
+    "degree": "Partial"
+   },
+   {
+    "product": "Surveys",
+    "degree": "Partial"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": "Fairfax, Virginia, USA",
+    "source": "https://en.wikipedia.org/wiki/BARE_International",
+    "verifiedOn": "2026-08-11"
+   },
+   "founded": {
+    "value": "1987, by Dale and Michael Bare (originally \"Restaurant & Hotel Services\")",
+    "source": "https://en.wikipedia.org/wiki/BARE_International",
+    "verifiedOn": "2026-08-11"
+   },
+   "ownership": {
+    "value": "Privately held",
+    "source": "https://en.wikipedia.org/wiki/BARE_International",
+    "verifiedOn": "2026-08-11"
+   },
+   "size": {
+    "value": "Company states it \"employs over 500,000 independent contractors worldwide\" as evaluators; operates in more than 165 countries per its service page",
+    "source": "https://en.wikipedia.org/wiki/BARE_International",
+    "verifiedOn": "2026-08-11"
+   },
+   "funding": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   }
+  },
+  "pricing": {
+   "value": "No pricing published on the public site.",
+   "source": "https://www.bareinternational.com/service/mystery-shopping/",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "Customer experience research company delivering customer experience, brand standard evaluations, audits and inspections through a global evaluator network.",
+   "source": "https://en.wikipedia.org/wiki/BARE_International",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "Global reach — service page states operations \"in more than 165 countries\" with offices in Belgium, India, China, Hungary, Singapore, Brazil and Chile.",
+    "source": "https://www.bareinternational.com/service/mystery-shopping/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Very large evaluator network: \"over 500,000 independent contractors worldwide.\"",
+    "source": "https://en.wikipedia.org/wiki/BARE_International",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Multi-channel evaluation across in-person, phone and web (site navigation, online chat, mobile apps).",
+    "source": "https://www.bareinternational.com/service/mystery-shopping/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Operating since 1987 with brand standard evaluations, audits and inspections beyond shopping.",
+    "source": "https://en.wikipedia.org/wiki/BARE_International",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "The published industries list on their mystery shopping service page covers retail, restaurants and food service, hospitality, automotive, financial services, healthcare, fitness and wellness, telecommunications, luxury brands, convenience stores, consumer services and franchise organizations — property management and multifamily are not among them.",
+    "source": "https://www.bareinternational.com/service/mystery-shopping/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Shop channels described publicly are in-person, phone and web; email lead shops and video shops are not described.",
+    "source": "https://www.bareinternational.com/service/mystery-shopping/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "No public description of coaching linked to training assignment or of a multifamily benchmark dataset.",
+    "source": "https://www.bareinternational.com/service/mystery-shopping/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [
+   "Multifamily is the whole business, and the rubric is written for leasing rather than adapted from retail brand standards.",
+   "Email lead shops and video shops are core published shop types, not custom work.",
+   "Shop scores connect to training assignment and to survey, policy and reputation data in one platform."
+  ],
+  "askThis": [
+   "Is multifamily a named practice for them, or a custom program built off a retail template?",
+   "Who writes and maintains the fair housing content in the shop questionnaire?",
+   "Do you need email lead shops? Ask them to show a sample multifamily email shop report."
+  ],
+  "objections": [
+   {
+    "objection": "BARE is global — we need one vendor across regions.",
+    "response": "Global coverage is real. Ask them to name their multifamily practice lead and show three apartment shop reports. Coverage without vertical depth gives you consistent reports about the wrong things."
+   }
+  ],
+  "doNotSay": [
+   "Never say BARE cannot shop apartments — say their published industry list does not name property management, which is a sourced fact and a fair question to raise.",
+   "Never restate their contractor network figure as employees."
+  ],
+  "features": {
+   "ms-human-shoppers": {
+    "support": "Yes",
+    "note": "Global evaluator network of independent contractors.",
+    "source": "https://en.wikipedia.org/wiki/BARE_International",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-phone": {
+    "support": "Yes",
+    "note": "Phone evaluations of locations and support centers.",
+    "source": "https://www.bareinternational.com/service/mystery-shopping/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-email": {
+    "support": "Unknown",
+    "note": "Web evaluations cover site, chat and app; email lead shops not described.",
+    "source": "https://www.bareinternational.com/service/mystery-shopping/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-onsite": {
+    "support": "Yes",
+    "note": "In-person evaluations are a core channel.",
+    "source": "https://www.bareinternational.com/service/mystery-shopping/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-video": {
+    "support": "Unknown",
+    "note": "Not described on the public service page.",
+    "source": "https://www.bareinternational.com/service/mystery-shopping/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-rubric": {
+    "support": "Partial",
+    "note": "Brand standard evaluations imply standardized criteria; a published rubric is not available.",
+    "source": "https://www.bareinternational.com/service/mystery-shopping/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-coaching": {
+    "support": "Unknown",
+    "note": "No public description of training assignment linkage.",
+    "source": "https://www.bareinternational.com/service/mystery-shopping/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-full-call-analysis": {
+    "support": "Unknown",
+    "note": "Sampled evaluation programs described; analysis of all inbound calls is not described.",
+    "source": "https://www.bareinternational.com/service/mystery-shopping/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-benchmarking": {
+    "support": "Unknown",
+    "note": "Not described publicly for multifamily.",
+    "source": "https://www.bareinternational.com/service/mystery-shopping/",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Medium",
+   "owner": null,
+   "autoUpdated": false,
+   "pendingReview": []
+  },
+  "news": [],
+  "sources": [
+   {
+    "title": "BARE International — Mystery Shopping Services",
+    "url": "https://www.bareinternational.com/service/mystery-shopping/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Wikipedia — BARE International",
+    "url": "https://en.wikipedia.org/wiki/BARE_International",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 5,
+   "name": "Resolution · The Resolution Layer for Multifamily",
+   "note": "Competes for the resolution layer position, or for one slice of it."
+  },
+  "whenItComesUp": {
+   "why": "A real head-to-head. A global CX research firm whose published verticals do not include multifamily — you will meet them mainly in enterprise procurement bundles, so compete on multifamily rubric relevance and the training loop.",
+   "say": "Acknowledge what they do well, then move the conversation to the ground in 'Win with' — don't open with a feature list.",
+   "avoid": "Never say BARE cannot shop apartments — say their published industry list does not name property management, which is a sourced fact and a fair question to raise.",
+   "redirect": "Is multifamily a named practice for them, or a custom program built off a retail template?",
+   "derived": true
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name Bare Associates International, BARE, or describe traditional mystery shopping and cx research provider, global generalist (retail, restaurants, hospitality, banking, automotive) already in place.",
+    "ask": "Is multifamily a named practice for them, or a custom program built off a retail template?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "The published industries list on their mystery shopping service page covers retail, restaurants and food service, hospitality, automotive, financial services, healthcare, fitness and wellness, telecommunications, luxury brands, convenience stores, consumer services and franchise organizations — property management and multifamily are not among them.",
+    "ask": "Who writes and maintains the fair housing content in the shop questionnaire?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the BARE International contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the BARE International agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether BARE International sits on someone else's budget line — that changes who has to agree.",
+    "ask": "Do you need email lead shops? Ask them to show a sample multifamily email shop report."
+   }
+  ],
+  "play": "Sometimes in the room"
+ },
+ {
+  "id": "cpms-certified-property-management-services",
+  "name": "Certified Property Management Services (CPMS)",
+  "aka": [
+   "CPMS"
+  ],
+  "parent": null,
+  "website": "https://cpmsre.com/",
+  "toolCategory": "Unconfirmed — public sources describe a small property management services firm, not a mystery shopping provider",
+  "ciCategory": "Direct",
+  "tier": "Watchlist",
+  "verdict": {
+   "stance": "Partial overlap",
+   "line": "We could not confirm from public sources that this CPMS sells mystery shopping — the firm that shows up publicly is a small Midwest broker-of-record business, so verify which company the buyer actually means before treating this as a compete.",
+   "doInstead": "If a prospect names CPMS, get the website and the exact legal name from them before quoting anything. Log what you learn back to competitive intelligence — this record is a placeholder until a public source confirms a shopping product."
+  },
+  "overlaps": [
+   {
+    "product": "Mystery Shopping",
+    "degree": "None"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": "Indianapolis, IN (per directory listing for Certified Property Management Services)",
+    "source": "https://theorg.com/org/certified-property-management-services-cpms",
+    "verifiedOn": "2026-08-11"
+   },
+   "founded": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "ownership": {
+    "value": "Private",
+    "source": "https://theorg.com/org/certified-property-management-services-cpms",
+    "verifiedOn": "2026-08-11"
+   },
+   "size": {
+    "value": "Directory listing shows a very small firm (2 listed positions); no verified headcount",
+    "source": "https://theorg.com/org/certified-property-management-services-cpms",
+    "verifiedOn": "2026-08-11"
+   },
+   "funding": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   }
+  },
+  "pricing": {
+   "value": "Unknown — no public pricing found.",
+   "source": "https://cpmsre.com/about-cpms",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "\"We offer broker of record services to property owners and management companies\" across Indiana, Kentucky, Ohio, North Carolina and Illinois.",
+   "source": "https://cpmsre.com/about-cpms",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "Regulatory/compliance credibility with owners and management companies in Indiana, Kentucky, Ohio, North Carolina and Illinois through broker-of-record services.",
+    "source": "https://cpmsre.com/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "The public CPMS site describes broker-of-record services for property owners and management companies; it does not describe a mystery shopping or shop evaluation product.",
+    "source": "https://cpmsre.com/about-cpms",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "No multifamily mystery shopping offering for CPMS appears in the multifamily mystery shopping vendor directory, which lists Grace Hill, MarkerHeads, Flair and REMA.",
+    "source": "https://revyse.com/categories/mystery-shops",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [],
+  "askThis": [
+   "When you say CPMS — what's their website? I want to make sure I'm comparing the right company.",
+   "Is CPMS doing your shops, or are they doing broker-of-record and compliance work for you?"
+  ],
+  "objections": [
+   {
+    "objection": "We already use CPMS for shops.",
+    "response": "Help me get the right company — send me their site. There's more than one CPMS in this space, and I don't want to compare you against the wrong one."
+   }
+  ],
+  "doNotSay": [
+   "Never state that CPMS does or does not offer mystery shopping — no public source confirms either for the firm the buyer may mean.",
+   "Never present this record as a verified competitor profile."
+  ],
+  "features": {
+   "ms-human-shoppers": {
+    "support": "Unknown",
+    "note": "No public source describes a shopping product.",
+    "source": "https://cpmsre.com/about-cpms",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-phone": {
+    "support": "Unknown",
+    "note": "Not described publicly.",
+    "source": "https://cpmsre.com/about-cpms",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-email": {
+    "support": "Unknown",
+    "note": "Not described publicly.",
+    "source": "https://cpmsre.com/about-cpms",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-onsite": {
+    "support": "Unknown",
+    "note": "Not described publicly.",
+    "source": "https://cpmsre.com/about-cpms",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-video": {
+    "support": "Unknown",
+    "note": "Not described publicly.",
+    "source": "https://cpmsre.com/about-cpms",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-rubric": {
+    "support": "Unknown",
+    "note": "Not described publicly.",
+    "source": "https://cpmsre.com/about-cpms",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-coaching": {
+    "support": "Unknown",
+    "note": "Not described publicly.",
+    "source": "https://cpmsre.com/about-cpms",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-full-call-analysis": {
+    "support": "Unknown",
+    "note": "Not described publicly.",
+    "source": "https://cpmsre.com/about-cpms",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-benchmarking": {
+    "support": "Unknown",
+    "note": "Not described publicly.",
+    "source": "https://cpmsre.com/about-cpms",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Low",
+   "owner": null,
+   "autoUpdated": false,
+   "pendingReview": [
+    "Confirm company identity — the CPMS a buyer names may be a different firm than cpmsre.com."
+   ]
+  },
+  "news": [],
+  "sources": [
+   {
+    "title": "CPMS — About",
+    "url": "https://cpmsre.com/about-cpms",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "CPMS — home",
+    "url": "https://cpmsre.com/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "TheOrg — Certified Property Management Services (CPMS)",
+    "url": "https://theorg.com/org/certified-property-management-services-cpms",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Revyse — Multifamily Mystery Shopping Solutions category",
+    "url": "https://revyse.com/categories/mystery-shops",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 5,
+   "name": "Resolution · The Resolution Layer for Multifamily",
+   "note": "Competes for the resolution layer position, or for one slice of it."
+  },
+  "whenItComesUp": {
+   "why": "Overlaps in part, not in whole. We could not confirm from public sources that this CPMS sells mystery shopping — the firm that shows up publicly is a small Midwest broker-of-record business, so verify which company the buyer actually means before treating this as a compete.",
+   "say": "Concede the part they genuinely own, then be specific about the part they don't. Partial overlap is where reps over-claim and lose credibility.",
+   "avoid": "Never state that CPMS does or does not offer mystery shopping — no public source confirms either for the firm the buyer may mean.",
+   "redirect": "When you say CPMS — what's their website? I want to make sure I'm comparing the right company.",
+   "derived": true
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name CPMS, or describe unconfirmed — public sources describe a small property management services firm, not a mystery shopping provider already in place.",
+    "ask": "When you say CPMS — what's their website? I want to make sure I'm comparing the right company."
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "The public CPMS site describes broker-of-record services for property owners and management companies; it does not describe a mystery shopping or shop evaluation product.",
+    "ask": "Is CPMS doing your shops, or are they doing broker-of-record and compliance work for you?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the Certified Property Management Services (CPMS) contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the Certified Property Management Services (CPMS) agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether Certified Property Management Services (CPMS) sits on someone else's budget line — that changes who has to agree.",
+    "ask": "Who else has to be comfortable with this, and what do they need to see?"
+   }
+  ],
+  "play": "Sometimes in the room"
+ },
+ {
+  "id": "flair",
+  "name": "Flair",
+  "aka": [
+   "getflair.io",
+   "Flair conversation intelligence"
+  ],
+  "parent": null,
+  "website": "https://www.getflair.io/",
+  "toolCategory": "AI conversation intelligence for leasing calls, with synthetic email shops",
+  "ciCategory": "Replacement",
+  "tier": "Tier 1",
+  "verdict": {
+   "stance": "Partial overlap",
+   "line": "Flair reads every leasing call instead of sampling a few shops — it is a different product bought with the same budget, so it is a substitution risk, not a feature gap.",
+   "doInstead": "Do not run this as a battlecard fight and do not try to win it by arguing shop quality — you will lose on volume math. Qualify what the buyer is actually trying to fix: if they want coverage of their own call volume, that is a product and strategy conversation, so log the deal and route it to product and strategy. Where the buyer also needs an unsolicited, unaffiliated prospect experience across onsite, video and email — which conversation intelligence of your own agents does not produce — position the two as complementary, not competing."
+  },
+  "overlaps": [
+   {
+    "product": "Mystery Shopping",
+    "degree": "Partial"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": "Miami, FL",
+    "source": "https://revyse.com/products/flair",
+    "verifiedOn": "2026-08-11"
+   },
+   "founded": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "ownership": {
+    "value": "Private",
+    "source": "https://revyse.com/products/flair",
+    "verifiedOn": "2026-08-11"
+   },
+   "size": {
+    "value": "11–50 employees (vendor directory listing)",
+    "source": "https://revyse.com/products/flair",
+    "verifiedOn": "2026-08-11"
+   },
+   "funding": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   }
+  },
+  "pricing": {
+   "value": "Not published; vendor directory requires a verified buyer account to view pricing. Public site offers free introductory secret shops.",
+   "source": "https://revyse.com/products/flair",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "\"Flair is the conversation intelligence layer of the leasing tech stack. It reads every leasing and resident conversation...and turns them into signals teams can act on now.\" Site framing: \"Your systems report activity, not behavior. They don't show what prospects actually experience. Flair does.\"",
+   "source": "https://revyse.com/products/flair",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "\"Call Intelligence: Reads every call, scores agents (human and AI), and surfaces the demand underneath\" — coverage of the full call population rather than a sample.",
+    "source": "https://revyse.com/products/flair",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Scores AI leasing assistants as well as human agents, answering a question operators are actively asking: \"Is your AI better than your team?\"",
+    "source": "https://www.getflair.io/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "\"Email Shops: Synthetic leads test your follow-up and catch the breaks no one else sees\" — an outbound test channel on top of passive call analysis.",
+    "source": "https://revyse.com/products/flair",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "\"Custom Scorecards: Grade every call & email shop against your criteria, not a generic rubric.\"",
+    "source": "https://revyse.com/products/flair",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Free introductory secret shops lower the barrier to a first engagement and get them inside accounts without a procurement cycle.",
+    "source": "https://www.getflair.io/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Serves BTR, multifamily, self storage, senior living and student housing; publishes named property management references including CRES and Trion Properties.",
+    "source": "https://revyse.com/products/flair",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Also monitors fair housing compliance and answer rates by property and agent.",
+    "source": "https://www.getflair.io/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "Coverage is calls, email, text and interaction tracking; the public product description does not include onsite or video shops of a physical leasing office.",
+    "source": "https://revyse.com/products/flair",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Call intelligence reads conversations the team already handled — by construction it cannot score a prospect inquiry that was never answered, since there is no conversation to read.",
+    "source": "https://revyse.com/products/flair",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "The email test channel uses synthetic leads rather than a human shopper's account of the experience.",
+    "source": "https://revyse.com/products/flair",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Public materials describe scoring and signals; they do not describe coaching linked to assigned training courses.",
+    "source": "https://revyse.com/products/flair",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [],
+  "askThis": [
+   "Are you trying to measure your team's own call handling, or test what an unsolicited prospect actually experiences? Those are two different jobs.",
+   "How would you evaluate a community where the phone rang out and nobody called back — what shows up in your data?",
+   "What's your plan for the onsite tour and the email follow-up, not just the call?",
+   "Once you know an agent is weak on objection handling, what assigns and tracks the training?"
+  ],
+  "objections": [
+   {
+    "objection": "Flair reads every call. Why would we pay for a handful of shops?",
+    "response": "That's a fair question and it's not one I'm going to argue you out of. Reading every call and testing the unsolicited prospect experience are different jobs — call intelligence can only read conversations your team already had. If both matter to you, let me bring in our product team rather than trying to talk you out of the one that fits."
+   }
+  ],
+  "doNotSay": [
+   "Never claim our shop quality makes conversation intelligence unnecessary — it is a different measurement, and the volume argument is not winnable.",
+   "Never assert Flair cannot do onsite or video shops as a capability claim; say their published product description covers calls, email, text and interactions.",
+   "Never quote or estimate Flair's pricing."
+  ],
+  "features": {
+   "ms-human-shoppers": {
+    "support": "Unknown",
+    "note": "Email shops use \"synthetic leads\"; a human shopper network is not described.",
+    "source": "https://revyse.com/products/flair",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-phone": {
+    "support": "Partial",
+    "note": "Analyzes inbound/outbound calls and offers dialer automation and free secret shops; not a human phone shop program.",
+    "source": "https://revyse.com/products/flair",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-email": {
+    "support": "Yes",
+    "note": "\"Email Shops: Synthetic leads test your follow-up.\"",
+    "source": "https://revyse.com/products/flair",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-onsite": {
+    "support": "Unknown",
+    "note": "Not described in public product materials.",
+    "source": "https://revyse.com/products/flair",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-video": {
+    "support": "Unknown",
+    "note": "Not described in public product materials.",
+    "source": "https://revyse.com/products/flair",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-rubric": {
+    "support": "Partial",
+    "note": "Custom scorecards graded against the client's criteria \"not a generic rubric\" — client-defined rather than a standardized industry rubric.",
+    "source": "https://revyse.com/products/flair",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-coaching": {
+    "support": "Unknown",
+    "note": "Scoring and signals described; training assignment linkage is not.",
+    "source": "https://revyse.com/products/flair",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-full-call-analysis": {
+    "support": "Yes",
+    "note": "\"Reads every call, scores agents (human and AI)\" — this is the structural difference from sampled shopping.",
+    "source": "https://revyse.com/products/flair",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-benchmarking": {
+    "support": "Unknown",
+    "note": "Industry benchmark dataset not described publicly.",
+    "source": "https://revyse.com/products/flair",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Medium",
+   "owner": null,
+   "autoUpdated": false,
+   "pendingReview": []
+  },
+  "news": [],
+  "sources": [
+   {
+    "title": "Flair — product site",
+    "url": "https://www.getflair.io/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Revyse — Flair product profile",
+    "url": "https://revyse.com/products/flair",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Revyse — Multifamily Mystery Shopping Solutions category",
+    "url": "https://revyse.com/categories/mystery-shops",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 5,
+   "name": "Resolution · The Resolution Layer for Multifamily",
+   "note": "Competes for the resolution layer position, or for one slice of it."
+  },
+  "whenItComesUp": {
+   "why": "AI conversation intelligence for leasing calls with synthetic email shops. It substitutes for the reason people buy shops rather than competing with the shops themselves.",
+   "say": "Flair reads every leasing call instead of sampling a few. That's more coverage and it's fair to say so. What it can't do is test the experience of someone who isn't already talking to you — the community that never picks up, the email nobody answered.",
+   "avoid": "Don't argue shop quality or shopper training, and don't try to win the volume comparison. You'd be comparing a sample to continuous coverage.",
+   "redirect": "How would you find out about the prospect who called and nobody answered?"
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name getflair.io, Flair conversation intelligence, or describe ai conversation intelligence for leasing calls, with synthetic email shops already in place.",
+    "ask": "Are you trying to measure your team's own call handling, or test what an unsolicited prospect actually experiences? Those are two different jobs."
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "Coverage is calls, email, text and interaction tracking; the public product description does not include onsite or video shops of a physical leasing office.",
+    "ask": "How would you evaluate a community where the phone rang out and nobody called back — what shows up in your data?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the Flair contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the Flair agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether Flair sits on someone else's budget line — that changes who has to agree.",
+    "ask": "What's your plan for the onsite tour and the email follow-up, not just the call?"
+   }
+  ],
+  "play": "Head-to-head"
+ },
+ {
+  "id": "grotto-ai",
+  "name": "Grotto AI",
+  "aka": [
+   "Grotto"
+  ],
+  "parent": null,
+  "website": "https://grotto.ai/",
+  "toolCategory": "AI conversation intelligence and real-time coaching for multifamily leasing agents",
+  "ciCategory": "Replacement",
+  "tier": "Tier 1",
+  "verdict": {
+   "stance": "Partial overlap",
+   "line": "Purpose-built for multifamily, funded by ICONIQ, and coaching agents live on every call and tour — it displaces the reason people buy shops rather than competing with the shops themselves.",
+   "doInstead": "This is not a battlecard fight. Do not try to win it by arguing shop quality or shopper training — the buyer is comparing continuous coverage against a sample and you will lose that comparison on its own terms. Qualify what they want to change, then route the deal to product and strategy with the account and the use case. Where the buyer needs an unaffiliated test of the prospect experience — including communities that never answer the phone, email follow-up and onsite behavior — say so plainly and keep the two products in separate lanes."
+  },
+  "overlaps": [
+   {
+    "product": "Mystery Shopping",
+    "degree": "Partial"
+   },
+   {
+    "product": "Training",
+    "degree": "Partial"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": "New York",
+    "source": "https://www.businesswire.com/news/home/20260219949681/en/Grotto-AI-Raises-$10M-Seed-Round-to-Supercharge-Leasing-Agents-with-AI-Proving-That-in-Housing-Humans-Beat-Bots-When-It-Matters-Most",
+    "verifiedOn": "2026-08-11"
+   },
+   "founded": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "ownership": {
+    "value": "Private, venture-backed; founders Nick Deveau (CEO) and Ben Epstein (CTO), previously of EvolutionIQ",
+    "source": "https://www.acp.vc/post/turning-vacancy-into-value-announcing-our-investment-in-grotto-ai",
+    "verifiedOn": "2026-08-11"
+   },
+   "size": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "funding": {
+    "value": "$10M seed announced 19 February 2026, led by ICONIQ, with Asymmetric Capital Partners, Avi Dorfman (Compass co-founder) and Caren Maio (Funnel Leasing co-founder)",
+    "source": "https://www.businesswire.com/news/home/20260219949681/en/Grotto-AI-Raises-$10M-Seed-Round-to-Supercharge-Leasing-Agents-with-AI-Proving-That-in-Housing-Humans-Beat-Bots-When-It-Matters-Most",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "pricing": {
+   "value": "No pricing published on the public site.",
+   "source": "https://grotto.ai/",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "\"AI-powered sales coaching and guidance for multifamily leasing teams\" — \"Close more leases with Grotto's real-time, AI sales coaching, purpose-built for multifamily,\" covering the entire prospect lifecycle across calls, tours and written communication.",
+   "source": "https://grotto.ai/",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "Purpose-built for multifamily rather than a horizontal sales tool with a multifamily page.",
+    "source": "https://grotto.ai/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "\"Call Guidance\" delivers \"real-time guidance for agents on every call — helping them ask the right questions, handle objections, and book tours\" — coaching during the conversation, not after it.",
+    "source": "https://grotto.ai/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "$10M seed led by ICONIQ (February 2026) with multifamily-native angels including Compass and Funnel Leasing co-founders.",
+    "source": "https://www.businesswire.com/news/home/20260219949681/en/Grotto-AI-Raises-$10M-Seed-Round-to-Supercharge-Leasing-Agents-with-AI-Proving-That-in-Housing-Humans-Beat-Bots-When-It-Matters-Most",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Named enterprise customer: Weidner Apartment Homes, which manages over 70,000 units.",
+    "source": "https://www.businesswire.com/news/home/20260219949681/en/Grotto-AI-Raises-$10M-Seed-Round-to-Supercharge-Leasing-Agents-with-AI-Proving-That-in-Housing-Humans-Beat-Bots-When-It-Matters-Most",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Publishes behavioral findings from its own conversation data — agents who laughed with a prospect were \"48% more likely to convert a lead to a signed lease,\" and genuine curiosity correlated with \"a 35% increase in conversion.\" These are Grotto's published claims, not independently verified.",
+    "source": "https://www.businesswire.com/news/home/20260219949681/en/Grotto-AI-Raises-$10M-Seed-Round-to-Supercharge-Leasing-Agents-with-AI-Proving-That-in-Housing-Humans-Beat-Bots-When-It-Matters-Most",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Frames the buy in NOI terms — \"recover 8 to 9 figures in NOI and asset value\" — which reaches an executive budget that a shop program usually does not.",
+    "source": "https://grotto.ai/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "The product analyzes the operator's own leasing interactions and coaches its own agents; public materials do not describe an independent, unaffiliated third-party shop of the prospect experience.",
+    "source": "https://www.acp.vc/post/turning-vacancy-into-value-announcing-our-investment-in-grotto-ai",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Because guidance operates during calls and tours the team is already having, there is no described mechanism for evaluating an inquiry that received no response.",
+    "source": "https://grotto.ai/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Public materials do not describe a human shopper network, video shops, or an industry benchmark dataset.",
+    "source": "https://grotto.ai/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Traction is described publicly only as \"Early customer data points to meaningful improvements in both engagement and conversion\" — no published customer count or independently verified results.",
+    "source": "https://www.acp.vc/post/turning-vacancy-into-value-announcing-our-investment-in-grotto-ai",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [],
+  "askThis": [
+   "Do you want to coach the conversations you're already having, or find out what happens when a prospect reaches out and nobody responds?",
+   "How does Grotto tell you about the community where the phone went unanswered all Saturday?",
+   "What covers the email follow-up and the onsite tour experience in your plan?",
+   "Once you know which behaviors correlate with conversion, what assigns the training and proves the score moved?"
+  ],
+  "objections": [
+   {
+    "objection": "Grotto coaches our agents on every single call. Shops only sample.",
+    "response": "That's true, and I'm not going to argue the math. They're solving a different problem than an unaffiliated test of the prospect experience. Let me bring in our product team so we're comparing the right things rather than me making a case I can't support."
+   },
+   {
+    "objection": "ICONIQ backed them — they'll win this category.",
+    "response": "Funding is a signal about the category, not about your portfolio. The useful question is what you're trying to change this year, and whether coverage of your own calls or an outside test of the prospect experience gets you there. Often it's both."
+   }
+  ],
+  "doNotSay": [
+   "Never argue that human shops make real-time call coaching unnecessary.",
+   "Never repeat Grotto's conversion statistics as independently verified fact — they are the vendor's own published claims.",
+   "Never state that Grotto has no shopping capability as an absolute; say their public materials describe coaching of the operator's own agents."
+  ],
+  "features": {
+   "ms-human-shoppers": {
+    "support": "Unknown",
+    "note": "No human shopper network described publicly.",
+    "source": "https://grotto.ai/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-phone": {
+    "support": "Partial",
+    "note": "Analyzes and guides the operator's own calls; not a third-party phone shop.",
+    "source": "https://grotto.ai/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-email": {
+    "support": "Partial",
+    "note": "Coverage described across the prospect lifecycle including written communication; not an email lead shop.",
+    "source": "https://grotto.ai/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-onsite": {
+    "support": "Partial",
+    "note": "Guidance is delivered during tours, but as coaching of the operator's own agents rather than an onsite shop.",
+    "source": "https://www.acp.vc/post/turning-vacancy-into-value-announcing-our-investment-in-grotto-ai",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-video": {
+    "support": "Unknown",
+    "note": "Not described publicly.",
+    "source": "https://grotto.ai/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-rubric": {
+    "support": "Partial",
+    "note": "Scoring is derived from behaviors correlated with conversion in their own data rather than a published standardized rubric.",
+    "source": "https://www.acp.vc/post/turning-vacancy-into-value-announcing-our-investment-in-grotto-ai",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-coaching": {
+    "support": "Partial",
+    "note": "Real-time in-call coaching and guidance; linkage to assigned training courses is not described.",
+    "source": "https://grotto.ai/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-full-call-analysis": {
+    "support": "Yes",
+    "note": "\"real-time guidance for agents on every call\"; the platform \"analyzes leasing interactions\" across calls and tours.",
+    "source": "https://www.acp.vc/post/turning-vacancy-into-value-announcing-our-investment-in-grotto-ai",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-benchmarking": {
+    "support": "Unknown",
+    "note": "Not described publicly.",
+    "source": "https://grotto.ai/",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Medium",
+   "owner": null,
+   "autoUpdated": false,
+   "pendingReview": []
+  },
+  "news": [
+   {
+    "headline": "Grotto AI Raises $10M Seed Round to Supercharge Leasing Agents with AI",
+    "date": "2026-02-19",
+    "url": "https://www.businesswire.com/news/home/20260219949681/en/Grotto-AI-Raises-$10M-Seed-Round-to-Supercharge-Leasing-Agents-with-AI-Proving-That-in-Housing-Humans-Beat-Bots-When-It-Matters-Most",
+    "impact": "ICONIQ-led seed puts a well-capitalized, multifamily-native conversation intelligence vendor into the same accounts that buy shop programs."
+   }
+  ],
+  "sources": [
+   {
+    "title": "Grotto AI — product site",
+    "url": "https://grotto.ai/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Businesswire — Grotto AI Raises $10M Seed Round",
+    "url": "https://www.businesswire.com/news/home/20260219949681/en/Grotto-AI-Raises-$10M-Seed-Round-to-Supercharge-Leasing-Agents-with-AI-Proving-That-in-Housing-Humans-Beat-Bots-When-It-Matters-Most",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Asymmetric Capital Partners — Announcing Our Investment in Grotto AI",
+    "url": "https://www.acp.vc/post/turning-vacancy-into-value-announcing-our-investment-in-grotto-ai",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Multifamily Executive — Grotto AI Raises $10M Seed Round",
+    "url": "https://www.multifamilyexecutive.com/technology/grotto-ai-raises-10m-seed-round-boost-leasing-performance",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 5,
+   "name": "Resolution · The Resolution Layer for Multifamily",
+   "note": "A replacement threat to the resolution layer — it substitutes for sampled shopping rather than sitting beside it."
+  },
+  "whenItComesUp": {
+   "why": "Purpose-built for multifamily, ICONIQ-funded, and coaching agents live on every call. A replacement-category threat to sampled shopping rather than a vendor we out-feature.",
+   "say": "Grotto coaches your team on the conversations they're actually having, in real time. That's genuinely more coverage than a sample. The structural difference is that it analyzes conversations your own team had — it can't test the unsolicited prospect experience.",
+   "avoid": "Do not argue shop quality, and do not repeat their conversion statistics as independently verified — they're vendor claims.",
+   "redirect": "How do you find out what happened at the community where nobody answered the phone all Saturday?"
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name Grotto, or describe ai conversation intelligence and real-time coaching for multifamily leasing agents already in place.",
+    "ask": "Do you want to coach the conversations you're already having, or find out what happens when a prospect reaches out and nobody responds?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "The product analyzes the operator's own leasing interactions and coaches its own agents; public materials do not describe an independent, unaffiliated third-party shop of the prospect experience.",
+    "ask": "How does Grotto tell you about the community where the phone went unanswered all Saturday?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the Grotto AI contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the Grotto AI agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether Grotto AI sits on someone else's budget line — that changes who has to agree.",
+    "ask": "What covers the email follow-up and the onsite tour experience in your plan?"
+   }
+  ],
+  "play": "Head-to-head"
+ },
+ {
+  "id": "rilla",
+  "name": "Rilla",
+  "aka": [
+   "RillaVoice",
+   "Rilla Voice"
+  ],
+  "parent": null,
+  "website": "https://www.rilla.com/",
+  "toolCategory": "AI conversation intelligence for in-person sales conversations (\"virtual ridealongs\"), with a multifamily and senior living vertical",
+  "ciCategory": "Replacement",
+  "tier": "Tier 2",
+  "verdict": {
+   "stance": "Partial overlap",
+   "line": "Rilla records and analyzes the operator's own onsite tours and explicitly markets itself as faster than in-person mystery shopping — a horizontal category leader now selling directly into the multifamily tour budget.",
+   "doInstead": "Do not treat this as a battlecard fight and do not argue shop quality — their pitch is coverage and speed of feedback, and that comparison is not winnable on its terms. Establish what the buyer wants: coaching their own tour conversations, or an unaffiliated test of the prospect experience. Route the deal to product and strategy with the account name and the use case. Note the compliance angle honestly and factually if the buyer raises it: recording a prospect's tour conversation is a consent question that a mystery shop does not create."
+  },
+  "overlaps": [
+   {
+    "product": "Mystery Shopping",
+    "degree": "Partial"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": "New York, United States",
+    "source": "https://sacra.com/c/rilla/",
+    "verifiedOn": "2026-08-11"
+   },
+   "founded": {
+    "value": "2019",
+    "source": "https://sacra.com/c/rilla/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ownership": {
+    "value": "Private, venture-backed; founder/CEO Sebastian Jimenez",
+    "source": "https://sacra.com/c/rilla/",
+    "verifiedOn": "2026-08-11"
+   },
+   "size": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "funding": {
+    "value": "Third-party research reports a $68.5M Series B led by Google Ventures (June 2025) after a $3.7M Series A (December 2022); total primary funding reported at $72M–$79M",
+    "source": "https://sacra.com/c/rilla/",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "pricing": {
+   "value": "No pricing published on the public site.",
+   "source": "https://www.rilla.com/",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "Records in-person sales conversations and provides \"recordings, transcriptions, summaries, and analytics\" for coaching, claiming \"100% Visibility into Every Sales Conversation\" and the ability to see \"the behaviors of every seller, on every appointment, every day.\"",
+   "source": "https://www.rilla.com/",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "Explicitly positions against mystery shopping in multifamily, claiming \"100x faster\" feedback on tours than traditional mystery shopping and \"16x more\" appointments shadowed per month.",
+    "source": "https://www.rilla.com/industry/senior-living-and-multifamily",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Records the operator's own in-person tours, giving managers a review of every appointment rather than a scheduled shop.",
+    "source": "https://www.rilla.com/industry/senior-living-and-multifamily",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Publishes named multifamily and student housing customer claims — Walk2Campus (32% increase in tour-to-lease conversion), Crescent Communities (19% increase in leasing activity over 6–7 weeks), AZ First Realty (39% higher performance at Rilla communities). These are Rilla's published customer claims, not independently verified.",
+    "source": "https://www.rilla.com/industry/senior-living-and-multifamily",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Category scale outside multifamily — third-party research reports revenue growth from $11M (2023) to $51M (2025) and a $68.5M Series B led by Google Ventures.",
+    "source": "https://sacra.com/c/rilla/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Serves home improvement, home building, property management, dental, automotive, senior living and multifamily, so a diversified operator can standardize on one coaching tool.",
+    "source": "https://www.rilla.com/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "Coverage is the operator's own recorded appointments; public materials do not describe an independent third-party shop of the prospect experience.",
+    "source": "https://www.rilla.com/industry/senior-living-and-multifamily",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "The multifamily product is described around in-person tours; phone shops, email lead shops and video shops are not described as offerings.",
+    "source": "https://www.rilla.com/industry/senior-living-and-multifamily",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Nothing is captured when no appointment happens — the data only exists where a rep recorded a conversation.",
+    "source": "https://www.rilla.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Multifamily is one of roughly seven verticals; the company's original wedge and majority of published traction is home services.",
+    "source": "https://sacra.com/c/rilla/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Public materials do not describe an industry benchmark dataset or linkage to assigned training courses.",
+    "source": "https://www.rilla.com/industry/senior-living-and-multifamily",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [],
+  "askThis": [
+   "If the value is coaching your own tours, who covers the prospect who never got a tour booked?",
+   "How are you handling recording consent on a prospect's tour conversation across the states you operate in?",
+   "What's your plan for the phone and email stages, where most prospects are lost before a tour?",
+   "How many of your tours will actually get recorded once the novelty wears off?"
+  ],
+  "objections": [
+   {
+    "objection": "Rilla says it's 100x faster than mystery shopping.",
+    "response": "On speed of feedback for tours you're already running, they're probably right, and I'm not going to argue it. They measure your own conversations; a shop measures what an outside prospect experiences, including the ones your team never handled. Let me get our product team into this rather than pretending they're the same product."
+   }
+  ],
+  "doNotSay": [
+   "Never argue that recorded tour coaching is inferior to a human shop — it is a different measurement.",
+   "Never repeat Rilla's customer percentage claims as verified results; they are vendor-published.",
+   "Never present recording consent as a legal problem for the buyer — raise it as a question for their counsel, not as a claim."
+  ],
+  "features": {
+   "ms-human-shoppers": {
+    "support": "No",
+    "note": "The product records the operator's own reps; no shopper network is described.",
+    "source": "https://www.rilla.com/industry/senior-living-and-multifamily",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-phone": {
+    "support": "Unknown",
+    "note": "Multifamily product is described around in-person tours.",
+    "source": "https://www.rilla.com/industry/senior-living-and-multifamily",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-email": {
+    "support": "Unknown",
+    "note": "Not described publicly.",
+    "source": "https://www.rilla.com/industry/senior-living-and-multifamily",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-onsite": {
+    "support": "Partial",
+    "note": "Records and analyzes in-person tours, but as coaching of the operator's own agents rather than an onsite shop.",
+    "source": "https://www.rilla.com/industry/senior-living-and-multifamily",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-video": {
+    "support": "Unknown",
+    "note": "Audio recording of conversations is described; video shops are not.",
+    "source": "https://www.rilla.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-rubric": {
+    "support": "Partial",
+    "note": "Standards are learned from the client's own top performers rather than a published industry rubric.",
+    "source": "https://www.rilla.com/industry/senior-living-and-multifamily",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-coaching": {
+    "support": "Partial",
+    "note": "Manager coaching via virtual ridealongs; linkage to assigned training courses is not described.",
+    "source": "https://www.rilla.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-full-call-analysis": {
+    "support": "Yes",
+    "note": "\"100% Visibility into Every Sales Conversation\" — every recorded appointment is analyzed, not a sample.",
+    "source": "https://www.rilla.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-benchmarking": {
+    "support": "Unknown",
+    "note": "Cross-community comparison is claimed in a customer example; an industry benchmark dataset is not described.",
+    "source": "https://www.rilla.com/industry/senior-living-and-multifamily",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Medium",
+   "owner": null,
+   "autoUpdated": false,
+   "pendingReview": []
+  },
+  "news": [],
+  "sources": [
+   {
+    "title": "Rilla — home",
+    "url": "https://www.rilla.com/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Rilla — AI Coaching for Residential Property Management (senior living and multifamily)",
+    "url": "https://www.rilla.com/industry/senior-living-and-multifamily",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Sacra — Rilla revenue, funding & news",
+    "url": "https://sacra.com/c/rilla/",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 5,
+   "name": "Resolution · The Resolution Layer for Multifamily",
+   "note": "Competes for the resolution layer position, or for one slice of it."
+  },
+  "whenItComesUp": {
+   "why": "Overlaps in part, not in whole. Rilla records and analyzes the operator's own onsite tours and explicitly markets itself as faster than in-person mystery shopping — a horizontal category leader now selling directly into the multifamily tour budget.",
+   "say": "Concede the part they genuinely own, then be specific about the part they don't. Partial overlap is where reps over-claim and lose credibility.",
+   "avoid": "Never argue that recorded tour coaching is inferior to a human shop — it is a different measurement.",
+   "redirect": "If the value is coaching your own tours, who covers the prospect who never got a tour booked?",
+   "derived": true
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name RillaVoice, Rilla Voice, or describe ai conversation intelligence for in-person sales conversations (\"virtual ridealongs\"), with a multifamily and senior living vertical already in place.",
+    "ask": "If the value is coaching your own tours, who covers the prospect who never got a tour booked?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "Coverage is the operator's own recorded appointments; public materials do not describe an independent third-party shop of the prospect experience.",
+    "ask": "How are you handling recording consent on a prospect's tour conversation across the states you operate in?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the Rilla contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the Rilla agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether Rilla sits on someone else's budget line — that changes who has to agree.",
+    "ask": "What's your plan for the phone and email stages, where most prospects are lost before a tour?"
+   }
+  ],
+  "play": "Sometimes in the room"
+ },
+ {
+  "id": "siro",
+  "name": "Siro",
+  "aka": [
+   "Siro AI",
+   "siro.ai"
+  ],
+  "parent": null,
+  "website": "https://www.siro.ai/",
+  "toolCategory": "AI conversation intelligence and coaching for in-person sales teams, with multifamily as one of nine verticals",
+  "ciCategory": "Replacement",
+  "tier": "Tier 2",
+  "verdict": {
+   "stance": "Do not compete",
+   "line": "A well-funded horizontal in-person sales coaching platform that lists multifamily among nine verticals — it competes for the coaching budget, not for the shop program, and there is no useful head-to-head here.",
+   "doInstead": "Do not build or use a battlecard against Siro and do not argue shop quality — you would be comparing an internal coaching tool to an external measurement product and the buyer will hear it as defensiveness. Confirm what the buyer is funding. If they are replacing shop spend with conversation intelligence, that is a product and strategy decision: log it, name the account, and hand it to product and strategy. If they are buying Siro to coach reps and still need an outside read on the prospect experience, sell the shop program on the job it does and leave Siro alone."
+  },
+  "overlaps": [
+   {
+    "product": "Mystery Shopping",
+    "degree": "Partial"
+   },
+   {
+    "product": "Training",
+    "degree": "Partial"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": "New York",
+    "source": "https://www.prnewswire.com/news-releases/siro-raises-50m-series-b-to-bring-ai-to-in-person-sales-302463711.html",
+    "verifiedOn": "2026-08-11"
+   },
+   "founded": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "ownership": {
+    "value": "Private, venture-backed; founder/CEO Jake Cronin",
+    "source": "https://www.siro.ai/about",
+    "verifiedOn": "2026-08-11"
+   },
+   "size": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "funding": {
+    "value": "$50M Series B announced 22 May 2025 led by SignalFire, with 01 Advisors, StepStone Group, CRV, Fika Ventures and Index Ventures; company states $75M total funding",
+    "source": "https://www.prnewswire.com/news-releases/siro-raises-50m-series-b-to-bring-ai-to-in-person-sales-302463711.html",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "pricing": {
+   "value": "No pricing published on the public site.",
+   "source": "https://www.siro.ai/",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "\"Siro turns real customer conversations into scalable insights that empower teams to perform, improve, and win consistently\" — AI sales coaching software for in-person sales teams, with reps recording conversations on their phones and live in-call coaching (\"Halftime\").",
+   "source": "https://www.siro.ai/about",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "$50M Series B led by SignalFire (May 2025); company states $75M total funding from Index, CRV, SignalFire, 01A, StepStone and Fika.",
+    "source": "https://www.prnewswire.com/news-releases/siro-raises-50m-series-b-to-bring-ai-to-in-person-sales-302463711.html",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Live in-conversation coaching plus automated follow-ups and notes, syncing conversation data to existing systems.",
+    "source": "https://www.siro.ai/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Lists multifamily and senior living among nine verticals alongside dealerships, home improvement, home services, home builders, telecom, medical aesthetics and medical devices.",
+    "source": "https://www.siro.ai/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Publishes performance claims of \"36% higher close rates, 30% lower rep turnover, 10x faster coaching cycles\" and named customer examples (American Standard, Culligan). These are Siro's own published claims, not independently verified.",
+    "source": "https://www.prnewswire.com/news-releases/siro-raises-50m-series-b-to-bring-ai-to-in-person-sales-302463711.html",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Emphasizes adoption mechanics — reps record on their own phones — which is the usual failure point for field conversation capture.",
+    "source": "https://www.siro.ai/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "Coverage depends on the operator's own reps recording conversations on their phones; there is no described third-party evaluation of the prospect experience.",
+    "source": "https://www.siro.ai/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "The product is built for in-person sales conversations; phone shops, email lead shops and video shops are not described as offerings.",
+    "source": "https://www.siro.ai/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Multifamily is one of nine listed verticals rather than a purpose-built product; there is no multifamily-specific leasing rubric described publicly.",
+    "source": "https://www.siro.ai/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "No industry benchmark dataset or linkage to assigned training courses described in public materials.",
+    "source": "https://www.siro.ai/about",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [],
+  "askThis": [
+   "Is Siro being bought by your sales or ops leadership to coach reps, or is it replacing a measurement budget?",
+   "If a rep doesn't hit record, what shows up in the data?",
+   "Who is measuring the phone and email stages, where most prospects drop before anyone meets them?"
+  ],
+  "objections": [
+   {
+    "objection": "We're standardising on Siro across all our field teams.",
+    "response": "That makes sense as a coaching standard and I'm not going to argue against it. It measures conversations your reps record. If you also need an outside read on what an unsolicited prospect experiences — including where nobody responded — those are separate jobs. Let me get the right people from our side into the conversation."
+   }
+  ],
+  "doNotSay": [
+   "Never run a head-to-head feature comparison against Siro — it is not the same product.",
+   "Never repeat their close-rate or turnover statistics as verified results.",
+   "Never claim Siro cannot serve multifamily — it is a listed vertical."
+  ],
+  "features": {
+   "ms-human-shoppers": {
+    "support": "No",
+    "note": "Reps record their own conversations; no shopper network is described.",
+    "source": "https://www.siro.ai/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-phone": {
+    "support": "Unknown",
+    "note": "Product is built for in-person conversations; phone shops are not described.",
+    "source": "https://www.siro.ai/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-email": {
+    "support": "Unknown",
+    "note": "Not described publicly.",
+    "source": "https://www.siro.ai/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-onsite": {
+    "support": "Partial",
+    "note": "Captures in-person sales conversations, but as coaching of the operator's own reps rather than an onsite shop.",
+    "source": "https://www.siro.ai/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-video": {
+    "support": "Unknown",
+    "note": "Not described publicly.",
+    "source": "https://www.siro.ai/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-rubric": {
+    "support": "Unknown",
+    "note": "Team analytics described; no published standardized multifamily rubric.",
+    "source": "https://www.siro.ai/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-coaching": {
+    "support": "Partial",
+    "note": "Live AI coaching during conversations (\"Halftime\"); linkage to assigned training courses is not described.",
+    "source": "https://www.siro.ai/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-full-call-analysis": {
+    "support": "Partial",
+    "note": "Records, transcribes and analyzes every conversation reps capture on the app — full coverage of recorded conversations, but coverage depends on reps recording.",
+    "source": "https://www.prnewswire.com/news-releases/siro-raises-50m-series-b-to-bring-ai-to-in-person-sales-302463711.html",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-benchmarking": {
+    "support": "Unknown",
+    "note": "Not described publicly.",
+    "source": "https://www.siro.ai/about",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Medium",
+   "owner": null,
+   "autoUpdated": false,
+   "pendingReview": []
+  },
+  "news": [],
+  "sources": [
+   {
+    "title": "Siro — home",
+    "url": "https://www.siro.ai/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Siro — About",
+    "url": "https://www.siro.ai/about",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "PR Newswire — Siro Raises $50M Series B to Bring AI to In-Person Sales",
+    "url": "https://www.prnewswire.com/news-releases/siro-raises-50m-series-b-to-bring-ai-to-in-person-sales-302463711.html",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 5,
+   "name": "Resolution · The Resolution Layer for Multifamily",
+   "note": "Competes for the resolution layer position, or for one slice of it."
+  },
+  "whenItComesUp": {
+   "why": "Conversation intelligence for in-person selling — recording and coaching real interactions. It's a replacement-category threat to sampled mystery shopping, not a vendor we out-feature.",
+   "say": "Siro records and coaches the conversations your team is actually having. That's more coverage than a sample of shops, and it's fair to say so. What it can't do is test the experience of someone who isn't already talking to you — the community that never picks up, the email nobody answered.",
+   "avoid": "Do not argue shop quality or shopper training, and do not try to win on volume. You'll be comparing a sample to continuous coverage and you will lose that comparison on its own terms.",
+   "redirect": "How would you find out about the prospect who called and nobody answered?"
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name Siro AI, siro.ai, or describe ai conversation intelligence and coaching for in-person sales teams, with multifamily as one of nine verticals already in place.",
+    "ask": "Is Siro being bought by your sales or ops leadership to coach reps, or is it replacing a measurement budget?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "Coverage depends on the operator's own reps recording conversations on their phones; there is no described third-party evaluation of the prospect experience.",
+    "ask": "If a rep doesn't hit record, what shows up in the data?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the Siro contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the Siro agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether Siro sits on someone else's budget line — that changes who has to agree.",
+    "ask": "Who is measuring the phone and email stages, where most prospects drop before anyone meets them?"
+   }
+  ],
+  "play": "Not our fight"
+ },
+ {
+  "id": "status-quo-mystery-shopping",
+  "name": "Status quo — internal spot-checks and DIY comp shops",
+  "aka": [
+   "Doing it ourselves",
+   "Regional manager shops",
+   "Comp shop spreadsheet"
+  ],
+  "parent": null,
+  "website": null,
+  "toolCategory": "No vendor — regional managers doing their own spot-checks and comp shops phoned in and compiled in a spreadsheet",
+  "ciCategory": "Status Quo",
+  "tier": "Tier 1",
+  "verdict": {
+   "stance": "Compete",
+   "line": "The most common competitor in the pipeline is a regional manager with a spreadsheet — respect that it works and costs nothing on paper, then compete on independence, consistency and whether anyone can prove the coaching changed the score.",
+   "doInstead": null
+  },
+  "overlaps": [
+   {
+    "product": "Mystery Shopping",
+    "degree": "High"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "founded": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "ownership": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "size": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "funding": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   }
+  },
+  "pricing": {
+   "value": "No line-item cost. The spend is regional manager and marketing coordinator time, which sits inside payroll rather than a vendor budget.",
+   "source": null,
+   "verifiedOn": null
+  },
+  "positioning": {
+   "value": "\"We already do this ourselves.\" A regional walks the property, calls a few communities as a prospect, phones competitors for rents and specials, and puts the results in a shared spreadsheet reviewed at the monthly ops meeting.",
+   "source": null,
+   "verifiedOn": null
+  },
+  "strengths": [
+   {
+    "text": "It is genuinely free at the point of use — no procurement, no contract, no vendor onboarding, no budget line to defend.",
+    "source": null,
+    "verifiedOn": null
+   },
+   {
+    "text": "The person doing the evaluation already knows the property, the team, the submarket and the history, so context that a third-party shopper misses is built in.",
+    "source": null,
+    "verifiedOn": null
+   },
+   {
+    "text": "Feedback is immediate and personal. A regional who hears a bad call can coach that afternoon rather than waiting for a report.",
+    "source": null,
+    "verifiedOn": null
+   },
+   {
+    "text": "Comp shops phoned in by the team produce current rent and concession intelligence that also feeds pricing decisions — one activity, two uses.",
+    "source": null,
+    "verifiedOn": null
+   },
+   {
+    "text": "Nothing is hidden behind a vendor's methodology. The operator controls exactly what gets asked and can change it the same day.",
+    "source": null,
+    "verifiedOn": null
+   },
+   {
+    "text": "For a small portfolio with a hands-on regional, this is often sufficient — and telling that buyer otherwise is how you lose credibility.",
+    "source": null,
+    "verifiedOn": null
+   }
+  ],
+  "gaps": [],
+  "whyWeWin": [
+   "A shopper the team does not recognize gets the experience a real prospect gets; a regional the team recognizes gets the experience the team performs.",
+   "One rubric applied across every community means a 78 in one region is comparable to a 78 in another, which a spreadsheet of different people's impressions cannot deliver.",
+   "The evaluation is documented and time-stamped by a third party, which matters when a fair housing question arrives.",
+   "The score assigns the training and the retest proves it moved — the loop closes without anyone remembering to close it.",
+   "Regional manager hours spent shopping are hours not spent on occupancy, and that cost is real even though it never appears on an invoice."
+  ],
+  "askThis": [
+   "How many of your communities got shopped last quarter — not planned, actually shopped?",
+   "Does the team know when a regional is shopping them? What happens to the result when they do?",
+   "If two regionals score the same call, do you get the same number?",
+   "When a shop surfaces a fair housing risk, what's the documented record six months later if someone asks?",
+   "What does a regional's day cost you, and how many of those days go into shopping and comp calls each month?",
+   "Show me the last time a low score turned into training that someone completed — where would I see that?"
+  ],
+  "objections": [
+   {
+    "objection": "We already do this ourselves and it works fine.",
+    "response": "For a lot of operators it does, and I'm not going to tell you it doesn't. The two things it can't give you are independence — your team knows the regional's voice — and consistency, so scores compare across regions and over time. If neither of those is a problem for you today, keep doing what you're doing."
+   },
+   {
+    "objection": "It's free.",
+    "response": "It's off-budget, which isn't the same thing. Count the regional hours and the comp-call hours per month. Then ask what those hours would have earned somewhere else. The question isn't whether to spend, it's what you're already spending and what you get back for it."
+   },
+   {
+    "objection": "Our regionals know the properties better than any outside shopper would.",
+    "response": "True, and that's an advantage for coaching. It's a disadvantage for measurement — the team performs differently for someone they recognize. Use both: their judgment for coaching, an outside read for the baseline."
+   }
+  ],
+  "doNotSay": [
+   "Never tell a buyer their internal process is amateur or unserious — it is usually run by the most committed operator in the building.",
+   "Never quote a savings or ROI figure for replacing internal shops; we have no sourced number for their internal cost.",
+   "Never imply their team is dishonest. The issue is that people behave differently for someone they recognize, not that anyone is cheating."
+  ],
+  "features": {
+   "ms-human-shoppers": {
+    "support": "Partial",
+    "note": "Internal staff act as shoppers; they are not an independent, unaffiliated network.",
+    "source": null,
+    "verifiedOn": null
+   },
+   "ms-phone": {
+    "support": "Partial",
+    "note": "Comp calls and spot-check calls are typically the most-used method.",
+    "source": null,
+    "verifiedOn": null
+   },
+   "ms-email": {
+    "support": "Unknown",
+    "note": "Varies entirely by operator.",
+    "source": null,
+    "verifiedOn": null
+   },
+   "ms-onsite": {
+    "support": "Partial",
+    "note": "Regional property walks are common, but the team knows who is visiting.",
+    "source": null,
+    "verifiedOn": null
+   },
+   "ms-video": {
+    "support": "No",
+    "note": "Not part of a typical internal spot-check process.",
+    "source": null,
+    "verifiedOn": null
+   },
+   "ms-rubric": {
+    "support": "Unknown",
+    "note": "Some operators use a standard form; many rely on individual judgment. Ask.",
+    "source": null,
+    "verifiedOn": null
+   },
+   "ms-coaching": {
+    "support": "Partial",
+    "note": "Coaching is immediate and personal, but linkage to assigned, tracked training is rare.",
+    "source": null,
+    "verifiedOn": null
+   },
+   "ms-full-call-analysis": {
+    "support": "No",
+    "note": "A handful of spot-checks per period is a small sample by definition.",
+    "source": null,
+    "verifiedOn": null
+   },
+   "ms-benchmarking": {
+    "support": "No",
+    "note": "Comparison is against the operator's own portfolio and comp set, not an industry dataset.",
+    "source": null,
+    "verifiedOn": null
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Low",
+   "owner": null,
+   "autoUpdated": false,
+   "pendingReview": []
+  },
+  "news": [],
+  "sources": [],
+  "stackLayer": {
+   "number": null,
+   "name": "No layer — the buyer's current habit",
+   "note": "Not a vendor. This is what happens when nobody buys anything."
+  },
+  "whenItComesUp": {
+   "why": "A regional manager doing spot-checks and comp shops in a spreadsheet. Free on paper, genuinely useful, and the most common competitor in the pipeline.",
+   "say": "A regional walking the property catches real things — that's not nothing, and it costs you nothing on paper. Where it gets hard is consistency and independence: the same manager scoring their own team, at properties they already have a view about.",
+   "avoid": "Don't imply their regionals aren't doing their job. Note that Ellis and EPMS are Grace Hill companies, not rivals — never position them as competitors.",
+   "redirect": "Who scores it today, and how would you know if two properties were being judged by the same standard?"
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name Doing it ourselves, Regional manager shops, Comp shop spreadsheet, or describe no vendor — regional managers doing their own spot-checks and comp shops phoned in and compiled in a spreadsheet already in place.",
+    "ask": "How many of your communities got shopped last quarter — not planned, actually shopped?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "Frustration that Status quo — internal spot-checks and DIY comp shops isn't reaching the onsite team.",
+    "ask": "Does the team know when a regional is shopping them? What happens to the result when they do?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the Status quo — internal spot-checks and DIY comp shops contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the Status quo — internal spot-checks and DIY comp shops agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether Status quo — internal spot-checks and DIY comp shops sits on someone else's budget line — that changes who has to agree.",
+    "ask": "If two regionals score the same call, do you get the same number?"
+   }
+  ],
+  "play": "Head-to-head"
+ }
+]

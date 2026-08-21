@@ -1,0 +1,265 @@
+{
+  "asOf": "2026-07-24",
+  "status": "Working narrative — evolving",
+  "corePosition": "We drive net operating income for multifamily owners, operators and investors by improving employee excellence — the biggest lever on NOI — using industry data and content nobody else has to go past surfacing a problem to resolving it and proving it was resolved.",
+  "narrativeArc": [
+    {
+      "beat": "Frame: four questions define the strategy",
+      "content": "Matt anchors the whole pitch on four questions: 'What problem are we solving? For whom are we solving the problem? Why are we uniquely positioned to solve the problem? And why is that problem [urgent]?' He uses these inside a broader operating lens he repeats constantly — 'strategy, structure, role, talent' — where strategy comes first and everything else exists to support it."
+    },
+    {
+      "beat": "What problem do we solve — NOI",
+      "content": "'We are solving a net operating income problem for our customers.' Mandy's version of the same idea (7/16): property performance comes down to NOI improvement, strong retention, and high occupancy, and the levers that work in any macro environment are retention of employees, retention of residents, and speed of turn."
+    },
+    {
+      "beat": "The mechanism — employee excellence is the biggest lever",
+      "content": "The single most valuable thing an operator can do for NOI is get a resident to re-sign the lease. The stated #1 reason people leave is rent; Matt rejects that outright — 'If I raise your rent by two hundred bucks, you are not hiring a moving [van] and moving across town.' People leave when the toilet doesn't get fixed after three calls, when the maintenance tech makes them feel unsafe, when the security guard is stoned, when someone violates fair housing. Those are all employee-excellence failures. Employee excellence spans the whole gamut of interactions, not just training at the end of it."
+    },
+    {
+      "beat": "Who we solve it for",
+      "content": "Multifamily owners, operators, service providers and investors — those who manage units, assets and portfolios — primarily in North America, with focus on mid-market, upper mid-market and enterprise. Matt flags this beat as unfinished: commercial does not currently fit the sentence and the marketing buyer is arguably missing from it."
+    },
+    {
+      "beat": "Why we are uniquely positioned — the data and content asset",
+      "content": "'We are uniquely positioned because we have millions of data points, structured and unstructured content, use cases, et cetera. We can provision at any point along a workflow that is entirely unique.' The asset is described as a set of feedback channels: an unsolicited prospect signal (Shop), a solicited resident survey, market data (HelloData), policies and content, and customer/prospect interaction data. Countered and accepted in the room: the data alone is not the differentiator — it has to be made actionable, or 'we just have this data sitting here on the wall.'"
+    },
+    {
+      "beat": "The sharpened edge — speed to resolution, not speed to a data point",
+      "content": "Reframing that emerged from a Mystery Shop conversation and became the strongest part of the pitch. Competing on workflow mechanics (how fast a shop gets executed) is a losing game. The real buyer need is speed to resolution: surface the issue, tell me why, give me the remediation plan, confirm the plan was executed, test for competence and confidence afterward. 'All you're doing is telling me that I suck. You're just doing it a little bit faster than the next guy.' Matt sketched this visually as speed to discovery (X), speed to recommendation (X), speed to resolution (the one that counts). Mandy's framing of the value: the expensive resource is the one person in the org who can translate a recommendation into a resolution — we do that translation for you."
+    },
+    {
+      "beat": "Feedback loop into capital and operating decisions",
+      "content": "Added at the 7/21 ELT after a challenge that owner-operators also affect capex, not just opex. Matt conceded 'not the only — the most impactful,' and argued the capex decision itself is driven by the feedback loop from people on the ground, market-competitive information and resident complaints. Agreed to incorporate: 'it's not just affecting employee performance and excellence. There's something to do with capturing feedback loops. Feeding that back into performance decisions.'"
+    },
+    {
+      "beat": "Why it's urgent — and timeless",
+      "content": "Everyone is competing for extra basis points of NOI, so it is urgent now; but the more interesting angle is longevity. 'This problem, this employee excellence problem, never going away. The industry that you have chosen to spend your time in, multifamily, never going away... People need to eat, people need water, and they need a roof.' Matt is explicit that this beat still needs better words."
+    },
+    {
+      "beat": "Architecture behind the story (support, not the pitch itself)",
+      "content": "User interfaces on top; workflows underneath (what we call products — Training, Shop, Survey, Policy, etc.); a data integration and normalization layer we call PHQ; and underneath all of it the content and data. Matt's hypothesis: the UI layer and increasingly the workflow layer are commoditized by AI; the content and data layer is the defensible offense and will drive product, go-to-market, acquisition and partnership investment."
+    },
+    {
+      "beat": "Ladder beneath the company pitch",
+      "content": "This is the company pitch — what the company believes — deliberately not a product pitch. Product-level pitches (the data pitch, the HelloData pitch, etc.) ladder underneath it later. Mandy: 'this work is a lot more about a company pitch, not as much a product pitch.'"
+    }
+  ],
+  "decisionsMade": [
+    {
+      "topic": "Strategy frame for the pitch",
+      "decision": "The pitch is built on four questions — what problem, for whom, why uniquely positioned, why urgent — set inside the 'strategy, structure, role, talent' lens. Matt stated this is the lens he is holding everything to and told the group he will be held to it: 'I can't hold you accountable here if this is not clear and concise.'",
+      "who": "Matt",
+      "meeting": "07-16 Matt/Mandy; restated 07-21 ELT"
+    },
+    {
+      "topic": "Core problem statement",
+      "decision": "Lead with net operating income as the problem we solve, and employee excellence as the biggest lever on it. Mandy agreed on 7/16 ('I really like the employee excellence part and I like the unique identifier for why us in your statements that mine didn't have, which we need') and Matt delivered it as the working pitch to the ELT on 7/21.",
+      "who": "Matt and Mandy",
+      "meeting": "07-16 Matt/Mandy; delivered 07-21 ELT"
+    },
+    {
+      "topic": "Mystery Shop positioning",
+      "decision": "Stop competing on speed of shop / workflow mechanics and reframe to speed to resolution — surface, diagnose, remediate, verify. Matt: if we compete at the workflow level 'we're going to get our ass kicked.' Mandy agreed on the call; the reframe was then carried into the ELT as the part of the pitch Matt feels most confident double-clicking on.",
+      "who": "Matt, agreed by Mandy",
+      "meeting": "07-16 Matt/Mandy; carried into 07-21 ELT"
+    },
+    {
+      "topic": "Training heritage",
+      "decision": "We say we are not just a training company, but we do not run away from the training heritage. Mandy asked the question directly at the ELT; Matt answered and Mandy confirmed that was the answer she wanted ('That's what I wanted you to say').",
+      "who": "Matt, prompted by Mandy",
+      "meeting": "07-21 ELT"
+    },
+    {
+      "topic": "Company pitch vs product pitch",
+      "decision": "This narrative is a company pitch and must not be delivered as a product pitch. 'Don't talk about product' was called out in the room and Matt accepted it — 'Great point... This is a company pitch that will then have the whole ladder beneath it.'",
+      "who": "Mandy and an ELT participant; accepted by Matt",
+      "meeting": "07-21 ELT"
+    },
+    {
+      "topic": "Data must be made actionable",
+      "decision": "'We have the data' is not on its own the unique-position claim; the claim has to be that we make the data actionable and drive action that changes performance. Matt agreed and reinforced it with the weather analogy: 'Are you just reporting the weather?... What I am really interested in though is can you give me an action plan?'",
+      "who": "Raised by an ELT participant; agreed by Matt",
+      "meeting": "07-21 ELT"
+    },
+    {
+      "topic": "Add the feedback-loop / capital-decision dimension",
+      "decision": "Incorporate into the narrative that the value is not only improving employee performance but capturing feedback loops from the ground and feeding them back into performance and investment decisions. Matt committed to work it in after the challenge from the room.",
+      "who": "Matt, after challenge from an ELT participant",
+      "meeting": "07-21 ELT"
+    },
+    {
+      "topic": "Feedback process on the narrative",
+      "decision": "The extended leadership team was assigned homework: take the pitch away, work it through thematically, and send feedback to Mandy, copying Matt. Mandy is the collection point for narrative feedback.",
+      "who": "Matt",
+      "meeting": "07-21 ELT"
+    },
+    {
+      "topic": "Transparency with customers about the unfinished parts",
+      "decision": "It is acceptable — preferred — to take this narrative to customers before it is fully formed and invite them into defining it, rather than arriving with a finished widget. Matt: 'We're better off having that conversation earlier rather than coming to them with a fully formed project.'",
+      "who": "Matt",
+      "meeting": "07-21 ELT"
+    }
+  ],
+  "openQuestions": [
+    {
+      "question": "Is 'employee excellence' too narrow — does the market hear 'training'?",
+      "context": "Mandy raised it directly at the ELT: 'When we say the word employee excellence, does the market automatically think about training, which is something we're trying to somewhat get out of?' Matt answered that employee excellence spans the whole gamut of interactions, not just training. Mandy accepted the answer in the room, but three days later told Julia she is still trying to keep the company pitch 'broad enough that it'll fit categories for a really long time' and not 'loop us into employee excellence, which is... important. But there are other aspects that I think we should focus on.' Unresolved — the candidate alternative is 'people and property performance.'",
+      "raisedBy": "Mandy"
+    },
+    {
+      "question": "Resident experience only, or resident AND prospect?",
+      "context": "Julia: 'Is it just resident experience? I mean, because so much of what we do is around the prospect experience too, right?' Mandy: she has gone back and forth 'four or five times with Matt in different versions, and he keeps pulling out prospect,' because Matt wants to focus on resident experience to focus on retention. Mandy and Julia both believe prospect belongs in it — mystery shop validates the prospect leasing experience and reputation influences it. Direct, unresolved disagreement with Matt.",
+      "raisedBy": "Julia and Mandy"
+    },
+    {
+      "question": "Are we over-indexing on one buyer and ignoring the marketing buyer?",
+      "context": "Julia: 'I feel like he's way over indexing one buyer... and we're completely ignoring the marketing buyer in here.' She argues the marketing buyer is a big part of survey, is shifting toward reputation and the prospect leasing experience, and that the organization leans naturally toward the operator side. She wants an advisory group set up to test the messaging with marketing buyers — noting the training advisory board would love this messaging as written, which is precisely the problem.",
+      "raisedBy": "Julia"
+    },
+    {
+      "question": "Should the story LEAD with speed to resolution instead of ending with it?",
+      "context": "Mandy on 7/24: 'I just feel like it's backward... I almost think if we started with that, it would be more impactful.' The argument: everyone can tell you there is an issue; deciding what to do about it is the hard part and it doesn't scale because it depends on the employees you have today. She is hesitant to make the change because she has not yet figured out how Matt gives feedback — 'he may should be like no, that's not what I said... Why are you doing something I didn't say?' Not resolved.",
+      "raisedBy": "Mandy"
+    },
+    {
+      "question": "Who exactly do we solve it for — and where does commercial fit?",
+      "context": "Matt named this as the beat he is 'still wrestling with.' The easy answer is multifamily operators in North America, mid-market to enterprise, but commercial does not fit that sentence and he lists 'it's hard for me to articulate how commercial fits into the whole' as a stated weakness. Mandy notes on 7/24 that until commercial is decided, 'resident' is too specific a word to lock in.",
+      "raisedBy": "Matt"
+    },
+    {
+      "question": "Why is it urgent — we need better words",
+      "context": "Matt: 'I actually feel like I need to come up with better words about why this is urgent because it's one of those where it's so obvious to me that my immediate reaction to the question... is something along the lines of, What? Why are you asking such a stupid question?'",
+      "raisedBy": "Matt"
+    },
+    {
+      "question": "How do we prove employee excellence drives NOI?",
+      "context": "Challenged in the ELT — the pitch opens on a claim and there is no stat behind it. Matt conceded: 'How do we prove that point? Right, the really great data stats behind that would be both. I don't know... it is an area that I need to kind of flush out a little bit more.' Currently unproven.",
+      "raisedBy": "An ELT participant (Jay or Joe were called on); acknowledged by Matt"
+    },
+    {
+      "question": "Revenue vs NOI — which number does the buyer actually care about?",
+      "context": "Jen Tindall's feedback, relayed by Mandy: property teams care about revenue, owners and operators care about NOI. Mandy added revenue and property value language into her draft to cover it. Julia's counterpoint: 'we help you improve NOI... that's what everyone says, right? Every property management system says that' — which is why she likes tying to retention as something tangible. Not settled.",
+      "raisedBy": "Jen, relayed by Mandy; debated with Julia"
+    },
+    {
+      "question": "How does the story hold up as AI shrinks the human workforce?",
+      "context": "Asked at the ELT. Matt's working answer: AI is just another actor — 'Who's watching the chatbot? Who's doing a survey on the chatbot? Who is looking and saying, How do I help train that model to more effectively handle those objections?... it's more about who's interacting with your residents and how do we help them.' He flagged it as unfinished: 'Not something you put on a t-shirt... I've got to come up with better words.'",
+      "raisedBy": "An ELT participant"
+    },
+    {
+      "question": "Do we hang the story on compliance?",
+      "context": "Matt: 'Is compliance capital C something we should really be hanging our hat on?' He sees intellectual upside but is wary of guaranteeing compliance outcomes without an army of lawyers behind it. His own answer was 'I don't know.'",
+      "raisedBy": "Matt"
+    },
+    {
+      "question": "Is 'we help people love where they live and work' still the mission line?",
+      "context": "Julia: 'I've never really liked we help people love where they live and work. I mean sure okay it's a generic mission. We have to make it more generic because we've got to somehow include commercial.' Her preferred one-liner: 'we improve the people and property performance for multifamily.' No decision taken.",
+      "raisedBy": "Julia"
+    },
+    {
+      "question": "Do Realync and Survey belong in the 30-second pitch at all?",
+      "context": "Julia: 'I feel like, what this thirty second pitch — real link has no place on it... I don't even know if survey really has a place in it.' Mandy agreed. Unresolved how the individual solutions ladder up without cluttering the top-level story.",
+      "raisedBy": "Julia"
+    },
+    {
+      "question": "How specific can the pitch be without becoming a comma-list?",
+      "context": "Mandy's core tension: 'at some point, you either have to be like super broad and then everyone's like, we're not being specific enough. And then or you have like fifteen commas in the document because you're trying to cover everything.' She specifically dislikes the 'benchmarks and data and content' construction because prior feedback was that it 'sounds like everyone else.'",
+      "raisedBy": "Mandy"
+    }
+  ],
+  "languageToUse": [
+    "'Employee excellence' — the biggest lever on NOI (Matt's central term; endorsed by Mandy, with the caveat logged in openQuestions)",
+    "'We drive net operating income for owners, operators and investors'",
+    "'Speed to resolution' — as opposed to speed to a shop, speed to a data point",
+    "'Surface an issue → tell you why → give you the remediation plan → confirm it was executed → test that you got better'",
+    "'People and property performance' — Mandy and Julia's preferred broader frame; Julia: 'it's people and property because it's... has a nice ring to it'",
+    "'Just tell us what to do' — Julia: 'Customers are saying just tell us what to do... and that's exactly what we deliver. I've heard that multiple times from a variety of different customers'",
+    "'Are you just reporting the weather?' — the contrast device for competitors who only surface a data point",
+    "'We can drive them to better outcomes because we have all of that data' (Julia's phrasing of the differentiation)",
+    "'This problem is never going away' / 'people need to eat, people need water, and they need a roof' — the urgency-plus-longevity beat",
+    "'Millions of data points, structured and unstructured content' that we 'can provision at any point along a workflow'",
+    "'We're not just a training company — but we don't run away from that heritage'",
+    "'Moments that matter' — Mandy's earlier device for avoiding a narrow persona word (she has used and may return to it)",
+    "'This is what the company believes' — framing for the company pitch layer"
+  ],
+  "languageToAvoid": [
+    "'Speed to discovery' and 'speed to recommendation' — Matt explicitly Xed both out in favor of speed to resolution; stopping at discovery 'is just telling me that I suck'",
+    "Rent as the reason residents leave — Matt: 'The number one reason will be rent. That's horseshit.' Do not repeat the industry's stock explanation",
+    "Any product or feature language in the company pitch — 'Don't talk about product' was said twice in the room and Matt accepted it; product pitches ladder underneath later",
+    "Leading with workflows or individual solutions ('create demand around HelloData,' 'create demand for survey') — Matt's critique is that almost none of what sales, marketing and product talk about is tied to monetizing our content",
+    "Competing tool-versus-tool or on UI — 'their tool versus our tool? Sure. You want to argue about it? We can argue about it all day long... but that's not [the point]'",
+    "'We help you improve NOI' as a standalone claim — Julia: 'that's what everyone says, right? Every property management system says that'",
+    "'We help people love where they live and work' — Julia has never liked it and calls it generic (no decision to retire it yet, but it is not endorsed)",
+    "'Benchmarks and data and content' as a strung-together list — Mandy: prior feedback is 'it sounds like everyone else'",
+    "Vague outcome claims like 'we're driving revenue and we're improving churn' — Matt's response to that formulation was that it is 'not specific enough'; every claim needs a control point",
+    "Claiming the assignment engine or the UI as the differentiator — Matt argues both are being commoditized by AI even though the assignment engine is best in class today"
+  ],
+  "proofPointsDiscussed": [
+    {
+      "claim": "Employee excellence is the biggest lever on NOI",
+      "status": "needs verification",
+      "note": "Directly challenged in the ELT. Matt: 'How do we prove that point?... I don't know.' He says the reasoning is self-evident to him but concedes there is no stat behind it yet. Highest-priority gap in the narrative."
+    },
+    {
+      "claim": "Residents don't leave over rent — they leave over service and safety failures",
+      "status": "needs verification",
+      "note": "Matt attributes it to 'our survey data' but no figure was cited in either meeting. The rhetorical version (the $200 rent increase, the unfixed toilet, the stoned security guard) is doing the persuasive work; a real survey stat would harden it."
+    },
+    {
+      "claim": "Our data and content cannot be replicated — 'to the point where it is illegal to replicate'",
+      "status": "needs verification",
+      "note": "Matt's stated defensible moat. The legal-replication phrasing is strong and should be checked before it goes external."
+    },
+    {
+      "claim": "Millions of industry-specific data points, structured and unstructured, provisionable at any point in a workflow",
+      "status": "needs verification",
+      "note": "Stated in the ELT pitch. Needs a countable, defensible version before sales use."
+    },
+    {
+      "claim": "800 unique, industry-specific policies maintained and kept current with legislative change",
+      "status": "needs verification",
+      "note": "Matt: 'how many policies do we have? Eight hundred unique policies. They're industry specific.' Offered as the illustration that our content is curated, not just collected — 'Who follows this and turns it into something that a customer can actually consume?'"
+    },
+    {
+      "claim": "40 years of historical data we can combine with new signals",
+      "status": "needs verification",
+      "note": "Matt, 7/16: 'We can combine that with 40 years of historical data and present you with unique, bespoke, focused-on-you action plans.'"
+    },
+    {
+      "claim": "We are the only company that can take a shop from problem identified through to resolution and documented proof of resolution",
+      "status": "needs verification",
+      "note": "Matt: 'Nobody else in the industry can do that... Nobody can tell you what to do next. Nobody can track how you are going to do it. Nobody can track that you got better.' Stated with high confidence; Matt himself said 'you've got to blow that out into something that's a little bit more defensible.' A wireframe/prototype showing shop-issue-through-to-resolution was described as in progress."
+    },
+    {
+      "claim": "The layered evidence itself is the proof — exposure, then validation, then demonstrated performance",
+      "status": "confirmed",
+      "note": "Raised in the ELT and endorsed in the room as the structure of the proof story: 'the levels of data that we have when working together actually becomes the proof point because it gets stronger... I just had exposure, then I have validation, and then I actually have performance and it shows and now it's believable.'"
+    },
+    {
+      "claim": "Our assignment engine is best in the industry",
+      "status": "rejected",
+      "note": "Not rejected as false — Matt says 'best in the industry, bar none, not even close.' Rejected as a thing to position on: he estimates two engineers with AI could rebuild it in about a week, so it is a commodity, not a moat."
+    },
+    {
+      "claim": "Compliance (fair housing and beyond) as a headline reason to buy",
+      "status": "needs verification",
+      "note": "Matt is undecided and cautious: it may be a strong hook, but he will not make guarantees without legal backing. Currently framed as an attendant benefit ('the government stays off your back because you're compliant'), not a headline."
+    },
+    {
+      "claim": "~2,800 customers",
+      "status": "needs verification",
+      "note": "Cited by Matt in an internal operations context, not as a marketing stat. Confirm the current figure and whether it is approved for external use before any sales use."
+    }
+  ],
+  "competitiveFraming": [
+    "Do not compete at the workflow level. Matt: 'if we are competing on the workflow level... We're done. We're going to get our ass kicked' — not because we execute badly, but because our model is fundamentally different from theirs.",
+    "Against AI mystery-shop entrants (transcript names them as Rilla, Grotto and Ciro; spellings unverified): they build essentially a virtual agent optimized for speed of a surface-level shop. If speed of shop is the only criterion, our model loses. So change the criterion to speed to resolution.",
+    "The concession-and-redirect play: 'If you just want speed to a data point, go to [competitor]... Just make sure you get it super cheap.' Give them the fast-data-point market, take the resolution market.",
+    "The universal competitor critique: 'They're going to tell you you suck. They're going to go a little bit faster.' Nobody else tells you what to do next, tracks that you did it, or proves you got better.",
+    "'Are you just reporting the weather?' — better than not knowing it's raining, but what the buyer actually wants is an action plan.",
+    "Against platform players (transcript names RealPage and Entrata; 'Entrada' as transcribed): refuse the feature bake-off. 'If you go with their tool, you're solving that. We're solving this.' Matt allows our UI is better but says that is not the argument worth having.",
+    "Against reputation and survey specialists (Reputation, J Turner, Opinion as discussed): they sit on one side of the market. Julia's structural read: 'our competitors fall under one of the two buyers' — operator-side or marketing-side — while 'there is no one in the industry that does all the things that we do.' That breadth is both the differentiator and the positioning challenge.",
+    "The 'not a point solution' frame, raised in the ELT and endorsed by Matt: anchor on three to five business outcomes that carry from sales through customer success into renewal conversations — 'we're no longer a point solution. Everything can be in house, and those are our true differentiators.'",
+    "The scarce-resource argument (Mandy): the expensive resource in a customer's org is the one person who can translate a problem or a recommendation into a resolution. 'You are ahead of the game if you get that from decades of experience and data that you can't get anywhere else that already does that for you.'"
+  ]
+}

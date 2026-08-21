@@ -1,0 +1,3293 @@
+[
+ {
+  "id": "reputation",
+  "name": "Reputation",
+  "aka": [
+   "Reputation.com",
+   "Rep Score",
+   "Reputation IQ"
+  ],
+  "parent": null,
+  "website": "https://reputation.com/",
+  "toolCategory": "Horizontal multi-location ORM",
+  "ciCategory": "Direct",
+  "tier": "Tier 2",
+  "verdict": {
+   "stance": "Compete",
+   "line": "Enterprise horizontal ORM that names multifamily as a vertical and integrates with Yardi, Entrata and RealPage — expect it on large-portfolio shortlists, and compete on what happens after the reply, not on feature count.",
+   "doInstead": null
+  },
+  "overlaps": [
+   {
+    "product": "Reputation Management",
+    "degree": "High"
+   },
+   {
+    "product": "Surveys",
+    "degree": "Partial"
+   },
+   {
+    "product": "Training",
+    "degree": "None"
+   },
+   {
+    "product": "Policies",
+    "degree": "None"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": "San Ramon, California",
+    "source": "https://www.dnb.com/business-directory/company-profiles.reputationcom_inc.fe0ba94bc445b83bdf0e43fa0087a3d6.html",
+    "verifiedOn": "2026-08-11"
+   },
+   "founded": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "ownership": {
+    "value": "Private; significant growth investment from Marlin Equity Partners",
+    "source": "https://www.marlinequity.com/news/marlin-completes-significant-growth-investment-in-reputation/",
+    "verifiedOn": "2026-08-11"
+   },
+   "size": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "funding": {
+    "value": "$150M growth funding round announced 25 Jan 2022",
+    "source": "https://reputation.com/press-room/reputation-announces-150-million-growth-funding-round-to-drive-dominance-in-the-customer-feedback-market/",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "pricing": {
+   "value": "Not published. A pricing page is linked but shows no tiers or costs.",
+   "source": "https://reputation.com/",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "Self-described as \"The #1 AI-Powered Reputation Management Software,\" turning reviews, listings and surveys into actionable intelligence for multi-location brands.",
+   "source": "https://reputation.com/",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "Multifamily / property management is a named industry vertical with a dedicated real-estate solution page.",
+    "source": "https://reputation.com/solutions/industries/real-estate",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Lifecycle review requests (renewal, post-maintenance) triggered from PMS integrations with Yardi, Entrata and RealPage.",
+    "source": "https://reputation.com/solutions/industries/real-estate",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Competitive Insights tracks nearby-community ratings, themes and response times; Portfolio Benchmarking flags outlier properties.",
+    "source": "https://reputation.com/solutions/industries/real-estate",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Corporate → regional → property permission model with pre-approved templates and approval workflows for fair-housing-sensitive language.",
+    "source": "https://reputation.com/solutions/industries/real-estate",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Reputation IQ supports plain-language questions across resident data; Rep Score rolls signals into one KPI.",
+    "source": "https://reputation.com/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "No training, policy management or mystery-shopping capability — the platform is reviews, listings, social, surveys and analytics.",
+    "source": "https://reputation.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "No pricing is published; the pricing link resolves to a contact path rather than tiers.",
+    "source": "https://reputation.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Real-estate is one of eight named verticals alongside automotive, healthcare, food & beverage, senior living, retail and financial services — multifamily is not the primary market.",
+    "source": "https://reputation.com/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [
+   "Grace Hill's reputation data lives beside training completion, policy attestation, survey scores and shop results, so a regional can see whether the fix actually happened.",
+   "Fair housing is not a template setting for us — it is the same content library the onsite team is trained and tested on.",
+   "A multifamily-only roadmap means resident-lifecycle changes land in the product without competing against seven other verticals for priority."
+  ],
+  "askThis": [
+   "Which of your review responses are drafted by AI and approved by whom — and what is your audit trail if a fair housing complaint cites a public reply?",
+   "Reputation names eight industries. Which of the last four releases changed something specific to apartments?",
+   "Their deployment is quoted at 30–45 days. What does your team have to do during that window, and who does it?",
+   "Once Competitive Insights tells you a comp out-responds you, what is the operational change on site?"
+  ],
+  "objections": [
+   {
+    "objection": "Reputation is the enterprise standard; our owners know the name.",
+    "response": "Fair. Ask what the platform does with a finding. Grace Hill's answer is an assignment to a person with a due date and a completion record — that is the part an owner can audit."
+   },
+   {
+    "objection": "They integrate with our PMS already.",
+    "response": "So do we, and integration is table stakes now. The differentiator is whether the reputation signal reaches the person who can fix it."
+   }
+  ],
+  "doNotSay": [
+   "Do not repeat or dispute their '#1 AI-powered' marketing claim on a call — it is unfalsifiable and drags the conversation onto their turf.",
+   "Do not say they 'don't do multifamily' — they publish a real-estate vertical page with named PMS integrations."
+  ],
+  "features": {
+   "rm-monitoring": {
+    "support": "Yes",
+    "note": "Review monitoring across properties with corporate oversight.",
+    "source": "https://reputation.com/solutions/industries/real-estate",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-response-managed": {
+    "support": "Partial",
+    "note": "Real-estate page describes both managed response and on-site team responses under corporate oversight; scope of the managed offering is not detailed publicly.",
+    "source": "https://reputation.com/solutions/industries/real-estate",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-response-ai": {
+    "support": "Yes",
+    "note": "AI-assisted response with pre-approved templates and approval workflows.",
+    "source": "https://reputation.com/solutions/industries/real-estate",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-generation": {
+    "support": "Yes",
+    "note": "Automated SMS/email review requests triggered at lease renewal and post-maintenance via PMS integration.",
+    "source": "https://reputation.com/solutions/industries/real-estate",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-gbp": {
+    "support": "Yes",
+    "note": "Listings and local SEO work covers Google surfaces, maps and 'near me' discovery.",
+    "source": "https://reputation.com/solutions/industries/real-estate",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-listings": {
+    "support": "Yes",
+    "note": "Property details, photos and amenities optimized across listing platforms.",
+    "source": "https://reputation.com/solutions/industries/real-estate",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-social": {
+    "support": "Yes",
+    "note": "Social publishing and response with corporate control and visibility.",
+    "source": "https://reputation.com/solutions/industries/real-estate",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-analytics": {
+    "support": "Yes",
+    "note": "Rep Score by building and region; Reputation IQ natural-language querying across resident data.",
+    "source": "https://reputation.com/solutions/industries/real-estate",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-competitor-bench": {
+    "support": "Yes",
+    "note": "Competitive Insights tracks nearby-community ratings, themes and response times.",
+    "source": "https://reputation.com/solutions/industries/real-estate",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-property-rollup": {
+    "support": "Yes",
+    "note": "Corporate → regional → property hierarchy with portfolio benchmarking and outlier flags.",
+    "source": "https://reputation.com/solutions/industries/real-estate",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Medium",
+   "owner": null,
+   "autoUpdated": false,
+   "pendingReview": []
+  },
+  "news": [],
+  "sources": [
+   {
+    "title": "Reputation — homepage",
+    "url": "https://reputation.com/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Reputation — Real Estate / Property Management",
+    "url": "https://reputation.com/solutions/industries/real-estate",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Reputation Announces $150 Million Growth Funding Round",
+    "url": "https://reputation.com/press-room/reputation-announces-150-million-growth-funding-round-to-drive-dominance-in-the-customer-feedback-market/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Marlin completes significant growth investment in Reputation",
+    "url": "https://www.marlinequity.com/news/marlin-completes-significant-growth-investment-in-reputation/",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 5,
+   "name": "Resolution · The Resolution Layer for Multifamily",
+   "note": "Competes for the resolution layer position, or for one slice of it."
+  },
+  "whenItComesUp": {
+   "why": "A real head-to-head. Enterprise horizontal ORM that names multifamily as a vertical and integrates with Yardi, Entrata and RealPage — expect it on large-portfolio shortlists, and compete on what happens after the reply, not on feature count.",
+   "say": "Acknowledge what they do well, then move the conversation to the ground in 'Win with' — don't open with a feature list.",
+   "avoid": "Do not repeat or dispute their '#1 AI-powered' marketing claim on a call — it is unfalsifiable and drags the conversation onto their turf.",
+   "redirect": "Which of your review responses are drafted by AI and approved by whom — and what is your audit trail if a fair housing complaint cites a public reply?",
+   "derived": true
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name Reputation.com, Rep Score, Reputation IQ, or describe horizontal multi-location orm already in place.",
+    "ask": "Which of your review responses are drafted by AI and approved by whom — and what is your audit trail if a fair housing complaint cites a public reply?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "No training, policy management or mystery-shopping capability — the platform is reviews, listings, social, surveys and analytics.",
+    "ask": "Reputation names eight industries. Which of the last four releases changed something specific to apartments?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the Reputation contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the Reputation agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether Reputation sits on someone else's budget line — that changes who has to agree.",
+    "ask": "Their deployment is quoted at 30–45 days. What does your team have to do during that window, and who does it?"
+   }
+  ],
+  "play": "Sometimes in the room"
+ },
+ {
+  "id": "birdeye",
+  "name": "Birdeye",
+  "aka": [
+   "BirdEye"
+  ],
+  "parent": null,
+  "website": "https://birdeye.com/",
+  "toolCategory": "Horizontal multi-location ORM",
+  "ciCategory": "Direct",
+  "tier": "Tier 2",
+  "verdict": {
+   "stance": "Compete",
+   "line": "Broad horizontal reviews-and-listings platform with a real property-management page and named PMS integrations; the multifamily buyer gets tooling and AI drafting, not a multifamily response team.",
+   "doInstead": null
+  },
+  "overlaps": [
+   {
+    "product": "Reputation Management",
+    "degree": "High"
+   },
+   {
+    "product": "Surveys",
+    "degree": "Partial"
+   },
+   {
+    "product": "Training",
+    "degree": "None"
+   },
+   {
+    "product": "Policies",
+    "degree": "None"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "founded": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "ownership": {
+    "value": "Private, venture-backed",
+    "source": "https://birdeye.com/press/birdeye-raises-60m-series-c-funding-led-by-accel-kkr-to-help-local-businesses-grow/",
+    "verifiedOn": "2026-08-11"
+   },
+   "size": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "funding": {
+    "value": "$60M Series C led by Accel-KKR",
+    "source": "https://birdeye.com/press/birdeye-raises-60m-series-c-funding-led-by-accel-kkr-to-help-local-businesses-grow/",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "pricing": {
+   "value": "Not published. Pricing page is a form gated on number of locations (1-3 through 1000+). States \"Pricing built around outcomes, not seat counts.\"",
+   "source": "https://birdeye.com/pricing/",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "Reviews, listings, social and insights for property management, integrated with the systems operators already run.",
+   "source": "https://birdeye.com/real-estate/property-management/",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "Monitoring and review generation across 200+ sites, with requests sent by text or email.",
+    "source": "https://birdeye.com/real-estate/property-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Named PMS integrations: Yardi, RealPage, Entrata, Rent Manager, AppFolio, Follow Up Boss.",
+    "source": "https://birdeye.com/real-estate/property-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Modular AI product set — Reviews AI, Listings AI, Social AI, Insights AI — in a single platform and contract.",
+    "source": "https://birdeye.com/real-estate/property-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "States 3,400+ properties and communities on the platform.",
+    "source": "https://birdeye.com/real-estate/property-management/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "No managed / done-for-you review response service is described on the property management page or the pricing page; responses are AI-drafted or written by the client's team.",
+    "source": "https://birdeye.com/real-estate/property-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Pricing is not published — the pricing page is a lead form requiring location count and contact details.",
+    "source": "https://birdeye.com/pricing/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "No training, policy management, mystery shopping or multifamily benchmark index in the product set.",
+    "source": "https://birdeye.com/real-estate/property-management/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [
+   "Grace Hill's reputation line is built for multifamily roles and fair housing obligations, and it sits beside the training and policy records that prove the operator acted.",
+   "A recurring review theme in PerformanceHQ can become a course assignment or a shop — Birdeye ends at the dashboard.",
+   "Our benchmarks come from a multifamily dataset, not a cross-industry local-business dataset."
+  ],
+  "askThis": [
+   "Who writes your review responses today — onsite staff, corporate marketing, or a vendor's team?",
+   "If an AI-drafted reply used language a fair housing tester flags, what is your review and approval trail?",
+   "Which of the sites your prospects actually use — ApartmentRatings, Apartments.com, Zillow — does the platform post responses to, not just read from?",
+   "Once a review theme is identified across a region, who gets assigned what, and how do you show it was completed?"
+  ],
+  "objections": [
+   {
+    "objection": "Birdeye is cheaper per location.",
+    "response": "Ask what the per-location price includes and who does the responding. If your onsite teams write the replies, the real cost is their hours and your fair housing exposure, not the license."
+   },
+   {
+    "objection": "They integrate with everything.",
+    "response": "Integration breadth is a horizontal platform's job. Ask which of the integrations trigger a multifamily-specific workflow versus just syncing a location record."
+   }
+  ],
+  "doNotSay": [
+   "Do not say Birdeye 'can't do multifamily' — they publish named PMS integrations, a property management page and case studies.",
+   "Avoid 'the only platform that…' framing here; Birdeye's feature list is broad and a prospect can disprove a superlative in one search."
+  ],
+  "features": {
+   "rm-monitoring": {
+    "support": "Yes",
+    "note": "Monitoring across 200+ review sites.",
+    "source": "https://birdeye.com/real-estate/property-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-response-managed": {
+    "support": "Unknown",
+    "note": "No managed response service is described on the property management or pricing pages.",
+    "source": "https://birdeye.com/real-estate/property-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-response-ai": {
+    "support": "Yes",
+    "note": "\"Use AI to generate tailored, error-free responses with a single click.\"",
+    "source": "https://birdeye.com/real-estate/property-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-generation": {
+    "support": "Yes",
+    "note": "Automated review requests by text or email across 200+ sites.",
+    "source": "https://birdeye.com/real-estate/property-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-gbp": {
+    "support": "Yes",
+    "note": "Listings AI manages Google and other directory profiles.",
+    "source": "https://birdeye.com/real-estate/property-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-listings": {
+    "support": "Yes",
+    "note": "Listings AI creates, updates and manages listings across hundreds of directories.",
+    "source": "https://birdeye.com/real-estate/property-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-social": {
+    "support": "Yes",
+    "note": "Social AI creates and publishes posts across multiple locations from one dashboard.",
+    "source": "https://birdeye.com/real-estate/property-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-analytics": {
+    "support": "Yes",
+    "note": "Insights AI provides sentiment measurement and analysis.",
+    "source": "https://birdeye.com/real-estate/property-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-competitor-bench": {
+    "support": "Yes",
+    "note": "Benchmarking against competitors is described on the property management page; multifamily-specific comp-set construction is not detailed.",
+    "source": "https://birdeye.com/real-estate/property-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-property-rollup": {
+    "support": "Yes",
+    "note": "Portfolio-wide management across many locations from a central dashboard.",
+    "source": "https://birdeye.com/real-estate/property-management/",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Medium",
+   "owner": null,
+   "autoUpdated": false,
+   "pendingReview": []
+  },
+  "news": [],
+  "sources": [
+   {
+    "title": "Birdeye — Property Management",
+    "url": "https://birdeye.com/real-estate/property-management/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Birdeye — Pricing",
+    "url": "https://birdeye.com/pricing/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Birdeye Raises $60M Series C Led by Accel-KKR",
+    "url": "https://birdeye.com/press/birdeye-raises-60m-series-c-funding-led-by-accel-kkr-to-help-local-businesses-grow/",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 5,
+   "name": "Resolution · The Resolution Layer for Multifamily",
+   "note": "Competes for the resolution layer position, or for one slice of it."
+  },
+  "whenItComesUp": {
+   "why": "A real head-to-head. Broad horizontal reviews-and-listings platform with a real property-management page and named PMS integrations; the multifamily buyer gets tooling and AI drafting, not a multifamily response team.",
+   "say": "Acknowledge what they do well, then move the conversation to the ground in 'Win with' — don't open with a feature list.",
+   "avoid": "Do not say Birdeye 'can't do multifamily' — they publish named PMS integrations, a property management page and case studies.",
+   "redirect": "Who writes your review responses today — onsite staff, corporate marketing, or a vendor's team?",
+   "derived": true
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name BirdEye, or describe horizontal multi-location orm already in place.",
+    "ask": "Who writes your review responses today — onsite staff, corporate marketing, or a vendor's team?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "No managed / done-for-you review response service is described on the property management page or the pricing page; responses are AI-drafted or written by the client's team.",
+    "ask": "If an AI-drafted reply used language a fair housing tester flags, what is your review and approval trail?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the Birdeye contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the Birdeye agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether Birdeye sits on someone else's budget line — that changes who has to agree.",
+    "ask": "Which of the sites your prospects actually use — ApartmentRatings, Apartments.com, Zillow — does the platform post responses to, not just read from?"
+   }
+  ],
+  "play": "Sometimes in the room"
+ },
+ {
+  "id": "soci",
+  "name": "SOCi",
+  "aka": [
+   "SOCi Inc.",
+   "Genius Reputation Agent",
+   "meetsoci.com"
+  ],
+  "parent": null,
+  "website": "https://www.soci.ai/",
+  "toolCategory": "Local SEO and listings platform",
+  "ciCategory": "Direct",
+  "tier": "Tier 2",
+  "verdict": {
+   "stance": "Compete",
+   "line": "Local-marketing platform reframed as AI agents, with a real property-management vertical and named multifamily logos — it wins the marketing conversation, so move the conversation to operations.",
+   "doInstead": null
+  },
+  "overlaps": [
+   {
+    "product": "Reputation Management",
+    "degree": "High"
+   },
+   {
+    "product": "Surveys",
+    "degree": "Partial"
+   },
+   {
+    "product": "Training",
+    "degree": "None"
+   },
+   {
+    "product": "Policies",
+    "degree": "None"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": "San Diego, California",
+    "source": "https://www.jmi.com/soci-raises-120m-accelerates-vision-of-redefining-marketing-software/",
+    "verifiedOn": "2026-08-11"
+   },
+   "founded": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "ownership": {
+    "value": "Private, venture-backed",
+    "source": "https://www.jmi.com/soci-raises-120m-accelerates-vision-of-redefining-marketing-software/",
+    "verifiedOn": "2026-08-11"
+   },
+   "size": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "funding": {
+    "value": "$120M round led by JMI Equity; earlier $80M Series D also led by JMI (Jan 2021)",
+    "source": "https://www.jmi.com/soci-raises-120m-accelerates-vision-of-redefining-marketing-software/",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "pricing": {
+   "value": "Not published on the site.",
+   "source": "https://www.soci.ai/",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "An \"agentic AI workforce\" of Genius Agents for Local Search, Reputation and Social, deployed across every location of a multi-location brand.",
+   "source": "https://www.soci.ai/",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "Property Management is one of six named industry verticals with a dedicated solution page.",
+    "source": "https://www.soci.ai/industries/property-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Names multifamily operators as customers including Willow Bridge, Bridge Property Management, SunRidge Management Group and Anchor Pacifica; states 5,000 properties on the platform.",
+    "source": "https://www.soci.ai/industries/property-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Reputation agent responds across Google, Zillow, Caring.com and Apartments.com with either full automation or an approval workflow.",
+    "source": "https://www.soci.ai/industries/property-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Covers paid social (Ads & Boost) and SEO local pages, which pure ORM vendors do not.",
+    "source": "https://www.soci.ai/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "Review generation / solicitation is not described on the property management solution page.",
+    "source": "https://www.soci.ai/industries/property-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "No managed human review-response service is described; responses come from a trained AI agent with optional approval workflow.",
+    "source": "https://www.soci.ai/industries/property-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "No pricing is published on the site.",
+    "source": "https://www.soci.ai/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "No training, policy management or mystery-shopping capability — the platform is local search, reputation, social and ads.",
+    "source": "https://www.soci.ai/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [
+   "SOCi is bought by marketing; PerformanceHQ is bought by operations and marketing together, which is where the resident-experience budget actually sits.",
+   "Grace Hill connects a review theme to the training, policy and shop record that shows the operator responded — a marketing agent stops at the post.",
+   "Fair housing language review in our workflow is grounded in the same compliance content library the onsite team is trained on."
+  ],
+  "askThis": [
+   "If the reputation agent auto-publishes a reply, who at your company is accountable for the fair housing language in it?",
+   "How does a review-driven insight get from marketing to the regional who owns the property?",
+   "Which review sites are you actually able to respond on through SOCi, and which are read-only?",
+   "How are you generating new reviews today — is that inside SOCi or a separate tool?"
+  ],
+  "objections": [
+   {
+    "objection": "SOCi already handles our social and listings, adding reviews is trivial.",
+    "response": "Consolidating publishing makes sense. Ask a different question: when reviews say the maintenance response time is the problem, does anything happen outside marketing?"
+   },
+   {
+    "objection": "Their AI agents respond automatically at scale.",
+    "response": "Speed is real. So is exposure. Ask who reviews auto-published language, how often the model is retrained on your brand rules, and what your audit trail looks like."
+   }
+  ],
+  "doNotSay": [
+   "Do not claim SOCi has no multifamily customers — they publish named operator logos.",
+   "Do not assert their AI replies produce fair housing violations; there is no public source. Raise it as a governance question instead.",
+   "Avoid 'the only' claims about connecting reputation to operations — describe the specific PerformanceHQ workflow instead."
+  ],
+  "features": {
+   "rm-monitoring": {
+    "support": "Yes",
+    "note": "Genius Reputation Agent monitors reviews across Google, Zillow, Caring.com and Apartments.com.",
+    "source": "https://www.soci.ai/industries/property-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-response-managed": {
+    "support": "Unknown",
+    "note": "No human managed-response service is described; the offer is an AI agent with optional approval workflow.",
+    "source": "https://www.soci.ai/industries/property-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-response-ai": {
+    "support": "Yes",
+    "note": "\"Trained AI with brand-safe responses that learn from each response,\" full automation or approval workflow.",
+    "source": "https://www.soci.ai/industries/property-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-generation": {
+    "support": "Unknown",
+    "note": "Not described on the property management page.",
+    "source": "https://www.soci.ai/industries/property-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-gbp": {
+    "support": "Yes",
+    "note": "Genius Local Search Agent auto-generates Google Posts with floor plans, pricing and availability and maintains profile data.",
+    "source": "https://www.soci.ai/industries/property-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-listings": {
+    "support": "Yes",
+    "note": "Listings management across platforms is a core module.",
+    "source": "https://www.soci.ai/industries/property-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-social": {
+    "support": "Yes",
+    "note": "Genius Social Agent creates and publishes hyperlocal content and engages with comments.",
+    "source": "https://www.soci.ai/industries/property-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-analytics": {
+    "support": "Yes",
+    "note": "Sentiment analysis is named as a reputation capability.",
+    "source": "https://www.soci.ai/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-competitor-bench": {
+    "support": "Partial",
+    "note": "Described as \"constant monitoring of keywords, competitor shifts, and engagement signals\"; a multifamily comp-set benchmark is not detailed.",
+    "source": "https://www.soci.ai/industries/property-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-property-rollup": {
+    "support": "Yes",
+    "note": "Customizable reporting for board-level and regional-manager audiences across the portfolio.",
+    "source": "https://www.soci.ai/industries/property-management/",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Medium",
+   "owner": null,
+   "autoUpdated": false,
+   "pendingReview": []
+  },
+  "news": [],
+  "sources": [
+   {
+    "title": "SOCi — homepage",
+    "url": "https://www.soci.ai/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "SOCi — Property Management",
+    "url": "https://www.soci.ai/industries/property-management/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "SOCi Raises $120M — JMI Equity",
+    "url": "https://www.jmi.com/soci-raises-120m-accelerates-vision-of-redefining-marketing-software/",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 5,
+   "name": "Resolution · The Resolution Layer for Multifamily",
+   "note": "Competes for the resolution layer position, or for one slice of it."
+  },
+  "whenItComesUp": {
+   "why": "A real head-to-head. Local-marketing platform reframed as AI agents, with a real property-management vertical and named multifamily logos — it wins the marketing conversation, so move the conversation to operations.",
+   "say": "Acknowledge what they do well, then move the conversation to the ground in 'Win with' — don't open with a feature list.",
+   "avoid": "Do not claim SOCi has no multifamily customers — they publish named operator logos.",
+   "redirect": "If the reputation agent auto-publishes a reply, who at your company is accountable for the fair housing language in it?",
+   "derived": true
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name SOCi Inc., Genius Reputation Agent, meetsoci.com, or describe local seo and listings platform already in place.",
+    "ask": "If the reputation agent auto-publishes a reply, who at your company is accountable for the fair housing language in it?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "Review generation / solicitation is not described on the property management solution page.",
+    "ask": "How does a review-driven insight get from marketing to the regional who owns the property?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the SOCi contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the SOCi agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether SOCi sits on someone else's budget line — that changes who has to agree.",
+    "ask": "Which review sites are you actually able to respond on through SOCi, and which are read-only?"
+   }
+  ],
+  "play": "Sometimes in the room"
+ },
+ {
+  "id": "respage",
+  "name": "Respage",
+  "aka": [
+   "Respage Reputation Management",
+   "Review Booster",
+   "OccupancyMAX"
+  ],
+  "parent": "4 Walls, Inc.",
+  "website": "https://respage.com/",
+  "toolCategory": "Multifamily-specific ORM",
+  "ciCategory": "Direct",
+  "tier": "Tier 2",
+  "verdict": {
+   "stance": "Compete",
+   "line": "Multifamily marketing shop that sells both AI drafting and a US-based, fair-housing-certified team that writes the replies — the managed-service option is the part that beats us on convenience.",
+   "doInstead": null
+  },
+  "overlaps": [
+   {
+    "product": "Reputation Management",
+    "degree": "High"
+   },
+   {
+    "product": "Surveys",
+    "degree": "None"
+   },
+   {
+    "product": "Training",
+    "degree": "None"
+   },
+   {
+    "product": "Policies",
+    "degree": "None"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "founded": {
+    "value": "2005 (launched as a social media platform); site states 20 years in business",
+    "source": "https://respage.com/about-us/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ownership": {
+    "value": "Operates under 4 Walls, Inc.",
+    "source": "https://respage.com/about-us/",
+    "verifiedOn": "2026-08-11"
+   },
+   "size": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "funding": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   }
+  },
+  "pricing": {
+   "value": "Not published for reputation management. Pricing page states \"Prices vary based on the number of properties in your portfolio\" and requires a demo.",
+   "source": "https://respage.com/pricing/",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "Multifamily marketing and leasing technology — SEO, PPC, social, reputation management and chatbot/AI leasing across a lead-to-lease platform; states 10,000+ apartment communities served.",
+   "source": "https://respage.com/about-us/",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "Offers a genuine managed option: a \"US-based, Fair Housing-certified reputation team\" that monitors and responds, typically within 24 hours.",
+    "source": "https://respage.com/our-solutions/reputation-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "AI dashboard generates a \"fair-housing-aware, corporate-approved draft response in seconds.\"",
+    "source": "https://respage.com/our-solutions/reputation-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Named PMS integrations: AMSI, AppFolio, Knock, Entrata, MRI Software, RealPage and RentCafe.",
+    "source": "https://respage.com/our-solutions/reputation-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Review Booster automates review requests from satisfied residents.",
+    "source": "https://respage.com/our-solutions/reputation-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Reputation is bundled with SEO, PPC, websites and AI leasing, so one vendor can cover the whole marketing stack.",
+    "source": "https://respage.com/our-solutions/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "Competitor benchmarking is not described on the reputation management solution page.",
+    "source": "https://respage.com/our-solutions/reputation-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Portfolio rollup is not described as a named capability on the reputation management solution page.",
+    "source": "https://respage.com/our-solutions/reputation-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "No pricing is published for reputation management; the pricing page defers to a demo.",
+    "source": "https://respage.com/pricing/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "No resident survey, training, policy or mystery-shopping line in the solution set.",
+    "source": "https://respage.com/our-solutions/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [
+   "Grace Hill pairs reputation with the survey program and the training and policy records, so the operator can show an owner what changed, not just what was said.",
+   "Our reputation view rolls up to region and portfolio inside the same platform the workforce data lives in.",
+   "Marketing agencies optimize the reply; PerformanceHQ optimizes the underlying resident experience that produced the review."
+  ],
+  "askThis": [
+   "Is your response team writing replies for you, or drafting for your onsite staff to approve?",
+   "How do you compare a property's reputation to its actual comp set today?",
+   "What does your regional see when they want reputation across 40 properties on one screen?",
+   "When reviews repeatedly cite the same onsite behavior, what training or policy step follows?"
+  ],
+  "objections": [
+   {
+    "objection": "Respage already does our marketing, so bundling reputation is simpler.",
+    "response": "Bundling with marketing is convenient. Ask where the operational follow-through lives — Grace Hill's version puts the reputation signal next to the training assignment and the policy acknowledgment."
+   },
+   {
+    "objection": "Their team writes our responses, that's less work for us.",
+    "response": "Agreed, that is a real advantage of managed response. Compare it side by side with what happens after the reply, and price both together."
+   }
+  ],
+  "doNotSay": [
+   "Do not disparage their fair housing certification claim — it is stated publicly on their site.",
+   "Do not say they 'have no benchmarking' — say it is not described on their public product page and ask the prospect to confirm."
+  ],
+  "features": {
+   "rm-monitoring": {
+    "support": "Yes",
+    "note": "Consolidates Google Business Profile, Yelp, Facebook, Apartments.com \"and more.\"",
+    "source": "https://respage.com/our-solutions/reputation-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-response-managed": {
+    "support": "Yes",
+    "note": "US-based, Fair Housing-certified reputation team manages monitoring and responses, typically within 24 hours.",
+    "source": "https://respage.com/our-solutions/reputation-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-response-ai": {
+    "support": "Yes",
+    "note": "AI dashboard drafts fair-housing-aware, corporate-approved responses.",
+    "source": "https://respage.com/our-solutions/reputation-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-generation": {
+    "support": "Yes",
+    "note": "Review Booster automates review requests from satisfied residents.",
+    "source": "https://respage.com/our-solutions/reputation-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-gbp": {
+    "support": "Partial",
+    "note": "Google Business Profile reviews are monitored and responded to; full profile/listing management is not detailed.",
+    "source": "https://respage.com/our-solutions/reputation-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-listings": {
+    "support": "Unknown",
+    "note": "Listings management is not described on the reputation management page.",
+    "source": "https://respage.com/our-solutions/reputation-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-social": {
+    "support": "Yes",
+    "note": "Social media is a named Respage solution alongside SEO and PPC.",
+    "source": "https://respage.com/our-solutions/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-analytics": {
+    "support": "Partial",
+    "note": "Reporting covers reviews by property, response status, star ratings, platform breakdown and sentiment trends; topic-level analytics are not detailed.",
+    "source": "https://respage.com/our-solutions/reputation-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-competitor-bench": {
+    "support": "Unknown",
+    "note": "Not described on the reputation management page.",
+    "source": "https://respage.com/our-solutions/reputation-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-property-rollup": {
+    "support": "Partial",
+    "note": "Reporting is filterable by property; a portfolio/region rollup hierarchy is not described.",
+    "source": "https://respage.com/our-solutions/reputation-management/",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Medium",
+   "owner": null,
+   "autoUpdated": false,
+   "pendingReview": []
+  },
+  "news": [],
+  "sources": [
+   {
+    "title": "Respage — Reputation Management",
+    "url": "https://respage.com/our-solutions/reputation-management/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Respage — Pricing",
+    "url": "https://respage.com/pricing/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Respage — About Us",
+    "url": "https://respage.com/about-us/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Respage — Our Solutions",
+    "url": "https://respage.com/our-solutions/",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 5,
+   "name": "Resolution · The Resolution Layer for Multifamily",
+   "note": "Competes for the resolution layer position, or for one slice of it."
+  },
+  "whenItComesUp": {
+   "why": "A real head-to-head. Multifamily marketing shop that sells both AI drafting and a US-based, fair-housing-certified team that writes the replies — the managed-service option is the part that beats us on convenience.",
+   "say": "Acknowledge what they do well, then move the conversation to the ground in 'Win with' — don't open with a feature list.",
+   "avoid": "Do not disparage their fair housing certification claim — it is stated publicly on their site.",
+   "redirect": "Is your response team writing replies for you, or drafting for your onsite staff to approve?",
+   "derived": true
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name Respage Reputation Management, Review Booster, OccupancyMAX, or describe multifamily-specific orm already in place.",
+    "ask": "Is your response team writing replies for you, or drafting for your onsite staff to approve?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "Competitor benchmarking is not described on the reputation management solution page.",
+    "ask": "How do you compare a property's reputation to its actual comp set today?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the Respage contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the Respage agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether Respage sits on someone else's budget line — that changes who has to agree.",
+    "ask": "What does your regional see when they want reputation across 40 properties on one screen?"
+   }
+  ],
+  "play": "Sometimes in the room"
+ },
+ {
+  "id": "opiniion",
+  "name": "Opiniion",
+  "aka": [
+   "Opiniion Inc."
+  ],
+  "parent": null,
+  "website": "https://opiniion.com/",
+  "toolCategory": "Multifamily-specific ORM",
+  "ciCategory": "Direct",
+  "tier": "Tier 2",
+  "verdict": {
+   "stance": "Partial overlap",
+   "line": "Multifamily resident-feedback platform whose center of gravity is review generation and automation, sold at published entry pricing — it shows up as the cheap line item, not as the reputation program.",
+   "doInstead": null
+  },
+  "overlaps": [
+   {
+    "product": "Reputation Management",
+    "degree": "High"
+   },
+   {
+    "product": "Surveys",
+    "degree": "Partial"
+   },
+   {
+    "product": "Training",
+    "degree": "None"
+   },
+   {
+    "product": "Policies",
+    "degree": "None"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": "300 S 1350 E, 3rd Floor, Lehi, UT 84043",
+    "source": "https://opiniion.com/resources/frequently-asked-questions/",
+    "verifiedOn": "2026-08-11"
+   },
+   "founded": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "ownership": {
+    "value": "Private",
+    "source": "https://www.crunchbase.com/organization/opiniion-inc",
+    "verifiedOn": "2026-08-11"
+   },
+   "size": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "funding": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   }
+  },
+  "pricing": {
+   "value": "Published entry points: three tiers (Build, Connect, Scale), each with a $99/month minimum, plus a one-time $249 per-property setup fee. Full per-property pricing is quoted after a demo.",
+   "source": "https://www.opiniion.com/pricing",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "AI-powered resident feedback platform that aggregates reviews, surveys, maintenance requests and leasing notes into one dashboard for multifamily, student housing and senior living.",
+   "source": "https://www.opiniion.com/",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "Publishes entry pricing — $99/month tier minimums and a $249 per-property setup fee — which few vendors in this category do.",
+    "source": "https://www.opiniion.com/pricing",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Property teams control which review sites residents are directed to and at what distribution weight.",
+    "source": "https://opiniion.com/resources/frequently-asked-questions/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Can run \"fully automatically — collecting feedback, generating reviews, sending reports, and even responding to reviews via AI.\"",
+    "source": "https://opiniion.com/resources/frequently-asked-questions/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Covers student housing and senior living alongside conventional multifamily.",
+    "source": "https://www.opiniion.com/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "No managed human review-response service is described; responses are AI-generated or team-written.",
+    "source": "https://opiniion.com/resources/frequently-asked-questions/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "The FAQ does not name specific PMS integration partners, deferring to a separate integrations page.",
+    "source": "https://opiniion.com/resources/frequently-asked-questions/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Competitor benchmarking is not described on the homepage or FAQ.",
+    "source": "https://www.opiniion.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "No training, policy management or mystery-shopping line.",
+    "source": "https://www.opiniion.com/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [
+   "Grace Hill's survey program is benchmarked against a multifamily dataset, so a score has a comparison set behind it rather than only an internal trend.",
+   "Reputation in PerformanceHQ connects to training, policy and shopping data, so the operator can act on a theme instead of only observing it.",
+   "Governance matters at portfolio scale — role-based approval on public replies is part of the platform, not an option to switch on."
+  ],
+  "askThis": [
+   "If review responses can post fully automatically, who approves the language before it goes live on a fair-housing-sensitive complaint?",
+   "How are you steering which residents get asked for a review, and does that survive an owner's scrutiny?",
+   "What do you compare your scores against — your own history, or a comp set?",
+   "At $99 minimums per tier plus $249 per property, what does the real number look like at your unit count?"
+  ],
+  "objections": [
+   {
+    "objection": "Opiniion is a fraction of the price.",
+    "response": "It is priced as a feedback tool, and that is what it is. Compare it against the whole job — benchmarked surveys, response governance, and the training and policy follow-through that changes the score."
+   },
+   {
+    "objection": "We just need more reviews.",
+    "response": "Volume moves the average for a quarter. Ask what happens to the underlying complaint themes; that is what keeps the average up."
+   }
+  ],
+  "doNotSay": [
+   "Do not suggest their review solicitation is review gating or non-compliant — there is no public source and the claim carries legal risk.",
+   "Do not quote a total price; the published figures are minimums and a setup fee, not a full quote."
+  ],
+  "features": {
+   "rm-monitoring": {
+    "support": "Yes",
+    "note": "Monitors reviews and aggregates feedback across sources into one dashboard.",
+    "source": "https://www.opiniion.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-response-managed": {
+    "support": "Unknown",
+    "note": "No human managed-response service is described in public materials.",
+    "source": "https://opiniion.com/resources/frequently-asked-questions/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-response-ai": {
+    "support": "Yes",
+    "note": "Platform can respond to reviews via AI without daily involvement.",
+    "source": "https://opiniion.com/resources/frequently-asked-questions/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-generation": {
+    "support": "Yes",
+    "note": "Automated review invitations; teams control site targeting and distribution weight (Google, ApartmentRatings and others).",
+    "source": "https://opiniion.com/resources/frequently-asked-questions/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-gbp": {
+    "support": "Partial",
+    "note": "Integrates with Google Business profiles; full GBP content management is not detailed.",
+    "source": "https://www.opiniion.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-listings": {
+    "support": "Partial",
+    "note": "Integrations with listing services are named; a listings-management product is not detailed.",
+    "source": "https://www.opiniion.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-social": {
+    "support": "Partial",
+    "note": "Social media integrations are named; publishing capability is not described.",
+    "source": "https://www.opiniion.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-analytics": {
+    "support": "Yes",
+    "note": "Sentiment analysis and pattern detection across reviews, surveys, maintenance requests and leasing notes.",
+    "source": "https://www.opiniion.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-competitor-bench": {
+    "support": "Unknown",
+    "note": "Homepage references benchmarking properties; comparison against external competitors is not described.",
+    "source": "https://www.opiniion.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-property-rollup": {
+    "support": "Yes",
+    "note": "Single-login portfolio dashboard across communities.",
+    "source": "https://www.opiniion.com/",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Medium",
+   "owner": null,
+   "autoUpdated": false,
+   "pendingReview": []
+  },
+  "news": [],
+  "sources": [
+   {
+    "title": "Opiniion — homepage",
+    "url": "https://www.opiniion.com/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Opiniion — Pricing",
+    "url": "https://www.opiniion.com/pricing",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Opiniion — FAQ",
+    "url": "https://opiniion.com/resources/frequently-asked-questions/",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 5,
+   "name": "Resolution · The Resolution Layer for Multifamily",
+   "note": "Competes for the resolution layer position, or for one slice of it."
+  },
+  "whenItComesUp": {
+   "why": "Overlaps in part, not in whole. Multifamily resident-feedback platform whose center of gravity is review generation and automation, sold at published entry pricing — it shows up as the cheap line item, not as the reputation program.",
+   "say": "Concede the part they genuinely own, then be specific about the part they don't. Partial overlap is where reps over-claim and lose credibility.",
+   "avoid": "Do not suggest their review solicitation is review gating or non-compliant — there is no public source and the claim carries legal risk.",
+   "redirect": "If review responses can post fully automatically, who approves the language before it goes live on a fair-housing-sensitive complaint?",
+   "derived": true
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name Opiniion Inc., or describe multifamily-specific orm already in place.",
+    "ask": "If review responses can post fully automatically, who approves the language before it goes live on a fair-housing-sensitive complaint?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "No managed human review-response service is described; responses are AI-generated or team-written.",
+    "ask": "How are you steering which residents get asked for a review, and does that survive an owner's scrutiny?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the Opiniion contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the Opiniion agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether Opiniion sits on someone else's budget line — that changes who has to agree.",
+    "ask": "What do you compare your scores against — your own history, or a comp set?"
+   }
+  ],
+  "play": "Sometimes in the room"
+ },
+ {
+  "id": "entrata-reputationadvisor",
+  "name": "Entrata ReputationAdvisor",
+  "aka": [
+   "ReputationAdvisor",
+   "Entrata Reputation Management",
+   "ELI"
+  ],
+  "parent": "Entrata",
+  "website": "https://www.entrata.com/products/reputationadvisor",
+  "toolCategory": "Reputation module inside a PMS",
+  "ciCategory": "Replacement",
+  "tier": "Tier 2",
+  "verdict": {
+   "stance": "Partial overlap",
+   "line": "A reputation module inside the PMS your buyer already pays for — it wins on procurement friction, so compete on managed response, benchmarking and what happens after the reply.",
+   "doInstead": null
+  },
+  "overlaps": [
+   {
+    "product": "Reputation Management",
+    "degree": "High"
+   },
+   {
+    "product": "Surveys",
+    "degree": "Partial"
+   },
+   {
+    "product": "Training",
+    "degree": "Partial"
+   },
+   {
+    "product": "Policies",
+    "degree": "None"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": "Lehi, Utah",
+    "source": "https://www.prnewswire.com/news-releases/entrata-raises-507m-led-by-silver-lake-ryan-smith-and-todd-pedersen-301327087.html",
+    "verifiedOn": "2026-08-11"
+   },
+   "founded": {
+    "value": "2003 (18 years bootstrapped as of the 2021 raise)",
+    "source": "https://www.forbes.com/sites/alexkonrad/2021/07/07/utah-unicorn-entrata-raises-507-million-after-18-years-bootstrapped/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ownership": {
+    "value": "Private",
+    "source": "https://www.prnewswire.com/news-releases/entrata-raises-507m-led-by-silver-lake-ryan-smith-and-todd-pedersen-301327087.html",
+    "verifiedOn": "2026-08-11"
+   },
+   "size": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "funding": {
+    "value": "$507M round led by Silver Lake with Ryan Smith and Todd Pedersen (announced July 2021)",
+    "source": "https://www.prnewswire.com/news-releases/entrata-raises-507m-led-by-silver-lake-ryan-smith-and-todd-pedersen-301327087.html",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "pricing": {
+   "value": "Not published for ReputationAdvisor.",
+   "source": "https://www.entrata.com/products/reputationadvisor",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "A reputation module inside the Entrata platform that aggregates reviews and uses Entrata Layered Intelligence (ELI) to generate responses in one click.",
+   "source": "https://www.entrata.com/products/reputationadvisor",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "Aggregates reviews from Yelp, Google, ApartmentRatings.com \"and other sites\" with updates within 24 hours.",
+    "source": "https://www.entrata.com/products/reputationadvisor",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "ELI generates review responses with a single click, inside the system onsite teams already work in.",
+    "source": "https://www.entrata.com/products/reputationadvisor",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Multi-property reporting with portfolio-wide trend analysis and per-property performance.",
+    "source": "https://www.entrata.com/products/reputationadvisor",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Social publishing with scheduling and permission controls is part of the module.",
+    "source": "https://www.entrata.com/products/reputationadvisor",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "No new vendor, no new login, no separate integration project.",
+    "source": "https://www.entrata.com/products/reputationadvisor",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "Review generation / solicitation is not described on the ReputationAdvisor product page.",
+    "source": "https://www.entrata.com/products/reputationadvisor",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Google Business Profile management and listings management are not described on the product page.",
+    "source": "https://www.entrata.com/products/reputationadvisor",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Competitor benchmarking is not described on the product page.",
+    "source": "https://www.entrata.com/products/reputationadvisor",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "No managed human response service is described; responses are AI-drafted or team-written.",
+    "source": "https://www.entrata.com/products/reputationadvisor",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Pricing is not published.",
+    "source": "https://www.entrata.com/products/reputationadvisor",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [
+   "A PMS module reports on the properties inside that PMS; operators running mixed PMS estates get one reputation view from Grace Hill across all of them.",
+   "PerformanceHQ links a reputation theme to a training assignment, a policy acknowledgment and a shop result, and keeps the completion record.",
+   "Benchmarking against a multifamily comp set is part of what we sell, not something the operator has to assemble."
+  ],
+  "askThis": [
+   "Do all your properties run on Entrata, or do you have acquisitions on another PMS?",
+   "If you leave Entrata, what happens to your reputation history and your response archive?",
+   "Who is generating new reviews today — is that inside ReputationAdvisor or a separate tool you also pay for?",
+   "How do you know whether your response times beat the comps in your submarket?",
+   "When a review theme is consistent across a region, what training or policy step is triggered, and where is that recorded?"
+  ],
+  "objections": [
+   {
+    "objection": "It's already included in what we pay Entrata.",
+    "response": "Then use it for monitoring. The gap is generation, benchmarking and follow-through — price those separately and see whether the bundled module actually covers them."
+   },
+   {
+    "objection": "We don't want another login.",
+    "response": "Reasonable. Note that most operators end up with a separate tool for review generation and listings anyway; the question is how many logins you end up with either way."
+   }
+  ],
+  "doNotSay": [
+   "Do not state that Entrata 'cannot' do listings or benchmarking — say it is not described on their public product page and confirm with the prospect.",
+   "Avoid superlatives about cross-PMS coverage; describe the specific portfolio scenario instead."
+  ],
+  "features": {
+   "rm-monitoring": {
+    "support": "Yes",
+    "note": "Yelp, Google, ApartmentRatings.com and other sites, updated within 24 hours.",
+    "source": "https://www.entrata.com/products/reputationadvisor",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-response-managed": {
+    "support": "Unknown",
+    "note": "Not described on the product page.",
+    "source": "https://www.entrata.com/products/reputationadvisor",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-response-ai": {
+    "support": "Yes",
+    "note": "Entrata Layered Intelligence (ELI) generates responses with a single click.",
+    "source": "https://www.entrata.com/products/reputationadvisor",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-generation": {
+    "support": "Unknown",
+    "note": "Not described on the product page.",
+    "source": "https://www.entrata.com/products/reputationadvisor",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-gbp": {
+    "support": "Unknown",
+    "note": "Google reviews are aggregated; GBP profile management is not described.",
+    "source": "https://www.entrata.com/products/reputationadvisor",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-listings": {
+    "support": "Unknown",
+    "note": "Not described on the product page.",
+    "source": "https://www.entrata.com/products/reputationadvisor",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-social": {
+    "support": "Yes",
+    "note": "Scheduling and planning posts across social platforms with permission controls.",
+    "source": "https://www.entrata.com/products/reputationadvisor",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-analytics": {
+    "support": "Partial",
+    "note": "Dashboard identifies strengths and weaknesses and classifies sentiment on customizable criteria; topic modeling is not described.",
+    "source": "https://www.entrata.com/products/reputationadvisor",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-competitor-bench": {
+    "support": "Unknown",
+    "note": "Not described on the product page.",
+    "source": "https://www.entrata.com/products/reputationadvisor",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-property-rollup": {
+    "support": "Yes",
+    "note": "Portfolio-wide trend analysis plus individual property performance tracking.",
+    "source": "https://www.entrata.com/products/reputationadvisor",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Medium",
+   "owner": null,
+   "autoUpdated": false,
+   "pendingReview": []
+  },
+  "news": [],
+  "sources": [
+   {
+    "title": "Entrata — ReputationAdvisor",
+    "url": "https://www.entrata.com/products/reputationadvisor",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Entrata Raises $507M Led by Silver Lake",
+    "url": "https://www.prnewswire.com/news-releases/entrata-raises-507m-led-by-silver-lake-ryan-smith-and-todd-pedersen-301327087.html",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Forbes — Entrata raises $507M after 18 years bootstrapped",
+    "url": "https://www.forbes.com/sites/alexkonrad/2021/07/07/utah-unicorn-entrata-raises-507-million-after-18-years-bootstrapped/",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 5,
+   "name": "Resolution · The Resolution Layer for Multifamily",
+   "note": "Competes for the resolution layer position, or for one slice of it."
+  },
+  "whenItComesUp": {
+   "why": "Overlaps in part, not in whole. A reputation module inside the PMS your buyer already pays for — it wins on procurement friction, so compete on managed response, benchmarking and what happens after the reply.",
+   "say": "Concede the part they genuinely own, then be specific about the part they don't. Partial overlap is where reps over-claim and lose credibility.",
+   "avoid": "Do not state that Entrata 'cannot' do listings or benchmarking — say it is not described on their public product page and confirm with the prospect.",
+   "redirect": "Do all your properties run on Entrata, or do you have acquisitions on another PMS?",
+   "derived": true
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name ReputationAdvisor, Entrata Reputation Management, ELI, or describe reputation module inside a pms already in place.",
+    "ask": "Do all your properties run on Entrata, or do you have acquisitions on another PMS?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "Review generation / solicitation is not described on the ReputationAdvisor product page.",
+    "ask": "If you leave Entrata, what happens to your reputation history and your response archive?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the Entrata ReputationAdvisor contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the Entrata ReputationAdvisor agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether Entrata ReputationAdvisor sits on someone else's budget line — that changes who has to agree.",
+    "ask": "Who is generating new reviews today — is that inside ReputationAdvisor or a separate tool you also pay for?"
+   }
+  ],
+  "play": "Sometimes in the room"
+ },
+ {
+  "id": "yardi-rentcafe-reputation-management",
+  "name": "RentCafe Reputation Management",
+  "aka": [
+   "REACH by RentCafe Reputation Management",
+   "Yardi Reputation Management",
+   "RentCafe Reputation Management Service and Platform"
+  ],
+  "parent": "Yardi Systems",
+  "website": "https://www.yardi.com/",
+  "toolCategory": "Reputation module inside a PMS",
+  "ciCategory": "Replacement",
+  "tier": "Tier 2",
+  "verdict": {
+   "stance": "Partial overlap",
+   "line": "Yardi's reputation add-on for RentCafe clients — cheap to add, but its published terms name only Google, Microsoft and Facebook, and it lives inside one PMS.",
+   "doInstead": null
+  },
+  "overlaps": [
+   {
+    "product": "Reputation Management",
+    "degree": "High"
+   },
+   {
+    "product": "Surveys",
+    "degree": "Partial"
+   },
+   {
+    "product": "Training",
+    "degree": "Partial"
+   },
+   {
+    "product": "Policies",
+    "degree": "None"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "founded": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "ownership": {
+    "value": "Private",
+    "source": "https://www.yardi.com/blog/marketing/reputation-management/25582.html",
+    "verifiedOn": "2026-08-11"
+   },
+   "size": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "funding": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   }
+  },
+  "pricing": {
+   "value": "Not published.",
+   "source": "https://resources.yardi.com/legal/rentcafe/rentcafe-reputation-management-service-and-platform-terms-and-conditions/",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "Marketed as RentCafe Reputation Management Service and Platform; historically branded under the REACH by RentCafe marketing services line. Both names remain in current Yardi materials.",
+   "source": "https://resources.yardi.com/legal/rentcafe/rentcafe-reputation-management-service-and-platform-terms-and-conditions/",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "Sold to an existing Yardi/RentCafe client base as an add-on, with no new vendor onboarding.",
+    "source": "https://resources.yardi.com/legal/rentcafe/rentcafe-reputation-management-service-and-platform-terms-and-conditions/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Terms distinguish a Service tier from a Platform tier, indicating a done-for-you option in which Yardi drafts responses for client review and approval.",
+    "source": "https://resources.yardi.com/legal/rentcafe/rentcafe-reputation-management-service-and-platform-terms-and-conditions/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Sits alongside the wider REACH by RentCafe marketing services line (SEO, PPC, social).",
+    "source": "https://www.yardi.com/resources/reach-by-rentcafe-reputation-management-brochure/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "The terms and conditions name only Google, Microsoft and Facebook as covered platforms, with other review platforms possible over time — no comprehensive site list is published.",
+    "source": "https://resources.yardi.com/legal/rentcafe/rentcafe-reputation-management-service-and-platform-terms-and-conditions/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "The terms disclaim \"any warranties about the effectiveness\" of the service and provide it \"as is,\" with no guarantee of continuous operation or availability.",
+    "source": "https://resources.yardi.com/legal/rentcafe/rentcafe-reputation-management-service-and-platform-terms-and-conditions/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Pricing is not published.",
+    "source": "https://resources.yardi.com/legal/rentcafe/rentcafe-reputation-management-service-and-platform-terms-and-conditions/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Product naming is split across current materials between \"RentCafe Reputation Management\" and \"REACH by RentCafe Reputation Management.\"",
+    "source": "https://www.yardi.com/resources/reach-by-rentcafe-reputation-management-brochure/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [
+   "Operators running Yardi plus another PMS get a single reputation view across the whole portfolio from Grace Hill.",
+   "PerformanceHQ ties the reputation signal to the training, policy and shop record, so the operator can prove a response and a fix, not just a reply.",
+   "Our reputation coverage is not bounded by one ecosystem's publisher relationships."
+  ],
+  "askThis": [
+   "Which review sites are actually covered in your agreement — can you name them?",
+   "Does ApartmentRatings, Apartments.com or Zillow appear in what Yardi monitors and responds to for you?",
+   "Who writes the responses, and how long does your approval step add?",
+   "If part of your portfolio is not on Yardi, how do you get one reputation number for the whole company?",
+   "How are you benchmarking against your comps today?"
+  ],
+  "objections": [
+   {
+    "objection": "It's a checkbox in RentCafe, we'll just turn it on.",
+    "response": "Turn it on for Google. Then check the covered-platforms list in your terms against the sites your prospects actually read before touring."
+   },
+   {
+    "objection": "One vendor is simpler.",
+    "response": "It is, until you buy a portfolio on a different PMS. Ask what your reputation reporting looks like on the day that closes."
+   }
+  ],
+  "doNotSay": [
+   "Do not claim Yardi only ever covers three sites — the terms explicitly allow other review platforms to be added. Say the named platforms in the published terms are Google, Microsoft and Facebook and ask the prospect to confirm their scope.",
+   "Do not quote the 'as is' disclaimer as a quality judgment; it is standard contract language. Use it only to prompt the coverage question."
+  ],
+  "features": {
+   "rm-monitoring": {
+    "support": "Yes",
+    "note": "Terms name Google, Microsoft and Facebook, with other platforms possibly added over time.",
+    "source": "https://resources.yardi.com/legal/rentcafe/rentcafe-reputation-management-service-and-platform-terms-and-conditions/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-response-managed": {
+    "support": "Partial",
+    "note": "A Service tier exists in which the client must \"review and approve review response content,\" implying Yardi drafts; scope is not fully specified publicly.",
+    "source": "https://resources.yardi.com/legal/rentcafe/rentcafe-reputation-management-service-and-platform-terms-and-conditions/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-response-ai": {
+    "support": "Unknown",
+    "note": "AI drafting is not described in the published terms.",
+    "source": "https://resources.yardi.com/legal/rentcafe/rentcafe-reputation-management-service-and-platform-terms-and-conditions/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-generation": {
+    "support": "Unknown",
+    "note": "Not described in published terms.",
+    "source": "https://resources.yardi.com/legal/rentcafe/rentcafe-reputation-management-service-and-platform-terms-and-conditions/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-gbp": {
+    "support": "Partial",
+    "note": "Google is a named covered platform; the extent of profile management versus review handling is not specified.",
+    "source": "https://resources.yardi.com/legal/rentcafe/rentcafe-reputation-management-service-and-platform-terms-and-conditions/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-listings": {
+    "support": "Unknown",
+    "note": "Not described in published reputation materials.",
+    "source": "https://resources.yardi.com/legal/rentcafe/rentcafe-reputation-management-service-and-platform-terms-and-conditions/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-social": {
+    "support": "Partial",
+    "note": "Facebook is a named covered platform; social publishing sits in the wider REACH by RentCafe line rather than the reputation module.",
+    "source": "https://www.yardi.com/resources/reach-by-rentcafe-reputation-management-brochure/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-analytics": {
+    "support": "Unknown",
+    "note": "Not described in published terms.",
+    "source": "https://resources.yardi.com/legal/rentcafe/rentcafe-reputation-management-service-and-platform-terms-and-conditions/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-competitor-bench": {
+    "support": "Unknown",
+    "note": "Not described in published terms.",
+    "source": "https://resources.yardi.com/legal/rentcafe/rentcafe-reputation-management-service-and-platform-terms-and-conditions/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-property-rollup": {
+    "support": "Unknown",
+    "note": "Not described in published terms; the service is provisioned per property.",
+    "source": "https://resources.yardi.com/legal/rentcafe/rentcafe-reputation-management-service-and-platform-terms-and-conditions/",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Low",
+   "owner": null,
+   "autoUpdated": false,
+   "pendingReview": [
+    "Confirm current product name and covered review sites directly with Yardi materials or a customer; public product page not located, only legal terms and a REACH brochure."
+   ]
+  },
+  "news": [],
+  "sources": [
+   {
+    "title": "RentCafe Reputation Management Service and Platform Terms and Conditions",
+    "url": "https://resources.yardi.com/legal/rentcafe/rentcafe-reputation-management-service-and-platform-terms-and-conditions/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "RentCafe Reputation Management Platform Terms and Conditions",
+    "url": "https://resources.yardi.com/legal/rentcafe/rentcafe-reputation-management-platform-terms-and-conditions/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "REACH by RentCafe Reputation Management brochure",
+    "url": "https://www.yardi.com/resources/reach-by-rentcafe-reputation-management-brochure/",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 5,
+   "name": "Resolution · The Resolution Layer for Multifamily",
+   "note": "Competes for the resolution layer position, or for one slice of it."
+  },
+  "whenItComesUp": {
+   "why": "Overlaps in part, not in whole. Yardi's reputation add-on for RentCafe clients — cheap to add, but its published terms name only Google, Microsoft and Facebook, and it lives inside one PMS.",
+   "say": "Concede the part they genuinely own, then be specific about the part they don't. Partial overlap is where reps over-claim and lose credibility.",
+   "avoid": "Do not claim Yardi only ever covers three sites — the terms explicitly allow other review platforms to be added. Say the named platforms in the published terms are Google, Microsoft and Facebook and ask the prospect to confirm their scope.",
+   "redirect": "Which review sites are actually covered in your agreement — can you name them?",
+   "derived": true
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name REACH by RentCafe Reputation Management, Yardi Reputation Management, RentCafe Reputation Management Service and Platform, or describe reputation module inside a pms already in place.",
+    "ask": "Which review sites are actually covered in your agreement — can you name them?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "The terms and conditions name only Google, Microsoft and Facebook as covered platforms, with other review platforms possible over time — no comprehensive site list is published.",
+    "ask": "Does ApartmentRatings, Apartments.com or Zillow appear in what Yardi monitors and responds to for you?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the RentCafe Reputation Management contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the RentCafe Reputation Management agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether RentCafe Reputation Management sits on someone else's budget line — that changes who has to agree.",
+    "ask": "Who writes the responses, and how long does your approval step add?"
+   }
+  ],
+  "play": "Sometimes in the room"
+ },
+ {
+  "id": "yext",
+  "name": "Yext",
+  "aka": [
+   "Yext Reviews",
+   "Yext Listings",
+   "Yext Scout"
+  ],
+  "parent": null,
+  "website": "https://www.yext.com/",
+  "toolCategory": "Local SEO and listings platform",
+  "ciCategory": "Indirect",
+  "tier": "Tier 3",
+  "verdict": {
+   "stance": "Do not compete",
+   "line": "An enterprise listings and AI-search platform where reviews are one module; it rarely lands on a multifamily reputation shortlist on its own.",
+   "doInstead": "If Yext is already in the stack, position Grace Hill's reputation line as the multifamily operations layer on top of it — surveys, response governance, and the training and policy follow-through — rather than as a listings replacement."
+  },
+  "overlaps": [
+   {
+    "product": "Reputation Management",
+    "degree": "Partial"
+   },
+   {
+    "product": "Surveys",
+    "degree": "None"
+   },
+   {
+    "product": "Training",
+    "degree": "None"
+   },
+   {
+    "product": "Policies",
+    "degree": "None"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "founded": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "ownership": {
+    "value": "Publicly traded (NYSE: YEXT); reports quarterly results",
+    "source": "https://www.businesswire.com/news/home/20250908441612/en/Yext-Announces-Second-Quarter-Fiscal-2026-Results",
+    "verifiedOn": "2026-08-11"
+   },
+   "size": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "funding": {
+    "value": "Acquired Hearsay Systems for approximately $125M, completed August 2024",
+    "source": "https://www.yext.com/about/news-media/yext-completes-hearsay-acquisition",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "pricing": {
+   "value": "Not published on the platform page.",
+   "source": "https://www.yext.com/platform",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "A platform for brand visibility across search and AI answer engines: 200+ direct publisher integrations for listings, reviews across 80+ platforms, AI-drafted local social, AI-optimized pages, search and analytics.",
+   "source": "https://www.yext.com/platform",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "200+ direct publisher integrations with no aggregator in between, and real-time updates to Google, Apple Maps and AI answer sources.",
+    "source": "https://www.yext.com/platform",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Reviews module monitors and responds across 80+ platforms with agents that also solicit reviews.",
+    "source": "https://www.yext.com/platform",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "AI-drafted, brand-approved local social content published across locations.",
+    "source": "https://www.yext.com/platform",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Publicly traded, with disclosed financials a procurement team can diligence.",
+    "source": "https://www.businesswire.com/news/home/20250908441612/en/Yext-Announces-Second-Quarter-Fiscal-2026-Results",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "No managed human review-response service is described on the platform page; response is delivered by agents inside the product.",
+    "source": "https://www.yext.com/platform",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Pricing is not published.",
+    "source": "https://www.yext.com/platform",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "No resident survey, training, policy or mystery-shopping capability.",
+    "source": "https://www.yext.com/platform",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [
+   "Grace Hill is bought by a multifamily operator to change resident experience; Yext is bought by a brand marketing team to control search presence.",
+   "Our reputation workflow carries fair housing content and role-based approval built for onsite apartment staff.",
+   "Reputation data in PerformanceHQ sits with survey, training, policy and shop data, so a theme has an owner and a due date."
+  ],
+  "askThis": [
+   "Is Yext owned by your marketing team, and does anyone in operations see the review data?",
+   "Who writes and approves review responses at the property level today?",
+   "Which apartment-specific review sites matter to your leasing funnel, and are they in Yext's publisher network?"
+  ],
+  "objections": [
+   {
+    "objection": "We already pay Yext, why add anything?",
+    "response": "Keep Yext for listings and search presence. The gap is what happens operationally after a review lands — that is a different buyer and a different workflow."
+   }
+  ],
+  "doNotSay": [
+   "Do not claim Yext lacks review management — Reviews is a named module covering 80+ platforms.",
+   "Avoid characterizing Yext as 'not for real estate'; their industry coverage is broad and easy for a prospect to check."
+  ],
+  "features": {
+   "rm-monitoring": {
+    "support": "Yes",
+    "note": "Monitors reviews across 80+ platforms.",
+    "source": "https://www.yext.com/platform",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-response-managed": {
+    "support": "Unknown",
+    "note": "No managed human response service described on the platform page.",
+    "source": "https://www.yext.com/platform",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-response-ai": {
+    "support": "Yes",
+    "note": "Agents monitor, respond to and solicit reviews.",
+    "source": "https://www.yext.com/platform",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-generation": {
+    "support": "Yes",
+    "note": "Agents solicit reviews as part of the Reviews module.",
+    "source": "https://www.yext.com/platform",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-gbp": {
+    "support": "Yes",
+    "note": "Real-time updates to Google and other publishers via 200+ direct integrations.",
+    "source": "https://www.yext.com/platform",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-listings": {
+    "support": "Yes",
+    "note": "Listings is a core module with 200+ direct publisher integrations.",
+    "source": "https://www.yext.com/platform",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-social": {
+    "support": "Yes",
+    "note": "AI-drafted, brand-approved local social content published across locations.",
+    "source": "https://www.yext.com/platform",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-analytics": {
+    "support": "Yes",
+    "note": "Analytics consolidates website, search, review and third-party listing data.",
+    "source": "https://www.yext.com/platform",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-competitor-bench": {
+    "support": "Unknown",
+    "note": "Not described on the platform page.",
+    "source": "https://www.yext.com/platform",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-property-rollup": {
+    "support": "Partial",
+    "note": "Multi-location management is the core design; a multifamily property/region/portfolio hierarchy is not described.",
+    "source": "https://www.yext.com/platform",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Medium",
+   "owner": null,
+   "autoUpdated": false,
+   "pendingReview": []
+  },
+  "news": [],
+  "sources": [
+   {
+    "title": "Yext — Platform",
+    "url": "https://www.yext.com/platform",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Yext Completes Acquisition of Hearsay Systems",
+    "url": "https://www.yext.com/about/news-media/yext-completes-hearsay-acquisition",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Yext Announces Second Quarter Fiscal 2026 Results",
+    "url": "https://www.businesswire.com/news/home/20250908441612/en/Yext-Announces-Second-Quarter-Fiscal-2026-Results",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 5,
+   "name": "Resolution · The Resolution Layer for Multifamily",
+   "note": "Competes for the resolution layer position, or for one slice of it."
+  },
+  "whenItComesUp": {
+   "why": "Local SEO and listings infrastructure. It manages where your properties appear, not what residents are saying or what your teams do about it.",
+   "say": "Yext is listings infrastructure — making sure your properties show up correctly everywhere. That's real work and it's upstream of us. We're about the review conversation itself and what happens after it.",
+   "avoid": "Don't claim we do listings management better. Be precise about the boundary.",
+   "redirect": "Once someone finds the property and reads the reviews, who's responding, and how fast?"
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name Yext Reviews, Yext Listings, Yext Scout, or describe local seo and listings platform already in place.",
+    "ask": "Is Yext owned by your marketing team, and does anyone in operations see the review data?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "No managed human review-response service is described on the platform page; response is delivered by agents inside the product.",
+    "ask": "Who writes and approves review responses at the property level today?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the Yext contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the Yext agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether Yext sits on someone else's budget line — that changes who has to agree.",
+    "ask": "Which apartment-specific review sites matter to your leasing funnel, and are they in Yext's publisher network?"
+   }
+  ],
+  "play": "Not our fight"
+ },
+ {
+  "id": "chatmeter",
+  "name": "Chatmeter",
+  "aka": [
+   "Chatmeter (an Alchemer company)",
+   "Signals AI"
+  ],
+  "parent": "Alchemer",
+  "website": "https://www.chatmeter.com/",
+  "toolCategory": "Horizontal multi-location ORM",
+  "ciCategory": "Indirect",
+  "tier": "Tier 3",
+  "verdict": {
+   "stance": "Do not compete",
+   "line": "A retail, hospitality and financial-services reputation platform now folded into Alchemer — multifamily is not a named vertical, so it seldom reaches an apartment shortlist.",
+   "doInstead": "If a prospect raises Chatmeter, treat it as an enterprise-CX evaluation rather than a multifamily reputation one. Ask which apartment-specific sites and PMS integrations they need, and let the answer disqualify it."
+  },
+  "overlaps": [
+   {
+    "product": "Reputation Management",
+    "degree": "Partial"
+   },
+   {
+    "product": "Surveys",
+    "degree": "Partial"
+   },
+   {
+    "product": "Training",
+    "degree": "None"
+   },
+   {
+    "product": "Policies",
+    "degree": "None"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "founded": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "ownership": {
+    "value": "Acquired by Alchemer, announced 24 September 2025; PSG sold Chatmeter to Alchemer, a KKR portfolio company",
+    "source": "https://www.chatmeter.com/resource/press-release/alchemer-acquires-chatmeter/",
+    "verifiedOn": "2026-08-11"
+   },
+   "size": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "funding": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   }
+  },
+  "pricing": {
+   "value": "Not published; site directs pricing inquiries to Alchemer.",
+   "source": "https://www.chatmeter.com/",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "Described in the acquisition release as \"the leading AI-powered customer intelligence platform for multi-location businesses,\" analyzing indirect feedback from reviews, social and customer comments.",
+   "source": "https://www.chatmeter.com/resource/press-release/alchemer-acquires-chatmeter/",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "Listings management across Google, Apple Maps and 70+ publishers, plus local pages for search visibility.",
+    "source": "https://www.chatmeter.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Review monitoring with AI-powered response tooling.",
+    "source": "https://www.chatmeter.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Now backed by Alchemer's direct-survey platform, combining solicited and unsolicited feedback under one owner.",
+    "source": "https://www.alchemer.com/resources/blog/alchemer-acquires-chatmeter-to-unify-customer-feedback-intelligence/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "The acquisition release names retail, hospitality and financial services as the sectors served; multifamily and property management are not named.",
+    "source": "https://www.chatmeter.com/resource/press-release/alchemer-acquires-chatmeter/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Pricing is not published; inquiries are routed to Alchemer support.",
+    "source": "https://www.chatmeter.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "No managed human review-response service is described on the site.",
+    "source": "https://www.chatmeter.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Ownership changed in September 2025, and the product is being positioned inside Alchemer's broader feedback ecosystem rather than as a standalone.",
+    "source": "https://www.chatmeter.com/resource/press-release/alchemer-acquires-chatmeter/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [
+   "Grace Hill's reputation line is built for apartment sites, apartment roles and fair housing obligations, not for a generic multi-location brand.",
+   "Our reputation data sits with the survey, training, policy and shop record, which is what a regional manager needs to act.",
+   "A multifamily-only roadmap means product changes follow the resident lifecycle rather than a retail or banking one."
+  ],
+  "askThis": [
+   "Which apartment-specific review sites does the platform read from and post to?",
+   "Which PMS does it integrate with, and can it trigger a review request off a lease renewal or a completed work order?",
+   "After the Alchemer acquisition, who is your named product owner for property management?"
+  ],
+  "objections": [
+   {
+    "objection": "Our enterprise CX team already runs Chatmeter.",
+    "response": "Then keep it for the corporate view. Ask whether the onsite teams get anything actionable from it, and what happens to a recurring maintenance theme after it is flagged."
+   }
+  ],
+  "doNotSay": [
+   "Do not claim Chatmeter has no multifamily customers — only that multifamily is not a named vertical in their public materials.",
+   "Do not speculate about post-acquisition roadmap cuts; there is no public source."
+  ],
+  "features": {
+   "rm-monitoring": {
+    "support": "Yes",
+    "note": "Review monitoring across platforms is a core capability.",
+    "source": "https://www.chatmeter.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-response-managed": {
+    "support": "Unknown",
+    "note": "Not described on the site.",
+    "source": "https://www.chatmeter.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-response-ai": {
+    "support": "Yes",
+    "note": "AI-powered response tools accompany review monitoring.",
+    "source": "https://www.chatmeter.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-generation": {
+    "support": "Unknown",
+    "note": "Not described on the homepage.",
+    "source": "https://www.chatmeter.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-gbp": {
+    "support": "Yes",
+    "note": "Listings management keeps location data accurate across Google and Apple Maps.",
+    "source": "https://www.chatmeter.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-listings": {
+    "support": "Yes",
+    "note": "Listings across Google, Apple Maps and 70+ publishers.",
+    "source": "https://www.chatmeter.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-social": {
+    "support": "Partial",
+    "note": "Social is named as a feedback source analyzed by the platform; publishing capability is not described.",
+    "source": "https://www.chatmeter.com/resource/press-release/alchemer-acquires-chatmeter/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-analytics": {
+    "support": "Yes",
+    "note": "Collects and analyzes indirect feedback from reviews, social and customer comments.",
+    "source": "https://www.chatmeter.com/resource/press-release/alchemer-acquires-chatmeter/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-competitor-bench": {
+    "support": "Unknown",
+    "note": "Not described in the sources reviewed.",
+    "source": "https://www.chatmeter.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-property-rollup": {
+    "support": "Partial",
+    "note": "Multi-location rollup is the platform's design; a multifamily property/region hierarchy is not described.",
+    "source": "https://www.chatmeter.com/",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Medium",
+   "owner": null,
+   "autoUpdated": false,
+   "pendingReview": []
+  },
+  "news": [
+   {
+    "headline": "Alchemer Acquires Chatmeter to Unify Customer Feedback Intelligence",
+    "date": "2025-09-24",
+    "url": "https://www.chatmeter.com/resource/press-release/alchemer-acquires-chatmeter/",
+    "impact": "Ownership change; Chatmeter is being folded into Alchemer's feedback platform, which reduces the likelihood of a multifamily-specific roadmap."
+   }
+  ],
+  "sources": [
+   {
+    "title": "Chatmeter — homepage",
+    "url": "https://www.chatmeter.com/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Alchemer Acquires Chatmeter",
+    "url": "https://www.chatmeter.com/resource/press-release/alchemer-acquires-chatmeter/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Alchemer blog — Alchemer acquires Chatmeter",
+    "url": "https://www.alchemer.com/resources/blog/alchemer-acquires-chatmeter-to-unify-customer-feedback-intelligence/",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 5,
+   "name": "Resolution · The Resolution Layer for Multifamily",
+   "note": "Competes for the resolution layer position, or for one slice of it."
+  },
+  "whenItComesUp": {
+   "why": "Horizontal multi-location reputation management serving restaurants, retail and healthcare. When it appears it's usually an enterprise CX evaluation, often run by marketing.",
+   "say": "Chatmeter's a multi-location platform — restaurants, retail, that world. It's capable. The difference is whether you want reputation benchmarked against other multifamily properties or against locations generally.",
+   "avoid": "Don't claim they can't do multifamily. They can. The argument is benchmark relevance, not capability.",
+   "redirect": "When you look at a property's score, what do you want to compare it to?"
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name Chatmeter (an Alchemer company), Signals AI, or describe horizontal multi-location orm already in place.",
+    "ask": "Which apartment-specific review sites does the platform read from and post to?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "The acquisition release names retail, hospitality and financial services as the sectors served; multifamily and property management are not named.",
+    "ask": "Which PMS does it integrate with, and can it trigger a review request off a lease renewal or a completed work order?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the Chatmeter contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the Chatmeter agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether Chatmeter sits on someone else's budget line — that changes who has to agree.",
+    "ask": "After the Alchemer acquisition, who is your named product owner for property management?"
+   }
+  ],
+  "play": "Not our fight"
+ },
+ {
+  "id": "widewail",
+  "name": "Widewail",
+  "aka": [
+   "Widewail Response",
+   "Widewail Signal",
+   "Widewail Intelligence",
+   "Engage",
+   "Invite",
+   "Listen"
+  ],
+  "parent": null,
+  "website": "https://www.widewail.com/",
+  "toolCategory": "Horizontal multi-location ORM",
+  "ciCategory": "Indirect",
+  "tier": "Tier 3",
+  "verdict": {
+   "stance": "Partial overlap",
+   "line": "Human-written managed review response at a published $750 per location per month, but as of August 2026 Widewail's public site markets to automotive, not multifamily.",
+   "doInstead": null
+  },
+  "overlaps": [
+   {
+    "product": "Reputation Management",
+    "degree": "Partial"
+   },
+   {
+    "product": "Surveys",
+    "degree": "Partial"
+   },
+   {
+    "product": "Training",
+    "degree": "None"
+   },
+   {
+    "product": "Policies",
+    "degree": "None"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "founded": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "ownership": {
+    "value": "Private",
+    "source": "https://www.cbinsights.com/company/widewail",
+    "verifiedOn": "2026-08-11"
+   },
+   "size": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "funding": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   }
+  },
+  "pricing": {
+   "value": "Published, per location per month: Core $500/month (automated review requests, surveys, SMS video testimonials, listings management, self-service response, reputation reporting); Pro $750/month (adds review response and social response managed services, benchmarking, topic analysis, recommendations engine, competitive intelligence, Ask Widewail AI). Both include unlimited users and no setup fees.",
+   "source": "https://www.widewail.com/pricing",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "\"Automated Reviews and Customer Intelligence for Automotive.\" Widewail handles follow-up, responds to reviews on the client's behalf, and turns feedback into insights.",
+   "source": "https://www.widewail.com/property-manager-reputation-management",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "Publishes list pricing per location, which is rare in this category and makes them easy to compare on cost.",
+    "source": "https://www.widewail.com/pricing",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Pro tier includes review response and social response managed services — a human team writing replies, not just AI drafting.",
+    "source": "https://www.widewail.com/pricing",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Property management systems remain listed as supported integrations: Yardi, Entrata, AppFolio, Rent Manager, RealPage and Propertyware.",
+    "source": "https://www.widewail.com/integrations",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Pro tier includes topic analysis, topic benchmarking, reputation benchmarking and deep competitive intelligence.",
+    "source": "https://www.widewail.com/pricing",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "As of 11 Aug 2026 the URL /property-manager-reputation-management serves an automotive page headlined \"Automated Reviews and Customer Intelligence for Automotive\" with no mention of property management, multifamily, apartments or residents.",
+    "source": "https://www.widewail.com/property-manager-reputation-management",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "The homepage positions the company as \"Reputation and Review Solutions for Automotive CX\"; multifamily is not presented as a served industry.",
+    "source": "https://www.widewail.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Managed review response is gated to the Pro tier at $750 per location per month; the $500 Core tier is self-service response only.",
+    "source": "https://www.widewail.com/pricing",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "No resident survey benchmarking, training, policy or mystery-shopping line.",
+    "source": "https://www.widewail.com/pricing",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [
+   "Grace Hill's roadmap, benchmarks and compliance content are multifamily-only, which matters when fair housing language is going onto a public page.",
+   "Reputation in PerformanceHQ connects to the training and policy record that shows the operator acted on a theme.",
+   "Our benchmark comparisons are built from multifamily data, not a dealership review corpus."
+  ],
+  "askThis": [
+   "Which Widewail team would service your account, and how many apartment communities do they currently write responses for?",
+   "How does their response team handle fair housing language on a discrimination-adjacent complaint?",
+   "At $750 per location per month for the managed tier, what does that total across your portfolio, and what is included versus added?",
+   "What is their benchmark comparison set for an apartment community?"
+  ],
+  "objections": [
+   {
+    "objection": "Widewail's responses are written by real people, yours aren't.",
+    "response": "Ask who those people are trained on. Grace Hill's response workflow is grounded in the same multifamily fair housing content we train onsite teams on, and it hands the theme back to operations."
+   },
+   {
+    "objection": "Their pricing is transparent and ours isn't.",
+    "response": "Their published price is per location per month for the reputation product alone. Compare the total against a bundle that also covers surveys, training and policy."
+   }
+  ],
+  "doNotSay": [
+   "Do not say Widewail 'dropped multifamily' — their integrations page still lists Yardi, Entrata, AppFolio, RealPage, Rent Manager and Propertyware. Say their public marketing is automotive-first as of August 2026 and let the prospect verify.",
+   "Do not quote their $500/$750 pricing as a multifamily quote; the pricing page describes DMS integrations and an automotive context."
+  ],
+  "features": {
+   "rm-monitoring": {
+    "support": "Yes",
+    "note": "Review monitoring underpins Response and Intelligence products.",
+    "source": "https://www.widewail.com/pricing",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-response-managed": {
+    "support": "Yes",
+    "note": "Pro tier ($750/location/month) includes Review Response Managed Services and Social Media Response Managed Services; the site describes \"real human responses\" delivered within 24 hours.",
+    "source": "https://www.widewail.com/pricing",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-response-ai": {
+    "support": "Partial",
+    "note": "Ask Widewail AI is included in the Pro tier; the response service is marketed as people-powered rather than AI-drafted.",
+    "source": "https://www.widewail.com/pricing",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-generation": {
+    "support": "Yes",
+    "note": "Automated review requests (Signal) via SMS, plus surveys and SMS video testimonials, included from the Core tier.",
+    "source": "https://www.widewail.com/pricing",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-gbp": {
+    "support": "Partial",
+    "note": "Listings management is included from Core; Google Business Profile management is not named specifically.",
+    "source": "https://www.widewail.com/pricing",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-listings": {
+    "support": "Yes",
+    "note": "Listings management included in the Core tier.",
+    "source": "https://www.widewail.com/pricing",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-social": {
+    "support": "Partial",
+    "note": "Social Media Response Managed Services in the Pro tier; proactive social publishing is not described.",
+    "source": "https://www.widewail.com/pricing",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-analytics": {
+    "support": "Yes",
+    "note": "Topic analysis, sentiment by location and employee, and a recommendations engine in the Pro tier.",
+    "source": "https://www.widewail.com/pricing",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-competitor-bench": {
+    "support": "Yes",
+    "note": "Reputation benchmarking, topic benchmarking and deep competitive intelligence in the Pro tier; the benchmark corpus is described as 20M+ dealership reviews.",
+    "source": "https://www.widewail.com/pricing",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-property-rollup": {
+    "support": "Partial",
+    "note": "Per-location pricing and department segmentation imply multi-location rollup; a multifamily property/region hierarchy is not described.",
+    "source": "https://www.widewail.com/pricing",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Medium",
+   "owner": null,
+   "autoUpdated": false,
+   "pendingReview": [
+    "Confirm whether Widewail still actively sells and services multifamily accounts; public marketing is automotive-first but PMS integrations remain listed."
+   ]
+  },
+  "news": [],
+  "sources": [
+   {
+    "title": "Widewail — Pricing",
+    "url": "https://www.widewail.com/pricing",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Widewail — homepage",
+    "url": "https://www.widewail.com/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Widewail — /property-manager-reputation-management (serves automotive content)",
+    "url": "https://www.widewail.com/property-manager-reputation-management",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Widewail — Integrations",
+    "url": "https://www.widewail.com/integrations",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 5,
+   "name": "Resolution · The Resolution Layer for Multifamily",
+   "note": "Competes for the resolution layer position, or for one slice of it."
+  },
+  "whenItComesUp": {
+   "why": "Overlaps in part, not in whole. Human-written managed review response at a published $750 per location per month, but as of August 2026 Widewail's public site markets to automotive, not multifamily.",
+   "say": "Concede the part they genuinely own, then be specific about the part they don't. Partial overlap is where reps over-claim and lose credibility.",
+   "avoid": "Do not say Widewail 'dropped multifamily' — their integrations page still lists Yardi, Entrata, AppFolio, RealPage, Rent Manager and Propertyware. Say their public marketing is automotive-first as of August 2026 and let the prospect verify.",
+   "redirect": "Which Widewail team would service your account, and how many apartment communities do they currently write responses for?",
+   "derived": true
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name Widewail Response, Widewail Signal, Widewail Intelligence, Engage, Invite, Listen, or describe horizontal multi-location orm already in place.",
+    "ask": "Which Widewail team would service your account, and how many apartment communities do they currently write responses for?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "As of 11 Aug 2026 the URL /property-manager-reputation-management serves an automotive page headlined \"Automated Reviews and Customer Intelligence for Automotive\" with no mention of property management, multifamily, apartments or residents.",
+    "ask": "How does their response team handle fair housing language on a discrimination-adjacent complaint?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the Widewail contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the Widewail agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether Widewail sits on someone else's budget line — that changes who has to agree.",
+    "ask": "At $750 per location per month for the managed tier, what does that total across your portfolio, and what is included versus added?"
+   }
+  ],
+  "play": "Sometimes in the room"
+ },
+ {
+  "id": "vendasta",
+  "name": "Vendasta",
+  "aka": [
+   "Vendasta Technologies",
+   "Reputation Management by Vendasta"
+  ],
+  "parent": null,
+  "website": "https://www.vendasta.com/",
+  "toolCategory": "White-label agency platform",
+  "ciCategory": "Indirect",
+  "tier": "Tier 3",
+  "verdict": {
+   "stance": "Do not compete",
+   "line": "A white-label platform sold to agencies and resellers, not to operators — you meet it behind a marketing agency's logo, never head-to-head.",
+   "doInstead": "If a prospect's reputation work is outsourced to an agency, sell the operator on the parts an agency cannot deliver: benchmarked resident surveys, response governance, and the training and policy follow-through. Ask who owns the review data if the agency relationship ends."
+  },
+  "overlaps": [
+   {
+    "product": "Reputation Management",
+    "degree": "Partial"
+   },
+   {
+    "product": "Surveys",
+    "degree": "None"
+   },
+   {
+    "product": "Training",
+    "degree": "None"
+   },
+   {
+    "product": "Policies",
+    "degree": "None"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "founded": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "ownership": {
+    "value": "Private",
+    "source": "https://www.vendasta.com/company/",
+    "verifiedOn": "2026-08-11"
+   },
+   "size": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "funding": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   }
+  },
+  "pricing": {
+   "value": "Published tiers with monthly minimums that offset the platform fee: Starter $99/month (month-to-month), Professional $499/month (1 year), Premium $999/month (1 year), Custom Enterprise on request. Each $1 spent on select products offsets $1 of subscription fee.",
+   "source": "https://www.vendasta.com/pricing/",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "A white-label platform for agencies and resellers to deliver marketing and reputation services to local business clients under the partner's own brand.",
+   "source": "https://www.vendasta.com/pricing/",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "Publishes tiered pricing, which makes an agency's cost base easy to model.",
+    "source": "https://www.vendasta.com/pricing/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Multi-location review and listing management is available from the Premium tier upward.",
+    "source": "https://www.vendasta.com/pricing/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Reputation AI and local SEO are packaged into an AI Workforce bundle resellable under the partner's brand.",
+    "source": "https://www.vendasta.com/pricing/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "The platform is sold to agencies and resellers to serve local business clients, not directly to multifamily operators.",
+    "source": "https://www.vendasta.com/pricing/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Multi-location review and listing management is gated to the Premium tier ($999/month minimum) and above.",
+    "source": "https://www.vendasta.com/pricing/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "No multifamily-specific content, benchmark dataset or PMS integration is described in the pricing or company materials reviewed.",
+    "source": "https://www.vendasta.com/pricing/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "No resident survey, training, policy or mystery-shopping line.",
+    "source": "https://www.vendasta.com/pricing/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [
+   "The operator owns their reputation data and workflow in PerformanceHQ rather than renting it through an agency's account.",
+   "Grace Hill's fair housing and multifamily compliance content sits behind the response workflow, which a generic local-business toolkit does not carry.",
+   "Reputation, surveys, training and policy roll up to the same regional and portfolio view."
+  ],
+  "askThis": [
+   "Who actually holds the login for your review platform — you or your agency?",
+   "If you changed agencies tomorrow, what happens to your review history and response archive?",
+   "Is the tool your agency uses built for apartments, or for local businesses generally?"
+  ],
+  "objections": [
+   {
+    "objection": "Our agency already handles reputation.",
+    "response": "That covers the replies. Ask what your agency does with a recurring maintenance theme, and whether they can assign training or track a policy acknowledgment."
+   }
+  ],
+  "doNotSay": [
+   "Do not describe Vendasta as a direct competitor in a deal review — it is a supplier to the agencies you sometimes displace.",
+   "Do not name a Vendasta price as a client-facing price; their published figures are partner-side minimums."
+  ],
+  "features": {
+   "rm-monitoring": {
+    "support": "Yes",
+    "note": "Review management across locations is a packaged product.",
+    "source": "https://www.vendasta.com/pricing/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-response-managed": {
+    "support": "Unknown",
+    "note": "The reseller partner, not Vendasta, performs the service; Vendasta-delivered managed response is not described in the pricing materials.",
+    "source": "https://www.vendasta.com/pricing/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-response-ai": {
+    "support": "Yes",
+    "note": "Reputation AI is part of the AI Workforce package for managing customer reviews.",
+    "source": "https://www.vendasta.com/pricing/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-generation": {
+    "support": "Unknown",
+    "note": "Not described in the pricing materials reviewed.",
+    "source": "https://www.vendasta.com/pricing/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-gbp": {
+    "support": "Partial",
+    "note": "Listing management and local SEO are included; Google Business Profile management is not named specifically.",
+    "source": "https://www.vendasta.com/pricing/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-listings": {
+    "support": "Yes",
+    "note": "Multi-location listing management from the Premium tier.",
+    "source": "https://www.vendasta.com/pricing/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-social": {
+    "support": "Unknown",
+    "note": "Not described in the pricing materials reviewed.",
+    "source": "https://www.vendasta.com/pricing/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-analytics": {
+    "support": "Unknown",
+    "note": "Not described in the pricing materials reviewed.",
+    "source": "https://www.vendasta.com/pricing/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-competitor-bench": {
+    "support": "Unknown",
+    "note": "Not described in the pricing materials reviewed.",
+    "source": "https://www.vendasta.com/pricing/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-property-rollup": {
+    "support": "Partial",
+    "note": "Multi-location rollup exists at Premium and above; a multifamily property/region hierarchy is not described.",
+    "source": "https://www.vendasta.com/pricing/",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Medium",
+   "owner": null,
+   "autoUpdated": false,
+   "pendingReview": []
+  },
+  "news": [],
+  "sources": [
+   {
+    "title": "Vendasta — Pricing",
+    "url": "https://www.vendasta.com/pricing/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Vendasta — Company",
+    "url": "https://www.vendasta.com/company/",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 5,
+   "name": "Resolution · The Resolution Layer for Multifamily",
+   "note": "Competes for the resolution layer position, or for one slice of it."
+  },
+  "whenItComesUp": {
+   "why": "A white-label platform sold to agencies, who then resell to operators. You only meet it behind an agency's logo, which means the real relationship is with the agency.",
+   "say": "Vendasta's the engine behind a lot of agency offerings — you're probably seeing it branded as something else. If an agency's running your reputation work, the question is what they hand back to your onsite teams.",
+   "avoid": "Don't attack the agency. They may be a channel, and the buyer chose them.",
+   "redirect": "Does what the agency does reach the property teams, or does it stop at a monthly report?"
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name Vendasta Technologies, Reputation Management by Vendasta, or describe white-label agency platform already in place.",
+    "ask": "Who actually holds the login for your review platform — you or your agency?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "The platform is sold to agencies and resellers to serve local business clients, not directly to multifamily operators.",
+    "ask": "If you changed agencies tomorrow, what happens to your review history and response archive?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the Vendasta contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the Vendasta agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether Vendasta sits on someone else's budget line — that changes who has to agree.",
+    "ask": "Is the tool your agency uses built for apartments, or for local businesses generally?"
+   }
+  ],
+  "play": "Not our fight"
+ },
+ {
+  "id": "mavenai",
+  "name": "MavenAI",
+  "aka": [
+   "Maven AI",
+   "hiremaven.ai",
+   "Maven Reputation Management"
+  ],
+  "parent": null,
+  "website": "https://www.hiremaven.ai/",
+  "toolCategory": "Multifamily-specific ORM",
+  "ciCategory": "Potential",
+  "tier": "Watchlist",
+  "verdict": {
+   "stance": "Partial overlap",
+   "line": "Early-stage multifamily AI marketing startup with a reputation module — watch it, do not build a battlecard motion around it yet.",
+   "doInstead": null
+  },
+  "overlaps": [
+   {
+    "product": "Reputation Management",
+    "degree": "Partial"
+   },
+   {
+    "product": "Surveys",
+    "degree": "None"
+   },
+   {
+    "product": "Training",
+    "degree": "None"
+   },
+   {
+    "product": "Policies",
+    "degree": "None"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": "Madison, Wisconsin",
+    "source": "https://www.crunchbase.com/organization/mavenai",
+    "verifiedOn": "2026-08-11"
+   },
+   "founded": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "ownership": {
+    "value": "Private",
+    "source": "https://www.crunchbase.com/organization/mavenai",
+    "verifiedOn": "2026-08-11"
+   },
+   "size": {
+    "value": "11-50 employees (Crunchbase range)",
+    "source": "https://www.crunchbase.com/organization/mavenai",
+    "verifiedOn": "2026-08-11"
+   },
+   "funding": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   }
+  },
+  "pricing": {
+   "value": "Not published.",
+   "source": "https://www.hiremaven.ai/products/reputation-management/",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "AI for multifamily marketing — reputation management, Google Business AI and Social AI, with direct integration into property management software.",
+   "source": "https://www.hiremaven.ai/products/reputation-management/",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "Consolidates reviews from 50+ platforms into one dashboard.",
+    "source": "https://www.hiremaven.ai/products/reputation-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Sentiment-aware AI responses tuned to a property's brand voice — luxury, affordable or student housing.",
+    "source": "https://www.hiremaven.ai/products/reputation-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Review requests triggered after tours, move-ins and maintenance requests.",
+    "source": "https://www.hiremaven.ai/products/reputation-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Google Business AI automates GBP updates with real-time pricing and AI-generated posts.",
+    "source": "https://www.hiremaven.ai/products/reputation-management/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "Competitor benchmarking is not described on the reputation management product page.",
+    "source": "https://www.hiremaven.ai/products/reputation-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Portfolio rollup is not described on the reputation management product page.",
+    "source": "https://www.hiremaven.ai/products/reputation-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "No managed human review-response service is described; responses are AI-generated.",
+    "source": "https://www.hiremaven.ai/products/reputation-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Pricing is not published.",
+    "source": "https://www.hiremaven.ai/products/reputation-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Company size is listed at 11-50 employees, a materially different support and roadmap profile from an enterprise vendor.",
+    "source": "https://www.crunchbase.com/organization/mavenai",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [
+   "Grace Hill brings a benchmark dataset and a compliance content library behind the response workflow, not only a model.",
+   "Reputation in PerformanceHQ rolls up to region and portfolio next to surveys, training, policy and shop data.",
+   "Enterprise operators can diligence our security, support and roadmap commitments at portfolio scale."
+  ],
+  "askThis": [
+   "Who reviews AI-published responses before they go live on a fair-housing-sensitive complaint?",
+   "What does your regional see when they want reputation across the whole portfolio on one screen?",
+   "What is your benchmark comparison set, and where does the data come from?",
+   "What are your security review, uptime and support commitments at our unit count?"
+  ],
+  "objections": [
+   {
+    "objection": "They're cheaper and purpose-built for multifamily.",
+    "response": "Purpose-built is a good start. Ask what the platform does with the output — benchmarking, portfolio rollup and the training and policy follow-through are where the operator sees a number move."
+   }
+  ],
+  "doNotSay": [
+   "Do not characterize MavenAI as unstable or unfunded — no public funding or financial data was located.",
+   "Avoid dismissing them by size on a call; state the specific capability gaps and let the prospect draw the conclusion."
+  ],
+  "features": {
+   "rm-monitoring": {
+    "support": "Yes",
+    "note": "Reviews from 50+ platforms consolidated in one dashboard.",
+    "source": "https://www.hiremaven.ai/products/reputation-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-response-managed": {
+    "support": "Unknown",
+    "note": "Not described; the product is an AI response engine.",
+    "source": "https://www.hiremaven.ai/products/reputation-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-response-ai": {
+    "support": "Yes",
+    "note": "Sentiment-aware AI responses matched to property brand voice.",
+    "source": "https://www.hiremaven.ai/products/reputation-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-generation": {
+    "support": "Yes",
+    "note": "Automated review requests triggered after tours, move-ins and maintenance requests.",
+    "source": "https://www.hiremaven.ai/products/reputation-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-gbp": {
+    "support": "Yes",
+    "note": "Google Business AI automates GBP updates with real-time pricing and AI-generated posts.",
+    "source": "https://www.hiremaven.ai/products/reputation-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-listings": {
+    "support": "Unknown",
+    "note": "Broader listings management beyond Google Business Profile is not described.",
+    "source": "https://www.hiremaven.ai/products/reputation-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-social": {
+    "support": "Yes",
+    "note": "Social AI provides automated social media management for multifamily properties.",
+    "source": "https://www.hiremaven.ai/products/reputation-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-analytics": {
+    "support": "Yes",
+    "note": "Review sentiment analysis plus reports on response times, star ratings and review volume.",
+    "source": "https://www.hiremaven.ai/products/reputation-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-competitor-bench": {
+    "support": "Unknown",
+    "note": "Not described on the product page.",
+    "source": "https://www.hiremaven.ai/products/reputation-management/",
+    "verifiedOn": "2026-08-11"
+   },
+   "rm-property-rollup": {
+    "support": "Unknown",
+    "note": "Not described on the product page.",
+    "source": "https://www.hiremaven.ai/products/reputation-management/",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Low",
+   "owner": null,
+   "autoUpdated": false,
+   "pendingReview": [
+    "Founding year, funding and customer count unverified — no primary source located."
+   ]
+  },
+  "news": [],
+  "sources": [
+   {
+    "title": "MavenAI — Reputation Management",
+    "url": "https://www.hiremaven.ai/products/reputation-management/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "MavenAI — Crunchbase profile",
+    "url": "https://www.crunchbase.com/organization/mavenai",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 5,
+   "name": "Resolution · The Resolution Layer for Multifamily",
+   "note": "Competes for the resolution layer position, or for one slice of it."
+  },
+  "whenItComesUp": {
+   "why": "Overlaps in part, not in whole. Early-stage multifamily AI marketing startup with a reputation module — watch it, do not build a battlecard motion around it yet.",
+   "say": "Concede the part they genuinely own, then be specific about the part they don't. Partial overlap is where reps over-claim and lose credibility.",
+   "avoid": "Do not characterize MavenAI as unstable or unfunded — no public funding or financial data was located.",
+   "redirect": "Who reviews AI-published responses before they go live on a fair-housing-sensitive complaint?",
+   "derived": true
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name Maven AI, hiremaven.ai, Maven Reputation Management, or describe multifamily-specific orm already in place.",
+    "ask": "Who reviews AI-published responses before they go live on a fair-housing-sensitive complaint?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "Competitor benchmarking is not described on the reputation management product page.",
+    "ask": "What does your regional see when they want reputation across the whole portfolio on one screen?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the MavenAI contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the MavenAI agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether MavenAI sits on someone else's budget line — that changes who has to agree.",
+    "ask": "What is your benchmark comparison set, and where does the data come from?"
+   }
+  ],
+  "play": "Sometimes in the room"
+ }
+]

@@ -1,0 +1,4569 @@
+[
+ {
+  "id": "absorb-lms",
+  "name": "Absorb LMS",
+  "aka": [
+   "Absorb Software",
+   "Absorb.AI",
+   "Absorb Amplify"
+  ],
+  "parent": "Absorb Software Inc. (Welsh, Carson, Anderson & Stowe)",
+  "website": "https://www.absorbai.com/",
+  "toolCategory": "Horizontal corporate LMS",
+  "ciCategory": "Potential",
+  "tier": "Tier 3",
+  "verdict": {
+   "stance": "Partial overlap",
+   "line": "Absorb sells the container, not the contents — it competes for the LMS line item, and every multifamily course inside it still has to be bought, built and re-written by someone on the customer's payroll.",
+   "doInstead": "Do not argue platform features. Ask who writes the fair housing course, who updates it when a state changes its rules, and what that headcount costs; then price PerformanceHQ against the platform fee plus that internal content burden. If they are already locked into Absorb, position Grace Hill content delivered into it rather than a rip-and-replace."
+  },
+  "overlaps": [
+   {
+    "product": "Training",
+    "degree": "Partial"
+   },
+   {
+    "product": "Policies",
+    "degree": "None"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": "Calgary, Alberta, Canada",
+    "source": "https://wcas.com/firm/investments/absorb/",
+    "verifiedOn": "2026-08-11"
+   },
+   "founded": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "ownership": {
+    "value": "Majority-owned by Welsh, Carson, Anderson & Stowe (WCAS Fund XIII); acquired from Silversmith Capital Partners in 2021",
+    "source": "https://wcas.com/firm/investments/absorb/",
+    "verifiedOn": "2026-08-11"
+   },
+   "size": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "funding": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   }
+  },
+  "pricing": {
+   "value": "Not published on the vendor site; quote-only.",
+   "source": "https://www.absorbai.com/",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "\"The AI-powered LMS that actually knows your business\" / \"The Industry's #1 Learning Management System\" — a horizontal enterprise LMS marketed on platform capability rather than any industry vertical.",
+   "source": "https://www.absorbai.com/",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "WCAS reports Absorb serves approximately 28 million users across 1,700 clients in 34 countries.",
+    "source": "https://wcas.com/firm/investments/absorb/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Publishes 20,000+ pre-built courses through its Absorb Amplify content portfolio and pre-built connectors to ADP, Workday, Salesforce and 40+ other systems.",
+    "source": "https://www.absorbai.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Absorb Create offers AI-assisted course generation with quizzes, video, translations and voice-over.",
+    "source": "https://www.absorbai.com/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "Absorb's public site names Sony, Gap, Johnson & Johnson, Samsung and Toyota and cites healthcare, financial services and manufacturing — it publishes no multifamily or property-management vertical.",
+    "source": "https://www.absorbai.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Absorb's content story is a general business catalog (Amplify) plus customer-authored courses; no fair housing, state-specific landlord-tenant or CAM/CAPS/CALP credential content is published.",
+    "source": "https://www.absorbai.com/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [
+   "Grace Hill maintains the multifamily course library itself — the customer does not staff a content team to keep fair housing current.",
+   "Fair housing and state-specific compliance content ships with the product, not as a project.",
+   "Role- and property-based assignment maps to how a portfolio is actually organized, not just to HR job codes."
+  ],
+  "askThis": [
+   "Who on your team writes and owns the fair housing course today, and when was it last reviewed?",
+   "When a state changes a compliance requirement, how long until your courses reflect it — and who does that work?",
+   "How many of the 20,000 courses in the library are about running an apartment community?"
+  ],
+  "objections": [
+   {
+    "objection": "We already have Absorb enterprise-wide.",
+    "response": "Then the platform question is settled. The open question is what goes in it for site teams — ask what happens when a fair housing rule changes and who is on the hook to update the course."
+   }
+  ],
+  "doNotSay": [
+   "Do not say Absorb has no compliance content — it publishes a general business and compliance catalog; the verifiable point is that it publishes no multifamily-specific library.",
+   "Do not quote an Absorb price. None is published."
+  ],
+  "features": {
+   "tr-multifamily-content": {
+    "support": "No",
+    "note": "Publishes no multifamily or property-management vertical library; industries cited are healthcare, financial services and manufacturing.",
+    "source": "https://www.absorbai.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-vendor-maintained": {
+    "support": "Partial",
+    "note": "Amplify library content is licensed from third-party publishers; customer-authored courses are maintained by the customer.",
+    "source": "https://www.absorbai.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-fair-housing": {
+    "support": "Unknown",
+    "note": "No fair housing course is identified in published Amplify materials; the third-party catalog is not fully enumerated publicly.",
+    "source": "https://www.absorbai.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-state-specific": {
+    "support": "Unknown",
+    "note": "No US state-specific compliance variants documented publicly.",
+    "source": "https://www.absorbai.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-cec-eligible": {
+    "support": "Unknown",
+    "note": "No CAM / CAPS / CALP credential eligibility documented.",
+    "source": "https://www.absorbai.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-role-assignment": {
+    "support": "Partial",
+    "note": "Rules-based enrollment and group assignment; property-level assignment is not documented as a native concept.",
+    "source": "https://www.absorbai.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-competency": {
+    "support": "Unknown",
+    "note": "Assessment capability is not detailed publicly beyond quizzes in Absorb Create.",
+    "source": "https://www.absorbai.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-compliance-reporting": {
+    "support": "Yes",
+    "note": "Reporting and analytics are a core marketed module.",
+    "source": "https://www.absorbai.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-scorm": {
+    "support": "Unknown",
+    "note": "Not stated on the pages reviewed.",
+    "source": "https://www.absorbai.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-authoring": {
+    "support": "Yes",
+    "note": "Absorb Create — AI-assisted authoring with quizzes, video, translation and voice-over.",
+    "source": "https://www.absorbai.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-mobile": {
+    "support": "Unknown",
+    "note": "Offline access is not documented on the pages reviewed.",
+    "source": "https://www.absorbai.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-bilingual": {
+    "support": "Partial",
+    "note": "Course translation is offered in Absorb Create; no Spanish multifamily content library.",
+    "source": "https://www.absorbai.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-pms-integration": {
+    "support": "Unknown",
+    "note": "Named connectors are ADP, Workday and Salesforce; no property management system is named in public materials.",
+    "source": "https://www.absorbai.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-hris-integration": {
+    "support": "Yes",
+    "note": "Pre-built connectors to ADP, Workday, Salesforce and 40+ more systems.",
+    "source": "https://www.absorbai.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-benchmarking": {
+    "support": "Unknown",
+    "note": "No industry benchmarking dataset documented.",
+    "source": "https://www.absorbai.com/",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Medium",
+   "owner": null,
+   "autoUpdated": true,
+   "pendingReview": []
+  },
+  "news": [],
+  "sources": [
+   {
+    "title": "Absorb — homepage",
+    "url": "https://www.absorbai.com/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "WCAS — Absorb investment profile",
+    "url": "https://wcas.com/firm/investments/absorb/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Absorb newsroom — WCAS to acquire Absorb from Silversmith",
+    "url": "https://www.absorbai.com/company/newsroom/wcas-acquire-absorb-software-from-silversmith-capital-partners",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 4,
+   "name": "People and Workforce",
+   "note": "Reaches multifamily through the people and workforce stack — often already on an HR contract."
+  },
+  "whenItComesUp": {
+   "why": "Overlaps in part, not in whole. Absorb sells the container, not the contents — it competes for the LMS line item, and every multifamily course inside it still has to be bought, built and re-written by someone on the customer's payroll.",
+   "say": "Concede the part they genuinely own, then be specific about the part they don't. Partial overlap is where reps over-claim and lose credibility.",
+   "avoid": "Do not say Absorb has no compliance content — it publishes a general business and compliance catalog; the verifiable point is that it publishes no multifamily-specific library.",
+   "redirect": "Who on your team writes and owns the fair housing course today, and when was it last reviewed?",
+   "derived": true
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name Absorb Software, Absorb.AI, Absorb Amplify, or describe horizontal corporate lms already in place.",
+    "ask": "Who on your team writes and owns the fair housing course today, and when was it last reviewed?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "Absorb's public site names Sony, Gap, Johnson & Johnson, Samsung and Toyota and cites healthcare, financial services and manufacturing — it publishes no multifamily or property-management vertical.",
+    "ask": "When a state changes a compliance requirement, how long until your courses reflect it — and who does that work?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the Absorb LMS contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the Absorb LMS agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether Absorb LMS sits on someone else's budget line — that changes who has to agree.",
+    "ask": "How many of the 20,000 courses in the library are about running an apartment community?"
+   }
+  ]
+ },
+ {
+  "id": "docebo",
+  "name": "Docebo",
+  "aka": [
+   "Docebo Learn LMS",
+   "Docebo AgentHub"
+  ],
+  "parent": "Docebo Inc. (TSX / Nasdaq: DCBO)",
+  "website": "https://www.docebo.com/",
+  "toolCategory": "Horizontal corporate LMS",
+  "ciCategory": "Potential",
+  "tier": "Tier 3",
+  "verdict": {
+   "stance": "Partial overlap",
+   "line": "Docebo wins enterprise platform bake-offs on AI and extended-enterprise breadth, and then the customer still has to source every fair housing and state compliance course from somewhere else.",
+   "doInstead": "Concede the platform comparison and move the conversation to content ownership: Docebo's 30,000-course marketplace is general business and tech content, so ask what the customer's plan and budget are for the multifamily-specific 20% that actually drives their risk."
+  },
+  "overlaps": [
+   {
+    "product": "Training",
+    "degree": "Partial"
+   },
+   {
+    "product": "Policies",
+    "degree": "None"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": "Founded in Macherio, Italy; global offices including the US, UK, Canada, France and Italy",
+    "source": "https://www.docebo.com/company/",
+    "verifiedOn": "2026-08-11"
+   },
+   "founded": {
+    "value": "2005",
+    "source": "https://www.docebo.com/company/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ownership": {
+    "value": "Public — IPO on the Toronto Stock Exchange October 2019 and Nasdaq December 2020 (TSX and Nasdaq: DCBO)",
+    "source": "https://www.docebo.com/company/",
+    "verifiedOn": "2026-08-11"
+   },
+   "size": {
+    "value": "More than 900 employees worldwide",
+    "source": "https://www.docebo.com/company/",
+    "verifiedOn": "2026-08-11"
+   },
+   "funding": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   }
+  },
+  "pricing": {
+   "value": "Not published. Two tiers (Elevate, Enterprise) plus a Skills Intelligence offering; \"custom pricing tailored to your organization's needs,\" priced on tier and active-user count with paid add-ons.",
+   "source": "https://www.docebo.com/pricing/",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "\"AI-First LMS for Enterprise Learning & Skills\" — \"Spot skill gaps. Personalize training. Let agents do the work.\"",
+   "source": "https://www.docebo.com/",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "Publishes coverage of ten sectors — software, manufacturing, public sector, retail, IT/tech services, financial services, healthcare, education, hospitality and restaurants.",
+    "source": "https://www.docebo.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Marketplace access to \"over 30,000 courses and professional certifications from the world's best learning content providers.\"",
+    "source": "https://www.docebo.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "AI feature depth: AI course generation, virtual coaching and roleplay, AgentHub agents, and search across 25+ external knowledge sources.",
+    "source": "https://www.docebo.com/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "Real estate, multifamily and property management are absent from Docebo's published list of ten served sectors.",
+    "source": "https://www.docebo.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Docebo does not publish pricing; buyers cannot compare cost without a sales cycle.",
+    "source": "https://www.docebo.com/pricing/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [
+   "Grace Hill's library is built for one industry, so the relevance rate for a leasing consultant or maintenance tech is not a curation project.",
+   "Regulatory currency is Grace Hill's obligation, contractually and operationally.",
+   "Compliance reporting is framed around properties and roles, which is how multifamily owners and regulators ask the question."
+  ],
+  "askThis": [
+   "Of the 30,000 marketplace courses, how many would you actually assign to a site team?",
+   "Who is accountable if a fair housing course in your LMS is out of date when a claim lands?",
+   "Is the budget for the platform separate from the budget for the content? Which one is unfunded?"
+  ],
+  "objections": [
+   {
+    "objection": "Docebo's AI is far ahead of yours.",
+    "response": "Agreed that Docebo has invested heavily in platform AI. AI that generates a course still needs a source of truth for fair housing law — ask them where that source comes from and who verifies it."
+   }
+  ],
+  "doNotSay": [
+   "Do not claim Docebo's marketplace contains no real estate content — the catalog is not fully enumerated publicly.",
+   "Do not quote a Docebo price or per-user rate."
+  ],
+  "features": {
+   "tr-multifamily-content": {
+    "support": "No",
+    "note": "Multifamily / property management is not among the ten sectors Docebo publishes.",
+    "source": "https://www.docebo.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-vendor-maintained": {
+    "support": "Partial",
+    "note": "Marketplace content is maintained by third-party publishers; customer-authored content is customer-maintained.",
+    "source": "https://www.docebo.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-fair-housing": {
+    "support": "Unknown",
+    "note": "Not identified in published materials; the 30,000-course third-party marketplace is not enumerated publicly.",
+    "source": "https://www.docebo.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-state-specific": {
+    "support": "Unknown",
+    "note": "No US state-specific compliance variants documented.",
+    "source": "https://www.docebo.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-cec-eligible": {
+    "support": "Unknown",
+    "note": "Marketplace includes \"professional certifications\" generally; no CAM / CAPS / CALP eligibility documented.",
+    "source": "https://www.docebo.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-role-assignment": {
+    "support": "Partial",
+    "note": "Personalization and group-based assignment are marketed; property-based assignment is not a documented native concept.",
+    "source": "https://www.docebo.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-competency": {
+    "support": "Partial",
+    "note": "Skills Intelligence markets skill-gap analysis; competency validation detail is not published.",
+    "source": "https://www.docebo.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-compliance-reporting": {
+    "support": "Yes",
+    "note": "Standard reporting in Elevate, advanced analytics in Enterprise.",
+    "source": "https://www.docebo.com/pricing/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-scorm": {
+    "support": "Unknown",
+    "note": "Not stated on the pages reviewed.",
+    "source": "https://www.docebo.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-authoring": {
+    "support": "Yes",
+    "note": "\"Build interactive courses in seconds with AI.\"",
+    "source": "https://www.docebo.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-mobile": {
+    "support": "Partial",
+    "note": "Branded mobile apps are an Enterprise-tier feature; offline access is not documented.",
+    "source": "https://www.docebo.com/pricing/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-bilingual": {
+    "support": "Unknown",
+    "note": "Multi-language platform support is implied by global footprint; no Spanish multifamily content library.",
+    "source": "https://www.docebo.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-pms-integration": {
+    "support": "Unknown",
+    "note": "Integration counts are published (4 or 6 by tier) but no property management system is named.",
+    "source": "https://www.docebo.com/pricing/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-hris-integration": {
+    "support": "Unknown",
+    "note": "Integrations are marketed generically; no named HRIS connector list on the pages reviewed.",
+    "source": "https://www.docebo.com/pricing/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-benchmarking": {
+    "support": "Unknown",
+    "note": "No industry benchmark dataset documented.",
+    "source": "https://www.docebo.com/",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Medium",
+   "owner": null,
+   "autoUpdated": true,
+   "pendingReview": []
+  },
+  "news": [],
+  "sources": [
+   {
+    "title": "Docebo — homepage",
+    "url": "https://www.docebo.com/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Docebo — Our story",
+    "url": "https://www.docebo.com/company/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Docebo — pricing",
+    "url": "https://www.docebo.com/pricing/",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 4,
+   "name": "People and Workforce",
+   "note": "Reaches multifamily through the people and workforce stack — often already on an HR contract."
+  },
+  "whenItComesUp": {
+   "why": "Overlaps in part, not in whole. Docebo wins enterprise platform bake-offs on AI and extended-enterprise breadth, and then the customer still has to source every fair housing and state compliance course from somewhere else.",
+   "say": "Concede the part they genuinely own, then be specific about the part they don't. Partial overlap is where reps over-claim and lose credibility.",
+   "avoid": "Do not claim Docebo's marketplace contains no real estate content — the catalog is not fully enumerated publicly.",
+   "redirect": "Of the 30,000 marketplace courses, how many would you actually assign to a site team?",
+   "derived": true
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name Docebo Learn LMS, Docebo AgentHub, or describe horizontal corporate lms already in place.",
+    "ask": "Of the 30,000 marketplace courses, how many would you actually assign to a site team?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "Real estate, multifamily and property management are absent from Docebo's published list of ten served sectors.",
+    "ask": "Who is accountable if a fair housing course in your LMS is out of date when a claim lands?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the Docebo contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the Docebo agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether Docebo sits on someone else's budget line — that changes who has to agree.",
+    "ask": "Is the budget for the platform separate from the budget for the content? Which one is unfunded?"
+   }
+  ]
+ },
+ {
+  "id": "adobe-learning-manager",
+  "name": "Adobe Learning Manager",
+  "aka": [
+   "Adobe Captivate Prime",
+   "ALM"
+  ],
+  "parent": "Adobe Inc.",
+  "website": "https://business.adobe.com/products/learning-manager/adobe-learning-manager.html",
+  "toolCategory": "Horizontal enterprise LMS inside a marketing-technology suite",
+  "ciCategory": "Potential",
+  "tier": "Watchlist",
+  "verdict": {
+   "stance": "Do not compete",
+   "line": "Adobe Learning Manager is bought by companies already standardized on Adobe Experience Cloud to train customers, partners and franchisees — it is a brand-experience learning tool, not a property-compliance system, and it should not be on a multifamily training shortlist.",
+   "doInstead": "If it surfaces, it is almost always because corporate marketing or a franchise/partner program already owns it. Do not pitch against it — scope Grace Hill to the onsite compliance and role-based training it was never bought to do, and let the two coexist."
+  },
+  "overlaps": [
+   {
+    "product": "Training",
+    "degree": "Partial"
+   },
+   {
+    "product": "Policies",
+    "degree": "None"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "founded": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "ownership": {
+    "value": "Adobe Inc. (Nasdaq: ADBE) — marketed under Adobe Experience Cloud",
+    "source": "https://business.adobe.com/products/learning-manager/adobe-learning-manager.html",
+    "verifiedOn": "2026-08-11"
+   },
+   "size": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "funding": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   }
+  },
+  "pricing": {
+   "value": "Not published on the product page; quote-only through Adobe sales.",
+   "source": "https://business.adobe.com/products/learning-manager/adobe-learning-manager.html",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "\"Personalize learning for your customers, partners, and employees\" with \"adaptive, AI-driven experiences\" and \"powerful automations and workflows.\"",
+   "source": "https://business.adobe.com/products/learning-manager/adobe-learning-manager.html",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "Explicitly serves three audiences — employees, customers, and partners/franchisees — making it strong for extended-enterprise and brand-consistent training.",
+    "source": "https://business.adobe.com/products/learning-manager/adobe-learning-manager.html",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Deep native integration with Adobe Experience Manager Sites, Marketo Engage, Adobe Commerce, Adobe Connect, Microsoft Teams and Salesforce.",
+    "source": "https://business.adobe.com/products/learning-manager/adobe-learning-manager.html",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Supports online, instructor-led, virtual instructor-led and blended delivery plus multilingual certification programs.",
+    "source": "https://business.adobe.com/products/learning-manager/adobe-learning-manager.html",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "Adobe positions Learning Manager as a delivery platform, not an authoring tool — Adobe recommends buying Adobe Captivate separately to create interactive content.",
+    "source": "https://business.adobe.com/products/learning-manager/adobe-learning-manager.html",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "No industry vertical content library is offered; the product page names no multifamily, real estate or housing-compliance content.",
+    "source": "https://business.adobe.com/products/learning-manager/adobe-learning-manager.html",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [
+   "Grace Hill is bought to reduce fair housing and compliance exposure at the property level, which is not the job Adobe Learning Manager is sold to do.",
+   "The multifamily course library and its upkeep come with the subscription rather than requiring a separate authoring tool and an internal instructional designer."
+  ],
+  "askThis": [
+   "Is Learning Manager owned by marketing for brand and partner programs, or by HR for onsite compliance?",
+   "Who builds the courses today — and are you also paying for Adobe Captivate to do it?"
+  ],
+  "objections": [
+   {
+    "objection": "We're an Adobe shop; we'll just use Learning Manager.",
+    "response": "That is a sensible place for customer and partner enablement. The gap is the content: Adobe positions ALM as a delivery platform and points to Captivate for authoring, so the fair housing and state compliance courses still need a source."
+   }
+  ],
+  "doNotSay": [
+   "Do not claim Adobe Learning Manager cannot do compliance training — Adobe names compliance among employee use cases.",
+   "Do not quote an Adobe Learning Manager price."
+  ],
+  "features": {
+   "tr-multifamily-content": {
+    "support": "No",
+    "note": "No vertical content library is offered; the product is a delivery platform for customer-supplied content.",
+    "source": "https://business.adobe.com/products/learning-manager/adobe-learning-manager.html",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-vendor-maintained": {
+    "support": "No",
+    "note": "Adobe supplies no maintained course library; content is customer-created or customer-licensed.",
+    "source": "https://business.adobe.com/products/learning-manager/adobe-learning-manager.html",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-fair-housing": {
+    "support": "No",
+    "note": "No content library is offered, therefore no vendor-supplied fair housing course.",
+    "source": "https://business.adobe.com/products/learning-manager/adobe-learning-manager.html",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-state-specific": {
+    "support": "No",
+    "note": "No content library is offered, therefore no state-specific compliance variants.",
+    "source": "https://business.adobe.com/products/learning-manager/adobe-learning-manager.html",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-cec-eligible": {
+    "support": "No",
+    "note": "Supports customer-built multilingual certification programs but supplies no CAM / CAPS / CALP-eligible content.",
+    "source": "https://business.adobe.com/products/learning-manager/adobe-learning-manager.html",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-role-assignment": {
+    "support": "Partial",
+    "note": "\"Powerful automations and workflows\" for assignment; property-based assignment is not documented.",
+    "source": "https://business.adobe.com/products/learning-manager/adobe-learning-manager.html",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-competency": {
+    "support": "Unknown",
+    "note": "Not documented on the product page.",
+    "source": "https://business.adobe.com/products/learning-manager/adobe-learning-manager.html",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-compliance-reporting": {
+    "support": "Partial",
+    "note": "Compliance training is a named employee use case; reporting depth is not detailed on the product page.",
+    "source": "https://business.adobe.com/products/learning-manager/adobe-learning-manager.html",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-scorm": {
+    "support": "Unknown",
+    "note": "Not stated on the product page reviewed.",
+    "source": "https://business.adobe.com/products/learning-manager/adobe-learning-manager.html",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-authoring": {
+    "support": "No",
+    "note": "Adobe positions Learning Manager as a platform rather than an authoring tool and recommends Adobe Captivate as a separate complementary product.",
+    "source": "https://business.adobe.com/products/learning-manager/adobe-learning-manager.html",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-mobile": {
+    "support": "Partial",
+    "note": "Multi-device delivery and mobile app integration are referenced; offline capability is not specified.",
+    "source": "https://business.adobe.com/products/learning-manager/adobe-learning-manager.html",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-bilingual": {
+    "support": "Partial",
+    "note": "Multilingual certification programs are supported; no Spanish multifamily content is supplied.",
+    "source": "https://business.adobe.com/products/learning-manager/adobe-learning-manager.html",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-pms-integration": {
+    "support": "Unknown",
+    "note": "Named integrations are Adobe products, Microsoft Teams and Salesforce; no property management system is named.",
+    "source": "https://business.adobe.com/products/learning-manager/adobe-learning-manager.html",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-hris-integration": {
+    "support": "Unknown",
+    "note": "SSO providers (Okta, OneLogin, Oracle Identity Federation) are named; HRIS/payroll connectors are not.",
+    "source": "https://business.adobe.com/products/learning-manager/adobe-learning-manager.html",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-benchmarking": {
+    "support": "Unknown",
+    "note": "Not documented.",
+    "source": "https://business.adobe.com/products/learning-manager/adobe-learning-manager.html",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Medium",
+   "owner": null,
+   "autoUpdated": true,
+   "pendingReview": []
+  },
+  "news": [],
+  "sources": [
+   {
+    "title": "Adobe — Learning Manager product page",
+    "url": "https://business.adobe.com/products/learning-manager/adobe-learning-manager.html",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 4,
+   "name": "People and Workforce",
+   "note": "Reaches multifamily through the people and workforce stack — often already on an HR contract."
+  },
+  "whenItComesUp": {
+   "why": "An enterprise LMS sold inside a marketing-technology stack. It reaches multifamily through a corporate marketing or franchise relationship, not through an operations evaluation.",
+   "say": "Adobe Learning Manager usually arrives through the marketing side of the house. It's a capable platform — it's just not built around multifamily regulation or property roles.",
+   "avoid": "Don't fight Adobe on platform capability. You will lose and it's not the point.",
+   "redirect": "Who owns that relationship internally — marketing, or the operations team who'd actually use this?"
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name Adobe Captivate Prime, ALM, or describe horizontal enterprise lms inside a marketing-technology suite already in place.",
+    "ask": "Is Learning Manager owned by marketing for brand and partner programs, or by HR for onsite compliance?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "Adobe positions Learning Manager as a delivery platform, not an authoring tool — Adobe recommends buying Adobe Captivate separately to create interactive content.",
+    "ask": "Who builds the courses today — and are you also paying for Adobe Captivate to do it?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the Adobe Learning Manager contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the Adobe Learning Manager agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether Adobe Learning Manager sits on someone else's budget line — that changes who has to agree.",
+    "ask": "Who else has to be comfortable with this, and what do they need to see?"
+   }
+  ]
+ },
+ {
+  "id": "cypher-learning",
+  "name": "CYPHER Learning",
+  "aka": [
+   "CYPHER",
+   "MATRIX LMS",
+   "NEO LMS",
+   "INDIE"
+  ],
+  "parent": null,
+  "website": "https://www.cypherlearning.com/",
+  "toolCategory": "Horizontal AI-native LMS",
+  "ciCategory": "Potential",
+  "tier": "Watchlist",
+  "verdict": {
+   "stance": "Partial overlap",
+   "line": "CYPHER is the one horizontal LMS in this set that actually names real estate as a target industry — but naming an industry on a web page is not the same as maintaining a fair housing curriculum, and that distinction is the entire conversation.",
+   "doInstead": "Do not dismiss it on the grounds that it is generic; the rep will lose credibility because CYPHER markets to real estate. Instead ask to see the real estate content itself — CYPHER's pitch is AI-generated course creation from the customer's own material, which means the customer is still the author of record for fair housing."
+  },
+  "overlaps": [
+   {
+    "product": "Training",
+    "degree": "Partial"
+   },
+   {
+    "product": "Policies",
+    "degree": "None"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": "Plano, Texas (7250 Dallas Parkway, Suite 400)",
+    "source": "https://www.cypherlearning.com/about-us",
+    "verifiedOn": "2026-08-11"
+   },
+   "founded": {
+    "value": "2009, by Graham Glass",
+    "source": "https://www.cypherlearning.com/about-us",
+    "verifiedOn": "2026-08-11"
+   },
+   "ownership": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "size": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "funding": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   }
+  },
+  "pricing": {
+   "value": "Not published on the vendor site; quote-only.",
+   "source": "https://www.cypherlearning.com/",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "\"The only all-in-one AI training platform that's easy-to-use\" / \"an AI-native learning platform built to turn training into measurable business performance.\"",
+   "source": "https://www.cypherlearning.com/",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "Explicitly lists real estate among its target industries, alongside finance & banking, retail/restaurants, franchised businesses, associations, nonprofits, healthcare, utilities and education.",
+    "source": "https://www.cypherlearning.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "AI-enabled course creation converts customer material into structured courses; CYPHER Agent personalizes by role and audience.",
+    "source": "https://www.cypherlearning.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Offers a white-label LMS option and content services in addition to the core platform.",
+    "source": "https://www.cypherlearning.com/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "CYPHER's homepage markets a \"Content\" offering and marketplace but publishes no details of a course library, and names no multifamily, fair housing or state compliance titles.",
+    "source": "https://www.cypherlearning.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "CYPHER's about page discloses no ownership structure, employee count or customer count.",
+    "source": "https://www.cypherlearning.com/about-us",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [
+   "Grace Hill ships a maintained multifamily library; CYPHER's real estate story is a platform configured for real estate, not a curriculum.",
+   "Fair housing and state compliance content is authored and updated by Grace Hill, so the liability for currency does not sit with the operator."
+  ],
+  "askThis": [
+   "Can they show you the actual real estate courses, or just the industries page?",
+   "If the AI generates your fair housing course from documents you upload, who wrote and validated the source documents?",
+   "Who signs off that the course reflects current law in every state you operate in?"
+  ],
+  "objections": [
+   {
+    "objection": "CYPHER already serves real estate.",
+    "response": "They market to real estate, which is real. Ask them to show the real estate course list — their published model is AI course creation from your own material, so the content authorship stays with you."
+   }
+  ],
+  "doNotSay": [
+   "Do not say CYPHER does not serve real estate — they name it as a target industry on their homepage.",
+   "Do not quote a CYPHER price."
+  ],
+  "features": {
+   "tr-multifamily-content": {
+    "support": "Unknown",
+    "note": "Real estate is named as a target industry, but no course library or titles are published; a multifamily-specific library is not documented.",
+    "source": "https://www.cypherlearning.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-vendor-maintained": {
+    "support": "Unknown",
+    "note": "A \"Content\" offering and marketplace are referenced without detail; the marketed model is AI generation from customer material.",
+    "source": "https://www.cypherlearning.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-fair-housing": {
+    "support": "Unknown",
+    "note": "No fair housing title is published.",
+    "source": "https://www.cypherlearning.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-state-specific": {
+    "support": "Unknown",
+    "note": "No state-specific compliance variants are published.",
+    "source": "https://www.cypherlearning.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-cec-eligible": {
+    "support": "Unknown",
+    "note": "No CAM / CAPS / CALP eligibility documented.",
+    "source": "https://www.cypherlearning.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-role-assignment": {
+    "support": "Partial",
+    "note": "CYPHER Agent \"helps with personalization by role and audience\"; property-based assignment is not documented.",
+    "source": "https://www.cypherlearning.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-competency": {
+    "support": "Unknown",
+    "note": "Marketed as turning training into \"measurable business performance\"; competency assessment mechanics are not published.",
+    "source": "https://www.cypherlearning.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-compliance-reporting": {
+    "support": "Unknown",
+    "note": "Not detailed on the pages reviewed.",
+    "source": "https://www.cypherlearning.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-scorm": {
+    "support": "Unknown",
+    "note": "SCORM support is not stated on the pages reviewed.",
+    "source": "https://www.cypherlearning.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-authoring": {
+    "support": "Yes",
+    "note": "\"AI-enabled course creation\" turns content into courses in minutes.",
+    "source": "https://www.cypherlearning.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-mobile": {
+    "support": "Unknown",
+    "note": "Not documented on the pages reviewed.",
+    "source": "https://www.cypherlearning.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-bilingual": {
+    "support": "Unknown",
+    "note": "Not documented on the pages reviewed.",
+    "source": "https://www.cypherlearning.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-pms-integration": {
+    "support": "Unknown",
+    "note": "No property management system integration is named.",
+    "source": "https://www.cypherlearning.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-hris-integration": {
+    "support": "Unknown",
+    "note": "Not documented on the pages reviewed.",
+    "source": "https://www.cypherlearning.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-benchmarking": {
+    "support": "Unknown",
+    "note": "Not documented.",
+    "source": "https://www.cypherlearning.com/",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Medium",
+   "owner": null,
+   "autoUpdated": true,
+   "pendingReview": []
+  },
+  "news": [],
+  "sources": [
+   {
+    "title": "CYPHER Learning — homepage",
+    "url": "https://www.cypherlearning.com/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "CYPHER Learning — About us",
+    "url": "https://www.cypherlearning.com/about-us",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 4,
+   "name": "People and Workforce",
+   "note": "Reaches multifamily through the people and workforce stack — often already on an HR contract."
+  },
+  "whenItComesUp": {
+   "why": "Overlaps in part, not in whole. CYPHER is the one horizontal LMS in this set that actually names real estate as a target industry — but naming an industry on a web page is not the same as maintaining a fair housing curriculum, and that distinction is the entire conversation.",
+   "say": "Concede the part they genuinely own, then be specific about the part they don't. Partial overlap is where reps over-claim and lose credibility.",
+   "avoid": "Do not say CYPHER does not serve real estate — they name it as a target industry on their homepage.",
+   "redirect": "Can they show you the actual real estate courses, or just the industries page?",
+   "derived": true
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name CYPHER, MATRIX LMS, NEO LMS, INDIE, or describe horizontal ai-native lms already in place.",
+    "ask": "Can they show you the actual real estate courses, or just the industries page?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "CYPHER's homepage markets a \"Content\" offering and marketplace but publishes no details of a course library, and names no multifamily, fair housing or state compliance titles.",
+    "ask": "If the AI generates your fair housing course from documents you upload, who wrote and validated the source documents?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the CYPHER Learning contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the CYPHER Learning agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether CYPHER Learning sits on someone else's budget line — that changes who has to agree.",
+    "ask": "Who signs off that the course reflects current law in every state you operate in?"
+   }
+  ]
+ },
+ {
+  "id": "learning-pool",
+  "name": "Learning Pool",
+  "aka": [
+   "Learning Pool Platform",
+   "Elucidat",
+   "Learning Locker"
+  ],
+  "parent": "Marlin Equity Partners (majority investor)",
+  "website": "https://learningpool.com/",
+  "toolCategory": "Horizontal LMS/LXP plus off-the-shelf compliance content library",
+  "ciCategory": "Potential",
+  "tier": "Watchlist",
+  "verdict": {
+   "stance": "Do not compete",
+   "line": "Learning Pool is a UK-rooted enterprise learning and analytics vendor whose off-the-shelf library is built around general workplace compliance — it does not carry US fair housing or state landlord-tenant content and it does not show up in multifamily operations deals.",
+   "doInstead": "Treat it as noise on the register unless a UK- or enterprise-HQ'd owner brings it in from a global L&D standard. If that happens, scope Grace Hill to the US property-compliance layer Learning Pool's library does not cover and let the corporate standard stand."
+  },
+  "overlaps": [
+   {
+    "product": "Training",
+    "degree": "Partial"
+   },
+   {
+    "product": "Policies",
+    "degree": "None"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "founded": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "ownership": {
+    "value": "Majority investment by Marlin Equity Partners",
+    "source": "https://www.marlinequity.com/news/marlin-signs-definitive-agreement-to-complete-growth-equity-investment-in-learning-pool/",
+    "verifiedOn": "2026-08-11"
+   },
+   "size": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "funding": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   }
+  },
+  "pricing": {
+   "value": "Not published on the vendor site.",
+   "source": "https://learningpool.com/",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "\"Data-driven workplace learning technologies that empower your teams to perform at their best.\"",
+   "source": "https://learningpool.com/",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "Broad stack: adaptive content, AI conversation practice, custom content creation, a Learning Record Store for xAPI analytics, an off-the-shelf library, on-screen software guidance and Skills Builder.",
+    "source": "https://learningpool.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Claims 45 Fortune 500 customers and approximately 26 million active learners.",
+    "source": "https://learningpool.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Has consolidated adjacent capability by acquisition, including Elucidat (authoring) under Marlin ownership.",
+    "source": "https://www.marlinequity.com/news/marlin-portfolio-company-learning-pool-acquires-elucidat/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "Published sector references are sports (The FA) and hospitality (IHG); no multifamily, real estate or US housing-compliance vertical is named.",
+    "source": "https://learningpool.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "The Learning Pool site publishes no ownership or corporate-structure detail; ownership is only verifiable through investor announcements.",
+    "source": "https://learningpool.com/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [
+   "Grace Hill's compliance content is written to US federal and state housing law, which a UK-rooted general compliance library is not.",
+   "The library is multifamily-specific rather than general workplace compliance."
+  ],
+  "askThis": [
+   "Does the off-the-shelf library include anything written to US housing law?",
+   "Is this a corporate L&D standard, or is it actually being used by site teams?"
+  ],
+  "objections": [
+   {
+    "objection": "Corporate already standardized on Learning Pool.",
+    "response": "Fine — keep it for corporate learning. Ask what it carries for fair housing and state-specific property compliance; that gap is where Grace Hill sits, and it does not require displacing the corporate standard."
+   }
+  ],
+  "doNotSay": [
+   "Do not characterize Learning Pool as UK-only — they serve Fortune 500 customers and operate internationally.",
+   "Do not assert their library lacks any specific course without checking; the full catalog is not published."
+  ],
+  "features": {
+   "tr-multifamily-content": {
+    "support": "No",
+    "note": "No multifamily, real estate or property-management vertical is named among their published sectors or products.",
+    "source": "https://learningpool.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-vendor-maintained": {
+    "support": "Yes",
+    "note": "Learning Pool publishes an off-the-shelf library as a maintained product line alongside custom content services.",
+    "source": "https://learningpool.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-fair-housing": {
+    "support": "Unknown",
+    "note": "The off-the-shelf library catalog is not enumerated publicly; no US fair housing title is published.",
+    "source": "https://learningpool.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-state-specific": {
+    "support": "Unknown",
+    "note": "No US state-specific compliance variants are published.",
+    "source": "https://learningpool.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-cec-eligible": {
+    "support": "Unknown",
+    "note": "No CAM / CAPS / CALP eligibility documented.",
+    "source": "https://learningpool.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-role-assignment": {
+    "support": "Unknown",
+    "note": "Personalization is marketed; assignment rules are not detailed publicly.",
+    "source": "https://learningpool.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-competency": {
+    "support": "Partial",
+    "note": "Skills Builder markets workforce skill development; competency validation mechanics are not detailed.",
+    "source": "https://learningpool.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-compliance-reporting": {
+    "support": "Yes",
+    "note": "A Learning Record Store (LRS) and data analytics are core marketed products.",
+    "source": "https://learningpool.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-scorm": {
+    "support": "Yes",
+    "note": "Operates a Learning Record Store for xAPI data; authoring output is standards-based via Elucidat.",
+    "source": "https://learningpool.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-authoring": {
+    "support": "Yes",
+    "note": "Custom content creation and the Elucidat authoring tool.",
+    "source": "https://learningpool.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-mobile": {
+    "support": "Unknown",
+    "note": "Not documented on the pages reviewed.",
+    "source": "https://learningpool.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-bilingual": {
+    "support": "Unknown",
+    "note": "Not documented on the pages reviewed.",
+    "source": "https://learningpool.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-pms-integration": {
+    "support": "Unknown",
+    "note": "No property management system integration is named.",
+    "source": "https://learningpool.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-hris-integration": {
+    "support": "Unknown",
+    "note": "Not documented on the pages reviewed.",
+    "source": "https://learningpool.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-benchmarking": {
+    "support": "Unknown",
+    "note": "Learner analytics are marketed; cross-industry benchmarking is not documented.",
+    "source": "https://learningpool.com/",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Medium",
+   "owner": null,
+   "autoUpdated": true,
+   "pendingReview": []
+  },
+  "news": [],
+  "sources": [
+   {
+    "title": "Learning Pool — homepage",
+    "url": "https://learningpool.com/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Marlin Equity Partners — growth equity investment in Learning Pool",
+    "url": "https://www.marlinequity.com/news/marlin-signs-definitive-agreement-to-complete-growth-equity-investment-in-learning-pool/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "PR Newswire — Learning Pool agrees strategic investment from Marlin Equity Partners",
+    "url": "https://www.prnewswire.com/news-releases/learning-pool-agrees-to-a-strategic-investment-from-marlin-equity-partners-301313149.html",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 4,
+   "name": "People and Workforce",
+   "note": "Reaches multifamily through the people and workforce stack — often already on an HR contract."
+  },
+  "whenItComesUp": {
+   "why": "A UK-headquartered LMS/LXP with off-the-shelf compliance content, mostly reaching North America through a globally headquartered owner.",
+   "say": "Learning Pool is strong in the UK public and enterprise space. If it's here it's usually because a parent company standardized on it globally.",
+   "avoid": "Don't treat it as a live multifamily threat — it will read as unfamiliarity with the market.",
+   "redirect": "Is this a global standard you have to work within, or is the US portfolio free to choose?"
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name Learning Pool Platform, Elucidat, Learning Locker, or describe horizontal lms/lxp plus off-the-shelf compliance content library already in place.",
+    "ask": "Does the off-the-shelf library include anything written to US housing law?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "Published sector references are sports (The FA) and hospitality (IHG); no multifamily, real estate or US housing-compliance vertical is named.",
+    "ask": "Is this a corporate L&D standard, or is it actually being used by site teams?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the Learning Pool contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the Learning Pool agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether Learning Pool sits on someone else's budget line — that changes who has to agree.",
+    "ask": "Who else has to be comfortable with this, and what do they need to see?"
+   }
+  ]
+ },
+ {
+  "id": "seismic-learning",
+  "name": "Seismic Learning",
+  "aka": [
+   "Lessonly",
+   "Lessonly by Seismic",
+   "Seismic Enablement Cloud"
+  ],
+  "parent": "Seismic Software",
+  "website": "https://www.seismic.com/platform/learning/",
+  "toolCategory": "Sales enablement and revenue-team coaching platform",
+  "ciCategory": "Potential",
+  "tier": "Watchlist",
+  "verdict": {
+   "stance": "Do not compete",
+   "line": "Seismic Learning is sold to sales enablement leaders to cut rep ramp time and lift revenue — its own product page never mentions compliance, and no multifamily buyer evaluates it against a fair housing obligation.",
+   "doInstead": "If Seismic appears, it is a leasing-performance or corporate-sales tool, not a compliance system. Do not pitch against it; if anything, use it as evidence the customer already believes coaching changes behavior, then show how Grace Hill applies the same logic to compliance and property operations."
+  },
+  "overlaps": [
+   {
+    "product": "Training",
+    "degree": "Partial"
+   },
+   {
+    "product": "Policies",
+    "degree": "None"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "founded": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "ownership": {
+    "value": "Seismic Software; Lessonly was acquired by Seismic in 2021 and rebranded Seismic Learning",
+    "source": "https://www.seismic.com/seismic-learning-login/",
+    "verifiedOn": "2026-08-11"
+   },
+   "size": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "funding": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   }
+  },
+  "pricing": {
+   "value": "Not published on the vendor site.",
+   "source": "https://www.seismic.com/platform/learning/",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "\"AI-powered sales training\" that \"changes behavior and drives revenue growth\" — \"deliver personalized learning and AI-guided coaching at scale.\"",
+   "source": "https://www.seismic.com/platform/learning/",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "Purpose-built for sales reps and customer-facing teams: personalized coaching plans, AI-powered role-plays, and microlearning.",
+    "source": "https://www.seismic.com/platform/learning/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Cites a 34% decrease in ramp time as its headline outcome.",
+    "source": "https://www.seismic.com/platform/learning/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Integrates with existing LMS, CRM and content authoring systems rather than requiring replacement.",
+    "source": "https://www.seismic.com/platform/learning/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "The Seismic Learning product page does not mention compliance training, industry-specific content libraries, or regulatory frameworks — the focus is entirely sales performance and revenue.",
+    "source": "https://www.seismic.com/platform/learning/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "No industry vertical content library is published for real estate or multifamily.",
+    "source": "https://www.seismic.com/platform/learning/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [
+   "Grace Hill's product is bought to reduce regulatory exposure; Seismic Learning is bought to shorten sales ramp. They answer different budget lines.",
+   "Multifamily role-based content covering maintenance, leasing and management is out of scope for a revenue-team enablement tool."
+  ],
+  "askThis": [
+   "Is this owned by sales or by HR/compliance?",
+   "Does anything in Seismic cover fair housing, or is that handled somewhere else entirely?"
+  ],
+  "objections": [
+   {
+    "objection": "We use Seismic for training already.",
+    "response": "For leasing and sales coaching, that is a strong fit. Their own product page is silent on compliance — so the fair housing and state-specific obligations are being covered somewhere else, or not at all. Which is it?"
+   }
+  ],
+  "doNotSay": [
+   "Do not claim Seismic Learning cannot host a compliance course — it can host content; the verifiable point is that Seismic does not market or supply compliance content.",
+   "Do not quote a Seismic price."
+  ],
+  "features": {
+   "tr-multifamily-content": {
+    "support": "No",
+    "note": "No industry content library is published; the product is positioned for sales and customer-facing teams.",
+    "source": "https://www.seismic.com/platform/learning/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-vendor-maintained": {
+    "support": "No",
+    "note": "Seismic supplies no maintained course library; content is customer-created.",
+    "source": "https://www.seismic.com/platform/learning/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-fair-housing": {
+    "support": "No",
+    "note": "The product page does not mention compliance training or regulatory frameworks of any kind.",
+    "source": "https://www.seismic.com/platform/learning/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-state-specific": {
+    "support": "No",
+    "note": "No compliance content library is offered, therefore no state variants.",
+    "source": "https://www.seismic.com/platform/learning/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-cec-eligible": {
+    "support": "No",
+    "note": "No credential-eligible content is offered.",
+    "source": "https://www.seismic.com/platform/learning/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-role-assignment": {
+    "support": "Partial",
+    "note": "Personalized coaching plans target reps by gap; property-based assignment is not a concept in the product.",
+    "source": "https://www.seismic.com/platform/learning/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-competency": {
+    "support": "Partial",
+    "note": "AI-guided coaching and role-plays assess sales behavior rather than subject-matter competency.",
+    "source": "https://www.seismic.com/platform/learning/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-compliance-reporting": {
+    "support": "Unknown",
+    "note": "Reporting is framed around ramp time and rep performance; compliance completion reporting is not documented.",
+    "source": "https://www.seismic.com/platform/learning/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-scorm": {
+    "support": "Unknown",
+    "note": "Integrates with LMS and authoring tools; SCORM/xAPI support is not stated on the page reviewed.",
+    "source": "https://www.seismic.com/platform/learning/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-authoring": {
+    "support": "Yes",
+    "note": "Interactive learning and training course creation are core features.",
+    "source": "https://www.seismic.com/platform/learning/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-mobile": {
+    "support": "Unknown",
+    "note": "Not documented on the page reviewed.",
+    "source": "https://www.seismic.com/platform/learning/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-bilingual": {
+    "support": "Unknown",
+    "note": "Not documented on the page reviewed.",
+    "source": "https://www.seismic.com/platform/learning/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-pms-integration": {
+    "support": "Unknown",
+    "note": "CRM and LMS integrations are named; no property management system.",
+    "source": "https://www.seismic.com/platform/learning/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-hris-integration": {
+    "support": "Unknown",
+    "note": "Not documented on the page reviewed.",
+    "source": "https://www.seismic.com/platform/learning/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-benchmarking": {
+    "support": "Unknown",
+    "note": "Not documented.",
+    "source": "https://www.seismic.com/platform/learning/",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Medium",
+   "owner": null,
+   "autoUpdated": true,
+   "pendingReview": []
+  },
+  "news": [],
+  "sources": [
+   {
+    "title": "Seismic — AI-driven sales training and coaching",
+    "url": "https://www.seismic.com/platform/learning/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Seismic Learning login (Lessonly rebrand)",
+    "url": "https://www.seismic.com/seismic-learning-login/",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 4,
+   "name": "People and Workforce",
+   "note": "Reaches multifamily through the people and workforce stack — often already on an HR contract."
+  },
+  "whenItComesUp": {
+   "why": "Sales enablement and revenue-team coaching. If it's present, someone is trying to improve leasing conversion, not run a compliance program.",
+   "say": "Seismic is a sales enablement platform — it's about coaching a revenue team. If leasing performance is what you're chasing, that's a real conversation, it's just a different one from compliance and policy.",
+   "avoid": "Don't conflate leasing coaching with fair housing training. They're separate budgets and separate buyers.",
+   "redirect": "Are we talking about making leasing better, or about making sure everyone's trained on what they're legally required to know?"
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name Lessonly, Lessonly by Seismic, Seismic Enablement Cloud, or describe sales enablement and revenue-team coaching platform already in place.",
+    "ask": "Is this owned by sales or by HR/compliance?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "The Seismic Learning product page does not mention compliance training, industry-specific content libraries, or regulatory frameworks — the focus is entirely sales performance and revenue.",
+    "ask": "Does anything in Seismic cover fair housing, or is that handled somewhere else entirely?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the Seismic Learning contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the Seismic Learning agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether Seismic Learning sits on someone else's budget line — that changes who has to agree.",
+    "ask": "Who else has to be comfortable with this, and what do they need to see?"
+   }
+  ]
+ },
+ {
+  "id": "sana-learn",
+  "name": "Sana Learn",
+  "aka": [
+   "Sana",
+   "Sana Labs",
+   "Sana AI"
+  ],
+  "parent": "Workday, Inc.",
+  "website": "https://sanalabs.com/",
+  "toolCategory": "AI-native learning platform inside an HCM vendor's portfolio",
+  "ciCategory": "Indirect",
+  "tier": "Watchlist",
+  "verdict": {
+   "stance": "Do not compete",
+   "line": "Now owned by Workday, Sana is aimed at knowledge workers in financial services, consulting, law and tech — it arrives through the HCM contract rather than a training evaluation, and it supplies no housing-compliance content at all.",
+   "doInstead": "Where a large owner-operator runs Workday, expect Sana to be offered as the learning layer at renewal. Do not fight the platform decision — put the argument on content: Sana supplies the delivery and the AI, Grace Hill supplies the multifamily curriculum and owns keeping it current."
+  },
+  "overlaps": [
+   {
+    "product": "Training",
+    "degree": "Partial"
+   },
+   {
+    "product": "Policies",
+    "degree": "None"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "founded": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "ownership": {
+    "value": "Acquired by Workday — agreement signed 16 September 2025, acquisition completed 4 November 2025",
+    "source": "https://investor.workday.com/news-and-events/press-releases/news-details/2025/Workday-Completes-Acquisition-of-Sana-11-04-2025/default.aspx",
+    "verifiedOn": "2026-08-11"
+   },
+   "size": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "funding": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   }
+  },
+  "pricing": {
+   "value": "Not published on the vendor site.",
+   "source": "https://sanalabs.com/",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "\"Superintelligence for work.\" Sana Learn is described as \"the best of an LMS, LXP, authoring tool, and virtual classroom in one AI-native learning platform.\"",
+   "source": "https://sanalabs.com/",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "Consolidates LMS, LXP, authoring and virtual classroom into one AI-native product, covering content creation, delivery, admin automation and analytics.",
+    "source": "https://sanalabs.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Backed by Workday's enterprise distribution following the completed acquisition.",
+    "source": "https://investor.workday.com/news-and-events/press-releases/news-details/2025/Workday-Completes-Acquisition-of-Sana-11-04-2025/default.aspx",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Paired with the broader Sana enterprise AI platform — agents, enterprise search, workflow automation and document generation.",
+    "source": "https://sanalabs.com/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "Sana's published industry focus is financial services, consulting, law and tech; multifamily, real estate and property management are not named.",
+    "source": "https://sanalabs.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Sana supplies no maintained industry content library — the product is a platform and authoring layer for customer content.",
+    "source": "https://sanalabs.com/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [
+   "Grace Hill supplies and maintains the multifamily curriculum; Sana supplies the platform and expects the customer to bring content.",
+   "Fair housing and state compliance currency is a Grace Hill obligation, not an internal L&D project."
+  ],
+  "askThis": [
+   "Is this coming to you through Workday procurement rather than a training evaluation?",
+   "If Sana generates courses from your documents, whose documents are the fair housing rules coming from?"
+  ],
+  "objections": [
+   {
+    "objection": "Workday is giving us Sana as part of the platform.",
+    "response": "Then you have the delivery mechanism handled. The question the Workday contract does not answer is what goes in it for site teams and who is accountable when a state's rules change."
+   }
+  ],
+  "doNotSay": [
+   "Do not describe Sana as a startup — it is owned by Workday as of November 2025.",
+   "Do not quote a Sana price or an acquisition figure without citing the source."
+  ],
+  "features": {
+   "tr-multifamily-content": {
+    "support": "No",
+    "note": "Published industry focus is financial services, consulting, law and tech; no real estate or multifamily library.",
+    "source": "https://sanalabs.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-vendor-maintained": {
+    "support": "No",
+    "note": "No maintained vendor content library is published; the product is a platform plus AI authoring.",
+    "source": "https://sanalabs.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-fair-housing": {
+    "support": "No",
+    "note": "No content library is supplied, therefore no vendor-supplied fair housing course.",
+    "source": "https://sanalabs.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-state-specific": {
+    "support": "No",
+    "note": "No content library is supplied, therefore no state-specific variants.",
+    "source": "https://sanalabs.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-cec-eligible": {
+    "support": "No",
+    "note": "No credential-eligible content is supplied.",
+    "source": "https://sanalabs.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-role-assignment": {
+    "support": "Partial",
+    "note": "Team- and industry-specific solutions are marketed; property-based assignment is not documented.",
+    "source": "https://sanalabs.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-competency": {
+    "support": "Unknown",
+    "note": "Analytics are marketed; competency assessment mechanics are not detailed publicly.",
+    "source": "https://sanalabs.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-compliance-reporting": {
+    "support": "Unknown",
+    "note": "Analytics are marketed generically; compliance completion reporting is not detailed.",
+    "source": "https://sanalabs.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-scorm": {
+    "support": "Unknown",
+    "note": "Not stated on the pages reviewed.",
+    "source": "https://sanalabs.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-authoring": {
+    "support": "Yes",
+    "note": "Authoring is an explicit part of the Sana Learn value proposition.",
+    "source": "https://sanalabs.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-mobile": {
+    "support": "Unknown",
+    "note": "Not documented on the pages reviewed.",
+    "source": "https://sanalabs.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-bilingual": {
+    "support": "Unknown",
+    "note": "Not documented on the pages reviewed.",
+    "source": "https://sanalabs.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-pms-integration": {
+    "support": "Unknown",
+    "note": "No property management system integration is named.",
+    "source": "https://sanalabs.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-hris-integration": {
+    "support": "Unknown",
+    "note": "Now part of Workday, but a documented Sana Learn HRIS connector list was not found on the pages reviewed.",
+    "source": "https://sanalabs.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-benchmarking": {
+    "support": "Unknown",
+    "note": "Not documented.",
+    "source": "https://sanalabs.com/",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Medium",
+   "owner": null,
+   "autoUpdated": true,
+   "pendingReview": []
+  },
+  "news": [],
+  "sources": [
+   {
+    "title": "Sana — homepage",
+    "url": "https://sanalabs.com/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Workday — signs definitive agreement to acquire Sana",
+    "url": "https://newsroom.workday.com/2025-09-16-Workday-Signs-Definitive-Agreement-to-Acquire-Sana",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Workday Investor Relations — completes acquisition of Sana",
+    "url": "https://investor.workday.com/news-and-events/press-releases/news-details/2025/Workday-Completes-Acquisition-of-Sana-11-04-2025/default.aspx",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 4,
+   "name": "People and Workforce",
+   "note": "Reaches multifamily through the people and workforce stack — often already on an HR contract."
+  },
+  "whenItComesUp": {
+   "why": "Workday acquired Sana, so where a large owner-operator runs Workday it will be offered as the learning layer at a price that's hard to argue with.",
+   "say": "If you're on Workday, Sana's going to get offered to you and the pricing will look good. That's a real consideration. What it won't come with is multifamily-specific content or anyone maintaining it as regulation changes.",
+   "avoid": "Don't argue against the consolidation logic — it's sound. Argue about what fills the platform.",
+   "redirect": "If you go that route, where does the multifamily content come from, and who keeps it current?"
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name Sana, Sana Labs, Sana AI, or describe ai-native learning platform inside an hcm vendor's portfolio already in place.",
+    "ask": "Is this coming to you through Workday procurement rather than a training evaluation?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "Sana's published industry focus is financial services, consulting, law and tech; multifamily, real estate and property management are not named.",
+    "ask": "If Sana generates courses from your documents, whose documents are the fair housing rules coming from?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the Sana Learn contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the Sana Learn agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether Sana Learn sits on someone else's budget line — that changes who has to agree.",
+    "ask": "Who else has to be comfortable with this, and what do they need to see?"
+   }
+  ]
+ },
+ {
+  "id": "bridge-lms",
+  "name": "Bridge LMS",
+  "aka": [
+   "Bridge",
+   "GetBridge"
+  ],
+  "parent": "Learning Technologies Group (LTG)",
+  "website": "https://www.getbridge.com/",
+  "toolCategory": "Horizontal mid-market LMS with performance and skills modules",
+  "ciCategory": "Potential",
+  "tier": "Watchlist",
+  "verdict": {
+   "stance": "Partial overlap",
+   "line": "Bridge is explicit that it brings no content of its own — it integrates LinkedIn Learning, Udemy, Khan Academy and OpenSesame — so a Bridge deal always leaves the multifamily curriculum unbought and unassigned.",
+   "doInstead": "Do not fight Bridge on platform breadth; it also sells performance reviews and engagement surveys, which Grace Hill Training does not. Draw the line at content: ask the buyer to name which of Bridge's four integrated content partners carries fair housing and state landlord-tenant compliance."
+  },
+  "overlaps": [
+   {
+    "product": "Training",
+    "degree": "Partial"
+   },
+   {
+    "product": "Policies",
+    "degree": "None"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "founded": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "ownership": {
+    "value": "Learning Technologies Group plc; acquired from Instructure in 2021",
+    "source": "https://ltgplc.com/news/ltg-expands-mid-enterprise-learning-and-talent-software-offering-with-acquisition-of-bridge/",
+    "verifiedOn": "2026-08-11"
+   },
+   "size": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "funding": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   }
+  },
+  "pricing": {
+   "value": "Not published on the vendor site.",
+   "source": "https://www.getbridge.com/",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "\"An award-winning learning management system and performance platform that helps organizations develop employees and enable partners\" — \"a single system that keeps your teams trained, compliant and ready to perform,\" targeted at mid-market organizations.",
+   "source": "https://www.getbridge.com/",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "Suite breadth beyond learning: performance management (reviews, 1-on-1s, goals), skills management, engagement surveys, analytics, advanced authoring and a mobile app.",
+    "source": "https://www.getbridge.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Explicitly integrates external content providers — LinkedIn Learning, Udemy, Khan Academy and OpenSesame — plus HRIS and authentication connectors.",
+    "source": "https://www.getbridge.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Published industries include healthcare, higher education, financial services, construction, nonprofits, professional sports and manufacturing.",
+    "source": "https://www.getbridge.com/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "Bridge publishes no content library of its own; it relies on integrations with LinkedIn Learning, Udemy, Khan Academy and OpenSesame.",
+    "source": "https://www.getbridge.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Real estate, multifamily and property management are absent from Bridge's published industry list.",
+    "source": "https://www.getbridge.com/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [
+   "Grace Hill's multifamily library is the product; a Bridge buyer still has to solve content separately.",
+   "Fair housing and state-specific compliance content is vendor-maintained rather than sourced from a general business catalog."
+  ],
+  "askThis": [
+   "Bridge integrates four content partners — which of them carries fair housing?",
+   "If you buy Bridge, what is your separate line item for multifamily course content?",
+   "Are you buying Bridge for learning, or really for performance reviews and engagement?"
+  ],
+  "objections": [
+   {
+    "objection": "Bridge gives us learning and performance in one system.",
+    "response": "That is a genuine advantage over a training-only tool. It is also content-empty by design — Bridge's own site points to LinkedIn Learning, Udemy, Khan Academy and OpenSesame. None of those is a multifamily compliance curriculum."
+   }
+  ],
+  "doNotSay": [
+   "Do not say Bridge cannot support compliance training — Bridge markets \"trained, compliant and ready to perform.\"",
+   "Do not quote a Bridge price."
+  ],
+  "features": {
+   "tr-multifamily-content": {
+    "support": "No",
+    "note": "Bridge publishes no content library of its own and names no real estate or multifamily vertical.",
+    "source": "https://www.getbridge.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-vendor-maintained": {
+    "support": "No",
+    "note": "No dedicated Bridge content library; content comes from customer authoring or third-party integrations.",
+    "source": "https://www.getbridge.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-fair-housing": {
+    "support": "No",
+    "note": "No vendor content library exists, therefore no Bridge-supplied fair housing course.",
+    "source": "https://www.getbridge.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-state-specific": {
+    "support": "No",
+    "note": "No vendor content library exists, therefore no state-specific variants.",
+    "source": "https://www.getbridge.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-cec-eligible": {
+    "support": "No",
+    "note": "No vendor-supplied credential-eligible content.",
+    "source": "https://www.getbridge.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-role-assignment": {
+    "support": "Partial",
+    "note": "Assignment and compliance tracking are marketed; property-based assignment is not documented.",
+    "source": "https://www.getbridge.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-competency": {
+    "support": "Partial",
+    "note": "Skills Management identifies and closes skill gaps with AI-powered tools; competency validation detail is not published.",
+    "source": "https://www.getbridge.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-compliance-reporting": {
+    "support": "Yes",
+    "note": "\"Keeps your teams trained, compliant and ready to perform,\" with an analytics module.",
+    "source": "https://www.getbridge.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-scorm": {
+    "support": "Unknown",
+    "note": "Advanced Authoring is offered; SCORM/xAPI import is not stated on the page reviewed.",
+    "source": "https://www.getbridge.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-authoring": {
+    "support": "Yes",
+    "note": "\"Advanced Authoring\" for interactive content design.",
+    "source": "https://www.getbridge.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-mobile": {
+    "support": "Partial",
+    "note": "A mobile app is offered; offline access is not documented.",
+    "source": "https://www.getbridge.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-bilingual": {
+    "support": "Unknown",
+    "note": "Not documented on the page reviewed.",
+    "source": "https://www.getbridge.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-pms-integration": {
+    "support": "Unknown",
+    "note": "Named integrations are content providers, HRIS and authentication; no property management system.",
+    "source": "https://www.getbridge.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-hris-integration": {
+    "support": "Yes",
+    "note": "\"Seamless connections to HRIS platforms and authentication systems.\"",
+    "source": "https://www.getbridge.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-benchmarking": {
+    "support": "Unknown",
+    "note": "Not documented.",
+    "source": "https://www.getbridge.com/",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Medium",
+   "owner": null,
+   "autoUpdated": true,
+   "pendingReview": []
+  },
+  "news": [],
+  "sources": [
+   {
+    "title": "Bridge — homepage",
+    "url": "https://www.getbridge.com/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "LTG — acquisition of Bridge",
+    "url": "https://ltgplc.com/news/ltg-expands-mid-enterprise-learning-and-talent-software-offering-with-acquisition-of-bridge/",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 4,
+   "name": "People and Workforce",
+   "note": "Reaches multifamily through the people and workforce stack — often already on an HR contract."
+  },
+  "whenItComesUp": {
+   "why": "Overlaps in part, not in whole. Bridge is explicit that it brings no content of its own — it integrates LinkedIn Learning, Udemy, Khan Academy and OpenSesame — so a Bridge deal always leaves the multifamily curriculum unbought and unassigned.",
+   "say": "Concede the part they genuinely own, then be specific about the part they don't. Partial overlap is where reps over-claim and lose credibility.",
+   "avoid": "Do not say Bridge cannot support compliance training — Bridge markets \"trained, compliant and ready to perform.\"",
+   "redirect": "Bridge integrates four content partners — which of them carries fair housing?",
+   "derived": true
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name Bridge, GetBridge, or describe horizontal mid-market lms with performance and skills modules already in place.",
+    "ask": "Bridge integrates four content partners — which of them carries fair housing?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "Bridge publishes no content library of its own; it relies on integrations with LinkedIn Learning, Udemy, Khan Academy and OpenSesame.",
+    "ask": "If you buy Bridge, what is your separate line item for multifamily course content?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the Bridge LMS contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the Bridge LMS agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether Bridge LMS sits on someone else's budget line — that changes who has to agree.",
+    "ask": "Are you buying Bridge for learning, or really for performance reviews and engagement?"
+   }
+  ]
+ },
+ {
+  "id": "eloomi",
+  "name": "eloomi",
+  "aka": [
+   "eloomi by Dayforce",
+   "Dayforce Learning"
+  ],
+  "parent": "Dayforce (formerly Ceridian)",
+  "website": "https://eloomi.com/",
+  "toolCategory": "Learning module inside an HR/payroll suite (also sold standalone)",
+  "ciCategory": "Indirect",
+  "tier": "Watchlist",
+  "verdict": {
+   "stance": "Partial overlap",
+   "line": "If the operator runs Dayforce, eloomi arrives already paid for — so the fight is never over whether they have a learning platform, it is over whether a curated general-business library from \"top providers\" is what a leasing office needs to stay out of a fair housing claim.",
+   "doInstead": "Never argue that they should not use eloomi. Grant the delivery mechanism, then get the buyer to state, out loud, which eloomi library course covers fair housing, which covers their states, and who updates them. That is a content argument they cannot win from the Dayforce contract."
+  },
+  "overlaps": [
+   {
+    "product": "Training",
+    "degree": "Partial"
+   },
+   {
+    "product": "Policies",
+    "degree": "None"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "founded": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "ownership": {
+    "value": "Dayforce (formerly Ceridian); acquisition announced January 2024",
+    "source": "https://www.dayforce.com/who-we-are/newsroom/ceridian-to-acquire-eloomi-a-market-leading-learning-and-development-platform",
+    "verifiedOn": "2026-08-11"
+   },
+   "size": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "funding": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   }
+  },
+  "pricing": {
+   "value": "Not published in verifiable detail on the vendor site; content is offered through multiple subscription tiers.",
+   "source": "https://eloomi.com/",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "\"An LMS platform for your workplace to train, retain & engage employees\" — a unified learning and development solution positioned for fast implementation.",
+   "source": "https://eloomi.com/",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "Combines LMS/LXP, performance management (1:1s, goals, 360 feedback), employee communication and social features in one product.",
+    "source": "https://eloomi.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Offers a curated content library across subscription tiers, \"from our extensive library of courses from top providers.\"",
+    "source": "https://eloomi.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Sold both standalone and as an integrated component of the Dayforce HCM platform, with mobile and Microsoft Teams access.",
+    "source": "https://eloomi.com/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "eloomi publishes six target sectors — retail, healthcare, hospitality, software, finance and manufacturing. Multifamily, real estate and property management are not among them.",
+    "source": "https://eloomi.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "The content library is licensed from third-party providers rather than authored by eloomi, so regulatory currency for any given course rests with the publisher.",
+    "source": "https://eloomi.com/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [
+   "Grace Hill writes and maintains its own multifamily content rather than curating third-party general-business courses.",
+   "Fair housing and state-specific compliance content is built for the multifamily role, not adapted from a corporate catalog.",
+   "Property- and role-based assignment matches how a portfolio is structured."
+  ],
+  "askThis": [
+   "Which course in the eloomi library covers fair housing, and when was it last updated?",
+   "Does the library have anything written for a maintenance tech or a leasing consultant specifically?",
+   "If HR owns eloomi, who owns the property-level compliance risk?"
+  ],
+  "objections": [
+   {
+    "objection": "Learning is already included in our Dayforce contract.",
+    "response": "Then the platform cost is sunk and that is fine — keep using it for HR onboarding. The question the contract does not answer is which course covers fair housing in your states and who rewrites it when the law moves."
+   }
+  ],
+  "doNotSay": [
+   "Do not say eloomi has no compliance content — compliance training is a named use case on their site.",
+   "Do not quote eloomi or Dayforce pricing."
+  ],
+  "features": {
+   "tr-multifamily-content": {
+    "support": "No",
+    "note": "Published sectors are retail, healthcare, hospitality, software, finance and manufacturing; no real estate or multifamily vertical.",
+    "source": "https://eloomi.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-vendor-maintained": {
+    "support": "Partial",
+    "note": "A curated library is supplied but sourced \"from top providers\" — third parties, not eloomi, author and maintain the courses.",
+    "source": "https://eloomi.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-fair-housing": {
+    "support": "Unknown",
+    "note": "The third-party library catalog is not enumerated publicly; no fair housing title is published.",
+    "source": "https://eloomi.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-state-specific": {
+    "support": "Unknown",
+    "note": "No US state-specific compliance variants are published.",
+    "source": "https://eloomi.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-cec-eligible": {
+    "support": "Unknown",
+    "note": "No CAM / CAPS / CALP eligibility documented.",
+    "source": "https://eloomi.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-role-assignment": {
+    "support": "Unknown",
+    "note": "Assignment mechanics are not detailed on the pages reviewed.",
+    "source": "https://eloomi.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-competency": {
+    "support": "Unknown",
+    "note": "Not documented on the pages reviewed.",
+    "source": "https://eloomi.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-compliance-reporting": {
+    "support": "Partial",
+    "note": "Compliance training is a named use case and engagement/completion tracking is marketed; compliance reporting depth is not detailed.",
+    "source": "https://eloomi.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-scorm": {
+    "support": "Unknown",
+    "note": "Not stated on the pages reviewed.",
+    "source": "https://eloomi.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-authoring": {
+    "support": "Unknown",
+    "note": "Course creation capability is implied by the LMS/LXP framing but not detailed on the pages reviewed.",
+    "source": "https://eloomi.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-mobile": {
+    "support": "Partial",
+    "note": "Mobile and Microsoft Teams access are marketed; offline access is not documented.",
+    "source": "https://eloomi.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-bilingual": {
+    "support": "Unknown",
+    "note": "Not documented on the pages reviewed.",
+    "source": "https://eloomi.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-pms-integration": {
+    "support": "Unknown",
+    "note": "No property management system integration is named.",
+    "source": "https://eloomi.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-hris-integration": {
+    "support": "Yes",
+    "note": "Operates as an integrated component of the Dayforce HCM platform covering HR, payroll, talent and workforce management.",
+    "source": "https://eloomi.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-benchmarking": {
+    "support": "Unknown",
+    "note": "Not documented.",
+    "source": "https://eloomi.com/",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Medium",
+   "owner": null,
+   "autoUpdated": true,
+   "pendingReview": []
+  },
+  "news": [],
+  "sources": [
+   {
+    "title": "eloomi — homepage",
+    "url": "https://eloomi.com/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Dayforce newsroom — Ceridian to acquire eloomi",
+    "url": "https://www.dayforce.com/who-we-are/newsroom/ceridian-to-acquire-eloomi-a-market-leading-learning-and-development-platform",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 4,
+   "name": "People and Workforce",
+   "note": "Reaches multifamily through the people and workforce stack — often already on an HR contract."
+  },
+  "whenItComesUp": {
+   "why": "Overlaps in part, not in whole. If the operator runs Dayforce, eloomi arrives already paid for — so the fight is never over whether they have a learning platform, it is over whether a curated general-business library from \"top providers\" is what a leasing office needs to stay out of a fair housing claim.",
+   "say": "Concede the part they genuinely own, then be specific about the part they don't. Partial overlap is where reps over-claim and lose credibility.",
+   "avoid": "Do not say eloomi has no compliance content — compliance training is a named use case on their site.",
+   "redirect": "Which course in the eloomi library covers fair housing, and when was it last updated?",
+   "derived": true
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name eloomi by Dayforce, Dayforce Learning, or describe learning module inside an hr/payroll suite (also sold standalone) already in place.",
+    "ask": "Which course in the eloomi library covers fair housing, and when was it last updated?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "eloomi publishes six target sectors — retail, healthcare, hospitality, software, finance and manufacturing. Multifamily, real estate and property management are not among them.",
+    "ask": "Does the library have anything written for a maintenance tech or a leasing consultant specifically?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the eloomi contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the eloomi agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether eloomi sits on someone else's budget line — that changes who has to agree.",
+    "ask": "If HR owns eloomi, who owns the property-level compliance risk?"
+   }
+  ]
+ },
+ {
+  "id": "paycom-learning",
+  "name": "Paycom Learning",
+  "aka": [
+   "Paycom LMS",
+   "Paycom Learning Management"
+  ],
+  "parent": "Paycom Software, Inc.",
+  "website": "https://www.paycom.com/software/paycom-learning/",
+  "toolCategory": "Learning module inside an HR/payroll suite",
+  "ciCategory": "Indirect",
+  "tier": "Tier 3",
+  "verdict": {
+   "stance": "Partial overlap",
+   "line": "Paycom hands the customer an LMS with built-in courses at no additional cost — HIPAA, harassment, ethics, DEI, cybersecurity, EEO — which is exactly the list that has nothing to do with running an apartment community.",
+   "doInstead": "Do not challenge the platform or the price; free is unbeatable. Read their own course list back to the buyer and ask which item on it a fair housing plaintiff would accept as training. The included library is the argument — it proves Paycom solved HR compliance, not housing compliance."
+  },
+  "overlaps": [
+   {
+    "product": "Training",
+    "degree": "Partial"
+   },
+   {
+    "product": "Policies",
+    "degree": "None"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "founded": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "ownership": {
+    "value": "Paycom Software, Inc. (NYSE: PAYC)",
+    "source": "https://www.paycom.com/software/paycom-learning/",
+    "verifiedOn": "2026-08-11"
+   },
+   "size": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "funding": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   }
+  },
+  "pricing": {
+   "value": "Learning is a module of the Paycom single-database HCM platform; built-in courses are offered at no additional cost. Platform pricing is not published.",
+   "source": "https://www.paycom.com/software/paycom-learning/",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "A learning management system integrated within Paycom's unified HCM platform so organizations can \"easily and consistently train, upskill and reskill\" employees while maintaining compliance.",
+   "source": "https://www.paycom.com/software/paycom-learning/",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "Built-in courses at no additional cost covering HIPAA basics, preventing discrimination and harassment, workplace ethics, diversity and inclusion, cybersecurity and equal employment opportunities.",
+    "source": "https://www.paycom.com/software/paycom-learning/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Automates compliance tracking and assigns courses based on role and location, with a separate Certification Management module tracking certificate completion and expiration.",
+    "source": "https://www.paycom.com/software/paycom-learning/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Native to the single-database HCM platform — connects to Employee Self-Service, Documents and Checklists, and Report Center; mobile-friendly via the Paycom app.",
+    "source": "https://www.paycom.com/software/paycom-learning/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "A Content Marketplace offers industry-specific collections for safety, healthcare, construction, hospitality, manufacturing, transportation and higher education, in multiple languages.",
+    "source": "https://www.paycom.com/software/paycom-learning/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "Paycom's published Content Marketplace industry collections are safety, healthcare, construction, hospitality, manufacturing, transportation and higher education — real estate, multifamily and property management are absent.",
+    "source": "https://www.paycom.com/software/paycom-learning/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "The included course list is general workplace/HR compliance (HIPAA, harassment, ethics, DEI, cybersecurity, EEO); no housing, fair housing or landlord-tenant content is named.",
+    "source": "https://www.paycom.com/software/paycom-learning/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [
+   "Grace Hill's library is written for multifamily roles and updated as housing regulation changes — Paycom's included content is general HR compliance.",
+   "State-specific compliance variants exist for multi-state portfolios rather than a single national course.",
+   "CEC/credential-eligible content supports career paths that HR-suite libraries do not address."
+  ],
+  "askThis": [
+   "Read me the list of courses Paycom includes — which one is about fair housing?",
+   "Your portfolio spans several states. Does the included content vary by state, or is it one national course?",
+   "If a claim came in tomorrow, would you hand a regulator the Paycom completion report as your fair housing training record?"
+  ],
+  "objections": [
+   {
+    "objection": "Paycom Learning is included at no extra cost, so why would we pay you?",
+    "response": "You should absolutely keep using it for HR onboarding and harassment training — it is already paid for. Paycom's own page lists what is included: HIPAA, harassment, ethics, DEI, cybersecurity, EEO. Nothing on that list is fair housing, and nothing varies by state."
+   }
+  ],
+  "doNotSay": [
+   "Do not say Paycom has no LMS or no compliance content — both exist and are well documented.",
+   "Do not quote Paycom pricing; the platform price is not published."
+  ],
+  "features": {
+   "tr-multifamily-content": {
+    "support": "No",
+    "note": "Content Marketplace industry collections are safety, healthcare, construction, hospitality, manufacturing, transportation and higher education; no real estate or multifamily collection.",
+    "source": "https://www.paycom.com/software/paycom-learning/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-vendor-maintained": {
+    "support": "Partial",
+    "note": "Paycom supplies proprietary built-in course content; marketplace content is licensed from third parties.",
+    "source": "https://www.paycom.com/about/press-room/paycom-releases-proprietary-learning-management-course-content/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-fair-housing": {
+    "support": "No",
+    "note": "The published list of included courses is HIPAA, discrimination and harassment prevention, workplace ethics, DEI, cybersecurity and EEO; fair housing is not among them and no real estate collection is offered.",
+    "source": "https://www.paycom.com/software/paycom-learning/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-state-specific": {
+    "support": "Unknown",
+    "note": "Course assignment can be based on location, but state-specific compliance course variants are not documented.",
+    "source": "https://www.paycom.com/software/paycom-learning/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-cec-eligible": {
+    "support": "Unknown",
+    "note": "Certification Management tracks certificates the customer defines; no CAM / CAPS / CALP-eligible content is supplied.",
+    "source": "https://www.paycom.com/software/paycom-learning/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-role-assignment": {
+    "support": "Partial",
+    "note": "Course assignment based on role and location is documented; property as a native org unit is not.",
+    "source": "https://www.paycom.com/software/paycom-learning/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-competency": {
+    "support": "Partial",
+    "note": "Quizzes support multiple-choice, true-false, drop-down and short-answer; competency modeling beyond quizzing is not documented.",
+    "source": "https://www.paycom.com/software/paycom-learning/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-compliance-reporting": {
+    "support": "Yes",
+    "note": "Automates compliance tracking and reports through Report Center; Certification Management tracks completion and expiration dates.",
+    "source": "https://www.paycom.com/software/paycom-learning/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-scorm": {
+    "support": "Unknown",
+    "note": "Not stated on the page reviewed.",
+    "source": "https://www.paycom.com/software/paycom-learning/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-authoring": {
+    "support": "Yes",
+    "note": "Custom courses with video and quizzes; a Video Content Creator records training from mobile devices.",
+    "source": "https://www.paycom.com/software/paycom-learning/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-mobile": {
+    "support": "Partial",
+    "note": "Mobile-friendly via desktop or the Paycom mobile app; offline access is not documented.",
+    "source": "https://www.paycom.com/software/paycom-learning/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-bilingual": {
+    "support": "Partial",
+    "note": "Content Marketplace offers multiple languages; no Spanish multifamily content library.",
+    "source": "https://www.paycom.com/software/paycom-learning/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-pms-integration": {
+    "support": "Unknown",
+    "note": "No property management system integration is named; the platform is a single database rather than an integration hub.",
+    "source": "https://www.paycom.com/software/paycom-learning/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-hris-integration": {
+    "support": "Yes",
+    "note": "Native — Learning is a module of Paycom's single-database HR and payroll system.",
+    "source": "https://www.paycom.com/software/paycom-learning/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-benchmarking": {
+    "support": "Unknown",
+    "note": "No industry benchmarking dataset documented.",
+    "source": "https://www.paycom.com/software/paycom-learning/",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Medium",
+   "owner": null,
+   "autoUpdated": true,
+   "pendingReview": []
+  },
+  "news": [],
+  "sources": [
+   {
+    "title": "Paycom — Employee Learning Management System (LMS) Software",
+    "url": "https://www.paycom.com/software/paycom-learning/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Paycom press room — Paycom Releases Proprietary Learning Management Course Content",
+    "url": "https://www.paycom.com/about/press-room/paycom-releases-proprietary-learning-management-course-content/",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 4,
+   "name": "People and Workforce",
+   "note": "Reaches multifamily through the people and workforce stack — often already on an HR contract."
+  },
+  "whenItComesUp": {
+   "why": "Overlaps in part, not in whole. Paycom hands the customer an LMS with built-in courses at no additional cost — HIPAA, harassment, ethics, DEI, cybersecurity, EEO — which is exactly the list that has nothing to do with running an apartment community.",
+   "say": "Concede the part they genuinely own, then be specific about the part they don't. Partial overlap is where reps over-claim and lose credibility.",
+   "avoid": "Do not say Paycom has no LMS or no compliance content — both exist and are well documented.",
+   "redirect": "Read me the list of courses Paycom includes — which one is about fair housing?",
+   "derived": true
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name Paycom LMS, Paycom Learning Management, or describe learning module inside an hr/payroll suite already in place.",
+    "ask": "Read me the list of courses Paycom includes — which one is about fair housing?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "Paycom's published Content Marketplace industry collections are safety, healthcare, construction, hospitality, manufacturing, transportation and higher education — real estate, multifamily and property management are absent.",
+    "ask": "Your portfolio spans several states. Does the included content vary by state, or is it one national course?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the Paycom Learning contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the Paycom Learning agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether Paycom Learning sits on someone else's budget line — that changes who has to agree.",
+    "ask": "If a claim came in tomorrow, would you hand a regulator the Paycom completion report as your fair housing training record?"
+   }
+  ]
+ },
+ {
+  "id": "isolved-learn-grow",
+  "name": "isolved Learn & Grow",
+  "aka": [
+   "isolved HCM",
+   "isolved People Cloud",
+   "isolved LMS"
+  ],
+  "parent": "isolved (isolved HCM)",
+  "website": "https://www.isolvedhcm.com/talent-management/learning-management-system",
+  "toolCategory": "Learning module inside an HR/payroll suite",
+  "ciCategory": "Indirect",
+  "tier": "Tier 3",
+  "verdict": {
+   "stance": "Partial overlap",
+   "line": "isolved leads with 95,000+ courses, which sounds like it settles the content question and does not — volume from a general aggregated catalog is not the same as a fair housing course written for your states and kept current.",
+   "doInstead": "Do not try to out-count 95,000. Turn the number against itself: ask how many of those courses their regional manager would actually assign, who wrote the fair housing one, and what happens to it when a state changes its rules. Then position Grace Hill as the multifamily layer on top of an HR platform they keep."
+  },
+  "overlaps": [
+   {
+    "product": "Training",
+    "degree": "Partial"
+   },
+   {
+    "product": "Policies",
+    "degree": "None"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "founded": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "ownership": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "size": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "funding": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   }
+  },
+  "pricing": {
+   "value": "Not published; Learn & Grow is a module of the isolved People Cloud HCM platform.",
+   "source": "https://www.isolvedhcm.com/talent-management/learning-management-system",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "\"isolved Learn & Grow\" — \"an end-to-end learning management system that makes it easy to deliver personalized learning and career development,\" part of the isolved People Cloud HCM platform.",
+   "source": "https://www.isolvedhcm.com/talent-management/learning-management-system",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "Access to 95,000+ courses with configurable curricula and personalized learning paths.",
+    "source": "https://www.isolvedhcm.com/talent-management/learning-management-system",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Native to the isolved People Cloud HCM suite, so learning sits alongside payroll, HR and talent data.",
+    "source": "https://www.isolvedhcm.com/talent-management/learning-management-system",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "AI-powered search, chatbot, curated playlists, skills reporting and development trend analytics; mobile learning \"anytime, anywhere.\"",
+    "source": "https://www.isolvedhcm.com/talent-management/learning-management-system",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "isolved's LMS page describes support for compliance generically and names no specific compliance course, no real estate or multifamily vertical, and no state-specific content.",
+    "source": "https://www.isolvedhcm.com/talent-management/learning-management-system",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "The 95,000+ course catalog is aggregated rather than authored by isolved; the page does not identify the publishers or who maintains regulatory currency.",
+    "source": "https://www.isolvedhcm.com/talent-management/learning-management-system",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [
+   "A multifamily-specific library means a regional manager assigns from a list built for their roles, not from a 95,000-course catalog.",
+   "Grace Hill authors and maintains fair housing and state-specific content rather than aggregating third-party courses.",
+   "Compliance reporting is structured by property and role."
+  ],
+  "askThis": [
+   "Out of 95,000 courses, how many are on the assignment list a site team actually sees?",
+   "Who wrote the fair housing course in that catalog, and what is their update cycle?",
+   "Does the catalog carry different versions for the states you operate in?"
+  ],
+  "objections": [
+   {
+    "objection": "isolved already gives us 95,000 courses.",
+    "response": "It does, and that covers a lot of general business skills. Their page describes compliance support generally without naming a single compliance course or any state-specific content — which is the exact part that carries your risk."
+   }
+  ],
+  "doNotSay": [
+   "Do not claim the isolved catalog contains no fair housing course — 95,000 aggregated courses are not publicly enumerated. Ask instead.",
+   "Do not quote isolved pricing."
+  ],
+  "features": {
+   "tr-multifamily-content": {
+    "support": "No",
+    "note": "No real estate, multifamily or property-management vertical is named on the LMS page.",
+    "source": "https://www.isolvedhcm.com/talent-management/learning-management-system",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-vendor-maintained": {
+    "support": "Partial",
+    "note": "The 95,000+ course catalog is aggregated; the page does not state that isolved authors or maintains it.",
+    "source": "https://www.isolvedhcm.com/talent-management/learning-management-system",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-fair-housing": {
+    "support": "Unknown",
+    "note": "The catalog is not enumerated publicly and no fair housing title is named.",
+    "source": "https://www.isolvedhcm.com/talent-management/learning-management-system",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-state-specific": {
+    "support": "Unknown",
+    "note": "No state-specific compliance variants are documented.",
+    "source": "https://www.isolvedhcm.com/talent-management/learning-management-system",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-cec-eligible": {
+    "support": "Unknown",
+    "note": "No CAM / CAPS / CALP eligibility documented.",
+    "source": "https://www.isolvedhcm.com/talent-management/learning-management-system",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-role-assignment": {
+    "support": "Partial",
+    "note": "Configurable curricula and personalized learning paths; property-based assignment is not documented.",
+    "source": "https://www.isolvedhcm.com/talent-management/learning-management-system",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-competency": {
+    "support": "Partial",
+    "note": "Skills reporting and development trend analytics are marketed; competency validation mechanics are not detailed.",
+    "source": "https://www.isolvedhcm.com/talent-management/learning-management-system",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-compliance-reporting": {
+    "support": "Partial",
+    "note": "The page states the system supports \"learning that supports compliance\"; specific compliance reporting capability is not detailed.",
+    "source": "https://www.isolvedhcm.com/talent-management/learning-management-system",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-scorm": {
+    "support": "Unknown",
+    "note": "Not stated on the page reviewed.",
+    "source": "https://www.isolvedhcm.com/talent-management/learning-management-system",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-authoring": {
+    "support": "Unknown",
+    "note": "\"Configurable curricula\" is referenced; custom content creation is not explicitly detailed.",
+    "source": "https://www.isolvedhcm.com/talent-management/learning-management-system",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-mobile": {
+    "support": "Partial",
+    "note": "Mobile learning \"anytime, anywhere\" is marketed; offline access is not documented.",
+    "source": "https://www.isolvedhcm.com/talent-management/learning-management-system",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-bilingual": {
+    "support": "Unknown",
+    "note": "Not documented on the page reviewed.",
+    "source": "https://www.isolvedhcm.com/talent-management/learning-management-system",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-pms-integration": {
+    "support": "Unknown",
+    "note": "No property management system integration is named.",
+    "source": "https://www.isolvedhcm.com/talent-management/learning-management-system",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-hris-integration": {
+    "support": "Yes",
+    "note": "Native — Learn & Grow is part of the isolved People Cloud HCM platform.",
+    "source": "https://www.isolvedhcm.com/talent-management/learning-management-system",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-benchmarking": {
+    "support": "Unknown",
+    "note": "Development trend analytics are marketed; cross-industry benchmarking is not documented.",
+    "source": "https://www.isolvedhcm.com/talent-management/learning-management-system",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Medium",
+   "owner": null,
+   "autoUpdated": true,
+   "pendingReview": []
+  },
+  "news": [],
+  "sources": [
+   {
+    "title": "isolved — Learning Management System for Career Growth & Employee Retention",
+    "url": "https://www.isolvedhcm.com/talent-management/learning-management-system",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 4,
+   "name": "People and Workforce",
+   "note": "Reaches multifamily through the people and workforce stack — often already on an HR contract."
+  },
+  "whenItComesUp": {
+   "why": "Overlaps in part, not in whole. isolved leads with 95,000+ courses, which sounds like it settles the content question and does not — volume from a general aggregated catalog is not the same as a fair housing course written for your states and kept current.",
+   "say": "Concede the part they genuinely own, then be specific about the part they don't. Partial overlap is where reps over-claim and lose credibility.",
+   "avoid": "Do not claim the isolved catalog contains no fair housing course — 95,000 aggregated courses are not publicly enumerated. Ask instead.",
+   "redirect": "Out of 95,000 courses, how many are on the assignment list a site team actually sees?",
+   "derived": true
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name isolved HCM, isolved People Cloud, isolved LMS, or describe learning module inside an hr/payroll suite already in place.",
+    "ask": "Out of 95,000 courses, how many are on the assignment list a site team actually sees?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "isolved's LMS page describes support for compliance generically and names no specific compliance course, no real estate or multifamily vertical, and no state-specific content.",
+    "ask": "Who wrote the fair housing course in that catalog, and what is their update cycle?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the isolved Learn & Grow contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the isolved Learn & Grow agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether isolved Learn & Grow sits on someone else's budget line — that changes who has to agree.",
+    "ask": "Does the catalog carry different versions for the states you operate in?"
+   }
+  ]
+ },
+ {
+  "id": "udemy-business",
+  "name": "Udemy Business",
+  "aka": [
+   "Udemy for Business",
+   "Udemy"
+  ],
+  "parent": "Udemy, Inc.",
+  "website": "https://business.udemy.com/",
+  "toolCategory": "Course marketplace / content subscription (not an LMS)",
+  "ciCategory": "Indirect",
+  "tier": "Watchlist",
+  "verdict": {
+   "stance": "Do not compete",
+   "line": "Udemy Business is a content subscription for AI, tech, leadership and business skills — it is not an LMS and it does not sell housing compliance, so it sits beside Grace Hill rather than against it.",
+   "doInstead": "Tell reps plainly: this is not a competitor. If a customer has Udemy Business, that is a signal they already fund content and understand the difference between a platform and a library. Position Grace Hill as the regulated, industry-specific half of their content strategy and leave Udemy for professional development."
+  },
+  "overlaps": [
+   {
+    "product": "Training",
+    "degree": "Partial"
+   },
+   {
+    "product": "Policies",
+    "degree": "None"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "founded": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "ownership": {
+    "value": "Udemy, Inc.",
+    "source": "https://business.udemy.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "size": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "funding": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   }
+  },
+  "pricing": {
+   "value": "Not published on the business site page reviewed.",
+   "source": "https://business.udemy.com/",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "\"A global learning solution that helps you drive business outcomes\" — \"The learning platform for AI skills and business performance.\"",
+   "source": "https://business.udemy.com/",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "30,000+ courses in AI, tech and related business topics.",
+    "source": "https://business.udemy.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Multi-modal: on-demand self-paced courses, hands-on projects, cohort-based programs (Leadership Academy) and professional services.",
+    "source": "https://business.udemy.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Analytics and insights plus flexible user management.",
+    "source": "https://business.udemy.com/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "Udemy Business positions itself as a learning ecosystem rather than an LMS; LMS capability is not claimed on the page reviewed.",
+    "source": "https://business.udemy.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Compliance training is not mentioned; the stated focus areas are AI upskilling, tech skills, leadership development and business skills.",
+    "source": "https://business.udemy.com/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [
+   "Grace Hill covers the regulated, industry-specific content Udemy's catalog is not built to carry.",
+   "Compliance and completion reporting is built for property portfolios rather than general professional development."
+  ],
+  "askThis": [
+   "Are you using Udemy for professional development, or are you counting on it for compliance?",
+   "Who delivers and tracks assignments today — Udemy is a content library, so what is the system of record?"
+  ],
+  "objections": [
+   {
+    "objection": "We already give everyone Udemy.",
+    "response": "Good — that covers professional development well. Udemy's own positioning is AI, tech, leadership and business skills, and it does not mention compliance. Those are two different jobs and two different budgets."
+   }
+  ],
+  "doNotSay": [
+   "Do not present Udemy Business as a competing LMS — Udemy does not position it as one.",
+   "Do not assert that no Udemy instructor has published a fair housing course; the open marketplace is not enumerated here.",
+   "Do not quote Udemy Business pricing."
+  ],
+  "features": {
+   "tr-multifamily-content": {
+    "support": "No",
+    "note": "Stated focus areas are AI skills, tech, leadership and business skills; no multifamily or property-management collection is published.",
+    "source": "https://business.udemy.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-vendor-maintained": {
+    "support": "Partial",
+    "note": "Courses are produced by independent instructors on the Udemy marketplace and curated by Udemy, not authored by Udemy.",
+    "source": "https://business.udemy.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-fair-housing": {
+    "support": "Unknown",
+    "note": "Not mentioned; the open marketplace catalog is not enumerated on the page reviewed.",
+    "source": "https://business.udemy.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-state-specific": {
+    "support": "Unknown",
+    "note": "No US state-specific compliance content is published.",
+    "source": "https://business.udemy.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-cec-eligible": {
+    "support": "Unknown",
+    "note": "No CAM / CAPS / CALP eligibility documented.",
+    "source": "https://business.udemy.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-role-assignment": {
+    "support": "Unknown",
+    "note": "\"Flexible user management\" is referenced; role- or property-based auto-assignment is not documented.",
+    "source": "https://business.udemy.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-competency": {
+    "support": "Partial",
+    "note": "Hands-on projects and cohort programs are offered; formal competency assessment is not documented.",
+    "source": "https://business.udemy.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-compliance-reporting": {
+    "support": "Unknown",
+    "note": "Analytics and insights are referenced; compliance completion reporting is not documented.",
+    "source": "https://business.udemy.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-scorm": {
+    "support": "Unknown",
+    "note": "LMS integration capability is not explicitly confirmed on the page reviewed.",
+    "source": "https://business.udemy.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-authoring": {
+    "support": "No",
+    "note": "Udemy Business is a content subscription; customer course authoring is not part of the offering described.",
+    "source": "https://business.udemy.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-mobile": {
+    "support": "Unknown",
+    "note": "Not documented on the page reviewed.",
+    "source": "https://business.udemy.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-bilingual": {
+    "support": "Unknown",
+    "note": "Not documented on the page reviewed.",
+    "source": "https://business.udemy.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-pms-integration": {
+    "support": "Unknown",
+    "note": "No property management system integration is named.",
+    "source": "https://business.udemy.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-hris-integration": {
+    "support": "Unknown",
+    "note": "Not documented on the page reviewed.",
+    "source": "https://business.udemy.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-benchmarking": {
+    "support": "Unknown",
+    "note": "Not documented.",
+    "source": "https://business.udemy.com/",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Medium",
+   "owner": null,
+   "autoUpdated": true,
+   "pendingReview": []
+  },
+  "news": [],
+  "sources": [
+   {
+    "title": "Udemy Business — homepage",
+    "url": "https://business.udemy.com/",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 4,
+   "name": "People and Workforce",
+   "note": "Reaches multifamily through the people and workforce stack — often already on an HR contract."
+  },
+  "whenItComesUp": {
+   "why": "Not a partner and not a competitor — a content marketplace bought by a different team for a different reason. Treat a Udemy subscription as a signal about corporate L&D, not as an evaluation you are in.",
+   "say": "Udemy's great for the general skills stuff — Excel, leadership, whatever your corporate team wants to take. It's a different job to what we do. We're the system that proves a specific person was trained on a specific regulation, and produces the record when someone asks for it.",
+   "avoid": "Don't compare catalog sizes. Theirs is enormous and you'll lose that exchange — and it's not the reason anyone buys either product.",
+   "redirect": "If you had a fair housing complaint next month, what would you hand the investigator?"
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name Udemy for Business, Udemy, or describe course marketplace / content subscription (not an lms) already in place.",
+    "ask": "Are you using Udemy for professional development, or are you counting on it for compliance?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "Udemy Business positions itself as a learning ecosystem rather than an LMS; LMS capability is not claimed on the page reviewed.",
+    "ask": "Who delivers and tracks assignments today — Udemy is a content library, so what is the system of record?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the Udemy Business contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the Udemy Business agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether Udemy Business sits on someone else's budget line — that changes who has to agree.",
+    "ask": "Who else has to be comfortable with this, and what do they need to see?"
+   }
+  ]
+ },
+ {
+  "id": "opensesame",
+  "name": "OpenSesame",
+  "aka": [
+   "OpenSesame Plus",
+   "OpenSesame CourseCloud"
+  ],
+  "parent": "OpenSesame Inc.",
+  "website": "https://www.opensesame.com/",
+  "toolCategory": "Course marketplace / content aggregator (delivered through the customer's LMS)",
+  "ciCategory": "Indirect",
+  "tier": "Watchlist",
+  "verdict": {
+   "stance": "Do not compete",
+   "line": "OpenSesame is a content aggregator that plugs into whatever LMS the customer already runs — and it is the one vendor in this set that genuinely carries real estate content, through an exclusive IREM collection that includes fair housing, so reps should know it exists rather than be surprised by it.",
+   "doInstead": "Do not treat OpenSesame as a rival platform; it has none. Where it appears, ask whether the IREM collection is written for multifamily site operations and multi-state portfolios or for the broader real estate management profession, and whether anyone is mapping it to roles and properties. That gap — curriculum design and assignment, not catalog access — is Grace Hill's ground."
+  },
+  "overlaps": [
+   {
+    "product": "Training",
+    "degree": "Partial"
+   },
+   {
+    "product": "Policies",
+    "degree": "None"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "founded": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "ownership": {
+    "value": "OpenSesame Inc.",
+    "source": "https://www.opensesame.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "size": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "funding": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   }
+  },
+  "pricing": {
+   "value": "Not published on the vendor site.",
+   "source": "https://www.opensesame.com/",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "A learning platform offering \"60,000+ pre-vetted courses in 70+ languages\" combined with custom course building and LMS integration — a curated marketplace \"matched to your roles, skills, and strategy. Backed by human curators and AI shortcuts.\"",
+   "source": "https://www.opensesame.com/",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "60,000+ pre-vetted courses in 70+ languages, positioned for seamless integration into the customer's existing LMS.",
+    "source": "https://www.opensesame.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Carries an exclusive IREM (Institute of Real Estate Management) collection in OpenSesame Plus — 246 courses spanning property/real estate management (residential and commercial), sustainability, public policy and advocacy, fair housing and compliance, and property maintenance.",
+    "source": "https://www.opensesame.com/were-setting-the-bar-higher-still-gnc-irem-and-the-learning-rooms-are-now-available-in-opensesame-plus/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Combines human curation with AI-assisted shortlisting rather than dumping a raw catalog on the buyer.",
+    "source": "https://www.opensesame.com/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "OpenSesame is a content marketplace, not a learning platform of record — its own positioning centers on integrating with the LMS the customer already uses.",
+    "source": "https://www.opensesame.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "The IREM collection is described as real estate management covering both residential and commercial; OpenSesame publishes no multifamily-specific, state-by-state compliance curriculum.",
+    "source": "https://www.opensesame.com/were-setting-the-bar-higher-still-gnc-irem-and-the-learning-rooms-are-now-available-in-opensesame-plus/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [
+   "Grace Hill delivers a curriculum mapped to multifamily roles and properties, not a catalog the customer must curate.",
+   "State-specific compliance variants and role-based assignment come as part of the product, not as an integration project."
+  ],
+  "askThis": [
+   "Which LMS is OpenSesame feeding — who owns assignment and reporting?",
+   "Is the IREM content written for multifamily site teams, or for the broader real estate management profession?",
+   "Who is deciding which of the 60,000 courses a maintenance tech sees?"
+  ],
+  "objections": [
+   {
+    "objection": "OpenSesame has real estate and fair housing content already.",
+    "response": "That is true — the IREM collection covers fair housing and compliance, and reps should know it. The open questions are whether it is written for multifamily site operations, whether it varies by state, and who maps it to roles and properties. OpenSesame supplies a catalog; it does not supply a curriculum or a system of record."
+   }
+  ],
+  "doNotSay": [
+   "Do not say OpenSesame has no fair housing or real estate content — the IREM collection in OpenSesame Plus explicitly covers fair housing and compliance.",
+   "Do not describe OpenSesame as a competing LMS.",
+   "Do not quote OpenSesame pricing."
+  ],
+  "features": {
+   "tr-multifamily-content": {
+    "support": "Partial",
+    "note": "The exclusive IREM collection covers property and real estate management for residential and commercial, plus property maintenance — real estate content, but not a multifamily-specific curriculum.",
+    "source": "https://www.opensesame.com/were-setting-the-bar-higher-still-gnc-irem-and-the-learning-rooms-are-now-available-in-opensesame-plus/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-vendor-maintained": {
+    "support": "Partial",
+    "note": "Courses are authored and maintained by third-party publishers such as IREM; OpenSesame curates and vets rather than authoring.",
+    "source": "https://www.opensesame.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-fair-housing": {
+    "support": "Yes",
+    "note": "The IREM collection in OpenSesame Plus explicitly includes \"Fair Housing and Compliance\" among its subject areas.",
+    "source": "https://www.opensesame.com/were-setting-the-bar-higher-still-gnc-irem-and-the-learning-rooms-are-now-available-in-opensesame-plus/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-state-specific": {
+    "support": "Unknown",
+    "note": "No state-by-state compliance variants are described for the IREM or any other collection.",
+    "source": "https://www.opensesame.com/were-setting-the-bar-higher-still-gnc-irem-and-the-learning-rooms-are-now-available-in-opensesame-plus/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-cec-eligible": {
+    "support": "Unknown",
+    "note": "IREM is a professional real estate management institute, but CAM / CAPS / CALP credential eligibility is not stated.",
+    "source": "https://www.opensesame.com/were-setting-the-bar-higher-still-gnc-irem-and-the-learning-rooms-are-now-available-in-opensesame-plus/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-role-assignment": {
+    "support": "No",
+    "note": "OpenSesame supplies courses into the customer's LMS; assignment rules are a function of that LMS, not of OpenSesame.",
+    "source": "https://www.opensesame.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-competency": {
+    "support": "Unknown",
+    "note": "Assessment depends on the individual publisher's course design.",
+    "source": "https://www.opensesame.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-compliance-reporting": {
+    "support": "No",
+    "note": "Reporting is handled by the customer's LMS; OpenSesame positions itself around catalog and integration.",
+    "source": "https://www.opensesame.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-scorm": {
+    "support": "Yes",
+    "note": "Courses are distributed as downloadable packages into the customer's LMS via documented integrations.",
+    "source": "https://www.opensesame.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-authoring": {
+    "support": "Yes",
+    "note": "Offers AI-powered custom course building alongside the marketplace.",
+    "source": "https://www.opensesame.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-mobile": {
+    "support": "Unknown",
+    "note": "Delivery device support depends on the host LMS and publisher.",
+    "source": "https://www.opensesame.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-bilingual": {
+    "support": "Yes",
+    "note": "Catalog spans 70+ languages, which includes Spanish; multifamily-specific Spanish content is not documented.",
+    "source": "https://www.opensesame.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-pms-integration": {
+    "support": "No",
+    "note": "Integration is with LMS platforms; no property management system integration is offered.",
+    "source": "https://www.opensesame.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-hris-integration": {
+    "support": "Unknown",
+    "note": "Integrations are described for LMS platforms; HRIS connectors are not detailed on the page reviewed.",
+    "source": "https://www.opensesame.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-benchmarking": {
+    "support": "Unknown",
+    "note": "Not documented.",
+    "source": "https://www.opensesame.com/",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Medium",
+   "owner": null,
+   "autoUpdated": true,
+   "pendingReview": []
+  },
+  "news": [],
+  "sources": [
+   {
+    "title": "OpenSesame — homepage",
+    "url": "https://www.opensesame.com/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "OpenSesame — GNC, IREM and The Learning Rooms now available in OpenSesame Plus (6 Nov 2025)",
+    "url": "https://www.opensesame.com/were-setting-the-bar-higher-still-gnc-irem-and-the-learning-rooms-are-now-available-in-opensesame-plus/",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 4,
+   "name": "People and Workforce",
+   "note": "Reaches multifamily through the people and workforce stack — often already on an HR contract."
+  },
+  "whenItComesUp": {
+   "why": "Not a partner and not a competitor for the platform seat — a content aggregator that delivers into whatever LMS the customer already runs. Its presence tells you who owns the LMS decision.",
+   "say": "OpenSesame's a library — they license content into whatever system you already run. Worth knowing they carry the IREM collection, so if you've got that, you've got some real property management content. The question is what's delivering it and what's tracking it.",
+   "avoid": "Never say OpenSesame has no fair housing or property management content. They carry IREM's collection and a rep who claims otherwise gets corrected on the spot.",
+   "redirect": "Which system is actually assigning and tracking those courses today?"
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name OpenSesame Plus, OpenSesame CourseCloud, or describe course marketplace / content aggregator (delivered through the customer's lms) already in place.",
+    "ask": "Which LMS is OpenSesame feeding — who owns assignment and reporting?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "OpenSesame is a content marketplace, not a learning platform of record — its own positioning centers on integrating with the LMS the customer already uses.",
+    "ask": "Is the IREM content written for multifamily site teams, or for the broader real estate management profession?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the OpenSesame contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the OpenSesame agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether OpenSesame sits on someone else's budget line — that changes who has to agree.",
+    "ask": "Who is deciding which of the 60,000 courses a maintenance tech sees?"
+   }
+  ]
+ },
+ {
+  "id": "amplifire",
+  "name": "Amplifire",
+  "aka": [
+   "Amplifire Cognix"
+  ],
+  "parent": null,
+  "website": "https://www.amplifire.com/",
+  "toolCategory": "Adaptive learning platform (confidence-based assessment)",
+  "ciCategory": "Potential",
+  "tier": "Watchlist",
+  "verdict": {
+   "stance": "Do not compete",
+   "line": "Amplifire is a healthcare-first adaptive learning engine sold on clinical safety and EHR proficiency — it has no multifamily presence, no housing content, and it will not appear in a Grace Hill deal.",
+   "doInstead": "Leave it off the register as a competitor. Borrow the idea instead: Amplifire's whole pitch is that completion is not proof and confidently held wrong answers are the real risk — that framing supports Grace Hill's competency-assessment story with a multifamily buyer."
+  },
+  "overlaps": [
+   {
+    "product": "Training",
+    "degree": "Partial"
+   },
+   {
+    "product": "Policies",
+    "degree": "None"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "founded": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "ownership": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "size": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "funding": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   }
+  },
+  "pricing": {
+   "value": "Not published on the vendor site.",
+   "source": "https://www.amplifire.com/",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "\"The AI-powered workforce learning platform built on decades of brain science\" — positioned against traditional LMS platforms on the claim that it \"proves knowledge changed\" rather than tracking completion.",
+   "source": "https://www.amplifire.com/",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "Patented methodology for detecting Confidently Held Misinformation — what learners are certain about but have wrong — powered by an engine (Cognix) the company says is trained on over five billion learner interactions.",
+    "source": "https://www.amplifire.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Deep healthcare footprint with named customers including Intermountain Healthcare, MedStar Health, UCHealth, Providence and the VA, plus Pearson for Dynamic Study Modules.",
+    "source": "https://www.amplifire.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Also serves accounting and financial services, life sciences and pharma, aviation and high-consequence operations, higher education and the public sector.",
+    "source": "https://www.amplifire.com/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "Amplifire's published industries are healthcare, accounting and financial services, life sciences and pharma, aviation, higher education and public sector — real estate and multifamily are absent.",
+    "source": "https://www.amplifire.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "No housing, fair housing or property-management content library is published.",
+    "source": "https://www.amplifire.com/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [
+   "Grace Hill is built for multifamily roles and housing regulation, which is not a market Amplifire serves.",
+   "The compliance and reporting model is designed for property portfolios."
+  ],
+  "askThis": [
+   "Is this being evaluated by a corporate parent outside real estate?",
+   "Does it come with any housing content, or would you be authoring all of it?"
+  ],
+  "objections": [
+   {
+    "objection": "Amplifire proves knowledge, you just track completion.",
+    "response": "Ask whether Amplifire is supplying any multifamily content or only the engine. Then talk about how Grace Hill assesses competency on a curriculum that already exists for the roles in question."
+   }
+  ],
+  "doNotSay": [
+   "Do not repeat Amplifire's outcome claims (training-time or compliance-violation reductions) as though they were independently verified.",
+   "Do not quote Amplifire pricing."
+  ],
+  "features": {
+   "tr-multifamily-content": {
+    "support": "No",
+    "note": "Published industries are healthcare, accounting/financial services, life sciences, aviation, higher education and public sector; no real estate or multifamily.",
+    "source": "https://www.amplifire.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-vendor-maintained": {
+    "support": "Partial",
+    "note": "Amplifire supplies content in its focus verticals (e.g. clinical and EHR/Epic training); no multifamily library exists to maintain.",
+    "source": "https://www.amplifire.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-fair-housing": {
+    "support": "No",
+    "note": "No housing content is published in any of Amplifire's stated verticals.",
+    "source": "https://www.amplifire.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-state-specific": {
+    "support": "No",
+    "note": "No US state-specific housing compliance content is published.",
+    "source": "https://www.amplifire.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-cec-eligible": {
+    "support": "Unknown",
+    "note": "Credential support exists in healthcare contexts; CAM / CAPS / CALP eligibility is not documented.",
+    "source": "https://www.amplifire.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-role-assignment": {
+    "support": "Unknown",
+    "note": "Not documented on the page reviewed.",
+    "source": "https://www.amplifire.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-competency": {
+    "support": "Yes",
+    "note": "Core product claim — detects Confidently Held Misinformation and \"proves knowledge changed\" rather than tracking completion.",
+    "source": "https://www.amplifire.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-compliance-reporting": {
+    "support": "Partial",
+    "note": "Compliance outcomes are marketed in healthcare contexts; multifamily compliance reporting is not applicable.",
+    "source": "https://www.amplifire.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-scorm": {
+    "support": "Unknown",
+    "note": "Not stated on the page reviewed.",
+    "source": "https://www.amplifire.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-authoring": {
+    "support": "Unknown",
+    "note": "Not detailed on the page reviewed.",
+    "source": "https://www.amplifire.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-mobile": {
+    "support": "Unknown",
+    "note": "Not documented on the page reviewed.",
+    "source": "https://www.amplifire.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-bilingual": {
+    "support": "Unknown",
+    "note": "Not documented on the page reviewed.",
+    "source": "https://www.amplifire.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-pms-integration": {
+    "support": "Unknown",
+    "note": "Named system integrations are clinical (EHR/Epic); no property management system.",
+    "source": "https://www.amplifire.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-hris-integration": {
+    "support": "Unknown",
+    "note": "Not documented on the page reviewed.",
+    "source": "https://www.amplifire.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-benchmarking": {
+    "support": "Unknown",
+    "note": "Not documented.",
+    "source": "https://www.amplifire.com/",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Medium",
+   "owner": null,
+   "autoUpdated": true,
+   "pendingReview": []
+  },
+  "news": [],
+  "sources": [
+   {
+    "title": "Amplifire — homepage",
+    "url": "https://www.amplifire.com/",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 4,
+   "name": "People and Workforce",
+   "note": "Reaches multifamily through the people and workforce stack — often already on an HR contract."
+  },
+  "whenItComesUp": {
+   "why": "Amplifire sells confidence-based assessment — finding where people are confidently wrong. It's a genuinely good idea and it's almost never bought by a multifamily operator for compliance.",
+   "say": "Amplifire does something interesting — they measure not just whether someone got it right but whether they were sure. It's mostly a healthcare and enterprise thing. Not something we bump into.",
+   "avoid": "Don't dismiss the idea itself. If a prospect is excited about it, they're telling you completion tracking isn't enough for them — that's a competency conversation, and it's a good one.",
+   "redirect": "It sounds like knowing they finished the course isn't the bar for you. What would you actually need to see?"
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name Amplifire Cognix, or describe adaptive learning platform (confidence-based assessment) already in place.",
+    "ask": "Is this being evaluated by a corporate parent outside real estate?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "Amplifire's published industries are healthcare, accounting and financial services, life sciences and pharma, aviation, higher education and public sector — real estate and multifamily are absent.",
+    "ask": "Does it come with any housing content, or would you be authoring all of it?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the Amplifire contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the Amplifire agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether Amplifire sits on someone else's budget line — that changes who has to agree.",
+    "ask": "Who else has to be comfortable with this, and what do they need to see?"
+   }
+  ]
+ },
+ {
+  "id": "axonify",
+  "name": "Axonify",
+  "aka": [
+   "Axonify Frontline Enablement Platform",
+   "Nudge (merged)"
+  ],
+  "parent": "Luminate Capital Partners (controlling investor)",
+  "website": "https://axonify.com/",
+  "toolCategory": "Frontline enablement / microlearning platform",
+  "ciCategory": "Potential",
+  "tier": "Watchlist",
+  "verdict": {
+   "stance": "Do not compete",
+   "line": "Axonify sells frontline microlearning to big-box retail, grocery and hospitality — Walmart, Kroger, Lowe's, Marriott — where the unit of scale is thousands of hourly associates, not a portfolio of leasing offices, and it publishes no housing content.",
+   "doInstead": "Do not build a battlecard against it. If it appears at all it is via a corporate parent with retail or hospitality operations. Concede the frontline-engagement design, which is genuinely good, and hold the line on the multifamily curriculum and fair housing currency it does not supply."
+  },
+  "overlaps": [
+   {
+    "product": "Training",
+    "degree": "Partial"
+   },
+   {
+    "product": "Policies",
+    "degree": "None"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "founded": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "ownership": {
+    "value": "Controlling investment by Luminate Capital Partners",
+    "source": "https://axonify.com/news/luminate/",
+    "verifiedOn": "2026-08-11"
+   },
+   "size": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "funding": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   }
+  },
+  "pricing": {
+   "value": "Not published on the vendor site.",
+   "source": "https://axonify.com/",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "\"The AI-powered Frontline Enablement Platform that closes the costly gap between learning and execution\" — unifying microlearning, execution tools and insights.",
+   "source": "https://axonify.com/",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "Purpose-built for distributed frontline workforces and the operations leaders, L&D teams and frontline managers who run them.",
+    "source": "https://axonify.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Customer logos published include Walmart, Kroger, Foot Locker, Lowe's, Marriott International and AT&T.",
+    "source": "https://axonify.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Offers AI-built training content, quizzes, personalized learning paths and a Content Authoring & Marketplace capability.",
+    "source": "https://axonify.com/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "Published customer and industry references are retail, grocery, hospitality and telecommunications; multifamily and real estate are absent.",
+    "source": "https://axonify.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Axonify's homepage references a Content Authoring & Marketplace capability but publishes no library detail and names no housing, fair housing or property-compliance content.",
+    "source": "https://axonify.com/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [
+   "Grace Hill's library is written for multifamily roles and housing regulation, which Axonify does not serve.",
+   "Compliance reporting and content currency are structured around property portfolios and housing law."
+  ],
+  "askThis": [
+   "Is a corporate parent outside real estate driving this?",
+   "Does Axonify come with any housing or fair housing content, or is the content yours to build?"
+  ],
+  "objections": [
+   {
+    "objection": "Axonify is built for frontline workers, which is exactly our site teams.",
+    "response": "The delivery model is a fair comparison. The content is not — Axonify's published customers are retail, grocery, hospitality and telecom, and it names no housing content. Ask who writes your fair housing course in that model."
+   }
+  ],
+  "doNotSay": [
+   "Do not claim Axonify has no content marketplace — it references one; the verifiable point is that no housing content is published.",
+   "Do not quote Axonify pricing."
+  ],
+  "features": {
+   "tr-multifamily-content": {
+    "support": "No",
+    "note": "Published industry references are retail, grocery, hospitality and telecommunications; no multifamily or real estate content.",
+    "source": "https://axonify.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-vendor-maintained": {
+    "support": "Unknown",
+    "note": "A Content Authoring & Marketplace capability is referenced without library detail on the page reviewed.",
+    "source": "https://axonify.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-fair-housing": {
+    "support": "No",
+    "note": "No housing content of any kind is published.",
+    "source": "https://axonify.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-state-specific": {
+    "support": "No",
+    "note": "No US state-specific housing compliance content is published.",
+    "source": "https://axonify.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-cec-eligible": {
+    "support": "Unknown",
+    "note": "No CAM / CAPS / CALP eligibility documented.",
+    "source": "https://axonify.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-role-assignment": {
+    "support": "Partial",
+    "note": "Personalized learning paths for frontline roles; property-based assignment is not documented.",
+    "source": "https://axonify.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-competency": {
+    "support": "Partial",
+    "note": "Quizzes and reinforcement-based microlearning; formal competency modeling is not documented on the page reviewed.",
+    "source": "https://axonify.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-compliance-reporting": {
+    "support": "Partial",
+    "note": "Insights and execution tracking are core; compliance completion reporting is not specifically documented.",
+    "source": "https://axonify.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-scorm": {
+    "support": "Unknown",
+    "note": "Not stated on the page reviewed.",
+    "source": "https://axonify.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-authoring": {
+    "support": "Yes",
+    "note": "AI-built training content plus a Content Authoring capability.",
+    "source": "https://axonify.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-mobile": {
+    "support": "Unknown",
+    "note": "Positioned for frontline workers \"in the flow of work\"; a mobile app is not explicitly named on the page reviewed.",
+    "source": "https://axonify.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-bilingual": {
+    "support": "Unknown",
+    "note": "Not documented on the page reviewed.",
+    "source": "https://axonify.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-pms-integration": {
+    "support": "Unknown",
+    "note": "No property management system integration is named.",
+    "source": "https://axonify.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-hris-integration": {
+    "support": "Unknown",
+    "note": "Not documented on the page reviewed.",
+    "source": "https://axonify.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-benchmarking": {
+    "support": "Unknown",
+    "note": "Not documented.",
+    "source": "https://axonify.com/",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Medium",
+   "owner": null,
+   "autoUpdated": true,
+   "pendingReview": []
+  },
+  "news": [],
+  "sources": [
+   {
+    "title": "Axonify — homepage",
+    "url": "https://axonify.com/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Axonify news — Luminate Capital Partners makes strategic investment in Axonify",
+    "url": "https://axonify.com/news/luminate/",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 4,
+   "name": "People and Workforce",
+   "note": "Reaches multifamily through the people and workforce stack — often already on an HR contract."
+  },
+  "whenItComesUp": {
+   "why": "Frontline microlearning built for retail and distribution floors. When it shows up in a multifamily deal it's because a corporate parent already owns the contract, not because someone shortlisted it against us.",
+   "say": "Axonify's a frontline enablement tool — big in retail and warehouse. If your corporate group already has it, that's fine, it's solving a different problem than multifamily compliance.",
+   "avoid": "Don't argue against daily microlearning as a concept — the research behind it is solid and you'll sound defensive.",
+   "redirect": "Does that cover your onsite property teams, or is it aimed at a different part of the business?"
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name Axonify Frontline Enablement Platform, Nudge (merged), or describe frontline enablement / microlearning platform already in place.",
+    "ask": "Is a corporate parent outside real estate driving this?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "Published customer and industry references are retail, grocery, hospitality and telecommunications; multifamily and real estate are absent.",
+    "ask": "Does Axonify come with any housing or fair housing content, or is the content yours to build?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the Axonify contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the Axonify agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether Axonify sits on someone else's budget line — that changes who has to agree.",
+    "ask": "Who else has to be comfortable with this, and what do they need to see?"
+   }
+  ]
+ },
+ {
+  "id": "coursebox",
+  "name": "Coursebox",
+  "aka": [
+   "Coursebox AI"
+  ],
+  "parent": null,
+  "website": "https://www.coursebox.ai/",
+  "toolCategory": "AI course authoring tool with a lightweight LMS",
+  "ciCategory": "Potential",
+  "tier": "Watchlist",
+  "verdict": {
+   "stance": "Do not compete",
+   "line": "Coursebox is a self-serve AI authoring tool that turns a customer's own documents into courses — it is the do-it-yourself alternative to buying a library, which means it only wins when the buyer has already decided to write their own fair housing content.",
+   "doInstead": "Do not battlecard it. Treat its appearance as a diagnostic: someone is planning to build compliance content in-house. Cost that plan out — who drafts it, who reviews it against current law in every state, who re-does it next year — and let the build-versus-buy math make the argument."
+  },
+  "overlaps": [
+   {
+    "product": "Training",
+    "degree": "Partial"
+   },
+   {
+    "product": "Policies",
+    "degree": "None"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "founded": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "ownership": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "size": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "funding": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   }
+  },
+  "pricing": {
+   "value": "A free tier at $0 USD is published; paid tiers (Creator, Creator Plus, Pro, Business) are named without dollar amounts on the pricing page, and Enterprise is custom. All plans are marketed as including unlimited learners with no per-learner fees.",
+   "source": "https://www.coursebox.ai/pricing",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "\"An AI course creator that turns a prompt or your documents into a full course with quizzes, videos and scenarios.\"",
+   "source": "https://www.coursebox.ai/",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "Converts prompts or uploaded documents (PDF, Word, PowerPoint) into structured courses with modules, assessments and interactive elements.",
+    "source": "https://www.coursebox.ai/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "AI toolset spans quiz generation, AI-avatar video, branching scenarios, flashcards, image generation, auto-grading and an AI tutor.",
+    "source": "https://www.coursebox.ai/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Exports SCORM/LTI and connects to existing LMS platforms; also functions as a standalone LMS with branding, learner tracking and certificates.",
+    "source": "https://www.coursebox.ai/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "Coursebox supplies no content library — every course originates from the customer's own prompt or documents.",
+    "source": "https://www.coursebox.ai/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Target audiences named are training providers, corporate HR, educational institutions, healthcare, hospitality, non-profits and individual creators; real estate and multifamily are absent.",
+    "source": "https://www.coursebox.ai/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [
+   "Grace Hill supplies a maintained multifamily curriculum; Coursebox supplies a tool for writing your own.",
+   "The regulatory update obligation stays with Grace Hill rather than transferring to the customer's staff."
+  ],
+  "askThis": [
+   "If AI writes the course from your documents, who wrote and validated the documents?",
+   "Who signs off that the generated fair housing course is legally accurate in each of your states?",
+   "What is the annual cost of the person who keeps that content current?"
+  ],
+  "objections": [
+   {
+    "objection": "We can just generate our own courses with AI for a fraction of the cost.",
+    "response": "The generation is cheap. The source of truth and the annual re-validation across every state you operate in are not — and if the course is wrong, the exposure is yours, not the tool's."
+   }
+  ],
+  "doNotSay": [
+   "Do not quote Coursebox paid-tier prices; the pricing page does not display dollar amounts for paid plans.",
+   "Do not repeat Coursebox's review scores or award claims as independent validation."
+  ],
+  "features": {
+   "tr-multifamily-content": {
+    "support": "No",
+    "note": "No content library is supplied; all content originates from the customer's prompts or documents.",
+    "source": "https://www.coursebox.ai/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-vendor-maintained": {
+    "support": "No",
+    "note": "Content is customer-generated; Coursebox maintains the tool, not a course library.",
+    "source": "https://www.coursebox.ai/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-fair-housing": {
+    "support": "No",
+    "note": "No content library is supplied, therefore no vendor-supplied fair housing course.",
+    "source": "https://www.coursebox.ai/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-state-specific": {
+    "support": "No",
+    "note": "No content library is supplied, therefore no state-specific variants.",
+    "source": "https://www.coursebox.ai/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-cec-eligible": {
+    "support": "No",
+    "note": "No vendor-supplied credential-eligible content.",
+    "source": "https://www.coursebox.ai/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-role-assignment": {
+    "support": "Unknown",
+    "note": "Learner tracking is offered; role- or property-based auto-assignment is not documented.",
+    "source": "https://www.coursebox.ai/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-competency": {
+    "support": "Partial",
+    "note": "Quizzes, auto-grading and branching scenarios; competency modeling beyond assessment is not documented.",
+    "source": "https://www.coursebox.ai/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-compliance-reporting": {
+    "support": "Partial",
+    "note": "Learner tracking and certificate generation; compliance-grade reporting is not detailed.",
+    "source": "https://www.coursebox.ai/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-scorm": {
+    "support": "Yes",
+    "note": "Exports as SCORM/LTI and connects to existing LMS platforms.",
+    "source": "https://www.coursebox.ai/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-authoring": {
+    "support": "Yes",
+    "note": "Core product — AI course creation from prompts or uploaded documents.",
+    "source": "https://www.coursebox.ai/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-mobile": {
+    "support": "Unknown",
+    "note": "Not documented on the pages reviewed.",
+    "source": "https://www.coursebox.ai/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-bilingual": {
+    "support": "Unknown",
+    "note": "Not documented on the pages reviewed.",
+    "source": "https://www.coursebox.ai/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-pms-integration": {
+    "support": "No",
+    "note": "Named integrations are LMS platforms and payment processors (Stripe, PayPal, Shopify, WooCommerce); no property management system.",
+    "source": "https://www.coursebox.ai/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-hris-integration": {
+    "support": "Unknown",
+    "note": "Not documented on the pages reviewed.",
+    "source": "https://www.coursebox.ai/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-benchmarking": {
+    "support": "Unknown",
+    "note": "Not documented.",
+    "source": "https://www.coursebox.ai/",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Medium",
+   "owner": null,
+   "autoUpdated": true,
+   "pendingReview": []
+  },
+  "news": [],
+  "sources": [
+   {
+    "title": "Coursebox — homepage",
+    "url": "https://www.coursebox.ai/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Coursebox — pricing",
+    "url": "https://www.coursebox.ai/pricing",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 4,
+   "name": "People and Workforce",
+   "note": "Reaches multifamily through the people and workforce stack — often already on an HR contract."
+  },
+  "whenItComesUp": {
+   "why": "An AI authoring tool with a light LMS attached. Its appearance is a signal, not a threat — someone is thinking about building compliance content themselves.",
+   "say": "Coursebox is an authoring tool — it helps you make courses fast. The thing to think through is who owns those courses eighteen months from now when the law in three of your states has changed.",
+   "avoid": "Don't mock AI-generated content. Say who maintains it instead — that's the real question and it's one they haven't thought about.",
+   "redirect": "If you build it yourself, who's responsible for keeping it current, and how do they find out a rule changed?"
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name Coursebox AI, or describe ai course authoring tool with a lightweight lms already in place.",
+    "ask": "If AI writes the course from your documents, who wrote and validated the documents?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "Coursebox supplies no content library — every course originates from the customer's own prompt or documents.",
+    "ask": "Who signs off that the generated fair housing course is legally accurate in each of your states?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the Coursebox contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the Coursebox agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether Coursebox sits on someone else's budget line — that changes who has to agree.",
+    "ask": "What is the annual cost of the person who keeps that content current?"
+   }
+  ]
+ },
+ {
+  "id": "learnie",
+  "name": "Learnie",
+  "aka": [
+   "Learnie Community Microlearning",
+   "MyLearnie"
+  ],
+  "parent": null,
+  "website": "https://www.learnie.app/",
+  "toolCategory": "Microlearning app built on user-generated video",
+  "ciCategory": "Potential",
+  "tier": "Watchlist",
+  "verdict": {
+   "stance": "Do not compete",
+   "line": "Learnie's premise is that your own team records the training — a social-feed microlearning app whose content model is peer-generated video, which is the opposite of what a fair housing obligation requires.",
+   "doInstead": "Do not pitch against it; it is not bought to satisfy a compliance requirement. If a customer likes it for tribal knowledge capture, say so and keep the compliance curriculum with Grace Hill — the two can coexist without a platform fight."
+  },
+  "overlaps": [
+   {
+    "product": "Training",
+    "degree": "Partial"
+   },
+   {
+    "product": "Policies",
+    "degree": "None"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "founded": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "ownership": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "size": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   },
+   "funding": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   }
+  },
+  "pricing": {
+   "value": "Not published. A free plan is offered; paid tier pricing requires a demo or sign-up.",
+   "source": "https://www.learnie.app/",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "\"An AI-powered web and mobile microlearning app made for how people actually learn\" — built to \"capture your team's knowledge\" and \"build a microlearning community.\"",
+   "source": "https://www.learnie.app/",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "Combines AI generation of bite-sized lessons, quizzes and learning paths with human-recorded video from the team itself.",
+    "source": "https://www.learnie.app/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Social-feed consumption model — scroll, like, share, collaborate — aimed at deskless and frontline employees.",
+    "source": "https://www.learnie.app/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Generates microlessons in minutes from a website URL or an uploaded document (PDF, DOCX, TXT).",
+    "source": "https://www.learnie.app/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "Learnie's content model is knowledge captured from the customer's own team plus AI generation from customer material; no vendor-authored regulated content library is published.",
+    "source": "https://www.learnie.app/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Named topic areas are HR, leadership, sales, customer service, and safety & compliance generally; no housing, fair housing or property-management content is named.",
+    "source": "https://www.learnie.app/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [
+   "Peer-recorded video is a good way to pass on tribal knowledge and a poor way to evidence fair housing training.",
+   "Grace Hill supplies vendor-authored, maintained multifamily content with compliance reporting built for portfolios."
+  ],
+  "askThis": [
+   "Would you hand a peer-recorded video to a regulator as evidence of fair housing training?",
+   "Who reviews team-generated content before it is published to everyone?"
+  ],
+  "objections": [
+   {
+    "objection": "Our teams love Learnie, it's how they actually learn.",
+    "response": "Keep it for tribal knowledge and quick how-tos — that is a real use case. Compliance content has to be authored, reviewed and kept current by someone accountable, and Learnie's model is that your team creates the content."
+   }
+  ],
+  "doNotSay": [
+   "Do not cite Learnie's lesson-library figure as a comparable content library; it is user- and AI-generated microlearning.",
+   "Do not quote Learnie pricing beyond the existence of a free plan."
+  ],
+  "features": {
+   "tr-multifamily-content": {
+    "support": "No",
+    "note": "No multifamily or property-management content is published; the content model is team-captured and AI-generated from customer material.",
+    "source": "https://www.learnie.app/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-vendor-maintained": {
+    "support": "No",
+    "note": "Content is created by the customer's own team or generated by AI from customer material.",
+    "source": "https://www.learnie.app/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-fair-housing": {
+    "support": "No",
+    "note": "No vendor-authored regulated content library exists, therefore no fair housing course.",
+    "source": "https://www.learnie.app/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-state-specific": {
+    "support": "No",
+    "note": "No vendor-authored content library exists, therefore no state-specific variants.",
+    "source": "https://www.learnie.app/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-cec-eligible": {
+    "support": "No",
+    "note": "No vendor-supplied credential-eligible content.",
+    "source": "https://www.learnie.app/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-role-assignment": {
+    "support": "Unknown",
+    "note": "Learning paths are supported; role- or property-based auto-assignment is not documented.",
+    "source": "https://www.learnie.app/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-competency": {
+    "support": "Partial",
+    "note": "AI-generated quizzes are offered; competency assessment beyond quizzing is not documented.",
+    "source": "https://www.learnie.app/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-compliance-reporting": {
+    "support": "Partial",
+    "note": "Real-time engagement and ROI analytics are marketed; compliance completion reporting is not specifically documented.",
+    "source": "https://www.learnie.app/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-scorm": {
+    "support": "Unknown",
+    "note": "Not documented on the page reviewed.",
+    "source": "https://www.learnie.app/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-authoring": {
+    "support": "Yes",
+    "note": "Core product — AI lesson generation from URLs or documents, plus in-app video capture.",
+    "source": "https://www.learnie.app/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-mobile": {
+    "support": "Partial",
+    "note": "Web and mobile app aimed at deskless and frontline employees; offline access is not documented.",
+    "source": "https://www.learnie.app/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-bilingual": {
+    "support": "Unknown",
+    "note": "Not documented on the page reviewed.",
+    "source": "https://www.learnie.app/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-pms-integration": {
+    "support": "Unknown",
+    "note": "No property management system integration is named.",
+    "source": "https://www.learnie.app/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-hris-integration": {
+    "support": "Unknown",
+    "note": "Not documented on the page reviewed.",
+    "source": "https://www.learnie.app/",
+    "verifiedOn": "2026-08-11"
+   },
+   "tr-benchmarking": {
+    "support": "Unknown",
+    "note": "Not documented.",
+    "source": "https://www.learnie.app/",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Medium",
+   "owner": null,
+   "autoUpdated": true,
+   "pendingReview": []
+  },
+  "news": [],
+  "sources": [
+   {
+    "title": "Learnie — homepage",
+    "url": "https://www.learnie.app/",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 4,
+   "name": "People and Workforce",
+   "note": "Reaches multifamily through the people and workforce stack — often already on an HR contract."
+  },
+  "whenItComesUp": {
+   "why": "User-generated microlearning video. It's bought for culture and peer knowledge sharing, not to satisfy a compliance requirement.",
+   "say": "Learnie's a peer-to-peer video thing — teams recording tips for each other. Honestly it's a decent culture tool. It just isn't what you'd point a regulator at.",
+   "avoid": "Don't position it as a failed LMS. It isn't trying to be one.",
+   "redirect": "Is this about people sharing what works, or about proving what they were required to know?"
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name Learnie Community Microlearning, MyLearnie, or describe microlearning app built on user-generated video already in place.",
+    "ask": "Would you hand a peer-recorded video to a regulator as evidence of fair housing training?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "Learnie's content model is knowledge captured from the customer's own team plus AI generation from customer material; no vendor-authored regulated content library is published.",
+    "ask": "Who reviews team-generated content before it is published to everyone?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the Learnie contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the Learnie agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether Learnie sits on someone else's budget line — that changes who has to agree.",
+    "ask": "Who else has to be comfortable with this, and what do they need to see?"
+   }
+  ]
+ }
+]

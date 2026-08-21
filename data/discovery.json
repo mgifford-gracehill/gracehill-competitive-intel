@@ -1,0 +1,368 @@
+{
+  "meta": {
+    "sources": [
+      "Grace Hill Discovery Deck (WIP) — Stage 2: Discovery",
+      "AE SPICED Deal Review Questions"
+    ],
+    "status": "draft",
+    "statusNote": "The discovery deck is labeled WIP in the source file name, and its own rep notes say the 2026 stage definitions doc is still WIP (confirm demo sequencing with your manager). Treat the discovery flow as draft, not current-final."
+  },
+  "spiced": [
+    {
+      "letter": "S",
+      "stage": "Situation",
+      "purpose": "Establish context and buyer persona map.",
+      "ask": [
+        "How many properties do you manage, and what are your top priorities this year?",
+        "What are you tracking today, and how connected is it?"
+      ],
+      "listenFor": [
+        "Relies on individual judgment over a shared standard",
+        "Inconsistent execution across properties",
+        "Friction as the portfolio scales",
+        "Already runs a PMS with adjacent free functionality (so the value case has to clear a real bar)"
+      ],
+      "dealReview": [
+        "What's the company, stakeholder, and use case?",
+        "Who is the main contact? Their role?",
+        "Who do they report to?",
+        "What are the company's 3 biggest goals/priorities?",
+        "What are their current responsibilities or KPIs?",
+        "What is their interest in GH?"
+      ],
+      "position": "Grace Hill is layer 5 of a seven-layer stack — resolution (Read · Diagnose · Prescribe · Assign · Prove). We don't compete with the system of record; we read from it and hand action back to it. Layers 1–3 follow the renter, layers 0, 4, 6 and 7 follow the operator, and layer 5 is the only one that touches both."
+    },
+    {
+      "letter": "P",
+      "stage": "Pain",
+      "purpose": "Uncover urgency and depth of need.",
+      "ask": [
+        "When performance dips at a property, how do you decide what to fix first?",
+        "When performance dips, how do you decide what to fix first?",
+        "Which of the four are you being asked to solve right now?",
+        "When a resident doesn't renew, do you know which of these it was?"
+      ],
+      "listenFor": [
+        "It shows up as four separate problems — a training problem (L&D), a reputation problem (Marketing), a leasing problem (Operations), a pricing problem (Asset Mgmt) — each landing on a different desk with a different budget",
+        "Underneath it is one chain: teams aren't ready, moments go wrong, leases and residents lost, NOI takes the hit",
+        "They are buying for the symptom while the cause sits upstream",
+        "Diagnosis takes longer than the fix"
+      ],
+      "dealReview": [
+        "What problems are they solving?",
+        "What's the biggest concern?",
+        "What happens if they do nothing?",
+        "What have they tried before?",
+        "How are you positioning against another vendor?"
+      ],
+      "position": "Residents don't leave over price. They leave over how they were treated — which makes your people the biggest controllable lever you have on NOI. Four problems, one root cause: you buy for the symptom, the cause sits upstream."
+    },
+    {
+      "letter": "I",
+      "stage": "Impact",
+      "purpose": "Quantify and align to strategic goals.",
+      "ask": [
+        "What would it mean if every property performed like your best one?",
+        "Which of those two matters more to whoever approves this?",
+        "What are your actual numbers?"
+      ],
+      "listenFor": [
+        "Whether the operating-year story or the exit/asset-value story matters more to whoever approves this",
+        "Their real unit count, annual resident turnover, and cost per turn",
+        "Their cap rate — ask for it rather than assuming five percent",
+        "Business outcomes stated in numbers their exec team already uses"
+      ],
+      "dealReview": [
+        "What business outcomes are they targeting?",
+        "How will success be measured?",
+        "Why does the business care now?",
+        "What's the budget?"
+      ],
+      "position": "It pays you twice. This year in operations: residents who renew mean fewer turns, less vacancy, fewer concessions — the one lever that pays the property manager and the owner in the same quarter. At exit in asset value: durable NOI capitalizes and a one-time cost cut does not. $100 of durable NOI per unit per year, capitalized at a five percent cap rate, is $2,000 of asset value per unit — $600,000 on a single 300-unit asset. An operating improvement isn't an expense saving; it's an asset value event. Cap rate and example figures are illustrative — redo the math in their numbers live."
+    },
+    {
+      "letter": "CE",
+      "stage": "Critical Event",
+      "purpose": "Validate urgency and align motion to timeline.",
+      "ask": [
+        "What's happening this year that makes this urgent now rather than next budget cycle?"
+      ],
+      "listenFor": [
+        "A real deadline or trigger — not just general interest",
+        "Near-term milestones with dates attached",
+        "What it costs them to wait"
+      ],
+      "dealReview": [
+        "When do they need results?",
+        "What's driving that timeline?",
+        "Near-term milestones?",
+        "What's the cost of waiting 3 months?"
+      ],
+      "position": "Critical Event is one of the two most commonly skipped exit criteria — general interest is not a trigger, and deals without one most often turn into a no-decision later."
+    },
+    {
+      "letter": "D",
+      "stage": "Decision Process",
+      "purpose": "Control the process and ensure clarity.",
+      "ask": [
+        "Who else needs to be part of this, and what does your approval path look like?",
+        "Who else should be in the next conversation?"
+      ],
+      "listenFor": [
+        "Who decides, who signs, what the approval path looks like",
+        "Whether the Decision Maker is engaged or there is a confirmed route to them",
+        "Champion readiness confirmed in their own words",
+        "A dated next step agreed in writing, with owners on both sides"
+      ],
+      "dealReview": [
+        "Who's involved in the decision?",
+        "Who signs off?",
+        "Has the champion confirmed readiness?",
+        "What are the written next steps?"
+      ],
+      "position": "Close on a specific, dated next step tied to what they said earlier — not \"we'll follow up.\" Booking the Stage 3 meeting in the room is the single highest-value outcome of this call. Name the Decision Maker if they weren't present."
+    }
+  ],
+  "discoveryFlow": [
+    {
+      "stage": "Open / Frame the call",
+      "goal": "Set expectations that this is not a demo and the prospect does most of the talking.",
+      "questions": [],
+      "notes": "Talk track: \"Thanks for the time today. Before we jump in — this isn't a demo. We'd like to share how we see this market, hear how it actually looks inside your portfolio, and figure out together whether there's a fit. You should expect to do most of the talking.\" Deck follows April Dunford's sales pitch structure — Setup (insight, alternatives, perfect world), then Follow-through (where we fit, differentiated value, proof, objections, next step). Resist jumping to product. A confidentiality slide precedes this; it is internal and can be deleted if the deck carries no confidential or account-specific content.",
+      "status": "draft"
+    },
+    {
+      "stage": "Where you are today (Situation · Pain · Impact)",
+      "goal": "Capture Situation, Pain and Impact/Goals live, in their words, and get them to correct or confirm it.",
+      "questions": [
+        "What are you tracking today, and how connected is it?",
+        "When performance dips, how do you decide what to fix first?",
+        "What would it mean if every property performed like your best one?"
+      ],
+      "notes": "Talk track: \"Here's what we heard — tell us where we've got it wrong.\" Fill the three columns live and do not advance until they've corrected or confirmed it. This is a listening tool — everything captured here gets reused on the NOI slide and the Next Steps slide.",
+      "status": "draft"
+    },
+    {
+      "stage": "Our point of view (Insight)",
+      "goal": "Land the insight that retention is a people problem before it's a pricing problem — without mentioning product.",
+      "questions": [
+        "When a resident doesn't renew, do you know which of these it was?"
+      ],
+      "notes": "Proof points used: management quality shows up 2.7x more often than rent increases in stated reasons for not renewing; 41% of negative renewal reviews cite maintenance; requests closed inside 24 hours rate positively even when the fix is imperfect, past 72 hours they rate negatively even when perfect; satisfied residents absorb a 5–8% rent increase against roughly 3% for the disconnected. Retention is the only lever that raises revenue and lowers cost in the same quarter. Sources: renewal review analysis across ~79,000 renewals; multifamily reputation index across ~400,000 reviews; published renewal threshold research. Keep to ~2 minutes, get a nod, do not mention any product here.",
+      "status": "draft"
+    },
+    {
+      "stage": "The pattern (Four problems, one root cause)",
+      "goal": "Let them place themselves in one of the four symptom boxes — that box is your wedge and the chain is your reason to widen the conversation.",
+      "questions": [
+        "Which of the four are you being asked to solve right now?"
+      ],
+      "notes": "What you see: a training problem (L&D), a reputation problem (Marketing), a leasing problem (Operations), a pricing problem (Asset Mgmt). What's actually happening: teams aren't ready → moments go wrong → leases and residents lost → NOI takes the hit. This is the aha slide — point, pause, and let the picture do the work, then let them place themselves.",
+      "status": "draft"
+    },
+    {
+      "stage": "So what — it pays you twice",
+      "goal": "Convert an operations conversation into a valuation conversation.",
+      "questions": [
+        "Which of those two matters more to whoever approves this?"
+      ],
+      "notes": "Left column (this year, in operations) for a property manager; right column (at exit, in asset value) for an owner or asset manager. Cap rate is illustrative — ask theirs and redo the math live. Do not quote software pricing in this meeting; get the current per-unit figure from your manager if pressed.",
+      "status": "draft"
+    },
+    {
+      "stage": "What it's worth (value model in their numbers)",
+      "goal": "Replace the illustrative example with their portfolio numbers live.",
+      "questions": [
+        "What are your actual numbers?"
+      ],
+      "notes": "Rows to fill live: units in the portfolio; annual resident turnover; cost per turn (make-ready, vacancy, concessions, commissions); annual cost of turnover; return from a 3-point turnover improvement; asset value created at their cap rate. Example figures are illustrative industry-typical ranges, not a Grace Hill claim. The same math runs on employee turnover and tour-to-lease conversion. Ask for their cap rate rather than assuming five percent.",
+      "status": "draft"
+    },
+    {
+      "stage": "Persona deep-dive",
+      "goal": "Deepen the aha for whoever is actually in the room — keep only the persona slide that matches today's audience.",
+      "questions": [],
+      "notes": "One persona slide only: Executives & Owners, Regional Managers & VP Operations, HR & Learning Leaders, or Onsite Property Teams. Avoid generic 'Operations' as a standalone label — use owners/operators, property teams, regional leaders. See byPersona for the questions.",
+      "status": "draft"
+    },
+    {
+      "stage": "Your options (alternatives)",
+      "goal": "Be genuinely fair to all four alternatives and find out what they use and have already ruled out.",
+      "questions": [
+        "Which of these are you using today — and what have you already ruled out?"
+      ],
+      "notes": "The PMS — good for system of record; records what happened, won't name the next action. Point tools — good for fixing one symptom well; four vendors, four contracts, nothing connects them. AI leasing tools — good for automating one task; no proven standard underneath, one link not the chain. Your best managers — real results right now; works in one building, leaves when they do. This is a conversation, not a lecture, and the best discovery moment in the deck. Ask what else is on their shortlist and categorize it into one of these four rather than introducing new names.",
+      "status": "draft"
+    },
+    {
+      "stage": "What good would look like (perfect world)",
+      "goal": "Get an explicit yes to the four purchase criteria before moving on.",
+      "questions": [
+        "Is that the right list — or is something missing for you?"
+      ],
+      "notes": "The four: one picture (people, resident experience and market in one view, not four reports); a named next action for that property; one standard that holds at every property; proof it worked, measured against benchmarks in numbers the exec team already uses. Every option on the alternatives slide gets some of these; none get all four. This is the hinge of the whole pitch — do not move on without an explicit yes.",
+      "status": "draft"
+    },
+    {
+      "stage": "Where we fit in your stack",
+      "goal": "Kill the \"is this another platform I have to rip something out for?\" objection early.",
+      "questions": [
+        "Which of these layers do you already own — and where does the handoff break?"
+      ],
+      "notes": "Seven layers: 0 systems of record; 1 demand and leasing; 2 resident living and service; 3 physical and connected property; 4 people and workforce; 5 resolution (Read · Diagnose · Prescribe · Assign · Prove) ← Grace Hill; 6 asset, finance and investor; 7 ancillary and risk transfer. Name only vendors you're confident they use or recognize. We say ASSIGN rather than push-into-your-PMS: deeper two-way write-back is roadmap and not yet available — describe assignment to the person who owns the action, and do not promise automated write-back into third-party systems.",
+      "status": "draft"
+    },
+    {
+      "stage": "What that actually means (differentiated value)",
+      "goal": "Show that steps 3, 4 and 5 are the ones nobody else does.",
+      "questions": [
+        "Where does your current setup stop — at the finding, or at the fix?"
+      ],
+      "notes": "READ (pull property, lease, resident, team and market context together) · DIAGNOSE (correlate to find the cause, not the symptom) · PRESCRIBE (name the next best action for a specific property) · ASSIGN (put it in the hands of the person who owns it) · PROVE (re-measure to confirm the outcome actually moved). Detection is getting cheap; knowing the right fix, getting it done, and proving it are not. Framing: \"are you just reporting the weather, or can you give me an action plan?\" The metric customers care about is time to resolution. If you demo, demo prescribe/assign/prove — not the dashboards.",
+      "status": "draft"
+    },
+    {
+      "stage": "How you'd buy it",
+      "goal": "Show the three purchase decisions and start where the budget already sits.",
+      "questions": [],
+      "notes": "Three decisions: 1) the platform (Core or Plus), 2) your track (Workforce Excellence, Resident & Prospect Satisfaction, or both), 3) add-ons à la carte. Everything priced per unit, per month, so cost scales with the portfolio rather than a seat count. Lead with the single track whose budget owner is in the room — combined-track deals have a much longer cycle. Be honest that expansion is a tier upgrade, not new scope. Do not quote specific prices in this meeting.",
+      "status": "draft"
+    },
+    {
+      "stage": "Proof",
+      "goal": "Establish why Grace Hill can name the right action rather than just report the problem.",
+      "questions": [
+        "What would you need to see to believe it would work here?"
+      ],
+      "notes": "People performance: 500,000+ multifamily professionals developed, with skill-gap benchmarks by role, region and property class. Resident and employee experience: 30+ years of satisfaction data — the largest benchmarking database in multifamily. Market position: largest multifamily renter dataset, co-published with NMHC, plus automated property-level comps. 40 years of multifamily operations experience behind every benchmark. Customer quote: \"Grace Hill's products are intentional, helpful, and designed to make our teams better.\" — Welton McCrary, Perennial Properties. If you have a customer story that mirrors this prospect's size and situation, tell it instead of reciting all three stats.",
+      "status": "draft"
+    },
+    {
+      "stage": "Where AI fits",
+      "goal": "Answer \"won't AI commoditize you?\" — detection is commoditizing, prescription and proof are not.",
+      "questions": [
+        "Where is AI already showing up in your stack?"
+      ],
+      "notes": "What AI has changed: finding problems is becoming nearly free; detection is no longer scarce. What it hasn't: knowing the right fix, getting it done, and proving it worked — that needs an owned library of remediations kept current against regulation and years of outcomes to compare against, not a better model. More findings just means more to resolve. Whether the person in front of your resident is on payroll or is an agent, someone still has to decide what good looks like. Avoid framing AI as an employee.",
+      "status": "draft"
+    },
+    {
+      "stage": "Fair questions (objections)",
+      "goal": "Raise the four most common objections yourself and surface the real blocker while still in the room.",
+      "questions": [
+        "What else would give you pause?"
+      ],
+      "notes": "\"We already get some of this free in our PMS.\" → You do — and you should use it. Free modules record activity. They don't benchmark it or tell you which property to fix first. \"This is a lot to take on at once.\" → Then don't. Start with one track where the budget already sits. Expansion is a tier change, not a new project. \"Different teams own these budgets.\" → That's the whole problem — and it's why we priced it so one team can start without waiting on the others. \"We're not replacing our system of record.\" → Good — don't. It stays the ledger. We sit above it and hand work back to the people who do it. Optional slide; delete any that don't apply and add the one you actually expect.",
+      "status": "draft"
+    },
+    {
+      "stage": "Next steps",
+      "goal": "Close on a specific, dated next step and identify who else joins the next conversation.",
+      "questions": [
+        "Who else should be in the next conversation?"
+      ],
+      "notes": "Customer-facing sequence: Today = Discovery; Next = Solution Alignment (technical discovery, success criteria, and a walkthrough built on your properties); Then = Impact Proposal (a value case in your numbers, plus commercial terms); Finally = Partnership & Onboarding (procurement, contracting, and a kickoff plan). These map to internal Stages 2, 3, 4 and 5–7 — keep the customer-facing language, not the stage numbers.",
+      "status": "draft"
+    }
+  ],
+  "qualification": {
+    "mustHave": [
+      "Entry (true before this call, from Stage 1 exit): SQL criteria met",
+      "Entry: Discovery meeting booked, including new stakeholders",
+      "Entry: Solution Engineer requested",
+      "Entry: Next steps agreed",
+      "Exit: Impact deeply uncovered — rational and emotional, in their words, with a number attached where possible",
+      "Exit: Critical Event identified — a real deadline or trigger, not just general interest",
+      "Exit: Decision process and criteria identified — who decides, who signs, what the approval path looks like",
+      "Exit: Competitors identified — what else is on the shortlist, and which of the four approaches it belongs to",
+      "Exit: Stakeholders mapped — Decision Maker engaged or a confirmed route to them",
+      "Exit: Technical criteria confirmed — enough to scope the walkthrough; custom demo delivered or scheduled",
+      "Exit: Mutual Action Plan signed off — dated next step agreed in writing, with owners on both sides"
+    ],
+    "disqualifiers": [
+      "Stage 1 exit criteria are not met — if SQL criteria, a booked discovery meeting with new stakeholders, an SE request, or agreed next steps are missing, you're still in Stage 1 and this deck is early",
+      "They disagree with the 'perfect world' list of four criteria — either you adjust, or they are genuinely not a fit and that is useful to know now",
+      "No Critical Event — general interest is not a trigger; deals without one most often turn into a no-decision later",
+      "No signed-off Mutual Action Plan with a dated next step",
+      "If you can't tick all seven exit criteria, the opportunity stays in Stage 2 — book the follow-up rather than forecasting it forward"
+    ],
+    "notes": "All seven exit criteria = SQO. The opportunity advances to Stage 3: Demo / Solution Alignment. Fit indicators to listen for: relies on individual judgment over a shared standard; inconsistent execution across properties; friction as the portfolio scales; already runs a PMS with adjacent free functionality, so the value case has to clear a real bar.",
+    "status": "draft"
+  },
+  "criticalEvents": [
+    "What's happening this year that makes this urgent now rather than next budget cycle?",
+    "A mandated training gap — fair housing, safety, harassment — needed to close an audit or insurance gap",
+    "An insurance requirement driving compliance training",
+    "Weak portfolio review scores requiring diagnostics plus a remediation plan (reputation recovery)",
+    "A tour-to-lease conversion problem the buyer is being measured on",
+    "Budget cycle timing — needing results before the next cycle rather than after it",
+    "Near-term milestones with a real date attached",
+    "The cost of waiting three months"
+  ],
+  "byPersona": [
+    {
+      "persona": "Executives & Owners",
+      "positioning": "You're accountable for NOI. The four pieces that drive it report to four different people.",
+      "painPoints": [
+        "Can't see what's really driving NOI",
+        "Performance rides on a few strong people",
+        "Guesswork shows up as turnover",
+        "New AI tools, no proven standard",
+        "Confidence erodes as you scale"
+      ],
+      "questions": [
+        "How much of this can you see today without asking four people?",
+        "How much of that can you see today without asking four people for four reports?"
+      ],
+      "notes": "Economic buyer. This is the persona where the cross-budget insight lands hardest, because they are the only one who owns all four. Push on portfolio-level visibility and repeatability."
+    },
+    {
+      "persona": "Regional Managers & VP Operations",
+      "positioning": "When something looks off at a property, you can't tell if it's people, process, or the market — fast enough to matter.",
+      "painPoints": [
+        "Reactive escalation, not clear priorities",
+        "Inconsistent execution property to property",
+        "Too many tools, too much reconciling",
+        "Best practice lives in one manager's head",
+        "Do more with less, every quarter"
+      ],
+      "questions": [
+        "Which of these slows your team down the most?",
+        "When something looks off at a property, how long does it take to work out whether it's a people problem, a process problem, or the market?"
+      ],
+      "notes": "Their pain is diagnosis speed and consistency — tie back to the chain on the aha slide. Most regional leaders say the diagnosis takes longer than the fix."
+    },
+    {
+      "persona": "HR & Learning Leaders",
+      "positioning": "You can prove courses got completed. You can't prove performance improved.",
+      "painPoints": [
+        "Completion tracked, competence unknown",
+        "Turnover resets progress constantly",
+        "Development sits apart from outcomes",
+        "Compliance exposure from onboarding gaps",
+        "Hard to prove impact on the numbers"
+      ],
+      "questions": [
+        "What would proof of impact need to look like for your exec team?",
+        "What would proof of impact need to look like for yours?"
+      ],
+      "notes": "Careful here — this is exactly the persona that gets sold a single-product story. Use the aha chain to widen it: their outcome shows up in someone else's number."
+    },
+    {
+      "persona": "Onsite Property Teams",
+      "positioning": "Every shift asks your team to guess what matters most today.",
+      "painPoints": [
+        "Second-guessing what to prioritize",
+        "Every property inventing its own way",
+        "No time freed for resident moments",
+        "Standards live in a binder",
+        "New AI tools, no proven standard"
+      ],
+      "questions": [
+        "What would make a shift easier to prioritize?",
+        "Walk me through a shift when something unexpected comes up — how does your team decide what gets dropped?"
+      ],
+      "notes": "They are the first link in the chain. Not being handed a course — being handed clarity on what to do next."
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "note": "The five outcome pathways from the RML segmentation work. Used as the second way to navigate the app — by what the customer is trying to achieve rather than by product name.",
+  "source": "RML Pricing & Packaging Baseline Analysis, July 2026",
+  "frame": "Five ways customers describe what they are trying to achieve, in the words the RML segmentation heard them use. Treat these as entry points, not as boundaries. Risk and compliance is the one that gets funded on its own terms — a compliance failure is expensive whether or not NOI moves — while the other four tend to be argued in NOI terms. In practice they run together: a maintenance issue that sits too long is a resident experience problem, a reputation problem, and a renewal problem at the same time. Use the pathway the buyer opened with, then follow it wherever the conversation actually goes.",
+  "pathways": [
+    {
+      "id": "risk",
+      "name": "Risk & Compliance",
+      "goal": "Minimize risk",
+      "oneLine": "Prove the organization is compliant, and prove it fast when someone asks.",
+      "products": [
+        "Policies",
+        "Fair Housing training"
+      ],
+      "overlaps": [
+        "Policies",
+        "Training"
+      ],
+      "roles": [
+        "ld",
+        "owner-operator"
+      ],
+      "hearThis": [
+        "\"When regulations change I need the whole organization compliant, and able to prove it.\"",
+        "\"Our policies live in a shared drive and nobody's sure which version is current.\"",
+        "\"Fair housing is handled by our attorney once a year.\""
+      ],
+      "sayThat": "Ask what they would produce at audit: which employee acknowledged which version of which policy, on what date. Most operators can already store a policy. The harder part is showing who read which version, and when.",
+      "segment": "Compliance Seeker",
+      "synonyms": [
+        "risk",
+        "compliance",
+        "operational compliance",
+        "fair housing",
+        "policy",
+        "policies",
+        "audit",
+        "legal",
+        "regulatory",
+        "governance",
+        "training compliance"
+      ]
+    },
+    {
+      "id": "workforce",
+      "name": "Workforce Optimization",
+      "goal": "NOI",
+      "oneLine": "Get teams to the same standard, and know whether a performance problem is skill, process or effort.",
+      "products": [
+        "Onboarding",
+        "Role-based training",
+        "Career Pathways",
+        "Gracie AI",
+        "Mystery Shopping",
+        "Employee Surveys"
+      ],
+      "overlaps": [
+        "Training",
+        "Mystery Shopping"
+      ],
+      "roles": [
+        "operations",
+        "ld"
+      ],
+      "hearThis": [
+        "\"When performance issues arise I want to know whether it's skill, process, or effort.\"",
+        "\"Performance depends on which manager happens to be at that property.\"",
+        "\"We just hired a lot of people and need them productive fast.\""
+      ],
+      "sayThat": "The skill-versus-process question is the one nothing else answers. A shop shows what was said, training closes the gap, and the next shop proves it moved.",
+      "segment": "Workforce Maximizer",
+      "synonyms": [
+        "workforce",
+        "operational excellence",
+        "operations",
+        "people",
+        "staffing",
+        "training",
+        "onboarding",
+        "talent",
+        "performance",
+        "coaching",
+        "mystery shopping",
+        "employee"
+      ]
+    },
+    {
+      "id": "leasing",
+      "name": "Streamlined Leasing",
+      "goal": "NOI",
+      "oneLine": "Convert more of the traffic you already have.",
+      "products": [
+        "Realync"
+      ],
+      "overlaps": [
+        "Realync"
+      ],
+      "roles": [
+        "marketing",
+        "operations"
+      ],
+      "hearThis": [
+        "\"When leasing performance drops I need to understand why, fast.\"",
+        "\"Our tours are inconsistent and half our units never get filmed.\""
+      ],
+      "sayThat": "Ask who actually creates the tour content today. Contractor-only capture is why free video tours never get made.",
+      "segment": "Leasing Streamliner",
+      "synonyms": [
+        "leasing",
+        "occupancy",
+        "conversion",
+        "tours",
+        "video",
+        "prospect experience",
+        "lease up"
+      ]
+    },
+    {
+      "id": "sentiment",
+      "name": "Resident & Prospect Sentiment",
+      "goal": "NOI",
+      "oneLine": "Know how residents feel before it shows up in a renewal decision.",
+      "products": [
+        "Resident & Prospect Surveys",
+        "Kingsley Benchmarking",
+        "Reputation Management"
+      ],
+      "overlaps": [
+        "Surveys",
+        "Reputation Management"
+      ],
+      "roles": [
+        "marketing",
+        "operations"
+      ],
+      "hearThis": [
+        "\"When resident satisfaction declines I need to know the drivers so I can improve retention.\"",
+        "\"Our reviews are inconsistent across the portfolio.\"",
+        "\"We survey, but nothing happens with the results.\""
+      ],
+      "sayThat": "A score is easier to act on with a comparison set behind it, and a finding tends to stall without an owner. Worth asking who picks up the fix the week after a bad score lands.",
+      "segment": "Sentiment Seeker",
+      "synonyms": [
+        "sentiment",
+        "resident experience",
+        "reputation",
+        "reviews",
+        "surveys",
+        "retention",
+        "renewal",
+        "satisfaction",
+        "nps"
+      ]
+    },
+    {
+      "id": "market",
+      "name": "Market Position",
+      "goal": "NOI",
+      "oneLine": "Price and position against what the market is actually doing.",
+      "products": [
+        "HelloData®"
+      ],
+      "overlaps": [
+        "HelloData®"
+      ],
+      "roles": [
+        "operations",
+        "owner-operator"
+      ],
+      "hearThis": [
+        "\"When evaluating a portfolio I need to assess where to invest.\"",
+        "\"Our comp data is a spreadsheet somebody updates monthly.\""
+      ],
+      "sayThat": "Ask how often their comps refresh and whether concessions are in there. Stale comps and missing concessions are where pricing decisions go wrong.",
+      "segment": "Market Intelligence Seeker",
+      "synonyms": [
+        "market position",
+        "market intelligence",
+        "pricing",
+        "rent comps",
+        "comps",
+        "revenue management",
+        "market data",
+        "submarket"
+      ]
+    }
+  ],
+  "hearThisSayThat": [
+    {
+      "hear": "\"We're consolidating our tech stack.\"",
+      "pathway": "risk",
+      "likely": "Yardi Aspire · RealPage RealConnect",
+      "say": "This is the single largest reason we lose, and it is not a price objection. Ask what they lose in the consolidation — CE-eligible content, state fair housing approvals, benchmark comparison — and whether the PMS module actually replaces those or just stores them."
+    },
+    {
+      "hear": "\"Performance varies property to property.\"",
+      "pathway": "workforce",
+      "likely": "Status quo · strong individual managers",
+      "say": "Ask how they tell a skill problem from a process problem today. That answer is usually \"we guess,\" and it is the opening."
+    },
+    {
+      "hear": "\"We already get some of this free in our PMS.\"",
+      "pathway": "risk",
+      "likely": "AppFolio · RealPage · Entrata",
+      "say": "Agree and tell them to keep it. Then ask which courses carry CE credit, which are state-approved for fair housing, and who updates them when the law changes."
+    },
+    {
+      "hear": "\"Our policies are in SharePoint.\"",
+      "pathway": "risk",
+      "likely": "Microsoft SharePoint",
+      "say": "Let them keep it for files. Ask who writes and updates the policy text, and whether they can produce a timestamped acknowledgment per employee per version."
+    },
+    {
+      "hear": "\"We need everyone onboarded and compliant in 30 days.\"",
+      "pathway": "workforce",
+      "likely": "Status quo · generic LMS",
+      "say": "Ask what the current ramp actually is, and what it costs when a new hire is unproductive for an extra month."
+    },
+    {
+      "hear": "\"Our survey vendor feels dated.\"",
+      "pathway": "sentiment",
+      "likely": "SatisFacts & ApartmentRatings · J Turner",
+      "say": "Lack of innovation is the top stated reason surveys churn, ahead of price. Ask what changed at a property because of the last survey — if nothing, the tool is reporting, not improving."
+    },
+    {
+      "hear": "\"I can't buy my way to growth this year.\"",
+      "pathway": "market",
+      "likely": "None — this is a budget conversation",
+      "say": "Agree. With no cap-rate compression available, operational NOI is the only value lever left. Lead with payback period."
+    },
+    {
+      "hear": "\"AI is answering our phones now.\"",
+      "pathway": "workforce",
+      "likely": "EliseAI · Grotto AI · Rilla",
+      "say": "Ask how they verify what the AI says to a prospect, and who owns the handoff when it escalates. Whether the person in front of your resident is on payroll or is an agent, someone still has to decide what good looks like."
+    }
+  ],
+  "frameNote": "Taxonomy note: this is our internal organizing language, not a customer-facing framework. If a customer describes their goal differently, use their words."
+}

@@ -1,0 +1,1344 @@
+{
+ "generated": "2026-08-12",
+ "count": 98,
+ "note": "Roster for the weekend competitive sweep. batch A=Tier 1, B=Tier 2, C=Tier 3+Watchlist.",
+ "competitors": [
+  {
+   "id": "apartmentiq",
+   "name": "ApartmentIQ",
+   "aka": [
+    "ApartmentIQ Market Surveys",
+    "Explore Pro",
+    "Daylight"
+   ],
+   "site": "https://www.apartmentiq.io",
+   "tier": "Tier 1",
+   "cat": "Direct",
+   "batch": "A",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "eliseai",
+   "name": "EliseAI",
+   "aka": [
+    "Elise AI",
+    "MeetElise",
+    "EliseCRM",
+    "SentimentAI",
+    "VoiceAI"
+   ],
+   "site": "https://eliseai.com",
+   "tier": "Tier 1",
+   "cat": "Partner-Competitor",
+   "batch": "A",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "flair",
+   "name": "Flair",
+   "aka": [
+    "getflair.io",
+    "Flair conversation intelligence"
+   ],
+   "site": "https://www.getflair.io/",
+   "tier": "Tier 1",
+   "cat": "Replacement",
+   "batch": "A",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "grotto-ai",
+   "name": "Grotto AI",
+   "aka": [
+    "Grotto"
+   ],
+   "site": "https://grotto.ai/",
+   "tier": "Tier 1",
+   "cat": "Replacement",
+   "batch": "A",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "j-turner-research",
+   "name": "J Turner Research",
+   "aka": [
+    "J Turner",
+    "ORA Score",
+    "ORA Power Rankings",
+    "Einstein by J Turner",
+    "ORA Power Ranking"
+   ],
+   "site": "https://www.jturnerresearch.com/",
+   "tier": "Tier 1",
+   "cat": "Direct",
+   "batch": "A",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "lcp-media",
+   "name": "LCP Media",
+   "aka": [
+    "LCP Media, a Yardi company",
+    "TourBuilder (LCP Media)"
+   ],
+   "site": "https://www.lcpmedia.com",
+   "tier": "Tier 1",
+   "cat": "Direct",
+   "batch": "A",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "microsoft-sharepoint",
+   "name": "Microsoft SharePoint",
+   "aka": [
+    "SharePoint Online",
+    "Microsoft 365 SharePoint",
+    "SharePoint intranet"
+   ],
+   "site": "https://www.microsoft.com/en-us/microsoft-365/sharepoint/collaboration",
+   "tier": "Tier 1",
+   "cat": "Status Quo",
+   "batch": "A",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "oneday",
+   "name": "OneDay",
+   "aka": [
+    "OneDay for Multifamily"
+   ],
+   "site": "https://www.oneday.com",
+   "tier": "Tier 1",
+   "cat": "Direct",
+   "batch": "A",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "qualtrics",
+   "name": "Qualtrics",
+   "aka": [
+    "Qualtrics XM",
+    "Qualtrics EmployeeXM",
+    "Qualtrics CustomerXM",
+    "XM Platform"
+   ],
+   "site": "https://www.qualtrics.com/",
+   "tier": "Tier 1",
+   "cat": "Indirect",
+   "batch": "A",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "radix",
+   "name": "Radix",
+   "aka": [
+    "Radix Analytics",
+    "RealRents",
+    "redIQ (acquired)"
+   ],
+   "site": "https://radix.com",
+   "tier": "Tier 1",
+   "cat": "Direct",
+   "batch": "A",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "realpage-market-analytics",
+   "name": "RealPage Market Analytics",
+   "aka": [
+    "RealPage Analytics",
+    "Market Analytics",
+    "Data Direct",
+    "Lumina AI"
+   ],
+   "site": "https://www.realpage.com/insights-analytics/market-analytics/",
+   "tier": "Tier 1",
+   "cat": "Direct",
+   "batch": "A",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "realpage-realconnect",
+   "name": "RealPage RealConnect",
+   "aka": [
+    "RealConnect LMS",
+    "EasyLMS",
+    "RealPage EasyLMS",
+    "RealPage LMS"
+   ],
+   "site": "https://www.realpage.com/property-management-software/learning-management-system/",
+   "tier": "Tier 1",
+   "cat": "Direct",
+   "batch": "A",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "rema-remington-evaluations",
+   "name": "REMA (Remington Evaluations)",
+   "aka": [
+    "Remington Evaluations LLC",
+    "REMysteryShops"
+   ],
+   "site": "https://www.remysteryshops.com/",
+   "tier": "Tier 1",
+   "cat": "Direct",
+   "batch": "A",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "satisfacts-apartmentratings",
+   "name": "SatisFacts & ApartmentRatings",
+   "aka": [
+    "SatisFacts",
+    "SatisFacts Research",
+    "ApartmentRatings.com",
+    "epIQ Index",
+    "LEO",
+    "Insite",
+    "SatisFacts & ApartmentRatings",
+    "Review Responder",
+    "ApartmentRatings"
+   ],
+   "site": "https://www.satisfacts.com/",
+   "tier": "Tier 1",
+   "cat": "Direct",
+   "batch": "A",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "status-quo-surveys",
+   "name": "Status Quo — DIY surveys or no formal listening program",
+   "aka": [
+    "Do nothing",
+    "Google Forms survey",
+    "annual spreadsheet",
+    "SurveyMonkey free tier",
+    "we just read our reviews"
+   ],
+   "site": null,
+   "tier": "Tier 1",
+   "cat": "Status Quo",
+   "batch": "A",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "status-quo-mystery-shopping",
+   "name": "Status quo — internal spot-checks and DIY comp shops",
+   "aka": [
+    "Doing it ourselves",
+    "Regional manager shops",
+    "Comp shop spreadsheet"
+   ],
+   "site": null,
+   "tier": "Tier 1",
+   "cat": "Status Quo",
+   "batch": "A",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "swift-bunny",
+   "name": "Swift Bunny",
+   "aka": [
+    "Swift Bunny ONE",
+    "Ingage",
+    "Intouch",
+    "Inquire",
+    "Introduce"
+   ],
+   "site": "https://swiftbunny.com/",
+   "tier": "Tier 1",
+   "cat": "Direct",
+   "batch": "A",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "status-quo-policies",
+   "name": "The Status Quo — shared drive, binder, and email acknowledgments",
+   "aka": [
+    "Do nothing",
+    "Shared drive",
+    "The binder in the leasing office",
+    "Word docs on the S: drive"
+   ],
+   "site": null,
+   "tier": "Tier 1",
+   "cat": "Status Quo",
+   "batch": "A",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "tourbuilder",
+   "name": "TourBuilder",
+   "aka": [
+    "TourBuilder Go",
+    "TourBuilder Pro",
+    "TourBuilder One",
+    "TourBuilder Connect",
+    "TourBuilder Clips",
+    "TourBuilder Insights"
+   ],
+   "site": "https://www.lcpmedia.com/tourbuilder",
+   "tier": "Tier 1",
+   "cat": "Direct",
+   "batch": "A",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "yardi-aspire",
+   "name": "Yardi Aspire",
+   "aka": [
+    "Aspire",
+    "Aspire LMS",
+    "Aspire Plus",
+    "Aspire Platinum"
+   ],
+   "site": "https://www.yardi.com/product/aspire/",
+   "tier": "Tier 1",
+   "cat": "Direct",
+   "batch": "A",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "yardi-matrix",
+   "name": "Yardi Matrix",
+   "aka": [
+    "Matrix",
+    "Yardi Matrix Multifamily"
+   ],
+   "site": "https://www.yardimatrix.com",
+   "tier": "Tier 1",
+   "cat": "Direct",
+   "batch": "A",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "aktivbo",
+   "name": "AktivBo",
+   "aka": [
+    "Aktivbo",
+    "AktivBo Analyze"
+   ],
+   "site": "https://www.aktivbo.com/",
+   "tier": "Tier 2",
+   "cat": "Indirect",
+   "batch": "B",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "aln-apartment-data",
+   "name": "ALN Apartment Data",
+   "aka": [
+    "ALN",
+    "ALN OnLine",
+    "ALN Data"
+   ],
+   "site": "https://alndata.com",
+   "tier": "Tier 2",
+   "cat": "Direct",
+   "batch": "B",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "birdeye",
+   "name": "Birdeye",
+   "aka": [
+    "BirdEye"
+   ],
+   "site": "https://birdeye.com/",
+   "tier": "Tier 2",
+   "cat": "Direct",
+   "batch": "B",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "cel-associates",
+   "name": "CEL & Associates",
+   "aka": [
+    "CEL Associates",
+    "CEL",
+    "REACT R"
+   ],
+   "site": "https://celassociates.com/",
+   "tier": "Tier 2",
+   "cat": "Indirect",
+   "batch": "B",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "costar",
+   "name": "CoStar",
+   "aka": [
+    "CoStar Group",
+    "CoStar Market Analytics",
+    "CoStar Suite"
+   ],
+   "site": "https://www.costar.com",
+   "tier": "Tier 2",
+   "cat": "Indirect",
+   "batch": "B",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "culture-amp",
+   "name": "Culture Amp",
+   "aka": [
+    "CultureAmp"
+   ],
+   "site": "https://www.cultureamp.com/",
+   "tier": "Tier 2",
+   "cat": "Indirect",
+   "batch": "B",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "entrata-academy",
+   "name": "Entrata Academy",
+   "aka": [
+    "Entrata Training",
+    "Entrata Academy Elite",
+    "Entrata Onboarding and Training Services"
+   ],
+   "site": "https://www.entrata.com/products/training",
+   "tier": "Tier 2",
+   "cat": "Indirect",
+   "batch": "B",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "entrata-reputationadvisor",
+   "name": "Entrata ReputationAdvisor",
+   "aka": [
+    "ReputationAdvisor",
+    "Entrata Reputation Management",
+    "ELI"
+   ],
+   "site": "https://www.entrata.com/products/reputationadvisor",
+   "tier": "Tier 2",
+   "cat": "Replacement",
+   "batch": "B",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "flamingo",
+   "name": "Flamingo",
+   "aka": [
+    "Flamingo Resident Retention Platform",
+    "Flamingo Resident Engagement Platform",
+    "getflamingo"
+   ],
+   "site": "https://getflamingo.com/",
+   "tier": "Tier 2",
+   "cat": "Indirect",
+   "batch": "B",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "go1",
+   "name": "Go1",
+   "aka": [
+    "Go1 content hub"
+   ],
+   "site": "https://www.go1.com",
+   "tier": "Tier 2",
+   "cat": "Indirect",
+   "batch": "B",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "grow-by-inhabit",
+   "name": "GROW by Inhabit",
+   "aka": [
+    "GROW",
+    "GROW LMS",
+    "GROW Learning",
+    "GROW Learning Management System"
+   ],
+   "site": "https://growlearning.com/",
+   "tier": "Tier 2",
+   "cat": "Direct",
+   "batch": "B",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "convergepoint",
+   "name": "Ideagen ConvergePoint",
+   "aka": [
+    "ConvergePoint",
+    "Ideagen Compliance",
+    "ConvergePoint Policy Management Software"
+   ],
+   "site": "https://www.convergepoint.com/policy-management-software",
+   "tier": "Tier 2",
+   "cat": "Indirect",
+   "batch": "B",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "jancyn",
+   "name": "Jancyn",
+   "aka": [
+    "Jancyn Evaluation Shops"
+   ],
+   "site": "https://jancyn.com/",
+   "tier": "Tier 2",
+   "cat": "Direct",
+   "batch": "B",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "jm-ridgway",
+   "name": "JM Ridgway",
+   "aka": [
+    "J.M. Ridgway",
+    "JM Ridgway Mystery Shopping"
+   ],
+   "site": "https://jmridgway.com/",
+   "tier": "Tier 2",
+   "cat": "Direct",
+   "batch": "B",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "leonardo247",
+   "name": "Leonardo247",
+   "aka": [
+    "Leo247",
+    "Leo247.io",
+    "Perform247"
+   ],
+   "site": "https://leonardo247.com/",
+   "tier": "Tier 2",
+   "cat": "Indirect",
+   "batch": "B",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "markerheads-journey-reports",
+   "name": "MarkerHeads (Journey Reports)",
+   "aka": [
+    "Journey Reports",
+    "journeyreports.co"
+   ],
+   "site": "https://journeyreports.co/",
+   "tier": "Tier 2",
+   "cat": "Direct",
+   "batch": "B",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "matterport",
+   "name": "Matterport",
+   "aka": [
+    "Matterport 3D",
+    "Matterport digital twin"
+   ],
+   "site": "https://matterport.com",
+   "tier": "Tier 2",
+   "cat": "Indirect",
+   "batch": "B",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "navex-policy-procedure-management",
+   "name": "NAVEX One Policy & Procedure Management",
+   "aka": [
+    "PolicyTech",
+    "NAVEX One PolicyTech",
+    "NAVEX Global PolicyTech"
+   ],
+   "site": "https://www.navex.com/en-us/platform/policy-procedure-management/",
+   "tier": "Tier 2",
+   "cat": "Indirect",
+   "batch": "B",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "opiniion",
+   "name": "Opiniion",
+   "aka": [
+    "Opiniion Inc."
+   ],
+   "site": "https://opiniion.com/",
+   "tier": "Tier 2",
+   "cat": "Direct",
+   "batch": "B",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "peek",
+   "name": "Peek",
+   "aka": [
+    "Peek Technologies",
+    "Peek 3D"
+   ],
+   "site": "https://www.peek.us",
+   "tier": "Tier 2",
+   "cat": "Direct",
+   "batch": "B",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "powerdms",
+   "name": "PowerDMS by NEOGOV",
+   "aka": [
+    "PowerDMS",
+    "PowerPolicy",
+    "NEOGOV Policy"
+   ],
+   "site": "https://www.powerdms.com/",
+   "tier": "Tier 2",
+   "cat": "Indirect",
+   "batch": "B",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "yardi-rentcafe-reputation-management",
+   "name": "RentCafe Reputation Management",
+   "aka": [
+    "REACH by RentCafe Reputation Management",
+    "Yardi Reputation Management",
+    "RentCafe Reputation Management Service and Platform"
+   ],
+   "site": "https://www.yardi.com/",
+   "tier": "Tier 2",
+   "cat": "Replacement",
+   "batch": "B",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "reputation",
+   "name": "Reputation",
+   "aka": [
+    "Reputation.com",
+    "Rep Score",
+    "Reputation IQ"
+   ],
+   "site": "https://reputation.com/",
+   "tier": "Tier 2",
+   "cat": "Direct",
+   "batch": "B",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "resman-residentiq-learning",
+   "name": "ResMan Learning / ResidentIQ Learning",
+   "aka": [
+    "ResMan Learning",
+    "ResidentIQ Learning Management",
+    "ResMan University",
+    "ResMan Industry Training"
+   ],
+   "site": "https://www.myresman.com/solutions/industry-training/",
+   "tier": "Tier 2",
+   "cat": "Indirect",
+   "batch": "B",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "respage",
+   "name": "Respage",
+   "aka": [
+    "Respage Reputation Management",
+    "Review Booster",
+    "OccupancyMAX"
+   ],
+   "site": "https://respage.com/",
+   "tier": "Tier 2",
+   "cat": "Direct",
+   "batch": "B",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "rilla",
+   "name": "Rilla",
+   "aka": [
+    "RillaVoice",
+    "Rilla Voice"
+   ],
+   "site": "https://www.rilla.com/",
+   "tier": "Tier 2",
+   "cat": "Replacement",
+   "batch": "B",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "siro",
+   "name": "Siro",
+   "aka": [
+    "Siro AI",
+    "siro.ai"
+   ],
+   "site": "https://www.siro.ai/",
+   "tier": "Tier 2",
+   "cat": "Replacement",
+   "batch": "B",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "soci",
+   "name": "SOCi",
+   "aka": [
+    "SOCi Inc.",
+    "Genius Reputation Agent",
+    "meetsoci.com"
+   ],
+   "site": "https://www.soci.ai/",
+   "tier": "Tier 2",
+   "cat": "Direct",
+   "batch": "B",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "surveymonkey",
+   "name": "SurveyMonkey",
+   "aka": [
+    "Momentive",
+    "Momentive Global",
+    "SurveyMonkey Enterprise",
+    "GetFeedback"
+   ],
+   "site": "https://www.surveymonkey.com/",
+   "tier": "Tier 2",
+   "cat": "Indirect",
+   "batch": "B",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "fair-housing-institute",
+   "name": "The Fair Housing Institute",
+   "aka": [
+    "FHI",
+    "Fair Housing Institute, Inc.",
+    "fairhousinginstitute.com"
+   ],
+   "site": "https://fairhousinginstitute.com/",
+   "tier": "Tier 2",
+   "cat": "Direct",
+   "batch": "B",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "absorb-lms",
+   "name": "Absorb LMS",
+   "aka": [
+    "Absorb Software",
+    "Absorb.AI",
+    "Absorb Amplify"
+   ],
+   "site": "https://www.absorbai.com/",
+   "tier": "Tier 3",
+   "cat": "Potential",
+   "batch": "C",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "adobe-learning-manager",
+   "name": "Adobe Learning Manager",
+   "aka": [
+    "Adobe Captivate Prime",
+    "ALM"
+   ],
+   "site": "https://business.adobe.com/products/learning-manager/adobe-learning-manager.html",
+   "tier": "Watchlist",
+   "cat": "Potential",
+   "batch": "C",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "airmason",
+   "name": "AirMason",
+   "aka": [
+    "AirMason Employee Handbook Builder",
+    "AirAssist"
+   ],
+   "site": "https://www.airmason.com/",
+   "tier": "Tier 3",
+   "cat": "Indirect",
+   "batch": "C",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "amplifire",
+   "name": "Amplifire",
+   "aka": [
+    "Amplifire Cognix"
+   ],
+   "site": "https://www.amplifire.com/",
+   "tier": "Watchlist",
+   "cat": "Potential",
+   "batch": "C",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "appfolio-staffing-training",
+   "name": "AppFolio (Staffing & Training)",
+   "aka": [
+    "AppFolio Training",
+    "AppFolio Academy",
+    "AppFolio product certifications"
+   ],
+   "site": "https://www.appfolio.com/property-manager/staffing-training",
+   "tier": "Watchlist",
+   "cat": "Potential",
+   "batch": "C",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "axonify",
+   "name": "Axonify",
+   "aka": [
+    "Axonify Frontline Enablement Platform",
+    "Nudge (merged)"
+   ],
+   "site": "https://axonify.com/",
+   "tier": "Watchlist",
+   "cat": "Potential",
+   "batch": "C",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "bare-international",
+   "name": "BARE International",
+   "aka": [
+    "Bare Associates International",
+    "BARE"
+   ],
+   "site": "https://www.bareinternational.com/",
+   "tier": "Tier 3",
+   "cat": "Direct",
+   "batch": "C",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "bestmark",
+   "name": "BestMark",
+   "aka": [],
+   "site": "https://www.bestmark.com/",
+   "tier": "Tier 3",
+   "cat": "Direct",
+   "batch": "C",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "blissbook",
+   "name": "Blissbook",
+   "aka": [
+    "Blissbook PRO"
+   ],
+   "site": "https://blissbook.com/",
+   "tier": "Tier 3",
+   "cat": "Indirect",
+   "batch": "C",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "bridge-lms",
+   "name": "Bridge LMS",
+   "aka": [
+    "Bridge",
+    "GetBridge"
+   ],
+   "site": "https://www.getbridge.com/",
+   "tier": "Watchlist",
+   "cat": "Potential",
+   "batch": "C",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "cpms-certified-property-management-services",
+   "name": "Certified Property Management Services (CPMS)",
+   "aka": [
+    "CPMS"
+   ],
+   "site": "https://cpmsre.com/",
+   "tier": "Watchlist",
+   "cat": "Direct",
+   "batch": "C",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "chatmeter",
+   "name": "Chatmeter",
+   "aka": [
+    "Chatmeter (an Alchemer company)",
+    "Signals AI"
+   ],
+   "site": "https://www.chatmeter.com/",
+   "tier": "Tier 3",
+   "cat": "Indirect",
+   "batch": "C",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "coursebox",
+   "name": "Coursebox",
+   "aka": [
+    "Coursebox AI"
+   ],
+   "site": "https://www.coursebox.ai/",
+   "tier": "Watchlist",
+   "cat": "Potential",
+   "batch": "C",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "cypher-learning",
+   "name": "CYPHER Learning",
+   "aka": [
+    "CYPHER",
+    "MATRIX LMS",
+    "NEO LMS",
+    "INDIE"
+   ],
+   "site": "https://www.cypherlearning.com/",
+   "tier": "Watchlist",
+   "cat": "Potential",
+   "batch": "C",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "diligent",
+   "name": "Diligent Policy Manager",
+   "aka": [
+    "Diligent",
+    "Diligent Corporation",
+    "Diligent One Platform"
+   ],
+   "site": "https://www.diligent.com/solutions/policy-management",
+   "tier": "Tier 3",
+   "cat": "Indirect",
+   "batch": "C",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "docebo",
+   "name": "Docebo",
+   "aka": [
+    "Docebo Learn LMS",
+    "Docebo AgentHub"
+   ],
+   "site": "https://www.docebo.com/",
+   "tier": "Tier 3",
+   "cat": "Potential",
+   "batch": "C",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "elevate-mystery-shopping",
+   "name": "Elevate Mystery Shopping",
+   "aka": [
+    "Elevate"
+   ],
+   "site": "https://elevatemysteryshopping.com",
+   "tier": "Watchlist",
+   "cat": "Direct",
+   "batch": "C",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "eloomi",
+   "name": "eloomi",
+   "aka": [
+    "eloomi by Dayforce",
+    "Dayforce Learning"
+   ],
+   "site": "https://eloomi.com/",
+   "tier": "Watchlist",
+   "cat": "Indirect",
+   "batch": "C",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "escal8",
+   "name": "Escal8",
+   "aka": [
+    "Escal8 LMS",
+    "Escal8 Network",
+    "escal8.com",
+    "old.escal8.com"
+   ],
+   "site": "https://escal8.com/",
+   "tier": "Watchlist",
+   "cat": "Potential",
+   "batch": "C",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "funnel",
+   "name": "Funnel",
+   "aka": [
+    "Funnel Leasing",
+    "Nestio"
+   ],
+   "site": "https://funnelleasing.com",
+   "tier": "Tier 3",
+   "cat": "Indirect",
+   "batch": "C",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "intouch-insight",
+   "name": "Intouch Insight",
+   "aka": [
+    "Intouch Insight Ltd.",
+    "TSXV: INX"
+   ],
+   "site": "https://www.intouchinsight.com/",
+   "tier": "Tier 3",
+   "cat": "Direct",
+   "batch": "C",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "isolved-learn-grow",
+   "name": "isolved Learn & Grow",
+   "aka": [
+    "isolved HCM",
+    "isolved People Cloud",
+    "isolved LMS"
+   ],
+   "site": "https://www.isolvedhcm.com/talent-management/learning-management-system",
+   "tier": "Tier 3",
+   "cat": "Indirect",
+   "batch": "C",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "knock",
+   "name": "Knock",
+   "aka": [
+    "Knock CRM",
+    "Knock Now",
+    "Knock Tours",
+    "Knock Insights"
+   ],
+   "site": "https://www.knockcrm.com",
+   "tier": "Tier 3",
+   "cat": "Indirect",
+   "batch": "C",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "lattice",
+   "name": "Lattice",
+   "aka": [
+    "Lattice HR",
+    "Lattice Engagement"
+   ],
+   "site": "https://lattice.com/",
+   "tier": "Tier 3",
+   "cat": "Indirect",
+   "batch": "C",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "learner-mobile",
+   "name": "Learner Mobile",
+   "aka": [
+    "LearnerMobile",
+    "Learner Mobile L&D platform"
+   ],
+   "site": "https://learnermobile.com/",
+   "tier": "Tier 3",
+   "cat": "Indirect",
+   "batch": "C",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "learnie",
+   "name": "Learnie",
+   "aka": [
+    "Learnie Community Microlearning",
+    "MyLearnie"
+   ],
+   "site": "https://www.learnie.app/",
+   "tier": "Watchlist",
+   "cat": "Potential",
+   "batch": "C",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "learning-pool",
+   "name": "Learning Pool",
+   "aka": [
+    "Learning Pool Platform",
+    "Elucidat",
+    "Learning Locker"
+   ],
+   "site": "https://learningpool.com/",
+   "tier": "Watchlist",
+   "cat": "Potential",
+   "batch": "C",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "maplelms",
+   "name": "MapleLMS",
+   "aka": [
+    "Maple LMS",
+    "mElimu"
+   ],
+   "site": "https://www.maplelms.com/",
+   "tier": "Watchlist",
+   "cat": "Indirect",
+   "batch": "C",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "mavenai",
+   "name": "MavenAI",
+   "aka": [
+    "Maven AI",
+    "hiremaven.ai",
+    "Maven Reputation Management"
+   ],
+   "site": "https://www.hiremaven.ai/",
+   "tier": "Watchlist",
+   "cat": "Potential",
+   "batch": "C",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "opensesame",
+   "name": "OpenSesame",
+   "aka": [
+    "OpenSesame Plus",
+    "OpenSesame CourseCloud"
+   ],
+   "site": "https://www.opensesame.com/",
+   "tier": "Watchlist",
+   "cat": "Indirect",
+   "batch": "C",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "paycom-learning",
+   "name": "Paycom Learning",
+   "aka": [
+    "Paycom LMS",
+    "Paycom Learning Management"
+   ],
+   "site": "https://www.paycom.com/software/paycom-learning/",
+   "tier": "Tier 3",
+   "cat": "Indirect",
+   "batch": "C",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "realty-share",
+   "name": "REALTY|share",
+   "aka": [
+    "RealtyShare",
+    "Arcuity REALTY|share",
+    "Abel Solutions REALTY|share"
+   ],
+   "site": "https://realtyshare.net/product/",
+   "tier": "Tier 3",
+   "cat": "Indirect",
+   "batch": "C",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "rentcast",
+   "name": "RentCast",
+   "aka": [
+    "RentCast.io",
+    "RentCast Pro",
+    "RentCast Property Data API",
+    "Fortnoff Financial LLC"
+   ],
+   "site": "https://www.rentcast.io",
+   "tier": "Watchlist",
+   "cat": "Indirect",
+   "batch": "C",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "rentgrata",
+   "name": "Rentgrata",
+   "aka": [
+    "Ari by Rentgrata"
+   ],
+   "site": "https://www.rentgrata.com/",
+   "tier": "Watchlist",
+   "cat": "Potential",
+   "batch": "C",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "salesmail",
+   "name": "SalesMail",
+   "aka": [
+    "SalesMail App"
+   ],
+   "site": "https://www.salesmail.com",
+   "tier": "Tier 3",
+   "cat": "Indirect",
+   "batch": "C",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "sana-learn",
+   "name": "Sana Learn",
+   "aka": [
+    "Sana",
+    "Sana Labs",
+    "Sana AI"
+   ],
+   "site": "https://sanalabs.com/",
+   "tier": "Watchlist",
+   "cat": "Indirect",
+   "batch": "C",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "seismic-learning",
+   "name": "Seismic Learning",
+   "aka": [
+    "Lessonly",
+    "Lessonly by Seismic",
+    "Seismic Enablement Cloud"
+   ],
+   "site": "https://www.seismic.com/platform/learning/",
+   "tier": "Watchlist",
+   "cat": "Potential",
+   "batch": "C",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "simplydbs",
+   "name": "simplydbs",
+   "aka": [
+    "simplyDbs",
+    "simplyExperience",
+    "Shape Your Space"
+   ],
+   "site": "https://simplydbs.com",
+   "tier": "Tier 3",
+   "cat": "Indirect",
+   "batch": "C",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "tour24",
+   "name": "Tour24",
+   "aka": [
+    "Tour24 Explore"
+   ],
+   "site": "https://www.tour24.io",
+   "tier": "Tier 3",
+   "cat": "Indirect",
+   "batch": "C",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "traliant",
+   "name": "Traliant",
+   "aka": [
+    "Traliant Compliance Training"
+   ],
+   "site": "https://www.traliant.com/",
+   "tier": "Tier 3",
+   "cat": "Indirect",
+   "batch": "C",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "udemy-business",
+   "name": "Udemy Business",
+   "aka": [
+    "Udemy for Business",
+    "Udemy"
+   ],
+   "site": "https://business.udemy.com/",
+   "tier": "Watchlist",
+   "cat": "Indirect",
+   "batch": "C",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "vendasta",
+   "name": "Vendasta",
+   "aka": [
+    "Vendasta Technologies",
+    "Reputation Management by Vendasta"
+   ],
+   "site": "https://www.vendasta.com/",
+   "tier": "Tier 3",
+   "cat": "Indirect",
+   "batch": "C",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "widewail",
+   "name": "Widewail",
+   "aka": [
+    "Widewail Response",
+    "Widewail Signal",
+    "Widewail Intelligence",
+    "Engage",
+    "Invite",
+    "Listen"
+   ],
+   "site": "https://www.widewail.com/",
+   "tier": "Tier 3",
+   "cat": "Indirect",
+   "batch": "C",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "wranx",
+   "name": "Wranx",
+   "aka": [
+    "Wranx Microlearning",
+    "Wranx Microlearning Platform & App"
+   ],
+   "site": "https://www.wranx.com/",
+   "tier": "Watchlist",
+   "cat": "Indirect",
+   "batch": "C",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "xoralia",
+   "name": "Xoralia",
+   "aka": [
+    "Xoralia Policy Management",
+    "Content Formula Xoralia"
+   ],
+   "site": "https://xoralia.com/",
+   "tier": "Tier 3",
+   "cat": "Indirect",
+   "batch": "C",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "yext",
+   "name": "Yext",
+   "aka": [
+    "Yext Reviews",
+    "Yext Listings",
+    "Yext Scout"
+   ],
+   "site": "https://www.yext.com/",
+   "tier": "Tier 3",
+   "cat": "Indirect",
+   "batch": "C",
+   "lastReview": "2026-08-11"
+  },
+  {
+   "id": "zavanta-comprose",
+   "name": "Zavanta by COMPROSE",
+   "aka": [
+    "Zavanta",
+    "COMPROSE",
+    "Zavanta Online"
+   ],
+   "site": "https://www.comprose.com/",
+   "tier": "Tier 3",
+   "cat": "Indirect",
+   "batch": "C",
+   "lastReview": "2026-08-11"
+  }
+ ]
+}

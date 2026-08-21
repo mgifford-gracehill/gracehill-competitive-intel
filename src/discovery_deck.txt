@@ -1,0 +1,505 @@
+--- SLIDE 1 ---
+DISCOVERY CONVERSATION
+[Prospect Company Name]
+[Date]  ·  Prepared for [Contact Name, Title]
+Every team, more effective. Every resident, retained.
+[NOTES] TALK TRACK: "Thanks for the time today. Before we jump in — this isn't a demo. We'd like to share how we see this market, hear how it actually looks inside your portfolio, and figure out together whether there's a fit. You should expect to do most of the talking."REP NOTE: Deck follows April Dunford's sales pitch structure — Setup (insight, alternatives, perfect world), then Follow-through (where we fit, differentiated value, proof, objections, next step). Resist jumping to product.
+
+--- SLIDE 2 ---
+Before we get started
+This presentation and its contents are intended solely for the individual(s) or organization to whom it is addressed. It may include confidential planning, pricing, or account information. Please don't forward or share outside your organization without checking with your Grace Hill contact.
+1
+[NOTES] TALK TRACK: "Quick note — everything we cover is confidential to your organization, so please speak openly."REP NOTE: INTERNAL — delete before sharing externally if the deck contains no confidential or account-specific content.
+
+--- SLIDE 3 ---
+INTERNAL — DELETE BEFORE SHARING
+This deck is Stage 2: Discovery
+0
+Pre-Qual
+1
+Qualification
+2
+Discovery
+3
+Demo / Solution
+4
+Proposal
+5
+Negotiation
+6
+Sent Contract
+7
+Ready for Finance
+Forecast category: Pipeline
+ENTRY — TRUE BEFORE THIS CALL
+SQL criteria met
+Discovery meeting booked, including new stakeholders
+Solution Engineer requested
+Next steps agreed
+( Stage 1 exit criteria )
+GOAL OF THIS STAGE
+Engage the Decision Maker and other key stakeholders
+Align on Impact
+Get a better understanding of the best solution fit
+( What this deck is built to do )
+EXIT — TRUE BEFORE YOU ADVANCE
+Impact deeply uncovered, rational and emotional
+Critical Event identified
+Decision process and criteria identified
+Competitors identified · Stakeholders mapped
+Technical criteria confirmed · Custom demo delivered
+Mutual Action Plan signed off
+( = SQO. Advances to Stage 3: Demo / Solution Alignment )
+2
+[NOTES] REP NOTE: Orientation slide for the AE, not for the customer. This deck is built for Stage 2 — Discovery. It assumes Stage 1 exit is already met: SQL criteria, a booked discovery meeting with new stakeholders, an SE requested, and agreed next steps. If any of those aren't true, you're still in Stage 1 and this deck is early.The Stage 2 goal per the 2026 stage definitions is to engage the Decision Maker and other key stakeholders, align on Impact, and get a better understanding of the best solution fit — which is why this deck is weighted toward insight, alternatives and impact rather than product.Exit criteria are the SQO bar. Note that the stage definitions place Custom Demo delivery inside Stage 2 exit, so a demo may need to be scheduled or delivered before the opportunity advances to Stage 3. Confirm with your manager how your team is sequencing that, since the stage doc is still WIP. The final internal slide in this deck repeats these as a walk-out checklist.
+
+--- SLIDE 4 ---
+INTERNAL — DELETE BEFORE SHARING
+What you need to walk out with
+Top row = deal review. Bottom row = how to actually ask it.
+S  ·  SITUATION
+Company, stakeholder, use case?
+Main contact and their role?
+Who do they report to?
+Company's 3 biggest priorities?
+Their responsibilities / KPIs?
+Their interest in Grace Hill?
+ASK IT LIVE
+“How many properties do you manage, and what are your top priorities this year?”
+P  ·  PAIN
+What problems are they solving?
+Biggest concern?
+What happens if they do nothing?
+What have they tried before?
+Positioning vs. another vendor?
+ASK IT LIVE
+“When performance dips at a property, how do you decide what to fix first?”
+I  ·  IMPACT
+Business outcomes targeted?
+How will success be measured?
+Why does the business care now?
+What's the budget?
+ASK IT LIVE
+“What would it mean if every property performed like your best one?”
+CE  ·  CRITICAL EVENT
+When do they need results?
+What's driving that timeline?
+Near-term milestones?
+Cost of waiting three months?
+ASK IT LIVE
+“What's happening this year that makes this urgent now rather than next budget cycle?”
+D  ·  DECISION
+Who's involved in the decision?
+Who signs off?
+Has the champion confirmed readiness?
+What are the written next steps?
+ASK IT LIVE
+“Who else needs to be part of this, and what does your approval path look like?”
+3
+[NOTES] REP NOTE: Top of each column is the AE SPICED deal review checklist — what you must be able to answer coming out of this call. Bottom is a natural way to ask it in the room; don't read the checklist questions aloud, they're written for deal review, not for a prospect.Objectives by element — Situation: establish context and buyer persona map. Pain: uncover urgency and depth of need. Impact: quantify and align to strategic goals. Critical Event: validate urgency and align motion to timeline. Decision: control the process and ensure clarity.Fit indicators to listen for: relies on individual judgment over a shared standard, inconsistent execution across properties, friction as the portfolio scales, already runs a PMS with adjacent free functionality (so the value case has to clear a real bar).
+
+--- SLIDE 5 ---
+SITUATION  ·  PAIN  ·  IMPACT
+Where you are today
+SITUATION
+[Fill in live]
+What are you tracking today, and how connected is it?
+PAIN
+[Fill in live]
+When performance dips, how do you decide what to fix first?
+IMPACT / GOALS
+[Fill in live]
+What would it mean if every property performed like your best one?
+4
+[NOTES] TALK TRACK: "Here's what we heard — tell us where we've got it wrong." [Fill the three columns live, in their words. Do not advance until they've corrected or confirmed it.]REP NOTE: This is a listening tool. Everything you capture here gets reused on the NOI slide and the Next Steps slide.
+
+--- SLIDE 6 ---
+OUR POINT OF VIEW
+Residents don’t leave over price. They leave over how they were treated.
+Which makes your people the biggest controllable lever you have on NOI.
+2.7x
+Management quality shows up more often than rent increases in stated reasons for not renewing.
+41%
+of negative renewal reviews cite maintenance — the single largest category.
+24 hrs
+Requests closed inside a day rate positively even when the fix is imperfect. Past 72 hours they rate negatively even when it’s perfect.
+5–8%
+rent increase absorbed by satisfied residents, against roughly 3% for the disconnected.
+Retention is the only lever that raises revenue and lowers cost in the same quarter.
+Sources: renewal review analysis across ~79,000 renewals; multifamily reputation index across ~400,000 reviews; published renewal threshold research.
+When a resident doesn’t renew, do you know which of these it was?
+5
+[NOTES] TALK TRACK: "Here's our point of view, and it's the thing most vendors in this space skip. When someone doesn't renew, everybody assumes it was price. It usually isn't. If you raise Joe's rent $200, he complains — he doesn't hire a moving van. What actually makes him leave is the toilet that didn't get fixed three times running, or the person at the desk who was short with him. The data backs that: management quality shows up 2.7 times more often than rent increases in stated reasons for not renewing, and maintenance is the single largest category of negative renewal reviews. There's even a clock on it — close a request inside 24 hours and residents rate it well even if the fix was imperfect; past 72 hours they rate it badly even when it was perfect. So retention is a people problem before it's a pricing problem. And retention is the only lever that raises revenue and lowers cost in the same quarter. When a resident doesn't renew, do you know which of these it was?"REP NOTE: This is the Insight step and it mirrors the company pitch — we solve an NOI problem, and the biggest controllable lever is how effective your people are in the moments that shape the resident experience. Keep it to ~2 minutes and get a nod before moving on. Do not mention any product here.
+
+--- SLIDE 7 ---
+THE PATTERN
+Four problems. One root cause.
+WHAT YOU SEE
+A training problem
+L&D
+A reputation problem
+MARKETING
+A leasing problem
+OPERATIONS
+A pricing problem
+ASSET MGMT
+WHAT'S ACTUALLY HAPPENING
+Teams aren’t ready
+Moments go wrong
+Leases and residents lost
+NOI takes the hit
+You buy for the symptom. The cause sits upstream.
+Which of the four are you being asked to solve right now?
+6
+[NOTES] TALK TRACK: [Point at the top row.] "In our experience it never shows up as one problem. It shows up as four — and each one lands on a different desk with a different budget." [Point at the navy band.] "But underneath, it's one chain. A team isn't ready, a moment goes wrong, you lose a lease or a resident, and NOI takes the hit." [Pause.] "So you end up buying for the symptom, when the cause is upstream. Which of the four are you being asked to solve right now?"REP NOTE: This is the aha slide. Do not read it. Point, pause, and let the picture do the work — then shut up and let them place themselves. Whatever box they pick is your wedge, and the chain is your reason to widen the conversation beyond it.
+
+--- SLIDE 8 ---
+SO WHAT
+It pays you twice.
+THIS YEAR — IN OPERATIONS
+Residents who renew mean fewer turns, less vacancy, fewer concessions.
+Revenue goes up and turn cost goes down at the same time.
+It's the one lever that pays the property manager and the owner in the same quarter.
+AT EXIT — IN ASSET VALUE
+Durable NOI capitalizes. A one-time cost cut does not.
+A structural operating improvement survives the sale — and a buyer pays for it.
+That turns an operating decision into a valuation decision.
+THE ARITHMETIC OWNERS ACTUALLY RUN
+$100
+of durable NOI
+per unit, per year
+÷ 5%
+capitalized at a
+five percent cap rate
+$2,000
+of asset value
+created per unit
+$600,000
+on a single
+300-unit asset
+An operating improvement isn’t an expense saving. It’s an asset value event.
+Which of those two matters more to whoever approves this?
+7
+[NOTES] TALK TRACK: "So why does any of this matter to you? Because it pays you twice. In the operating year, residents who renew mean fewer turns, less vacancy and fewer concessions — revenue up and cost down at the same time. That's the only lever that pays the property manager and the owner in the same quarter. Then it pays again at exit, because durable NOI capitalizes and a one-time cost cut doesn't. Run the arithmetic an owner actually runs: $100 of durable NOI per unit per year, at a five percent cap rate, is $2,000 of asset value created per unit — $600,000 on a single 300-unit asset. That's the point. An operating improvement isn't an expense saving, it's an asset value event. Which of those two matters more to whoever approves this?"REP NOTE: This is the so-what slide — it converts an operations conversation into a valuation conversation, which is what gets an owner or asset manager to lean in. Cap rate is illustrative; ask theirs and redo the math live, it lands far harder in their numbers. If you're in front of a property manager rather than an owner, lead with the left column; if you're in front of an owner or asset manager, lead with the right. Do not quote software pricing in this meeting — get the current per-unit figure from your manager if pressed.
+
+--- SLIDE 9 ---
+WHAT IT'S WORTH
+Now let’s use your numbers.
+EXAMPLE
+YOURS
+Units in the portfolio
+5,000
+Annual resident turnover
+50%
+Cost per turn  (make-ready, vacancy, concessions, commissions)
+$4,000
+Annual cost of turnover
+$10,000,000
+A 3-point turnover improvement returns
+$600,000
+…and at a 5% cap rate, creates asset value of
+$12,000,000
+Illustrative — replace with their numbers live. The same math runs on employee turnover and tour-to-lease conversion.
+8
+[NOTES] TALK TRACK: "Let's put real numbers on it. A 5,000-unit portfolio at 50% turnover is 2,500 turns a year. At roughly $4,000 a turn once you count make-ready, vacancy, concessions and commissions, turnover costs about $10 million a year. Move it three points and you put about $600,000 back into NOI — and at a five percent cap rate that same improvement creates roughly $12 million in asset value. What are your actual numbers?" [Fill the YOURS column live.]REP NOTE: Example figures are illustrative industry-typical ranges, not a Grace Hill claim — say so if asked, and always switch to their numbers. Cost-per-turn varies widely by market and asset class; if they push back on $4,000, use their figure — the argument gets stronger, not weaker. The last row is the one that matters to an owner: it is the same $600,000 divided by their cap rate. Ask for their cap rate rather than assuming five percent.
+
+--- SLIDE 10 ---
+INTERNAL — DELETE BEFORE SHARING
+Keep the persona slide that matches today’s audience. Delete the rest.
+Executives & Owners
+Regional Managers & VP Operations
+HR & Learning Leaders
+Onsite Property Teams
+9
+[NOTES] REP NOTE: One persona slide only. It deepens the aha for whoever is actually in the room. Avoid generic 'Operations' as a standalone label — use owners/operators, property teams, regional leaders.
+
+--- SLIDE 11 ---
+EXECUTIVES & OWNERS
+You’re accountable for NOI. The four pieces that drive it report to four different people.
+1
+Can’t see what’s really driving NOI
+2
+Performance rides on a few strong people
+3
+Guesswork shows up as turnover
+4
+New AI tools, no proven standard
+5
+Confidence erodes as you scale
+How much of this can you see today without asking four people?
+10
+[NOTES] TALK TRACK: "You're the one accountable for NOI — but the four things that actually move it report to four different people. How much of that can you see today without asking four people for four reports?" [Listen.] "That's the gap we tend to fill."REP NOTE: EXECUTIVES & OWNERS — economic buyer. This is the persona where the cross-budget insight lands hardest, because they are the only one who owns all four. Push on portfolio-level visibility and repeatability.
+
+--- SLIDE 12 ---
+REGIONAL MANAGERS & VP OPERATIONS
+When something looks off at a property, you can’t tell if it’s people, process, or the market — fast enough to matter.
+1
+Reactive escalation, not clear priorities
+2
+Inconsistent execution property to property
+3
+Too many tools, too much reconciling
+4
+Best practice lives in one manager’s head
+5
+Do more with less, every quarter
+Which of these slows your team down the most?
+11
+[NOTES] TALK TRACK: "When something looks off at a property, how long does it take to work out whether it's a people problem, a process problem, or the market?" [Listen.] "Most regional leaders tell us the diagnosis takes longer than the fix. Which of these slows your team down the most?"REP NOTE: REGIONAL MANAGERS & VP OPERATIONS. Their pain is diagnosis speed and consistency — tie back to the chain on the aha slide.
+
+--- SLIDE 13 ---
+HR & LEARNING LEADERS
+You can prove courses got completed. You can’t prove performance improved.
+1
+Completion tracked, competence unknown
+2
+Turnover resets progress constantly
+3
+Development sits apart from outcomes
+4
+Compliance exposure from onboarding gaps
+5
+Hard to prove impact on the numbers
+What would proof of impact need to look like for your exec team?
+12
+[NOTES] TALK TRACK: "Most learning leaders we talk to can prove courses got completed. Almost none can prove performance improved — and that's the thing their exec team actually asks about. What would proof of impact need to look like for yours?"REP NOTE: HR & LEARNING LEADERS. Careful here — this is exactly the persona that gets sold a single-product story. Use the aha chain to widen it: their outcome shows up in someone else's number.
+
+--- SLIDE 14 ---
+ONSITE PROPERTY TEAMS
+Every shift asks your team to guess what matters most today.
+1
+Second-guessing what to prioritize
+2
+Every property inventing its own way
+3
+No time freed for resident moments
+4
+Standards live in a binder
+5
+New AI tools, no proven standard
+What would make a shift easier to prioritize?
+13
+[NOTES] TALK TRACK: "Walk me through a shift when something unexpected comes up — how does your team decide what gets dropped?" [Listen.] "That decision, made a few hundred times a month across a portfolio, is most of what shows up later as turnover."REP NOTE: ONSITE PROPERTY TEAMS. They are the first link in the chain. Not being handed a course — being handed clarity on what to do next.
+
+--- SLIDE 15 ---
+YOUR OPTIONS
+Four ways to approach this. Each solves part of the chain.
+APPROACH
+GOOD FOR
+WHERE IT STOPS
+The PMS
+System of record
+Records what happened. Won’t name the next action.
+Point tools
+Fixing one symptom well
+Four vendors, four contracts. Nothing connects them.
+AI leasing tools
+Automating one task
+No proven standard underneath. One link, not the chain.
+Your best managers
+Real results, right now
+Works in one building. Leaves when they do.
+Which of these are you using today — and what have you already ruled out?
+14
+[NOTES] TALK TRACK: "Let's look at the whole market honestly, because all four of these are legitimate and we lose to all of them. The PMS is your system of record — it tells you what happened, it won't tell you what to do. Point tools each fix one symptom well, but you end up with four vendors and nothing joining them. AI leasing tools automate a task, but there's no proven standard underneath, so they fix one link and not the chain. And your best managers genuinely work — until they leave. Which of these are you using today, and what have you already ruled out?"REP NOTE: This is a conversation, not a lecture — and it is your best discovery moment. Be genuinely fair to each option; credibility here is what buys you the Perfect World slide. Ask what else is on their shortlist and categorize it into one of these four rather than introducing new names.
+
+--- SLIDE 16 ---
+WHAT GOOD WOULD LOOK LIKE
+In a perfect world, you’d have all four — without four vendors.
+1
+One picture
+People, resident experience, and market in one view — not four reports.
+2
+A named next action
+Not just what happened. What to do about it, at that property.
+3
+One standard
+Holds at every property, not only where a strong manager happens to be.
+4
+Proof it worked
+Measured against benchmarks, in numbers your exec team already uses.
+Every option on the last slide gets you some of these. None get you all four.
+Is that the right list — or is something missing for you?
+15
+[NOTES] TALK TRACK: "So pulling that together — in a perfect world you'd get the upside of all four approaches without the downside of any. One picture across people, resident experience and market. A named next action, not just a report. A standard that holds at every property, not just where your best manager is. And proof it worked, in numbers your exec team already uses. Is that the right list, or is something missing for you?"REP NOTE: This is the hinge of the whole pitch. If they agree with this list, they have just agreed to purchase criteria only we meet — and agreed the four alternatives fall short. If they disagree, listen hard: either you adjust, or they are genuinely not a fit and that is useful to know now. Do not move to the next slide until you get an explicit yes.
+
+--- SLIDE 17 ---
+WHERE WE FIT IN YOUR STACK
+Your stack has seven layers. We don’t compete with any of them.
+0
+Systems of record
+Yardi · RealPage · Entrata · MRI · AppFolio · ResMan
+1
+Demand and leasing
+Apartments.com · Funnel · Knock · EliseAI · revenue management
+2
+Resident living and service
+Zego · Lessen · HappyCo · AppWork · SightPlan
+3
+Physical and connected property
+SmartRent · PointCentral · ButterflyMX · Latch · Conservice
+4
+People and workforce
+ADP · Paylocity · Paycom · UKG
+5
+Resolution
+Read · Diagnose · Prescribe · Assign · Prove
+← GRACE HILL
+6
+Asset, finance and investor
+Juniper Square · Dealpath · AvidXchange
+7
+Ancillary and risk transfer
+Rhino · LeaseLock · Assurant · Jetty
+Layers 1–3 follow the renter. Layers 0, 4, 6 and 7 follow the operator. Layer 5 is the only one that touches both.
+Which of these layers do you already own — and where does the handoff break?
+16
+[NOTES] TALK TRACK: "Worth being clear about where we sit, because we get mistaken for things we're not. Your stack has roughly seven layers. Your system of record owns the ledger. Layers one through three follow the renter, four, six and seven follow the operator. We're layer five — resolution. We don't replace any of these and we don't compete with them. We read from them and hand action back to them. It's the only layer that has to touch both sides, which is why most operators have never bought it as a category — they've just been buying pieces of it. Which of these do you already own, and where does the handoff break down?"REP NOTE: This is the tech-stack-fit slide — it kills the "is this another platform I have to rip something out for?" objection early. Name only vendors you're confident they use or recognize. Note we say ASSIGN rather than push-into-your-PMS: deeper two-way write-back is roadmap, so describe assignment to the person who owns the action, and do not promise automated write-back into third-party systems.
+
+--- SLIDE 18 ---
+WHAT THAT ACTUALLY MEANS
+Everyone can tell you what’s wrong. We tell you what to do, help your team do it, and prove it worked.
+1
+READ
+Pull property, lease, resident, team and market context together.
+2
+DIAGNOSE
+Correlate it to find the cause, not the symptom.
+3
+PRESCRIBE
+Name the next best action for a specific property.
+4
+ASSIGN
+Put it in the hands of the person who owns it.
+5
+PROVE
+Re-measure to confirm the outcome actually moved.
+Steps 3, 4 and 5 are the ones nobody else does. That’s the whole argument.
+Detection is getting cheap. Knowing the right fix, getting it done, and proving it are not.
+Where does your current setup stop — at the finding, or at the fix?
+17
+[NOTES] TALK TRACK: "Here's what sitting in that layer actually means. Five steps. We read your property, lease, resident, team and market context. We correlate it to find the cause rather than the symptom. We name the next best action for that specific property. We put it in the hands of the person who owns it. Then we re-measure to prove the outcome moved. Almost everyone in this market does steps one and two — plenty of tools will tell you a property is underperforming. Steps three, four and five are the ones nobody else does, and that's honestly the whole argument. Where does your current setup stop — at the finding, or at the fix?"REP NOTE: Differentiated value step. Matt's framing: "are you just reporting the weather, or can you give me an action plan?" The real metric customers care about is time to resolution. If you demo, demo prescribe/assign/prove — not the dashboards, which is where every competitor also looks good.
+
+--- SLIDE 19 ---
+HOW YOU'D BUY IT
+Start where the budget already sits. Expand as it proves out.
+1.  THE PLATFORM  —  the connected picture, either way
+CORE
+Dashboards, single sign-on, integrations, cross-product reporting, advanced analytics, and market data essentials.
+PLUS
+Adds AI-generated action plans, full market data, and open API access for your own AI tooling.
+2.  YOUR TRACK  —  pick one, or both
+WORKFORCE EXCELLENCE
+Develop people and drive operational consistency.
+Typically L&D / Operations  ·  Core or Plus
+RESIDENT & PROSPECT SATISFACTION
+Improve the resident and prospect experience.
+Typically Marketing / Operations  ·  Core or Plus
+3.  ADD-ONS  —  à la carte, outside the tiers
+Extra content modules  ·  Additional property visits  ·  Video leasing tools  ·  Certifications and credentials
+Everything priced per unit, per month — so the cost scales with the portfolio, not with a seat count.
+18
+[NOTES] TALK TRACK: "On how you'd actually buy this — it's three decisions, not a long menu. First, the platform: Core gives you the connected picture, Plus adds AI-generated action plans, full market data and open API access. Second, your track: Workforce Excellence if the pressing need is developing people and operational consistency, Resident and Prospect Satisfaction if it's the resident and prospect experience — most people start with one and add the other. Third, add-ons, à la carte. It's all priced per unit per month, so it scales with the portfolio rather than a seat count. Given what you told me earlier, I'd start you on [track]."REP NOTE: Reflects the Aug 2026 packaging strategy — PerformanceHQ Platform Core / Plus, Track 1 Workforce Excellence (L&D/Ops budget), Track 2 Resident & Prospect Satisfaction (Marketing/Ops budget), add-ons à la carte. Market data now sits in the platform layer (lite in Core, complete in Plus) rather than its own track. Lead with the single track whose budget owner is in the room — combined-track deals have a much longer cycle. Be honest that expansion is a tier upgrade, not new scope. Do not quote specific prices in this meeting.
+
+--- SLIDE 20 ---
+PROOF
+No one else has assembled this.
+PEOPLE PERFORMANCE
+500,000+
+multifamily professionals developed — with skill-gap benchmarks by role, region, and property class.
+RESIDENT & EMPLOYEE EXPERIENCE
+30+ years
+of resident and employee satisfaction data — the largest benchmarking database in multifamily.
+MARKET POSITION
+Largest
+multifamily renter dataset, co-published with NMHC, plus automated property-level comps.
+“Grace Hill’s products are intentional, helpful, and designed to make our teams better.”  — Welton McCrary, Perennial Properties
+40 years of multifamily operations experience behind every benchmark.
+What would you need to see to believe it would work here?
+19
+[NOTES] TALK TRACK: "The reason we can name the right action and not just report the problem is the data underneath it — over 500,000 professionals developed, 30-plus years of resident and employee satisfaction data, and the largest renter dataset in multifamily. 40 years of operations experience sits behind every benchmark. What would you need to see to believe it would work in your portfolio?"REP NOTE: Proof step. If you have a customer story that mirrors this prospect's size and situation, tell it here instead of reciting all three stats — a similar-customer story outperforms numbers every time.
+
+--- SLIDE 21 ---
+WHERE AI FITS
+AI made finding problems cheap. It didn’t make fixing them easy.
+WHAT AI HAS CHANGED
+Finding problems is becoming nearly free. Any tool can now tell you a property is underperforming, or that a review was negative. Detection is no longer scarce.
+WHAT IT HASN'T
+Knowing the right fix, getting it done, and proving it worked. That needs an owned library of remediations and years of outcomes to compare against — not a better model.
+More findings just means more to resolve.
+And whether the person in front of your resident is on payroll or is an agent, someone still has to decide what good looks like.
+Where is AI already showing up in your stack?
+20
+[NOTES] TALK TRACK: "A word on AI, since it's on every agenda this year. Our honest read: AI has driven the cost of finding problems close to zero. Everyone can now tell you a property is underperforming or a review was bad. What AI hasn't touched is knowing the right fix, getting it done, and proving it worked — because that needs an owned library of remediations kept current against regulation, and years of outcome history to compare against. That's not a model problem. Which means more findings just creates more to resolve — it makes our half of the problem bigger, not smaller. And whether the person in front of your resident is on payroll or is an agent, someone still has to decide what good looks like and check that it happened. Same job. Where is AI already showing up in your stack?"REP NOTE: Strongest available answer to "won't AI commoditize you?" Detection is commoditizing; prescription and proof are not. Avoid framing AI as an employee — it's about who is interacting with your residents and how we make that interaction better, human or agent.
+
+--- SLIDE 22 ---
+FAIR QUESTIONS
+What people usually push back on.
+“We already get some of this free in our PMS.”
+You do — and you should use it. Free modules record activity. They don’t benchmark it or tell you which property to fix first.
+“This is a lot to take on at once.”
+Then don’t. Start with one track where the budget already sits. Expansion is a tier change, not a new project.
+“Different teams own these budgets.”
+That’s the whole problem — and it’s why we priced it so one team can start without waiting on the others.
+“We’re not replacing our system of record.”
+Good — don’t. It stays the ledger. We sit above it and hand work back to the people who do it.
+What else would give you pause?
+21
+[NOTES] TALK TRACK: "Before we talk next steps, let me get ahead of the four things we hear most, because you're probably thinking at least one of them." [Walk them briefly.] "What else would give you pause?"REP NOTE: Optional slide — Dunford's objections step. Raising these yourself builds far more trust than waiting to be hit with them, and it surfaces the real blocker while you're still in the room. Delete any that don't apply to this account and add the one you actually expect.
+
+--- SLIDE 23 ---
+NEXT STEPS
+Where we go from here
+YOU ARE HERE
+Today
+Discovery
+[ Pain / Impact ]
+[ Pain / Impact ]
+[ Pain / Impact ]
+Next
+Solution Alignment
+Technical discovery, success criteria, and a walkthrough built on your properties
+Then
+Impact Proposal
+A value case in your numbers, plus commercial terms
+Finally
+Partnership & Onboarding
+Procurement, contracting, and a kickoff plan
+Who else should be in the next conversation?   [ Name ]   [ Name ]   [ Name ]
+22
+[NOTES] TALK TRACK: "So where does this go? Today was discovery. If it's worth continuing, next is a working session on technical discovery and success criteria, plus a walkthrough built on your properties rather than a generic tour. After that, a proposal with a value case in your numbers. Then procurement and a kickoff plan. Who else should be in that next conversation?"REP NOTE: These four map to the internal stages — Today = Stage 2 Discovery, Solution Alignment = Stage 3, Impact Proposal = Stage 4, Partnership & Onboarding = Stages 5 through 7. Keep the customer-facing language, not the stage numbers.Close on a specific, dated next step tied to what they said earlier — not "we'll follow up." Booking the Stage 3 meeting in the room is the single highest-value outcome of this call. Name the Decision Maker if they weren't present.
+
+--- SLIDE 24 ---
+INTERNAL — DELETE BEFORE SHARING
+Before you close the laptop
+Stage 2 exit criteria. All of these have to be true before the opportunity advances.
+Impact deeply uncovered
+Rational and emotional. In their words, with a number attached where possible.
+Critical Event identified
+A real deadline or trigger — not just general interest.
+Decision process and criteria identified
+Who decides, who signs, what the approval path looks like.
+Competitors identified
+What else is on the shortlist, and which of the four approaches it belongs to.
+Stakeholders mapped
+Decision Maker engaged or a confirmed route to them.
+Technical criteria confirmed
+Enough to scope the walkthrough. Custom demo delivered or scheduled.
+Mutual Action Plan signed off
+Dated next step agreed in writing, with owners on both sides.
+All seven = SQO. The opportunity advances to Stage 3: Demo / Solution Alignment.
+23
+[NOTES] REP NOTE: This is the Stage 2 exit / SQO bar from the 2026 stage definitions. If you can't tick all of these, the opportunity stays in Stage 2 — book the follow-up rather than forecasting it forward.The two most commonly skipped: Critical Event (general interest is not a trigger) and a signed-off Mutual Action Plan with a dated next step. Those are also the two that most often turn into a no-decision later.Use this against the AE SPICED deal review questions earlier in the deck — same information, one written for the call and one for the forecast conversation.
+
+--- SLIDE 25 ---
+APPENDIX
+24
+[NOTES] TALK TRACK: "We'll stop there — there's more detail behind this if it's useful, but I'd rather spend the time on your questions."REP NOTE: Park deeper proof points, security/implementation detail, and customer stories here.
+
+--- SLIDE 26 ---
+Every team, more effective.
+Every resident, retained.
+Let’s write your story together.
+gracehill.com   ·   866-472-2344
+25
+[NOTES] TALK TRACK: "Thanks for the openness today — this was genuinely useful on our side too. I'll send a short recap with what we heard and the numbers we filled in, and we'll get [next step] on the calendar."

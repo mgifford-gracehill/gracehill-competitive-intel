@@ -1,0 +1,435 @@
+{
+ "B_aphorism": [
+  [
+   "absorb-lms",
+   "whyWeWin[1]",
+   "Fair housing and state-specific compliance content ships with the product, not as a project."
+  ],
+  [
+   "absorb-lms",
+   "whyWeWin[2]",
+   "Role- and property-based assignment maps to how a portfolio is actually organized, not just to HR job codes."
+  ],
+  [
+   "bare-international",
+   "whyWeWin[1]",
+   "Email lead shops and video shops are core published shop types, not custom work."
+  ],
+  [
+   "birdeye",
+   "whyWeWin[2]",
+   "Our benchmarks come from a multifamily dataset, not a cross-industry local-business dataset."
+  ],
+  [
+   "blissbook",
+   "whyWeWin[2]",
+   "Grace Hill's content maintenance is part of the product, not a per-state add-on line item."
+  ],
+  [
+   "cel-associates",
+   "whyWeWin[1]",
+   "Continuous listening instead of a periodic engagement \u2014 event-triggered surveys catch problems in the week the"
+  ],
+  [
+   "cel-associates",
+   "whyWeWin[2]",
+   "Software plus service: dashboards your regionals use themselves, not a report that lands with the executive te"
+  ],
+  [
+   "chatmeter",
+   "whyWeWin[0]",
+   "Grace Hill's reputation line is built for apartment sites, apartment roles and fair housing obligations, not f"
+  ],
+  [
+   "culture-amp",
+   "whyWeWin[1]",
+   "Benchmark relevance: Kingsley compares a property operator to property operators, not to a cross-industry cut."
+  ],
+  [
+   "culture-amp",
+   "whyWeWin[2]",
+   "Property, region and portfolio rollups are native for us; an HR platform is organized around org charts, not a"
+  ],
+  [
+   "cypher-learning",
+   "whyWeWin[0]",
+   "Grace Hill ships a maintained multifamily library; CYPHER's real estate story is a platform configured for rea"
+  ],
+  [
+   "eloomi",
+   "whyWeWin[1]",
+   "Fair housing and state-specific compliance content is built for the multifamily role, not adapted from a corpo"
+  ],
+  [
+   "entrata-reputationadvisor",
+   "whyWeWin[2]",
+   "Benchmarking against a multifamily comp set is part of what we sell, not something the operator has to assembl"
+  ],
+  [
+   "grow-by-inhabit",
+   "whyWeWin[2]",
+   "GROW publishes no Spanish/bilingual content claim \u2014 if the workforce is bilingual, that is a concrete, checkab"
+  ],
+  [
+   "intouch-insight",
+   "whyWeWin[1]",
+   "The shop is the start of a coaching workflow that assigns training, not the end of a measurement engagement."
+  ],
+  [
+   "isolved-learn-grow",
+   "whyWeWin[0]",
+   "A multifamily-specific library means a regional manager assigns from a list built for their roles, not from a "
+  ],
+  [
+   "j-turner-research",
+   "whyWeWin[5]",
+   "Grace Hill can act on the finding, not just report it; a research firm hands you the number and stops."
+  ],
+  [
+   "jm-ridgway",
+   "whyWeWin[1]",
+   "Shop score to coaching to assigned course happens in one platform, not as a report handed to a regional."
+  ],
+  [
+   "lcp-media",
+   "whyWeWin[0]",
+   "Realync is a leasing tool the onsite team operates every day, not a media production engagement scheduled with"
+  ],
+  [
+   "mavenai",
+   "whyWeWin[0]",
+   "Grace Hill brings a benchmark dataset and a compliance content library behind the response workflow, not only "
+  ],
+  [
+   "opensesame",
+   "whyWeWin[0]",
+   "Grace Hill delivers a curriculum mapped to multifamily roles and properties, not a catalog the customer must c"
+  ],
+  [
+   "opensesame",
+   "whyWeWin[1]",
+   "State-specific compliance variants and role-based assignment come as part of the product, not as an integratio"
+  ],
+  [
+   "opiniion",
+   "whyWeWin[2]",
+   "Governance matters at portfolio scale \u2014 role-based approval on public replies is part of the platform, not an "
+  ],
+  [
+   "peek",
+   "whyWeWin[0]",
+   "Realync's capture is done by the onsite team, so media refreshes on the property's schedule, not on a vendor v"
+  ],
+  [
+   "radix",
+   "whyWeWin[1]",
+   "Market data inside a wider Grace Hill platform can be read against onsite execution signals, not only against "
+  ],
+  [
+   "rema-remington-evaluations",
+   "whyWeWin[1]",
+   "Benchmarking is drawn from a multifamily shop dataset built over decades, not a per-client trendline."
+  ],
+  [
+   "yardi-rentcafe-reputation-management",
+   "whyWeWin[1]",
+   "PerformanceHQ ties the reputation signal to the training, policy and shop record, so the operator can prove a "
+  ],
+  [
+   "reputation",
+   "whyWeWin[1]",
+   "Fair housing is not a template setting for us \u2014 it is the same content library the onsite team is trained and "
+  ],
+  [
+   "salesmail",
+   "whyWeWin[0]",
+   "Realync covers the unit itself \u2014 live tours and recorded unit-level video \u2014 not only the message wrapped aroun"
+  ],
+  [
+   "fair-housing-institute",
+   "whyWeWin[0]",
+   "Fair housing is one course in a program, not the program \u2014 ask what covers maintenance safety, harassment, lea"
+  ],
+  [
+   "vendasta",
+   "verdict.line",
+   "A white-label platform sold to agencies and resellers, not to operators \u2014 you meet it behind a marketing agenc"
+  ],
+  [
+   "widewail",
+   "whyWeWin[2]",
+   "Our benchmark comparisons are built from multifamily data, not a dealership review corpus."
+  ],
+  [
+   "wranx",
+   "whyWeWin[1]",
+   "Two-minute quizzes are a retention mechanism, not a compliance record; ask what an auditor would accept."
+  ],
+  [
+   "xoralia",
+   "whyWeWin[3]",
+   "Grace Hill assigns by location, position, group or employee \u2014 properties and regions, not just Entra ID groups"
+  ],
+  [
+   "yardi-aspire",
+   "whyWeWin[0]",
+   "Grace Hill measures competency, not just completion \u2014 tie the conversation to what the team can demonstrate, n"
+  ]
+ ],
+ "I_jargon": [
+  [
+   "bridge-lms",
+   "features.tr-hris-integration.note",
+   "seamless"
+  ],
+  [
+   "grow-by-inhabit",
+   "snapshot.ownership.value",
+   "streamline"
+  ],
+  [
+   "opensesame",
+   "strengths[0].text",
+   "seamless"
+  ],
+  [
+   "simplydbs",
+   "features.sv-action-planning.note",
+   "actionable insight"
+  ],
+  [
+   "tour24",
+   "verdict.line",
+   "unlock"
+  ],
+  [
+   "yardi-aspire",
+   "pricing.source",
+   "cutting-edge"
+  ],
+  [
+   "yardi-aspire",
+   "gaps[0].source",
+   "cutting-edge"
+  ],
+  [
+   "yardi-aspire",
+   "features.tr-scorm.source",
+   "cutting-edge"
+  ],
+  [
+   "yardi-aspire",
+   "sources[2].title",
+   "cutting-edge"
+  ],
+  [
+   "yardi-aspire",
+   "sources[2].url",
+   "cutting-edge"
+  ]
+ ],
+ "F_fairhousing_heavy": [
+  [
+   "absorb-lms",
+   "claim fields",
+   "3 mentions"
+  ],
+  [
+   "cypher-learning",
+   "claim fields",
+   "3 mentions"
+  ],
+  [
+   "eloomi",
+   "claim fields",
+   "3 mentions"
+  ],
+  [
+   "isolved-learn-grow",
+   "claim fields",
+   "4 mentions"
+  ],
+  [
+   "opensesame",
+   "claim fields",
+   "3 mentions"
+  ],
+  [
+   "realpage-realconnect",
+   "claim fields",
+   "3 mentions"
+  ],
+  [
+   "rema-remington-evaluations",
+   "claim fields",
+   "3 mentions"
+  ],
+  [
+   "resman-residentiq-learning",
+   "claim fields",
+   "3 mentions"
+  ],
+  [
+   "fair-housing-institute",
+   "claim fields",
+   "5 mentions"
+  ],
+  [
+   "traliant",
+   "claim fields",
+   "3 mentions"
+  ],
+  [
+   "yardi-aspire",
+   "claim fields",
+   "3 mentions"
+  ]
+ ],
+ "G_unsourced_GH": [
+  [
+   "tr-multifamily-content",
+   "internal deck",
+   "https://internal.performancehq.gracehill.com/manuals/9482/policies/1340488 \u00b7 htt"
+  ],
+  [
+   "tr-role-assignment",
+   "marketing page / web",
+   "https://gracehill.com/solutions/property-management-training/"
+  ],
+  [
+   "tr-competency",
+   "marketing page / web",
+   "https://gracehill.com/solutions/property-management-training/"
+  ],
+  [
+   "tr-benchmarking",
+   "internal deck",
+   "https://internal.performancehq.gracehill.com/manuals/9440/policies/648330 \u00b7 http"
+  ],
+  [
+   "po-jurisdiction-variants",
+   "internal deck",
+   "https://internal.performancehq.gracehill.com/manuals/9418/policies/873080 \u00b7 http"
+  ],
+  [
+   "sv-benchmark-scale",
+   "internal deck",
+   "https://internal.performancehq.gracehill.com/manuals/9440/policies/648330"
+  ],
+  [
+   "sv-portfolio-rollup",
+   "marketing page / web",
+   "https://gracehill.com/solutions/satisfaction-surveys/"
+  ],
+  [
+   "sv-custom-questions",
+   "internal deck",
+   "https://internal.performancehq.gracehill.com/manuals/9440/policies/649165 \u00b7 http"
+  ],
+  [
+   "sv-published-pricing",
+   "internal deck",
+   "https://internal.performancehq.gracehill.com/manuals/9413/policies/521245 \u00b7 http"
+  ],
+  [
+   "rm-response-managed",
+   "internal deck",
+   "https://internal.performancehq.gracehill.com/manuals/9448/policies/938699 \u00b7 http"
+  ],
+  [
+   "ms-human-shoppers",
+   "internal deck",
+   "https://internal.performancehq.gracehill.com/manuals/9489/policies/857384 \u00b7 http"
+  ],
+  [
+   "ms-video",
+   "internal deck",
+   "https://internal.performancehq.gracehill.com/manuals/9448/policies/522883 \u00b7 http"
+  ],
+  [
+   "vl-diy-capture",
+   "internal deck",
+   "https://gracehill.com/solutions/virtual-leasing-and-video-tools/pre-recorded-vid"
+  ],
+  [
+   "vl-live-tours",
+   "marketing page / web",
+   "https://gracehill.com/solutions/virtual-leasing-and-video-tools/live-video-tours"
+  ],
+  [
+   "vl-3d",
+   "internal deck",
+   "https://internal.performancehq.gracehill.com/manuals/9448/policies/938703 \u00b7 http"
+  ],
+  [
+   "vl-self-guided",
+   "marketing page / web",
+   "https://gracehill.com/solutions/virtual-leasing-and-video-tools/self-guided-apar"
+  ],
+  [
+   "vl-crm-integration",
+   "internal deck",
+   "https://gracehill.com/solutions/virtual-leasing-and-video-tools/integrations/ \u00b7 "
+  ],
+  [
+   "vl-analytics",
+   "internal deck",
+   "https://gracehill.com/solutions/virtual-leasing-and-video-tools/analytics-dashbo"
+  ],
+  [
+   "vl-syndication",
+   "marketing page / web",
+   "https://gracehill.com/solutions/virtual-leasing-and-video-tools/integrations/"
+  ],
+  [
+   "md-coverage",
+   "marketing page / web",
+   "https://www.hellodata.ai/ \u00b7 https://www.hellodata.ai/help-articles/which-markets"
+  ],
+  [
+   "md-refresh",
+   "marketing page / web",
+   "https://docs.hellodata.ai/ \u00b7 https://www.hellodata.ai/help-articles/what-apartme"
+  ],
+  [
+   "md-submarket",
+   "marketing page / web",
+   "https://docs.hellodata.ai/api-reference/api-reference/market/market-search \u00b7 htt"
+  ],
+  [
+   "ai-rbac",
+   "marketing page / web",
+   "https://gracehill.com/solutions/satisfaction-surveys/intelligence-plus/"
+  ],
+  [
+   "tr-content-types",
+   "internal deck",
+   "https://internal.performancehq.gracehill.com/manuals/9482/policies/1340488 \u00b7 htt"
+  ],
+  [
+   "po-implementation",
+   "internal deck",
+   "https://internal.performancehq.gracehill.com/manuals/9448/policies/938697"
+  ],
+  [
+   "sv-international",
+   "internal deck",
+   "https://internal.performancehq.gracehill.com/manuals/9440/policies/522601 \u00b7 http"
+  ],
+  [
+   "tr-refresher-strategy",
+   "internal deck",
+   "https://internal.performancehq.gracehill.com/manuals/11974/policies/1219242 \u00b7 ht"
+  ],
+  [
+   "md-expense-benchmarks",
+   "marketing page / web",
+   "https://www.hellodata.ai/ \u00b7 https://www.hellodata.ai/help-articles/which-markets"
+  ]
+ ],
+ "J_customer_named": [],
+ "C_obligation": [],
+ "D_fear": [],
+ "A_absolute": [],
+ "H_no_note": []
+}

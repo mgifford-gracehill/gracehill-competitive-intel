@@ -1,0 +1,245 @@
+{
+ "note": "The buying committee. Sourced from Forrester's Buying Networks vision report (April 2025) and Buyers' Journey Survey 2024, presented at B2B Summit. Kept deliberately short — this is orientation, not a course.",
+ "headline": "You are not selling to a person. You are selling to about 22 of them, and nine are outside the building.",
+ "shape": [
+  {
+   "n": "13",
+   "label": "people inside the organization",
+   "detail": "The buying group. These are the ones your champion has to carry."
+  },
+  {
+   "n": "9",
+   "label": "people outside it",
+   "detail": "Peers, consultants, analysts, communities, partners. You will never meet most of them."
+  },
+  {
+   "n": "86%",
+   "label": "of purchases stall",
+   "detail": "The most common competitor is not another vendor. It is the deal stopping."
+  },
+  {
+   "n": "81%",
+   "label": "end up dissatisfied",
+   "detail": "Even with the provider they chose. Buyers know this, which is why they hesitate."
+  }
+ ],
+ "trust": {
+  "headline": "Who they believe, in order",
+  "rows": [
+   {
+    "who": "Coworkers in my org",
+    "pct": 82,
+    "sphere": "Core insider"
+   },
+   {
+    "who": "My own management team",
+    "pct": 82,
+    "sphere": "Core insider"
+   },
+   {
+    "who": "Vendors they already work with",
+    "pct": 79,
+    "sphere": "Core insider",
+    "flag": true
+   },
+   {
+    "who": "Peers in my industry",
+    "pct": 72,
+    "sphere": "Independent expert"
+   },
+   {
+    "who": "Industry analysts",
+    "pct": 68,
+    "sphere": "Independent expert"
+   },
+   {
+    "who": "Executives from vendors",
+    "pct": 66,
+    "sphere": "Independent expert",
+    "us": true
+   },
+   {
+    "who": "Customers of vendors",
+    "pct": 66,
+    "sphere": "Independent expert"
+   },
+   {
+    "who": "Business consulting firms",
+    "pct": 65,
+    "sphere": "Independent expert"
+   },
+   {
+    "who": "Salespeople from vendors",
+    "pct": 58,
+    "sphere": "Outsider",
+    "us": true
+   },
+   {
+    "who": "News media",
+    "pct": 56,
+    "sphere": "Outsider"
+   },
+   {
+    "who": "Social media influencers",
+    "pct": 44,
+    "sphere": "Outsider"
+   }
+  ],
+  "spheres": [
+   {
+    "name": "Core insiders",
+    "what": "Firsthand and directly connected. Coworkers, management, and the vendors they already run."
+   },
+   {
+    "name": "Independent experts",
+    "what": "Authoritative voices with privileged insight. Peers, analysts, consultants, other customers."
+   },
+   {
+    "name": "Outsiders",
+    "what": "Tertiary sources with a visible self-interest. This is where a salesperson sits."
+   }
+  ],
+  "soWhat": "A rep is the least-trusted voice a buyer has, at 58%. Forrester files salespeople under outsiders — alongside news media and influencers. Arguing a point harder does not move it. A peer, a customer reference, or a benchmark does.",
+  "theIncumbentProblem": "The one that should change how you sell: **the vendor they already run is trusted at 79%** — above industry peers, above analysts, and 21 points above you. So when Yardi or RealPage says \"we do training too,\" that lands as a trusted insider. Your rebuttal lands as an outsider. That is not a messaging problem, it is a structural one, and it is exactly why consolidation is our single biggest loss reason. Do not out-argue the incumbent. Ask the buyer to check one specific, verifiable thing — the state approval list, the CE credit, who updates the content when the law changes."
+ },
+ "ai": {
+  "headline": "AI is now in the buying committee",
+  "points": [
+   "87% of buyers used genAI in a purchase in the last year. 95% expect to next year.",
+   "GenAI is the second most impactful interaction they have — ahead of talking to a salesperson.",
+   "38% use it to research specific vendors. 32% use it to compare vendor strengths and weaknesses. 23% use it to build the shortlist."
+  ],
+  "soWhat": "A model is comparing us to Yardi before a rep gets a meeting, using whatever is publicly findable. What our website and third-party sources say is now a competitive surface, not a marketing one."
+ },
+ "committee": [
+  {
+   "role": "The champion",
+   "who": "Usually L&D or Operations",
+   "wants": "To look right for backing this",
+   "give": "The internal case, in their language, that they can forward without editing"
+  },
+  {
+   "role": "The economic buyer",
+   "who": "Owner/Operator, CFO",
+   "wants": "Payback, not capability",
+   "give": "A number and a timeframe. Not a feature list"
+  },
+  {
+   "role": "The blocker",
+   "who": "IT or whoever owns the PMS relationship",
+   "wants": "Fewer vendors, fewer integrations",
+   "give": "Where we sit relative to the PMS, and what we do not try to replace"
+  },
+  {
+   "role": "The quiet veto",
+   "who": "Regional or property leadership",
+   "wants": "No more work landing on site teams",
+   "give": "What changes for the person on site, honestly"
+  },
+  {
+   "role": "Procurement",
+   "who": "Late, and decisive",
+   "wants": "Comparability and leverage",
+   "give": "Clear packaging, so they are not forced to compare on price alone"
+  }
+ ],
+ "plays": [
+  "Ask who else has to say yes, and what each of them would need to see. Most reps ask who the decision maker is and stop there.",
+  "Assume nine people you will never meet are being consulted. Give the champion something forwardable — a benchmark, a peer example, a one-pager — rather than a conversation only they heard.",
+  "When a deal goes quiet, treat the stall as the competitor. 86% of purchases stall; the question is which of the 22 has an unanswered objection, not whether a rival is winning.",
+  "Never fight the trust ranking. If they doubt a claim, reach for a customer, a benchmark or a third party. A rep repeating it louder is the least persuasive option available."
+ ],
+ "source": "Forrester, Buying Networks: Your Buyers' New Reality, April 2025 · Who Do B2B Buyers Trust?, B2B Summit 2025 · Business Trust Survey 2023 (1,420 global business buyers) · Buyers' Journey Survey 2024",
+ "generations": {
+  "headline": "Who is in the room has changed",
+  "mix": [
+   {
+    "who": "Millennials",
+    "pct": 54
+   },
+   {
+    "who": "Gen X",
+    "pct": 33
+   },
+   {
+    "who": "Boomers",
+    "pct": 8
+   },
+   {
+    "who": "Gen Z",
+    "pct": 5
+   }
+  ],
+  "mixNote": "59% of buying-group members are now digital natives. Two-thirds of buyers on $1M+ purchases are Millennial or Gen Z.",
+  "split": {
+   "digital": [
+    [
+     "Generative AI",
+     48
+    ],
+    [
+     "Product experts",
+     41
+    ],
+    [
+     "Social media",
+     38
+    ],
+    [
+     "Conferences and trade shows",
+     37
+    ],
+    [
+     "Internet searches",
+     36
+    ],
+    [
+     "Sales representatives",
+     35
+    ]
+   ],
+   "older": [
+    [
+     "Product experts",
+     51
+    ],
+    [
+     "Sales representatives",
+     46
+    ],
+    [
+     "Internet searches",
+     40
+    ],
+    [
+     "Vendor websites",
+     40
+    ],
+    [
+     "Customer references",
+     38
+    ],
+    [
+     "Generative AI",
+     35
+    ]
+   ]
+  },
+  "soWhat": "For the majority of the room, generative AI is the single most preferred way to learn about a vendor — ahead of talking to a person. For the older third, a product expert still wins and a rep comes second. Same deal, two different front doors.",
+  "late": [
+   {
+    "n": "69%",
+    "label": "through the journey before they engage a seller"
+   },
+   {
+    "n": "84%",
+    "label": "had their first conversation with the eventual winner — they had already decided"
+   },
+   {
+    "n": "87%",
+    "label": "of younger buyers end up dissatisfied with the provider they chose"
+   }
+  ],
+  "lateSoWhat": "By the time a rep is in the conversation, the shortlist is usually set. The competitive work that matters most happens before anyone picks up the phone — in what is publicly findable about us."
+ }
+}

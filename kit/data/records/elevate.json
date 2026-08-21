@@ -1,0 +1,282 @@
+[
+ {
+  "id": "elevate-mystery-shopping",
+  "name": "Elevate Mystery Shopping",
+  "aka": [
+   "Elevate"
+  ],
+  "parent": null,
+  "website": "https://elevatemysteryshopping.com",
+  "toolCategory": "Founder-led multifamily mystery shopping provider",
+  "ciCategory": "Direct",
+  "tier": "Watchlist",
+  "tierRationale": "Directly competitive by service, but there is no public evidence yet of deal presence, client base or capacity. Watchlist until it shows up in a real opportunity.",
+  "posture": "Monitor. Do not build enablement until it appears in a deal.",
+  "verdict": {
+   "stance": "Compete",
+   "line": "A new, founder-led shop provider selling multifamily credibility rather than scale — it competes on who reads the report, so the contest is coverage, comparability and what happens after the shop.",
+   "doInstead": null
+  },
+  "overlaps": [
+   {
+    "product": "Mystery Shopping",
+    "degree": "High"
+   },
+   {
+    "product": "Training",
+    "degree": "Partial"
+   }
+  ],
+  "stackLayer": {
+   "number": 5,
+   "name": "Resolution · The Resolution Layer for Multifamily",
+   "note": "Competes for the resolution layer position, or for one slice of it."
+  },
+  "snapshot": {
+   "hq": {
+    "value": "Unknown",
+    "source": null,
+    "verifiedOn": "2026-08-11"
+   },
+   "founded": {
+    "value": "Not published. Surfaced in the Grace Hill competitive channel on 17 July 2026 as a new company.",
+    "source": null,
+    "verifiedOn": "2026-08-11"
+   },
+   "ownership": {
+    "value": "Founder-owned. Eric Franco, Founder & Director of Training.",
+    "source": "https://elevatemysteryshopping.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "size": {
+    "value": "Unknown — no team page, shopper network size or coverage map is published.",
+    "source": null,
+    "verifiedOn": "2026-08-11"
+   },
+   "funding": {
+    "value": "Unknown",
+    "source": null,
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "pricing": {
+   "value": "Not published. Customized scoring criteria are stated as included at no additional cost.",
+   "source": "https://elevatemysteryshopping.com/",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "Positions itself as going beyond scoring — it 'connects evaluation findings to coaching, training, and measurable results' to help teams 'convert more prospects into residents'. Serves multifamily residential exclusively.",
+   "source": "https://elevatemysteryshopping.com/",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "Founder brings 20+ years in multifamily, from leasing agent to regional leadership, including systems training and performance improvement — credibility with the buyer is his core asset.",
+    "source": "https://elevatemysteryshopping.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Multifamily-exclusive. No retail or restaurant business diluting the rubric.",
+    "source": "https://elevatemysteryshopping.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Eight shop types published, including new-construction lease-up shops and competitive shops — a wider published menu than most new entrants.",
+    "source": "https://elevatemysteryshopping.com/services/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Customized scoring criteria included with every shop at no additional cost — removes the setup-fee objection a buyer may have hit elsewhere.",
+    "source": "https://elevatemysteryshopping.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Every evaluation ships with a 13-page report, a 'Leasing Decision Journey' framework and a 30-day improvement blueprint.",
+    "source": "https://elevatemysteryshopping.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Offers a Follow-Up Shop roughly 30 days after the evaluation, explicitly to measure whether coaching changed behavior — a closed loop most shop vendors do not sell.",
+    "source": "https://elevatemysteryshopping.com/services/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "No shopper network size, geographic coverage or capacity is published anywhere on the site — the practical question for a multi-state portfolio is unanswered.",
+    "source": "https://elevatemysteryshopping.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "No named clients, testimonials or case studies are published.",
+    "source": "https://elevatemysteryshopping.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "No industry benchmark dataset is described — scoring is customized per client, which by design makes results comparable within an account but not against the wider industry.",
+    "source": "https://elevatemysteryshopping.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "No pricing, turnaround time, or shopper recruitment method is published.",
+    "source": "https://elevatemysteryshopping.com/services/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "No third-party coverage, trade press, review-site presence or funding record could be found in an August 2026 search — the only public footprint is the company's own site.",
+    "source": null,
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [
+   "Benchmarking. Customized scoring is a real selling point for them and the exact thing that prevents an industry comparison — ask what a score of 87 means against anyone but themselves.",
+   "Scale and continuity. Ellis and EPMS are Grace Hill companies with decades of shopping behind them; a founder-led firm's capacity and coverage across a multi-state portfolio is an open question worth asking about plainly.",
+   "The loop is already built. Their follow-up shop measures whether coaching landed; ours routes a low score into an assigned course and re-measures inside the same platform, with no second vendor and no manual handoff.",
+   "One contract. A buyer comparing shops alone is comparing one line item — shops sitting next to training, policy, surveys and reputation is a different purchase."
+  ],
+  "askThis": [
+   "How many shoppers do you have in the markets where my properties actually are, and what's your monthly capacity across the portfolio?",
+   "If my scoring criteria are custom to me, what do I compare my results against outside my own portfolio?",
+   "Who does the work if you're unavailable for a month — what's the bench?",
+   "When a shop comes back low, what actually assigns the training and proves the score moved?"
+  ],
+  "doNotSay": [
+   "Do not disparage the founder or imply a small firm can't deliver a good shop. Twenty years of multifamily operations is real credibility and the buyer may know him personally — attacking it will cost you the room.",
+   "Do not claim they can't do video, lease-up or competitive shops. All eight shop types are published on their site.",
+   "Do not quote or guess their pricing. None is published.",
+   "Do not present the absence of named clients as proof they have none — it is an absence of public evidence, and say it that way."
+  ],
+  "whenItComesUp": {
+   "why": "A new entrant selling operator credibility rather than infrastructure. It competes for the shop line item, and it will be attractive to a buyer who has been burned by a big vendor's generic rubric. The open questions are capacity, comparability and continuity — not competence.",
+   "say": "If you know Eric, that experience is worth something — a shop report written by someone who has actually run a region reads differently, and I wouldn't argue with that. The questions I'd want answered are practical: coverage in your markets, what you benchmark the score against, and what happens after the report lands.",
+   "avoid": "Don't attack the founder or the size of the business. It reads as threatened, and if the buyer has a relationship with him you've lost the conversation rather than the deal.",
+   "redirect": "When a shop comes back low, what happens next in your world — who gets told, what training gets assigned, and how do you know it improved?"
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name Elevate or mention 'someone from the industry' who has started a shopping company.",
+    "ask": "Who are you using for shops today, and how did you come across them?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "Frustration with a previous vendor's generic rubric or shopper quality — that is usually what makes a founder-led firm attractive.",
+    "ask": "What wasn't working about how shops were being run before?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether they can compare scores across properties and against the industry, or only within their own portfolio.",
+    "ask": "When you see a score, what do you compare it to — last quarter, the property next door, or the industry?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A lease-up, a new-construction delivery or a fair housing concern driving urgency.",
+    "ask": "What's driving the timing — a lease-up, an audit, or something that happened?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether shops are a standalone line item or part of a wider performance conversation.",
+    "ask": "Is this a shopping decision on its own, or part of a broader look at how you measure and improve onsite performance?"
+   }
+  ],
+  "features": {
+   "ms-human-shoppers": {
+    "support": "Unknown",
+    "note": "Human evaluation is implied throughout, but no shopper network, size or recruitment method is described.",
+    "source": "https://elevatemysteryshopping.com/services/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-phone": {
+    "support": "Yes",
+    "note": "Phone Shops — greeting and tone, rapport, needs discovery, community presentation, objection handling, appointment setting, follow-up commitment.",
+    "source": "https://elevatemysteryshopping.com/services/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-email": {
+    "support": "Yes",
+    "note": "Email & Text Response Evaluations — response time, personalization, value communication, CTA clarity, follow-up cadence, brand voice.",
+    "source": "https://elevatemysteryshopping.com/services/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-onsite": {
+    "support": "Yes",
+    "note": "Onsite Leasing Shops covering curb appeal through application guidance.",
+    "source": "https://elevatemysteryshopping.com/services/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-video": {
+    "support": "Yes",
+    "note": "Video Mystery Shops evaluating body language, tour presentation and non-verbal communication.",
+    "source": "https://elevatemysteryshopping.com/services/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-rubric": {
+    "support": "Partial",
+    "note": "Scoring is customized per client at no extra cost. Consistent within an account; a custom rubric is not a standardized one.",
+    "source": "https://elevatemysteryshopping.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-coaching": {
+    "support": "Partial",
+    "note": "A 30-day improvement blueprint and a Follow-Up Shop measure whether coaching landed, but there is no linked training assignment — the coaching is advisory.",
+    "source": "https://elevatemysteryshopping.com/services/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-full-call-analysis": {
+    "support": "No",
+    "note": "Sampled human shops, not analysis of every call.",
+    "source": "https://elevatemysteryshopping.com/services/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-benchmarking": {
+    "support": "Unknown",
+    "note": "No industry benchmark dataset is described. Customized scoring implies within-account comparison only.",
+    "source": "https://elevatemysteryshopping.com/",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "objections": [
+   {
+    "objection": "He actually ran properties — he understands this better than a big vendor.",
+    "response": "That's fair, and I'd say the same. What one experienced person gives you is a better-written report. What you also need is enough shoppers to cover your markets every month, a score that means something outside your own portfolio, and something that assigns the fix and checks it worked. Ask him those three, then ask us."
+   }
+  ],
+  "news": [
+   {
+    "headline": "New multifamily mystery shopping company surfaces: Elevate Mystery Shopping",
+    "date": "2026-07-17",
+    "url": "https://elevatemysteryshopping.com/",
+    "impact": "Shared in #industry-competitive_intel. Founded by a former Director of Training at a multifamily operator. No third-party coverage yet."
+   }
+  ],
+  "sources": [
+   {
+    "title": "Elevate Mystery Shopping — home",
+    "url": "https://elevatemysteryshopping.com/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Elevate Mystery Shopping — services",
+    "url": "https://elevatemysteryshopping.com/services/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Field intel, #industry-competitive_intel, 17 Jul 2026",
+    "url": null,
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Medium",
+   "owner": null,
+   "autoUpdated": false,
+   "pendingReview": []
+  }
+ }
+]

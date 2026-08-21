@@ -1,0 +1,138 @@
+GRACE HILL
+Ideal Customer Profile & Value Strategy
+Who We Serve, the Problems We Solve, and How We Think About Value
+This document defines Grace Hill's Ideal Customer Profile — who we serve best, the problems that make someone a strong fit, and the strategic lens we use to think about the value our platform delivers. It is intended as a shared reference for anyone across the organization who needs a grounded, current view of our customer and our value story: marketing, sales, product, customer success, or any partner working with us on go-to-market strategy.
+## 1. Platform-Level ICP
+## 1.1 Core ICP
+Mid-market to enterprise multifamily organizations
+Multiple properties or communities under management
+Portfolio or regional leadership layers (not single-site operators)
+Organizations experiencing growth through acquisition, expansion, or leadership change
+## 1.2 How Our Customers Actually Buy
+Portfolio size is a useful signal, but it isn't the whole picture. Two dynamics matter as much as raw scale:
+Most of our active business today is mid-market rather than enterprise, even though a portfolio-scale, executive-level buyer is often our aspirational target
+Many large operators buy in a decentralized way — property by property, or region by region — rather than as a single portfolio-level decision. A single large logo can behave commercially like a collection of many independent buyers rather than one unified account
+The buying committee varies significantly by account: some organizations have a centralized decision-maker, while others make decisions independently at each property with little connection between locations
+Strategic implication: organizational buying structure — centralized vs. decentralized — is as important a segmentation lens as portfolio size. Treating every large account as a single "enterprise" buying decision risks missing how expansion actually happens: property by property, relationship by relationship.
+## 1.3 Situational Fit Signals
+Independent of firmographics, prospects are a strong fit when they:
+Can see performance issues but struggle to prioritize what to act on
+Rely on individual judgment to interpret performance rather than a shared standard — a highly experienced property manager will make a different decision than a new one looking at the exact same data
+Experience inconsistency in execution and outcomes across properties
+Feel increasing friction as the portfolio scales
+Already run a property management system with adjacent, often free, functionality — meaning our value case has to clear a real bar, not just a feature checklist
+## 1.4 Buyer Personas — Who This Is For
+The more we sell outcomes (property performance) instead of features (individual product capability), the more the conversation can move to a true executive-level, cross-functional buyer — because performance is something everyone in the property organization is accountable for, not just the department that owns a given product.
+## 2. Our Value Philosophy: Selling Direction and Action, Not Features
+## 2.1 Where We've Been
+Products sold and marketed individually, feature-first (e.g., Training pitched on course count, completion tracking, audit trail)
+Our most differentiated capability — turning signals into recommended action — positioned as a premium, optional layer rather than core to the experience
+Proof of value has been mostly qualitative (case studies, quotes) rather than quantitative for most of the portfolio
+## 2.2 Where We're Going
+Our strategic direction is to stop selling a checklist of product features and start selling the ability to turn performance signals into direction and action. That capability — not any single product's feature set — is what a property management system or point-solution competitor cannot easily replicate.
+Concretely, this means:
+The platform and its recommendation/action capability should be part of the base experience — not an optional add-on a buyer can decline
+Making that capability optional signals it isn't essential, which makes the platform easier to displace or commoditize
+Our individual solutions (training, surveys, policy, field verification, resident marketing tools, etc.) are best understood as the data inputs that feed a connected performance picture — valuable on their own, but most valuable together
+## 2.3 A Value Model
+Three layers describe how we create value, from raw activity to real direction:
+Today's packaging treats the Action layer as optional, while our strategic conviction is that it should be foundational. Understanding where customers' willingness to pay actually breaks across these three layers is one of the most important open questions in how we evolve our go-to-market model.
+## 2.4 Products as Pieces, Not Whole-Product Bundles
+Rather than thinking in terms of whole products bundled together, it's more useful to think of each product's capabilities as separable pieces mapped to the problem they solve. Within training, for example: a content/course library is largely commoditized — adjacent systems increasingly offer something similar for free — while a recommendation engine that ties training gaps to performance and survey outcomes is differentiated and far harder to replicate.
+Applying this lens, most capabilities fall into one of two buckets:
+Basic / table-stakes: functionality the market already expects, often available free or cheaply elsewhere (course libraries, completion tracking, basic survey distribution). Necessary for credibility, but weak ground for premium value capture.
+Differentiated / advanced: functionality that connects signals across products, benchmarks performance, or recommends action. This is where our real, defensible value sits.
+Mapping specific capabilities to each bucket, product by product, is ongoing strategic work — but the framework itself should guide how we think about our roadmap, our packaging, and our messaging going forward.
+## 3. Problem-Based Customer Segments
+The following groupings organize our ICP by the problem solved and the buyer behind it, based on how customers actually purchase related solutions together in practice.
+## 3.1 Compliance & Workforce Readiness
+Who Has This Problem
+Multi-state operators with regulatory exposure (Fair Housing, ADA, state-specific compliance)
+Portfolios with high front-line turnover, where consistent onboarding matters
+Property managers facing audit cycles or reputational risk events
+What They Say
+"We have inconsistent training across sites and we're a lawsuit waiting to happen"
+"Our policies are outdated; we don't know what's actually getting enforced"
+"We have no way to verify our properties are operating to standard"
+Basic vs. Differentiated Value
+Basic: codified policy content and a system of record for course completion — close to commodity territory as adjacent systems build in similar functionality for free. Differentiated: verification in the field, consistency benchmarked across properties, and recommended corrective action when standards slip — this is where real value capture lives.
+Signal of Fit
+This problem area shows a strong propensity to buy when the pain becomes acute — regulatory and liability exposure tends to be urgency-driven, which makes it a promising area to lead with value-based positioning rather than feature comparison.
+## 3.2 Resident Growth & Retention
+This grouping remains an area of active strategic consideration rather than a settled part of the core narrative:
+The related capabilities (resident-facing video/marketing tools, resident surveys, reputation management) primarily serve prospect acquisition — filling vacant units — a different buyer and funnel stage than the employee/resident retention story that anchors the rest of the platform
+There is limited natural connection today between this problem space and the employee-performance narrative that ties the rest of the platform together
+At the same time, there is a natural progression from acquiring residents to retaining them, and a case can be made for eventually connecting the two motions
+Who Has This Problem
+Marketing-led operators in competitive metros
+Lease-up communities and value-add renovations needing tour velocity
+Properties with reputation challenges (low review scores, declining occupancy)
+What They Say
+"Our occupancy is behind submarket and we don't know why"
+"Negative reviews are killing tour-to-lease conversion and we're reactive"
+"Renewal rates are dropping but we hear nothing until move-out"
+Whether this segment is core to the unified platform story or a genuinely separate motion, sold and evaluated on its own terms, is an active strategic question rather than a settled decision.
+## 3.3 Workforce Performance
+Who Has This Problem
+Operators with frontline turnover above industry median
+Companies investing in maintenance and skilled-trades upskilling and certification
+Multi-site portfolios where employee experience varies widely by community
+HR leaders building the case for retention investment
+What They Say
+"It takes months to get a new hire productive and we lose them just as fast"
+"Our maintenance techs lack the certifications we need to scale service hours"
+"Engagement scores are dropping and we don't know which sites are struggling"
+Basic vs. Differentiated Value
+This is the clearest example of our value philosophy in practice: pricing or positioning training on course count or portfolio size does not reflect the real value delivered. The differentiated value is connecting training content to performance and engagement outcomes — recommending what training to assign, to whom, and showing whether it worked — not the size of a course library.
+## 3.4 Enterprise & Multi-Stakeholder Portfolios
+Who Has This Problem
+Large portfolios with multi-stakeholder buying committees (Operations, HR, Marketing, Compliance)
+Organizations looking for a strategic partner, not a vendor
+Accounts where we have a foothold in one property but haven't yet earned the broader relationship
+At this scale, organizational buying structure is often more predictive than raw unit count. Some large operators buy centrally, in a single relationship and contract; others buy in a fully decentralized way, property by property, with little connection between locations even within the same parent company. Growth within these accounts is often less about expanding a single portfolio-level agreement and more about earning a second, independent buying decision at the next property.
+## 4. Strategic Considerations for Value Capture
+## 4.1 Aligning Pricing With Value, Not Just Usage Volume
+Much of our current pricing is based on portfolio unit count. But adding units to a portfolio doesn't necessarily mean a customer is getting more value from a given solution — if the number of employees needing training doesn't change, a price increase tied purely to unit count is hard to defend and creates friction at renewal. Aligning price more closely to the value actually delivered — not just the size of the account — is an important strategic direction.
+## 4.2 Our Real Competitive Threat
+We don't face a direct, full-platform competitor today. The more immediate threat is property management systems bundling adjacent functionality (like basic training features) into their platform for free, potentially displacing point-solution categories entirely if they choose to invest there. These systems record activity but don't connect it across solutions or recommend action — which is exactly why our action layer is our least-replicable differentiator and the strongest argument for treating it as core rather than optional.
+## 4.3 Closing the Proof-of-Value Gap
+Outside of a few areas where usage data makes return on investment easy to demonstrate, most of our value evidence today is qualitative — case studies and quotes rather than quantified outcomes like hours saved, retention lift, or NOI impact. Building quantitative proof points is foundational to defending value-based positioning as we shift away from feature-based selling.
+## 4.4 Expansion Within Existing Customers
+Growth from new logos has historically been harder to come by than growth from existing accounts. A significant opportunity lies in migrating our existing base toward the platform-value model described in Section 2 — including accounts that have already found success with one solution but haven't yet been shown a reason to expand into others.
+## 4.5 Discoverability Across Solutions
+Because our solutions are still largely marketed and sold in isolation, a customer using one (for example, training) often has little visibility into what they're missing in an adjacent area (for example, surveys). There is an opportunity to organize our story around smaller, cross-solution problem areas rather than only whole-product offerings — improving discoverability and creating a natural path to expand. Any future packaging should build in a path toward more advanced functionality over time, so that growth doesn't depend solely on new logos or a finite set of expansion accounts.
+## 5. Market Context
+The data below describes our current customer base and deal patterns, offered as grounding context for anyone using this document.
+## 5.1 Deal Conversion by Motion
+## 5.2 Portfolio Size Distribution
+Across our base of accounts with portfolio-size data on file, the average is roughly 2,100 units. About one in six accounts has 2,000 or more units, and roughly one in a hundred has 25,000 or more units — a genuinely small, high-value tier. As noted in Section 1.2, these are useful reference points, but unit count alone doesn't reliably predict buying behavior.
+## 5.3 Deal Size by Account Type
+Enterprise and larger accounts carry meaningfully higher average deal sizes than mid-market accounts, though the overwhelming majority of our account volume is mid-market — consistent with the buying-reality gap noted in Section 1.2. Expansion deals within existing mid-market accounts are the single largest source of deal volume in our business today.
+## 6. Open Strategic Questions
+Areas where our thinking is still evolving, and where further work will sharpen this ICP over time:
+Should resident acquisition-focused solutions be positioned as core to our platform narrative, or treated as a genuinely separate motion with its own value story?
+What usage- or value-based metric should complement or replace unit-count pricing, especially where value doesn't scale linearly with portfolio size?
+Within each solution, which specific capabilities are basic/table-stakes versus differentiated/advanced — and where does customer willingness to pay actually shift between them?
+How do we move our action/recommendation capability from an optional add-on to an embedded part of the core experience without giving away our differentiator for free?
+What does a thoughtful transition path look like for existing customers on legacy pricing models?
+What proof-of-value infrastructure do we need to build to defend value-based positioning at scale?
+Given how differently large operators organize their buying decisions, should our segmentation be built around portfolio size, organizational buying structure, or some combination of both?
+How do we build a built-in path to more advanced functionality over time, so growth doesn't depend solely on new logos or a finite pool of expansion accounts?
+
+[TABLE]
+Persona | What They Care About
+Executives & Owners | Confidence in portfolio direction, early visibility into risk/opportunity, performance that scales through change
+Operations & Regional Leaders | Clear priorities across properties, less reactive escalation, better use of time
+HR & Learning Leaders | Readiness (not just completion), reduced compliance exposure, training tied to performance
+Onsite Teams | Clear focus, less second-guessing, more time to deliver resident/tenant experience
+
+[TABLE]
+Layer | What It Does
+1. Signal / Data Layer | The individual solutions that generate activity and performance data (training, surveys, policy, field verification, resident marketing, reputation, etc.)
+2. Direction Layer — Platform | Benchmarks signals across properties and surfaces priorities and trends
+3. Action Layer — Intelligence | Recommends what to do next; our clearest, most defensible differentiator
+
+[TABLE]
+Motion | Win Rate
+New logo acquisition | Roughly one in three opportunities, though this varies by product and has historically run lower
+Expansion within existing accounts | Well over two-thirds of opportunities — expansion converts substantially better than new-logo acquisition

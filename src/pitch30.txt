@@ -1,0 +1,270 @@
+--- SLIDE 1 ---
+EXTERNAL PITCH
+Grace Hill
+30 / 3 / 30
+The resolution advantage.
+NOI
+Revenue
+Retention
+Time to lease
+One company promise, told at three lengths.
+[NOTES] Use this deck as the external version of the 30 second, 3 minute, and 30 minute pitch. Keep the story outside-in and do not start with products.
+
+--- SLIDE 2 ---
+30 SECONDS
+30-second pitch
+Grace Hill
+2
+Anchor promise
+Data can show where performance is slipping. Grace Hill gives teams a clear path to resolution.
+For multifamily teams, that means turning property data, benchmarks, and market context into actions that improve the resident, prospect, and employee experiences behind portfolio results.
+NOI
+Revenue
+Retention
+Time to lease
+Simple enough to remember. Specific enough to matter.
+[NOTES] Say this as the 30 second pitch. The point is to state the problem and the promise without product names.
+
+--- SLIDE 3 ---
+3 MINUTES · 1 OF 2
+The gap is not data. It is what happens next.
+Most teams can see the issue. The harder part is resolving it, getting it done, and proving it worked.
+What you see
+Survey scores
+Reviews
+Shop results
+Training records
+Market data
+What you still need
+What should change
+Who owns it
+Whether it worked
+What moves results
+One clear next step
+Consistent follow-through
+Proof of impact
+→
+→
+This is where portfolio results are won or lost.
+Grace Hill
+3
+[NOTES] Do not read every box. Use the slide to create buyer agreement that the hard part is not more visibility. The hard part is action and proof.
+
+--- SLIDE 4 ---
+3 MINUTES · 2 OF 2
+Grace Hill is built for the work after the finding.
+Closing the gap takes evidence, benchmarks, market context, and the content that helps teams act.
+Property
+performance
+→
+Resident and
+prospect voice
+→
+Benchmarks
+→
+Market
+context
+→
+Content that
+helps teams act
+That is how a finding becomes a resolution.
+AI is making findings cheaper. It is not making teams less busy. The value is knowing what to do and proving it worked.
+Grace Hill
+4
+[NOTES] This is the why Grace Hill slide. Be generous about alternatives: many tools do one of these well. The claim is that Grace Hill connects the things needed to resolve issues.
+
+--- SLIDE 5 ---
+30 MINUTES · 1 OF 10
+The market shifted.
+Finding problems got cheap. Resolving them did not.
+What changed
+AI can score more calls, reviews, shops, surveys, and market data.
+What did not
+Your teams still have the same hours and a full day already in front of them.
+What it means
+More findings can become more pressure if nobody knows what to do next.
+The new bottleneck is resolution.
+Grace Hill
+5
+[NOTES] Zuora-style opening: name the market shift before naming the product. This is the buyer worldview reset.
+
+--- SLIDE 6 ---
+30 MINUTES · 2 OF 10
+Portfolio results move through experience.
+NOI, revenue, retention, and time to lease are shaped by the moments teams create every day.
+Grace Hill
+6
+Resident moments
+Service response
+Renewal experience
+Trust and reputation
+Prospect moments
+Tour quality
+Follow-up speed
+Confidence to lease
+Employee moments
+Readiness
+Policy clarity
+Consistent follow-through
+→
+→
+Those moments drive portfolio results
+NOI
+Revenue
+Retention
+Time to lease
+[NOTES] This is where outcomes land. For L&D, it is readiness and consistency. For marketing, it is reputation, retention, leasing. For asset owners, it is revenue, NOI and value.
+
+--- SLIDE 7 ---
+30 MINUTES · 3 OF 10
+Each team feels the same gap differently.
+That is why the platform has to serve the work people already own.
+L&D / Operations
+Need consistent execution, compliance confidence, and faster time to productivity.
+Marketing / Operations
+Need stronger resident and prospect experiences, better reputation, and faster leasing.
+Asset / BD / Ops
+Need market context, benchmarks, and clearer portfolio decisions.
+Lead with the outcome each buyer owns. Tie it back to portfolio results.
+Grace Hill
+7
+[NOTES] This slide brings the target audience down a layer. Internal fit is mid-market and enterprise. External relevance is persona and outcome.
+
+--- SLIDE 8 ---
+30 MINUTES · 4 OF 10
+The product story is the resolution loop.
+The promise becomes real when teams can move from issue to action to proof.
+Measure
+→
+Diagnose
+→
+Prescribe
+→
+Assign
+→
+Prove
+Anyone can report the issue. The value is knowing the move, getting it done, and showing what changed.
+Grace Hill
+8
+[NOTES] This is Matt’s resolution point. Do not make it a product tour. Use one example: a property has lower renewal intent and slower work order response. Grace Hill helps identify the move, assign it, and prove the delta.
+
+--- SLIDE 9 ---
+30 MINUTES · 5 OF 10
+A simple way to buy the platform.
+Grace Hill
+9
+1  Choose platform
+2  Choose track
+3  Add-ons
+PerformanceHQ Core
+PerformanceHQ Pro
+Platform foundation
+Dashboards
+SSO + integrations
+Ask Gracie
+Cross-product reporting
+Advanced analytics
+HelloData Lite
+Deeper intelligence
+AI action plans
+APIs + MCP
+Deeper data integration
+HelloData Complete
+More market context
+Workforce Excellence
+L&D / Ops
+Develop people and drive operational consistency
+Resident & Prospect Satisfaction
+Marketing / Ops
+Improve leasing, retention, and reputation
+Realync • Certifications • Extra shops • Policy modules • Training modules
+Expansion is a tier change, not a new project.
+[NOTES] This slide reflects the revised packaging structure: PHQ Core and Plus, two tracks, and add-ons. HelloData is treated as part of the platform layer, with Complete in Plus, while still supporting HelloData-only buyers separately when needed.
+
+--- SLIDE 10 ---
+30 MINUTES · 6 OF 10
+PerformanceHQ is the common layer.
+It connects data, context, and action across the products customers already use.
+Connect
+Bring property, team, experience, and market data into one view.
+Guide
+Use Intelligence+ and Ask Gracie to surface the next best action.
+Prove
+Track the work and show whether the outcome changed.
+The platform is not the story by itself. It is how the resolution story scales.
+Grace Hill
+10
+[NOTES] Use this slide to connect the packaging to product strategy. PerformanceHQ is not more reporting. It is the operating layer for resolution.
+
+--- SLIDE 11 ---
+30 MINUTES · 7 OF 10
+Workforce Excellence closes the execution gap.
+For L&D and operations teams, the value is not training completion. It is consistent work at the property.
+Know the gap
+→
+Teach the move
+→
+Reinforce it
+→
+Show progress
+Where it shows up
+Training, policies, onboarding, mystery shop results, employee surveys, and role-based learning.
+Grace Hill
+11
+[NOTES] Make this concrete. The product is valuable because it helps teams perform more consistently, not because it assigns courses.
+
+--- SLIDE 12 ---
+30 MINUTES · 8 OF 10
+Resident and Prospect Satisfaction turns feedback into follow-through.
+For marketing and operations teams, the value is knowing what shapes experience and acting before it costs the property.
+Listen
+→
+Prioritize
+→
+Close the loop
+→
+Improve results
+Where it shows up
+Surveys, reputation, benchmarking, feedback and sentiment, response diagnostics, and leasing experience.
+Grace Hill
+12
+[NOTES] This slide keeps Julia’s concern in the story: do not let the pitch collapse into training or employee-only language.
+
+--- SLIDE 13 ---
+30 MINUTES · 9 OF 10
+Grace Hill connects both sides of performance.
+Evidence of what is happening, plus the content that helps teams improve it.
+Evidence
+Surveys
+Shops
+Reviews
+Market data
+Property performance
+Context
+Benchmarks
+Market comps
+Portfolio trends
+Industry expertise
+Improvement
+Training
+Policies
+Onboarding
+Guided action
+Proof of impact
+A model can be rebuilt. Years of what happened next cannot.
+Grace Hill
+13
+[NOTES] This is the moat. Avoid saying more data. Say we connect evidence, context, and improvement on the same properties over time.
+
+--- SLIDE 14 ---
+30 MINUTES · 10 OF 10
+The resolution advantage.
+Property data shows the issue. Grace Hill gives teams a path to resolve it, improve the experiences that matter, and prove what worked.
+NOI
+Revenue
+Retention
+Time to lease
+Reputation
+Property value
+That is how the platform turns better action into stronger portfolio results.
+[NOTES] End here. The buyer should leave with one thought: Grace Hill is not just another measurement tool. It is the path from issue to resolution to proof.

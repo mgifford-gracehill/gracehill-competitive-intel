@@ -1,0 +1,321 @@
+[
+ {
+  "id": "rentcast",
+  "name": "RentCast",
+  "aka": [
+   "RentCast.io",
+   "RentCast Pro",
+   "RentCast Property Data API",
+   "Fortnoff Financial LLC"
+  ],
+  "parent": null,
+  "website": "https://www.rentcast.io",
+  "toolCategory": "Self-serve rent estimate, property record and market data API",
+  "ciCategory": "Indirect",
+  "tier": "Watchlist",
+  "verdict": {
+   "stance": "Do not compete",
+   "line": "RentCast sells $12-a-month rent estimates to individual investors and landlords and a $74-$449/month property-data API to developers — it is not bidding against HelloData for institutional multifamily revenue-management budget, so treat it as an adjacent consumer/SFR tool, not a rival.",
+   "doInstead": "If a prospect raises RentCast, do not run a feature comparison. Ask what decision they are trying to make: if it is underwriting a single rental or checking one address, RentCast is a reasonable free tool and saying so builds credibility. If it is pricing a portfolio of communities against live competitor concessions, point out RentCast's market data is zip-code level and its comps are per-property, then move the conversation to portfolio-level comps, concessions and the operational signal around them."
+  },
+  "overlaps": [
+   {
+    "product": "HelloData",
+    "degree": "Partial"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": "San Diego, California, United States",
+    "source": "https://www.crunchbase.com/organization/rentcast",
+    "verifiedOn": "2026-08-11"
+   },
+   "founded": {
+    "value": "2020, by Anton Ivanov, who also founded the real estate analysis platform DealCheck. RentCast's about page states it was built by 'experienced real estate investors and engineers' who previously worked on DealCheck.",
+    "source": "https://www.rentcast.io/about",
+    "verifiedOn": "2026-08-11"
+   },
+   "ownership": {
+    "value": "Private, for-profit. Crunchbase lists the legal name as Fortnoff Financial LLC.",
+    "source": "https://www.crunchbase.com/organization/rentcast",
+    "verifiedOn": "2026-08-11"
+   },
+   "size": {
+    "value": "1-10 employees per Crunchbase. No headcount figure is published on RentCast's own site.",
+    "source": "https://www.crunchbase.com/organization/rentcast",
+    "verifiedOn": "2026-08-11"
+   },
+   "funding": {
+    "value": "No funding rounds are listed on the Crunchbase profile, and no funding or investor information appears on RentCast's own about page. Whether the company is self-funded is not publicly stated.",
+    "source": "https://www.crunchbase.com/organization/rentcast",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "pricing": {
+   "value": "Published, unusually for this category. Web app: Free plan $0 (5 nearby rental comps, 5 properties tracked); Pro $12/month billed annually or $19/month billed monthly (20 nearby comps, 50 properties), with 'Contact us for custom pricing' above 50 units. API: Developer $0/month for 50 requests ($0.20 per request overage); Foundation $74/month for 1,000 requests ($0.06 overage); Growth $199/month for 5,000 requests ($0.03 overage); Scale $449/month for 25,000 requests ($0.015 overage); custom enterprise plans on request. API billing is monthly with no long-term contracts.",
+   "source": "https://www.rentcast.io/pricing",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "Self-serve rental data for the individual investor: 'Look up accurate rent prices and comps for any property, and track your rental portfolio with real-time alerts and market updates.' Describes itself as 'An Essential Platform for Real Estate Investors and Property Managers', for those 'just starting out or manag[ing] hundreds of units'. The stated mission is 'building the best platform for accessing real-time property and rental data in the United States', on the belief that 'everyone should have access to accurate, real-time property and rental data'.",
+   "source": "https://www.rentcast.io/about",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "Large published record count: '150+ million residential and commercial properties' in the database, with nationwide US coverage and market data for '38,000+ zip codes'.",
+    "source": "https://www.rentcast.io/api",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Daily collection cadence: 'We scan and catalog new and updated rental listings daily', with 'over 500 thousand record and listing updates daily' and updated data 'immediately available via our API without delays or caching'.",
+    "source": "https://developers.rentcast.io/reference/introduction",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "A real, documented, self-serve REST API with public pricing and a free tier — a developer can be pulling property records the same day without a sales conversation.",
+    "source": "https://www.rentcast.io/api",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Breadth of data types beyond rent: property records, structural attributes, tax assessment history, owner details, sale transaction history, value and rent estimates, comps, and active for-sale and for-rent listings across all 50 states.",
+    "source": "https://www.rentcast.io/api",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Published, aggressively low pricing removes a procurement barrier: a Free plan at $0 and Pro at $12/month billed annually.",
+    "source": "https://www.rentcast.io/pricing",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Transparent estimate methodology for the buyer — rent estimates are 'calculated in real time based on the available rental data' using 'a proprietary weighted average formula', and users can view the specific comparable properties used plus an estimate range, not just a point estimate.",
+    "source": "https://help.rentcast.io/en/articles/5535860-rental-data-sources-and-quality",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "Market statistics are zip-code level only — the market statistics endpoint 'accepts a valid 5-digit US zip code' as its required parameter. No submarket construct is described on the pages reviewed.",
+    "source": "https://developers.rentcast.io/reference/market-statistics",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Concession, specials or lease-up incentive data is not described on the pricing page, the API product page, the market statistics endpoint reference, or the rental data sources help article.",
+    "source": "https://developers.rentcast.io/reference/market-statistics",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Rental market history begins April 2020 and sale market history begins January 2024, and the documentation warns 'There may be gaps in the historical data when there were not enough listings to generate statistically significant averages'.",
+    "source": "https://developers.rentcast.io/reference/market-statistics",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Coverage is qualified in RentCast's own words as 'nationwide coverage for most residential and commercial properties in the US, as well as sale and rental market data coverage for most US zip codes and cities' — 'most', not all.",
+    "source": "https://developers.rentcast.io/reference/introduction",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "The web app's published plans cap portfolio tracking at 5 properties (Free) and 50 properties (Pro), with anything larger routed to 'Contact us for custom pricing' — the productised offering is scoped to small portfolios.",
+    "source": "https://www.rentcast.io/pricing",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "No enterprise tier, institutional pricing or dedicated large-account support is described in the API help article; the stated audience is developers wanting to 'power your real estate applications, CRMs and workflows'.",
+    "source": "https://help.rentcast.io/en/articles/7992900-rentcast-property-data-api",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Data is compiled by scanning 'rental property listings from various public sources, including online records, directories, and public domain information' plus 'public county records, recorded deeds, tax assessor databases, and online directories' — there is no operator-contributed or property-website channel described, so unit-level pricing at a specific apartment community depends on that community appearing in scanned listing sources.",
+    "source": "https://help.rentcast.io/en/articles/5535860-rental-data-sources-and-quality",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Crunchbase lists the company at 1-10 employees with no funding rounds — a materially different scale of engineering and support capacity than the venture-backed multifamily data vendors.",
+    "source": "https://www.crunchbase.com/organization/rentcast",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [
+   "Different buyer, different job. RentCast answers 'what should I charge for this house?' for one owner. HelloData answers 'how is my portfolio priced against live competitor rents and concessions this week?' for an operator running communities.",
+   "Concessions are the number that moves effective rent in multifamily, and they are the number RentCast does not describe collecting.",
+   "Zip codes are not submarkets. An institutional pricing decision needs a comp set the operator defines, not a postal boundary.",
+   "HelloData sits inside a Grace Hill platform where the market signal can be read against training, shop, survey and reputation data — the rent moved, but was it the market or was it your team?"
+  ],
+  "askThis": [
+   "Are you using RentCast to underwrite individual acquisitions, or to price your communities week to week? Those are different problems.",
+   "When a comp two blocks away drops six weeks free, where do you see it today?",
+   "Is a zip code a useful comp boundary in your markets, or do you define your own comp set?",
+   "How far back does your history go for the submarkets you actually price against?",
+   "Who on your team owns pricing, and what do they open on Monday morning?"
+  ],
+  "objections": [
+   {
+    "objection": "We already use RentCast and it costs us almost nothing.",
+    "response": "It is a genuinely good tool for what it does, and at $12 a month there is no reason to drop it. It is answering a property-level question, though. If the decision you are making is portfolio pricing against live competitor concessions, that is a different dataset — worth looking at what you would need on top."
+   },
+   {
+    "objection": "Their API is $449 a month for 25,000 requests. Why would we pay more?",
+    "response": "You are comparing a per-request data feed to a pricing product. The API charge is for records; the question is who assembles those records into a comp set, tracks concessions, and puts it in front of the person setting rents. If your team wants to build that themselves, RentCast is a reasonable input."
+   },
+   {
+    "objection": "150 million properties is more coverage than HelloData's 5 million.",
+    "response": "Those numbers count different things. RentCast counts every residential and commercial property record in the US, mostly single-family. HelloData's number is multifamily properties with live rent and concession data. Depth on the assets you compete with matters more than a national record count."
+   }
+  ],
+  "doNotSay": [
+   "Do not say RentCast has no concession data. Say concession tracking is not described on their pricing page, API documentation or help articles.",
+   "Do not call RentCast a toy or imply the data is inaccurate — they document their sources and their estimate methodology publicly, and a prospect who uses it will hear the dismissal as uninformed.",
+   "Do not claim RentCast cannot serve large portfolios. Their pricing page routes 50+ units to custom pricing, and they reference custom enterprise API plans.",
+   "Do not compare the 150M property figure to HelloData's 5M as if it were the same measure — it is not, and the comparison is unfavourable and misleading at the same time.",
+   "Do not present RentCast as a competitor in a deal review. Nothing in the public evidence shows them bidding for institutional multifamily pricing budget."
+  ],
+  "features": {
+   "md-rent-comps": {
+    "support": "Yes",
+    "note": "Core product. Property-level rent estimates with nearby rental comps, capped at 5 comps on the Free plan and 20 on Pro. The API also exposes rent estimates and comparable listings.",
+    "source": "https://www.rentcast.io/pricing",
+    "verifiedOn": "2026-08-11"
+   },
+   "md-concessions": {
+    "support": "Unknown",
+    "note": "No concession, specials or lease-up incentive data is described on the pricing page, the API product page, the market statistics endpoint reference or the rental data sources help article. Listing data includes listing price, status and days on market, but concessions are not named.",
+    "source": "https://developers.rentcast.io/reference/market-statistics",
+    "verifiedOn": "2026-08-11"
+   },
+   "md-coverage": {
+    "support": "Yes",
+    "note": "Published: '150+ million residential and commercial properties' and market data for '38,000+ zip codes', US only. Note this counts all US property records — predominantly single-family — not multifamily communities with live rent data. The API introduction states 'nationwide coverage for most residential and commercial properties in the US'.",
+    "source": "https://www.rentcast.io/api",
+    "verifiedOn": "2026-08-11"
+   },
+   "md-refresh": {
+    "support": "Yes",
+    "note": "Daily. 'We scan and catalog new and updated rental listings daily'; 'over 500 thousand record and listing updates daily', with updated data 'immediately available via our API without delays or caching'.",
+    "source": "https://developers.rentcast.io/reference/introduction",
+    "verifiedOn": "2026-08-11"
+   },
+   "md-api": {
+    "support": "Yes",
+    "note": "A documented, self-serve REST API with published tiers: Developer $0 (50 requests/month, $0.20 overage), Foundation $74 (1,000, $0.06), Growth $199 (5,000, $0.03), Scale $449 (25,000, $0.015), plus custom enterprise plans. Endpoints cover property records, valuation and rent estimates, active listings and market trends.",
+    "source": "https://www.rentcast.io/api",
+    "verifiedOn": "2026-08-11"
+   },
+   "md-submarket": {
+    "support": "Partial",
+    "note": "Market statistics are delivered at zip-code level — the endpoint requires 'a valid 5-digit US zip code'. City-level market data is referenced in the API introduction. No user-defined submarket or custom comp-set boundary is described on the pages reviewed.",
+    "source": "https://developers.rentcast.io/reference/market-statistics",
+    "verifiedOn": "2026-08-11"
+   },
+   "md-availability": {
+    "support": "Yes",
+    "note": "Active for-sale and for-rent listings across all 50 states, with listing price, status, days on market, MLS numbers and agent details.",
+    "source": "https://www.rentcast.io/api",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Medium",
+   "owner": null,
+   "autoUpdated": true,
+   "pendingReview": []
+  },
+  "news": [],
+  "sources": [
+   {
+    "title": "RentCast — homepage",
+    "url": "https://www.rentcast.io/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "RentCast — About Us",
+    "url": "https://www.rentcast.io/about",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "RentCast — Plans & Pricing",
+    "url": "https://www.rentcast.io/pricing",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "RentCast — Real Estate & Property Data API (includes published API pricing tiers)",
+    "url": "https://www.rentcast.io/api",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "RentCast API — Introduction (coverage, data sources, update frequency)",
+    "url": "https://developers.rentcast.io/reference/introduction",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "RentCast API — Market Statistics endpoint reference",
+    "url": "https://developers.rentcast.io/reference/market-statistics",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "RentCast API — Billing and Pricing",
+    "url": "https://developers.rentcast.io/reference/billing-and-pricing",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "RentCast Help Center — Rental Data Sources and Quality",
+    "url": "https://help.rentcast.io/en/articles/5535860-rental-data-sources-and-quality",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "RentCast Help Center — RentCast Property Data API",
+    "url": "https://help.rentcast.io/en/articles/7992900-rentcast-property-data-api",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "RentCast — Crunchbase Company Profile & Funding",
+    "url": "https://www.crunchbase.com/organization/rentcast",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 6,
+   "name": "Asset, Finance and Investor",
+   "note": "Feeds market context into the loop; sits closer to asset and finance."
+  },
+  "whenItComesUp": {
+   "why": "RentCast is self-serve rent estimates sold to individual investors and small landlords at $12 a month. It isn't bidding for an institutional operator's market intelligence budget.",
+   "say": "RentCast is built for individual investors — someone with a handful of doors checking what a house should rent for. Different buyer entirely from portfolio-level comps and concession tracking.",
+   "avoid": "Do not get into a coverage-number comparison. RentCast publishes 150M+ property records because it counts single-family across the whole country. Quoting HelloData's multifamily number against it looks like losing.",
+   "redirect": "What decision are you trying to make with this — pricing a specific unit, or seeing what your comp set is doing on concessions week to week?"
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name RentCast.io, RentCast Pro, RentCast Property Data API, Fortnoff Financial LLC, or describe self-serve rent estimate, property record and market data api already in place.",
+    "ask": "Are you using RentCast to underwrite individual acquisitions, or to price your communities week to week? Those are different problems."
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "Market statistics are zip-code level only — the market statistics endpoint 'accepts a valid 5-digit US zip code' as its required parameter. No submarket construct is described on the pages reviewed.",
+    "ask": "When a comp two blocks away drops six weeks free, where do you see it today?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the RentCast contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the RentCast agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether RentCast sits on someone else's budget line — that changes who has to agree.",
+    "ask": "Is a zip code a useful comp boundary in your markets, or do you define your own comp set?"
+   }
+  ],
+  "play": "Not our fight"
+ }
+]

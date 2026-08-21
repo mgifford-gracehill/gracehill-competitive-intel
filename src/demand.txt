@@ -1,0 +1,571 @@
+GRACE HILL — DEMAND STRATEGY 2H 2026
+The Play Book
+Organised by segment and persona. Every play sells a bundle, not a product.
+We are moving from selling individual products to selling outcome bundles. That changes who we sell to and what we say, so this playbook is organised the way the selling will work: by segment, then by the persona who owns the budget, then by the bundle motion.
+This describes a future state. The bundles are not launched, final contents are still being agreed, and it is not yet proven that this industry is ready to buy outcomes rather than products. Part Eight covers that risk directly and proposes plays to test it. Everything here should be read as the model we are aligning on, not the model we are running.
+This document exists so that sales and marketing agree one go-to-market model — the same segments, the same personas, the same qualification bar and the same rules about who contacts whom.
+How to find your play
+The three bundles every play sells
+Add-ons — additional shops, extra modules, certifications and Realync — attach to an existing bundle rather than being sold on their own. They are covered in Part Five-B.
+Two rules that apply to every play
+No account enters a play without a recorded, dated reason to reach out. Not a segment. Not a persona match. A specific event or gap a person would recognise as a reason to make contact.
+Never pitch the second bundle to the buyer who owns the first. Each bundle has its own budget owner. Selling Resident & Prospect to an L&D leader asks them to spend a budget they do not control.
+Part One — Enterprise
+307 active customers at 8,000+ portfolio units. 137 own a single bundle. Enterprise is already half multi-product, so the work here is depth rather than a first cross-sell — and every play is named-account, one-to-one.
+E1 — Add Resident & Prospect Satisfaction
+Enterprise · Buyer: Marketing · Current owner: Operations or L&D
+E2 — Add Workforce Excellence
+Enterprise · Buyer: Operations or L&D · Current owner: Marketing
+E3 — Platform Core to Platform Plus
+Enterprise · Buyer: Executive sponsor · The only play that reaches above the functions
+E3 doubles as the fix for our largest loss reason. Lack of executive support accounts for $759,717 across 36 lost deals — the biggest loss category by value. The platform motion needs a sponsor above both functional buyers, and this play builds that relationship before it is needed.
+E4 — Market Data, Sold Standalone
+Enterprise · Buyer: Asset management, BD, acquisitions · Do not lead with the platform
+Blocking gap: there is no asset manager persona in our library. It covers eleven roles and none of them is this buyer, so the budget owner for our fastest-growing product has never been documented. Build the persona before launching E4.
+Part Two — Mid-Market, Existing Customers
+1,732 active customers under 8,000 units, 1,141 of them on a single bundle. This is the largest block in the business and it is too large for named plays — it runs on triggers and packaging, at scale.
+M1 — Add Resident & Prospect Satisfaction
+Mid-Market · Buyer: Marketing · Current owner: Operations or L&D · 936 accounts
+M2 — Add Workforce Excellence
+Mid-Market · Buyer: Operations or L&D · Current owner: Marketing · 187 accounts
+M3 — Core to Plus
+Mid-Market · Buyer: the existing bundle owner · The easiest conversation we have
+Workforce Excellence at Plus adds combo mystery shopping, which makes M3 a bridge into M1 as well — the shopping data becomes the evidence for the resident and prospect conversation.
+Part Three — Mid-Market, New Logo
+385 opportunities this year. Mid-market new logo converts at 36.1% against enterprise's 15.0%, so this is where new-logo effort earns its return. The change is not how we land — it is what happens the day after.
+M4 — Land on Compliance, Designed to Expand
+Mid-Market prospect · Buyer: Operations or L&D · The fastest land we have
+The structural change here is small: today a new customer exits the demand system on close. It should exit into the cross-sell motion on close, with the gap already named. That single handoff is what turns a land into a multi-bundle customer over time — and the research is explicit that customers reach depth in step changes, not one jump.
+Part Four — Commercial
+197 active customers, and every single one owns exactly one bundle. No other segment is this uniform, and there is no cross-sell motion pointed at any of them.
+C1 — The First Cross-Sell
+Commercial · Buyer: Operations or Marketing · 103 accounts with product data, all single-bundle
+Do not launch C1 before the commercial value proposition exists in usable form. A well-targeted list with the wrong message will burn a 197-account segment that is too small to re-approach quickly.
+Part Five — Plays That Run Across Every Segment
+X1 — Re-Engagement
+Any segment · Buyer: whoever we last spoke to · 139 opportunities, $1.6M
+Half of all lost revenue went to no decision rather than to a competitor. A competitive loss needs a better product or price; a no-decision loss needs presence until conditions change. This is also the fastest play to start — the accounts are already qualified and it depends on none of the data fixes.
+X2 — Bundle Migration
+Every existing customer · Buyer: the current bundle owner, then the counterpart
+Three risks: customers feeling they now pay for capability they do not use, which the discovery window answers only if usage is surfaced; a window that expires silently, which reads as a takeaway; and migration landing as a price conversation instead of an outcome conversation. The third is marketing's to own.
+Part Five-B — Add-Ons
+Add-ons attach to a bundle an account already holds. None of them is sold on its own, and the buyer is always whoever owns the bundle it attaches to.
+Realync, specifically
+Realync is the only product in the portfolio going backwards — revenue fell 7.7% last year. External research explains why: buyers already get virtual leasing through platforms they own, so it loses a category evaluation on its own merits. The fix is distribution, not the product.
+Never sold standalone. It attaches to Resident & Prospect Satisfaction, where the marketing buyer is already ours.
+The evidence comes from a product they own — a conversion gap their own prospect shopping or survey results have already surfaced.
+It is the only product with quantified ROI proof points already built, which is exactly what an attach motion needs and which is currently wasted on cold prospects who have no reason to believe us yet.
+An add-on to an existing agreement is a much smaller decision than a platform evaluation, which removes the evaluation Realync loses.
+Realync runs a separate sales team and system. This play needs an agreed handoff — who opens the conversation, who prices it, and whose number it lands on — settled before launch, not after.
+Part Six — Win-Backs and Closed-Lost
+This is the most under-invested motion we have. Win-back opportunities convert at 76.5% at an average won value of $29,127 — higher than our average new-logo deal — and we run twenty-six of them in total. The re-approachable lost pool is 4,252 opportunities worth $60.9M.
+Two caveats before this is quoted anywhere. The 76.5% comes from a very small base, so treat it as encouraging rather than proven. And lapsed customers average 2,358 units against 7,504 for active ones — the churned base is large in count but small in size, so it is a volume play, not an enterprise one.
+Why we lose, all time — and what each loss needs
+Read the first row before designing any discount. No-decision losses are 19.3% of lost value; price and budget together are 5.8%. Discounting is the wrong instrument for roughly nine out of ten lost deals, and using it there gives away margin to solve a problem we do not have.
+W1 — The Gap We Have Since Closed
+Win-back · 403 opportunities · $7.8M · The most credible re-approach we have
+This play requires something we do not have: a maintained register of what we lost on, mapped against what we have since shipped. Building it is a small piece of work with a direct line to $7.8M of already-qualified demand, and it should sit with product marketing.
+W2 — The Consolidation That Underdelivered
+Win-back · 220 opportunities · $5.5M · A patience play, 12–18 months out
+The bundles make this play possible in a way it was not before. We lost these accounts as a collection of point products; we can now re-approach as a platform. Consolidation is also our single largest churn cause, so this play defends as well as it wins.
+W3 — Competitive Displacement
+Win-back · 756 named-competitor losses · $19.1M · 3x richer per deal than average
+Our competitive data is weak. Only 5.7% of lost opportunities name a real competitor and 91.4% are recorded as unknown, none or other. Before scaling this play, competitor capture at close needs to become mandatory — otherwise we are targeting the small share we happened to write down.
+W4 — Budget Re-Entry
+Win-back · 472 opportunities · $6.0M · Where discounting belongs, and only here
+Discounting rules for win-backs
+Change the offer before changing the price. A smaller bundle they will use beats a discounted bundle they will not.
+Never discount a no-decision loss. They did not decline on price, and a discount teaches them that waiting produces one.
+If a concession is necessary, trade it — a multi-year term, a reference or case-study commitment, an earlier start date, or expanded scope. A concession given for nothing re-anchors every future renewal.
+Time-box any re-entry offer and tie it to the bundle migration window, so it reads as a moment rather than a standing position.
+Set approval bands and expiry dates before the programme launches, not deal by deal.
+Track discount depth against retention. A discount that buys a customer who churns in eighteen months is a loss booked as a win.
+The pricing research supports this framing. Money accounts for roughly 11% of churned revenue and is defined there as delinquent billing and absent budget rather than price resistance — so price is rarely the real objection even when it is the recorded one.
+W5 — Champion Movement
+Win-back · Untracked today · The highest-converting trigger in B2B
+This is the cheapest play in the book and the only one currently running at zero. It needs contact-level job-change monitoring, which is a standard data service rather than a build.
+W6 — Lapsed Customer Reactivation
+Win-back · 2,425 accounts · Volume play, not an enterprise one
+Data limitation to fix first: only 2.9% of lapsed accounts record what they used to own, and no reliable churn date exists. Without those two fields this play cannot be segmented, and it will read as generic. Backfilling from historic closed-won records is the prerequisite.
+Part Seven — Channel Strategy: Who Reaches Out, and How
+The most common failure in a motion like this is not a bad campaign. It is marketing and sales contacting the same person in the same week with different messages. This part sets who owns which channel and the rules where they overlap.
+The three layers
+Rules where the layers overlap
+Marketing suppresses any account in an active sales sequence from competing campaigns. One voice at a time.
+Sales does not sequence an account without a marketing-supplied reason to reach out on the record.
+When sales sequences an account, marketing runs advertising to the same roles for the duration. The call is never the first contact.
+Customer accounts route to the account owner, never to a new-logo sequence. This is the failure the whole strategy exists to fix.
+Both sides record outcomes in the same place. A reply to an SDR and a reply to a campaign are the same signal about the same account.
+Marketing outreach versus sales outreach
+Deploying conversation intelligence, AI SDR and live SDR
+We have three outbound capabilities and they are good at different things. Using the wrong one is expensive in both directions — AI on an enterprise account reads as spam, and a live rep on a 200-unit reactivation does not pay for itself.
+The most under-used asset we have is what is said on calls. We already target advertising at accounts where a specific product came up in a recorded conversation — that practice works and it currently applies to one product. Extended across the portfolio it becomes a trigger source for the entire trigger library, and it is the only signal that captures intent nobody clicked on.
+Channels and strategies we are not currently considering
+Named plainly, because several are larger than things we are actively investing in.
+If only three are picked up: lapsed customers, job-change monitoring and conversation intelligence. All three are low effort, all three use assets we already hold, and none requires a new channel to be built.
+Part Eight — Is the Market Ready to Buy This Way?
+Everything in this book describes a future state. The bundles are not launched, and it is genuinely unclear whether this industry is ready to buy outcomes rather than products. That uncertainty deserves plays of its own rather than an assumption.
+What we know, and what we are assuming
+Plays to build readiness
+R1 — Prove the Cost of Fragmentation
+Market readiness · Category work, not product marketing
+R2 — Lead With a Benchmark Only We Can Produce
+Market readiness · The proof is the product
+R3 — Let the Base Make the Argument
+Market readiness · 328 customers already buy this way
+R4 — Let Them Experience It Rather Than Argue About It
+Market readiness · The discovery window
+The window only works if usage is surfaced. An unused window converts nobody and an unmeasured one cannot be argued from — and a window that expires silently reads as a takeaway rather than a trial.
+How we will know whether the market is ready
+Do buyers use outcome language back to us on calls, or do they keep asking for products by name?
+Does the counterpart persona engage with a benchmark aimed at their function, or only the buyer we already have?
+Does the discovery window get used, or ignored?
+Do multi-bundle deals close at a comparable rate to single-bundle deals, or materially slower?
+Recommend agreeing in advance what would cause us to slow down. If multi-bundle deals take materially longer to close without a higher win rate, the right response is to keep bundles as a pricing and packaging construct while continuing to sell them one at a time — a legitimate outcome, and much cheaper to discover early than late.
+Part Nine — How Accounts Reach a Play
+Every play above assumes an account arrives qualified. There are two ways that happens, and they share one target list, one gate and one scorecard.
+The qualification gate
+An account qualifies on breadth first and score second. Our contact-level score rates almost every contact identically, so it cannot discriminate and cannot be the gate. Two roles engaged at one account is a signal no single contact score can fake.
+Score does not open the gate. It ranks priority inside the qualified pool, so the team works the warmest accounts first. Thresholds are a starting proposal to calibrate against actual conversion in the first quarter.
+Inbound — earning the second role
+The job is not to score one person higher. It is to get a colleague of theirs to engage.
+Customers register for our webinars as training. Count a customer webinar registration as a role engaged. Never count it as intent to buy.
+Outbound — assembling the buying group
+Where outbound effort goes, in order
+Accounts already showing inbound signal — warmest and cheapest to convert.
+Re-engagement accounts from X1 — already qualified once.
+Cold named accounts from the tier list.
+Account tiers
+Part Ten — The Scoring Model
+An account model sitting on top of a contact-level score inherits all of its problems. The scoring model has to change alongside the qualification model.
+What the current model cannot do
+The proposed model: fit × role × behaviour
+Two models, because the signals differ
+How we switch
+Expect qualified volume to fall. A model with fit and seniority in it will qualify fewer accounts than one that counts clicks — that is the point. Agree in advance that volume drops and acceptance rate rises, and report both side by side. This is the conversation that derails scoring changes when it happens afterwards instead of before.
+What sales should see on every handoff
+Customer or prospect, and which bundles they already own.
+Which roles are engaged, and which are missing.
+The reason to reach out, dated.
+Whether an opportunity is already open.
+Which motion this is, and therefore which call to book.
+Part Eleven — Measurement
+The one number to add
+Bundles per account, reported monthly by segment. It currently stands at 1.44. Every play in this book exists to move it, and unlike lead volume it cannot be gamed by producing more of something cheap.
+The weekly scorecard
+Four motions, never blended, with a measure for each of the four dimensions we use to design plays.
+Beneath the table
+Speed to first touch, by motion.
+Cadence completion before an account is disqualified.
+Share of qualified accounts carrying a recorded reason.
+Share of handoffs enriched with bundles owned.
+Shown as not yet measurable
+Sales cycle — the underlying date fields are empty.
+Market-data and Realync attach — both sit outside the main system.
+Account coverage — no account-tier field exists yet.
+Operating cadence
+Appendix — Data Notes
+Three known distortions. Two of them make the opportunity look larger than it is, which is why they are stated plainly.
+Market data and Realync are under-counted
+Both run on separate systems with separate sales teams. Market data has no records in the main system at all; Realync appears at roughly half its true customer count. True bundle attachment is therefore somewhat higher, and whitespace somewhat smaller, than shown. Single-bundle share is realistically 66–70% rather than exactly 69.6%.
+Mystery shopping growth is overstated
+It shows 68% year-on-year growth, a large share of which is existing on-demand customers converted to annual contracts with a minimum spend. The revenue is real; the growth rate is not repeatable, and the cross-sell case rests on attach evidence rather than on that number.
+Pipeline sources disagree
+Our two pipeline views differ materially, most sharply on mid-market cross-sell, almost certainly a difference in how renewal records are treated. Volume and totals in this book come from the core system; mix and win rates from the revenue view. Neither overrides the other and they are never combined in one table.
+Other caveats
+Win rates use closed opportunities only. 71% of opportunities created this year are still open, so all rates will move.
+Re-engagement figures use a cleaned pool of 324 lost opportunities worth $3.27M, after excluding 212 duplicate records that inflated the raw pool by 41%.
+Sales cycle is not reported anywhere in this book because it cannot currently be computed.
+Willingness-to-pay research was designed but has not yet been delivered. No claim here depends on it.
+Sources: our core customer and opportunity records; an internal audit of the marketing programme, August 2026; the Revenue Management Labs baseline and packaging readouts of 14 and 31 July 2026; the packaging strategy of 6 August 2026; the revenue team's pipeline view; the multifamily persona library; and the 2026 recommended sales stages.
+
+[TABLE]
+If the account is… | And the buyer is… | Your play
+Enterprise — 8,000+ units | Operations / L&D (owns Workforce) | E1 — Add Resident & Prospect
+Enterprise — 8,000+ units | Marketing (owns Resident & Prospect) | E2 — Add Workforce Excellence
+Enterprise — 8,000+ units | Executive sponsor | E3 — Platform Plus upgrade
+Enterprise — 8,000+ units | Asset management / BD | E4 — Market data, standalone
+Mid-Market — active customer | Operations / L&D | M1 — Add Resident & Prospect
+Mid-Market — active customer | Marketing | M2 — Add Workforce Excellence
+Mid-Market — active customer | Existing buyer, either track | M3 — Core to Plus
+Mid-Market — prospect | Operations / L&D | M4 — Land on compliance
+Commercial | Operations / Marketing | C1 — First cross-sell
+Any segment, lost in the last 18 months | Whoever we spoke to | X1 — Re-engagement
+
+[TABLE]
+Bundle | Outcome it sells | Persona who owns the budget
+Platform — Core or Plus | One connected view of portfolio performance | Executive sponsor, Operations
+Workforce Excellence | Consistent operations, capable teams, risk under control | L&D, HR, Operations
+Resident & Prospect Satisfaction | Better leasing performance, retention and reputation | Marketing
+
+[TABLE]
+What we know about this segment | Number
+Active enterprise customers | 307
+Own only one bundle | 137
+Cross-sell win rate | 54.1%
+Upsell win rate | 92.2%
+Average cross-sell opportunity | $36,178
+New-logo win rate, for contrast | 15.0%
+
+[TABLE]
+Who | Enterprise accounts on Workforce Excellence with no Resident & Prospect bundle. The account is ours; the marketing leader is not.
+Selling | Resident & Prospect Satisfaction, Core — surveys, benchmarking and reputation monitoring.
+Trigger | A reputation score decline, a leasing or occupancy pressure point, a new marketing leader, or a portfolio acquisition.
+Message angle | Their leasing and reputation performance, evidenced where possible from data the account already generates. Never open with the workforce bundle they already own.
+Channels | Account-targeted advertising to the marketing persona, a direct approach from the account owner, and an introduction requested from the existing buyer — run in parallel, not in sequence.
+Destination | A reputation or leasing benchmark against comparable portfolios. Not a demo.
+Qualifies when | The marketing persona engages. Without them the play is dead regardless of who else responds — they own the budget.
+Exit | Bundle sold, or the account has no marketing function with budget, recorded so we stop trying.
+Owner | Lifecycle and customer marketing, with the account owner.
+
+[TABLE]
+Who | Enterprise accounts on Resident & Prospect with no Workforce bundle. Usually arrived through surveys or reputation.
+Selling | Workforce Excellence, Core — training, policies and onboarding.
+Trigger | A regulatory change, an audit or insurance requirement, turnover pressure, or a new L&D or operations leader.
+Message angle | The link between their existing resident data and the team delivering it — a satisfaction problem their surveys already show is usually an execution problem.
+Channels | Account advertising to operations and L&D personas, direct approach, and an introduction from the marketing buyer.
+Destination | A read-out connecting their own resident or shopping results to onsite execution.
+Qualifies when | An operations or L&D role engages, ideally director level or above.
+Exit | Bundle sold, or no operations budget holder identified.
+Owner | Lifecycle and customer marketing, with the account owner.
+
+[TABLE]
+Who | Enterprise accounts on Platform Core, particularly those with portfolio-level accountability or acquisition activity.
+Selling | Platform Plus — advanced analytics, AI action plans, integration, and full market data.
+Trigger | A portfolio decision they cannot currently make with the data they hold: an acquisition, a benchmarking need, or a board-level performance question.
+Message angle | Portfolio-level, not functional. What they could see across the whole book that they cannot see today.
+Channels | One peer-level approach from a Grace Hill leader, supported by account advertising to the executive persona set.
+Destination | A portfolio benchmark or market briefing that is useful whether or not they upgrade.
+Qualifies when | An executive persona engages, or the number of roles engaged on the account increases.
+Exit | Upgraded, or confirmed that no portfolio-level buyer exists — which is itself useful for every other play.
+Owner | Demand generation with the account executive.
+
+[TABLE]
+Who | Asset management, business development and acquisitions roles — including at accounts we already serve, where we have never reached that function.
+Selling | Market and comp data, standalone. This buyer does not want a training platform and pitching one loses the deal.
+Trigger | An acquisition, a market entry, or an underwriting cycle.
+Message angle | Rent comps, unit-level market data and underwriting insight. Entirely their language, none of ours.
+Channels | Channels this buyer actually uses, which are not the channels the L&D buyer uses. This needs new distribution rather than a re-cut of existing lists.
+Destination | A market read-out for a market they are actively evaluating — immediately useful, and it demonstrates the product.
+Qualifies when | Return visits and repeat market look-ups. This buyer self-serves and reveals intent through usage rather than replies.
+Exit | Landed standalone. The platform conversation is a separate, later play.
+Owner | Demand generation with the market-data team.
+
+[TABLE]
+What we know about this segment | Number
+Active mid-market customers | 1,732
+Own only one bundle | 1,141
+Own Workforce only, nothing else | 936
+Own Resident & Prospect only, nothing else | 187
+Cross-sell win rate (SMB) | 59.0%
+Upsell win rate (SMB) | 79.7%
+
+[TABLE]
+Who | The 936 accounts on Workforce Excellence and nothing else. The single largest pool in the company.
+Selling | Resident & Prospect Satisfaction, Core.
+Trigger | Renewal window, reputation score movement, portfolio growth, or a new marketing contact appearing at the account.
+Message angle | The outcome, not the product: what their leasing and reputation performance looks like against comparable portfolios.
+Channels | Customer email segmented by what they own — not by persona alone — plus in-product placement and account advertising. All three already exist and need re-pointing rather than building.
+Destination | A benchmark on the dimension the second bundle measures.
+Qualifies when | A marketing role engages, or a second role of any kind engages alongside a trigger.
+Exit | Bundle sold, or the account declines and is suppressed for two quarters.
+Owner | Lifecycle and customer marketing. Automated, not named-account.
+
+[TABLE]
+Who | The 187 accounts on Resident & Prospect and nothing else, plus the 81 holding only legacy shopping.
+Selling | Workforce Excellence, Core.
+Trigger | A regulatory or compliance date, a resident satisfaction result that points at execution, or hiring activity.
+Message angle | Their own survey or shopping results, used to show a problem the workforce bundle solves. The evidence comes from a product they already own, so the diagnosis is credible before we make a claim.
+Channels | Direct from the account owner — these pools are small enough to work by name — supported by email and account advertising.
+Destination | A “what your data is telling you” read-out.
+Qualifies when | An operations or L&D role engages.
+Exit | Bundle sold, or a recorded reason it will not happen.
+Owner | Lifecycle and customer marketing with the account owner.
+
+[TABLE]
+Who | Any account on a bundle at Core showing ceiling behaviour.
+Selling | The same bundle at Plus. No new buyer, no new implementation, no new budget conversation.
+Trigger | Heavy use of the most advanced Core capability, repeated support contact on the same theme, or an approaching renewal.
+Message angle | The specific limitation they have hit, and what changes. Not a full tier comparison.
+Channels | In-product at the moment the limit is felt, then account-owner follow-up. In-product beats email decisively here — the moment of frustration is the moment of relevance.
+Destination | A short before-and-after on the limitation they hit.
+Qualifies when | The limitation recurs. Escalating support contact on one theme is the strongest signal in this play.
+Exit | Upgraded, or renewed at Core with the limitation recorded for next cycle.
+Owner | Lifecycle marketing and customer success jointly. Customer success sees the signal first.
+
+[TABLE]
+Who | Prospects under 8,000 units with a compliance trigger.
+Selling | One bundle at Core — usually Workforce Excellence. Not the platform, and not both tracks.
+Trigger | A regulatory change, an audit, an insurance requirement, or a new L&D hire.
+Message angle | Compliance opens the door and it converts. But it is the outcome buyers rank last, so the follow-through has to move quickly to operations and resident outcomes.
+Channels | Search and answer engines on the compliance topic, webinars, gated content, and the AI SDR.
+Destination | A regulation briefing or readiness checklist. Low commitment, high utility.
+Qualifies when | Standard new-logo qualification — but the second-bundle gap is recorded at the point of sale, not discovered at renewal.
+Exit | Landed, and immediately enrolled in M1 with the gap already named. This handoff is the point of the play.
+Owner | Demand generation, handing to lifecycle marketing on close.
+
+[TABLE]
+Who | All active commercial accounts.
+Selling | Any second bundle. The baseline is zero, so the first objective is learning which outcome resonates.
+Trigger | Commercial-specific. These operators do not share multifamily's compliance drivers, so a trigger imported from the multifamily playbook will not land.
+Message angle | Commercial framing throughout. Multifamily proof points do not persuade this audience.
+Channels | Extend the commercial survey programme that already runs rather than building parallel infrastructure. Add commercial-specific account advertising.
+Destination | A commercial benchmark.
+Qualifies when | Any engagement, in the first quarter. Treat the opening period as learning which outcome lands.
+Exit | Bundle sold, or the segment is formally deprioritised with the reason recorded.
+Owner | Demand generation with commercial input on messaging.
+
+[TABLE]
+Who | Opportunities lost in the last 18 months to no decision, silence or a lost champion — not to a competitor.
+Selling | Whichever bundle fits the original need, repositioned around the outcome rather than the product.
+Trigger | Varies by loss reason: renewed budget cycle for a budget loss, a leadership change where the sponsor was missing, a regulatory change where it was not a priority.
+Message angle | What has changed since — in our product or their market. Never a repeat of the original pitch.
+Channels | Light-touch email first, then a sequenced outbound approach where the account still fits.
+Destination | A short update, not a meeting request.
+Qualifies when | Any account-level re-engagement. A different person from the same account responding counts as success.
+Exit | Re-opened, or suppressed with a reason.
+Owner | Lifecycle marketing with the SDR team.
+
+[TABLE]
+Who | All 2,326 active customers, who bought individual products and now need mapping onto bundles.
+Selling | The bundle their current products already sit inside, plus the part they are missing.
+Trigger | Renewal. Migration lands at renewal rather than off-cycle, so the conversation is already scheduled.
+Message angle | What they already have, plus what is missing. Not a price-change announcement — that framing is the main risk in this programme.
+Channels | The renewal notice sequence that already runs, plus a discovery window where the full bundle is switched on for a defined period.
+Destination | A usage summary showing what they actually used during the window.
+Qualifies when | They engage with the discovery window. Usage during the window is the whole argument.
+Exit | Migrated, and the second-bundle gap recorded for M1 or M2.
+Owner | Lifecycle marketing with customer success.
+
+[TABLE]
+Add-on | Attaches to | Buyer | Trigger
+Realync | Resident & Prospect Satisfaction | Marketing | A tour-to-lease conversion problem visible in their own shopping or survey data
+Additional shops | Either bundle | Whoever owns the bundle | Coverage gaps across the portfolio, or a specific property under scrutiny
+Additional modules | Workforce Excellence | L&D, Operations | A role or topic their current content does not cover
+Certifications | Workforce Excellence | L&D, HR | Career-path or retention programmes
+Policy modules | Workforce Excellence | Operations, Risk | A new regulation or a jurisdiction they have entered
+
+[TABLE]
+The win-back opportunity | Number
+Win-back opportunities ever created | 26
+Won | 13
+Closed win rate | 76.5%
+Average won value | $29,127
+Lost opportunities from 2023 onward, still re-approachable | 4,252
+Value of that pool | $60.9M
+Lapsed customers we no longer serve | 2,425
+
+[TABLE]
+Why we lost | Opps | Value | What would change their mind
+No decision, went silent, no sponsor | 1,690 | $20.0M | Nothing about our offer. Presence until conditions change
+Product gap | 403 | $7.8M | Proof the specific gap is closed
+Price or budget | 472 | $6.0M | A different offer shape — rarely a lower price
+Consolidated onto another platform | 220 | $5.5M | Time, and evidence the suite underdelivered
+Relationship or perception | 132 | $1.1M | A new relationship, not a new pitch
+
+[TABLE]
+Who | Accounts lost because something was missing — critical functionality, integrations, usability, or a complete offering they needed.
+Selling | The bundle that now contains what they said was missing.
+Trigger | We ship it. This play fires off the roadmap, not off a campaign calendar.
+Message angle | Name the specific gap they named, and what changed. This is the only win-back message that is falsifiable, which is exactly why it earns a reply.
+Channels | Direct from a person, not a campaign — ideally whoever they last dealt with. Supported by account advertising for larger accounts.
+Destination | A short demonstration of the specific capability. Not a full platform walkthrough.
+Qualifies when | Any reply. A negative reply that names a second gap is also a success — it updates the register.
+Exit | Re-opened, or the gap is confirmed still open and the account returns to the register.
+Owner | Product marketing supplies the trigger; lifecycle marketing and the SDR team run it.
+
+[TABLE]
+Who | Accounts that left or chose against us to consolidate onto a single platform — most often a property management suite.
+Selling | The bundle, positioned as consolidation done properly. We are now the consolidator, not the point solution.
+Trigger | 12 to 18 months after they consolidated, which is when the capability gap becomes visible. Also: a renewal window at the incumbent, or a service failure.
+Message angle | Not that they were wrong. That the trade-off they accepted has a cost, and it is now measurable. External research puts the threshold plainly — consolidation only works when the platform delivers 90 to 95% of best-of-breed capability.
+Channels | Executive-level and peer-led. This is a decision someone senior made and will need cover to revisit.
+Destination | A capability comparison on the dimensions they actually lost, ideally with a customer who made the same round trip.
+Qualifies when | An executive or the original decision-maker engages.
+Exit | Re-opened, or diarised for the next renewal cycle.
+Owner | Lifecycle marketing with the account executive.
+
+[TABLE]
+Who | Accounts lost to a named competitor. Yardi leads at 181 losses and $5.5M, then Ellis, RealPage and J. Turner.
+Selling | Whichever bundle maps to what they bought elsewhere.
+Trigger | Their renewal window at the incumbent, a public service issue, an acquisition, or a champion change.
+Message angle | Specific to why they would switch now, not a general claim of superiority. Switching costs are real and a feature comparison does not overcome them.
+Channels | Named-account treatment. Live SDR and account executive, with account advertising alongside.
+Destination | A migration or switching path that makes the change feel small.
+Qualifies when | Two or more roles engage. Displacement is never a single-threaded decision.
+Exit | Re-opened, or diarised to the next renewal.
+Owner | ABM and the account executive.
+
+[TABLE]
+Who | Accounts lost specifically on budget or on value against cost.
+Selling | A different shape of offer — usually a smaller bundle at Core, a different term, or a phased scope.
+Trigger | New fiscal year, portfolio growth, or a bundle that changes the economics of what they wanted.
+Message angle | What has changed about the price-to-value equation, not what has changed about the price.
+Channels | Direct, from the original owner where possible.
+Destination | A right-sized proposal, not a discount offer.
+Qualifies when | Budget authority re-engages.
+Exit | Re-opened, or diarised to their next budget cycle.
+Owner | Account executive, with lifecycle marketing supplying timing.
+
+[TABLE]
+Who | People who knew us — champions, admins, users at customers or lost accounts — who have moved to a new company.
+Selling | Whatever fits their new employer. They already know how we work.
+Trigger | A role change at a known contact. This requires monitoring the contact base for job moves, which we do not do today.
+Message angle | Personal and short. Congratulations, and an offer to help them do what they did before, faster.
+Channels | One-to-one from a human. Never a sequence.
+Destination | A conversation. Nothing else.
+Qualifies when | They reply. Conversion on this trigger is far above any campaign.
+Exit | Opportunity created, or noted for later.
+Owner | Lifecycle marketing detects; the account executive acts.
+
+[TABLE]
+Who | Accounts we no longer serve. Predominantly smaller operators, averaging 2,358 units against 7,504 for our active base.
+Selling | A single bundle at Core. Not the platform.
+Trigger | Best available proxy is the original loss reason and its date, because reliable churn dates are not held on the account.
+Message angle | What has changed since they left — product, packaging, or both.
+Channels | Automated and low-cost: email, retargeting, and AI-assisted outreach. The economics do not support live SDR time across 2,425 accounts.
+Destination | A short update and an easy way back in.
+Qualifies when | Any account-level re-engagement.
+Exit | Re-opened, or suppressed.
+Owner | Lifecycle marketing, automated.
+
+[TABLE]
+Layer | Owned by | Channels | Used for
+One-to-many — always on | Marketing | Search and answer engines, paid search, paid and organic social, email programmes, web, content, webinars, review and listing sites | Creating and capturing demand at scale. Runs whether or not sales is engaged
+One-to-few — by cluster | Shared | Account advertising, bundle-gap email streams, named-account landing pages, targeted event invitations, direct mail | Warming a defined group of accounts that share a gap or a trigger
+One-to-one — named | Sales | Live SDR, AI SDR, sequenced outreach, account executive contact, customer success and account management, executive-to-executive | Converting a qualified account into a conversation
+
+[TABLE]
+ | Marketing outreach | Sales outreach
+Unit | The account and the role | The named individual
+Goal | Create the conditions and the reason | Convert the reason into a conversation
+Volume | Thousands, always on | Tens per rep per week
+Personalisation | By segment, bundle gap and persona | By account and individual
+Success | Roles engaged, accounts warming | Meetings booked, accounts accepted
+When it leads | No named contact yet, or the account is cold | A reason exists and the account fits a tier
+
+[TABLE]
+Capability | Best used for | Do not use for
+Conversation intelligence | Mining calls for competitor mentions, product-gap language, budget timing and named stakeholders — then turning those into triggers and target lists | A replacement for a documented reason to reach out. It is a source of reasons, not the record of one
+AI SDR | Speed to first response on inbound, mid-market cross-sell at scale, lapsed-customer reactivation, first-touch qualification on large lists | Enterprise named accounts, executive personas, win-backs with history, or anything requiring judgement about a relationship
+Live SDR | Named accounts, multithreading three roles at once, executive outreach, competitive displacement, and any win-back where a person remembers us | High-volume low-value lists where the economics do not support the time
+Sequenced outreach | The execution layer for both AI and live motions, with shared cadence rules and one record of what was sent | Running without suppression rules — this is where double-contact happens
+
+[TABLE]
+Opportunity | Why it matters | Effort
+Lapsed customers | 2,425 accounts we no longer serve — more than our active base by count. No motion exists | Low
+Job-change monitoring | A champion moving to a new company is the highest-converting trigger in B2B, and we do not watch for it | Low
+Conversation intelligence as a trigger source | Already proven on one product; unused across the rest | Low
+Answer engines | Buyers increasingly ask an AI rather than a search box. We do not know whether we are cited | Medium
+In-product messaging | Every expansion trigger we need is visible in usage, and marketing has no channel there | Medium
+Peer review and listing sites | This industry buys on peer validation, and our presence is thin | Medium
+Industry associations | Personas tell us their association already does their training — that is both a competitor and a distribution channel | Medium
+Formal customer advocacy | Internal referral is already among our highest-converting sources and it runs informally | Low
+Property-management platform ecosystems | The platforms we lose to are also integration partners and a co-sell route | High
+Executive peer roundtables | The sponsor persona will not attend a webinar but will join a small peer conversation | Medium
+
+[TABLE]
+ | Evidence
+Supports bundling | Every persona names vendor sprawl as a problem. Consolidation is our single largest churn cause, so buyers are already consolidating — just not always onto us
+Supports bundling | Customers who own three products pay eight times more, grow, and stay. The behaviour already exists in our base at 328 accounts
+Against bundling | Buyers may read a bundle as paying for capability they do not use. The pricing research flags this directly
+Against bundling | Budgets sit with different functions. A bundle spanning two budgets needs a sponsor above both, and many mid-market operators do not have one
+Unknown | Whether buyers will accept an outcome-led conversation from a vendor they know as a training company
+
+[TABLE]
+Goal | Make the problem the bundle solves visible before the bundle is for sale.
+What we do | Publish the argument that disconnected tools cost money — in turnover, in compliance exposure, in leasing performance. Use our own cross-product data as the evidence base.
+Channels | Search and answer engines, industry press, associations, webinars, conference speaking.
+Measure | Whether the language shows up in inbound conversations and on recorded calls. Category adoption is measured in vocabulary before it shows in pipeline.
+Timing | Begins before launch. This is the longest-lead item in the plan.
+
+[TABLE]
+Goal | Demonstrate the value of connected data rather than asserting it.
+What we do | Publish a benchmark that requires more than one product to produce — training completion set against resident satisfaction, or shopping scores against leasing conversion. A point solution cannot answer it.
+Channels | Gated content, webinars, direct to named accounts as the destination asset in every cross-sell play.
+Measure | Engagement from the counterpart persona specifically. If a marketing leader engages with a workforce benchmark, the connection has landed.
+Timing | Can start now, on current data.
+
+[TABLE]
+Goal | Third-party proof that multi-bundle ownership works, from operators who look like the buyer.
+What we do | Turn the highest-depth customers into references, case studies and peer speakers. Quantify what changed for them across products, not within one.
+Channels | Peer roundtables, conference sessions, customer stories, association partnerships.
+Measure | Reference requests, and whether deals citing a peer close at a higher rate.
+Timing | Can start now.
+
+[TABLE]
+Goal | Replace a pricing debate with a usage fact.
+What we do | Switch on the full bundle for a defined period at migration, then show the customer what they actually used. Usage is a better argument than any deck.
+Channels | In-product, customer success, renewal conversation.
+Measure | Usage during the window, and conversion at term end.
+Timing | At bundle launch. Depends on the window mechanic being built.
+
+[TABLE]
+An account qualifies when… | Which motion | Sales books
+Two or more relevant roles engage within 30 days | Inbound or outbound | A first sales call
+One contact explicitly asks to speak to sales | Inbound | A first sales call, fast lane
+A customer hits a trigger and one role engages on the gap | Expansion | A greenfield call
+
+[TABLE]
+Step | What happens | Exit
+1. First engagement | One contact from a fitting account interacts | Account is engaged
+2. Confirm the account | Flag customer status, bundles owned, open opportunity, segment | Routed to the right play
+3. Serve the counterpart | Content aimed at the other bundle's buyer — not more of the same to the same person | Second role engages
+4. Invite the account | Something worth bringing a colleague to | Two roles engaged
+5. Qualify | Reason recorded, gate met | Hand to sales
+
+[TABLE]
+Rule | The standard
+Entry | No sequence starts without a recorded, dated reason on the account
+Multithread | Three roles contacted in parallel — champion, counterpart function, budget holder — not one at a time
+Cadence | Fifteen touches across three channels before an account is called dead
+Spacing | Minimum 36 hours between calls, never daily, explicit opt-out offered in sequence
+Air cover | Account advertising runs alongside for the length of the sequence
+Exit | Meeting booked, or a documented reason it will not happen
+
+[TABLE]
+Tier | Who | Scale | Treatment
+Tier 1 | Largest portfolios, including the nine named accounts already running | ~25 | One-to-one. Named plan, bespoke content, executive sponsor mapped
+Tier 2 | Remaining enterprise accounts | ~280 | One-to-few by cluster. Shared content by bundle gap, account advertising
+Tier 3 | Mid-market active customers | 1,732 | One-to-many. Triggered, packaging-led, automated
+
+[TABLE]
+Issue | Consequence
+The qualification bar is also the maximum score | The model has two states — at the top or not. It cannot rank, prioritise or tier
+No fit dimension; the score is entirely behavioural | A 400-unit operator and a 40,000-unit operator qualify identically
+No seniority weighting | An onsite employee and a VP score the same points for the same click
+Registration scores the same as attendance | Customers reach half the bar through activity that is training, not buying
+Scores never cool | Interest from weeks ago carries the same weight as interest today
+No disqualifying criteria | Noise reaches the same threshold as genuine demand
+
+[TABLE]
+Dimension | What it scores | How it works
+Fit — account | Portfolio units, segment, industry, customer status | A gate, not points. An account either fits a motion or it does not
+Role — contact | Seniority and function against the personas who buy each bundle | A multiplier on that person's behaviour. Decision-maker highest, end user near zero
+Behaviour — rolled up | Weighted actions, decayed over time, diminishing returns per person | Intent actions score far above consumption. The fifth action from one contact adds little
+Coverage — the gate | How many distinct relevant roles are engaged | Two or more roles, or one hand-raise, opens the gate
+
+[TABLE]
+ | What it scores
+New logo | Research behaviour: category and solution content, pricing and comparison pages, events, third-party intent. Existing customers excluded outright
+Expansion | Ownership and usage: the bundle they do not own, usage against expectation, support patterns another bundle solves, renewal proximity, portfolio growth. Training consumption scores zero
+
+[TABLE]
+Phase | What happens | How we know it worked
+1. Back-test | Rebuild the last four quarters under the new model against what actually converted | It separates won from lost more sharply than the current one
+2. Shadow | Both models run side by side; the new score is visible but routes nothing | Disagreements reviewed weekly, thresholds tuned
+3. Switch | Account qualification moves to the new model; the old score stays as a diagnostic | Sales acceptance holds or improves at equal or lower volume
+4. Calibrate | Thresholds reset quarterly against conversion rather than left fixed | Qualified volume tracks capacity, not the calendar
+
+[TABLE]
+Motion | Data | Distribution | Destination | Direction | Qualified | Pipeline $
+Enterprise new logo | % with reason | roles / acct | % on offer | net warming | count | $ created
+Enterprise expansion | % with reason | roles / acct | % on offer | net warming | count | $ created
+Mid-market cross-sell | % with reason | roles / acct | % on offer | net warming | count | $ created
+Mid-market new logo | % with reason | roles / acct | % on offer | net warming | count | $ created
+
+[TABLE]
+Cadence | Who | What is reviewed
+Weekly, 30 min | Demand, lifecycle, sales ops | Pipeline by motion against plan; accounts entering and leaving plays
+Monthly | CMO, CRO, revenue operations | Bundles per account by segment; attach rate; play-level conversion
+Quarterly | Executive team | Economics by motion; which plays to scale, fix or stop

@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.png
+*.pdf
+*.zip
+*.pptx
+*.docx
+*.xlsx
+*.skill
+_dist/
+Grace-Hill-Competitive-Intelligence.html
+drive_dump.txt

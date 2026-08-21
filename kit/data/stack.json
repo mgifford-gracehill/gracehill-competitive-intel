@@ -1,0 +1,223 @@
+{
+  "headline": "The Multifamily Operator Stack",
+  "subhead": "Seven layers. One resolution loop.",
+  "premise": "Systems of record capture what happened. Grace Hill turns it into what gets fixed. The resolution layer sits above the system of record and across the operating stack, turning recorded performance into resolved performance. Layers one through three follow the renter. Layers zero, four, six and seven follow the operator. Layer five is the only layer that touches both, and the only one that must read from the layers around it and write action back into them. That requirement is why it is a category rather than a feature, and why it is still empty.",
+  "resolutionLoop": [
+    { "step": "READ", "detail": "Pull property, lease, resident, team and market context" },
+    { "step": "DIAGNOSE", "detail": "Correlate signals to find the cause, not the symptom" },
+    { "step": "PRESCRIBE", "detail": "Assign the next best action to a specific person" },
+    { "step": "ROUTE", "detail": "Push the action into the tools that carry it out" },
+    { "step": "PROVE", "detail": "Re measure to confirm the outcome actually moved" }
+  ],
+  "readsFrom": [
+    "Property and lease data",
+    "Resident sentiment",
+    "Prospect experience",
+    "Team readiness",
+    "Market context"
+  ],
+  "actsThrough": [
+    "Training and policy",
+    "Onboarding and coaching",
+    "Maintenance workflows",
+    "Leasing and renewal actions",
+    "Pricing and renewal decisions"
+  ],
+  "graceHillAssets": [
+    "Intelligence+",
+    "Ask Gracie",
+    "Training",
+    "Policies",
+    "Onboarding Pathways",
+    "Kingsley Index",
+    "Ellis Mystery Shopping",
+    "HelloData",
+    "Realync"
+  ],
+  "layers": [
+    {
+      "number": 0,
+      "name": "Systems of record · PMS and ERP",
+      "does": "Owns the ledger. Leases, residents, charges, payments and work orders.",
+      "limit": "Records what happened. Not built to improve it.",
+      "vendors": ["Yardi", "RealPage", "Entrata", "MRI", "AppFolio", "ResMan"],
+      "isGraceHill": false
+    },
+    {
+      "number": 1,
+      "name": "Demand and Leasing",
+      "does": "Attract prospects, run tours, convert applications and price the unit.",
+      "limit": "",
+      "vendors": ["Apartments.com", "Funnel", "Knock", "EliseAI", "Rently", "revenue mgmt"],
+      "isGraceHill": false
+    },
+    {
+      "number": 2,
+      "name": "Resident Living and Service",
+      "does": "Deliver the daily experience that determines whether a resident renews.",
+      "limit": "",
+      "vendors": ["Zego", "Lessen", "HappyCo", "AppWork", "SightPlan", "Luxer One"],
+      "isGraceHill": false
+    },
+    {
+      "number": 3,
+      "name": "Physical and Connected Property",
+      "does": "Run access, smart devices, utilities and the building systems.",
+      "limit": "",
+      "vendors": ["SmartRent", "PointCentral", "ButterflyMX", "Latch", "Conservice"],
+      "isGraceHill": false
+    },
+    {
+      "number": 4,
+      "name": "People and Workforce",
+      "does": "Hire, pay, schedule and retain the onsite and corporate team.",
+      "limit": "",
+      "vendors": ["ADP", "Paylocity", "Paycom", "UKG", "learning and engagement platforms"],
+      "isGraceHill": false
+    },
+    {
+      "number": 5,
+      "name": "Resolution · The Resolution Layer for Multifamily",
+      "does": "Sits above the system of record and across the operating stack, turning recorded performance into resolved performance. Read · Diagnose · Prescribe · Route · Prove.",
+      "limit": "",
+      "vendors": ["Grace Hill"],
+      "isGraceHill": true
+    },
+    {
+      "number": 6,
+      "name": "Asset, Finance and Investor",
+      "does": "Report performance to capital and fund the operating plan.",
+      "limit": "",
+      "vendors": ["Juniper Square", "Dealpath", "AvidXchange", "business intelligence"],
+      "isGraceHill": false
+    },
+    {
+      "number": 7,
+      "name": "Ancillary and Risk Transfer",
+      "does": "Move risk off the balance sheet and monetize adjacent services.",
+      "limit": "",
+      "vendors": ["Rhino", "LeaseLock", "Assurant", "Jetty", "fraud and sustainability"],
+      "isGraceHill": false
+    }
+  ],
+  "categoryMatrix": [
+    {
+      "alternative": "Grace Hill",
+      "signal": "Full",
+      "benchmark": "Full",
+      "diagnosis": "Full",
+      "prescription": "Full",
+      "proof": "Full"
+    },
+    {
+      "alternative": "Property management systems",
+      "signal": "Partial",
+      "benchmark": "Partial",
+      "diagnosis": "Partial",
+      "prescription": "None",
+      "proof": "None"
+    },
+    {
+      "alternative": "Resident feedback and reputation",
+      "signal": "Full",
+      "benchmark": "Partial",
+      "diagnosis": "Full",
+      "prescription": "None",
+      "proof": "None"
+    },
+    {
+      "alternative": "Survey and benchmarking specialists",
+      "signal": "Full",
+      "benchmark": "Full",
+      "diagnosis": "Partial",
+      "prescription": "None",
+      "proof": "None"
+    },
+    {
+      "alternative": "Conversation analysis and coaching",
+      "signal": "Full",
+      "benchmark": "None",
+      "diagnosis": "Full",
+      "prescription": "Partial",
+      "proof": "None"
+    },
+    {
+      "alternative": "Leasing CRM and AI leasing agents",
+      "signal": "Full",
+      "benchmark": "None",
+      "diagnosis": "Partial",
+      "prescription": "None",
+      "proof": "None"
+    },
+    {
+      "alternative": "Market data providers",
+      "signal": "Full",
+      "benchmark": "Full",
+      "diagnosis": "Partial",
+      "prescription": "None",
+      "proof": "None"
+    },
+    {
+      "alternative": "Generic learning platforms",
+      "signal": "None",
+      "benchmark": "None",
+      "diagnosis": "None",
+      "prescription": "Partial",
+      "proof": "Partial"
+    },
+    {
+      "alternative": "Status quo",
+      "signal": "None",
+      "benchmark": "None",
+      "diagnosis": "Partial",
+      "prescription": "Partial",
+      "proof": "None"
+    }
+  ],
+  "categoryMatrixNote": "Signal, benchmark and diagnosis are commoditizing. Prescription and proof are unoccupied, and artificial intelligence does not commoditize them, because they require an owned remediation library and a longitudinal record of outcomes rather than model capability.",
+  "categoryFraming": {
+    "taken": "Performance — A major property management system vendor has branded its platform around performance and co publishes performance research with the leading trade association",
+    "crowded": "Intelligence — Resident, operational, revenue and market intelligence are all claimed. The word also describes the input, and inputs are no longer scarce",
+    "owned": "Resolution — No multifamily vendor uses it. It is the only frame that describes what Grace Hill does and others cannot"
+  },
+  "categoryArchitecture": {
+    "category": "The resolution layer for multifamily",
+    "promise": "Grace Hill gives owners and operators a clear path from issue to resolution to proof",
+    "contrast": "Everyone can tell you what is wrong. Grace Hill tells you what to do, helps the team do it, and proves it worked",
+    "outcomes": "Revenue for the manager. NOI and exit valuation for the owner"
+  },
+  "outcomes": [
+    "Higher Retention",
+    "Stronger Reputation",
+    "Faster Time to Lease",
+    "More Productive Teams",
+    "Higher NOI",
+    "Greater Property Value"
+  ],
+  "closingLine": "Not another system of record. The layer that makes the rest of the stack perform.",
+  "defensibleAssets": [
+    {
+      "asset": "Unsolicited prospect experience (Ellis and EPMS mystery shopping)",
+      "why": "Independent, compliance grade evidence no internal system generates"
+    },
+    {
+      "asset": "Solicited sentiment with depth (Kingsley Index, more than 30 years of benchmarking)",
+      "why": "Longitudinal depth accumulates only with time and scale"
+    },
+    {
+      "asset": "The remediation library (approximately 600 courses and 800 industry specific policies)",
+      "why": "Maintained against changing regulation across jurisdictions. Not a modeling problem"
+    },
+    {
+      "asset": "Market context (HelloData, public records across approximately 5 million properties)",
+      "why": "Outside context without the provenance exposure reshaping the pricing category"
+    }
+  ],
+  "proofPoints": [
+    "More than 500,000 professionals trained",
+    "More than 2,800 companies served",
+    "Forty years of multifamily performance data",
+    "Thirty years of resident benchmarking",
+    "The only remediation library in the industry"
+  ]
+}

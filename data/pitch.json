@@ -1,0 +1,387 @@
+{
+  "asOf": "August 2026",
+  "source": "Grace Hill Company Pitch (August 2026), 30/3/30 structure. Supersedes the Bold v6 deck.",
+  "theme": "NOI pressure never stops.",
+  "anchorPromise": "Retention is the lever that raises revenue and lowers cost in the same quarter. Grace Hill gets teams there, and proves the number moved.",
+  "thirtySecond": "NOI pressure never stops, and most operators are still chasing the wrong fix. Rent increases feel like the safe fix. They're not — management quality decides retention far more than price does, and that pressure on NOI never stops for owners and operators. Grace Hill connects the property data, benchmarks, and feedback nobody else has. Teams know what matters, act on it, and prove it improved. That's PerformanceHQ: issue to resolution.",
+  "threeMinute": {
+    "gap": "The gap is not data. It is what happens next. Most teams can see the issue. The harder part is resolving it, getting it done, and proving it worked.",
+    "whatYouSee": [
+      "Survey scores",
+      "Reviews",
+      "Shop results",
+      "Training records",
+      "Market data"
+    ],
+    "whatYouStillNeed": [
+      "What should change",
+      "Who owns it",
+      "Whether it worked"
+    ],
+    "whatMovesResults": [
+      "One clear next step",
+      "Consistent follow-through",
+      "Proof of impact"
+    ],
+    "close": "Grace Hill is built for the work after the finding. AI is making findings cheaper. It is not making teams less busy. The value is knowing what to do and proving it worked."
+  },
+  "marketShift": {
+    "whatChanged": "AI can score more calls, reviews, shops, surveys, and market data.",
+    "whatDidNot": "Your teams still have the same hours and a full day already in front of them.",
+    "whatItMeans": "More findings can become more pressure if nobody knows what to do next.",
+    "line": "The new bottleneck is resolution."
+  },
+  "resolutionLoop": [
+    {
+      "n": 1,
+      "step": "KNOW",
+      "detail": "Name the one thing actually holding the property back, not the five things the reports flagged."
+    },
+    {
+      "n": 2,
+      "step": "ACT",
+      "detail": "Close it with the training, policy and coaching proven to work on properties like this one."
+    },
+    {
+      "n": 3,
+      "step": "PROVE",
+      "detail": "Show the experience scores, retention and NOI that improved because of it. What the proof shows becomes the next priority."
+    }
+  ],
+  "loopNote": "This used to be five steps. It is three, because that is how many an operator can actually hold a team to. Most tools stop at Know — they report. Some reach Act. Almost nothing Proves, and Prove is where the renewal argument lives. No property has to invent its own way from problem to proof.",
+  "insight": {
+    "headline": "It looks like a pricing problem. The data says otherwise.",
+    "sub": "Management quality decides renewals, and how fast an issue gets resolved decides whether it compounds.",
+    "stats": [
+      {
+        "stat": "2.7x",
+        "label": "Management quality outweighs rent increases as the reason residents don't renew."
+      },
+      {
+        "stat": "41%",
+        "label": "of negative renewal reviews cite maintenance — the single largest category."
+      },
+      {
+        "stat": "24 hrs",
+        "label": "Respond within a day and residents rate it positively even if imperfect. Past 72 hours they rate it negatively even if the outcome is perfect."
+      },
+      {
+        "stat": "$20K",
+        "label": "saved a year for every one unit a month kept from turning over."
+      }
+    ],
+    "close": "Grace Hill surfaces what matters first, resolves it before it compounds, and proves what that was worth.",
+    "sources": "Renewal review analysis across roughly 79,000 renewals; multifamily reputation index across roughly 400,000 reviews; published renewal threshold research; NAA operating cost data."
+  },
+  "pattern": {
+    "headline": "Four problems. One root cause.",
+    "rows": [
+      {
+        "seen": "A training problem",
+        "owner": "L&D",
+        "actual": "Teams aren't ready"
+      },
+      {
+        "seen": "A reputation problem",
+        "owner": "Marketing",
+        "actual": "Moments go wrong"
+      },
+      {
+        "seen": "A leasing problem",
+        "owner": "Operations",
+        "actual": "Leases and residents lost"
+      },
+      {
+        "seen": "A pricing problem",
+        "owner": "Asset Mgmt",
+        "actual": "NOI takes the hit"
+      }
+    ],
+    "close": "You buy for the symptom. The cause sits upstream.",
+    "ask": "Which of the four are you being asked to solve right now?",
+    "compounds": [
+      "Wrong fix chosen",
+      "Issue keeps going",
+      "Lease doesn't renew",
+      "NOI takes the hit"
+    ],
+    "compoundsNote": "It compounds the same way every time. That is why picking the wrong desk is not a neutral mistake — it costs a renewal."
+  },
+  "paysTwice": {
+    "thisYear": "Residents who renew mean fewer turns, less vacancy, fewer concessions. Revenue goes up and turn cost goes down at the same time — the one lever that pays the property manager and the owner in the same quarter.",
+    "atExit": "Durable NOI capitalizes. A one-time cost cut does not. A structural operating improvement survives the sale — and a buyer pays for it.",
+    "arithmetic": "$100 of durable NOI per unit per year ÷ a 5% cap rate = $2,000 of asset value per unit = $600,000 on a single 300-unit asset.",
+    "note": "Cap rate is illustrative. Ask theirs and redo the math live — it lands far harder in their numbers."
+  },
+  "alternatives": [
+    {
+      "approach": "Status quo",
+      "goodFor": "Fast to start",
+      "stops": "Gut feel and one-off spreadsheets. Impossible to prove."
+    },
+    {
+      "approach": "Point solutions",
+      "goodFor": "Fixing one symptom well",
+      "stops": "A survey tool here, an LMS there. Each sees one piece, never the whole property."
+    },
+    {
+      "approach": "PMS reporting",
+      "goodFor": "System of record",
+      "stops": "Records what happened. Doesn't say what to do next, or prove it worked."
+    },
+    {
+      "approach": "Your best managers",
+      "goodFor": "Real results, right now",
+      "stops": "Works in one building. Leaves when they do."
+    }
+  ],
+  "alternativesNote": "Be genuinely fair to each — we lose to all of them, and credibility here is what buys you the next slide. Grace Hill is the layer that turns all of it into one diagnosis, and one proof point. Ask what else is on their shortlist.",
+  "perfectWorld": [
+    {
+      "n": 1,
+      "title": "One picture",
+      "detail": "People, resident experience, and market in one view — not four reports."
+    },
+    {
+      "n": 2,
+      "title": "A named next action",
+      "detail": "Not just what happened. What to do about it, at that property."
+    },
+    {
+      "n": 3,
+      "title": "One standard",
+      "detail": "Holds at every property, not only where a strong manager happens to be."
+    },
+    {
+      "n": 4,
+      "title": "Proof it worked",
+      "detail": "Measured against benchmarks, in numbers your exec team already uses."
+    }
+  ],
+  "perfectWorldNote": "This is the hinge of the whole pitch. If they agree with this list, they have agreed to purchase criteria only we meet. Do not move on without an explicit yes.",
+  "connectsBothSides": {
+    "evidence": [
+      "Surveys",
+      "Shops",
+      "Reviews",
+      "Market data",
+      "Property performance"
+    ],
+    "context": [
+      "Benchmarks",
+      "Market comps",
+      "Portfolio trends",
+      "Industry expertise"
+    ],
+    "improvement": [
+      "Training",
+      "Policies",
+      "Onboarding",
+      "Guided action",
+      "Proof of impact"
+    ],
+    "moat": "A model can be rebuilt. Years of what happened next cannot.",
+    "note": "Avoid saying 'more data'. Say we connect evidence, context, and improvement on the same properties over time."
+  },
+  "ai": {
+    "changed": "Finding problems is becoming nearly free. Any tool can now tell you a property is underperforming, or that a review was negative. Detection is no longer scarce.",
+    "unchanged": "Knowing the right fix, getting it done, and proving it worked. That needs an owned library of remediations and years of outcomes to compare against — not a better model.",
+    "close": "More findings just means more to resolve. And whether the person in front of your resident is on payroll or is an agent, someone still has to decide what good looks like."
+  },
+  "proof": [
+    {
+      "stat": "30+ years",
+      "label": "of resident and employee satisfaction data — the largest benchmarking database in multifamily.",
+      "area": "Benchmarks"
+    },
+    {
+      "stat": "500,000+",
+      "label": "multifamily professionals developed, with skill-gap benchmarks by role, region and property class.",
+      "area": "People performance"
+    },
+    {
+      "stat": "13% / $30K",
+      "label": "increase in renewal intention and turnover cost saved per community, for multi-solution clients.",
+      "area": "Outcome"
+    }
+  ],
+  "proofQuote": {
+    "quote": "Grace Hill's products are intentional, helpful, and designed to make our teams better.",
+    "who": "Welton McCrary, Perennial Properties"
+  },
+  "objections": [
+    {
+      "objection": "We already get some of this free in our PMS.",
+      "response": "You do — and you should use it. Free modules record activity. They don't benchmark it or tell you which property to fix first."
+    },
+    {
+      "objection": "This is a lot to take on at once.",
+      "response": "Then don't. Start with one track where the budget already sits. Expansion is a tier change, not a new project."
+    },
+    {
+      "objection": "Different teams own these budgets.",
+      "response": "That's the whole problem — and it's why we priced it so one team can start without waiting on the others."
+    },
+    {
+      "objection": "We're not replacing our system of record.",
+      "response": "Good — don't. It stays the ledger. We sit above it and hand work back to the people who do it."
+    },
+    {
+      "objection": "Won't AI just do all this soon?",
+      "response": "AI made finding problems cheap. It hasn't made fixing them easy — that needs an owned library of fixes and years of results to compare against. Point at what sits underneath: their own property data, 30+ years of benchmarks, resident and employee sentiment, and content built for multifamily roles. A competitor can copy the screen. None of those four can be bought."
+    }
+  ],
+  "packaging": {
+    "platform": [
+      {
+        "tier": "Core",
+        "includes": "Dashboards, single sign-on, integrations, cross-product reporting, advanced analytics, and market data essentials."
+      },
+      {
+        "tier": "Plus",
+        "includes": "Adds AI-generated action plans, full market data, and open API access for your own AI tooling."
+      }
+    ],
+    "tracks": [
+      {
+        "track": "Workforce Excellence",
+        "forWho": "Typically L&D / Operations",
+        "value": "Develop people and drive operational consistency.",
+        "loop": "Know the gap → Teach the move → Reinforce it → Show progress",
+        "showsUpIn": "Training, policies, onboarding, mystery shop results, employee surveys, and role-based learning."
+      },
+      {
+        "track": "Resident & Prospect Satisfaction",
+        "forWho": "Typically Marketing / Operations",
+        "value": "Improve the resident and prospect experience.",
+        "loop": "Listen → Prioritize → Close the loop → Improve results",
+        "showsUpIn": "Surveys, reputation, benchmarking, feedback and sentiment, response diagnostics, and leasing experience."
+      }
+    ],
+    "addOns": [
+      "Extra content modules",
+      "Additional property visits",
+      "Video leasing tools",
+      "Certifications and credentials"
+    ],
+    "note": "Everything priced per unit, per month — so cost scales with the portfolio, not a seat count. Lead with the single track whose budget owner is in the room; combined-track deals have longer cycles. Note for anyone reading an old RFP: single-product LMS responses have been quoted per user, per month. That is a product-scoped exception, not the model. The pricing books in Salesforce are the source of truth.",
+    "pricingSourceOfTruth": "Pricing books in Salesforce. Not an RFP response, and not this app."
+  },
+  "languageToAvoid": [
+    "signals (retired — say evidence, context and improvement, or property data and benchmarks)",
+    "signals, connected",
+    "more data",
+    "AI as an employee — it's about who is interacting with your residents, human or agent",
+    "push into your PMS / automated write-back — say ASSIGN",
+    "generic 'Operations' as a standalone persona label — use owners/operators, property teams, regional leaders"
+  ],
+  "closingLine": "Every team, more effective. Every resident, retained.",
+  "tagline": "Every team, more effective. Every resident, retained.",
+  "fourThings": {
+    "headline": "Four things nobody else has together, and none of them are commoditised",
+    "sub": "Anyone can buy a dashboard. None of what sits underneath this one can be bought.",
+    "items": [
+      {
+        "name": "Their actual property data",
+        "detail": "Surveys and reviews, mystery shops, training and policy records."
+      },
+      {
+        "name": "30+ years of benchmarks",
+        "detail": "The largest set in multifamily — peers, not an arbitrary target."
+      },
+      {
+        "name": "Resident and employee sentiment",
+        "detail": "What residents say before they leave, and what employees say before they quit."
+      },
+      {
+        "name": "Content and expertise",
+        "detail": "Training built for multifamily roles. The proven path, not a generic best practice."
+      }
+    ],
+    "underneath": "Market context sits underneath all four: comps, rents, concessions, and what the competitive set is actually doing this week.",
+    "close": "A competitor can copy the screen. What sits behind it cannot be replicated."
+  },
+  "outcomeChain": {
+    "steps": [
+      "Employees improve",
+      "Residents stay",
+      "Revenue grows",
+      "NOI improves"
+    ],
+    "proof": "Multi-solution clients see up to a 13% increase in renewal intention and roughly $30K in turnover cost savings per community.",
+    "source": "Grace Hill customer data, multi-solution clients."
+  },
+  "story": {
+    "name": "Denise",
+    "role": "Property operations, 40-property portfolio",
+    "situation": "Denise ran property operations across 40 properties.",
+    "pain": "One property kept scoring low no matter which team rotated through it, and every review cited the same theme. Nobody could tell whether it was the people or the building.",
+    "impact": "Once the pattern was clear enough to act on, her team made the case to ownership: a $100,000 renovation, approved in one meeting. NOI on that property has been climbing since.",
+    "point": "Not every fix is training. Sometimes the property is the problem, not the people.",
+    "ask": "What would it change to know that early?"
+  },
+  "stories": [
+    {
+      "name": "Patty",
+      "role": "VP of Training and Development, large operator, roughly 35,000 units",
+      "useWhen": "Disconnected tools, no portfolio view",
+      "situation": "Her tools didn't talk to each other. Policies sat in paper handbooks, shopping was evaluated separately from development, and performance was tracked on a spreadsheet.",
+      "pain": "Leadership had no real-time view across the portfolio. Her teams didn't get information in time, and it showed up as inconsistent service and leasing.",
+      "impact": "Once it was connected, they stopped hunting for policies. Admins assigned targeted development, and her people found what they needed themselves.",
+      "quote": "Consolidation has been a game changer. It was a complete fresh start.",
+      "point": "The win was not a new feature. It was one place to look.",
+      "ask": "Where would that kind of visibility change how your team works?"
+    },
+    {
+      "name": "Walton",
+      "role": "Director of Property Management, roughly 2,500 A-class units",
+      "useWhen": "Can't make the case for spend",
+      "situation": "Data lived in different systems, so the team made it work manually.",
+      "pain": "An amenity space wasn't pulling its weight. Without knowing what residents actually wanted, his team couldn't justify upgrades, so it stayed under-invested while comps moved.",
+      "impact": "He went from guessing to acting with confidence, and secured a six-figure amenity investment from owners.",
+      "point": "The value was not the insight. It was that the insight was defensible enough to fund.",
+      "ask": "What would you need in hand to get that approved?"
+    },
+    {
+      "name": "Denise",
+      "role": "Property operations, 40-property portfolio",
+      "useWhen": "It's the property, not the people",
+      "situation": "Denise ran property operations across 40 properties.",
+      "pain": "One property kept scoring low no matter which team rotated through it, and every review cited the same theme. Nobody could tell whether it was the people or the building.",
+      "impact": "Once the pattern was clear enough to act on, her team made the case to ownership: a $100,000 renovation, approved in one meeting. NOI on that property has been climbing since.",
+      "point": "Not every fix is training. Sometimes the property is the problem, not the people.",
+      "ask": "What would it change to know that early?"
+    }
+  ],
+  "storiesNote": "Match the story to the pain they just named. Two sentences per beat, two minutes out loud, end on the open question. The test: did they know who the hero was, did they care, and did they feel the pain before the fix?",
+  "worthIt": {
+    "headline": "Now let's use your numbers.",
+    "rows": [
+      [
+        "Units in the portfolio",
+        "5,000"
+      ],
+      [
+        "Annual resident turnover",
+        "50%"
+      ],
+      [
+        "Cost per turn (make-ready, vacancy, concessions, commissions)",
+        "$4,000"
+      ],
+      [
+        "Annual cost of turnover",
+        "$10,000,000"
+      ],
+      [
+        "A 3-point turnover improvement returns",
+        "$600,000"
+      ],
+      [
+        "At a 5% cap rate, creates asset value of",
+        "$12,000,000"
+      ]
+    ],
+    "note": "Illustrative. Replace every figure with theirs, live, on the call. The same math runs on employee turnover and on tour-to-lease conversion."
+  }
+}

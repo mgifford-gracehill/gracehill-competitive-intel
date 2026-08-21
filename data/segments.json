@@ -1,0 +1,57 @@
+{
+  "note": "Real segmentation as the business runs it. Replaces the previously invented ICP text.",
+  "source": "Grace Hill sales and CS segmentation definitions; RML Pricing & Packaging Baseline Analysis, July 2026",
+  "sales": {
+    "label": "Sales segmentation",
+    "basis": "Total portfolio units, plus account status",
+    "rows": [
+      {"name": "Enterprise", "rule": "8,000+ units"},
+      {"name": "Mid-Market New Logo", "rule": "0–7,999 units · Account Status = Prospect"},
+      {"name": "Mid-Market Cross-Sell", "rule": "0–7,999 units · Account Status = Active"},
+      {"name": "Commercial", "rule": "Account Industry = Commercial"}
+    ]
+  },
+  "cs": {
+    "label": "Customer Success segmentation",
+    "basis": "Units, except Strategic",
+    "rows": [
+      {"name": "GH Success", "rule": "Under 1,999 units"},
+      {"name": "Mid-Market", "rule": "2,000–7,999 units"},
+      {"name": "Enterprise", "rule": "8,000+ units"},
+      {"name": "Strategic", "rule": "Top 100 clients by ARR"}
+    ]
+  },
+  "outcomeSegments": {
+    "label": "Outcome segments",
+    "why": "More useful for positioning than unit count, because it describes what the customer is trying to do. Segments 2–5 all serve one goal: NOI.",
+    "rows": [
+      {"name": "Compliance Seeker", "wants": "Reduce legal and operational risk", "products": "Training, Policies", "customers": 1175, "avgProducts": 1.1, "note": "Largest segment by customer count, smallest by products held. The obvious cross-sell pool."},
+      {"name": "Workforce Maximizer", "wants": "Manage employee capability and consistency", "products": "+ Mystery Shopping", "customers": 397, "avgProducts": 1.8, "note": "Growing 30% year on year."},
+      {"name": "Market Intelligence Seeker", "wants": "Better pricing and portfolio decisions", "products": "HelloData®", "customers": 706, "avgProducts": 1.0, "note": "Fastest growing at 150%, and mostly arriving as new logos."},
+      {"name": "Leasing Streamliner", "wants": "Occupancy and leasing conversion", "products": "+ Realync", "customers": 55, "avgProducts": 1.0, "note": "Small and contracting."},
+      {"name": "Sentiment Seeker", "wants": "Resident and prospect sentiment", "products": "+ Surveys, Reputation Management", "customers": 41, "avgProducts": 1.0, "note": "Small. Survey churn is driven by the product feeling dated, not by price."},
+      {"name": "Power User", "wants": "Two or more of the above", "products": "Combines pathways", "customers": 328, "avgProducts": 2.8, "note": "12% of customers, 48% of MRR. Five of the six migration paths end here."}
+    ]
+  },
+  "migration": {
+    "label": "How customers actually expand",
+    "points": [
+      "Almost every path ends at Power User — five of the six transitions.",
+      "Mystery Shopping and HelloData® are what customers add. Training or Policies is usually the front door.",
+      "The single biggest move: Training-only customers adding Mystery Shopping — 52 of them.",
+      "Power User is reached in steps, not one jump. Expansion has to be designed as a ladder."
+    ]
+  },
+  "whyWeLose": {
+    "label": "Why we actually lose",
+    "headline": "On consolidation and value — not on price.",
+    "points": [
+      "75% of lost revenue is winnable or fixable. Only 25% is structural: M&A, portfolio sold, business closed.",
+      "Price is among the smallest real drivers at 11% of churned MRR.",
+      "Training and Policies lose to tech-stack consolidation. Yardi is the name that comes up.",
+      "Surveys lose because the product feels dated — lack of innovation is the top stated reason, not cost.",
+      "Mystery Shopping loses to \"no longer a strategic priority\" and portfolio reduction."
+    ],
+    "useIt": "When someone says they are consolidating vendors, that is the single largest reason we lose. Do not treat it as a price conversation."
+  }
+}

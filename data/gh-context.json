@@ -1,0 +1,129 @@
+{
+  "note": "What the system must understand about Grace Hill before it writes anything competitive. These are not facts to cite — they are the framing that decides what gets emphasized and what gets over-claimed. Sourced from SME review rather than from web research, which is why they carry an owner rather than a URL.",
+  "why": "Several errors found in the 2026-08-20 stakeholder review were not competitor-research failures. They were the system not knowing enough about us to tell what is accurate, what is nuanced, and what actually matters enough to lead with.",
+  "reviewed": "2026-08-20",
+  "statements": [
+    {
+      "id": "pm-specific",
+      "area": "Content",
+      "claim": "Our content is built specifically for property management.",
+      "soWhat": "Lead with industry and role specificity — leasing, maintenance, on-site teams. This is the broad argument against any general-purpose LMS.",
+      "owner": "Content",
+      "confidence": "SME confirmed"
+    },
+    {
+      "id": "broader-than-fh",
+      "area": "Content",
+      "claim": "Fair Housing is a major strength, but our value is broader than Fair Housing — it includes other industry-specific compliance and role-specific content.",
+      "soWhat": "Do not reduce the content story to fair housing and state variants. That undersells the library and narrows the conversation.",
+      "owner": "Content",
+      "confidence": "SME confirmed"
+    },
+    {
+      "id": "federal-first",
+      "area": "Compliance",
+      "claim": "Our compliance content is primarily federal, with select state, local or agency-specific exceptions.",
+      "soWhat": "Never imply a 50-state variant of every course. Name the specific exceptions where they exist and stop there.",
+      "owner": "Content",
+      "confidence": "SME confirmed"
+    },
+    {
+      "id": "spanish-two-things",
+      "area": "Content",
+      "claim": "Fully translated Spanish courses and the Language Support Tool are two different capabilities.",
+      "soWhat": "Ask which one the customer needs before answering. Conflating them creates a promise we may not meet.",
+      "owner": "Content",
+      "confidence": "SME confirmed"
+    },
+    {
+      "id": "maintain-not-assume",
+      "area": "Compliance",
+      "claim": "We have an established process for monitoring regulatory changes and maintaining compliance content. That does not mean Grace Hill assumes the customer's compliance responsibility.",
+      "soWhat": "Say we maintain the content. Never say we are contractually or operationally responsible for their compliance. This is a legal boundary, not a positioning choice.",
+      "owner": "Content",
+      "confidence": "SME confirmed"
+    },
+    {
+      "id": "not-interchangeable",
+      "area": "Content",
+      "claim": "Different content types and programs are designed for different learning needs rather than being interchangeable.",
+      "soWhat": "Do not treat course count as the unit of value, or imply any course substitutes for another.",
+      "owner": "Content",
+      "confidence": "SME confirmed"
+    },
+    {
+      "id": "horizontal-depth",
+      "area": "Positioning",
+      "claim": "Point solutions have depth vertically. We have depth horizontally. They cover one thing completely; we cover a connected system. That is why a feature-by-feature comparison against a point solution is the wrong fight — on their one axis they will often win, and the axis is the thing we are arguing about.",
+      "soWhat": "Do not try to out-feature a point solution on its own ground. Move the conversation to what happens between the tools: the survey that finds the issue, the training that closes it, the shop that verifies it, the report that proves it moved. A point solution cannot produce that chain at any depth. This is also why we sell the platform and bundled services rather than modules — an unbundled comparison hands the buyer a spec sheet and hides the loop.",
+      "owner": "VP of Product Marketing",
+      "confidence": "High"
+    },
+    {
+      "id": "realync-47-headline",
+      "area": "Proof points",
+      "claim": "The approved campaign headline \"47% More Leases Start With Realync\" misstates the underlying data. The real finding is that prospects who engaged with Realync video leased 47% of the time versus 15% for those who did not — a 47% conversion RATE, not 47% more leases. Across 79 property management companies, 1,340 properties and 218,000 prospects in 2024.",
+      "soWhat": "Two things. First, a rep repeating \"47% more leases\" is understating us by a wide margin — the actual ratio is roughly 3x — and will be corrected by anyone who reads the source. Second, it is correlation from observational data, not a controlled result: prospects who engage with video are self-selected. Cite the dated study with both numbers side by side (47% versus 15%) and let the ratio speak. Do not use the bare 3x without the two conversion rates behind it. The corrected wording is approved for rep-facing use as of 2026-08-21; the brand voice guide headline is with Brand to update.",
+      "owner": "VP of Product Marketing",
+      "confidence": "High — wording confirmed by VP of Product Marketing 2026-08-21",
+      "recommendedWording": "Prospects who engaged with Realync video leased 47% of the time. Prospects who did not leased 15%. (2024 study: 79 property management companies, 1,340 properties, 218,000 prospects.)",
+      "recommendedWordingNote": "Use both rates side by side and cite the dated study. Shorter alternative for a slide: \"47% lease conversion with video engagement, versus 15% without.\" Never \"47% more leases\" and never a bare \"3x\" without the two rates. Correlation from observational data — engaged prospects are self-selected — so the study citation carries the claim.",
+      "status": "Approved wording — VP of Product Marketing, 2026-08-21. Brand has been asked to update the approved campaign headline.",
+      "openItem": "One unresolved figure in the same source: the Realync ROI model lists \"relative increase in lead-to-lease conversion: 218%\". 47% against 15% is a 213% relative increase, so 218% either comes off a different base or is a transcription of the 218,000-prospect sample size. Left as sourced and flagged rather than silently changed — worth a check with whoever owns the ROI model."
+    },
+    {
+      "id": "recording-consent-states",
+      "area": "Mystery shop",
+      "claim": "The all-party (2+ party) recording-consent state list is 14 states: CA, CT, DE, FL, IL, MD, MA, MI, MT, NV, NH, OR, PA, WA. GHU 1060 and 1061 are correct. GHU 1623 lists 13 and omits Oregon.",
+      "soWhat": "Use 14 and include Oregon. GHU 1623 (FAQ: PerformanceHQ - Mystery Shop) is being corrected now. Until it is corrected, a rep reading 1623 will give a prospect a short list, and Oregon is a live market. Recording consent is the client's responsibility to obtain in every case — Grace Hill supplies a sample form and does not secure authorizations.",
+      "owner": "VP of Product Marketing",
+      "confidence": "Confirmed 2026-08-21 — 14 is correct",
+      "status": "Confirmed 14 by VP of Product Marketing 2026-08-21. GHU 1623 correction in progress — owned by VP of Product Marketing."
+    }
+  ],
+  "howSourcesWork": {
+    "competitorSide": "Every competitor claim carries a public source URL and a verification date, visible on the record's Sources tab.",
+    "ourSide": "Two files. Capability answers come from gh-baseline.json — 77 entries, 75 with a public gracehill.com or hellodata.ai URL and 2 from internal documents. Product descriptions come from gh-index.json — 20 products with no record-level source, owner or review date, though the 123 proof points inside them each name an internal document (playbooks, enablement decks, case-study collections).",
+    "gap": "The prose on our product pages — what it is, why it matters, differentiators, objections — has no traceable origin. It is the layer most likely to be wrong and the least checkable, and it is what an outsider reads first.",
+    "wanted": "Per product line: one named owner, a primary source we can point at, and the two or three nuances an outsider gets wrong.",
+    "bestAvailableSource": "AdminHQ (adminhq.performancehq.gracehill.com), structured as manuals containing policies. It is what Ask Gracie™ cites in its own answers, and since June 2026 it is also where release notes live. Not yet connected to this tool."
+  },
+  "sourceHierarchy": [
+    {
+      "rank": 1,
+      "source": "Grace Hill University (GHU) — internal.performancehq.gracehill.com",
+      "what": "Process and policy. How content is built, monitored, translated and released, and what Grace Hill does and does not commit to.",
+      "use": "Authoritative. This outranks everything else on how we operate."
+    },
+    {
+      "rank": 2,
+      "source": "AdminHQ Knowledge Library — adminhq.performancehq.gracehill.com",
+      "what": "Customer-facing help. Product capability, configuration, compliance coverage, release notes, and the Grace Hill Content FAQs.",
+      "use": "Authoritative on what the product does today. Written for admins, so rephrase before it reaches a prospect."
+    },
+    {
+      "rank": 3,
+      "source": "Grace Hill Digital Catalog — catalog.gracehill.com",
+      "what": "Current course-level truth: what exists, in which language, with Language Support or not.",
+      "use": "Authoritative and public, so a prospect can be pointed straight at it. Use it instead of quoting a count."
+    },
+    {
+      "rank": 4,
+      "source": "Public release-note PDFs and monthly release notes",
+      "what": "Dated record of what shipped and what was retired, and why.",
+      "use": "Best evidence for the legal-monitoring claim, because retirements name the law that moved."
+    },
+    {
+      "rank": 5,
+      "source": "RFP responses",
+      "what": "How we answered a specific buyer, in a specific scope, on a specific date.",
+      "use": "Context only, never authoritative. Three reasons. They are often scoped to one product, so the platform and Intelligence+ story is absent and our answers look thinner than the platform is. They are a moment in time and features ship after them. And a response may reflect a special customization rather than the standard offering. If an RFP contradicts a GHU or AdminHQ source, the RFP is wrong or narrow — do not promote it."
+    },
+    {
+      "rank": 6,
+      "source": "gracehill.com marketing pages",
+      "what": "Positioning and headline claims.",
+      "use": "Lowest rank. Useful for how we talk, unreliable for what is true. Every claim sourced here should be re-sourced upward."
+    }
+  ]
+}

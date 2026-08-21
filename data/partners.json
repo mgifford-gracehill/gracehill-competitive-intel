@@ -1,0 +1,541 @@
+{
+  "note": "Grace Hill's six published partner programs, taken from gracehill.com/partnerships. The point of this file is that 'partner' is not one thing. A Training Partner means their content sits inside our LMS, which is a reason to buy us. An Integration Partner means data moves between the platforms. A Referral or Reseller Partner means revenue moves. Those three call for completely different behavior from a rep, and the old version of this file collapsed them into one warning.",
+  "source": "https://gracehill.com/partnerships",
+  "reviewed": "2026-08-21",
+  "rule": "Check the program before you decide how to behave. Compete on the overlapping product only, never on the parent company. If the customer already runs the partner's platform, the relationship is usually a reason to buy us rather than an obstacle.",
+  "programs": [
+    {
+      "id": "training",
+      "name": "Training Partner Program",
+      "short": "Training Partner",
+      "official": "brings together Grace Hill and industry partners to deliver high-quality training content for free to Grace Hill Training customers.",
+      "whatItMeans": "Their training content is delivered inside PerformanceHQ Training, free to our Training customers. If a property runs both companies' products, their people take that partner's training in the same place as everything else — one login, one transcript, one compliance report.",
+      "repMove": "Lead with the consolidation. This is a reason to buy us, not a conflict: the customer keeps the partner they like and stops managing a second system to get its training. Say \"their content already lives in our platform.\"",
+      "watchFor": "Do not position against the partner's own product. If there is genuine overlap it sits elsewhere in their line, not in the content they give us.",
+      "posture": "reason-to-buy",
+      "partners": [
+        "EliseAI",
+        "PetScreening",
+        "TransUnion",
+        "Snappt"
+      ]
+    },
+    {
+      "id": "integration",
+      "name": "Integration Partnerships",
+      "short": "Integration Partner",
+      "official": "seamless access to partner solutions within our products or pushes customer data to the partner solutions they prefer.",
+      "whatItMeans": "The two platforms exchange data. Either their solution is reachable from inside ours, or we push customer data out to theirs. Several of these companies also sell products that compete with ours — that is normal and it is why the program exists.",
+      "repMove": "Compete on the specific module that overlaps, and only that module. If the prospect already runs the partner's platform, the integration is a buying reason: their data flows without a project.",
+      "watchFor": "Never characterize the parent company, its quality, or its roadmap. A Yardi or Entrata product competing with us does not make Yardi or Entrata a competitor. Confirm posture with your manager before any comparative language about the parent.",
+      "posture": "compete-on-the-module",
+      "partners": [
+        "Apartments.com",
+        "National Apartment Association",
+        "Zoom",
+        "Incentco",
+        "Yardi",
+        "ChatMeter",
+        "Anyone Home by Inhabit",
+        "Funnel",
+        "Knock",
+        "BetterBot",
+        "Engrain",
+        "Hyly.ai",
+        "Entrata",
+        "Conversion Logix",
+        "EliseAI",
+        "D2 Demand Solutions",
+        "ResMan by Inhabit",
+        "Interplay Learning",
+        "UKAA",
+        "Rustici Software",
+        "ShopMetrics"
+      ]
+    },
+    {
+      "id": "survey",
+      "name": "Survey Partner Program",
+      "short": "Survey Partner",
+      "official": "connects survey clients with innovative solutions that directly address areas of improvement identified through resident and tenant feedback.",
+      "whatItMeans": "When a survey surfaces a problem, these are the partners we point customers at to fix it. They sit downstream of our data, on the action side of the loop rather than the measurement side.",
+      "repMove": "This strengthens the Act step of Know, Act, Prove. The survey finds the issue and there is already a named route to fixing it. Use it as evidence the loop closes.",
+      "watchFor": "Do not compete with a Survey Partner on the fix they provide. If they also sell measurement, that part may overlap — separate the two before you say anything comparative.",
+      "posture": "downstream-of-us",
+      "partners": [
+        "Zark",
+        "EliseAI",
+        "Building Engines",
+        "Gatewise",
+        "Fetch",
+        "HappyCo"
+      ]
+    },
+    {
+      "id": "referral",
+      "name": "Referral and Reseller Partnerships",
+      "short": "Referral / Reseller Partner",
+      "official": "partners receive qualified leads or Grace Hill receives referrals; select cases include reseller agreements for distributing partner content.",
+      "whatItMeans": "Revenue moves between us. We send them leads, they send us leads, and in some cases we resell their content. A person on their side may be compensated on a deal we source.",
+      "repMove": "Treat as an extension of our own team. Never compete. If their name comes up, the answer is that we work together — then hand it to the partnership owner.",
+      "watchFor": "This is the highest-sensitivity program in the list, because a competitive remark can land on someone who is paid on our pipeline. No comparative language at all without your manager.",
+      "posture": "never-compete",
+      "partners": [
+        "SkillCat",
+        "Mindstone AI",
+        "Incentco"
+      ]
+    },
+    {
+      "id": "thought-leadership",
+      "name": "Thought Leadership and Marketing Partnerships",
+      "short": "Thought Leadership Partner",
+      "official": "co-branded education and industry insights, including webinars, content, sponsorships, and visibility.",
+      "whatItMeans": "Industry bodies and trade press we publish alongside. No product relationship. Often a route into a room rather than anything a rep sells against.",
+      "repMove": "Use the co-branded material as credibility, and the relationship as an introduction path. Never a competitor.",
+      "watchFor": "An industry body that also runs a credential or a training platform is two things at once. Separate the association from its commercial arm before you say anything comparative.",
+      "posture": "never-compete",
+      "partners": [
+        "GRESB",
+        "Multifamily Insiders",
+        "North Virginia Apartment Association",
+        "Commercial Property Executive",
+        "National Apartment Association",
+        "Multifamily Executive"
+      ]
+    },
+    {
+      "id": "content",
+      "name": "Content Creation Partnerships",
+      "short": "Content Creation Partner",
+      "official": "partners develop high-quality training or thought leadership content for distribution on Grace Hill platforms.",
+      "whatItMeans": "They build course or thought-leadership content that ships on our platforms. Distinct from the Training Partner Program, where a partner contributes their existing content free — here they are building it for distribution with us.",
+      "repMove": "Part of the answer to \"is your library deep enough?\" Named specialist partners built parts of it. Say who, and what they specialize in.",
+      "watchFor": "Do not imply we authored content a partner built, and do not present a partner's specialist library as proof of our own authoring capacity.",
+      "posture": "reason-to-buy",
+      "partners": [
+        "Interplay Learning",
+        "PetScreening",
+        "HD Supply"
+      ]
+    }
+  ],
+  "alerts": {
+    "elevate-mystery-shopping": {
+      "title": "Name collision — this is not our Elevate",
+      "line": "This is a separate company at elevatemysteryshopping.com, unrelated to Grace Hill Elevate. Say the full company name out loud, and never let “Elevate” stand alone in a conversation where both could be meant."
+    }
+  },
+  "changes": [
+    {
+      "what": "The National Apartment Association partnership ends after Q1 2027.",
+      "affects": "Integration Partnerships and Thought Leadership. NAA also underpins Visto's credential position.",
+      "confidence": "unconfirmed, internal source",
+      "action": "Confirm with the partnership owner before it changes anything a rep says."
+    }
+  ],
+  "companies": [
+    {
+      "company": "Yardi",
+      "match": [
+        "yardi"
+      ],
+      "programs": [
+        "integration"
+      ],
+      "line": "Yardi is an Integration Partner. Their individual products compete with ours; the company does not. Compete on the product in front of you. If the prospect already runs Yardi PMS, the integration is a buying reason."
+    },
+    {
+      "company": "Entrata",
+      "match": [
+        "entrata"
+      ],
+      "programs": [
+        "integration"
+      ],
+      "line": "Entrata is an Integration Partner. Compete on the module that overlaps ours and never characterize the platform."
+    },
+    {
+      "company": "ResMan and Anyone Home (Inhabit)",
+      "match": [
+        "resman",
+        "inhabit",
+        "anyone home"
+      ],
+      "programs": [
+        "integration"
+      ],
+      "line": "ResMan and Anyone Home are both Integration Partners and Inhabit owns them. Compete on the module, never on ResMan, Anyone Home or Inhabit."
+    },
+    {
+      "company": "Knock",
+      "match": [
+        "knock"
+      ],
+      "programs": [
+        "integration"
+      ],
+      "line": "Knock is an Integration Partner, now inside RealPage — the integration is with Knock specifically, not with RealPage. Overlap is narrow and rarely decides a deal."
+    },
+    {
+      "company": "Funnel",
+      "match": [
+        "funnel"
+      ],
+      "programs": [
+        "integration"
+      ],
+      "line": "Funnel is an Integration Partner. Overlap is narrow. Position around it rather than competing with it."
+    },
+    {
+      "company": "ChatMeter",
+      "match": [
+        "chatmeter"
+      ],
+      "programs": [
+        "integration"
+      ],
+      "line": "ChatMeter is an Integration Partner doing a different job from ours. If it comes up, the integration is the answer."
+    },
+    {
+      "company": "EliseAI",
+      "match": [
+        "eliseai",
+        "elise ai"
+      ],
+      "programs": [
+        "training",
+        "integration",
+        "survey"
+      ],
+      "line": "EliseAI is in three programs at once, which is the most entangled relationship we have. Their training content is delivered free inside PerformanceHQ Training, their platform integrates with ours, and they are a Survey Partner customers are pointed to when feedback surfaces a problem. The training relationship is a buying reason: a property running both gets EliseAI's training in the same place as everything else. Confirm posture with your manager before any competitive language."
+    },
+    {
+      "company": "Interplay Learning",
+      "match": [
+        "interplay"
+      ],
+      "programs": [
+        "integration",
+        "content"
+      ],
+      "line": "Interplay Learning is both an Integration Partner and a Content Creation Partner — they build maintenance and trades content that ships on our platform. Never compete on content. If depth comes up, name them as the specialist behind that part of the library."
+    },
+    {
+      "company": "PetScreening",
+      "match": [
+        "petscreening",
+        "pet screening"
+      ],
+      "programs": [
+        "training",
+        "content"
+      ],
+      "line": "PetScreening is a Training Partner and a Content Creation Partner. Their content is in our catalog. Not a competitor."
+    },
+    {
+      "company": "SkillCat",
+      "match": [
+        "skillcat",
+        "skill cat"
+      ],
+      "programs": [
+        "referral"
+      ],
+      "line": "SkillCat is a Referral and Reseller Partner and a Grace Hill company. Never a competitor, and never comparative — revenue moves between us."
+    },
+    {
+      "company": "Incentco",
+      "match": [
+        "incentco"
+      ],
+      "programs": [
+        "integration",
+        "referral"
+      ],
+      "line": "Incentco is both an Integration Partner and a Referral partner. Revenue moves between us, so treat as an extension of our own team."
+    },
+    {
+      "company": "Matterport (CoStar)",
+      "match": [
+        "matterport"
+      ],
+      "programs": [
+        "integration"
+      ],
+      "line": "Matterport is owned by CoStar, which also owns Apartments.com — and Apartments.com is the Integration Partner, not Matterport and not CoStar. Compete on the 3D and virtual-tour overlap normally. The partnership sits elsewhere in the corporate family and is not a reason to soften this comparison, but it is a reason not to characterize CoStar as a company."
+    },
+    {
+      "company": "CoStar (parent of Apartments.com)",
+      "match": [
+        "costar"
+      ],
+      "programs": [
+        "integration"
+      ],
+      "line": "Read this carefully, because the relationship runs the opposite way to the Yardi one. CoStar owns Apartments.com, and Apartments.com is the Integration Partner — CoStar itself is not. CoStar's market-data and analytics products compete with ours directly, so compete there. Never position against Apartments.com, and never characterize the partnership when discussing CoStar's data business. If a prospect conflates the two, separate them out loud."
+    },
+    {
+      "company": "Apartments.com",
+      "match": [
+        "apartments.com",
+        "apartments com"
+      ],
+      "programs": [
+        "integration"
+      ],
+      "line": "Apartments.com is an Integration Partner. Note it also feeds review data that flows into reputation scoring across the industry, so a change on their side moves scores our customers see. CoStar owns Apartments.com — the partnership is with Apartments.com specifically, not with CoStar."
+    },
+    {
+      "company": "National Apartment Association",
+      "match": [
+        "naa",
+        "national apartment association",
+        "naaei"
+      ],
+      "programs": [
+        "integration",
+        "thought-leadership"
+      ],
+      "line": "The NAA is both an Integration Partner and a Thought Leadership Partner, and it underpins Visto's credential position. Separate the association from any commercial platform before saying anything comparative. Internal note: the partnership is reported to end after Q1 2027 — confirm before relying on it."
+    },
+    {
+      "company": "TransUnion",
+      "match": [
+        "transunion",
+        "trans union"
+      ],
+      "programs": [
+        "training"
+      ],
+      "line": "TransUnion is a Training Partner — their content is delivered free inside our Training product. Not a competitor."
+    },
+    {
+      "company": "Snappt",
+      "match": [
+        "snappt"
+      ],
+      "programs": [
+        "training"
+      ],
+      "line": "Snappt is a Training Partner. Their content ships in our catalog. Not a competitor."
+    },
+    {
+      "company": "Building Engines",
+      "match": [
+        "building engines"
+      ],
+      "programs": [
+        "survey"
+      ],
+      "line": "Building Engines is a Survey Partner, sitting downstream of our survey data on the commercial side. Not a competitor on measurement."
+    },
+    {
+      "company": "HappyCo",
+      "match": [
+        "happyco",
+        "happy co"
+      ],
+      "programs": [
+        "survey"
+      ],
+      "line": "HappyCo is a Survey Partner. Downstream of our data, on the action side."
+    },
+    {
+      "company": "Zark",
+      "match": [
+        "zark"
+      ],
+      "programs": [
+        "survey"
+      ],
+      "line": "Zark is a Survey Partner. Not a competitor."
+    },
+    {
+      "company": "Gatewise",
+      "match": [
+        "gatewise"
+      ],
+      "programs": [
+        "survey"
+      ],
+      "line": "Gatewise is a Survey Partner. Not a competitor."
+    },
+    {
+      "company": "Fetch",
+      "match": [
+        "fetch package",
+        "fetch,"
+      ],
+      "programs": [
+        "survey"
+      ],
+      "line": "Fetch is a Survey Partner. Match carefully — 'fetch' is a common word, so confirm the company before applying this."
+    },
+    {
+      "company": "Mindstone AI",
+      "match": [
+        "mindstone"
+      ],
+      "programs": [
+        "referral"
+      ],
+      "line": "Mindstone AI is a Referral partner and our answer for in-depth AI-skills training, which our own catalog does not cover. Never compete."
+    },
+    {
+      "company": "Rustici Software",
+      "match": [
+        "rustici"
+      ],
+      "programs": [
+        "integration"
+      ],
+      "line": "Rustici is an Integration Partner and the standards layer behind SCORM and xAPI handling. Not a competitor."
+    },
+    {
+      "company": "ShopMetrics",
+      "match": [
+        "shopmetrics",
+        "shop metrics"
+      ],
+      "programs": [
+        "integration"
+      ],
+      "line": "ShopMetrics is an Integration Partner on the mystery shopping side. Confirm posture before any comparative language."
+    },
+    {
+      "company": "Engrain",
+      "match": [
+        "engrain"
+      ],
+      "programs": [
+        "integration"
+      ],
+      "line": "Engrain is an Integration Partner. Different job from ours."
+    },
+    {
+      "company": "BetterBot",
+      "match": [
+        "betterbot",
+        "better bot"
+      ],
+      "programs": [
+        "integration"
+      ],
+      "line": "BetterBot is an Integration Partner. Different job from ours."
+    },
+    {
+      "company": "Hyly.ai",
+      "match": [
+        "hyly"
+      ],
+      "programs": [
+        "integration"
+      ],
+      "line": "Hyly.ai is an Integration Partner. Different job from ours."
+    },
+    {
+      "company": "Conversion Logix",
+      "match": [
+        "conversion logix"
+      ],
+      "programs": [
+        "integration"
+      ],
+      "line": "Conversion Logix is an Integration Partner. Different job from ours."
+    },
+    {
+      "company": "D2 Demand Solutions",
+      "match": [
+        "d2 demand"
+      ],
+      "programs": [
+        "integration"
+      ],
+      "line": "D2 Demand Solutions is an Integration Partner."
+    },
+    {
+      "company": "Zoom",
+      "match": [
+        "zoom video",
+        "zoom communications"
+      ],
+      "programs": [
+        "integration"
+      ],
+      "line": "Zoom is an Integration Partner for instructor-led training delivery. Match carefully — 'zoom' appears in unrelated copy."
+    },
+    {
+      "company": "HD Supply",
+      "match": [
+        "hd supply"
+      ],
+      "programs": [
+        "content"
+      ],
+      "line": "HD Supply is a Content Creation Partner on the maintenance side. Not a competitor."
+    },
+    {
+      "company": "GRESB",
+      "match": [
+        "gresb"
+      ],
+      "programs": [
+        "thought-leadership"
+      ],
+      "line": "GRESB is a Thought Leadership Partner. Never a competitor."
+    },
+    {
+      "company": "Multifamily Insiders",
+      "match": [
+        "multifamily insiders"
+      ],
+      "programs": [
+        "thought-leadership"
+      ],
+      "line": "Multifamily Insiders is a Thought Leadership Partner — trade press, not a competitor."
+    },
+    {
+      "company": "Multifamily Executive",
+      "match": [
+        "multifamily executive"
+      ],
+      "programs": [
+        "thought-leadership"
+      ],
+      "line": "Multifamily Executive is a Thought Leadership Partner — trade press, and the media partner on J Turner's ORA Power Rankings."
+    },
+    {
+      "company": "Commercial Property Executive",
+      "match": [
+        "commercial property executive"
+      ],
+      "programs": [
+        "thought-leadership"
+      ],
+      "line": "Commercial Property Executive is a Thought Leadership Partner — trade press, not a competitor."
+    },
+    {
+      "company": "North Virginia Apartment Association",
+      "match": [
+        "nvaa",
+        "north virginia apartment"
+      ],
+      "programs": [
+        "thought-leadership"
+      ],
+      "line": "The NVAA is a Thought Leadership Partner. Never a competitor."
+    },
+    {
+      "company": "UKAA",
+      "match": [
+        "ukaa",
+        "uk apartment association"
+      ],
+      "programs": [
+        "integration"
+      ],
+      "line": "The UKAA is an Integration Partner. Never a competitor."
+    }
+  ]
+}

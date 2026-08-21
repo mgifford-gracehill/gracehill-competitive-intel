@@ -1,0 +1,50 @@
+{
+  "note": "Four buyer roles, replacing the nine named personas. Four lines each — anything longer belongs in the personas deck.",
+  "source": "RML segmentation work, July–August 2026",
+  "roles": [
+    {
+      "id": "operations",
+      "name": "Operations",
+      "aka": ["VP of Operations", "Regional Manager", "COO"],
+      "owns": "Portfolio performance. Occupancy, retention, NOI, and whether properties run to the same standard.",
+      "measuredOn": "NOI, renewal rate, time to lease, consistency across the portfolio.",
+      "pushesBackOn": "Anything that adds work to onsite teams who are already full. Wants to know who does the work, not what the software shows.",
+      "pathway": "Workforce Optimization · Streamlined Leasing",
+      "hearThis": "\"Performance varies property to property and I can't tell if it's the market or the team.\"",
+      "sayThat": "Ask how they currently tell skill problems from process problems. That distinction is the whole sale, and nothing in a PMS makes it."
+    },
+    {
+      "id": "ld",
+      "name": "L&D",
+      "aka": ["Director of Training", "Learning & Development", "Talent Development"],
+      "owns": "Onboarding, role-based training, certification, and proving competency.",
+      "measuredOn": "Completion, time to productive, certification currency, audit readiness.",
+      "pushesBackOn": "Another login for onsite teams. Content that isn't multifamily. Anything that makes them the bottleneck.",
+      "pathway": "Workforce Optimization · Risk & Compliance",
+      "hearThis": "\"We need everyone trained and compliant, and I'm tracking it in a spreadsheet.\"",
+      "sayThat": "Completion proves attendance. Ask what they'd show an auditor to prove competency — and how long assembling it would take."
+    },
+    {
+      "id": "owner-operator",
+      "name": "Owner / Operator",
+      "aka": ["Principal", "Asset Manager", "President"],
+      "owns": "The asset. Return, risk exposure, and the value of the management platform itself.",
+      "measuredOn": "NOI, valuation, litigation and compliance exposure, cost per unit.",
+      "pushesBackOn": "Anything priced as a growth bet. Wants payback period, not innovation.",
+      "pathway": "Risk & Compliance · Market Position",
+      "hearThis": "\"I can't buy my way to growth right now, so it has to come out of operations.\"",
+      "sayThat": "Agree, and make it concrete. With no cap-rate compression available, operational NOI is the only lever left — lead with payback, not capability."
+    },
+    {
+      "id": "marketing",
+      "name": "Marketing",
+      "aka": ["Marketing Director", "VP Marketing", "Brand"],
+      "owns": "Demand, brand consistency, reputation, and how properties present to prospects.",
+      "measuredOn": "Lead volume and quality, cost per lease, review ratings, brand consistency.",
+      "pushesBackOn": "Tools that don't connect to the leads or the listings they already run.",
+      "pathway": "Resident & Prospect Sentiment · Streamlined Leasing",
+      "hearThis": "\"Our reviews are inconsistent and I don't know which property is dragging the portfolio.\"",
+      "sayThat": "Reviews are the symptom. Ask what happens on site the week after a bad review lands, and who owns the fix."
+    }
+  ]
+}

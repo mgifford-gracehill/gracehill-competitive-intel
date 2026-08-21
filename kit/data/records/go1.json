@@ -1,0 +1,187 @@
+[
+ {
+  "id": "go1",
+  "name": "Go1",
+  "aka": [
+   "Go1 content hub"
+  ],
+  "parent": null,
+  "website": "https://www.go1.com",
+  "toolCategory": "Course content aggregator distributed through HRIS and SaaS partners",
+  "ciCategory": "Indirect",
+  "tier": "Tier 2",
+  "verdict": {
+   "stance": "Compete",
+   "line": "Go1 rides in on the HRIS contract — it wins on consolidation economics before anyone evaluates content, so the fight is decided before training is discussed.",
+   "doInstead": null
+  },
+  "overlaps": [
+   {
+    "product": "Training",
+    "degree": "High"
+   }
+  ],
+  "stackLayer": {
+   "number": 4,
+   "name": "People and Workforce",
+   "note": "Reaches multifamily through the people and workforce stack — often already on an HR contract."
+  },
+  "snapshot": {
+   "hq": {
+    "value": "Unknown",
+    "source": null,
+    "verifiedOn": "2026-08-11"
+   },
+   "founded": {
+    "value": "Unknown",
+    "source": null,
+    "verifiedOn": "2026-08-11"
+   },
+   "ownership": {
+    "value": "Private",
+    "source": null,
+    "verifiedOn": "2026-08-11"
+   },
+   "size": {
+    "value": "Unknown",
+    "source": null,
+    "verifiedOn": "2026-08-11"
+   },
+   "funding": {
+    "value": "Unknown",
+    "source": null,
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "pricing": {
+   "value": "Not published. Sold bundled through HRIS partners, which is where the price advantage comes from.",
+   "source": null,
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "A content hub that plugs into the systems an employer already runs, with partnerships across a wide set of HRIS and SaaS platforms including Rippling.",
+   "source": "https://www.rippling.com/blog/go1-partnership",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "Distributed through HRIS partnerships, so it reaches the buyer through a contract they are already renewing rather than a new evaluation.",
+    "source": "https://www.rippling.com/blog/go1-partnership",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Very large aggregated catalog across general professional development.",
+    "source": "https://www.go1.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Software-consolidation economics are the pitch — one vendor, one bill, a materially lower rate.",
+    "source": "https://www.rippling.com/blog/go1-partnership",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "General-market catalog rather than multifamily-specific content; property roles, fair housing and state compliance are not the design center.",
+    "source": "https://www.go1.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Aggregated third-party content means no single party owns keeping a given course current as a state's regulation changes.",
+    "source": "https://www.go1.com/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [
+   "The decision is usually made on total software spend, not on training. Get in front of the HRIS renewal, not after it.",
+   "Multifamily-specific, maintained content with state variants — versus a general catalog nobody owns updating.",
+   "Ask what happens to their commercial and CRE teams. Generic content is often chosen because the incumbent had no commercial coverage — a gap worth confirming internally before it decides another deal."
+  ],
+  "askThis": [
+   "When does your HRIS contract renew, and is training part of that conversation?",
+   "Who owns keeping a fair housing course current when the rule changes in one of your states?",
+   "How much of your portfolio is commercial, and what training do those teams get today?"
+  ],
+  "objections": [
+   {
+    "objection": "Consolidating with our HRIS saves us six figures a year.",
+    "response": "That's a real number and I'm not going to argue with it. The question is what's in the catalog for a leasing consultant or a maintenance tech, and who's accountable when a state changes its harassment training requirement. Compare the two on that, not on the platform count."
+   }
+  ],
+  "doNotSay": [
+   "Never claim Go1's catalog is small — it is very large. The argument is specificity and maintenance, not volume.",
+   "Do not disparage the customer's HRIS decision. Consolidation is a legitimate strategy and the buyer usually owns it personally."
+  ],
+  "features": {},
+  "whenItComesUp": {
+   "why": "Go1 is a documented loss driver: it arrives through an HRIS consolidation decision where training is a line item, not the subject. Field intel records a lost account where consolidation savings and a gap in commercial training content decided it.",
+   "say": "Go1 through your HRIS is a genuinely good consolidation play and the savings are real. What I'd want you to look at separately is what a leasing consultant or a maintenance tech actually gets, and who's on the hook when a state changes its requirements.",
+   "avoid": "Don't argue against consolidation, and don't compare catalog size. Both are losing exchanges.",
+   "redirect": "When does the HRIS contract renew? That's the conversation where this actually gets decided."
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They mention an HRIS change, a software audit, or a new CPO/CHRO reviewing the stack.",
+    "ask": "Is there a broader software review happening, and where does training sit in it?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "Cost pressure framed as vendor count rather than as a training problem.",
+    "ask": "What's driving the review — spend, integration, or something not working?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether anyone has looked at what the generic catalog covers for property roles.",
+    "ask": "If the content doesn't cover a leasing consultant's actual job, what happens to onboarding?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "The HRIS renewal date — this is the real critical event.",
+    "ask": "When does that contract renew, and who decides what's in scope?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "HR or IT owns the decision, not operations.",
+    "ask": "Who owns this decision — and does the operations team get a say in the training piece?"
+   }
+  ],
+  "news": [
+   {
+    "headline": "Go1 announces partnership with Rippling",
+    "date": "2026-08-03",
+    "url": "https://www.rippling.com/blog/go1-partnership",
+    "impact": "Shared in #industry-competitive_intel as the reason a long-standing account was lost. Go1 has partnerships across many HRIS platforms — expect this pattern to repeat."
+   }
+  ],
+  "sources": [
+   {
+    "title": "Rippling — Go1 partnership announcement",
+    "url": "https://www.rippling.com/blog/go1-partnership",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Go1",
+    "url": "https://www.go1.com/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Field intel, #industry-competitive_intel, 3 Aug 2026",
+    "url": null,
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Medium",
+   "owner": null,
+   "autoUpdated": false,
+   "pendingReview": []
+  }
+ }
+]

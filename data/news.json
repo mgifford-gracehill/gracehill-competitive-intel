@@ -1,0 +1,307 @@
+{
+  "edition": "Inaugural Edition",
+  "weekOf": "Week of August 11, 2026",
+  "coverageWindow": "July 10 – August 11, 2026",
+  "generated": "2026-08-11",
+  "talkTrack": "Two things landed in the last three weeks that change your prospect's risk math. First, a watchdog group filed 114 separate Section 8 discrimination claims against Greystar across six states and DC — built entirely on recorded undercover calls to leasing offices. Greystar's public defense was, essentially, \"we provide training.\" Second, HUD is simultaneously gutting the nonprofit fair housing groups it funds, which means private testers and plaintiffs' firms are now the primary enforcement channel — and they don't have a 100-day deadline or a budget cap. The question to ask an ops leader this week isn't \"do you train on fair housing?\" It's \"if someone recorded 40 calls into your leasing offices tomorrow, could you prove what your team was taught, when, and that they passed?\" That's the gap the training-plus-policy-plus-mystery-shop stack is built to close — documented competency, current policy, and independent evidence of what's actually being said on the phone.",
+  "coverageGaps": "Nothing verifiable surfaced in-window for: Entrata, MRI Software, ResMan, J Turner Research, SatisFacts/Internet Brands, Opiniion, Widewail, Birdeye, SOCi, Yext, Reputation.com, Peek, LCP Media, OneDay, Tour24, Funnel, Knock, Swift Bunny, Culture Amp, Qualtrics, PowerDMS/NEOGOV, or Leonardo247. Listed rather than padded.",
+  "doNotMisdate": [
+    "The $218M second batch of RealPage-related operator settlements is from May 20, 2026 (EQR $56M, Camden and MAA $53M each) — outside this window. Useful background, but do not present as new.",
+    "The Greystar $7M multistate rent-setting settlement is from November 2025 — outside this window.",
+    "Entrata's S-1 filing is from May 28, 2026 — outside this window.",
+    "The AvalonBay/Equity Residential merger announcement is from May 21, 2026 — outside this window. But the \"Vivmark Residential\" naming announcement is July 30, 2026 and IS in-window."
+  ],
+  "items": [
+    {
+      "headline": "Property management consolidation continues, but independents are holding",
+      "date": "2026-08-10",
+      "source": "Multifamily Dive",
+      "url": "https://www.multifamilydive.com/news/midwestern-multifamily-property-management-mergers-and-aquisitions/827476/",
+      "tag": "competitor-move",
+      "priority": 22,
+      "summary": "Outside equity is rotating into supply-constrained Midwest markets — Kansas City, Chicago and the Twin Cities posted July rent growth near New York and San Francisco levels per Yardi Matrix. Daniel Management Group's founder argued scale isn't required to survive, staying independent without PE backing and reinvesting in platform.",
+      "soWhat": "Two distinct plays: consolidating PE-backed platforms need standardized training and policy across newly acquired portfolios, an enterprise motion, while independents need enterprise-grade compliance without enterprise headcount, a mid-market motion. Midwest expansion also means multi-state policy variance."
+    },
+    {
+      "headline": "Apartment REITs report Sun Belt momentum; supply moderating, UDR raises guidance",
+      "date": "2026-08-10",
+      "source": "Multifamily Dive",
+      "url": "https://www.multifamilydive.com/news/apartment-reit-q2-earnings-reports/827436/",
+      "tag": "industry-trend",
+      "priority": 18,
+      "summary": "Q2 REIT earnings showed moderating supply and resilient demand, especially in the Sun Belt. UDR raised guidance on new lease growth; MAA expects an unusually strong Q3 on inbound migration; Camden sold its entire 3,620-unit California portfolio for $1.625B to concentrate in the Sun Belt; AvalonBay and Equity Residential, merging into Vivmark Residential, showed strength in San Francisco and NYC.",
+      "soWhat": "Portfolio rotation at this scale means large blocks of units changing operators, and every transition is a training, policy and brand-standards reset with a hard go-live date. Track the Camden California disposition and the AVB/EQR integration specifically — both are named-account opportunities with defined timing."
+    },
+    {
+      "headline": "RealPage launches Lumina AI Suite at RealWorld, built on the newly acquired Cherre data layer",
+      "date": "2026-08-10",
+      "source": "Business Wire",
+      "url": "https://www.businesswire.com/news/home/20260810927887/en/Realpage-Introduces-the-Lumina-AI-Suite-Uniting-AI-Agents-Operational-Intelligence-and-Institutional-Reasoning-in-One-Trusted-Platform-for-Real-Estate",
+      "tag": "competitor-move",
+      "priority": 3,
+      "summary": "RealPage unveiled a four-part AI suite — Lumina Workforce (agents), Ascent (NOI operational intelligence), Atlas (fund/institutional intelligence) and Connect (governed data access via Model Context Protocol). Its AI Leasing Agent is now live across 175+ management companies with RealPage reporting that some customers more than tripled tour bookings and that roughly 9 in 10 routine inquiries are resolved. CEO Dirk Wakeham framed it as \"the last era of enterprise data was built for reporting. The next is being built for reasoning.\"",
+      "soWhat": "RealPage is now selling \"one trusted platform\" — expect incumbent-consolidation pressure in every deal where RealPage is the PMS. The counter is that Lumina reasons over transactional data; Intelligence+ and Ask Gracie™ reason over policy, training completion, survey sentiment and shop results — the performance and compliance layer RealPage does not own."
+    },
+    {
+      "headline": "Yardi Matrix: July asking rent $1,771, but occupancy down 60 bps to 94.1%",
+      "date": "2026-08-07",
+      "source": "Multifamily Dive / Yardi",
+      "url": "https://www.multifamilydive.com/news/multifamily-rents-july-yardi/827341/",
+      "tag": "industry-trend",
+      "priority": 7,
+      "summary": "National asking rent rose $4 to $1,771 in July, with year-over-year growth of 0.2%. June occupancy slipped to 94.1%, down 60 basis points year over year (Yardi reports occupancy on a one-month lag). Concessions remain elevated, though regional divergence is narrowing. Build-to-rent rents hit an all-time high of $2,240, up $5 in July and 0.3% year over year.",
+      "soWhat": "Rent is flat and occupancy is falling, so every dollar of NOI now has to come from retention, expense control and conversion rather than rate. Quantify it: at 94.1% occupancy, a one-point retention improvement is worth more than any rate increase they will realistically get this year."
+    },
+    {
+      "headline": "Apartment vacancy falls to 8.2% as deliveries drop 22% and absorption jumps 13%",
+      "date": "2026-08-06",
+      "source": "CoStar / Apartments.com",
+      "url": "https://www.stocktitan.net/news/CSGP/apartments-com-and-co-star-release-a-multifamily-vacancy-update-for-bgn5glkimbgo.html",
+      "tag": "industry-trend",
+      "priority": 9,
+      "summary": "Q2 vacancy fell to 8.2%, down 26 bps quarter over quarter, with roughly 164,000 units absorbed against roughly 118,000 delivered — demand exceeding supply by more than 45,000 units. Regional spread is extreme: Northeast 5.1% and Pacific 5.7% versus South 10.8% and Mountain 10.2%. Austin improved nearly 300 bps to 12.3%.",
+      "soWhat": "The supply wave is receding, which means the \"we're just in lease-up survival mode\" objection is expiring — operators are shifting from filling units to defending renewals and NOI. That pivot is exactly when resident satisfaction surveys, reputation management and leasing-quality shops move from nice-to-have to budgeted."
+    },
+    {
+      "headline": "Yardi Matrix cuts 2026 forecast to 1.4% rent growth, with several markets negative",
+      "date": "2026-08-05",
+      "source": "Yardi",
+      "url": "https://www.yardi.com/news/press-releases/yardi-matrix-projects-modest-national-multifamily-rent-growth-for-2026/",
+      "tag": "industry-trend",
+      "priority": 11,
+      "summary": "Yardi Matrix projects 1.4% national rent growth for 2026, down sharply from 2.6% in 2024, with growth expected to return to roughly 3.5% by the early 2030s. Negative growth is forecast in heavy-construction markets: Austin, Southwest Florida, Phoenix, Asheville and San Antonio. Supply-constrained outliers such as Honolulu, Scranton–Wilkes-Barre and South Bend are forecast at 5–6%.",
+      "soWhat": "This is the number the prospect's asset management team is budgeting against, and it kills the \"we'll grow into it\" argument for any spend without measurable payback. Bring market comps and benchmarking to the meeting so the conversation is about their specific submarket, not the national average."
+    },
+    {
+      "headline": "UDR hit with rent-pricing class action under San Diego's algorithmic pricing ordinance",
+      "date": "2026-08-05",
+      "source": "Multifamily Dive",
+      "url": "https://www.multifamilydive.com/news/udr-rent-pricing-class-action-lawsuit-san-diego/827109/",
+      "tag": "regulatory",
+      "priority": 5,
+      "summary": "A former tenant filed a class action in the Southern District of California (filed July 2, reported August 5) alleging UDR used RealPage's algorithmic pricing in violation of San Diego Municipal Code § 98.1103, effective June 21, 2025. The complaint seeks injunctive relief, damages and civil penalties up to $1,000 per violation.",
+      "soWhat": "Liability has moved from federal antitrust down to municipal ordinances with per-violation penalties, meaning compliance is now a city-by-city policy problem rather than a corporate legal problem. Operators with scattered portfolios cannot manage this in a shared drive."
+    },
+    {
+      "headline": "Go1 + Rippling partnership named as the cause of a lost training account",
+      "date": "2026-08-03",
+      "source": "#industry-competitive_intel",
+      "url": "https://www.rippling.com/blog/go1-partnership",
+      "tag": "competitor-move",
+      "priority": 0,
+      "summary": "A long-standing training client was lost after a new CPO ran a software audit and consolidated onto Rippling with Go1 content. Two factors decided it: consolidation savings of roughly $250k annually, and the absence of commercial training content for the client's commercial teams. Go1 holds partnerships across many HRIS and SaaS platforms.",
+      "soWhat": "The most actionable loss signal in the channel. This deal was decided on an HRIS renewal, not a training evaluation — which means the training team never got a fair hearing. Two moves: get ahead of HRIS renewals in named accounts, and confirm internally whether the commercial-content gap is real, because it has now cost at least one account."
+    },
+    {
+      "headline": "Bisnow: AI adoption puts roughly 466,000 property management jobs in the crosshairs",
+      "date": "2026-07-31",
+      "source": "Bisnow",
+      "url": "https://www.bisnow.com/news/national/ai/ai-adoption-jeopardizes-half-a-million-property-management-jobs-135656",
+      "tag": "ai-landscape",
+      "priority": 6,
+      "summary": "Bisnow reported that AI deployment is enabling roughly 40% reductions in leasing and administrative hours and 10–20% payroll savings, against a US base of 466,100 property, real estate and community association managers. Equity Residential cut headcount roughly 20% between 2020 and 2025 through AI integration. Property manager turnover already runs 30%+ annually in some markets versus 9.9% for other white-collar roles.",
+      "soWhat": "The best empathy opener with an ops or HR leader all week — their teams are reading these headlines. Position employee engagement surveys plus career-path training as the retention counterweight: AI shrinks the task list, which makes the remaining human roles higher-skill and far more expensive to backfill."
+    },
+    {
+      "headline": "AvalonBay and Equity Residential name the combined company Vivmark Residential",
+      "date": "2026-07-30",
+      "source": "Multifamily Dive",
+      "url": "https://www.multifamilydive.com/news/equity-residential-avalonbay-combined-vivmark-residential/826741/",
+      "tag": "industry-trend",
+      "priority": 23,
+      "summary": "The two REITs announced the name of the entity formed by their merger, first announced May 21, 2026. Coverage published July 31.",
+      "soWhat": "A brand and operating-model integration across two of the largest public apartment owners means a wholesale reset of training content, policy libraries and brand standards on a hard timeline. This is a named-account opening with defined timing — and rebrands surface every inconsistency in how properties actually operate."
+    },
+    {
+      "headline": "Apartments.com: national rent up just 1.0% YoY, with a stark regional split",
+      "date": "2026-07-29",
+      "source": "CoStar Group",
+      "url": "https://www.costargroup.com/press-room/2026/apartmentscom-releases-multifamily-rent-growth-report-july-2026",
+      "tag": "talk-track",
+      "priority": 20,
+      "summary": "National rents rose 0.03% month over month to $1,747 and 1.0% year over year — an eighth straight monthly increase. Year over year the Midwest (+2.0%) and Pacific (+1.8%) lead while the South (-0.4%) and Mountain (-1.0%) are negative. San Francisco (+10.9%) and San Jose (+6.8%) top the list; San Antonio (-3.0%), Denver, Austin, Las Vegas and Phoenix are all negative.",
+      "soWhat": "A national-average pitch will get dismissed by anyone operating in Austin or Phoenix. Segment outreach — Sun Belt accounts are a retention-and-concession-control conversation, coastal and Midwest accounts are a pricing-power-and-service-quality conversation."
+    },
+    {
+      "headline": "EliseAI State of AI in Multifamily: 89% have adopted, only 34% have fully embedded",
+      "date": "2026-07-29",
+      "source": "GlobeNewswire",
+      "url": "https://www.globenewswire.com/news-release/2026/07/29/3335276/0/en/EliseAI-Unveils-New-State-of-AI-in-Multifamily-Report-85-See-Reduced-Operating-Expenses.html",
+      "tag": "ai-landscape",
+      "priority": 8,
+      "summary": "Surveying 350 US multifamily decision-makers and 500 residents, EliseAI found 89% of operators have introduced AI but only 34% have fully embedded it, up from 24%. 85% report reduced opex and 58% use AI in leasing. Top blockers: integration challenges (35%), legacy tech (28%) and lack of in-house expertise (28%). 76% of operators run multiple AI vendors and 29% cite integrating property systems as a top daily frustration.",
+      "soWhat": "\"Shortage of in-house expertise\" at 28% is a training problem being mislabeled as a technology problem — that is the wedge. And 76% running multiple AI vendors means the buyer is already frustrated with fragmentation, which is the argument for an AI layer sitting across training, policy, survey and shop data rather than being AI vendor number five."
+    },
+    {
+      "headline": "CoStar Q2: revenue up 18%, residential turns profitable, Apartments.com the growth engine",
+      "date": "2026-07-28",
+      "source": "CoStar Group IR",
+      "url": "https://investors.costargroup.com/news-releases/news-release-details/costar-group-q2-2026-results-mark-profitability-inflection",
+      "tag": "competitor-move",
+      "priority": 17,
+      "summary": "CoStar posted an 18% revenue increase, net income up 817%, and adjusted EBITDA more than doubling to $184M, with the residential segment — Apartments.com, Homes.com and Matterport — turning profitable for the first time. Coverage noted the market was underwhelmed despite the profitability inflection.",
+      "soWhat": "A profitable CoStar residential arm means more aggressive bundling of listings, 3D/Matterport tours and marketing spend into the same budget line Realync competes for. Position Realync as authentic, leasing-agent-created video for conversion and resident trust — not another syndicated listing asset."
+    },
+    {
+      "headline": "EliseAI resident surveys cited in a survey-fatigue cancellation",
+      "date": "2026-07-27",
+      "source": "#industry-competitive_intel",
+      "url": "https://eliseai.com/platform-overview",
+      "tag": "competitor-move",
+      "priority": 0,
+      "summary": "A customer canceled surveys citing over-surveying of residents, and paused move-in and work-order surveys. EliseAI's platform includes survey capability, and Grace Hill both partners with EliseAI and hosts their training.",
+      "soWhat": "Survey fatigue is now a live competitive mechanism, not just a hygiene issue — if a partner's product is also surveying the same residents, total survey load becomes the deciding factor. Escalate before responding competitively; this is a partnership conversation."
+    },
+    {
+      "headline": "Q2 apartment sales flat at $36.7B; prices down for a second straight year",
+      "date": "2026-07-27",
+      "source": "Multifamily Dive",
+      "url": "https://www.multifamilydive.com/news/apartment-prices-multifamily-sales-veris-residential/826271/",
+      "tag": "industry-trend",
+      "priority": 14,
+      "summary": "MSCI data shows Q2 apartment sales of $36.7B, up 1% year over year — but excluding the $3.4B Veris Residential privatization, volume would have fallen 8%. Prices declined 1.7% year over year, marking two consecutive years of negative pricing, with cap rates averaging 5.9%. Garden-style sales fell 21% while mid- and high-rise rose 36%.",
+      "soWhat": "With no cap-rate compression available, operational NOI improvement is the only lever left for value creation — the sharpest version of the ROI argument available this year. Owners who cannot buy their way to growth have to operate their way there."
+    },
+    {
+      "headline": "Yardi opens its system of record to Claude",
+      "date": "2026-07-23",
+      "source": "#industry-competitive_intel",
+      "url": "https://www.linkedin.com/posts/cjhyland_yardi-opened-its-record-to-claude-an-ai-share-7486035931746074624-nN_w/",
+      "tag": "ai-landscape",
+      "priority": 0,
+      "summary": "Shared in the channel: Yardi has opened its record to an AI assistant, letting users query PMS data conversationally.",
+      "soWhat": "Directly relevant to Ask Gracie™ positioning. Conversational access to PMS data is no longer differentiating on its own — the differentiator is what else is in the answer: training completion, policy, survey sentiment, shop results."
+    },
+    {
+      "headline": "Yardi Matrix: rent collection varies 26 points across markets in affordable housing",
+      "date": "2026-07-23",
+      "source": "Yardi",
+      "url": "https://www.yardi.com/news/press-releases/yardi-matrix-documents-rent-collections-impact-on-u-s-affordable-housing/",
+      "tag": "industry-trend",
+      "priority": 21,
+      "summary": "Yardi Matrix found May 2026 collections ranged from 96.8% of scheduled rent in Miami to 70.9% in Washington, DC, with typical large markets at 88.6%. The driver is local delinquency and eviction procedure rather than federal program design; DC recently enacted legislation streamlining nonpayment procedures after concluding prolonged delinquency threatened affordable housing preservation.",
+      "soWhat": "A 26-point collections spread driven purely by local procedure is the clearest possible argument that policy must be localized, not national — and that onsite staff need jurisdiction-specific training on notice and delinquency handling. A targeted play into affordable housing and LIHTC operators."
+    },
+    {
+      "headline": "NMHC July survey: markets tightening, but capital is drying up",
+      "date": "2026-07-23",
+      "source": "NMHC",
+      "url": "https://www.nmhc.org/research-insight/quarterly-survey/2026/nmhc-quarterly-survey-of-apartment-conditions-july-2026/",
+      "tag": "industry-trend",
+      "priority": 19,
+      "summary": "NMHC's July survey, fielded July 1–17, showed Market Tightness at 57, indicating tightening conditions, but Sales Volume at 46, Equity Financing at 44 and Debt Financing at 46 — all below the 50 breakeven. Debt financing has fallen sharply from 75 in January 2026.",
+      "soWhat": "Deteriorating credit conditions mean fewer acquisitions and more emphasis on squeezing performance from the existing portfolio — a favorable environment for operational software but a hostile one for anything priced as a growth bet. Lead with payback period and NOI impact, not innovation."
+    },
+    {
+      "headline": "AppFolio crosses $1B trailing revenue; Q2 revenue $281M, up 19%",
+      "date": "2026-07-23",
+      "source": "GlobeNewswire / AppFolio IR",
+      "url": "https://www.globenewswire.com/news-release/2026/07/23/3332545/36405/en/AppFolio-Inc-Announces-Second-Quarter-2026-Financial-Results.html",
+      "tag": "competitor-move",
+      "priority": 12,
+      "summary": "AppFolio reported Q2 revenue of $281M, up 19% year over year, units under management up 8% to 9.6 million, and raised FY guidance to $1.117–1.127B with non-GAAP operating margin guidance up to 26.5–28.0%. CEO Shane Trigg positioned the company around \"Real Estate Performance Management.\"",
+      "soWhat": "AppFolio is now explicitly using \"performance management\" language — the same category PerformanceHQ owns. In AppFolio-heavy accounts, which skew smaller and mid-market, lead with what AppFolio does not do: accredited CE training, policy management, mystery shopping, and independent resident and employee survey benchmarking."
+    },
+    {
+      "headline": "Fair housing groups sue HUD over FHIP funding overhaul that would defund most testers",
+      "date": "2026-07-23",
+      "source": "Multifamily Dive",
+      "url": "https://www.multifamilydive.com/news/hud-funding-changes-spur-lawsuit-from-fair-housing-groups/826384/",
+      "tag": "regulatory",
+      "priority": 4,
+      "summary": "The National Fair Housing Alliance and Massachusetts Fair Housing Center sued HUD in federal court in Massachusetts, alleging July 2 funding notices would disqualify nearly all existing fair housing organizations from FHIP. Reporting notes $46M of $56M in FY2025 funds going to just five grants versus 100+ typically, with $25M to a single law school, and local nonprofits effectively excluded in FY2026. (Filed July 23; coverage published July 28.)",
+      "soWhat": "Do not let a prospect read this as \"enforcement risk is down.\" Private nonprofits already handle the large majority of housing discrimination complaints, and defunded organizations shift toward litigation and testing — exactly what happened to Greystar. Frame it as: federal enforcement is shrinking, private testing is not."
+    },
+    {
+      "headline": "New Jersey enacts the FAIR Act, banning algorithmic rent-setting",
+      "date": "2026-07-20",
+      "source": "NJ Governor's Office",
+      "url": "https://www.nj.gov/governor/news/2026/20260720a.shtml",
+      "tag": "regulatory",
+      "priority": 2,
+      "summary": "Gov. Sherrill signed the Forbidding the Algorithmic Inflation of Rent (FAIR) Act, prohibiting landlords from using algorithmic software to coordinate rental prices or occupancy levels. New Jersey becomes the fourth state to explicitly regulate rent-setting algorithms, and the law creates a reporting and relief pathway for renters.",
+      "soWhat": "Every NJ operator now needs a documented, distributed policy on what pricing tools staff may and may not use, plus training so onsite teams don't casually violate it. A policy-plus-training bundle with a hard deadline attached — and it's the fourth state, which builds the \"your multi-state policy is already out of date\" motion."
+    },
+    {
+      "headline": "Watchdog files 114 Section 8 discrimination claims against Greystar across 6 states and DC",
+      "date": "2026-07-20",
+      "source": "Multifamily Dive",
+      "url": "https://www.multifamilydive.com/news/greystar-section-8-violation-lawsuits-hri/825675/",
+      "tag": "regulatory",
+      "priority": 1,
+      "summary": "Housing Rights Initiative, represented by Cohen Milstein, filed 114 alleged violations of state and local source-of-income laws in Virginia, California, Maryland, Hawaii, Michigan, New Jersey and DC. Evidence came from undercover testing that began October 2025 — testers recorded calls in which Greystar agents allegedly rejected voucher holders or imposed unlawful conditions, including requiring the voucher cover full rent and refusing to count it toward minimum income. Greystar responded that it \"provides training and expects our team members to comply with all applicable laws.\"",
+      "soWhat": "The strongest sales trigger of the month. The nation's largest operator was caught by recorded phone calls and defended itself by pointing to training it cannot independently evidence. Lead with mystery shopping plus documented, role-based fair housing training completion — the combination that produces evidence, not just a policy binder."
+    },
+    {
+      "headline": "New multifamily mystery shopping entrant: Elevate Mystery Shopping",
+      "date": "2026-07-17",
+      "source": "#industry-competitive_intel",
+      "url": "https://elevatemysteryshopping.com/",
+      "tag": "competitor-move",
+      "priority": 0,
+      "summary": "Founded by a former Director of Training at a multifamily operator. Shared in the channel as a new entrant to watch.",
+      "soWhat": "Operator-founded shopping firms compete on credibility with the buyer rather than on scale. Worth a watchlist record; not yet a battlecard."
+    },
+    {
+      "headline": "HUD moves to eliminate disparate impact analysis from Fair Housing Act enforcement",
+      "date": "2026-07-15",
+      "source": "Planetizen",
+      "url": "https://www.planetizen.com/news/2026/07/137990-how-hud-dismantling-fair-housing-enforcement",
+      "tag": "regulatory",
+      "priority": 13,
+      "summary": "HUD has proposed removing disparate impact analysis — the statistical tool used to identify facially neutral policies that produce discriminatory effects in screening, credit standards, appraisal, insurance and lending. Critics argue removing it makes discriminatory outcomes far harder to challenge in federal court.",
+      "soWhat": "Federal standards loosening does not repeal state and local law — it creates a divergence problem where a nationally standardized screening policy can be legal in one state and actionable in another. Sell policy localization and screening-criteria training as the hedge against a fragmenting standard."
+    },
+    {
+      "headline": "RealPage acquires Cherre, a real estate data-unification firm",
+      "date": "2026-07-14",
+      "source": "Multifamily Dive",
+      "url": "https://www.multifamilydive.com/news/realpage-acquire-cherre-real-estate-data-ai/823637/",
+      "tag": "competitor-move",
+      "priority": 10,
+      "summary": "RealPage acquired NYC-based Cherre (4B+ entities, $4T in assets under coverage), the first acquisition under CEO Dirk Wakeham. Terms undisclosed. Cherre keeps its name and operates as an open hub across any PMS; CEO L.D. Salmanson becomes an SVP at RealPage.",
+      "soWhat": "This is RealPage buying the identity-resolution layer that makes cross-system AI possible — the same problem HelloData® and PerformanceHQ solve on the market-comps and performance side. Use it to justify why an operator needs a vendor-neutral performance layer rather than betting the whole stack on a single PMS."
+    },
+    {
+      "headline": "21st Century ROAD to Housing Act becomes law without presidential signature",
+      "date": "2026-07-11",
+      "source": "Multifamily Dive",
+      "url": "https://www.multifamilydive.com/news/road-to-housing-bill-law/824324/",
+      "tag": "regulatory",
+      "priority": 15,
+      "summary": "The bipartisan housing bill (358-32 House, 85-5 Senate) became law automatically after the President neither signed nor vetoed it. It targets supply expansion and regulatory streamlining and limits institutional investors buying single-family homes, but after industry advocacy it exempts build-to-rent from forced-sale provisions. Analysis notes local implementation benefits will take years.",
+      "soWhat": "Called the most important housing legislation since 1974, it will generate a multi-year wave of program and compliance changes at the local level. Use it as a top-of-funnel reason to run a policy audit now, and as a credibility opener with executives being asked what it means for their portfolio."
+    },
+    {
+      "headline": "Canadian operator data shows AI driving structural staffing change",
+      "date": "2026-07-10",
+      "source": "RENX",
+      "url": "https://renx.ca/report-illustrates-multifamily-artificial-intelligence-deployment",
+      "tag": "ai-landscape",
+      "priority": 16,
+      "summary": "EliseAI's Canadian survey of 50 operators and 200 renters found 44% have fully deployed AI, with usage concentrated in touring (72%), maintenance (64%), renewals (52%) and delinquency (46%). 62% have restructured teams around AI or moved to centralized models, 44% have restructured on-site teams specifically, and 18% run fully centralized models. 94% plan to increase AI investment year over year.",
+      "soWhat": "62% restructuring around AI means job descriptions, escalation paths and required competencies are all changing at once — and stale training content is now actively wrong. Sell a training-content refresh tied to the new centralized roles, plus mystery shopping to verify the centralized team actually performs."
+    },
+    {
+      "headline": "Docebo acquires 365Talents",
+      "date": "2026-06-02",
+      "source": "#industry-competitive_intel",
+      "url": "https://www.docebo.com/company/newsroom/docebo-acquires-365talents/",
+      "tag": "competitor-move",
+      "priority": 0,
+      "summary": "Docebo acquired skills-intelligence vendor 365Talents.",
+      "soWhat": "Horizontal LMS vendors are buying skills and competency layers. Expect 'competency, not completion' to become a standard claim from platforms that previously only tracked completion — which is ground Grace Hill should occupy first."
+    },
+    {
+      "headline": "Reputation.com launches ReputationIQ AI Insights",
+      "date": "2025-12-18",
+      "source": "#industry-competitive_intel",
+      "url": "https://reputation.com/built-for-ai/",
+      "tag": "competitor-move",
+      "priority": 0,
+      "summary": "A multifamily marketing director publicly praised Reputation's new AI. Reputation positions the product around AI-generated insights from review data.",
+      "soWhat": "The Reputation.com battlecard is the one flagged as unusable. This is a second reason to rebuild it rather than patch it."
+    }
+  ],
+  "fieldIntel": "Sourced from #industry-competitive_intel. Customer and prospect names removed — the raw messages stay in Slack."
+}

@@ -1,0 +1,136 @@
+{
+  "note": "Which message to use, and why. Built from Corporate Visions, 'To Challenge or Not to Challenge? The Hidden Psychology Putting Your Revenue at Risk' (Tim Riesterer, Chief Strategy Officer). The whole framework rests on one idea: Status Quo Bias is not always the enemy. Which side of it you are standing on decides the message.",
+  "source": "Corporate Visions — To Challenge or Not to Challenge? Research by Dr. Zakary Tormala (Why Change, Why Stay) and Dr. Nick Lee (Why Evolve). Status Quo Bias identified by Samuelson and Zeckhauser, 1988; four causes from Christopher J. Anderson, 'The Psychology of Doing Nothing', 2003.",
+  "headline": "Whether you disrupt the status quo or protect it depends entirely on whether you are the status quo.",
+  "theBigIdea": "In a new-logo deal you are the outsider and the status quo is your opponent, so you disrupt it. On a renewal **you are the status quo** — disrupting it means displacing yourself. On an expansion you are both at once: the incumbent, proposing change. Same seller, same product, three different messages.",
+  "theProblem": [
+    "Nearly **two-thirds of companies** do not differentiate their messaging between customer acquisition and customer expansion.",
+    "Nearly **60% of commercial leaders** think they can use the same sales approach for new prospects and existing customers.",
+    "Using a disruptive message with an existing customer **increases the likelihood they leave you by at least 10%**.",
+    "**70–80% of most companies' revenue** comes from existing customers — so the message we get wrong most often is the one protecting most of the money."
+  ],
+  "whyItMattersHere": "Grace Hill's segmentation already splits this work: New Logo is an acquisition motion, Cross-Sell and CS are expansion and retention motions. The message has to split with it. Riesterer's line for getting this wrong is the one to remember — do not bring a wrecking ball to a housewarming party.",
+  "statusQuoBias": {
+    "definition": "A person's innate preference for not doing something different from what they are doing today. Not laziness or stubbornness — a documented cognitive bias, first identified by Samuelson and Zeckhauser in 1988.",
+    "roles": [
+      {"situation": "Customer acquisition", "who": "New logo", "role": "You are up against the status quo. The prospect is predisposed to resist change, so you have to disrupt their Status Quo Bias.", "color": "change"},
+      {"situation": "Customer retention", "who": "Renewal", "role": "You ARE the status quo — so the last thing you want to do is disrupt it. Reinforce your value and make Status Quo Bias work in your favor.", "color": "stay"},
+      {"situation": "Customer expansion", "who": "Cross-sell and upsell", "role": "You walk a tightrope. You are the status quo, but you are also proposing change. Make the change feel like a natural evolution rather than a disruption.", "color": "evolve"}
+    ],
+    "warning": "The disruptive tactics that work for new customer acquisition can backfire spectacularly when you are trying to keep and grow existing customers."
+  },
+  "fourCauses": {
+    "note": "Every one of the three messages works on the same four causes of Status Quo Bias. Acquisition defeats them, retention reinforces them, expansion shifts them. Read a row across to see the same lever pulled three different ways.",
+    "rows": [
+      {
+        "cause": "Preference stability",
+        "what": "If a buyer's preferences change rarely, they are more likely to stick with what they are doing today.",
+        "change": {"move": "Destabilize preferences", "how": "Introduce unconsidered needs that challenge what they currently prefer."},
+        "stay": {"move": "Validate preferences", "how": "Remind them of the careful decision they made in choosing you, and how it still fits their long-term goals."},
+        "evolve": {"move": "Evolve preferences", "how": "Show the new offering as a natural progression of what they already value — an evolution, not a revolution."}
+      },
+      {
+        "cause": "Anticipated regret and blame",
+        "what": "People chafe at the possibility of regret. The consequences of regret land in the future; the feeling of it lands now.",
+        "change": {"move": "Flip the risk equation", "how": "Paint the consequences of not changing vividly enough that inaction looks riskier than change."},
+        "stay": {"move": "Mitigate regret", "how": "Highlight the risk and uncertainty of switching. Make change look unnecessarily risky next to the trust already built."},
+        "evolve": {"move": "Frame change as proactive", "how": "Present the upgrade as a way to prevent future regret — staying ahead rather than falling behind."}
+      },
+      {
+        "cause": "Cost of action and change",
+        "what": "Change carries transactional and transitional cost. Staying put registers as neutral or beneficial, even against contrary evidence.",
+        "change": {"move": "Emphasize hidden costs", "how": "Reveal the unseen cost of the current approach, so the cost of change is outweighed by the cost of doing nothing."},
+        "stay": {"move": "Underscore sunk costs", "how": "Draw attention to the time, money and effort already invested, now part of how they operate. Change gets more expensive."},
+        "evolve": {"move": "Highlight efficiency gains", "how": "Show the cost of evolving offset by new capability, leveraging the investment they already made."}
+      },
+      {
+        "cause": "Selection difficulty",
+        "what": "Too many options with too little contrast makes everything look alike, and change look complex.",
+        "change": {"move": "Create contrast", "how": "Differentiate sharply from both the status quo and the alternatives. Make the decision simple."},
+        "stay": {"move": "Simplify continuity", "how": "Make staying the easiest choice. Show you have kept pace, so there is nothing to go and evaluate."},
+        "evolve": {"move": "Guide the choice", "how": "Present the evolution as one tailored option that builds logically on what they already run."}
+      }
+    ]
+  },
+  "messages": [
+    {
+      "id": "change",
+      "name": "Why change",
+      "use": "New logo. You are the outsider and the status quo is the opponent.",
+      "segment": "Sales · New Logo · Mid-Market and Enterprise prospects",
+      "goal": "Make their current situation feel unsustainable — turn the status quo from a safe harbor into a risky bet.",
+      "steps": [
+        "**Business issue** — name the external factors reshaping their industry, and connect them to a strategic initiative they already own. This is the Why Now.",
+        "**Unconsidered need** — introduce a gap or risk they have not accounted for. This is the beat that does the work.",
+        "**Flawed current approach** — show the cost and risk of staying with what they run today.",
+        "**Improved new way** — draw a stark contrast between their current approach and the better one.",
+        "**Business impact** — justify the decision with a customer story carrying contrast and quantifiable results. This is the second half of the Why Now."
+      ],
+      "evidence": "B2B decision makers perceive the Why Change pitch as **up to 41% more unique** than value-added-solution, standard-solution or unconsidered-needs-last pitches. Research led by Dr. Zakary Tormala.",
+      "watchOut": "Never use this on a renewal. Telling a customer their current approach is unsustainable, when their current approach is you, invites them to shop.",
+      "ghExample": "Rent increases feel like the safe lever. Management quality outweighs them 2.7 to 1 as the reason residents don't renew — so the money is going to the wrong fix, every quarter.",
+      "theTrap": "At least 40% of pipeline deals end in no decision. That is not a competitor beating you; it is the status quo beating you, because nobody made change feel necessary."
+    },
+    {
+      "id": "stay",
+      "name": "Why stay",
+      "use": "Renewal. You are the incumbent, and you are the status quo.",
+      "segment": "Account Management and CS · renewals and at-risk accounts",
+      "goal": "Reinforce your value and make Status Quo Bias work for you. Show that staying is not just safe but smart.",
+      "steps": [
+        "**Document results** — highlight the progress made toward their strategic goals because of the partnership.",
+        "**Review the prior decision process** — recall how much effort went into choosing you, and validate that it was a good decision.",
+        "**Mention the risk of change** — underscore the momentum lost if they switch.",
+        "**Highlight the cost of change** — the costs of bringing in another vendor, which they avoid by staying.",
+        "**Detail competitive advances** — show how you have kept their solution current with the market."
+      ],
+      "evidence": "The Why Stay message produced a **13% boost in intention to renew** and buyers were **10% less likely to switch or shop around**, compared with more provocative messages. Research led by Dr. Zakary Tormala.",
+      "watchOut": "You are now the status quo, so the last thing you want to do is displace yourself. No disruption, no unconsidered needs, no cost-of-inaction. Those tools now point at you.",
+      "ghExample": "You have moved shop scores 11 points in two years and closed the acknowledgment gap across 40 properties. Switching means rebuilding that baseline from zero, and losing the benchmark history that makes the number mean anything.",
+      "theTrap": "Do not be lulled into a false sense of security either. Competitors are out there making new promises. Reinforcing value is active work, not silence."
+    },
+    {
+      "id": "evolve",
+      "name": "Why evolve",
+      "use": "Cross-sell and upsell. You are the incumbent, and you are proposing change.",
+      "segment": "Account Management and Cross-Sell · existing customers, new products",
+      "goal": "Persuade them to embrace change — but only as the logical next step toward goals they already hold. Change without upheaval.",
+      "steps": [
+        "**Document results** — qualify the tenure and impact of the partnership, and recap the goals you have helped them reach.",
+        "**Highlight evolving pressures** — describe shifting internal and external pressures as a logical progression, not a surprise.",
+        "**Share hard truths** — name the missed opportunities, internal and external, from your vantage point as a trusted partner.",
+        "**Risk of no change** — the harmful repercussions of not evolving or keeping up.",
+        "**Upside opportunity** — use personalized \"you\" language to transfer ownership of the benefits to them."
+      ],
+      "evidence": "The Why Evolve message was perceived as **15.7% more unique** than Why Change, Why Stay, product-hero or social-influence messages when convincing existing customers to buy something new. Research led by Dr. Nick Lee.",
+      "watchOut": "Playing it too safe loses the expansion; pushing too hard puts the renewal at risk. This is the tightrope — new insight that opens the possibility of change, without disrupting the relationship enough to make them shop.",
+      "ghExample": "Your training program is doing what you built it for. What it cannot tell you is whether a weak property is a skill problem or a process one — a shop answers that in a week, and adds the fix in two clicks. That is the next step, not a new project.",
+      "theTrap": "Even if they are not ready to act, you have planted the seed. When it blooms they remember you saw it coming — and that is what bolsters the barrier around the relationship."
+    }
+  ],
+  "pickIt": [
+    {"situation": "New logo, no Grace Hill product in place", "use": "Why change", "because": "You are the outsider. Their status quo is the opponent."},
+    {"situation": "Renewal conversation, no expansion on the table", "use": "Why stay", "because": "You are the status quo. Protect it."},
+    {"situation": "Renewal at risk because a competitor is circling", "use": "Why stay", "because": "Reinforce the decision they already made. Do not re-sell it."},
+    {"situation": "Existing customer, adding a second or third product", "use": "Why evolve", "because": "Incumbent proposing change — make it a progression, not a decision."},
+    {"situation": "Existing customer whose contact has changed and never chose us", "use": "Why change, carefully", "because": "The new contact has no memory of the original decision, so there is nothing to reinforce. Rebuild the case, without criticising the setup they inherited."},
+    {"situation": "Cross-sell into a division that has never used Grace Hill", "use": "Why change", "because": "Inside the account, but that division's status quo is not us."},
+    {"situation": "Customer asking to consolidate into their PMS", "use": "Why stay, then why evolve", "because": "Reinforce first — the switching cost and lost benchmark history are real. Only then show what they would gain by going further with us."},
+    {"situation": "You are not sure which", "use": "Ask who owns the status quo", "because": "If the thing they do today is ours, protect it. If it is not, disrupt it."}
+  ],
+  "salesVsAm": {
+    "headline": "The same seller, the same product, two opposite jobs",
+    "rows": [
+      {"dim": "Who you are in the room", "sales": "The insurgent. The outsider making a case for change.", "am": "The incumbent. The trusted partner they already rely on."},
+      {"dim": "What status quo bias does", "sales": "Works against you. It is why 40% of deals end in no decision.", "am": "Works for you — until you disrupt it yourself."},
+      {"dim": "The job of the message", "sales": "Make the current situation feel unsustainable.", "am": "Make the current situation feel earned, and staying feel smart."},
+      {"dim": "How you use risk", "sales": "The risk is in not changing.", "am": "The risk is in changing."},
+      {"dim": "How you use cost", "sales": "Reveal the hidden cost of doing nothing.", "am": "Underscore the sunk cost already invested with you."},
+      {"dim": "How you use their history", "sales": "Their history is the flawed current approach.", "am": "Their history is the proof, and the reason to stay."},
+      {"dim": "Who is the hero", "sales": "They are — once they decide to change.", "am": "They are — because they already decided well."},
+      {"dim": "What a competitor mention means", "sales": "A shortlist you need to win.", "am": "An early churn signal. Reinforce before you compare."},
+      {"dim": "The failure mode", "sales": "Pitching features before the case for change lands.", "am": "Borrowing the acquisition pitch — which raises churn risk by at least 10%."}
+    ]
+  },
+  "csNote": "For Customer Success this is not an abstraction. On a renewal, every competitive talking point in this tool is the wrong tool. Reach for the record only after you have reinforced — and if you find yourself comparing feature to feature on a renewal call, the conversation has already moved onto the competitor's ground."
+}

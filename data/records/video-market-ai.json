@@ -1,0 +1,3990 @@
+[
+ {
+  "id": "matterport",
+  "name": "Matterport",
+  "aka": [
+   "Matterport 3D",
+   "Matterport digital twin"
+  ],
+  "parent": "CoStar Group",
+  "website": "https://matterport.com",
+  "toolCategory": "3D scanning and virtual tour platform",
+  "ciCategory": "Indirect",
+  "tier": "Tier 2",
+  "verdict": {
+   "stance": "Partial overlap",
+   "line": "A 3D digital-twin platform, not a leasing-video platform — it overlaps Realync only on the line item labeled 'virtual tour', so move the conversation to whether the buyer wants a walkthrough or a leasing conversation on camera.",
+   "doInstead": null
+  },
+  "overlaps": [
+   {
+    "product": "Realync",
+    "degree": "Partial"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": "Unknown",
+    "source": null,
+    "verifiedOn": "2026-08-11"
+   },
+   "founded": {
+    "value": "Unknown",
+    "source": null,
+    "verifiedOn": "2026-08-11"
+   },
+   "ownership": {
+    "value": "Owned by CoStar Group; acquisition completed February 28, 2025 and Matterport delisted from Nasdaq.",
+    "source": "https://matterport.com/news/costar-group-completes-acquisition-of-matterport-ushering-in-a-new-era-of-3d",
+    "verifiedOn": "2026-08-11"
+   },
+   "size": {
+    "value": "Unknown",
+    "source": null,
+    "verifiedOn": "2026-08-11"
+   },
+   "funding": {
+    "value": "Unknown — now a CoStar Group subsidiary; deal value not disclosed in the closing announcement.",
+    "source": "https://matterport.com/news/costar-group-completes-acquisition-of-matterport-ushering-in-a-new-era-of-3d",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "pricing": {
+   "value": "Published subscription tiers named Free, Starter, Professional, Business and Enterprise, billed annually by number of active spaces; the plans page does not display dollar amounts for the paid tiers. Pro3 camera listed at 'starting at $3,995'.",
+   "source": "https://matterport.com/plans",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "Positions itself around 3D digital twins and 'the world's largest and most precise spatial data library' — over 14 million spaces and 50 billion square feet digitized across 177 countries.",
+   "source": "https://matterport.com/news/costar-group-completes-acquisition-of-matterport-ushering-in-a-new-era-of-3d",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "Very large installed base of captured spaces: over 14 million spaces and 50 billion square feet digitized across 177 countries as stated at the CoStar acquisition close.",
+    "source": "https://matterport.com/news/costar-group-completes-acquisition-of-matterport-ushering-in-a-new-era-of-3d",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Capture is possible with an iPhone or iPad alone using the Capture app, or with supported connected 360 cameras (Insta360, Ricoh Theta SC2, Leica BLK360) — no dedicated Matterport camera is required to start.",
+    "source": "https://support.matterport.com/hc/en-us/articles/1500004898402-Matterport-Capture-for-iOS",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Distribution advantage through CoStar ownership: Apartments.com publishes instructions for adding Matterport 3D tours to rental listings.",
+    "source": "https://www.apartments.com/rental-manager/add-matterport-virtual-3d-tours",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Hardware price is published rather than quote-only: Pro3 camera listed at 'starting at $3,995'.",
+    "source": "https://matterport.com/pro3",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "The public plans page does not display dollar amounts for the Starter, Professional or Business tiers; price is resolved during checkout based on active-space count, and Enterprise is 'contact sales'.",
+    "source": "https://matterport.com/plans",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Matterport's public Pro3 and plans pages do not describe live agent-guided video tours or multifamily CRM/PMS leasing integrations.",
+    "source": "https://matterport.com/pro3",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [
+   "Realync is built for the leasing conversation — a named agent on camera, live and recorded — where a Matterport twin is an unnarrated walkthrough of an empty room.",
+   "Realync capture is done by the onsite team as part of the leasing workflow, with CRM integration, rather than as a separate spatial-media project."
+  ],
+  "askThis": [
+   "When a unit turns, who re-scans it, and how many days pass before the new tour is live?",
+   "Do your prospects get a person on camera anywhere in the process, or only the 3D walkthrough?",
+   "How does the tour get attached to the lead record in your CRM today?",
+   "What does your Matterport bill actually come to once you count active spaces across the portfolio?"
+  ],
+  "objections": [
+   {
+    "objection": "We already have Matterport on every unit.",
+    "response": "Good — that covers the spatial walkthrough. The question is what happens after the prospect watches it. Realync is the agent-led follow-up: a live tour or a recorded, narrated unit video tied to the lead in your CRM."
+   },
+   {
+    "objection": "Matterport is cheaper because we can scan with an iPhone.",
+    "response": "Capture cost is only part of it. Ask what the annual active-space subscription totals across the portfolio and who owns re-scanning on turn."
+   }
+  ],
+  "doNotSay": [
+   "Do not say Matterport has no CRM integration — say their public product pages do not describe multifamily CRM/PMS leasing integrations.",
+   "Do not quote a Matterport subscription price; the paid-tier dollar amounts are not published.",
+   "Do not characterize Matterport's product quality or support."
+  ],
+  "features": {
+   "vl-diy-capture": {
+    "support": "Yes",
+    "note": "The Capture app scans with an iPhone or iPad alone, or with a connected 360 camera; a Matterport account is not required to start scanning. Matterport also sells a Capture Services option where a technician is dispatched.",
+    "source": "https://support.matterport.com/hc/en-us/articles/1500004898402-Matterport-Capture-for-iOS",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-live-tours": {
+    "support": "Unknown",
+    "note": "Live agent-guided video tours are not described on the Matterport product pages reviewed.",
+    "source": "https://matterport.com/pro3",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-unit-level": {
+    "support": "Partial",
+    "note": "Output is a 3D digital twin of an individual space rather than a recorded narrated video; unit-level 3D tours are the core deliverable.",
+    "source": "https://matterport.com/pro3",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-3d": {
+    "support": "Yes",
+    "note": "3D digital twins are the core product.",
+    "source": "https://matterport.com/pro3",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-self-guided": {
+    "support": "Unknown",
+    "note": "In-person self-guided tour access (smart-lock entry, ID verification) is not described on the pages reviewed.",
+    "source": "https://matterport.com/pro3",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-crm-integration": {
+    "support": "Unknown",
+    "note": "No multifamily CRM/PMS leasing integration described on the pages reviewed.",
+    "source": "https://matterport.com/pro3",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-analytics": {
+    "support": "Unknown",
+    "note": "Engagement analytics not described on the pages reviewed.",
+    "source": "https://matterport.com/plans",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-syndication": {
+    "support": "Partial",
+    "note": "Apartments.com (CoStar) publishes a workflow for adding Matterport 3D tours to rental listings; broader ILS syndication is not described by Matterport.",
+    "source": "https://www.apartments.com/rental-manager/add-matterport-virtual-3d-tours",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Medium",
+   "owner": null,
+   "autoUpdated": true,
+   "pendingReview": []
+  },
+  "news": [
+   {
+    "headline": "CoStar Group Completes Acquisition of Matterport",
+    "date": "2025-02-28",
+    "url": "https://matterport.com/news/costar-group-completes-acquisition-of-matterport-ushering-in-a-new-era-of-3d",
+    "impact": "Matterport is now inside CoStar alongside Apartments.com, which changes the distribution question for multifamily buyers."
+   }
+  ],
+  "sources": [
+   {
+    "title": "CoStar Group Completes Acquisition of Matterport",
+    "url": "https://matterport.com/news/costar-group-completes-acquisition-of-matterport-ushering-in-a-new-era-of-3d",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Matterport Capture for iOS — Help Center",
+    "url": "https://support.matterport.com/hc/en-us/articles/1500004898402-Matterport-Capture-for-iOS",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Matterport Pro3 3D camera",
+    "url": "https://matterport.com/pro3",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Matterport plans",
+    "url": "https://matterport.com/plans",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Add Matterport Virtual 3D Tours — Apartments.com Rental Manager",
+    "url": "https://www.apartments.com/rental-manager/add-matterport-virtual-3d-tours",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 1,
+   "name": "Demand and Leasing",
+   "note": "Sits in demand and leasing, upstream of the resolution loop."
+  },
+  "whenItComesUp": {
+   "why": "Overlaps in part, not in whole. A 3D digital-twin platform, not a leasing-video platform — it overlaps Realync only on the line item labeled 'virtual tour', so move the conversation to whether the buyer wants a walkthrough or a leasing conversation on camera.",
+   "say": "Concede the part they genuinely own, then be specific about the part they don't. Partial overlap is where reps over-claim and lose credibility.",
+   "avoid": "Do not say Matterport has no CRM integration — say their public product pages do not describe multifamily CRM/PMS leasing integrations.",
+   "redirect": "When a unit turns, who re-scans it, and how many days pass before the new tour is live?",
+   "derived": true
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name Matterport 3D, Matterport digital twin, or describe 3d scanning and virtual tour platform already in place.",
+    "ask": "When a unit turns, who re-scans it, and how many days pass before the new tour is live?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "The public plans page does not display dollar amounts for the Starter, Professional or Business tiers; price is resolved during checkout based on active-space count, and Enterprise is 'contact sales'.",
+    "ask": "Do your prospects get a person on camera anywhere in the process, or only the 3D walkthrough?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the Matterport contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the Matterport agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether Matterport sits on someone else's budget line — that changes who has to agree.",
+    "ask": "How does the tour get attached to the lead record in your CRM today?"
+   }
+  ],
+  "play": "Sometimes in the room"
+ },
+ {
+  "id": "peek",
+  "name": "Peek",
+  "aka": [
+   "Peek Technologies",
+   "Peek 3D"
+  ],
+  "parent": null,
+  "website": "https://www.peek.us",
+  "toolCategory": "Unit-level 3D tour and self-guided touring platform",
+  "ciCategory": "Direct",
+  "tier": "Tier 2",
+  "verdict": {
+   "stance": "Compete",
+   "line": "Peek's own national content team does the scanning, so every new unit type is a scheduled visit — compete on who holds the camera and how fast a turned unit gets fresh media.",
+   "doInstead": null
+  },
+  "overlaps": [
+   {
+    "product": "Realync",
+    "degree": "High"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": "Unknown",
+    "source": null,
+    "verifiedOn": "2026-08-11"
+   },
+   "founded": {
+    "value": "Unknown",
+    "source": null,
+    "verifiedOn": "2026-08-11"
+   },
+   "ownership": {
+    "value": "Private, venture-backed",
+    "source": "https://www.citybiz.co/article/689257/peek-raises-5-million-series-a-funding/",
+    "verifiedOn": "2026-08-11"
+   },
+   "size": {
+    "value": "Unknown",
+    "source": null,
+    "verifiedOn": "2026-08-11"
+   },
+   "funding": {
+    "value": "$5M Series A announced May 2025, led by Moneta Ventures with Timber Grove Ventures and existing investors; a $2.5M raise was announced in May 2022.",
+    "source": "https://www.citybiz.co/article/689257/peek-raises-5-million-series-a-funding/",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "pricing": {
+   "value": "Not published. Site directs to 'Book a Demo'.",
+   "source": "https://www.peek.us/",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "Describes itself as 'a full-stack conversion engine — built to cut vacant days, not just showcase', combining unit-level 3D tours, self-guided tours and a conversational AI leasing assistant.",
+   "source": "https://www.peek.us/",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "Bundles unit-level 3D tours, app-free self-guided touring and an in-tour AI chat assistant in one platform.",
+    "source": "https://www.peek.us/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Tours embed on property websites, floorplan pages and Google Business Profiles, and Peek has a published distribution partnership with Apartment List.",
+    "source": "https://www.apartmentlist.com/rental-management/apartment-list-peek-partnership",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Capture is a managed service — a Peek content team visits and scans with professional equipment, described as under 15 minutes per unit.",
+    "source": "https://www.peek.us/3dmarketing",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "States operation across 'hundreds of thousands of multifamily units across the U.S.' at the time of its Series A.",
+    "source": "https://www.citybiz.co/article/689257/peek-raises-5-million-series-a-funding/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "Capture is performed by Peek's national content team on a scheduled property visit; the published capture description does not offer an onsite-staff self-capture path.",
+    "source": "https://www.peek.us/3dmarketing",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Pricing is not published on the Peek website.",
+    "source": "https://www.peek.us/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "The 3D marketing page describes scans sold in bundles (a bundle of 20 high-definition scans), rather than unlimited per-unit capture.",
+    "source": "https://www.peek.us/3dmarketing",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [
+   "Realync's capture is done by the onsite team, so media refreshes on the property's schedule, not on a vendor visit schedule.",
+   "Realync covers live tours and narrated recorded unit video — an agent-led format that a scanned 3D twin does not replace."
+  ],
+  "askThis": [
+   "When a unit turns or you finish a renovation, how do you get an updated tour — do you wait for the next content team visit?",
+   "How many scans are in your bundle, and what happens when you need the twenty-first?",
+   "Who narrates the space for the prospect — is there a person anywhere in that experience?",
+   "Which of your floor plans have tours today, and which are still using stock photos?"
+  ],
+  "objections": [
+   {
+    "objection": "We like that Peek does the work for us.",
+    "response": "That is a real benefit on day one. The question is day ninety — when the unit turns. Ask what the re-scan turnaround is and whether it costs a new bundle."
+   }
+  ],
+  "doNotSay": [
+   "Do not claim Peek's tours are low quality or that their team is slow — we have no sourced basis for either.",
+   "Do not quote a Peek price; none is published.",
+   "Do not repeat Peek's marketing outcome claims as if they were Grace Hill's."
+  ],
+  "features": {
+   "vl-diy-capture": {
+    "support": "No",
+    "note": "Peek states: 'Peek's national content team visits your property and captures high-definition scans using professional 3D scanning equipment.' No onsite-staff self-capture option is described.",
+    "source": "https://www.peek.us/3dmarketing",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-live-tours": {
+    "support": "Unknown",
+    "note": "Live agent-guided video tours are not described on the pages reviewed.",
+    "source": "https://www.peek.us/",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-unit-level": {
+    "support": "Partial",
+    "note": "Unit-level tours are the core product, but delivered as 3D scans rather than recorded narrated video.",
+    "source": "https://www.peek.us/3dmarketing",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-3d": {
+    "support": "Yes",
+    "note": "Unit-level 3D tours with optional dynamic virtual staging.",
+    "source": "https://www.peek.us/3dmarketing",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-self-guided": {
+    "support": "Yes",
+    "note": "App-free self-guided tours that operate after hours and weekends.",
+    "source": "https://www.peek.us/3dmarketing",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-crm-integration": {
+    "support": "Unknown",
+    "note": "CRM/PMS integrations are not named on the pages reviewed.",
+    "source": "https://www.peek.us/",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-analytics": {
+    "support": "Yes",
+    "note": "Property-level tracking of virtual tour views and engagement time; site also cites real-time renter behavior analytics.",
+    "source": "https://www.peek.us/3dmarketing",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-syndication": {
+    "support": "Partial",
+    "note": "Tours embed on websites, floorplan pages and Google Business Profiles; a published partnership with Apartment List extends distribution. Broader ILS syndication is not described.",
+    "source": "https://www.apartmentlist.com/rental-management/apartment-list-peek-partnership",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Medium",
+   "owner": null,
+   "autoUpdated": true,
+   "pendingReview": []
+  },
+  "news": [
+   {
+    "headline": "Peek Raises $5 Million Series A Funding",
+    "date": "2025-05-01",
+    "url": "https://www.citybiz.co/article/689257/peek-raises-5-million-series-a-funding/",
+    "impact": "Funded to expand the managed-capture model; expect more outbound activity in multifamily virtual touring."
+   }
+  ],
+  "sources": [
+   {
+    "title": "Peek — homepage",
+    "url": "https://www.peek.us/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Peek 3D Marketing",
+    "url": "https://www.peek.us/3dmarketing",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Peek Raises $5 Million Series A Funding — citybiz",
+    "url": "https://www.citybiz.co/article/689257/peek-raises-5-million-series-a-funding/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Apartment List & Peek partnership",
+    "url": "https://www.apartmentlist.com/rental-management/apartment-list-peek-partnership",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 1,
+   "name": "Demand and Leasing",
+   "note": "Sits in demand and leasing, upstream of the resolution loop."
+  },
+  "whenItComesUp": {
+   "why": "A real head-to-head. Peek's own national content team does the scanning, so every new unit type is a scheduled visit — compete on who holds the camera and how fast a turned unit gets fresh media.",
+   "say": "Acknowledge what they do well, then move the conversation to the ground in 'Win with' — don't open with a feature list.",
+   "avoid": "Do not claim Peek's tours are low quality or that their team is slow — we have no sourced basis for either.",
+   "redirect": "When a unit turns or you finish a renovation, how do you get an updated tour — do you wait for the next content team visit?",
+   "derived": true
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name Peek Technologies, Peek 3D, or describe unit-level 3d tour and self-guided touring platform already in place.",
+    "ask": "When a unit turns or you finish a renovation, how do you get an updated tour — do you wait for the next content team visit?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "Capture is performed by Peek's national content team on a scheduled property visit; the published capture description does not offer an onsite-staff self-capture path.",
+    "ask": "How many scans are in your bundle, and what happens when you need the twenty-first?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the Peek contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the Peek agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether Peek sits on someone else's budget line — that changes who has to agree.",
+    "ask": "Who narrates the space for the prospect — is there a person anywhere in that experience?"
+   }
+  ],
+  "play": "Sometimes in the room"
+ },
+ {
+  "id": "lcp-media",
+  "name": "LCP Media",
+  "aka": [
+   "LCP Media, a Yardi company",
+   "TourBuilder (LCP Media)"
+  ],
+  "parent": "Yardi Systems",
+  "website": "https://www.lcpmedia.com",
+  "toolCategory": "Multifamily visual media production and virtual tour services",
+  "ciCategory": "Direct",
+  "tier": "Tier 1",
+  "verdict": {
+   "stance": "Compete",
+   "line": "Now a Yardi company, so it arrives bundled into a Yardi conversation — compete on the fact that most of its output is produced by a photographer network, with self-capture confined to the TourBuilder Go unit-level product.",
+   "doInstead": null
+  },
+  "overlaps": [
+   {
+    "product": "Realync",
+    "degree": "High"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": "Unknown",
+    "source": null,
+    "verifiedOn": "2026-08-11"
+   },
+   "founded": {
+    "value": "Unknown",
+    "source": null,
+    "verifiedOn": "2026-08-11"
+   },
+   "ownership": {
+    "value": "Acquired by Yardi Systems; acquisition announced February 2025. Terms not disclosed.",
+    "source": "https://www.yardi.com/news/press-releases/yardi-acquires-visual-media-technology-company-lcp-media/",
+    "verifiedOn": "2026-08-11"
+   },
+   "size": {
+    "value": "Unknown",
+    "source": null,
+    "verifiedOn": "2026-08-11"
+   },
+   "funding": {
+    "value": "Unknown — now a Yardi subsidiary.",
+    "source": "https://www.yardi.com/news/press-releases/yardi-acquires-visual-media-technology-company-lcp-media/",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "pricing": {
+   "value": "Not published. Yardi's LCP Media page and the LCP Media site direct to a sales contact form.",
+   "source": "https://www.yardi.com/product/lcp-media/",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "Positions as a full visual-media suite for multifamily: virtual tours (TourBuilder Pro and Go), 3D renderings and floor plans, professional and aerial photography, live video calls (TourBuilder Connect), short-form AI-generated video (TourBuilder Clips), virtual staging and TourBuilder Insights analytics.",
+   "source": "https://www.yardi.com/product/lcp-media/",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "Broad media catalog in one vendor: virtual tours, 3D renderings and floor plans, photography and aerial drone, live video calls, short-form video, virtual staging and analytics.",
+    "source": "https://www.yardi.com/product/lcp-media/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Nationwide professional photographer network with in-house project managers — LCP states it manages the entire photography process.",
+    "source": "https://www.yardi.com/product/lcp-media/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Tours sync automatically to Google Business Profile and distribute to RentCafe.com and other listing sites.",
+    "source": "https://www.yardi.com/product/lcp-media/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Yardi ownership since February 2025 gives it native placement in the Yardi stack.",
+    "source": "https://www.yardi.com/news/press-releases/yardi-acquires-visual-media-technology-company-lcp-media/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "Self-capture is scoped to the TourBuilder Go unit-level product (mobile app plus a 360 camera kit); the rest of the catalog is described as professionally captured by LCP's photographer network.",
+    "source": "https://www.lcpmedia.com/tourbuilder",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Pricing is not published on either the Yardi product page or the LCP Media site.",
+    "source": "https://www.yardi.com/product/lcp-media/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "The Yardi LCP Media product page does not describe a CRM/PMS sales integration that attaches media to a specific lead record; distribution is described as syndication to listing sites and Google.",
+    "source": "https://www.yardi.com/product/lcp-media/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [
+   "Realync is a leasing tool the onsite team operates every day, not a media production engagement scheduled with a photographer network.",
+   "Realync covers live and recorded unit-level video with CRM integration, so the video is attached to the leasing conversation rather than only to the listing."
+  ],
+  "askThis": [
+   "Which parts of your media are shot by the photographer network, and what does a re-shoot cost when a unit turns?",
+   "How long between requesting media and it going live on the listing?",
+   "Does the tour ever get sent to a specific prospect by a specific agent, or does it only live on the website?",
+   "If you leave Yardi, what happens to this media contract?"
+  ],
+  "objections": [
+   {
+    "objection": "It's part of our Yardi relationship, so it's easier.",
+    "response": "Understood on procurement. On the workflow: TourBuilder Go is the self-capture piece; ask which of your properties are actually using it versus waiting on a photographer visit."
+   }
+  ],
+  "doNotSay": [
+   "Do not say LCP Media cannot do self-capture — TourBuilder Go explicitly supports onsite staff capture.",
+   "Do not quote LCP Media or TourBuilder pricing; none is published.",
+   "Do not characterize Yardi's or LCP's service quality."
+  ],
+  "features": {
+   "vl-diy-capture": {
+    "support": "Partial",
+    "note": "TourBuilder Go lets onsite staff self-capture unit-level tours with a mobile app and a Ricoh 360 camera kit, 'no experience needed'; LCP's professional photographer network is offered as the alternative and covers the rest of the catalog.",
+    "source": "https://www.lcpmedia.com/tourbuilder",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-live-tours": {
+    "support": "Yes",
+    "note": "TourBuilder Connect is described as live video calls.",
+    "source": "https://www.yardi.com/product/lcp-media/",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-unit-level": {
+    "support": "Yes",
+    "note": "TourBuilder Go produces unit-level tours; TourBuilder Clips produces short-form AI-generated videos.",
+    "source": "https://www.yardi.com/product/lcp-media/",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-3d": {
+    "support": "Yes",
+    "note": "3D renderings, 360 renderings, 3D floor plans and animated flythroughs.",
+    "source": "https://www.yardi.com/product/lcp-media/",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-self-guided": {
+    "support": "Unknown",
+    "note": "In-person self-guided tour access is not described on the pages reviewed.",
+    "source": "https://www.yardi.com/product/lcp-media/",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-crm-integration": {
+    "support": "Unknown",
+    "note": "A CRM/PMS sales integration attaching media to a lead record is not described; RentCafe sync is described as listing distribution.",
+    "source": "https://www.yardi.com/product/lcp-media/",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-analytics": {
+    "support": "Yes",
+    "note": "TourBuilder Insights is described as performance tracking.",
+    "source": "https://www.yardi.com/product/lcp-media/",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-syndication": {
+    "support": "Yes",
+    "note": "Virtual tours automatically sync to Google Business Profile and distribute across RentCafe.com and other internet listing sites.",
+    "source": "https://www.yardi.com/product/lcp-media/",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "High",
+   "owner": null,
+   "autoUpdated": true,
+   "pendingReview": []
+  },
+  "news": [
+   {
+    "headline": "Yardi Acquires Visual Media Technology Company LCP Media",
+    "date": "2025-02-25",
+    "url": "https://www.yardi.com/news/press-releases/yardi-acquires-visual-media-technology-company-lcp-media/",
+    "impact": "Virtual tour media is now a Yardi-owned line, so it will show up bundled in Yardi renewals."
+   }
+  ],
+  "sources": [
+   {
+    "title": "LCP Media — Virtual tours, photos & more (Yardi product page)",
+    "url": "https://www.yardi.com/product/lcp-media/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Yardi Acquires Visual Media Technology Company LCP Media",
+    "url": "https://www.yardi.com/news/press-releases/yardi-acquires-visual-media-technology-company-lcp-media/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "LCP Media — TourBuilder",
+    "url": "https://www.lcpmedia.com/tourbuilder",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 1,
+   "name": "Demand and Leasing",
+   "note": "Sits in demand and leasing, upstream of the resolution loop."
+  },
+  "whenItComesUp": {
+   "why": "Yardi-owned visual media with a nationwide photographer network — the strongest production quality in the set, and a Yardi relationship behind it.",
+   "say": "LCP produces beautiful work, and if Yardi's already in your stack the procurement path is easy. The trade-off is scheduling: every new unit type is a booked visit. Our argument is who holds the camera and how fast a turned unit gets fresh media.",
+   "avoid": "Don't attack production quality — theirs is better than DIY and everyone knows it.",
+   "redirect": "When a unit turns on a Tuesday, how long until there's current media of it online?"
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name LCP Media, a Yardi company, TourBuilder (LCP Media), or describe multifamily visual media production and virtual tour services already in place.",
+    "ask": "Which parts of your media are shot by the photographer network, and what does a re-shoot cost when a unit turns?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "Self-capture is scoped to the TourBuilder Go unit-level product (mobile app plus a 360 camera kit); the rest of the catalog is described as professionally captured by LCP's photographer network.",
+    "ask": "How long between requesting media and it going live on the listing?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the LCP Media contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the LCP Media agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether LCP Media sits on someone else's budget line — that changes who has to agree.",
+    "ask": "Does the tour ever get sent to a specific prospect by a specific agent, or does it only live on the website?"
+   }
+  ],
+  "play": "Head-to-head"
+ },
+ {
+  "id": "tourbuilder",
+  "name": "TourBuilder",
+  "aka": [
+   "TourBuilder Go",
+   "TourBuilder Pro",
+   "TourBuilder One",
+   "TourBuilder Connect",
+   "TourBuilder Clips",
+   "TourBuilder Insights"
+  ],
+  "parent": "LCP Media (Yardi Systems)",
+  "website": "https://www.lcpmedia.com/tourbuilder",
+  "toolCategory": "Virtual tour product suite for apartment communities",
+  "ciCategory": "Direct",
+  "tier": "Tier 1",
+  "verdict": {
+   "stance": "Compete",
+   "line": "TourBuilder is LCP Media's product line, not a separate vendor — treat it as the same Yardi-owned account, and remember TourBuilder Go is the one module where the onsite team captures for itself.",
+   "doInstead": null
+  },
+  "overlaps": [
+   {
+    "product": "Realync",
+    "degree": "High"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": "Unknown",
+    "source": null,
+    "verifiedOn": "2026-08-11"
+   },
+   "founded": {
+    "value": "Unknown",
+    "source": null,
+    "verifiedOn": "2026-08-11"
+   },
+   "ownership": {
+    "value": "Product line of LCP Media, which Yardi Systems acquired in February 2025.",
+    "source": "https://www.yardi.com/news/press-releases/yardi-acquires-visual-media-technology-company-lcp-media/",
+    "verifiedOn": "2026-08-11"
+   },
+   "size": {
+    "value": "Unknown",
+    "source": null,
+    "verifiedOn": "2026-08-11"
+   },
+   "funding": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   }
+  },
+  "pricing": {
+   "value": "Not published; the TourBuilder page directs to a sales contact.",
+   "source": "https://www.lcpmedia.com/tourbuilder",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "TourBuilder Go is positioned as 'Create unit-level virtual tours in just minutes using our mobile app and 360° camera kit—no experience needed.' The wider suite spans TourBuilder Pro (professionally captured), One, Connect (live video calls), Clips (short-form AI-generated video) and Insights (analytics).",
+   "source": "https://www.lcpmedia.com/tourbuilder",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "TourBuilder Go supports genuine onsite-staff self-capture with a mobile app and a Ricoh 360 camera kit, described as requiring no experience.",
+    "source": "https://www.lcpmedia.com/tourbuilder",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Dual model — self-capture or LCP's nationwide photographer network — lets a buyer mix approaches by property.",
+    "source": "https://www.lcpmedia.com/tourbuilder",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Suite covers live video calls (Connect), short-form AI-generated video (Clips) and analytics (Insights) alongside tours.",
+    "source": "https://www.yardi.com/product/lcp-media/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Yardi distribution: tours sync to Google Business Profile and RentCafe.com.",
+    "source": "https://www.yardi.com/product/lcp-media/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "Self-capture requires a hardware kit — a mobile app plus a Ricoh 360° camera kit — rather than the phone the leasing agent already carries.",
+    "source": "https://www.lcpmedia.com/tourbuilder",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "The TourBuilder page describes only TourBuilder Go in detail; TourBuilder One, Pro, Clips, Connect and Insights are listed without published capability detail.",
+    "source": "https://www.lcpmedia.com/tourbuilder",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Pricing is not published for any TourBuilder module.",
+    "source": "https://www.lcpmedia.com/tourbuilder",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [
+   "Realync's capture runs on the phone the onsite team already has, so adoption does not depend on a camera kit being present and charged at each property.",
+   "Realync spans live and recorded unit-level video with CRM integration in a single product rather than across separate modules."
+  ],
+  "askThis": [
+   "How many of your properties have the 360 camera kit onsite right now, and how many tours did they publish last month?",
+   "Which TourBuilder modules are you actually licensed for — Go, Pro, Connect, Clips, Insights?",
+   "When a kit breaks or walks, what is the replacement process?",
+   "Who at the property owns capturing, and is it in anyone's job description?"
+  ],
+  "objections": [
+   {
+    "objection": "TourBuilder Go already lets our team capture.",
+    "response": "It does — with the camera kit. Worth checking how many properties have the kit in hand and how many tours were published last month. Realync captures on the phone the agent already carries."
+   }
+  ],
+  "doNotSay": [
+   "Do not present TourBuilder as a separate company from LCP Media — it is LCP Media's product line under Yardi.",
+   "Do not quote TourBuilder pricing; none is published.",
+   "Do not assert what TourBuilder One or Pro cannot do — their capability detail is simply not published."
+  ],
+  "features": {
+   "vl-diy-capture": {
+    "support": "Yes",
+    "note": "TourBuilder Go: onsite staff self-capture using a mobile app and a Ricoh 360° camera kit, 'no experience needed'. Professional photographers from LCP Media's nationwide network are the alternative.",
+    "source": "https://www.lcpmedia.com/tourbuilder",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-live-tours": {
+    "support": "Yes",
+    "note": "TourBuilder Connect is described as live video calls.",
+    "source": "https://www.yardi.com/product/lcp-media/",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-unit-level": {
+    "support": "Yes",
+    "note": "TourBuilder Go creates unit-level virtual tours; TourBuilder Clips produces short-form AI-generated videos.",
+    "source": "https://www.lcpmedia.com/tourbuilder",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-3d": {
+    "support": "Yes",
+    "note": "360° capture kit and 3D/360 rendering products across the LCP catalog.",
+    "source": "https://www.yardi.com/product/lcp-media/",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-self-guided": {
+    "support": "Unknown",
+    "note": "In-person self-guided tour access is not described on the pages reviewed.",
+    "source": "https://www.lcpmedia.com/tourbuilder",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-crm-integration": {
+    "support": "Unknown",
+    "note": "A CRM/PMS sales integration is not described on the pages reviewed; a 'TourBuilder Sync' link exists but is not documented on the page.",
+    "source": "https://www.lcpmedia.com/tourbuilder",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-analytics": {
+    "support": "Yes",
+    "note": "TourBuilder Insights is described as performance tracking.",
+    "source": "https://www.yardi.com/product/lcp-media/",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-syndication": {
+    "support": "Yes",
+    "note": "Tours sync automatically to Google Business Profile and distribute to RentCafe.com and other internet listing sites.",
+    "source": "https://www.yardi.com/product/lcp-media/",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Medium",
+   "owner": null,
+   "autoUpdated": true,
+   "pendingReview": []
+  },
+  "news": [],
+  "sources": [
+   {
+    "title": "LCP Media — TourBuilder",
+    "url": "https://www.lcpmedia.com/tourbuilder",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "LCP Media — Virtual tours, photos & more (Yardi product page)",
+    "url": "https://www.yardi.com/product/lcp-media/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Yardi Acquires Visual Media Technology Company LCP Media",
+    "url": "https://www.yardi.com/news/press-releases/yardi-acquires-visual-media-technology-company-lcp-media/",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 1,
+   "name": "Demand and Leasing",
+   "note": "Sits in demand and leasing, upstream of the resolution loop."
+  },
+  "whenItComesUp": {
+   "why": "LCP's product line rather than a separate vendor — treat TourBuilder and LCP Media as one Yardi-owned account.",
+   "say": "TourBuilder Go does let your team self-capture, which is worth acknowledging — though it needs a 360 camera kit rather than just a phone. Compare the whole workflow, not the capture step alone.",
+   "avoid": "Don't say they have no self-capture option. TourBuilder Go exists and a prospect who's seen the demo will know.",
+   "redirect": "Who on your team would actually do the capturing, and what equipment would they need?"
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name TourBuilder Go, TourBuilder Pro, TourBuilder One, TourBuilder Connect, TourBuilder Clips, TourBuilder Insights, or describe virtual tour product suite for apartment communities already in place.",
+    "ask": "How many of your properties have the 360 camera kit onsite right now, and how many tours did they publish last month?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "Self-capture requires a hardware kit — a mobile app plus a Ricoh 360° camera kit — rather than the phone the leasing agent already carries.",
+    "ask": "Which TourBuilder modules are you actually licensed for — Go, Pro, Connect, Clips, Insights?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the TourBuilder contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the TourBuilder agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether TourBuilder sits on someone else's budget line — that changes who has to agree.",
+    "ask": "When a kit breaks or walks, what is the replacement process?"
+   }
+  ],
+  "play": "Head-to-head"
+ },
+ {
+  "id": "oneday",
+  "name": "OneDay",
+  "aka": [
+   "OneDay for Multifamily"
+  ],
+  "parent": null,
+  "website": "https://www.oneday.com",
+  "toolCategory": "Video creation and distribution platform for leasing teams",
+  "ciCategory": "Direct",
+  "tier": "Tier 1",
+  "verdict": {
+   "stance": "Compete",
+   "line": "The closest like-for-like to Realync — team-recorded video with AI scripting and CRM delivery — so compete on unit-level and live-tour depth, not on the idea of video itself.",
+   "doInstead": null
+  },
+  "overlaps": [
+   {
+    "product": "Realync",
+    "degree": "High"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": "Dallas, Texas",
+    "source": "https://www.volitioncapital.com/news/oneday-raises-19m-in-series-b-funding-round-led-by-volition-capital/",
+    "verifiedOn": "2026-08-11"
+   },
+   "founded": {
+    "value": "Unknown — first product launched in 2017 per the Series B announcement.",
+    "source": "https://www.volitioncapital.com/news/oneday-raises-19m-in-series-b-funding-round-led-by-volition-capital/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ownership": {
+    "value": "Private, venture-backed",
+    "source": "https://www.volitioncapital.com/news/oneday-raises-19m-in-series-b-funding-round-led-by-volition-capital/",
+    "verifiedOn": "2026-08-11"
+   },
+   "size": {
+    "value": "Unknown",
+    "source": null,
+    "verifiedOn": "2026-08-11"
+   },
+   "funding": {
+    "value": "$19M Series B announced July 2021, led by Volition Capital with Silverton Partners; $25M total raised as of that announcement.",
+    "source": "https://www.volitioncapital.com/news/oneday-raises-19m-in-series-b-funding-round-led-by-volition-capital/",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "pricing": {
+   "value": "Not published on the OneDay website.",
+   "source": "https://www.oneday.com/multifamily",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "Positions as a platform for teams to 'create, send, and track videos that turn leads into real conversations', with an AI Scriptwriter and Teleprompter, automated distribution by text, email and social, and Community Highlight Pages.",
+   "source": "https://www.oneday.com/multifamily",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "Self-serve video model: teams create videos themselves with an AI Scriptwriter and Teleprompter, described by its Series B investor as a 'self-serve video platform'.",
+    "source": "https://www.volitioncapital.com/news/oneday-raises-19m-in-series-b-funding-round-led-by-volition-capital/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Named CRM integrations: Entrata, Yardi, Knock and HubSpot.",
+    "source": "https://www.oneday.com/multifamily",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Community Highlight Pages combine videos, testimonials, floor plans and tour scheduling on a single property page.",
+    "source": "https://www.oneday.com/multifamily",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Established base in adjacent senior living — nearly 5,000 senior living communities across the US, UK and Canada as of the 2021 Series B.",
+    "source": "https://www.volitioncapital.com/news/oneday-raises-19m-in-series-b-funding-round-led-by-volition-capital/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "The OneDay multifamily page does not describe live video tours, recorded unit-level video, 3D tours or self-guided tour access.",
+    "source": "https://www.oneday.com/multifamily",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Pricing is not published.",
+    "source": "https://www.oneday.com/multifamily",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "The most recent funding round disclosed publicly is the July 2021 Series B; no later round is published on the investor announcement page.",
+    "source": "https://www.volitioncapital.com/news/oneday-raises-19m-in-series-b-funding-round-led-by-volition-capital/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [
+   "Realync covers live tours and recorded unit-level video, which is the specific media a prospect asks for when they cannot visit — not only brand and follow-up video.",
+   "Realync's DIY capture is purpose-built for the leasing workflow at unit level, with CRM integration."
+  ],
+  "askThis": [
+   "When a prospect asks to see the actual unit they'd be leasing, what do you send them?",
+   "Do you do live video tours today, and on what tool?",
+   "How many of your floor plans have a current video, and who checks?",
+   "Which CRM does the video get logged into, and against which lead record?"
+  ],
+  "objections": [
+   {
+    "objection": "We already do video with OneDay.",
+    "response": "Then the video habit is there, which is most of the battle. Ask them what they send when a prospect wants to see the specific unit, and whether they run live tours — that is where Realync's unit-level and live capability sits."
+   }
+  ],
+  "doNotSay": [
+   "Do not say OneDay 'has no' live or unit-level video — say those capabilities are not described on their multifamily page.",
+   "Do not quote OneDay pricing; none is published.",
+   "Do not repeat OneDay's marketing outcome percentages as verified results."
+  ],
+  "features": {
+   "vl-diy-capture": {
+    "support": "Yes",
+    "note": "Teams create and record videos themselves; the platform provides an AI Scriptwriter and Teleprompter, and its Series B investor describes it as a 'self-serve video platform'.",
+    "source": "https://www.oneday.com/multifamily",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-live-tours": {
+    "support": "Unknown",
+    "note": "Live video tours are not described on the multifamily page.",
+    "source": "https://www.oneday.com/multifamily",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-unit-level": {
+    "support": "Unknown",
+    "note": "Recorded unit-level video is not specifically described on the multifamily page.",
+    "source": "https://www.oneday.com/multifamily",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-3d": {
+    "support": "Unknown",
+    "note": "3D/360 capability is not described on the multifamily page.",
+    "source": "https://www.oneday.com/multifamily",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-self-guided": {
+    "support": "Unknown",
+    "note": "Self-guided tour access is not described; Community Highlight Pages include tour scheduling.",
+    "source": "https://www.oneday.com/multifamily",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-crm-integration": {
+    "support": "Yes",
+    "note": "Named integrations with Entrata, Yardi, Knock and HubSpot.",
+    "source": "https://www.oneday.com/multifamily",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-analytics": {
+    "support": "Yes",
+    "note": "Tracks views, clicks and conversions with AI-powered reporting.",
+    "source": "https://www.oneday.com/multifamily",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-syndication": {
+    "support": "Unknown",
+    "note": "ILS syndication is not described; distribution is described as text, email and social channels.",
+    "source": "https://www.oneday.com/multifamily",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Medium",
+   "owner": null,
+   "autoUpdated": true,
+   "pendingReview": []
+  },
+  "news": [],
+  "sources": [
+   {
+    "title": "OneDay for Multifamily",
+    "url": "https://www.oneday.com/multifamily",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "OneDay — homepage",
+    "url": "https://www.oneday.com/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "OneDay Raises $19M In Series B Funding Round — Volition Capital",
+    "url": "https://www.volitioncapital.com/news/oneday-raises-19m-in-series-b-funding-round-led-by-volition-capital/",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 1,
+   "name": "Demand and Leasing",
+   "note": "Sits in demand and leasing, upstream of the resolution loop."
+  },
+  "whenItComesUp": {
+   "why": "Self-serve video for leasing teams with AI scripting — the closest philosophical match to Realync's DIY model.",
+   "say": "OneDay's teams-record-themselves model is the same instinct we have, and their scripting tools are good. Compare on what happens to the video afterward — where it goes, what it's tied to, and whether anyone can see if it worked.",
+   "avoid": "Don't claim a win record you can't evidence to a prospect.",
+   "redirect": "Once the video exists, what does it plug into — and how do you know if it converted?"
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name OneDay for Multifamily, or describe video creation and distribution platform for leasing teams already in place.",
+    "ask": "When a prospect asks to see the actual unit they'd be leasing, what do you send them?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "The OneDay multifamily page does not describe live video tours, recorded unit-level video, 3D tours or self-guided tour access.",
+    "ask": "Do you do live video tours today, and on what tool?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the OneDay contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the OneDay agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether OneDay sits on someone else's budget line — that changes who has to agree.",
+    "ask": "How many of your floor plans have a current video, and who checks?"
+   }
+  ],
+  "play": "Head-to-head"
+ },
+ {
+  "id": "tour24",
+  "name": "Tour24",
+  "aka": [
+   "Tour24 Explore"
+  ],
+  "parent": null,
+  "website": "https://www.tour24.io",
+  "toolCategory": "Self-guided tour access platform",
+  "ciCategory": "Indirect",
+  "tier": "Tier 3",
+  "verdict": {
+   "stance": "Do not compete",
+   "line": "Tour24 solves a different job — unlocking the door for an unaccompanied in-person tour — and does not do agent-created video, so it sits alongside Realync rather than against it.",
+   "doInstead": "Position Realync as complementary, not competitive. A Tour24 prospect still needs media before they will book, and a narrated follow-up after they tour. Ask what the property sends before and after the self-guided visit, and sell into that gap. If the buyer frames it as a head-to-head, say plainly that the two products do different things and offer to map the touring journey with them."
+  },
+  "overlaps": [
+   {
+    "product": "Realync",
+    "degree": "Partial"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": "Medfield, Massachusetts (445 Main St, Suite 201)",
+    "source": "https://www.tour24.io/press-release/tour24-raises-5-million-in-series-b-funding-to-optimize-leasing-operations-for-multifamily-real-estate/",
+    "verifiedOn": "2026-08-11"
+   },
+   "founded": {
+    "value": "Unknown",
+    "source": null,
+    "verifiedOn": "2026-08-11"
+   },
+   "ownership": {
+    "value": "Private, venture-backed",
+    "source": "https://www.tour24.io/press-release/tour24-raises-5-million-in-series-b-funding-to-optimize-leasing-operations-for-multifamily-real-estate/",
+    "verifiedOn": "2026-08-11"
+   },
+   "size": {
+    "value": "Unknown",
+    "source": null,
+    "verifiedOn": "2026-08-11"
+   },
+   "funding": {
+    "value": "$5M Series B announced October 2024, led by RET Ventures with strategic investors including GID, Berkshire Residential Investments, Highmark, AMLI Residential and LCOR; a separate investment from Mirasol Capital was announced October 2024.",
+    "source": "https://www.tour24.io/press-release/tour24-raises-5-million-in-series-b-funding-to-optimize-leasing-operations-for-multifamily-real-estate/",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "pricing": {
+   "value": "Not published on the Tour24 website.",
+   "source": "https://www.tour24.io/what-we-do/",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "Positions as a self-guided touring app: prospects book in the app, complete ID verification, enter via smart-lock integration, and follow a pre-set path with location-based audio, submitting feedback and questions in the app while touring.",
+   "source": "https://www.tour24.io/what-we-do/",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "Stated scale of 525,000 units across 2,065 multifamily properties in the U.S. as of the October 2024 Series B announcement.",
+    "source": "https://www.tour24.io/press-release/tour24-raises-5-million-in-series-b-funding-to-optimize-leasing-operations-for-multifamily-real-estate/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Broad integration footprint: PMS (Yardi, RealPage, Entrata), smart locks (Schlage, Yale, Latch) and listing portals (Apartments.com, Zillow).",
+    "source": "https://www.tour24.io/what-we-do/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Handles ID verification and appointment sync to the leasing team's calendar without manual input.",
+    "source": "https://www.tour24.io/what-we-do/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Backed by RET Ventures with owner-operator strategic investors including GID, Berkshire Residential, AMLI and LCOR.",
+    "source": "https://www.tour24.io/press-release/tour24-raises-5-million-in-series-b-funding-to-optimize-leasing-operations-for-multifamily-real-estate/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "The published product description covers in-person self-guided touring with location-based audio; agent-created video, live video tours and 3D tour capture are not part of the described product.",
+    "source": "https://www.tour24.io/what-we-do/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Pricing is not published.",
+    "source": "https://www.tour24.io/what-we-do/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Tours require the prospect to travel to the property; the product does not describe a remote touring option.",
+    "source": "https://www.tour24.io/what-we-do/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [
+   "This is not a win/lose comparison — Realync serves the remote prospect and the follow-up; Tour24 serves the prospect who is already onsite.",
+   "Realync gives the property the media that gets a prospect to book the self-guided tour in the first place."
+  ],
+  "askThis": [
+   "What does a prospect see before they decide to drive over and take a self-guided tour?",
+   "After an unaccompanied tour, who follows up and with what — a text, or a personal video from the agent?",
+   "For out-of-market prospects who will never walk the property, what do you send?",
+   "How do you keep a human relationship in a tour with no human in it?"
+  ],
+  "objections": [
+   {
+    "objection": "We've gone all-in on self-guided touring, so we don't need video.",
+    "response": "Self-guided touring handles the visit. Video handles everything before and after it — what convinces someone to come, and what keeps the agent in the relationship afterward. They stack; they don't replace each other."
+   }
+  ],
+  "doNotSay": [
+   "Do not position Tour24 as a Realync competitor — it is a different job and reps should say so.",
+   "Do not claim Tour24 tours are impersonal or lower-converting; we have no sourced basis.",
+   "Do not quote Tour24 pricing; none is published."
+  ],
+  "features": {
+   "vl-diy-capture": {
+    "support": "No",
+    "note": "Tour24's published product is in-person self-guided touring with location-based audio; onsite-team video capture is not part of the described product.",
+    "source": "https://www.tour24.io/what-we-do/",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-live-tours": {
+    "support": "Unknown",
+    "note": "Live agent-guided video tours are not described; prospects can ask questions in the app while touring.",
+    "source": "https://www.tour24.io/what-we-do/",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-unit-level": {
+    "support": "Unknown",
+    "note": "Recorded unit-level video is not described.",
+    "source": "https://www.tour24.io/what-we-do/",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-3d": {
+    "support": "Unknown",
+    "note": "3D/360 tours are not described.",
+    "source": "https://www.tour24.io/what-we-do/",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-self-guided": {
+    "support": "Yes",
+    "note": "Core product: in-app scheduling, ID verification, smart-lock entry and location-based audio guidance along a pre-set path.",
+    "source": "https://www.tour24.io/what-we-do/",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-crm-integration": {
+    "support": "Yes",
+    "note": "Integrates with Yardi, RealPage and Entrata; appointments sync automatically to the leasing team's calendar.",
+    "source": "https://www.tour24.io/what-we-do/",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-analytics": {
+    "support": "Yes",
+    "note": "Tour24 Explore admin portal provides tour management and performance analytics.",
+    "source": "https://www.tour24.io/what-we-do/",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-syndication": {
+    "support": "Partial",
+    "note": "Connects with listing portals including Apartments.com and Zillow; this is tour-booking distribution rather than media syndication.",
+    "source": "https://www.tour24.io/what-we-do/",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "High",
+   "owner": null,
+   "autoUpdated": true,
+   "pendingReview": []
+  },
+  "news": [],
+  "sources": [
+   {
+    "title": "Tour24 — What We Do",
+    "url": "https://www.tour24.io/what-we-do/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Tour24 Raises $5 Million in Series-B Funding",
+    "url": "https://www.tour24.io/press-release/tour24-raises-5-million-in-series-b-funding-to-optimize-leasing-operations-for-multifamily-real-estate/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Tour24 Announces Investment from Mirasol Capital",
+    "url": "https://www.businesswire.com/news/home/20241017003257/en/Tour24-Announces-Investment-from-Mirasol-Capital",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 1,
+   "name": "Demand and Leasing",
+   "note": "Sits in demand and leasing, upstream of the resolution loop."
+  },
+  "whenItComesUp": {
+   "why": "Self-guided physical tour access. A Tour24 prospect still needs media of the unit — the two products sit next to each other rather than against each other.",
+   "say": "Tour24 handles getting someone into the building on their own schedule. That's a genuinely different problem from what the prospect sees before they decide to come. They work fine together.",
+   "avoid": "Don't manufacture a fight here. Reps who do it sound like they don't understand either product.",
+   "redirect": "Once they've booked that self-guided tour, what are they actually looking at online beforehand?"
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name Tour24 Explore, or describe self-guided tour access platform already in place.",
+    "ask": "What does a prospect see before they decide to drive over and take a self-guided tour?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "The published product description covers in-person self-guided touring with location-based audio; agent-created video, live video tours and 3D tour capture are not part of the described product.",
+    "ask": "After an unaccompanied tour, who follows up and with what — a text, or a personal video from the agent?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the Tour24 contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the Tour24 agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether Tour24 sits on someone else's budget line — that changes who has to agree.",
+    "ask": "For out-of-market prospects who will never walk the property, what do you send?"
+   }
+  ],
+  "play": "Not our fight"
+ },
+ {
+  "id": "salesmail",
+  "name": "SalesMail",
+  "aka": [
+   "SalesMail App"
+  ],
+  "parent": null,
+  "website": "https://www.salesmail.com",
+  "toolCategory": "Personalized video messaging app for sales and leasing teams",
+  "ciCategory": "Indirect",
+  "tier": "Tier 3",
+  "verdict": {
+   "stance": "Partial overlap",
+   "line": "Video messaging for follow-up, not unit touring — it overlaps Realync on agent-recorded video but the published product is about the message, not the apartment.",
+   "doInstead": null
+  },
+  "overlaps": [
+   {
+    "product": "Realync",
+    "degree": "Partial"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": "Unknown",
+    "source": null,
+    "verifiedOn": "2026-08-11"
+   },
+   "founded": {
+    "value": "Unknown",
+    "source": null,
+    "verifiedOn": "2026-08-11"
+   },
+   "ownership": {
+    "value": "Private; founded and operated by Walt Armentrout (Founder and CEO), Fran Smith (Co-founder and CCO) and Corey DeGeorge (COO). No parent company disclosed.",
+    "source": "https://www.salesmail.com/about",
+    "verifiedOn": "2026-08-11"
+   },
+   "size": {
+    "value": "Unknown",
+    "source": null,
+    "verifiedOn": "2026-08-11"
+   },
+   "funding": {
+    "value": "Unknown",
+    "source": null,
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "pricing": {
+   "value": "Not published; site directs to 'Book a demo'.",
+   "source": "https://www.salesmail.com/about",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "Positions as personalized video messaging for multifamily and senior living teams — leasing agents, property managers and operations leaders record from their phones or CRM for tour confirmations, follow-ups, lead outreach, resident events, maintenance updates and renewal reminders.",
+   "source": "https://www.salesmail.com/mfh1",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "Agent-recorded video directly from a phone or from inside the CRM, covering the full leasing and resident lifecycle rather than only tours.",
+    "source": "https://www.salesmail.com/mfh1",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Named integrations with HubSpot, RealPage, Salesforce and Yardi; separately announced integrations with RealPage and Knock CRM.",
+    "source": "https://finance.yahoo.com/news/salesmail-announces-integration-realpage-knock-133200584.html",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Engagement visibility — teams see when prospects view, share and reply to video messages.",
+    "source": "https://www.salesmail.com/mfh1",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Publishes an API for embedding personalized video messaging into other workflows.",
+    "source": "https://www.salesmail.com/api",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "The multifamily product page does not describe live video tours or 3D/360 capability.",
+    "source": "https://www.salesmail.com/mfh1",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Pricing is not published.",
+    "source": "https://www.salesmail.com/about",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "The about page does not disclose headquarters location or founding year.",
+    "source": "https://www.salesmail.com/about",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [
+   "Realync covers the unit itself — live tours and recorded unit-level video — not only the message wrapped around it.",
+   "Realync's video library is organized around the property and floor plan, which is what a prospect is actually asking to see."
+  ],
+  "askThis": [
+   "When a prospect asks to see a specific unit, what do you send — a selfie video or a walkthrough of that unit?",
+   "Do you run live video tours today?",
+   "Is there a reusable video library by floor plan, or does every agent re-record from scratch?",
+   "How do you handle an out-of-market prospect who cannot visit?"
+  ],
+  "objections": [
+   {
+    "objection": "SalesMail already gives our agents video.",
+    "response": "For messaging, yes. The gap to check is unit content — live tours and recorded walkthroughs of the actual unit, organized by floor plan and reusable across leads."
+   }
+  ],
+  "doNotSay": [
+   "Do not say SalesMail cannot do tours — say live tours and 3D are not described on their multifamily page.",
+   "Do not quote SalesMail pricing; none is published.",
+   "Do not repeat SalesMail's marketing outcome percentages as verified results."
+  ],
+  "features": {
+   "vl-diy-capture": {
+    "support": "Yes",
+    "note": "Leasing agents, property managers and operations leaders record personalized video messages directly from their phones or CRM systems.",
+    "source": "https://www.salesmail.com/mfh1",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-live-tours": {
+    "support": "Unknown",
+    "note": "Live video tours are not described on the multifamily page.",
+    "source": "https://www.salesmail.com/mfh1",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-unit-level": {
+    "support": "Unknown",
+    "note": "The described use cases are messaging-oriented (tour confirmations, follow-ups, renewals); recorded unit-level walkthrough video is not specifically described.",
+    "source": "https://www.salesmail.com/mfh1",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-3d": {
+    "support": "Unknown",
+    "note": "3D/360 capability is not described.",
+    "source": "https://www.salesmail.com/mfh1",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-self-guided": {
+    "support": "Unknown",
+    "note": "Self-guided tour access is not described.",
+    "source": "https://www.salesmail.com/mfh1",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-crm-integration": {
+    "support": "Yes",
+    "note": "Integrates with HubSpot, RealPage, Salesforce and Yardi; RealPage and Knock CRM integrations separately announced.",
+    "source": "https://finance.yahoo.com/news/salesmail-announces-integration-realpage-knock-133200584.html",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-analytics": {
+    "support": "Yes",
+    "note": "Users see when prospects view, share and reply to video messages.",
+    "source": "https://www.salesmail.com/mfh1",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-syndication": {
+    "support": "Unknown",
+    "note": "ILS syndication is not described.",
+    "source": "https://www.salesmail.com/mfh1",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Medium",
+   "owner": null,
+   "autoUpdated": true,
+   "pendingReview": []
+  },
+  "news": [],
+  "sources": [
+   {
+    "title": "SalesMail — Personalized Video for Multifamily",
+    "url": "https://www.salesmail.com/mfh1",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "SalesMail — About",
+    "url": "https://www.salesmail.com/about",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "SalesMail API",
+    "url": "https://www.salesmail.com/api",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "SalesMail announces integration with RealPage and Knock CRM",
+    "url": "https://finance.yahoo.com/news/salesmail-announces-integration-realpage-knock-133200584.html",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 1,
+   "name": "Demand and Leasing",
+   "note": "Sits in demand and leasing, upstream of the resolution loop."
+  },
+  "whenItComesUp": {
+   "why": "Overlaps in part, not in whole. Video messaging for follow-up, not unit touring — it overlaps Realync on agent-recorded video but the published product is about the message, not the apartment.",
+   "say": "Concede the part they genuinely own, then be specific about the part they don't. Partial overlap is where reps over-claim and lose credibility.",
+   "avoid": "Do not say SalesMail cannot do tours — say live tours and 3D are not described on their multifamily page.",
+   "redirect": "When a prospect asks to see a specific unit, what do you send — a selfie video or a walkthrough of that unit?",
+   "derived": true
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name SalesMail App, or describe personalized video messaging app for sales and leasing teams already in place.",
+    "ask": "When a prospect asks to see a specific unit, what do you send — a selfie video or a walkthrough of that unit?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "The multifamily product page does not describe live video tours or 3D/360 capability.",
+    "ask": "Do you run live video tours today?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the SalesMail contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the SalesMail agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether SalesMail sits on someone else's budget line — that changes who has to agree.",
+    "ask": "Is there a reusable video library by floor plan, or does every agent re-record from scratch?"
+   }
+  ],
+  "play": "Sometimes in the room"
+ },
+ {
+  "id": "apartmentiq",
+  "name": "ApartmentIQ",
+  "aka": [
+   "ApartmentIQ Market Surveys",
+   "Explore Pro",
+   "Daylight"
+  ],
+  "parent": null,
+  "website": "https://www.apartmentiq.io",
+  "toolCategory": "Automated market survey and rent comparables data",
+  "ciCategory": "Direct",
+  "tier": "Tier 1",
+  "verdict": {
+   "stance": "Compete",
+   "line": "The closest methodological twin to HelloData — daily automated collection from public property websites — so the fight is over coverage, history depth and what sits on top of the data, not over method.",
+   "doInstead": null
+  },
+  "overlaps": [
+   {
+    "product": "HelloData",
+    "degree": "High"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": "Unknown",
+    "source": null,
+    "verifiedOn": "2026-08-11"
+   },
+   "founded": {
+    "value": "Unknown",
+    "source": null,
+    "verifiedOn": "2026-08-11"
+   },
+   "ownership": {
+    "value": "Private, venture-backed; co-founder Alec Slocum stated in August 2026 that the company is profitable.",
+    "source": "https://commercialobserver.com/2026/08/apartmentiq-follow-on-funding-round/",
+    "verifiedOn": "2026-08-11"
+   },
+   "size": {
+    "value": "135 employees as of August 2026, with a stated plan to increase headcount by 50%.",
+    "source": "https://commercialobserver.com/2026/08/apartmentiq-follow-on-funding-round/",
+    "verifiedOn": "2026-08-11"
+   },
+   "funding": {
+    "value": "$25M follow-on round announced August 2026 led by Susquehanna Growth Equity, which also led a $22.5M Series B in 2021.",
+    "source": "https://commercialobserver.com/2026/08/apartmentiq-follow-on-funding-round/",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "pricing": {
+   "value": "Not published on the ApartmentIQ website.",
+   "source": "https://www.apartmentiq.io/",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "Positions on transparency and public-source data: 'ApartmentIQ creates its daily market surveys using only 100% public data sourced from property websites', contrasted against manual surveys and private data sources.",
+   "source": "https://www.apartmentiq.io/making-the-switch-how-public-data-results-in-more-accurate-ethical-and-strategic-long-term-success/",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "Published coverage: 'daily data on 40M units'; serves '1,500+ PMCs and 8M+ units'; states 70% of the NMHC Top 50 are represented.",
+    "source": "https://www.apartmentiq.io/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Daily refresh with up to four years of daily historical data at unit level.",
+    "source": "https://www.apartmentiq.io/making-the-switch-how-public-data-results-in-more-accurate-ethical-and-strategic-long-term-success/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Automated crawl of thousands of property websites in real time, delivering unit-level pricing and concession data with no survey-response dependency.",
+    "source": "https://www.apartmentiq.io/making-the-switch-how-public-data-results-in-more-accurate-ethical-and-strategic-long-term-success/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Well capitalized and expanding: $25M follow-on in August 2026, two new products (Explore Pro and Daylight) each tracking toward 1 million customer units in their first year.",
+    "source": "https://commercialobserver.com/2026/08/apartmentiq-follow-on-funding-round/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "API access is not described on the ApartmentIQ homepage or product pages reviewed.",
+    "source": "https://www.apartmentiq.io/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Submarket analytics are not specified on the pages reviewed.",
+    "source": "https://www.apartmentiq.io/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Because the method is 100% public data from property websites, coverage is scoped to what properties publish on their own sites; no phone-survey or operator-feed channel is described.",
+    "source": "https://www.apartmentiq.io/making-the-switch-how-public-data-results-in-more-accurate-ethical-and-strategic-long-term-success/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Pricing is not published.",
+    "source": "https://www.apartmentiq.io/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [
+   "HelloData is part of a platform that also carries training, policy, survey, shop and reputation signal — market data is one input, not the whole product.",
+   "A buyer replacing a point market-data tool should ask what else the same vendor can correlate the rent movement against."
+  ],
+  "askThis": [
+   "Does the data include an API, or is it dashboards and exports only?",
+   "How far back does daily unit-level history go for your specific submarkets?",
+   "What happens to coverage for comps that don't publish live pricing on their own website?",
+   "Once you see a comp cut rent, what system tells you whether your team's execution is the problem?"
+  ],
+  "objections": [
+   {
+    "objection": "ApartmentIQ already gives us daily comps.",
+    "response": "Then the comp feed is solved. The next question is what you do with it — HelloData sits inside a platform that connects the market signal to onsite execution, training and resident sentiment."
+   }
+  ],
+  "doNotSay": [
+   "Do not claim ApartmentIQ's data is inaccurate or scraped improperly — they publicly describe it as 100% public data.",
+   "Do not quote an ApartmentIQ price; none is published.",
+   "Do not state ApartmentIQ has no API — say API access is not described on their public pages."
+  ],
+  "features": {
+   "md-rent-comps": {
+    "support": "Yes",
+    "note": "Automated daily market surveys with rent comps and competitor pricing intelligence.",
+    "source": "https://www.apartmentiq.io/",
+    "verifiedOn": "2026-08-11"
+   },
+   "md-concessions": {
+    "support": "Yes",
+    "note": "Up-to-date pricing and concession data explicitly cited.",
+    "source": "https://www.apartmentiq.io/",
+    "verifiedOn": "2026-08-11"
+   },
+   "md-coverage": {
+    "support": "Yes",
+    "note": "Published: 'daily data on 40M units'; '1,500+ PMCs and 8M+ units'; '70% of the NMHC Top 50'. The August 2026 funding coverage restates 8 million customer units across 1,500 portfolios.",
+    "source": "https://www.apartmentiq.io/",
+    "verifiedOn": "2026-08-11"
+   },
+   "md-refresh": {
+    "support": "Yes",
+    "note": "Daily. 'Automated, daily market surveys', with up to four years of daily historical data.",
+    "source": "https://www.apartmentiq.io/making-the-switch-how-public-data-results-in-more-accurate-ethical-and-strategic-long-term-success/",
+    "verifiedOn": "2026-08-11"
+   },
+   "md-api": {
+    "support": "Unknown",
+    "note": "API access is not described on the pages reviewed.",
+    "source": "https://www.apartmentiq.io/",
+    "verifiedOn": "2026-08-11"
+   },
+   "md-submarket": {
+    "support": "Unknown",
+    "note": "Submarket analytics are not specified on the pages reviewed; a Market Research product exists.",
+    "source": "https://www.apartmentiq.io/market-research/",
+    "verifiedOn": "2026-08-11"
+   },
+   "md-availability": {
+    "support": "Yes",
+    "note": "The automated system crawls property websites in real time 'delivering precise, up-to-date insights down to the unit level'.",
+    "source": "https://www.apartmentiq.io/making-the-switch-how-public-data-results-in-more-accurate-ethical-and-strategic-long-term-success/",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "High",
+   "owner": null,
+   "autoUpdated": true,
+   "pendingReview": []
+  },
+  "news": [
+   {
+    "headline": "ApartmentIQ Secures $25M Follow-On Funding Round",
+    "date": "2026-08",
+    "url": "https://commercialobserver.com/2026/08/apartmentiq-follow-on-funding-round/",
+    "impact": "Fresh capital and a stated 50% headcount increase — expect more competitive pressure on the market-data line through 2027."
+   }
+  ],
+  "sources": [
+   {
+    "title": "ApartmentIQ — Multifamily Market Data Platform",
+    "url": "https://www.apartmentiq.io/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "ApartmentIQ — Making the Switch: How Public Data Results in More Accurate, Ethical, and Strategic Long-Term Success",
+    "url": "https://www.apartmentiq.io/making-the-switch-how-public-data-results-in-more-accurate-ethical-and-strategic-long-term-success/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "ApartmentIQ Secures $25M Follow-On Funding Round — Commercial Observer",
+    "url": "https://commercialobserver.com/2026/08/apartmentiq-follow-on-funding-round/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "ApartmentIQ — Market Surveys",
+    "url": "https://www.apartmentiq.io/market-surveys/",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 6,
+   "name": "Asset, Finance and Investor",
+   "note": "Feeds market context into the loop; sits closer to asset and finance."
+  },
+  "whenItComesUp": {
+   "why": "Automated market survey data crawled daily from public sources — the same job HelloData does, and well funded.",
+   "say": "ApartmentIQ does daily automated collection and their coverage is genuinely large. Where I'd compare is what the data connects to — comps on their own are a report; comps alongside your survey scores and shop results are a diagnosis.",
+   "avoid": "Don't fight on coverage numbers alone — theirs are strong and publicly stated.",
+   "redirect": "Once you know a comp dropped its rent, what happens at the property?"
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name ApartmentIQ Market Surveys, Explore Pro, Daylight, or describe automated market survey and rent comparables data already in place.",
+    "ask": "Does the data include an API, or is it dashboards and exports only?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "API access is not described on the ApartmentIQ homepage or product pages reviewed.",
+    "ask": "How far back does daily unit-level history go for your specific submarkets?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the ApartmentIQ contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the ApartmentIQ agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether ApartmentIQ sits on someone else's budget line — that changes who has to agree.",
+    "ask": "What happens to coverage for comps that don't publish live pricing on their own website?"
+   }
+  ],
+  "play": "Head-to-head"
+ },
+ {
+  "id": "radix",
+  "name": "Radix",
+  "aka": [
+   "Radix Analytics",
+   "RealRents",
+   "redIQ (acquired)"
+  ],
+  "parent": null,
+  "website": "https://radix.com",
+  "toolCategory": "Market rent comparables and benchmarking data",
+  "ciCategory": "Direct",
+  "tier": "Tier 1",
+  "verdict": {
+   "stance": "Compete",
+   "line": "Radix's data comes out of participating operators' PMS feeds rather than public listings, so the real question with a prospect is whether they are willing to contribute their own rent roll to see everyone else's.",
+   "doInstead": null
+  },
+  "overlaps": [
+   {
+    "product": "HelloData",
+    "degree": "High"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": "Scottsdale, Arizona (7150 E Camelback Rd, Suite 333)",
+    "source": "https://radix.com/about-us/",
+    "verifiedOn": "2026-08-11"
+   },
+   "founded": {
+    "value": "2016, by co-founder and CEO Blerim Zeqiri",
+    "source": "https://radix.com/about-us/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ownership": {
+    "value": "Private, venture-backed",
+    "source": "https://radix.com/about-us/",
+    "verifiedOn": "2026-08-11"
+   },
+   "size": {
+    "value": "Unknown",
+    "source": null,
+    "verifiedOn": "2026-08-11"
+   },
+   "funding": {
+    "value": "$11M Series A in 2022 led by Level Equity.",
+    "source": "https://radix.com/about-us/",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "pricing": {
+   "value": "Not published on the Radix website.",
+   "source": "https://radix.com/",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "Positions around operator-contributed data flowing from PMS to RealRents to Radix Analytics, with property metrics updating automatically 'as often as hourly, from the industry's largest database'.",
+   "source": "https://radix.com/",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "Published scale figures on the homepage: '20M+ multifamily units' analyzed across the ecosystem, '7.6M+ rent rolls processed' and '1M+ deals underwritten'.",
+    "source": "https://radix.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Company timeline states 6 million indexed units by 2022, up from 1 million in 2017 and 2 million in 2019, with data used by the majority of the NMHC Top 50 managers.",
+    "source": "https://radix.com/about-us/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Data flows directly from participating operators' PMS, updating as often as hourly rather than on a survey cycle.",
+    "source": "https://radix.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Expanded beyond comps into underwriting by acquiring the redIQ platform in August 2024.",
+    "source": "https://radix.com/press/radix-acquires-rediq-underwriting-platform/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "API access is not described on the Radix homepage or about page.",
+    "source": "https://radix.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "The about page does not describe the underlying data-collection methodology in detail; the homepage describes a PMS-to-RealRents-to-Analytics flow from participating operators.",
+    "source": "https://radix.com/about-us/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Coverage is stated in mixed units across pages — '6 million indexed units' as a 2022 milestone versus '20M+ multifamily units' analyzed on the homepage — with no single current indexed-unit figure published.",
+    "source": "https://radix.com/about-us/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Pricing is not published.",
+    "source": "https://radix.com/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [
+   "HelloData does not require the buyer to contribute their own rent roll to a shared pool in order to see comps.",
+   "Market data inside a wider Grace Hill platform can be read against onsite execution signals, not only against other rents."
+  ],
+  "askThis": [
+   "Does using Radix require contributing your own property data, and is your asset management team comfortable with that?",
+   "For a submarket where few participating operators contribute, how complete is the comp set?",
+   "Is there an API, or does the data have to be pulled through the dashboard?",
+   "Which single number is current — indexed units, or units analyzed?"
+  ],
+  "objections": [
+   {
+    "objection": "Radix data is better because it comes straight from the PMS.",
+    "response": "It is a different trade-off: operator-contributed data is precise where operators participate and thinner where they don't, and it usually means contributing your own. Worth checking coverage in your specific submarkets."
+   }
+  ],
+  "doNotSay": [
+   "Do not claim Radix data is incomplete in a specific market without a source — turn it into a question.",
+   "Do not state Radix has no API — say it is not described on their public pages.",
+   "Do not quote a Radix price; none is published."
+  ],
+  "features": {
+   "md-rent-comps": {
+    "support": "Yes",
+    "note": "Rent comparables and benchmarking are the core product, sourced from participating operators.",
+    "source": "https://radix.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "md-concessions": {
+    "support": "Yes",
+    "note": "'Monitor specials across millions of units'; displays pricing with concessions, fees and specials pulled from the property management system.",
+    "source": "https://radix.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "md-coverage": {
+    "support": "Partial",
+    "note": "Published figures: '20M+ multifamily units' analyzed, '7.6M+ rent rolls processed', '1M+ deals underwritten'; the about-us timeline cites 6 million indexed units as of 2022. Property and market counts are not published.",
+    "source": "https://radix.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "md-refresh": {
+    "support": "Yes",
+    "note": "'Analytics updating property metrics automatically, as often as hourly'.",
+    "source": "https://radix.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "md-api": {
+    "support": "Unknown",
+    "note": "API access is not described on the pages reviewed.",
+    "source": "https://radix.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "md-submarket": {
+    "support": "Unknown",
+    "note": "Submarket analytics are not explicitly described on the pages reviewed; Radix publishes MSA-level market blogs.",
+    "source": "https://www.radix.com/blogs/msa/arizona/phoenix/",
+    "verifiedOn": "2026-08-11"
+   },
+   "md-availability": {
+    "support": "Partial",
+    "note": "Data flows from participating operators' PMS with hourly updates on property metrics; a distinct real-time availability feed is not described.",
+    "source": "https://radix.com/",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Medium",
+   "owner": null,
+   "autoUpdated": true,
+   "pendingReview": []
+  },
+  "news": [
+   {
+    "headline": "Radix Acquires redIQ Underwriting Platform",
+    "date": "2024-08-26",
+    "url": "https://www.businesswire.com/news/home/20240826311153/en/Radix-Acquires-redIQ-Underwriting-Platform",
+    "impact": "Radix is expanding from comps into underwriting, broadening the buying center beyond operations into asset management."
+   },
+   {
+    "headline": "Radix Launches Comprehensive Rental Market Tool for Consumers and Operators",
+    "date": "2025-01-14",
+    "url": "https://www.businesswire.com/news/home/20250114299632/en/Radix-Launches-First-of-Its-Kind-Comprehensive-Rental-Market-Tool-for-Consumers-and-Operators",
+    "impact": "Public-facing market tool raises Radix's brand visibility with operator buyers."
+   }
+  ],
+  "sources": [
+   {
+    "title": "Radix — homepage",
+    "url": "https://radix.com/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Radix — About Us",
+    "url": "https://radix.com/about-us/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Radix Acquires redIQ Underwriting Platform",
+    "url": "https://radix.com/press/radix-acquires-rediq-underwriting-platform/",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 6,
+   "name": "Asset, Finance and Investor",
+   "note": "Feeds market context into the loop; sits closer to asset and finance."
+  },
+  "whenItComesUp": {
+   "why": "Operator-contributed data from PMS feeds rather than public crawling — a genuinely different collection method, refreshed as often as hourly.",
+   "say": "Radix gets its data straight from operators' systems, which is a real methodological difference and worth understanding. Ask what happens in submarkets where fewer operators contribute.",
+   "avoid": "Don't claim their data is inaccurate. Ask about contribution density instead.",
+   "redirect": "In your submarkets specifically, how many operators are feeding that data?"
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name Radix Analytics, RealRents, redIQ (acquired), or describe market rent comparables and benchmarking data already in place.",
+    "ask": "Does using Radix require contributing your own property data, and is your asset management team comfortable with that?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "API access is not described on the Radix homepage or about page.",
+    "ask": "For a submarket where few participating operators contribute, how complete is the comp set?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the Radix contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the Radix agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether Radix sits on someone else's budget line — that changes who has to agree.",
+    "ask": "Is there an API, or does the data have to be pulled through the dashboard?"
+   }
+  ],
+  "play": "Head-to-head"
+ },
+ {
+  "id": "yardi-matrix",
+  "name": "Yardi Matrix",
+  "aka": [
+   "Matrix",
+   "Yardi Matrix Multifamily"
+  ],
+  "parent": "Yardi Systems",
+  "website": "https://www.yardimatrix.com",
+  "toolCategory": "Multifamily and commercial property research and market data",
+  "ciCategory": "Direct",
+  "tier": "Tier 1",
+  "verdict": {
+   "stance": "Compete",
+   "line": "Research-house data on a monthly survey rhythm, sold to investment and research buyers — compete on refresh cadence and on who inside the organization actually needs the number.",
+   "doInstead": null
+  },
+  "overlaps": [
+   {
+    "product": "HelloData",
+    "degree": "High"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": "Unknown — operated by Yardi Systems.",
+    "source": "https://www.yardimatrix.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "founded": {
+    "value": "Unknown",
+    "source": null,
+    "verifiedOn": "2026-08-11"
+   },
+   "ownership": {
+    "value": "Division of Yardi Systems (private).",
+    "source": "https://www.yardimatrix.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "size": {
+    "value": "Unknown",
+    "source": null,
+    "verifiedOn": "2026-08-11"
+   },
+   "funding": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   }
+  },
+  "pricing": {
+   "value": "Not published on the Yardi Matrix website.",
+   "source": "https://www.yardimatrix.com/",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "Positions as a research product built from 'original field research, continuous near real-time updates and aggregated & anonymized operating data from the Yardi property management platform', including true ownership details, rents, occupancy and transaction history.",
+   "source": "https://www.yardimatrix.com/",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "Broad market coverage: the site cites 224 markets, with references elsewhere to 183 U.S. markets and 'more than 150 markets'.",
+    "source": "https://www.yardimatrix.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Multi-asset-class breadth beyond multifamily: 325,072 SFR units in 2,281 BTR communities, industrial data across 45 major U.S. markets covering more than 9 billion square feet, and more than 6.6 million land parcels.",
+    "source": "https://www.yardimatrix.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Blends original field research with aggregated and anonymised operating data from the Yardi property management platform — a source no public-web crawler can replicate.",
+    "source": "https://www.yardimatrix.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Publishes ownership and transaction history alongside rents and occupancy, supporting investment as well as operational use.",
+    "source": "https://www.yardimatrix.com/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "The published national reporting cadence is monthly, 'powered by our stratified monthly sample survey', rather than daily.",
+    "source": "https://www.yardimatrix.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Concession tracking is not explicitly described on the site pages reviewed.",
+    "source": "https://www.yardimatrix.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "API access is not disclosed on the site pages reviewed.",
+    "source": "https://www.yardimatrix.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Market-count figures differ across the site (224 markets, 183 U.S. markets, 'more than 150 markets') without a single reconciled number.",
+    "source": "https://www.yardimatrix.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Pricing is not published.",
+    "source": "https://www.yardimatrix.com/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [
+   "For a pricing or leasing decision made this week, a monthly stratified survey is a different instrument than a daily unit-level feed — make the buyer name the decision cadence.",
+   "HelloData's comp and concession data sits inside a platform that also carries execution signal, which a research subscription does not."
+  ],
+  "askThis": [
+   "Which decisions are you making on Matrix data, and how often do you make them?",
+   "How does Matrix handle concessions in your submarkets?",
+   "Who in your organization actually logs in — research and asset management, or the onsite pricing team?",
+   "Is there an API, or does this arrive as reports?"
+  ],
+  "objections": [
+   {
+    "objection": "We're a Yardi shop, so Matrix is the obvious choice.",
+    "response": "For research and investment reporting it's a strong fit. For weekly pricing decisions, ask what the refresh cadence is on the specific comps you price against."
+   }
+  ],
+  "doNotSay": [
+   "Do not say Yardi Matrix does not track concessions — say concession tracking is not explicitly described on their public pages.",
+   "Do not quote a Yardi Matrix price; none is published.",
+   "Do not characterize Yardi Matrix data as inaccurate."
+  ],
+  "features": {
+   "md-rent-comps": {
+    "support": "Yes",
+    "note": "Rents and occupancy are core published data points.",
+    "source": "https://www.yardimatrix.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "md-concessions": {
+    "support": "Unknown",
+    "note": "Concession tracking is not explicitly described on the pages reviewed.",
+    "source": "https://www.yardimatrix.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "md-coverage": {
+    "support": "Yes",
+    "note": "Site cites 224 markets (with 183 U.S. markets and 'more than 150 markets' also appearing); 325,072 SFR units in 2,281 BTR communities; industrial across 45 major U.S. markets and more than 9 billion sq ft; more than 6.6 million land parcels. A single multifamily property/unit count is not published.",
+    "source": "https://www.yardimatrix.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "md-refresh": {
+    "support": "Partial",
+    "note": "Monthly national reports 'powered by our stratified monthly sample survey'; methodology also describes 'continuous near real-time updates'. A single stated refresh interval for property-level data is not published.",
+    "source": "https://www.yardimatrix.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "md-api": {
+    "support": "Unknown",
+    "note": "API access is not disclosed on the pages reviewed.",
+    "source": "https://www.yardimatrix.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "md-submarket": {
+    "support": "Unknown",
+    "note": "Market-level coverage is described; a distinct submarket analytics capability is not detailed on the pages reviewed.",
+    "source": "https://www.yardimatrix.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "md-availability": {
+    "support": "Unknown",
+    "note": "Real-time availability data is not described on the pages reviewed.",
+    "source": "https://www.yardimatrix.com/",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Medium",
+   "owner": null,
+   "autoUpdated": true,
+   "pendingReview": []
+  },
+  "news": [],
+  "sources": [
+   {
+    "title": "Yardi Matrix — homepage and methodology",
+    "url": "https://www.yardimatrix.com/",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 6,
+   "name": "Asset, Finance and Investor",
+   "note": "Feeds market context into the loop; sits closer to asset and finance."
+  },
+  "whenItComesUp": {
+   "why": "Research-grade market data the buyer often already pays for through another budget line — which makes this a 'why another one' conversation, not a bake-off.",
+   "say": "Matrix is well-established research and if your asset team already buys it, keep it. What we add is property-level comps sitting next to your resident sentiment and team performance in the same answer.",
+   "avoid": "Don't try to displace a research subscription the asset team owns. That's not our budget and not our fight.",
+   "redirect": "Does the team running the properties see that data, or does it stop with asset management?"
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name Matrix, Yardi Matrix Multifamily, or describe multifamily and commercial property research and market data already in place.",
+    "ask": "Which decisions are you making on Matrix data, and how often do you make them?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "The published national reporting cadence is monthly, 'powered by our stratified monthly sample survey', rather than daily.",
+    "ask": "How does Matrix handle concessions in your submarkets?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the Yardi Matrix contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the Yardi Matrix agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether Yardi Matrix sits on someone else's budget line — that changes who has to agree.",
+    "ask": "Who in your organization actually logs in — research and asset management, or the onsite pricing team?"
+   }
+  ],
+  "play": "Head-to-head"
+ },
+ {
+  "id": "realpage-market-analytics",
+  "name": "RealPage Market Analytics",
+  "aka": [
+   "RealPage Analytics",
+   "Market Analytics",
+   "Data Direct",
+   "Lumina AI"
+  ],
+  "parent": "RealPage",
+  "website": "https://www.realpage.com/insights-analytics/market-analytics/",
+  "toolCategory": "Market rent comparables and submarket analytics",
+  "ciCategory": "Direct",
+  "tier": "Tier 1",
+  "verdict": {
+   "stance": "Compete",
+   "line": "Daily unit-level data with 30+ years of history and MSCI transaction data behind it, bundled into an existing RealPage relationship — compete on independence from the PMS and on what the data is connected to, not on depth.",
+   "doInstead": null
+  },
+  "overlaps": [
+   {
+    "product": "HelloData",
+    "degree": "High"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": "Unknown",
+    "source": null,
+    "verifiedOn": "2026-08-11"
+   },
+   "founded": {
+    "value": "Unknown",
+    "source": null,
+    "verifiedOn": "2026-08-11"
+   },
+   "ownership": {
+    "value": "Unknown — not disclosed on the RealPage pages reviewed.",
+    "source": "https://www.realpage.com/insights-analytics/",
+    "verifiedOn": "2026-08-11"
+   },
+   "size": {
+    "value": "Unknown",
+    "source": null,
+    "verifiedOn": "2026-08-11"
+   },
+   "funding": {
+    "value": null,
+    "source": null,
+    "verifiedOn": null
+   }
+  },
+  "pricing": {
+   "value": "Not published; the site directs to sales.",
+   "source": "https://www.realpage.com/insights-analytics/market-analytics/",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "Positions as 'proprietary apartment data covering millions of units across 425+ markets', with market, property and unit-level data updated daily and MSCI Real Capital Analytics transaction and loan data included.",
+   "source": "https://www.realpage.com/insights-analytics/market-analytics/",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "Published coverage: 'millions of units across 425+ markets', plus nearly 1,000 universities for student housing.",
+    "source": "https://www.realpage.com/insights-analytics/market-analytics/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Daily updates on rents, concessions, floor plans and occupancy via the Lumina AI daily property update, on 30+ years of historical market, property and unit-level data.",
+    "source": "https://www.realpage.com/insights-analytics/market-analytics/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Includes MSCI Real Capital Analytics sales transaction and loan data covering $2.9 trillion in multifamily transactions.",
+    "source": "https://www.realpage.com/insights-analytics/market-analytics/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Covers conventional apartments, build-to-rent, townhomes and student housing, with revenue, expense, NOI, renewal, retention, lease term and vacant-day metrics.",
+    "source": "https://www.realpage.com/insights-analytics/market-analytics/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "Coverage is stated as 'millions of units' without a specific unit or property count.",
+    "source": "https://www.realpage.com/insights-analytics/market-analytics/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "API access is not documented; the site describes 'Data Direct' customized data extracts rather than a published API.",
+    "source": "https://www.realpage.com/insights-analytics/market-analytics/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "The Insights & Analytics overview page does not disclose ownership, headquarters, unit counts, market counts or data-collection methodology.",
+    "source": "https://www.realpage.com/insights-analytics/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Pricing is not published.",
+    "source": "https://www.realpage.com/insights-analytics/market-analytics/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [
+   "HelloData is independent of the PMS, so a buyer's comp data does not move when their property management contract does.",
+   "Grace Hill can connect the market signal to what the onsite team is actually doing — training, shops, resident sentiment — rather than to more market data."
+  ],
+  "askThis": [
+   "How many units does 'millions of units' work out to in the submarkets you price against?",
+   "Is the data available through an API, or only as Data Direct extracts?",
+   "What happens to your analytics subscription if you change property management systems?",
+   "When the data says a comp dropped rent, what tells you whether your team's execution is the issue?"
+  ],
+  "objections": [
+   {
+    "objection": "It's included with our RealPage stack.",
+    "response": "That's a fair procurement argument. The strategic question is concentration — comps, revenue management and PMS from one vendor means one renewal conversation with all the leverage on their side."
+   }
+  ],
+  "doNotSay": [
+   "Do not comment on RealPage litigation, regulatory matters or revenue-management pricing practices — out of scope and high risk.",
+   "Do not quote a RealPage price; none is published.",
+   "Do not state RealPage has no API — say API specifics are not documented publicly."
+  ],
+  "features": {
+   "md-rent-comps": {
+    "support": "Yes",
+    "note": "Market, property and unit-level rent data across conventional, BTR, townhome and student housing.",
+    "source": "https://www.realpage.com/insights-analytics/market-analytics/",
+    "verifiedOn": "2026-08-11"
+   },
+   "md-concessions": {
+    "support": "Yes",
+    "note": "Daily updates on rents, concessions, floor plans and occupancy via Lumina AI.",
+    "source": "https://www.realpage.com/insights-analytics/market-analytics/",
+    "verifiedOn": "2026-08-11"
+   },
+   "md-coverage": {
+    "support": "Partial",
+    "note": "Published as 'millions of units across 425+ markets' plus nearly 1,000 universities; no specific unit or property count is given.",
+    "source": "https://www.realpage.com/insights-analytics/market-analytics/",
+    "verifiedOn": "2026-08-11"
+   },
+   "md-refresh": {
+    "support": "Yes",
+    "note": "Daily. 'Market, property, and unit-level data updated daily' with a Lumina AI daily property update.",
+    "source": "https://www.realpage.com/insights-analytics/market-analytics/",
+    "verifiedOn": "2026-08-11"
+   },
+   "md-api": {
+    "support": "Partial",
+    "note": "'Data Direct' customized data extracts are described; API technical documentation is not published.",
+    "source": "https://www.realpage.com/insights-analytics/market-analytics/",
+    "verifiedOn": "2026-08-11"
+   },
+   "md-submarket": {
+    "support": "Yes",
+    "note": "Described as 'complete visibility into market, submarket, and asset performance'.",
+    "source": "https://www.realpage.com/insights-analytics/",
+    "verifiedOn": "2026-08-11"
+   },
+   "md-availability": {
+    "support": "Partial",
+    "note": "Occupancy, vacant days and daily unit-level updates are described; a distinct real-time availability feed is not named.",
+    "source": "https://www.realpage.com/insights-analytics/market-analytics/",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Medium",
+   "owner": null,
+   "autoUpdated": true,
+   "pendingReview": []
+  },
+  "news": [],
+  "sources": [
+   {
+    "title": "RealPage — Market Analytics Platform for Multifamily",
+    "url": "https://www.realpage.com/insights-analytics/market-analytics/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "RealPage — Insights and Analytics Solutions for Multifamily",
+    "url": "https://www.realpage.com/insights-analytics/",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 6,
+   "name": "Asset, Finance and Investor",
+   "note": "Feeds market context into the loop; sits closer to asset and finance."
+  },
+  "whenItComesUp": {
+   "why": "Market data inside the PMS relationship, now with Lumina's daily property updates behind it. Often already paid for.",
+   "say": "If it's bundled with RealPage you should use it. The gap is that it reasons over transactional and market data — it doesn't know what your residents said or what your teams were trained on.",
+   "avoid": "Don't compare on market coverage. Compare on what else is in the answer.",
+   "redirect": "When rents move in a submarket, what tells you whether it's the market or your own execution?"
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name RealPage Analytics, Market Analytics, Data Direct, Lumina AI, or describe market rent comparables and submarket analytics already in place.",
+    "ask": "How many units does 'millions of units' work out to in the submarkets you price against?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "Coverage is stated as 'millions of units' without a specific unit or property count.",
+    "ask": "Is the data available through an API, or only as Data Direct extracts?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the RealPage Market Analytics contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the RealPage Market Analytics agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether RealPage Market Analytics sits on someone else's budget line — that changes who has to agree.",
+    "ask": "What happens to your analytics subscription if you change property management systems?"
+   }
+  ],
+  "play": "Head-to-head"
+ },
+ {
+  "id": "costar",
+  "name": "CoStar",
+  "aka": [
+   "CoStar Group",
+   "CoStar Market Analytics",
+   "CoStar Suite"
+  ],
+  "parent": "CoStar Group, Inc. (NASDAQ: CSGP)",
+  "website": "https://www.costar.com",
+  "toolCategory": "Commercial and multifamily property data and market analytics",
+  "ciCategory": "Indirect",
+  "tier": "Tier 2",
+  "verdict": {
+   "stance": "Partial overlap",
+   "line": "The industry's research heavyweight, but built for capital-markets and brokerage workflows — it overlaps HelloData on rent trends, not on the daily unit-level pricing decision an operator makes.",
+   "doInstead": null
+  },
+  "overlaps": [
+   {
+    "product": "HelloData",
+    "degree": "Partial"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": "Arlington, Virginia",
+    "source": "https://investors.costargroup.com/news-releases/news-release-details/costar-group-full-year-2025-revenue-increased-19-year-over-year",
+    "verifiedOn": "2026-08-11"
+   },
+   "founded": {
+    "value": "Unknown",
+    "source": null,
+    "verifiedOn": "2026-08-11"
+   },
+   "ownership": {
+    "value": "Publicly traded — NASDAQ: CSGP.",
+    "source": "https://investors.costargroup.com/news-releases/news-release-details/costar-group-full-year-2025-revenue-increased-19-year-over-year",
+    "verifiedOn": "2026-08-11"
+   },
+   "size": {
+    "value": "1,600+ dedicated market researchers (headcount overall not stated on the pages reviewed).",
+    "source": "https://www.costar.com/products/market-analytics",
+    "verifiedOn": "2026-08-11"
+   },
+   "funding": {
+    "value": "Publicly traded; FY2025 revenue of $3.2 billion, up 19% year over year.",
+    "source": "https://investors.costargroup.com/news-releases/news-release-details/costar-group-full-year-2025-revenue-increased-19-year-over-year",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "pricing": {
+   "value": "Not published; the product page directs to a demo request or a sales phone number.",
+   "source": "https://www.costar.com/products/market-analytics",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "Describes itself as 'a leading provider of online real estate marketplaces, information, analytics, and 3D digital twin technology in the property markets', with market and submarket reports carrying written and video commentary.",
+   "source": "https://investors.costargroup.com/news-releases/news-release-details/costar-group-full-year-2025-revenue-increased-19-year-over-year",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "1,600+ dedicated market researchers supporting thousands of commercial markets and submarkets globally.",
+    "source": "https://www.costar.com/products/market-analytics",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Multi-channel collection: field, aerial and drone research, data feeds and public record.",
+    "source": "https://www.costar.com/products/market-analytics",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "8.5 million commercial property records published as a separate product line.",
+    "source": "https://www.costar.com/products/property-records",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Scale and adjacency: FY2025 revenue of $3.2 billion, and ownership of Apartments.com and Matterport.",
+    "source": "https://investors.costargroup.com/news-releases/news-release-details/costar-group-full-year-2025-revenue-increased-19-year-over-year",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "The Market Analytics product page does not disclose specific property, market or submarket counts.",
+    "source": "https://www.costar.com/products/market-analytics",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "A refresh interval for market data is not specified; the page only notes that market and submarket reports are updated with written and video commentary.",
+    "source": "https://www.costar.com/products/market-analytics",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Multifamily concession tracking is not mentioned on the Market Analytics page.",
+    "source": "https://www.costar.com/products/market-analytics",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "API availability is not addressed on the Market Analytics page.",
+    "source": "https://www.costar.com/products/market-analytics",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Pricing is not published.",
+    "source": "https://www.costar.com/products/market-analytics",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [
+   "HelloData is built around the operator's pricing and concession question, where CoStar's analytics are built around market and capital-markets research.",
+   "A daily unit-level comp feed and a quarterly market narrative answer different questions — make the buyer say which one they need this week."
+  ],
+  "askThis": [
+   "Who uses CoStar in your organization — the investment team, or the people setting rents this week?",
+   "How current is the concession picture in CoStar for your specific comps?",
+   "How often does the underlying property data refresh, not the report?",
+   "Do you have an API, or is it exports?"
+  ],
+  "objections": [
+   {
+    "objection": "We already pay for CoStar.",
+    "response": "Most operators do, and it usually sits with investments or research. The question is whether the onsite pricing team gets a current unit-level concession picture from it — that's the gap HelloData fills."
+   }
+  ],
+  "doNotSay": [
+   "Do not claim CoStar's data is stale or wrong; the refresh interval is simply not published.",
+   "Do not quote a CoStar price; none is published.",
+   "Do not comment on CoStar's litigation or competitive disputes."
+  ],
+  "features": {
+   "md-rent-comps": {
+    "support": "Yes",
+    "note": "Analytics cover vacancy, construction and rents as KPI trends across markets and submarkets.",
+    "source": "https://www.costar.com/products/market-analytics",
+    "verifiedOn": "2026-08-11"
+   },
+   "md-concessions": {
+    "support": "Unknown",
+    "note": "Concession coverage is not mentioned on the Market Analytics page.",
+    "source": "https://www.costar.com/products/market-analytics",
+    "verifiedOn": "2026-08-11"
+   },
+   "md-coverage": {
+    "support": "Partial",
+    "note": "Published: 1,600+ dedicated market researchers and 'thousands of commercial markets and submarkets globally'; a separate product page cites 8.5M commercial property records. Multifamily-specific property/unit counts are not published.",
+    "source": "https://www.costar.com/products/market-analytics",
+    "verifiedOn": "2026-08-11"
+   },
+   "md-refresh": {
+    "support": "Unknown",
+    "note": "No refresh interval is specified; reports are described as updated with written and video commentary.",
+    "source": "https://www.costar.com/products/market-analytics",
+    "verifiedOn": "2026-08-11"
+   },
+   "md-api": {
+    "support": "Unknown",
+    "note": "API availability is not addressed on the pages reviewed.",
+    "source": "https://www.costar.com/products/market-analytics",
+    "verifiedOn": "2026-08-11"
+   },
+   "md-submarket": {
+    "support": "Yes",
+    "note": "Market and submarket reports across thousands of markets and submarkets globally.",
+    "source": "https://www.costar.com/products/market-analytics",
+    "verifiedOn": "2026-08-11"
+   },
+   "md-availability": {
+    "support": "Unknown",
+    "note": "Real-time availability data is not described on the pages reviewed.",
+    "source": "https://www.costar.com/products/market-analytics",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Medium",
+   "owner": null,
+   "autoUpdated": true,
+   "pendingReview": []
+  },
+  "news": [
+   {
+    "headline": "CoStar Group Full Year 2025: Revenue Increased 19% Year-over-Year",
+    "date": "2026",
+    "url": "https://investors.costargroup.com/news-releases/news-release-details/costar-group-full-year-2025-revenue-increased-19-year-over-year",
+    "impact": "$3.2B revenue and continued investment — CoStar remains the best-funded player touching this data line."
+   }
+  ],
+  "sources": [
+   {
+    "title": "CoStar Market Analytics",
+    "url": "https://www.costar.com/products/market-analytics",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "CoStar Property Records",
+    "url": "https://www.costar.com/products/property-records",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "CoStar Group Full Year 2025 results",
+    "url": "https://investors.costargroup.com/news-releases/news-release-details/costar-group-full-year-2025-revenue-increased-19-year-over-year",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 6,
+   "name": "Asset, Finance and Investor",
+   "note": "Feeds market context into the loop; sits closer to asset and finance."
+  },
+  "whenItComesUp": {
+   "why": "Overlaps in part, not in whole. The industry's research heavyweight, but built for capital-markets and brokerage workflows — it overlaps HelloData on rent trends, not on the daily unit-level pricing decision an operator makes.",
+   "say": "Concede the part they genuinely own, then be specific about the part they don't. Partial overlap is where reps over-claim and lose credibility.",
+   "avoid": "Do not claim CoStar's data is stale or wrong; the refresh interval is simply not published.",
+   "redirect": "Who uses CoStar in your organization — the investment team, or the people setting rents this week?",
+   "derived": true
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name CoStar Group, CoStar Market Analytics, CoStar Suite, or describe commercial and multifamily property data and market analytics already in place.",
+    "ask": "Who uses CoStar in your organization — the investment team, or the people setting rents this week?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "The Market Analytics product page does not disclose specific property, market or submarket counts.",
+    "ask": "How current is the concession picture in CoStar for your specific comps?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the CoStar contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the CoStar agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether CoStar sits on someone else's budget line — that changes who has to agree.",
+    "ask": "How often does the underlying property data refresh, not the report?"
+   }
+  ],
+  "play": "Sometimes in the room"
+ },
+ {
+  "id": "aln-apartment-data",
+  "name": "ALN Apartment Data",
+  "aka": [
+   "ALN",
+   "ALN OnLine",
+   "ALN Data"
+  ],
+  "parent": null,
+  "website": "https://alndata.com",
+  "toolCategory": "Market rent comparables data",
+  "ciCategory": "Direct",
+  "tier": "Tier 2",
+  "verdict": {
+   "stance": "Compete",
+   "line": "The long-standing phone-survey house — 195,000+ properties contacted on a roughly monthly rotation — so compete on refresh speed and on coverage of properties that don't answer the call.",
+   "doInstead": null
+  },
+  "overlaps": [
+   {
+    "product": "HelloData",
+    "degree": "High"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": "Carrollton, Texas (2611 Westgrove, Suite 104)",
+    "source": "https://alndata.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "founded": {
+    "value": "1991, in Dallas, Texas",
+    "source": "https://alndata.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ownership": {
+    "value": "Private",
+    "source": "https://alndata.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "size": {
+    "value": "Unknown — operates research call centers in Dallas/Fort Worth, Texas and Mayfield, Kentucky.",
+    "source": "https://alndata.com/methodology/",
+    "verifiedOn": "2026-08-11"
+   },
+   "funding": {
+    "value": "Unknown",
+    "source": null,
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "pricing": {
+   "value": "Not published; the site directs to a demo request or sales contact.",
+   "source": "https://alndata.com/",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "Positions as nationwide multifamily data delivering 'accurate, reliable data on multifamily properties such as occupancy, market and effective rents, concessions, amenities, historical data, new construction, and much more', built on a verified primary-research call-center model.",
+   "source": "https://alndata.com/",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "Published coverage: over 195,000 properties, more than 25.8 million units and 11,800+ management companies, across all 50 states.",
+    "source": "https://alndata.com/methodology/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Primary research through owned call centers in Dallas/Fort Worth, Texas and Mayfield, Kentucky, with proprietary data checks on each completed survey.",
+    "source": "https://alndata.com/methodology/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Multi-channel collection: call-center surveys, publicly accessible sources (corporate websites, job listings, news outlets), direct feeds from owners and management companies, and third-party sources for new construction.",
+    "source": "https://alndata.com/methodology/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Explicitly tracks concessions and effective rents alongside occupancy, amenities and new construction, with historical data; founded 1991, giving long time series.",
+    "source": "https://alndata.com/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "Property-level data is refreshed by contact 'every 25 business days'; semi-static attributes such as amenities and lease terms follow a quarterly and annual rotation. Only new construction is described as updating daily.",
+    "source": "https://alndata.com/methodology/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "ALN prioritizes updating conventional multifamily properties with 50 or more units, so update emphasis falls on larger stabilised conventional properties rather than smaller or specialty housing.",
+    "source": "https://alndata.com/methodology/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "API access is not described on the site pages reviewed; products listed are ALN OnLine, Vendor Edge Pro, Compass and Locator.",
+    "source": "https://alndata.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Pricing is not published.",
+    "source": "https://alndata.com/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [
+   "A roughly monthly contact cycle and a daily automated feed answer different questions — make the buyer name how often they reprice.",
+   "HelloData's comp and concession data comes without depending on a comp's onsite team picking up the phone."
+  ],
+  "askThis": [
+   "How often do you reprice, and how often does your comp data actually refresh underneath that?",
+   "What happens when a comp stops taking the survey call?",
+   "How is coverage in your submarkets for properties under 50 units?",
+   "Is there an API, or is this ALN OnLine and exports?"
+  ],
+  "objections": [
+   {
+    "objection": "ALN data is verified by a human, so it's more reliable.",
+    "response": "Human verification is a genuine strength on the properties they reach. The trade-off is cadence — every 25 business days for property-level data — and coverage on comps that don't participate."
+   }
+  ],
+  "doNotSay": [
+   "Do not say ALN data is inaccurate — their methodology page documents verification checks.",
+   "Do not state ALN has no API — say it is not described on their public pages.",
+   "Do not quote an ALN price; none is published."
+  ],
+  "features": {
+   "md-rent-comps": {
+    "support": "Yes",
+    "note": "Market and effective rents are core published data points.",
+    "source": "https://alndata.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "md-concessions": {
+    "support": "Yes",
+    "note": "Concessions explicitly listed alongside occupancy, rents, amenities and historical data.",
+    "source": "https://alndata.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "md-coverage": {
+    "support": "Yes",
+    "note": "Over 195,000 properties, more than 25.8 million units, 11,800+ management companies, all 50 states.",
+    "source": "https://alndata.com/methodology/",
+    "verifiedOn": "2026-08-11"
+   },
+   "md-refresh": {
+    "support": "Partial",
+    "note": "Property-level data refreshed by contact every 25 business days; amenities and lease terms on a quarterly/annual rotation; new construction daily. The homepage describes property-level data as 'updated monthly'.",
+    "source": "https://alndata.com/methodology/",
+    "verifiedOn": "2026-08-11"
+   },
+   "md-api": {
+    "support": "Unknown",
+    "note": "API access is not described; 'Direct Feeds' refers to owners and management companies supplying data into ALN, not customer data extraction.",
+    "source": "https://alndata.com/methodology/",
+    "verifiedOn": "2026-08-11"
+   },
+   "md-submarket": {
+    "support": "Unknown",
+    "note": "Submarket analytics are not specifically described; the site describes regional breakdowns across all 50 states.",
+    "source": "https://alndata.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "md-availability": {
+    "support": "Unknown",
+    "note": "Real-time availability data is not described; occupancy is reported on the survey cycle.",
+    "source": "https://alndata.com/methodology/",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "High",
+   "owner": null,
+   "autoUpdated": true,
+   "pendingReview": []
+  },
+  "news": [],
+  "sources": [
+   {
+    "title": "ALN Apartment Data — Methodology",
+    "url": "https://alndata.com/methodology/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "ALN Apartment Data — Nationwide Multifamily Data Services",
+    "url": "https://alndata.com/",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 6,
+   "name": "Asset, Finance and Investor",
+   "note": "Feeds market context into the loop; sits closer to asset and finance."
+  },
+  "whenItComesUp": {
+   "why": "A real head-to-head. The long-standing phone-survey house — 195,000+ properties contacted on a roughly monthly rotation — so compete on refresh speed and on coverage of properties that don't answer the call.",
+   "say": "Acknowledge what they do well, then move the conversation to the ground in 'Win with' — don't open with a feature list.",
+   "avoid": "Do not say ALN data is inaccurate — their methodology page documents verification checks.",
+   "redirect": "How often do you reprice, and how often does your comp data actually refresh underneath that?",
+   "derived": true
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name ALN, ALN OnLine, ALN Data, or describe market rent comparables data already in place.",
+    "ask": "How often do you reprice, and how often does your comp data actually refresh underneath that?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "Property-level data is refreshed by contact 'every 25 business days'; semi-static attributes such as amenities and lease terms follow a quarterly and annual rotation. Only new construction is described as updating daily.",
+    "ask": "What happens when a comp stops taking the survey call?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the ALN Apartment Data contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the ALN Apartment Data agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether ALN Apartment Data sits on someone else's budget line — that changes who has to agree.",
+    "ask": "How is coverage in your submarkets for properties under 50 units?"
+   }
+  ],
+  "play": "Sometimes in the room"
+ },
+ {
+  "id": "eliseai",
+  "name": "EliseAI",
+  "aka": [
+   "Elise AI",
+   "MeetElise",
+   "EliseCRM",
+   "SentimentAI",
+   "VoiceAI"
+  ],
+  "parent": null,
+  "website": "https://eliseai.com",
+  "toolCategory": "AI leasing agent",
+  "ciCategory": "Partner-Competitor",
+  "tier": "Tier 1",
+  "verdict": {
+   "stance": "Partner",
+   "line": "EliseAI is a Grace Hill partner that we have co-published research with — treat it as a partner first; the only genuine product overlap is at the edge, in resident sentiment collection.",
+   "doInstead": "Confirm the posture with your manager before you use any competitive language about EliseAI. If a prospect raises them, acknowledge the partnership openly: Grace Hill and EliseAI co-published a September 2025 report analyzing EliseAI's impact on resident NPS using Grace Hill survey data, and EliseAI participates in Grace Hill's partner programs including the Survey Partner Program and the Integration Partner list. Never disparage them. Do not discuss, speculate about or imply anything regarding the commercial terms of the relationship. Where a prospect is evaluating EliseAI's SentimentAI against Grace Hill surveys, stay factual about scope and benchmarking and escalate rather than improvise."
+  },
+  "overlaps": [
+   {
+    "product": "Surveys",
+    "degree": "Partial"
+   },
+   {
+    "product": "Realync",
+    "degree": "Partial"
+   },
+   {
+    "product": "Training",
+    "degree": "None"
+   },
+   {
+    "product": "Policies",
+    "degree": "None"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": "New York, NY (401 Fifth Avenue), with office hubs in New York, San Francisco, Boston and Chicago",
+    "source": "https://eliseai.com/blog/eliseai-raises-250m-series-e",
+    "verifiedOn": "2026-08-11"
+   },
+   "founded": {
+    "value": "Unknown",
+    "source": null,
+    "verifiedOn": "2026-08-11"
+   },
+   "ownership": {
+    "value": "Private, venture-backed",
+    "source": "https://eliseai.com/blog/eliseai-raises-250m-series-e",
+    "verifiedOn": "2026-08-11"
+   },
+   "size": {
+    "value": "Over 300 full-time employees as of the August 2025 Series E announcement, up from 150 a year earlier.",
+    "source": "https://eliseai.com/blog/eliseai-raises-250m-series-e",
+    "verifiedOn": "2026-08-11"
+   },
+   "funding": {
+    "value": "$250M Series E announced August 16, 2025, led by Andreessen Horowitz with Bessemer Venture Partners, Sapphire Ventures and Navitas Capital; prior $75M Series D announced August 2024 at a valuation stated to exceed $1 billion.",
+    "source": "https://eliseai.com/blog/eliseai-raises-250m-series-e",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "pricing": {
+   "value": "Not published on the EliseAI website.",
+   "source": "https://eliseai.com/",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "Positions as an end-to-end AI platform across the leasing-to-resident journey — EliseCRM, VoiceAI, prospect management, AI-guided tours, move-in, maintenance, renewals and delinquency — communicating by text, email, chat and voice across 51 written and 7 spoken languages, with a separate healthcare vertical.",
+   "source": "https://eliseai.com/",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "Stated scale as of August 2025: over 600 owners and operators in housing, powering roughly 10% of the U.S. apartment market, with 75% of NMHC's Top 50 operators as customers and over $100 million in ARR.",
+    "source": "https://eliseai.com/blog/eliseai-raises-250m-series-e",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Very well capitalized — $250M Series E led by a16z in August 2025, following a $75M Series D at a valuation stated above $1 billion.",
+    "source": "https://eliseai.com/blog/eliseai-raises-250m-series-e",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Full lifecycle coverage from prospect to renewal and delinquency, including VoiceAI, lease audits and a maintenance app.",
+    "source": "https://eliseai.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "SentimentAI adds resident sentiment surveys triggered at renewals, maintenance completion and move-outs, with real-time dashboards and feedback embedded in the resident timeline.",
+    "source": "https://eliseai.com/blog/sentimentai",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Participates in Grace Hill's Training Partner Program, Survey Partner Program and Integration Partner list, and co-published a September 2025 report with Grace Hill.",
+    "source": "https://gracehill.com/partnerships/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "The SentimentAI announcement describes dashboards and response tracking; competitive or industry benchmarking against an external dataset is not described.",
+    "source": "https://eliseai.com/blog/sentimentai",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "The EliseAI homepage product listing does not include training, policy management, mystery shopping or reputation management.",
+    "source": "https://eliseai.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Pricing is not published.",
+    "source": "https://eliseai.com/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [
+   "This is a partner relationship, not a win column. The joint September 2025 report used Grace Hill survey data to measure EliseAI's impact on resident NPS — that is the story to tell.",
+   "Where scope does overlap, Grace Hill's survey line is built around a benchmarked industry dataset; EliseAI's SentimentAI is described around in-platform dashboards. State the difference factually and let the buyer decide."
+  ],
+  "askThis": [
+   "Are you looking for resident sentiment inside your leasing platform, or a benchmarked survey program you can compare against the industry?",
+   "Who consumes the resident feedback — the onsite team in the moment, or asset management and ownership in a quarterly review?",
+   "Do you need the survey results to drive training or action planning, or just to be visible?",
+   "Have you seen the joint Grace Hill and EliseAI report on resident NPS? Would that be useful to your team?"
+  ],
+  "objections": [
+   {
+    "objection": "We're already using EliseAI, so we get resident feedback there.",
+    "response": "That's great — and EliseAI is a Grace Hill partner; we co-published a report measuring their impact on resident NPS using Grace Hill survey data. The two work together. If you also need benchmarked survey results against the industry, that's the conversation to have."
+   },
+   {
+    "objection": "Aren't you competing with EliseAI?",
+    "response": "We partner with them. EliseAI participates in our partner programs and we've published joint research. I'm not going to position against a partner — let me show you how the two fit together."
+   }
+  ],
+  "doNotSay": [
+   "Never disparage EliseAI or characterize their product, service or company negatively.",
+   "Never state, imply or speculate about any commercial terms of the Grace Hill / EliseAI relationship — revenue share, exclusivity, fees or anything else.",
+   "Do not use competitive battlecard language against EliseAI without explicit manager approval.",
+   "Do not claim EliseAI 'has no' surveys or benchmarking — SentimentAI exists; benchmarking against an external dataset is simply not described publicly."
+  ],
+  "features": {
+   "sv-resident": {
+    "support": "Partial",
+    "note": "SentimentAI delivers resident sentiment surveys conversationally at renewals, maintenance completion and move-outs; it is a sentiment-collection engine inside the leasing platform rather than a standalone survey program.",
+    "source": "https://eliseai.com/blog/sentimentai",
+    "verifiedOn": "2026-08-11"
+   },
+   "sv-sentiment": {
+    "support": "Yes",
+    "note": "Combines conversational AI with sentiment analysis and real-time dashboards.",
+    "source": "https://eliseai.com/blog/sentimentai",
+    "verifiedOn": "2026-08-11"
+   },
+   "sv-lifecycle": {
+    "support": "Yes",
+    "note": "One-click templates for critical moments including renewals, maintenance completion and move-outs.",
+    "source": "https://eliseai.com/blog/sentimentai",
+    "verifiedOn": "2026-08-11"
+   },
+   "sv-benchmark-dataset": {
+    "support": "Unknown",
+    "note": "An external industry benchmark dataset is not described in the SentimentAI announcement.",
+    "source": "https://eliseai.com/blog/sentimentai",
+    "verifiedOn": "2026-08-11"
+   },
+   "sv-benchmark-scale": {
+    "support": "Unknown",
+    "note": "No benchmark scale or history is disclosed.",
+    "source": "https://eliseai.com/blog/sentimentai",
+    "verifiedOn": "2026-08-11"
+   },
+   "sv-portfolio-rollup": {
+    "support": "Unknown",
+    "note": "Dashboards are described; property/region/portfolio rollup is not specified.",
+    "source": "https://eliseai.com/blog/sentimentai",
+    "verifiedOn": "2026-08-11"
+   },
+   "sv-published-pricing": {
+    "support": "No",
+    "note": "No pricing is published on the EliseAI website.",
+    "source": "https://eliseai.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-live-tours": {
+    "support": "Unknown",
+    "note": "AI-guided tours are described as tour scheduling and coordination; live agent video tours are not described.",
+    "source": "https://eliseai.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-self-guided": {
+    "support": "Partial",
+    "note": "'AI-Guided Tours' is listed as a leasing capability covering tour scheduling and coordination; smart-lock self-guided access is not described.",
+    "source": "https://eliseai.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-crm-integration": {
+    "support": "Yes",
+    "note": "EliseCRM plus published integrations with existing property management systems; EliseAI is listed as a Grace Hill integration partner.",
+    "source": "https://eliseai.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-diy-capture": {
+    "support": "Unknown",
+    "note": "Video capture is not part of the described product suite.",
+    "source": "https://eliseai.com/",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "High",
+   "owner": null,
+   "autoUpdated": true,
+   "pendingReview": []
+  },
+  "news": [
+   {
+    "headline": "Measuring EliseAI's Impact on Resident NPS with Grace Hill Survey Data",
+    "date": "2025-09-05",
+    "url": "https://eliseai.com/resources/measuring-eliseais-impact-on-resident-nps-with-grace-hill-survey-data",
+    "impact": "Joint Grace Hill / EliseAI report analyzing 296 pre-launch and 317 post-launch properties from Grace Hill survey data, January 2022 to August 2025. Reps should lead with this, not against it."
+   },
+   {
+    "headline": "EliseAI Raises $250M Series E",
+    "date": "2025-08-16",
+    "url": "https://eliseai.com/blog/eliseai-raises-250m-series-e",
+    "impact": "Heavily capitalized and expanding scope — watch for product expansion into areas closer to Grace Hill's lines."
+   },
+   {
+    "headline": "SentimentAI launch",
+    "date": "2025-06-16",
+    "url": "https://eliseai.com/blog/sentimentai",
+    "impact": "The one area of genuine scope overlap with Grace Hill's survey line; monitor for benchmarking capability."
+   }
+  ],
+  "sources": [
+   {
+    "title": "EliseAI — homepage",
+    "url": "https://eliseai.com/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Measuring EliseAI's Impact on Resident NPS with Grace Hill Survey Data",
+    "url": "https://eliseai.com/resources/measuring-eliseais-impact-on-resident-nps-with-grace-hill-survey-data",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "EliseAI Raises $250M Series E",
+    "url": "https://eliseai.com/blog/eliseai-raises-250m-series-e",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "SentimentAI",
+    "url": "https://eliseai.com/blog/sentimentai",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Grace Hill — Partnerships",
+    "url": "https://gracehill.com/partnerships/",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 1,
+   "name": "Demand and Leasing",
+   "note": "Sits in demand and leasing, upstream of the resolution loop."
+  },
+  "whenItComesUp": {
+   "why": "EliseAI is a Grace Hill partner — there's a jointly published resident survey report and an active partnership. Their SentimentAI product does create genuine scope overlap on resident feedback, which makes this a relationship question rather than a competitive one.",
+   "say": "We work with EliseAI — we've published joint research with them. They're strong at the leasing conversation. If resident sentiment is coming up, that's worth a conversation with both of us in the room rather than either of us pitching against the other.",
+   "avoid": "Do not use competitive language about EliseAI, and do not speculate about anything to do with the partnership arrangement. If a prospect is weighing SentimentAI against our surveys, escalate before you respond.",
+   "redirect": "Are you looking for feedback at the leasing moment, or an ongoing benchmarked listening program across the resident lifecycle?"
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name Elise AI, MeetElise, EliseCRM, SentimentAI, VoiceAI, or describe ai leasing agent already in place.",
+    "ask": "Are you looking for resident sentiment inside your leasing platform, or a benchmarked survey program you can compare against the industry?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "The SentimentAI announcement describes dashboards and response tracking; competitive or industry benchmarking against an external dataset is not described.",
+    "ask": "Who consumes the resident feedback — the onsite team in the moment, or asset management and ownership in a quarterly review?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the EliseAI contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the EliseAI agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether EliseAI sits on someone else's budget line — that changes who has to agree.",
+    "ask": "Do you need the survey results to drive training or action planning, or just to be visible?"
+   }
+  ],
+  "play": "Partner"
+ },
+ {
+  "id": "funnel",
+  "name": "Funnel",
+  "aka": [
+   "Funnel Leasing",
+   "Nestio"
+  ],
+  "parent": null,
+  "website": "https://funnelleasing.com",
+  "toolCategory": "AI leasing agent and multifamily CRM",
+  "ciCategory": "Indirect",
+  "tier": "Tier 3",
+  "verdict": {
+   "stance": "Partial overlap",
+   "line": "A renter-centric CRM with agentic AI — it sits in a different budget line than Grace Hill, and the only edge that touches us is call analysis in its Voice AI Insights.",
+   "doInstead": null
+  },
+  "overlaps": [
+   {
+    "product": "Mystery Shopping",
+    "degree": "Partial"
+   },
+   {
+    "product": "Realync",
+    "degree": "Partial"
+   },
+   {
+    "product": "Training",
+    "degree": "None"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": "Odessa, Florida (Tampa Bay region), relocated from New York.",
+    "source": "https://funnelleasing.com/media/new-york-proptech-company-moves-to-region-opens-odessa-hq/",
+    "verifiedOn": "2026-08-11"
+   },
+   "founded": {
+    "value": "Unknown — the company was formerly known as Nestio.",
+    "source": "https://funnelleasing.com/media/new-york-proptech-company-moves-to-region-opens-odessa-hq/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ownership": {
+    "value": "Private, venture-backed",
+    "source": "https://funnelleasing.com/law360-proptech-firm-funnel-leasing-lands-32m-in-financing/",
+    "verifiedOn": "2026-08-11"
+   },
+   "size": {
+    "value": "Unknown",
+    "source": null,
+    "verifiedOn": "2026-08-11"
+   },
+   "funding": {
+    "value": "$32M financing reported by Law360 and republished by Funnel; an earlier $14.1M raise was reported in November 2020.",
+    "source": "https://funnelleasing.com/law360-proptech-firm-funnel-leasing-lands-32m-in-financing/",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "pricing": {
+   "value": "Not published on the Funnel website.",
+   "source": "https://funnelleasing.com/crm-for-multifamily-operators/",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "Positions as a 'renter-centric®' CRM that keeps one unified renter profile across an entire portfolio rather than a separate record per property, with agentic AI workflows for centralized leasing operations.",
+   "source": "https://funnelleasing.com/crm-for-multifamily-operators/",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "Renter-centric architecture maintaining unified renter profiles portfolio-wide, aimed at centralized leasing operations.",
+    "source": "https://funnelleasing.com/crm-for-multifamily-operators/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Product breadth: AI leasing assistant, Voice AI and Insights, online leasing with fraud detection, resident portal (Nestio), self-service tour scheduling and portfolio analytics.",
+    "source": "https://funnelleasing.com/crm-for-multifamily-operators/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Named portfolio-wide integrations with Yardi, RealPage and Entrata.",
+    "source": "https://funnelleasing.com/crm-for-multifamily-operators/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Publishes named enterprise customer results including BH Management Services, Essex Property Trust and ZRS.",
+    "source": "https://funnelleasing.com/crm-for-multifamily-operators/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "The product pages do not describe training, policy management, mystery shopping or benchmarked resident surveys.",
+    "source": "https://funnelleasing.com/crm-for-multifamily-operators/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Agent-created video capture is not described among Funnel's capabilities.",
+    "source": "https://funnelleasing.com/crm-for-multifamily-operators/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Pricing is not published, and the website does not disclose headquarters on the product pages.",
+    "source": "https://funnelleasing.com/crm-for-multifamily-operators/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [
+   "Funnel replaces the CRM; Grace Hill supplies the training, policy, survey and shop layer the CRM does not carry. These are complementary budget lines.",
+   "Where Funnel's Voice AI Insights analyzes calls, Grace Hill's shopping and coaching layer connects the call finding to a training assignment."
+  ],
+  "askThis": [
+   "Does Voice AI Insights analyze every call, or a sample?",
+   "When a call analysis shows a coaching gap, what happens next — who assigns the training?",
+   "Is resident survey feedback benchmarked against anything outside your own portfolio?",
+   "Where does policy acknowledgment and compliance reporting live today?"
+  ],
+  "objections": [
+   {
+    "objection": "Funnel already gives us call insights, so we don't need shopping.",
+    "response": "Call insight tells you what happened. The question is what happens next — who is coached, on what, and whether it's proven to move the score. That's the loop Grace Hill closes."
+   }
+  ],
+  "doNotSay": [
+   "Do not position Funnel as a Grace Hill replacement — they sit in different budget lines.",
+   "Do not claim Funnel's Voice AI analyzes only a sample; that is not stated publicly. Ask instead.",
+   "Do not quote Funnel pricing; none is published."
+  ],
+  "features": {
+   "ms-full-call-analysis": {
+    "support": "Partial",
+    "note": "'Voice AI + Insights' is described as call analysis and performance metrics; whether every call is analyzed versus a sample is not stated.",
+    "source": "https://funnelleasing.com/crm-for-multifamily-operators/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-coaching": {
+    "support": "Unknown",
+    "note": "Coaching linked to training assignment is not described.",
+    "source": "https://funnelleasing.com/crm-for-multifamily-operators/",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-self-guided": {
+    "support": "Partial",
+    "note": "Self-service tour scheduling for virtual and in-person tours; smart-lock self-guided access is not described.",
+    "source": "https://funnelleasing.com/crm-for-multifamily-operators/",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-diy-capture": {
+    "support": "Unknown",
+    "note": "Agent video capture is not described among Funnel's capabilities.",
+    "source": "https://funnelleasing.com/crm-for-multifamily-operators/",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-crm-integration": {
+    "support": "Yes",
+    "note": "Funnel is itself the CRM, with portfolio-wide integrations to Yardi, RealPage and Entrata.",
+    "source": "https://funnelleasing.com/crm-for-multifamily-operators/",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-analytics": {
+    "support": "Yes",
+    "note": "Portfolio analytics and reporting with centralized dashboards.",
+    "source": "https://funnelleasing.com/crm-for-multifamily-operators/",
+    "verifiedOn": "2026-08-11"
+   },
+   "sv-resident": {
+    "support": "Unknown",
+    "note": "Benchmarked resident surveys are not described.",
+    "source": "https://funnelleasing.com/crm-for-multifamily-operators/",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Medium",
+   "owner": null,
+   "autoUpdated": true,
+   "pendingReview": []
+  },
+  "news": [],
+  "sources": [
+   {
+    "title": "Funnel — Multifamily CRM for Operators",
+    "url": "https://funnelleasing.com/crm-for-multifamily-operators/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Tampa Bay Business Journal — New York proptech company moves to region, opens Odessa HQ (republished by Funnel)",
+    "url": "https://funnelleasing.com/media/new-york-proptech-company-moves-to-region-opens-odessa-hq/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "Law360 — Proptech Firm Funnel Leasing Lands $32M In Financing (republished by Funnel)",
+    "url": "https://funnelleasing.com/law360-proptech-firm-funnel-leasing-lands-32m-in-financing/",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 1,
+   "name": "Demand and Leasing",
+   "note": "Sits in demand and leasing, upstream of the resolution loop."
+  },
+  "whenItComesUp": {
+   "why": "Overlaps in part, not in whole. A renter-centric CRM with agentic AI — it sits in a different budget line than Grace Hill, and the only edge that touches us is call analysis in its Voice AI Insights.",
+   "say": "Concede the part they genuinely own, then be specific about the part they don't. Partial overlap is where reps over-claim and lose credibility.",
+   "avoid": "Do not position Funnel as a Grace Hill replacement — they sit in different budget lines.",
+   "redirect": "Does Voice AI Insights analyze every call, or a sample?",
+   "derived": true
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name Funnel Leasing, Nestio, or describe ai leasing agent and multifamily crm already in place.",
+    "ask": "Does Voice AI Insights analyze every call, or a sample?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "The product pages do not describe training, policy management, mystery shopping or benchmarked resident surveys.",
+    "ask": "When a call analysis shows a coaching gap, what happens next — who assigns the training?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the Funnel contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the Funnel agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether Funnel sits on someone else's budget line — that changes who has to agree.",
+    "ask": "Is resident survey feedback benchmarked against anything outside your own portfolio?"
+   }
+  ],
+  "play": "Sometimes in the room"
+ },
+ {
+  "id": "knock",
+  "name": "Knock",
+  "aka": [
+   "Knock CRM",
+   "Knock Now",
+   "Knock Tours",
+   "Knock Insights"
+  ],
+  "parent": "RealPage",
+  "website": "https://www.knockcrm.com",
+  "toolCategory": "Multifamily CRM with leasing performance analytics",
+  "ciCategory": "Indirect",
+  "tier": "Tier 3",
+  "verdict": {
+   "stance": "Partial overlap",
+   "line": "A RealPage-owned leasing CRM — different budget line from Grace Hill, but Knock Insights does team benchmarking, so check what a prospect thinks that number already tells them.",
+   "doInstead": null
+  },
+  "overlaps": [
+   {
+    "product": "Mystery Shopping",
+    "degree": "Partial"
+   },
+   {
+    "product": "Realync",
+    "degree": "Partial"
+   },
+   {
+    "product": "Training",
+    "degree": "None"
+   }
+  ],
+  "snapshot": {
+   "hq": {
+    "value": "Seattle, Washington",
+    "source": "https://www.multifamilydive.com/news/realpage-acquires-knock-crm/633287/",
+    "verifiedOn": "2026-08-11"
+   },
+   "founded": {
+    "value": "2014",
+    "source": "https://www.multifamilydive.com/news/realpage-acquires-knock-crm/633287/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ownership": {
+    "value": "Acquired by RealPage; acquisition announced late September 2022. Purchase price not disclosed.",
+    "source": "https://www.multifamilydive.com/news/realpage-acquires-knock-crm/633287/",
+    "verifiedOn": "2026-08-11"
+   },
+   "size": {
+    "value": "Unknown",
+    "source": null,
+    "verifiedOn": "2026-08-11"
+   },
+   "funding": {
+    "value": "Unknown — now a RealPage subsidiary.",
+    "source": "https://www.multifamilydive.com/news/realpage-acquires-knock-crm/633287/",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "pricing": {
+   "value": "Not published on the Knock website.",
+   "source": "https://www.knockcrm.com/",
+   "verifiedOn": "2026-08-11"
+  },
+  "positioning": {
+   "value": "Positions as an all-in-one multifamily CRM covering scheduling (Knock Now), marketing attribution, multi-channel messaging, gamified task management, Knock Insights analytics and mobile/remote leasing workflows.",
+   "source": "https://www.knockcrm.com/",
+   "verifiedOn": "2026-08-11"
+  },
+  "strengths": [
+   {
+    "text": "Knock Now self-service tour scheduling, reported by Knock as increasing tour volume 2.5x.",
+    "source": "https://www.knockcrm.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Knock Insights provides performance metrics and team benchmarking across a portfolio.",
+    "source": "https://www.knockcrm.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Multi-channel messaging (email, text, voice, chat) in a unified interface, plus marketing source attribution.",
+    "source": "https://www.knockcrm.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "RealPage ownership since 2022 puts Knock inside the RealPage stack alongside AI and yield management.",
+    "source": "https://www.multifamilydive.com/news/realpage-acquires-knock-crm/633287/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "gaps": [
+   {
+    "text": "The Knock website does not describe an AI leasing agent, agent-created video tours, mystery shopping or a competency-based quality scoring product as distinct offerings.",
+    "source": "https://www.knockcrm.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Knock Insights benchmarking is described as team benchmarking within the customer's own operation; an external industry benchmark dataset is not described.",
+    "source": "https://www.knockcrm.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   {
+    "text": "Pricing is not published.",
+    "source": "https://www.knockcrm.com/",
+    "verifiedOn": "2026-08-11"
+   }
+  ],
+  "whyWeWin": [
+   "Knock benchmarks a team against itself; Grace Hill's benchmarking is against an industry dataset — different questions, and the buyer should hear the distinction stated plainly.",
+   "Knock is the system of record for leasing activity; Grace Hill supplies the training, policy and shop layer that acts on what the record shows."
+  ],
+  "askThis": [
+   "When Knock Insights ranks your properties, what is the comparison set — just your own portfolio, or the industry?",
+   "How do you know whether a low-performing property is a market problem or an execution problem?",
+   "Who turns a Knock performance metric into a coaching plan, and on what system?",
+   "How does policy acknowledgment and compliance reporting happen today?"
+  ],
+  "objections": [
+   {
+    "objection": "Knock already benchmarks our teams.",
+    "response": "Within your own portfolio, yes. The question is what 'good' means — if every property in your portfolio has the same gap, internal ranking won't show it. That's what an industry benchmark is for."
+   }
+  ],
+  "doNotSay": [
+   "Do not say Knock has no benchmarking — it has team benchmarking within Knock Insights; the distinction is internal versus industry comparison.",
+   "Do not comment on RealPage litigation or regulatory matters.",
+   "Do not quote Knock pricing; none is published."
+  ],
+  "features": {
+   "vl-self-guided": {
+    "support": "Partial",
+    "note": "Knock Now provides self-service tour scheduling; Knock Tours is referenced but smart-lock self-guided access is not described.",
+    "source": "https://www.knockcrm.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-diy-capture": {
+    "support": "Unknown",
+    "note": "Agent video capture is not described on the Knock website.",
+    "source": "https://www.knockcrm.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-crm-integration": {
+    "support": "Yes",
+    "note": "Knock is itself the CRM and is a named integration target for third-party video and marketing tools.",
+    "source": "https://www.knockcrm.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "vl-analytics": {
+    "support": "Yes",
+    "note": "Knock Insights provides performance metrics and team benchmarking.",
+    "source": "https://www.knockcrm.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-benchmarking": {
+    "support": "Partial",
+    "note": "Team benchmarking is described within Knock Insights; benchmarking against an external industry dataset is not described.",
+    "source": "https://www.knockcrm.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-full-call-analysis": {
+    "support": "Unknown",
+    "note": "Call analysis coverage is not described on the Knock website.",
+    "source": "https://www.knockcrm.com/",
+    "verifiedOn": "2026-08-11"
+   },
+   "ms-coaching": {
+    "support": "Unknown",
+    "note": "Coaching linked to training assignment is not described.",
+    "source": "https://www.knockcrm.com/",
+    "verifiedOn": "2026-08-11"
+   }
+  },
+  "health": {
+   "lastFullReview": "2026-08-11",
+   "confidence": "Medium",
+   "owner": null,
+   "autoUpdated": true,
+   "pendingReview": []
+  },
+  "news": [],
+  "sources": [
+   {
+    "title": "Knock — homepage",
+    "url": "https://www.knockcrm.com/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "RealPage acquires Knock CRM — Multifamily Dive",
+    "url": "https://www.multifamilydive.com/news/realpage-acquires-knock-crm/633287/",
+    "retrievedOn": "2026-08-11"
+   },
+   {
+    "title": "RealPage — Property Management CRM Software for Multifamily",
+    "url": "https://www.realpage.com/apartment-marketing/crm/",
+    "retrievedOn": "2026-08-11"
+   }
+  ],
+  "stackLayer": {
+   "number": 1,
+   "name": "Demand and Leasing",
+   "note": "Sits in demand and leasing, upstream of the resolution loop."
+  },
+  "whenItComesUp": {
+   "why": "Overlaps in part, not in whole. A RealPage-owned leasing CRM — different budget line from Grace Hill, but Knock Insights does team benchmarking, so check what a prospect thinks that number already tells them.",
+   "say": "Concede the part they genuinely own, then be specific about the part they don't. Partial overlap is where reps over-claim and lose credibility.",
+   "avoid": "Do not say Knock has no benchmarking — it has team benchmarking within Knock Insights; the distinction is internal versus industry comparison.",
+   "redirect": "When Knock Insights ranks your properties, what is the comparison set — just your own portfolio, or the industry?",
+   "derived": true
+  },
+  "spiced": [
+   {
+    "letter": "S",
+    "stage": "Situation",
+    "listenFor": "They name Knock CRM, Knock Now, Knock Tours, Knock Insights, or describe multifamily crm with leasing performance analytics already in place.",
+    "ask": "When Knock Insights ranks your properties, what is the comparison set — just your own portfolio, or the industry?"
+   },
+   {
+    "letter": "P",
+    "stage": "Pain",
+    "listenFor": "The Knock website does not describe an AI leasing agent, agent-created video tours, mystery shopping or a competency-based quality scoring product as distinct offerings.",
+    "ask": "How do you know whether a low-performing property is a market problem or an execution problem?"
+   },
+   {
+    "letter": "I",
+    "stage": "Impact",
+    "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+    "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+   },
+   {
+    "letter": "CE",
+    "stage": "Critical Event",
+    "listenFor": "A renewal date on the Knock contract, an audit, an acquisition, or new leadership asking what the data shows.",
+    "ask": "When does the Knock agreement come up, and what has to be decided before then?"
+   },
+   {
+    "letter": "D",
+    "stage": "Decision Process",
+    "listenFor": "Whether Knock sits on someone else's budget line — that changes who has to agree.",
+    "ask": "Who turns a Knock performance metric into a coaching plan, and on what system?"
+   }
+  ],
+  "play": "Sometimes in the room"
+ }
+]

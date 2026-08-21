@@ -1,0 +1,103 @@
+{
+  "asOf": "2H 2026",
+  "source": "Grace Hill Demand Strategy 2H 2026 — The Play Book (WIP)",
+  "status": "This describes a future state. The bundles are not launched and final contents are still being agreed. Read as the model being aligned on, not the model being run.",
+  "rules": [
+    "No account enters a play without a recorded, dated reason to reach out. Not a segment. Not a persona match. A specific event or gap a person would recognize as a reason to make contact.",
+    "Never pitch the second bundle to the buyer who owns the first. Each bundle has its own budget owner — selling Resident & Prospect to an L&D leader asks them to spend a budget they don't control."
+  ],
+  "plays": [
+    {
+      "id": "E1",
+      "name": "Add Resident & Prospect Satisfaction",
+      "segment": "Enterprise",
+      "buyer": "Marketing",
+      "currentOwner": "Operations or L&D",
+      "note": "Named-account, one-to-one."
+    },
+    {
+      "id": "E2",
+      "name": "Add Workforce Excellence",
+      "segment": "Enterprise",
+      "buyer": "Operations or L&D",
+      "currentOwner": "Marketing",
+      "note": "Named-account, one-to-one."
+    },
+    {
+      "id": "E3",
+      "name": "Platform Core to Platform Plus",
+      "segment": "Enterprise",
+      "buyer": "Executive sponsor",
+      "currentOwner": null,
+      "note": "The only play that reaches above the functions. Doubles as the fix for the largest loss reason — lack of executive support accounts for $759,717 across 36 lost deals, the biggest loss category by value."
+    },
+    {
+      "id": "E4",
+      "name": "Market Data, Sold Standalone",
+      "segment": "Enterprise",
+      "buyer": "Asset management, BD, acquisitions",
+      "currentOwner": null,
+      "note": "Do not lead with the platform. Blocking gap: there is no asset manager persona in the library — the budget owner for the fastest-growing product has never been documented. Build the persona before launching."
+    },
+    {
+      "id": "M1",
+      "name": "Add Resident & Prospect Satisfaction",
+      "segment": "Mid-Market, existing",
+      "buyer": "Marketing",
+      "currentOwner": "Operations or L&D",
+      "note": "936 accounts. Runs on triggers and packaging, at scale."
+    },
+    {
+      "id": "M2",
+      "name": "Add Workforce Excellence",
+      "segment": "Mid-Market, existing",
+      "buyer": "Operations or L&D",
+      "currentOwner": "Marketing",
+      "note": "187 accounts."
+    },
+    {
+      "id": "M3",
+      "name": "Core to Plus",
+      "segment": "Mid-Market, existing",
+      "buyer": "The existing bundle owner",
+      "currentOwner": null,
+      "note": "The easiest conversation we have. Workforce Excellence at Plus adds combo mystery shopping, which makes M3 a bridge into M1 — the shopping data becomes the evidence for the resident and prospect conversation."
+    },
+    {
+      "id": "M4",
+      "name": "Land on Compliance, Designed to Expand",
+      "segment": "Mid-Market, new logo",
+      "buyer": "Operations or L&D",
+      "currentOwner": null,
+      "note": "The fastest land we have. Mid-market new logo converts at 36.1% against enterprise's 15.0%. The structural change: a new customer should exit into the cross-sell motion on close, with the gap already named."
+    },
+    {
+      "id": "C1",
+      "name": "The First Cross-Sell",
+      "segment": "Commercial",
+      "buyer": "Operations or Marketing",
+      "currentOwner": null,
+      "note": "103 accounts with product data, all single-bundle. Do not launch before the commercial value proposition exists in usable form — a well-targeted list with the wrong message burns a 197-account segment too small to re-approach quickly."
+    },
+    {
+      "id": "X1",
+      "name": "Re-Engagement",
+      "segment": "Any",
+      "buyer": "Whoever we last spoke to",
+      "currentOwner": null,
+      "note": "139 opportunities, $1.6M. Half of all lost revenue went to no decision rather than to a competitor. A competitive loss needs a better product or price; a no-decision loss needs presence until conditions change. Fastest play to start."
+    },
+    {
+      "id": "X2",
+      "name": "Bundle Migration",
+      "segment": "Every existing customer",
+      "buyer": "The current bundle owner, then the counterpart",
+      "currentOwner": null,
+      "note": "Three risks: customers feeling they now pay for capability they don't use; a discovery window that expires silently and reads as a takeaway; migration landing as a price conversation instead of an outcome conversation."
+    }
+  ],
+  "addOns": {
+    "note": "Add-ons attach to a bundle an account already holds. None is sold on its own, and the buyer is always whoever owns the bundle it attaches to.",
+    "realync": "The only product in the portfolio going backward — revenue fell 7.7% last year. Buyers already get virtual leasing through platforms they own, so it loses a category evaluation on its own merits. The fix is distribution, not the product: attach it to Resident & Prospect Satisfaction where the marketing buyer is already ours, and lead with a conversion gap their own shopping or survey results already surfaced."
+  }
+}
