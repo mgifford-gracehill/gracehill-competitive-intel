@@ -1,6 +1,6 @@
 # Deploy this folder
 
-**Everything in this zip is current as of August 21, 2026.** It replaces every earlier
+**Everything in this zip is current as of August 21, 2026 (second build today — this one has the density switch and the Back-button fix).** It replaces every earlier
 zip I sent you — you do not need any of them. If you have several lying around, this is
 the one with today's date in the filename.
 
@@ -28,26 +28,33 @@ You already have the project and Cloudflare Access set up, so this is just a re-
 
 ## How to tell the deploy actually worked
 
-Open the app and check any one of these. All three are new in this build:
+Open the app and check these. All are new in this build:
 
-- **A competitor page → "Us vs them" tab.** Detail cells now open with *"Say it this way"*
-  in italics on the claims that have approved wording, and a red *"Do not say"* line
-  where there is a sentence to avoid.
-- **Explore → Compare features → Policies.** There is a new row, *"Ask an AI assistant a
-  question about policy content."* Grace Hill is a Yes on it.
-- **Explore → Compare features → Platform & AI.** New row, *"Answers limited to the
-  customer's own approved content."* Grace Hill is a Partial — that is correct, not a bug.
-
-If you see all three, you are on the current build.
+- **Top right of the header: a `QUICK | FULL DETAIL` switch.** Quick is the default. That
+  is the whole point of this build — front-line staff get the important thing at a glance,
+  and anyone validating a claim flips to Full detail.
+- **A competitor page → "Us vs them".** One line per capability now, with the source link
+  and a `DETAIL ▸` toggle. Claims with approved wording open with **Say:** in bold; claims
+  with a sentence to avoid show a red **Do not say:** line.
+- **A competitor page → "About them".** Three things only: what the research found, what
+  changed recently, and what their customers say. Methodology and the rest are behind one
+  toggle, and there is a **Download the full report** button at the bottom.
+- **Explore → By product.** A ranked list, one line per competitor, head-to-head first —
+  not a wall of boxes.
+- **The Back button.** Open a competitor, press Back. You should land on the list you came
+  from. Previously this dropped you at the sign-in page, because the app never wrote its own
+  history entries and the login was the only thing behind it.
 
 ## What changed in this one
 
-- All 18 Grace Hill capability claims you approved are applied, and the review flags are
-  cleared and replaced with an approval record showing who decided and when.
-- 104 Grace Hill claims, every one citing first-party documentation.
-- The Realync stat now always shows both rates: 47% with video engagement, 15% without.
-- Recording-consent state list corrected to 14 states, including Oregon.
-- Editorial gate: 0 must-fix findings.
+- Detail collapses instead of being deleted. Nothing that was researched was thrown away —
+  it moved behind a toggle, or into the downloadable report.
+- Us vs them is roughly a fifth of its former length in Quick view.
+- Personas show the pitch, what they're measured on, and who you're up against; goals,
+  blockers, and objections are one click away.
+- Deep-dive research on screen is the 3–5 findings that change a conversation, plus dated
+  movement and customer complaints. The full pass prints to PDF.
+- URLs now reflect where you are, so a link to a competitor card can be pasted to a colleague.
 
 ## If something looks wrong
 

@@ -109,6 +109,33 @@ th{text-align:left;background:var(--navy);color:#fff;font-family:var(--fd);font-
 td{padding:8px 10px;border-bottom:1px solid var(--border);vertical-align:top}
 tbody tr:hover{background:#FAFAFD}
 .mx{overflow-x:auto;border:1px solid var(--border);border-radius:10px}
+/* ---- Progressive disclosure. The rep sees the answer; the evidence is one click away.
+   Front-line staff need the important thing at a glance. A SVP of Content needs the
+   policy number. Same data, two reading speeds — so detail collapses rather than
+   getting deleted, and nothing that was researched is thrown away. */
+.dtl{display:none;margin-top:8px;padding:10px 12px;background:var(--wash);border-left:3px solid var(--cer);border-radius:0 6px 6px 0;font-size:.86rem;line-height:1.5}
+.dtl.open{display:block}
+body[data-den="full"] .dtl{display:block}
+body[data-den="full"] .more{display:none}
+.more{background:none;border:0;color:var(--cer);font:inherit;font-size:.74rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;cursor:pointer;padding:2px 0;white-space:nowrap}
+.more:hover{color:var(--navy);text-decoration:underline}
+.more::after{content:" ▸"}
+.more.on::after{content:" ▾"}
+#den{display:flex;align-items:center;gap:0;background:rgba(255,255,255,.14);border-radius:6px;padding:2px;flex:0 0 auto}
+#den button{background:none;border:0;color:rgba(255,255,255,.72);font:inherit;font-size:.7rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:5px 9px;border-radius:4px;cursor:pointer;white-space:nowrap}
+#den button.on{background:#fff;color:var(--navy)}
+.oneline{font-size:.88rem;line-height:1.45}
+/* Ranked list — By product. A grid of boxes makes you hunt; a list you read top to bottom. */
+.rank{border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#fff}
+.rank button{display:grid;grid-template-columns:minmax(140px,1.1fr) 150px minmax(180px,2fr) 18px;gap:12px;align-items:baseline;width:100%;text-align:left;background:none;border:0;border-bottom:1px solid var(--border);padding:11px 14px;font:inherit;cursor:pointer;transition:.1s}
+.rank button:last-child{border-bottom:0}
+.rank button:hover{background:var(--wash)}
+.rank .rn{font-family:var(--fd);font-weight:700;color:var(--navy);font-size:.94rem}
+.rank .rv{font-size:.85rem;color:var(--ink)}
+.rank .rx{color:var(--cer);font-weight:700;text-align:right}
+.rank .rc{font-size:.78rem;color:var(--muted);display:block;font-weight:400;font-family:var(--fb)}
+@media(max-width:760px){.rank button{grid-template-columns:1fr auto;gap:4px}.rank .rv{grid-column:1/-1}.rank .rx{display:none}}
+
 .mx th:first-child,.mx td:first-child{position:sticky;left:0;background:#fff;z-index:4;border-right:1px solid var(--border);min-width:230px}
 .mx th:first-child{background:var(--navy);z-index:6}
 .mx td.gh{background:#F2FBFE;font-weight:700}
@@ -234,6 +261,10 @@ details.deep>div{padding:0 16px 16px}
     <div class="nm">Competitive Intelligence</div>
     <input id="omni" type="search" placeholder="Search a competitor, a product, or something a buyer said…" autocomplete="off" aria-label="Search">
     <nav id="nav"></nav>
+    <div id="den" role="group" aria-label="Detail level">
+      <button data-d="quick" class="on" onclick="den('quick')" title="What you need on a call. Detail is one click away on any item.">Quick</button>
+      <button data-d="full" onclick="den('full')" title="Everything expanded — sources, policy numbers, stated limits. For validating a claim.">Full detail</button>
+    </div>
     <button id="askbtn" onclick="openAsk()" title="Ask a question, report something wrong, or request a competitor">Ask / report</button>
   </div>
 </header>
@@ -325,6 +356,18 @@ const progsOf=f=>(f.programs||[]).map(id=>PROG[id]).filter(Boolean);
 const GHCTX=D.ghContext||{};
 /* A partner warning attaches by company and parent, not by a hand-kept list of ids —
    so a new Yardi or Entrata product inherits it the day it is added. */
+function firstSent(t,n){
+  t=String(t||'').trim(); if(!t)return '';
+  const m=t.match(/^[^.!?]*[.!?]/);
+  let out=(m?m[0]:t).trim();
+  if(out.length>n)out=out.slice(0,n-1).replace(/\s+\S*$/,'')+'…';
+  return out;
+}
+function srcLinks(u,label){
+  if(!u)return '';
+  return String(u).split('·').map(x=>x.trim()).filter(Boolean).slice(0,3)
+    .slice(0,1).map(x=>`<a class="src" href="${esc(x)}" target="_blank" rel="noopener">${esc(label||'source')} ↗</a>`).join('');
+}
 function partnerOf(c){
   const hay=((c.name||'')+' | '+(c.parent||'')+' | '+((c.aka||[]).join(' '))).toLowerCase();
   return (PARTNERS.companies||[]).find(x=>(x.match||[]).some(m=>hay.includes(m)))||null;
@@ -427,15 +470,61 @@ const byId=Object.fromEntries(C.map(c=>[c.id,c]));
 
 const TABS=[['start','Start here'],['home','Competitors'],['explore','Explore'],['news','What’s new']];
 function nav(){const n=$('#nav');TABS.forEach(([id,l])=>{const b=document.createElement('button');b.textContent=l;b.dataset.t=id;b.onclick=()=>go(id);n.appendChild(b)})}
-function go(v,arg){
+/* Views are pushed onto browser history. Without this, Back left the app entirely and
+   landed on the Access sign-in — because the only history entry behind the app WAS the
+   login. A rep who taps Back on a competitor card expects the list they came from. */
+function go(v,arg,fromPop){
   $$('.view').forEach(x=>x.style.display='none');
-  $('#v-'+v).style.display='block';
+  const el=$('#v-'+v); if(!el){return go('start')}
+  el.style.display='block';
   $$('#nav button').forEach(b=>b.classList.toggle('on',b.dataset.t===v));
   if(v==='home')renderHome();
   if(v==='competitor')renderCompetitor(arg);
   if(v==='gh')renderGH(arg);
   if(v==='explore')renderExplore(arg);
   window.scrollTo(0,0);
+  if(!fromPop){
+    const h='#'+v+(arg?'/'+encodeURIComponent(arg):'');
+    try{ if(location.hash!==h) history.pushState({v:v,arg:arg},'',h); }catch(e){}
+  }
+}
+window.addEventListener('popstate',e=>{
+  const st=e.state;
+  if(st&&st.v){go(st.v,st.arg,true);return}
+  const r=route(); go(r.v,r.arg,true);
+});
+function route(){
+  const h=(location.hash||'').replace(/^#/,'');
+  if(!h)return {v:'start'};
+  const [v,a]=h.split('/');
+  const ok=['start','home','explore','news','competitor','gh'];
+  if(!ok.includes(v))return {v:'start'};
+  return {v:v,arg:a?decodeURIComponent(a):undefined};
+}
+
+/* Detail level. Quick is the default because the audience is front-line and on a call. */
+let DEN='quick';
+function den(d){
+  DEN=d; document.body.dataset.den=d;
+  $$('#den button').forEach(b=>b.classList.toggle('on',b.dataset.d===d));
+  if(d==='quick')$$('.dtl.open').forEach(x=>x.classList.remove('open'));
+  $$('.more.on').forEach(x=>x.classList.remove('on'));
+  try{localStorage.setItem('ci-den',d)}catch(e){}
+}
+function more(btn){
+  /* The button and its detail block are not always siblings — in the Us vs them table the
+     button sits inside a source line and the block is next to that line. So walk up until
+     a following sibling is the .dtl, rather than assuming a fixed shape. */
+  let node=btn, t=null;
+  while(node&&node!==document.body&&!t){
+    let q=node.nextElementSibling;
+    while(q&&!t){ if(q.classList&&q.classList.contains('dtl'))t=q; q=q.nextElementSibling; }
+    node=node.parentElement;
+  }
+  if(!t)return;
+  const open=t.classList.toggle('open');
+  btn.classList.toggle('on',open);
+  btn.textContent=open?(btn.dataset.less||'Less'):(btn.dataset.more||'Detail');
 }
 
 /* ---------- SEARCH ---------- */
@@ -708,54 +797,87 @@ function renderCompetitor(id){
         return `<tr class="${same||unk?'rowsame':''}"><td><strong>${esc((FEAT[k]||{}).label||k)}</strong></td>
         <td><span class="chip ${supC(g.support)}">${esc(g.support)}</span></td>
         <td><span class="chip ${supC(f.support)}">${esc(f.support)}</span></td>
-        <td>${g.approvedWording?`<div style="margin-bottom:4px"><strong>Say it this way:</strong> <em>${esc(g.approvedWording)}</em></div>`:''}${g.note?`<div><strong>Us:</strong> ${esc(g.note)}</div>`:''}${g.doNotSay?`<div style="margin-top:3px;color:var(--red)"><strong>Do not say:</strong> ${esc(g.doNotSay)}</div>`:''}${g.statedLimit?`<div class="src" style="margin-top:3px"><strong>Limit we state:</strong> ${esc(g.statedLimit)}</div>`:''}${f.note?`<div style="margin-top:3px"><strong>Them:</strong> ${esc(f.note)}${f.source?` <a class="src" href="${esc(f.source)}" target="_blank" rel="noopener">↗</a>`:''}</div>`:''}</td></tr>`}).join('')}</tbody></table>
+        <td>${(()=>{
+          /* At a glance first: the one line a rep says, or the first sentence of the claim.
+             Everything else — full note, policy numbers, stated limits — behind Detail.
+             The source link stays visible at all times: pointing at the source is the
+             job, quoting the documentation at length is not. */
+          const lead=g.approvedWording||firstSent(g.note,120);
+          const deep=[
+            g.note&&g.note!==lead?`<div><strong>Us, in full:</strong> ${esc(g.note)}</div>`:'',
+            g.statedLimit?`<div style="margin-top:6px"><strong>Limit we state:</strong> ${esc(g.statedLimit)}</div>`:'',
+            g.proof?`<div class="src" style="margin-top:6px">${esc(g.proof)}</div>`:'',
+            f.note?`<div style="margin-top:6px"><strong>Them, in full:</strong> ${esc(f.note)}</div>`:''
+          ].filter(Boolean).join('');
+          return `${lead?`<div class="oneline">${g.approvedWording?'<strong>Say:</strong> ':''}${esc(lead)}</div>`:''}
+          ${g.doNotSay?`<div class="oneline" style="margin-top:3px;color:var(--red)"><strong>Do not say:</strong> ${esc(firstSent(g.doNotSay,110))}</div>`:''}
+          <div class="src" style="margin-top:4px">${srcLinks(g.source,'our source')}${f.source?` · <a class="src" href="${esc(f.source)}" target="_blank" rel="noopener">their source ↗</a>`:''}
+            ${deep?` · <button class="more" data-more="Detail" data-less="Less" onclick="more(this)">Detail</button>`:''}</div>
+          ${deep?`<div class="dtl">${deep}</div>`:''}`})()}</td></tr>`}).join('')}</tbody></table>
   </div>`:''}
 
   <div class="pane" data-p="them" data-title="About them">
     ${DEEP[c.id]?(()=>{const d=DEEP[c.id];return `<div class="card" style="margin-bottom:14px;border-left:4px solid var(--cer)">
       <div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:10px">
-        <h4 style="margin:0">Deep research · ${esc(d.retrieved)}</h4>
-        <span class="chip ${d.confidenceOverall==='high'?'c-hi':d.confidenceOverall==='low'?'c-lo':'c-med'}">${esc(d.confidenceOverall)} confidence</span></div>
+        <h4 style="margin:0">What the research found</h4>
+        <span class="chip ${d.confidenceOverall==='high'?'c-hi':d.confidenceOverall==='low'?'c-lo':'c-med'}">${esc(d.confidenceOverall)} confidence · ${esc(d.retrieved)}</span></div>
       <hr class="rule">
-      <p class="src" style="margin:0 0 10px">Seven public source classes, run to a fixed protocol so records stay comparable. This is <strong>evidence, not approved copy</strong> — a person promotes facts from it into the record above.</p>
-      ${has(d.highValueFinds)?`<div style="margin-bottom:12px"><strong>What the deep pass found</strong>
-        <ul class="tight" style="margin-top:4px">${d.highValueFinds.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div>`:''}
-      ${d.methodology?`<div style="margin-bottom:12px"><strong>Their methodology, as they describe it</strong>
-        <p style="margin:4px 0 0;font-size:.9rem">${esc(d.methodology.what)}</p>
-        <p style="margin:6px 0 0;font-size:.88rem"><span class="lbl src" style="font-weight:700;text-transform:uppercase;letter-spacing:.07em">Scale</span> ${esc(d.methodology.scale)}</p>
-        <p style="margin:4px 0 0;font-size:.88rem"><span class="lbl src" style="font-weight:700;text-transform:uppercase;letter-spacing:.07em">Refresh</span> ${esc(d.methodology.refresh)}</p>
-        ${d.methodology.editorialNote?`<div class="neg" style="margin-top:7px">${esc(d.methodology.editorialNote)}</div>`:''}
-        ${d.methodology.url?`<p class="src" style="margin:5px 0 0"><a href="${esc(d.methodology.url)}" target="_blank" rel="noopener">source ↗</a></p>`:''}</div>`:''}
-      ${has(d.roadmapSignals)?`<div style="margin-bottom:12px"><strong>Where they are heading</strong>
-        <p class="src" style="margin:2px 0 4px">Inference from public signals, not a stated plan.</p>
-        <ul class="tight" style="margin:0">${d.roadmapSignals.map(s=>`<li>${esc(s.signal)} — <span class="src">${esc(s.evidence)}</span>${s.url?` <a class="src" href="${esc(s.url)}" target="_blank" rel="noopener">↗</a>`:''}</li>`).join('')}</ul></div>`:''}
-      ${has(d.changedOverTime)?`<div style="margin-bottom:12px"><strong>What changed on their side</strong>
-        <ul class="tight" style="margin-top:4px">${d.changedOverTime.map(x=>`<li>${esc(x.what)} <span class="src">(${esc(x.when)})</span>${x.url?` <a class="src" href="${esc(x.url)}" target="_blank" rel="noopener">↗</a>`:''}</li>`).join('')}</ul></div>`:''}
-      ${has(d.statedLimitations)?`<div style="margin-bottom:12px"><strong>Limits they state themselves</strong>
-        <p class="src" style="margin:2px 0 4px">Safest ground there is — it is their own wording.</p>
-        <ul class="tight" style="margin:0">${d.statedLimitations.map(x=>`<li>${esc(x.limitation)}${x.url?` <a class="src" href="${esc(x.url)}" target="_blank" rel="noopener">↗</a>`:''}</li>`).join('')}</ul></div>`:''}
+      ${has(d.highValueFinds)?`<ul class="tight" style="margin:0 0 12px">${d.highValueFinds.slice(0,5).map(x=>`<li>${esc(x)}</li>`).join('')}</ul>
+        ${d.highValueFinds.length>5?`<p class="src" style="margin:-8px 0 12px">${d.highValueFinds.length-5} more in the full report.</p>`:''}`:''}
+
+      ${has(d.changedOverTime)?`<div style="margin-bottom:12px"><strong>What changed recently</strong>
+        <ul class="tight" style="margin-top:4px">${d.changedOverTime.slice(0,4).map(x=>`<li>${esc(x.what)} <span class="src">(${esc(x.when)})</span>${x.url?` <a class="src" href="${esc(x.url)}" target="_blank" rel="noopener">↗</a>`:''}</li>`).join('')}</ul></div>`:''}
+
       ${has(d.reviewThemes)?`<div style="margin-bottom:12px"><strong>What their customers say</strong>
         ${d.reviewThemesCaveat?`<p class="src" style="margin:2px 0 4px">${esc(d.reviewThemesCaveat)}</p>`:''}
-        <ul class="tight" style="margin:0">${d.reviewThemes.map(x=>`<li><span class="chip ${x.frequency==='recurring'?'c-med':'c-unk'}">${esc(x.frequency)}</span> ${esc(x.theme)} <span class="src">(${esc(x.source)}${x.dates?', '+esc(x.dates):''})</span></li>`).join('')}</ul></div>`:''}
-      ${has(d.sourcesNotFound)?`<div style="margin-bottom:6px"><strong>What we could not find</strong>
-        <p class="src" style="margin:2px 0 4px">Named on purpose. A silent gap reads as full coverage, and absence of public evidence is not evidence of absence — never turn one of these into a No.</p>
-        <ul class="tight" style="margin:0;font-size:.88rem">${d.sourcesNotFound.map(x=>`<li class="src">${esc(x)}</li>`).join('')}</ul></div>`:''}
-      ${has(d.analystActions)?`<div class="pt" style="margin-top:10px"><strong>Open for review</strong>
-        <ul class="tight" style="margin:4px 0 0">${d.analystActions.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div>`:''}
+        <ul class="tight" style="margin:0">${d.reviewThemes.slice(0,4).map(x=>`<li><span class="chip ${x.frequency==='recurring'?'c-med':'c-unk'}">${esc(x.frequency)}</span> ${esc(x.theme)} <span class="src">(${esc(x.source)}${x.dates?', '+esc(x.dates):''})</span></li>`).join('')}</ul></div>`:''}
+
+      <div class="src" style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:4px">
+        <button class="more" data-more="Methodology, direction, and what we couldn't find" data-less="Hide that" onclick="more(this)">Methodology, direction, and what we couldn't find</button>
+      </div>
+      <div class="dtl">
+        ${d.methodology?`<div style="margin-bottom:10px"><strong>Their methodology, as they describe it</strong>
+          <div style="margin-top:3px">${esc(d.methodology.what)}</div>
+          <div class="src" style="margin-top:4px">Scale: ${esc(d.methodology.scale)} · Refresh: ${esc(d.methodology.refresh)}</div>
+          ${d.methodology.editorialNote?`<div class="neg" style="margin-top:6px">${esc(d.methodology.editorialNote)}</div>`:''}
+          ${d.methodology.url?`<div class="src" style="margin-top:4px"><a href="${esc(d.methodology.url)}" target="_blank" rel="noopener">source ↗</a></div>`:''}</div>`:''}
+        ${has(d.roadmapSignals)?`<div style="margin-bottom:10px"><strong>Where they are heading</strong>
+          <span class="src">— inference from public signals, not a stated plan</span>
+          <ul class="tight" style="margin:3px 0 0">${d.roadmapSignals.map(x=>`<li>${esc(x.signal)} — <span class="src">${esc(x.evidence)}</span>${x.url?` <a class="src" href="${esc(x.url)}" target="_blank" rel="noopener">↗</a>`:''}</li>`).join('')}</ul></div>`:''}
+        ${has(d.statedLimitations)?`<div style="margin-bottom:10px"><strong>Limits they state themselves</strong>
+          <span class="src">— safest ground there is, it is their own wording</span>
+          <ul class="tight" style="margin:3px 0 0">${d.statedLimitations.map(x=>`<li>${esc(x.limitation)}${x.url?` <a class="src" href="${esc(x.url)}" target="_blank" rel="noopener">↗</a>`:''}</li>`).join('')}</ul></div>`:''}
+        ${has(d.sourcesNotFound)?`<div style="margin-bottom:10px"><strong>What we could not find</strong>
+          <span class="src">— absence of public evidence is not evidence of absence. Never turn one of these into a No.</span>
+          <ul class="tight src" style="margin:3px 0 0">${d.sourcesNotFound.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div>`:''}
+        ${has(d.analystActions)?`<div class="pt"><strong>Open for review</strong>
+          <ul class="tight" style="margin:3px 0 0">${d.analystActions.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div>`:''}
+      </div>
+      <div class="noprint" style="margin-top:12px;display:flex;gap:10px;flex-wrap:wrap;align-items:center">
+        <button class="btn ghost" onclick="downloadResearch('${c.id}')">Download the full report</button>
+        <span class="src">Everything the research pass found, formatted to print or save as PDF. This is <strong>evidence, not approved copy</strong> — a person promotes facts from it into the record above.</span>
+      </div>
     </div>`})():''}
-    ${has(c.objections)&&c.objections.length>1?`<div class="card noprint" style="margin-bottom:14px"><h4>All objections</h4><hr class="rule">${
+    ${has(c.objections)&&c.objections.length>1?`<div class="card noprint" style="margin-bottom:14px"><h4>All objections <span class="src">(${c.objections.length})</span></h4><hr class="rule">
+      <button class="more" data-more="Show them" data-less="Hide" onclick="more(this)">Show them</button><div class="dtl">${
       c.objections.map(o=>`<div style="margin-bottom:10px"><div style="font-weight:700;color:var(--navy)">${dq(o.objection)}</div>
-        <div class="pt" style="margin-top:5px">${esc(o.response||'No approved response — escalate rather than improvise.')}</div></div>`).join('')}</div>`:''}
-    ${has(c.whyWeWin)&&c.whyWeWin.length>4?`<div class="card noprint" style="margin-bottom:14px"><h4>Everything we can claim</h4><hr class="rule"><ul class="tight win">${c.whyWeWin.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div>`:''}
-    ${has(c.askThis)&&c.askThis.length>3?`<div class="card noprint" style="margin-bottom:14px"><h4>Full question bank</h4><hr class="rule"><ul class="tight ask">${c.askThis.map(a=>`<li>${dq(a)}</li>`).join('')}</ul></div>`:''}
-    ${has(c.doNotSay)&&c.doNotSay.length>2?`<div class="card noprint" style="margin-bottom:14px;border-top:3px solid var(--red)"><h4>Every caution</h4><hr class="rule">${c.doNotSay.map(d=>`<div class="neg">${esc(d)}</div>`).join('')}</div>`:''}
+        <div class="pt" style="margin-top:5px">${esc(o.response||'No approved response — escalate rather than improvise.')}</div></div>`).join('')}</div></div>`:''}
+    ${has(c.whyWeWin)&&c.whyWeWin.length>4?`<div class="card noprint" style="margin-bottom:14px"><h4>Everything we can claim <span class="src">(${c.whyWeWin.length})</span></h4><hr class="rule">
+      <button class="more" data-more="Show all" data-less="Hide" onclick="more(this)">Show all</button><div class="dtl"><ul class="tight win" style="margin:0">${c.whyWeWin.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div></div>`:''}
+    ${has(c.askThis)&&c.askThis.length>3?`<div class="card noprint" style="margin-bottom:14px"><h4>Full question bank <span class="src">(${c.askThis.length})</span></h4><hr class="rule">
+      <button class="more" data-more="Show all" data-less="Hide" onclick="more(this)">Show all</button><div class="dtl"><ul class="tight ask" style="margin:0">${c.askThis.map(a=>`<li>${dq(a)}</li>`).join('')}</ul></div></div>`:''}
+    ${has(c.doNotSay)&&c.doNotSay.length>2?`<div class="card noprint" style="margin-bottom:14px;border-top:3px solid var(--red)"><h4>Every caution <span class="src">(${c.doNotSay.length})</span></h4><hr class="rule">
+      <div class="neg">${esc(c.doNotSay[0])}</div>
+      ${c.doNotSay.length>1?`<button class="more" data-more="The other "+(c.doNotSay.length-1)" data-less="Hide" onclick="more(this)">The other ${c.doNotSay.length-1}</button><div class="dtl">${c.doNotSay.slice(1).map(d=>`<div class="neg">${esc(d)}</div>`).join('')}</div>`:''}</div>`:''}
     ${val(c.positioning)?`<div class="card" style="margin-bottom:14px"><h4>How they position themselves</h4><hr class="rule"><p style="margin:0">${esc(c.positioning.value)}</p></div>`:''}
-    <div class="grid g2">
-      <div class="card"><h4>Their real strengths</h4><hr class="rule">${
-        has(c.strengths)?`<ul class="tight">${c.strengths.map(x=>`<li>${esc(x.text)}${x.source?` <a class="src" href="${esc(x.source)}" target="_blank" rel="noopener">↗</a>`:''}</li>`).join('')}</ul>`:'<p class="src">None recorded.</p>'}</div>
-      <div class="card"><h4>Gaps and limits</h4><hr class="rule">${
-        has(c.gaps)?`<ul class="tight">${c.gaps.map(g=>`<li>${esc(g.text)}${g.source?` <a class="src" href="${esc(g.source)}" target="_blank" rel="noopener">↗</a>`:''}</li>`).join('')}</ul>`:'<p class="src">None recorded.</p>'}</div>
-    </div>
+    ${(()=>{const li=(x)=>`<li>${esc(x.text)}${x.source?` <a class="src" href="${esc(x.source)}" target="_blank" rel="noopener">↗</a>`:''}</li>`;
+      const half=(t,arr)=>{ if(!has(arr))return `<div class="card"><h4>${t}</h4><hr class="rule"><p class="src">None recorded.</p></div>`;
+        const top=arr.slice(0,4), rest=arr.slice(4);
+        return `<div class="card"><h4>${t} <span class="src">(${arr.length})</span></h4><hr class="rule">
+          <ul class="tight" style="margin:0">${top.map(li).join('')}</ul>
+          ${rest.length?`<button class="more" data-more="${rest.length} more" data-less="Fewer" onclick="more(this)">${rest.length} more</button>
+            <div class="dtl"><ul class="tight" style="margin:0">${rest.map(li).join('')}</ul></div>`:''}</div>`};
+      return `<div class="grid g2">${half('Their real strengths',c.strengths)}${half('Gaps and limits',c.gaps)}</div>`})()}
     ${(()=>{const sn=Object.entries(c.snapshot||{}).filter(([,o])=>val(o));
       return (sn.length||val(c.pricing))?`<div class="card" style="margin-top:14px"><h4>Snapshot</h4><hr class="rule"><table><tbody>${
       sn.map(([k,o])=>`<tr><td style="width:120px;color:var(--muted);text-transform:capitalize">${esc(k)}</td><td>${esc(o.value)}${o.source?` <a class="src" href="${esc(o.source)}" target="_blank" rel="noopener">↗</a>`:''}</td></tr>`).join('')}
@@ -919,6 +1041,44 @@ function downloadCard(id,type){
   window.addEventListener('afterprint',done);
   window.print();
   setTimeout(done,3000);
+}
+/* The research does not disappear, it moves. A rep gets the three things that change a
+   conversation; anyone validating a claim prints the whole pass. Same print pipeline the
+   battlecards use, so there is one way to get paper out of this app rather than two. */
+function downloadResearch(id){
+  const c=byId[id], d=DEEP[id]; if(!c||!d)return;
+  const L=(t,arr,fn)=>has(arr)?`<h3>${esc(t)}</h3><ul>${arr.map(fn).join('')}</ul>`:'';
+  $('#cardview').innerHTML=`<div class="bc"><div class="pg" style="padding:0">
+    <div style="border-bottom:3px solid #262262;padding-bottom:8px;margin-bottom:12px">
+      <div style="font-family:var(--fd);font-size:1.5rem;font-weight:800;color:#262262">${esc(c.name)} — full research report</div>
+      <div style="font-size:.78rem;color:#666;margin-top:3px">Retrieved ${esc(d.retrieved)} · ${esc(d.confidenceOverall)} confidence overall · Grace Hill Competitive Intelligence · ${esc(D.built)}</div>
+    </div>
+    <div style="border-left:3px solid #FF0000;padding:6px 10px;margin-bottom:14px;font-size:.82rem;background:#faf7f7">
+      <strong>Evidence, not approved copy.</strong> Facts here are cited and checkable. Anything that characterizes
+      how good or bad this competitor is has to be approved by product marketing before it is said to a buyer.
+      Internal use only — do not forward outside Grace Hill.
+    </div>
+    ${L('What the research found', d.highValueFinds, x=>`<li>${esc(x)}</li>`)}
+    ${d.methodology?`<h3>Their methodology, as they describe it</h3>
+      <p>${esc(d.methodology.what)}</p>
+      <p style="font-size:.85rem;color:#555">Scale: ${esc(d.methodology.scale)}<br>Refresh: ${esc(d.methodology.refresh)}
+      ${d.methodology.url?`<br>Source: ${esc(d.methodology.url)}`:''}</p>
+      ${d.methodology.editorialNote?`<p style="font-size:.85rem"><em>${esc(d.methodology.editorialNote)}</em></p>`:''}`:''}
+    ${L('What changed recently', d.changedOverTime, x=>`<li>${esc(x.what)} <span style="color:#666">(${esc(x.when)})</span>${x.url?`<br><span style="font-size:.76rem;color:#666">${esc(x.url)}</span>`:''}</li>`)}
+    ${L('Where they are heading — inference from public signals, not a stated plan', d.roadmapSignals, x=>`<li>${esc(x.signal)} — <span style="color:#555">${esc(x.evidence)}</span>${x.url?`<br><span style="font-size:.76rem;color:#666">${esc(x.url)}</span>`:''}</li>`)}
+    ${L('Limits they state themselves', d.statedLimitations, x=>`<li>${esc(x.limitation)}${x.url?`<br><span style="font-size:.76rem;color:#666">${esc(x.url)}</span>`:''}</li>`)}
+    ${has(d.reviewThemes)?`<h3>What their customers say</h3>
+      ${d.reviewThemesCaveat?`<p style="font-size:.82rem;color:#555"><em>${esc(d.reviewThemesCaveat)}</em></p>`:''}
+      <ul>${d.reviewThemes.map(x=>`<li><strong>${esc(x.frequency)}</strong> — ${esc(x.theme)} <span style="color:#666">(${esc(x.source)}${x.dates?', '+esc(x.dates):''})</span></li>`).join('')}</ul>`:''}
+    ${L('What we could not find', d.sourcesNotFound, x=>`<li>${esc(x)}</li>`)}
+    ${has(d.sourcesNotFound)?`<p style="font-size:.82rem;color:#555"><em>Named on purpose. A silent gap reads as full coverage, and absence of public evidence is not evidence of absence — never turn one of these into a No.</em></p>`:''}
+    ${L('Open for review', d.analystActions, x=>`<li>${esc(x)}</li>`)}
+    ${has(d.facts)?`<h3>Every fact, with its citation</h3><ul style="font-size:.82rem">${d.facts.map(f=>`<li><strong>${esc(f.area||'')}</strong> — ${esc(f.fact)}${f.date?` <span style="color:#666">(${esc(f.date)})</span>`:''}${f.url?`<br><span style="font-size:.74rem;color:#666">${esc(f.url)}</span>`:''}</li>`).join('')}</ul>`:''}
+  </div></div>`;
+  document.body.classList.add('printing');
+  const done=()=>{document.body.classList.remove('printing');window.removeEventListener('afterprint',done)};
+  window.addEventListener('afterprint',done);
+  window.print(); setTimeout(done,3000);
 }
 function pane(k,btn){$$('#v-competitor .pane').forEach(p=>p.classList.toggle('on',p.dataset.p===k));
   $$('#v-competitor .tabs button').forEach(b=>b.classList.toggle('on',b===btn))}
@@ -1212,25 +1372,28 @@ function personaHTML(){
         <h3>${esc(p.title)}</h3>
         ${p.caresAbout?`<span class="src">${esc(clean(p.caresAbout))}</span>`:''}</div>
       <hr class="rule">
-      <div class="grid g2">
-        <div>
-          ${has(p.goals)?`<div style="margin-bottom:10px"><h4>What they are trying to do</h4>${ul(p.goals.slice(0,4).map(clean))}</div>`:''}
-          ${has(p.metrics)?`<div><h4>Measured on</h4><div class="chips" style="margin-top:5px">${p.metrics.slice(0,5).map(m=>`<span class="chip c-cat">${esc(clean(m))}</span>`).join('')}</div></div>`:''}
+      ${p.elevatorPitch?`<div class="pt" style="margin-bottom:10px"><strong>Say this to them:</strong> ${esc(p.elevatorPitch)}</div>`:''}
+      ${has(p.metrics)?`<div style="margin-bottom:8px"><h4>Measured on</h4><div class="chips" style="margin-top:5px">${p.metrics.slice(0,4).map(m=>`<span class="chip c-cat">${esc(clean(m))}</span>`).join('')}</div></div>`:''}
+      ${(has(p.goals)||has(p.challenges)||has(p.objections)||prods.length)?`
+      <button class="more" data-more="What they want, what's in their way, what they push back with" data-less="Less" onclick="more(this)">What they want, what's in their way, what they push back with</button>
+      <div class="dtl">
+        <div class="grid g2">
+          <div>
+            ${has(p.goals)?`<div style="margin-bottom:10px"><h4>What they are trying to do</h4>${ul(p.goals.slice(0,4).map(clean))}</div>`:''}
+            ${prods.length?`<div><h4>What they buy first</h4>
+              <div class="chips" style="margin-top:5px">${prods.map(x=>`<span class="chip c-gh">${esc(x)}</span>`).join('')}</div></div>`:''}
+          </div>
+          <div>
+            ${has(p.challenges)?`<div style="margin-bottom:10px"><h4>What is in their way</h4>${ul(p.challenges.slice(0,4).map(clean))}</div>`:''}
+            ${has(p.objections)?`<div><h4>What they push back with</h4>${ul(p.objections.slice(0,3).map(clean))}</div>`:''}
+          </div>
         </div>
-        <div>
-          ${has(p.challenges)?`<div style="margin-bottom:10px"><h4>What is in their way</h4>${ul(p.challenges.slice(0,4).map(clean))}</div>`:''}
-          ${has(p.objections)?`<div><h4>What they push back with</h4>${ul(p.objections.slice(0,3).map(clean))}</div>`:''}
-        </div>
-      </div>
-      ${prods.length?`<div style="margin-top:12px"><h4>What they buy first</h4>
-        <div class="chips" style="margin-top:5px">${prods.map(x=>`<span class="chip c-gh">${esc(x)}</span>`).join('')}</div></div>`:''}
+        ${p.buyingRole?`<div style="margin-top:10px"><h4>Their role in the decision</h4><div>${esc(p.buyingRole)}</div></div>`:''}
+      </div>`:''}
       ${rivals.length?`<div style="margin-top:12px"><h4>Who you will be compared against</h4>
         <div class="chips" style="margin-top:5px">${rivals.map(r=>r.c
           ?`<span class="chip ${playC(r.c.play)}" style="cursor:pointer;text-transform:none;letter-spacing:.01em" title="${esc(r.c.name)}" onclick="go('competitor','${r.c.id}')"><strong>${esc(cl(r.c.name,38))}</strong> →</span>`
           :`<span class="chip c-unk" style="text-transform:none" title="Named in the persona deck, no record here yet">${esc(cl(r.n,38))}</span>`).join('')}</div></div>`:''}
-      ${p.buyingRole?`<details class="deep" style="margin-top:12px"><summary>Their role in the decision</summary><div>
-        <p style="margin:0;font-size:.9rem">${esc(p.buyingRole)}</p></div></details>`:''}
-      ${p.elevatorPitch?`<div class="pt" style="margin-top:12px"><strong>Say this to them:</strong> ${esc(p.elevatorPitch)}</div>`:''}
     </div>`}).join('')}
   <p class="src" style="margin-top:12px">A gray chip is a competitor the persona deck names that has no record in this database yet. If you meet one, use <strong>Ask / report</strong> so it gets added.</p>`;
 }
@@ -1615,19 +1778,27 @@ function drawMatrix(){
 /* ---------- BY PRODUCT ---------- */
 function productsHTML(){
   const lines=F.lines.map(l=>l.line);
-  return `<p style="color:var(--muted);max-width:62ch;margin:0 0 18px">Who you'll actually meet when you're selling each line. Head-to-head first.</p>
+  const pw={'Head-to-head':0,'Sometimes in the room':1,'Partner':2,'Not our fight':3};
+  return `<p style="color:var(--muted);max-width:62ch;margin:0 0 6px">Who you'll actually meet when you're selling each line. Head-to-head first, then the ones that sometimes show up, then the ones not worth your energy.</p>
+  <p class="src" style="margin:0 0 18px">One line each. Click a row for the full card.</p>
   ${lines.map(l=>{
     const set=C.filter(c=>(c.overlaps||[]).some(o=>o.product===l)||Object.keys(c.features||{}).some(k=>(FEAT[k]||{}).line===l));
     if(!set.length)return '';
-    const pw={'Head-to-head':0,'Sometimes in the room':1,'Partner':2,'Not our fight':3};
     set.sort((a,b)=>(pw[a.play]??9)-(pw[b.play]??9)||a.name.localeCompare(b.name));
-    return `<h2 style="margin-top:26px">${esc(l)}</h2><hr class="rule">
-    <div class="grid g3">${set.slice(0,12).map(c=>`
-      <button class="res" style="margin:0" onclick="go('competitor','${c.id}')">
-        <div style="display:flex;gap:8px;align-items:baseline;flex-wrap:wrap"><span class="t">${esc(c.name)}</span>
-        <span class="chip ${playC(c.play)}">${esc(c.play||'')}</span></div>
-        <div class="s">${esc(c.toolCategory||'')}</div>
-        <div class="v">${esc((c.verdict||{}).line||'')}</div></button>`).join('')}</div>`;
+    const show=set.slice(0,14), rest=set.length-show.length;
+    const n=k=>set.filter(c=>c.play===k).length;
+    const counts=[['Head-to-head',n('Head-to-head')],['Sometimes in the room',n('Sometimes in the room')],['Not our fight',n('Not our fight')],['Partner',n('Partner')]]
+      .filter(([,v])=>v).map(([k,v])=>`${v} ${k.toLowerCase()}`).join(' · ');
+    return `<h2 style="margin-top:26px;margin-bottom:2px">${esc(l)}</h2>
+    <p class="src" style="margin:0 0 8px">${esc(counts)}</p>
+    <div class="rank">${show.map(c=>`
+      <button onclick="go('competitor','${c.id}')" title="${esc(c.name)} — open the full card">
+        <span class="rn">${esc(c.name)}<span class="rc">${esc(c.toolCategory||'')}</span></span>
+        <span><span class="chip ${playC(c.play)}">${esc(c.play||'')}</span></span>
+        <span class="rv">${esc(firstSent((c.verdict||{}).line,165))}</span>
+        <span class="rx">›</span>
+      </button>`).join('')}</div>
+    ${rest>0?`<p class="src" style="margin-top:6px">${rest} more on this line — search by name, or open <strong>Competitors</strong>.</p>`:''}`;
   }).join('')}`;
 }
 
@@ -1653,7 +1824,13 @@ if(askRoute()!=='mail')$('#asksubmit').textContent='Open the request form';
 $('#ask-competitors').innerHTML=C.slice().sort((a,b)=>a.name.localeCompare(b.name)).map(c=>`<option value="${esc(c.name)}">`).join('');
 $('#omni').addEventListener('input',deb(runSearch));
 $('#omni').addEventListener('keydown',e=>{if(e.key==='Escape'){e.target.value='';go('start')}});
-go('start');
+(function boot(){
+  let d='quick'; try{d=localStorage.getItem('ci-den')||'quick'}catch(e){}
+  den(d==='full'?'full':'quick');
+  const r=route();
+  try{history.replaceState({v:r.v,arg:r.arg},'',location.hash||'#'+r.v)}catch(e){}
+  go(r.v,r.arg,true);
+})();
 </script>
 </body>
 </html>
