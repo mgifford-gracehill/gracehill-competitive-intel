@@ -51,9 +51,15 @@ def main():
         print()
 
     # ---- Unanswered feedback. The number that matters most in a beta. -------
-    heard_keys = {e['summary'][:40].lower() for e in by['heard']}
-    answered = {(e.get('because') or '')[:40].lower() for e in by['changed']}
-    open_items = [e for e in by['heard'] if e['summary'][:40].lower() not in answered]
+    # Match loosely: a --because is usually a paraphrase of the heard item, not a copy.
+    # An exact-prefix match reported items as unanswered when they had in fact been fixed,
+    # which is the one number in this report that must not lie.
+    def norm(t): return ' '.join(str(t or '').lower().split())
+    answered = [norm(e.get('because')) for e in by['changed'] if e.get('because')]
+    def is_answered(h):
+        n = norm(h)
+        return any(a and (a[:30] in n or n[:30] in a) for a in answered)
+    open_items = [e for e in by['heard'] if not is_answered(e['summary'])]
     print(f'--- HEARD BUT NOT YET ANSWERED  ({len(open_items)})')
     for e in open_items:
         print(f"  · {e['summary']}" + (f"  — {e['who']}" if e.get('who') else ''))
