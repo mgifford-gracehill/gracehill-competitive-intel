@@ -39,6 +39,16 @@ def main():
     by = collections.defaultdict(list)
     for e in entries: by[e['kind']].append(e)
 
+    # Tier-2 changes were applied without asking. She has to be able to veto them, so they
+    # are pulled out separately rather than buried in the general change list.
+    t2 = [e for e in by['changed'] if str(e.get('tier')) == '2']
+    print(f'--- APPLIED WITHOUT ASKING — she must be able to veto these  ({len(t2)})')
+    for e in t2:
+        print(f"  · {e['summary']}")
+        if e.get('because'): print(f"      answers: {e['because']}")
+    print('  (none this week)' if not t2 else '')
+    print()
+
     for kind, head in (('heard', 'WHAT WE HEARD'), ('changed', 'WHAT WE CHANGED'), ('shipped', 'SHIPPED')):
         print(f'--- {head}  ({len(by[kind])})')
         for e in by[kind]:

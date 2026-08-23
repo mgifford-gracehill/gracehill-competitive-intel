@@ -1,0 +1,79 @@
+{
+  "note": "Who has to approve what. One file so every scheduled task applies the same rule instead of each prompt describing it differently. Read this before queueing anything for a human.",
+  "principle": "The DIRECTION of a change decides who approves it. A change that makes us more cautious is safe to apply and report — the worst case is that we undersold ourselves in the app for a week, and a rep who says less than we could have has not hurt anyone. A change that makes us more confident, or that puts words in a rep's mouth, needs a person. Approval is spent on the changes that can cause harm, not on the changes that are merely edits.",
+  "owner": "VP of Product Marketing",
+  "updated": "2026-08-23",
+  "tiers": {
+    "1_auto_silent": {
+      "label": "Apply it. Do not message anyone.",
+      "why": "A source URL settles these. There is no judgment to exercise, so asking is pure friction. They are recorded in CHANGELOG.jsonl and visible in git, so nothing is invisible — it is just not interrupting.",
+      "covers": [
+        "verifiedOn and lastFullReview date stamps",
+        "adding a source citation to a claim that already exists",
+        "adding or correcting a source URL",
+        "trademark and product-name corrections (PerformanceHQ, Intelligence+, Ask Gracie™, HelloData®, Kingsley Index™)",
+        "US English spelling corrections outside URLs and proper nouns",
+        "removing a word from the banned-jargon list",
+        "a competitor's published price, count, or version list changing, where they publish it",
+        "dated news items with a first-party URL",
+        "deprecated-field and API notes from a vendor's own documentation"
+      ]
+    },
+    "2_auto_reported": {
+      "label": "Apply it, then list it in the Friday note. She reacts only to disagree.",
+      "why": "These all move toward caution. Holding them in a queue means the app keeps saying the riskier thing while it waits — which is backwards. Opt-out, not opt-in.",
+      "covers": [
+        "downgrading a Grace Hill claim (Yes to Partial, Partial to No) on first-party evidence",
+        "adding a statedLimit to a Grace Hill claim",
+        "narrowing the scope of a Grace Hill claim to what the documentation supports",
+        "moving a competitor support value to Unknown when the prior source no longer states it",
+        "retiring a phrase the audit flags as risky, once a safer wording exists",
+        "hedging an absolute statement about a competitor",
+        "removing a Grace Hill customer or prospect name from anywhere, including a URL slug",
+        "adding a doNotSay entry",
+        "splitting one half-right claim into two accurate ones",
+        "fixing a MUST FIX audit finding by removing, hedging, or scoping the offending sentence — the current text is the risk, so waiting to fix it is the worse option",
+        "separating 'Grace Hill maintains the content' from 'the customer keeps the compliance obligation' anywhere the two are blurred"
+      ],
+      "reporting": "Named in the Friday note under a 'changed without asking' line, with the source. A ❌ from her reverts it on the next build.",
+      "note_on_mustfix": "A MUST FIX finding means the sentence currently in the app is the hazard. Queueing it for approval leaves the hazard live for as long as the queue takes, which inverts the purpose of flagging it. So fix it toward caution now and report the fix. The only must-fix that needs a human first is one where the safe version has to be invented rather than trimmed."
+    },
+    "3_needs_approval": {
+      "label": "Queue it. Nothing changes until she reacts ✅.",
+      "why": "Each of these either puts a sentence in a rep's mouth, or makes us more confident than we were. Both can reach a buyer and be wrong.",
+      "covers": [
+        "UPGRADING any claim (No to Partial, Partial to Yes, anything to Yes)",
+        "positioning, whyWeWin, verdict, play, spiced, askThis, objections — any field that decides what a rep says",
+        "approvedWording — the exact sentence a rep reads aloud",
+        "changing a competitor's play or stance (Head-to-head, Sometimes in the room, Not our fight, Partner)",
+        "adding a competitor to the set, or changing a partnership classification",
+        "publishing any price for a competitor",
+        "characterizing a competitor's methodology, accuracy, or intent",
+        "any claim about what Grace Hill is responsible for, contractually or operationally",
+        "any change whose evidence is only an RFP response (rank 5, context only)",
+        "a MUST FIX finding whose only available fix is to WRITE a new positioning claim rather than remove, hedge, or scope an existing one"
+      ],
+      "format": "One decision per Slack message. Was / Now / Why / ✅ keep · ❌ revert. Never prose with nothing to react to.",
+      "cap": "Eight decision messages per task run. Over that, send the eight highest-risk and say how many were held."
+    },
+    "4_legal": {
+      "label": "Separate message, marked for Legal. Default is not-cleared.",
+      "covers": [
+        "contract terms, liability, indemnity",
+        "anything asserting a compliance obligation transfers to Grace Hill",
+        "recording-consent guidance given as instruction rather than a question for counsel",
+        "using a competitor's trademark in a way that implies endorsement"
+      ],
+      "default": "Assume Legal has not approved and err toward less risk. A rep-facing instruction is a hard stop, not carefully hedged wording."
+    }
+  },
+  "never": [
+    "Post to a Slack channel. Her DM only; she forwards.",
+    "Name a Grace Hill customer or prospect, in prose or a URL slug, outside an approved public case study.",
+    "Publish a competitor's price, customer count, headcount or course count unless they publish it.",
+    "Present Unknown as a No.",
+    "Quote Gong verbatim. Patterns and counts only.",
+    "Treat an RFP response as authoritative.",
+    "Send a message that asks for a reaction without saying what changes if she gives one."
+  ]
+}

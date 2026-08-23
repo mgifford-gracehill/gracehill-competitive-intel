@@ -28,11 +28,14 @@ def main():
     ap.add_argument('--via', default='', help='where it arrived: DM, beta channel, form, Gong, audit')
     ap.add_argument('--because', default='', help='the feedback this change answers — links changed back to heard')
     ap.add_argument('--records', default='', help='comma-separated competitor or claim ids touched')
+    ap.add_argument('--tier', default='', choices=['','1','2','3','4'],
+                    help='approval tier from policy.json. 2 = applied without asking, must be '
+                         'reported in the Friday note so she can veto it.')
     ap.add_argument('--date', default='', help='YYYY-MM-DD, defaults to today')
     a = ap.parse_args()
 
     e = {'date': a.date or datetime.date.today().isoformat(), 'kind': a.kind, 'summary': a.summary}
-    for k in ('who', 'via', 'because'):
+    for k in ('who', 'via', 'because', 'tier'):
         if getattr(a, k): e[k] = getattr(a, k)
     if a.records: e['records'] = [x.strip() for x in a.records.split(',') if x.strip()]
 

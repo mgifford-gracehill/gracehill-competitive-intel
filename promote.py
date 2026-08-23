@@ -26,6 +26,61 @@ FACT_FIELDS = {'pricing', 'snapshot', 'news', 'sources', 'health'}
 CLAIM_FIELDS = {'positioning', 'whyWeWin', 'verdict', 'play', 'doNotSay',
                 'strengths', 'gaps', 'objections', 'whenItComesUp', 'spiced', 'askThis'}
 
+# ---------------------------------------------------------------------------
+# Tiering. See policy.json — this is the executable half of it.
+#
+# The fact/claim split was right but too coarse: it sent every claim to a human,
+# including the ones that only ever made us MORE careful. Those were 17 of the last
+# 18 approvals, and holding them in a queue meant the app kept saying the riskier
+# thing while it waited. So direction now decides the tier.
+#
+#   toward caution    -> apply, report it afterwards, she vetoes if she disagrees
+#   toward confidence -> queue it, nothing moves until she says yes
+#
+# The asymmetry is the point. Being too careful for a week costs a soft sell.
+# Being too confident for a week costs a rep their credibility in a live deal.
+SUPPORT_RANK = {'no': 0, 'roadmap': 1, 'unknown': 1, 'partial': 2, 'yes': 3}
+CAUTION_MARKERS = ('statedlimit', 'donotsay', 'limit', 'scope', 'caveat')
+
+
+def direction(was, now):
+    # -1 more cautious, +1 more confident, 0 sideways or unknowable.
+    a = SUPPORT_RANK.get(str(was or '').strip().lower())
+    b = SUPPORT_RANK.get(str(now or '').strip().lower())
+    if a is None or b is None:
+        return 0
+    return (b > a) - (b < a)
+
+
+def tier(field, was=None, now=None, evidence='', op='add'):
+    # Which tier does this change fall into? 1 auto-silent, 2 auto-reported, 3 needs approval.
+    f = str(field or '')
+    base = f.split('[')[0].split('.')[0]
+
+    # RFP-only evidence never auto-applies, whatever the direction. Rank 5, context only.
+    ev = str(evidence or '').lower()
+    if 'rfp' in ev and not any(k in ev for k in ('adminhq', 'ghu', 'catalog.gracehill', 'release note')):
+        return 3
+
+    # Adding a limit or a caution is always safe to apply and report. DELETING one is not —
+    # the field name alone cannot tell those apart, so the operation has to be passed in.
+    if any(m in f.lower() for m in CAUTION_MARKERS):
+        return 2 if op == 'add' else 3
+
+    if base in FACT_FIELDS:
+        return 1
+
+    if base == 'support' or base.endswith('support'):
+        d = direction(was, now)
+        if d < 0:
+            return 2          # downgrade — apply, then report
+        return 3              # upgrade, sideways, or unparseable: a person decides
+
+    if base in CLAIM_FIELDS or base == 'approvedWording':
+        return 3
+
+    return 3                  # anything unrecognised needs a person, by default
+
 
 def load_records():
     raw = json.loads(CPATH.read_text())
