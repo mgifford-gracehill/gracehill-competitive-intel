@@ -57,14 +57,20 @@
       "cap": "Eight decision messages per task run. Over that, send the eight highest-risk and say how many were held."
     },
     "4_legal": {
-      "label": "Separate message, marked for Legal. Default is not-cleared.",
+      "label": "No legal team exists. Do not route anything to Legal — take the lower-risk option and tell her what you avoided.",
       "covers": [
         "contract terms, liability, indemnity",
         "anything asserting a compliance obligation transfers to Grace Hill",
         "recording-consent guidance given as instruction rather than a question for counsel",
         "using a competitor's trademark in a way that implies endorsement"
       ],
-      "default": "Assume Legal has not approved and err toward less risk. A rep-facing instruction is a hard stop, not carefully hedged wording."
+      "default": "Take the lower-risk option and state it plainly. A rep-facing instruction on a legal topic is a hard stop, not carefully hedged wording. Never tell a rep what the law requires — give them the question to ask the buyer's counsel instead. Never assert that a compliance obligation transfers to Grace Hill.",
+      "covers_note": "These topics used to be forwarded to Legal. Grace Hill has no legal team, so a Legal referral is a message that goes nowhere and an item that never resolves. The rule instead: choose the wording that carries the least risk, apply it as Tier 2, and name in one line what the riskier version would have said. She can escalate to outside counsel herself if she judges it worth it — but the app never sits on a hazard waiting for a review that is not coming.",
+      "examples": [
+        "Recording consent: give the rep the question to raise with the buyer's counsel, never guidance on what is lawful.",
+        "Contract terms, liability, indemnity: state that it is outside what the app covers and point to the account team.",
+        "A competitor trademark used in a way that could imply endorsement: rewrite it so it cannot."
+      ]
     }
   },
   "never": [
@@ -74,6 +80,7 @@
     "Present Unknown as a No.",
     "Quote Gong verbatim. Patterns and counts only.",
     "Treat an RFP response as authoritative.",
-    "Send a message that asks for a reaction without saying what changes if she gives one."
+    "Send a message that asks for a reaction without saying what changes if she gives one.",
+    "Route anything to a legal team. There is not one. Choose the lower-risk wording and say what you avoided."
   ]
 }

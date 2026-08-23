@@ -30,3 +30,10 @@
 {"date": "2026-08-21", "kind": "changed", "summary": "By product is a ranked list, one line per competitor, head-to-head first", "because": "By product is too many boxes"}
 {"date": "2026-08-21", "kind": "changed", "summary": "Fixed the Back button — it now returns to the page you came from, and competitor URLs can be shared", "because": "Back button on a competitor card goes to the login page"}
 {"date": "2026-08-21", "kind": "shipped", "summary": "Second build of the day: progressive disclosure pass"}
+{"date": "2026-08-23", "kind": "heard", "summary": "Approving tool and URL access 20-30 times per request costs too much time and attention", "who": "VP of Product Marketing", "via": "DM"}
+{"date": "2026-08-23", "kind": "heard", "summary": "No legal team exists — Legal referrals go nowhere", "who": "VP of Product Marketing", "via": "DM"}
+{"date": "2026-08-23", "kind": "heard", "summary": "Slack DMs to myself do not generate an unread notification, so approvals get missed", "who": "VP of Product Marketing", "via": "DM"}
+{"date": "2026-08-23", "kind": "changed", "summary": "Approval tiers: changes toward caution apply and get reported, changes toward confidence still need her", "because": "Approving tool and URL access 20-30 times per request costs too much time", "tier": "2"}
+{"date": "2026-08-23", "kind": "changed", "summary": "Retired the Legal escalation path — tasks now take the lower-risk wording and say what they avoided", "because": "No legal team exists", "tier": "2"}
+{"date": "2026-08-23", "kind": "changed", "summary": "Moved all task reporting to a private channel so it badges as unread", "because": "Slack DMs to myself do not generate an unread notification", "tier": "1"}
+{"date": "2026-08-23", "kind": "shipped", "summary": "policy.json, permission settings file, #ci-app-updates channel"}
