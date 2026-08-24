@@ -348,10 +348,12 @@ const HEARD=(D.heard||{}).competitors||{}, HEARDMETA=D.heard||{};
 const ROLES=(D.roles||{}).roles||[], SEG=D.segments||{}, PATH=D.pathways||{}, CMTE=D.committee||{}, MSG=D.messages||{};
 const JOBS=(D.jtbd||{}).jobs||[], PARTNERS=D.partners||{}, PALERT=PARTNERS.alerts||{};
 const PROG=Object.fromEntries((PARTNERS.programs||[]).map(p=>[p.id,p]));
-// Posture drives the colour, because the three postures need different behaviour:
-// never-compete is a hard stop, compete-on-the-module is a scoping instruction,
+// Posture describes the RELATIONSHIP, never whether to compete. A company can be a partner
+// on one product and a competitor on another, and several are. 'never-compete' was retired
+// 2026-08-23 because it left reps walking into real deals with nothing to say. What is left
+// is a scoping instruction and a tone instruction,
 // and reason-to-buy is an argument a rep should actively use.
-const POSTC={'never-compete':'c-hi','compete-on-the-module':'c-med','downstream-of-us':'c-lo','reason-to-buy':'c-live'};
+const POSTC={'relationship-sensitive':'c-med','compete-on-the-module':'c-lo','downstream-of-us':'c-lo','reason-to-buy':'c-live'};
 const progsOf=f=>(f.programs||[]).map(id=>PROG[id]).filter(Boolean);
 const GHCTX=D.ghContext||{};
 /* A partner warning attaches by company and parent, not by a hand-kept list of ids —
@@ -403,13 +405,19 @@ function chainHTML(c,compare){
 function partnerBanner(c){
   const f=PFLAG[c.id], a=PALERT[c.id]; let h='';
   if(f){const ps=progsOf(f);
-    h+=`<div class="warn"><div class="wt">⚠ ${esc(f.company)} is a Grace Hill ${ps.length>1?'partner in '+ps.length+' programs':(ps[0]?esc(ps[0].short):'partner')}</div>
-    <div class="wl">${esc(f.line)}</div>
+    const rtb=ps.some(x=>x.posture==='reason-to-buy'), sens=ps.some(x=>x.posture==='relationship-sensitive');
+    h+=`<div class="warn"><div class="wt">${esc(f.company)} is a Grace Hill ${ps.length>1?'partner in '+ps.length+' programs':(ps[0]?esc(ps[0].short):'partner')} — and you still compete</div>
+    <div class="wl" style="font-weight:600">${rtb?'Partner on one line, competitor on another. ':''}Everything below is live: the verdict, the gaps, the questions, the win themes. Partnership is context for what you say about the <em>relationship</em>, not a restriction on the <em>product</em>.${sens?' This one is relationship-sensitive — keep every word factual and sourced, and tell the partnership owner afterwards.':''}</div>
+    <div class="wl" style="margin-top:6px">${esc(f.line)}</div>
     ${ps.length?`<div style="margin-top:8px;display:grid;gap:8px">${ps.map(pr=>`<div style="border-left:3px solid var(--cer);padding-left:9px">
       <div style="font-weight:700;font-size:.9rem">${esc(pr.short)} <span class="chip ${POSTC[pr.posture]||'c-unk'}">${esc((pr.posture||'').replace(/-/g,' '))}</span></div>
-      <div style="font-size:.87rem">${esc(pr.whatItMeans)}</div>
-      <div style="font-size:.87rem;margin-top:3px"><strong>Your move:</strong> ${esc(pr.repMove)}</div>
-      <div style="font-size:.87rem;margin-top:3px"><strong>Watch for:</strong> ${esc(pr.watchFor)}</div></div>`).join('')}</div>`:''}
+      <div style="font-size:.87rem">${esc((PARTNERS.postureMeaning||{})[pr.posture]||pr.whatItMeans)}</div>
+      <button class="more" data-more="Your move · Watch for" data-less="Less" onclick="more(this)">Your move · Watch for</button>
+      <div class="dtl" style="margin-left:0">
+        <div><strong>What it means:</strong> ${esc(pr.whatItMeans)}</div>
+        <div style="margin-top:5px"><strong>Your move:</strong> ${esc(pr.repMove)}</div>
+        <div style="margin-top:5px"><strong>Watch for:</strong> ${esc(pr.watchFor)}</div>
+      </div></div>`).join('')}</div>`:''}
     <div class="wp" style="margin-top:8px">${esc(ps.map(x=>x.name).join(' · '))} · <a href="${esc(PARTNERS.source||'#')}" target="_blank" rel="noopener">gracehill.com/partnerships</a></div></div>`;}
   if(a)h+=`<div class="warn"><div class="wt">⚠ ${esc(a.title)}</div><div class="wl">${esc(a.line)}</div></div>`;
   return h;
@@ -549,8 +557,7 @@ const MC={change:'var(--red)',stay:'var(--navy)',evolve:'var(--dcer)'};
 const PLAYDEFS=[
  ['Head-to-head','You will meet them in a live deal. Know the whole card.'],
  ['Sometimes in the room','A real competitor, but rarely why a deal is won or lost. Know the one-liner.'],
- ['Not our fight','Different job. Never compare — the card shows how to position around it.'],
- ['Partner','Confirm posture with your manager before you position.']];
+ ['Not our fight','Different job. Never compare — the card shows how to position around it.']];
 
 function search(q){
   q=q.trim().toLowerCase(); if(!q)return{direct:[],mentions:[]};

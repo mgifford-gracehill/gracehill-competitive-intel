@@ -46,7 +46,7 @@
         "positioning, whyWeWin, verdict, play, spiced, askThis, objections — any field that decides what a rep says",
         "approvedWording — the exact sentence a rep reads aloud",
         "changing a competitor's play or stance (Head-to-head, Sometimes in the room, Not our fight, Partner)",
-        "adding a competitor to the set, or changing a partnership classification",
+        "adding a competitor to the set, or changing which partnership PROGRAM a company sits in. Note: partnership is context, never a reason to suppress compete information — see partnerRule below.",
         "publishing any price for a competitor",
         "characterizing a competitor's methodology, accuracy, or intent",
         "any claim about what Grace Hill is responsible for, contractually or operationally",
@@ -82,5 +82,6 @@
     "Treat an RFP response as authoritative.",
     "Send a message that asks for a reaction without saying what changes if she gives one.",
     "Route anything to a legal team. There is not one. Choose the lower-risk wording and say what you avoided."
-  ]
+  ],
+  "partnerRule": "Changed 2026-08-23 by the VP of Product Marketing. A company can be a partner on one product and a competitor on another, and several are. Every partner record carries full compete information: verdict, gaps, questions, win themes, the lot. List the partnership TYPE as context. Never let it suppress the competitive read. The old 'never-compete' posture is retired — it left reps walking into real deals with nothing to say. What the partnership still governs: never disparage a partner, never discuss commercial terms, compete on the overlapping product and not on the parent company, and tell the partnership owner after a competitive deal — after, not for permission. Grace Hill companies are a separate category and remain non-competitors: Edge2Learn, Ellis Partners, EPMS, HelloData, Realync, SkillCat, Visto, Kingsley."
 }

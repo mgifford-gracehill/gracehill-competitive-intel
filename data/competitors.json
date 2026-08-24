@@ -6443,9 +6443,9 @@
     "ciCategory": "Partner-Competitor",
     "tier": "Tier 1",
     "verdict": {
-      "stance": "Partner",
-      "line": "EliseAI is a Grace Hill partner that we have co-published research with — treat it as a partner first; the only genuine product overlap is at the edge, in resident sentiment collection.",
-      "doInstead": "Confirm the posture with your manager before you use any competitive language about EliseAI. If a prospect raises them, acknowledge the partnership openly: Grace Hill and EliseAI co-published a September 2025 report analyzing EliseAI's impact on resident NPS using Grace Hill survey data, and EliseAI participates in Grace Hill's partner programs including the Survey Partner Program and the Integration Partner list. Never disparage them. Do not discuss, speculate about or imply anything regarding the commercial terms of the relationship. Where a prospect is evaluating EliseAI's SentimentAI against Grace Hill surveys, stay factual about scope and benchmarking and escalate rather than improvise."
+      "stance": "Partial overlap",
+      "line": "A Grace Hill partner in three programs and a competitor on one product. Their training content ships inside PerformanceHQ and their data flows into ours — both reasons to buy. SentimentAI overlaps our Surveys line, and that part is a deal you compete in like any other.",
+      "doInstead": "Say the partnership out loud first — a prospect running EliseAI will find out anyway, and hearing it from you is worth more than the thirty seconds it costs. Grace Hill and EliseAI co-published a September 2025 report analyzing EliseAI's impact on resident NPS using Grace Hill survey data. Then compete on the one thing that actually overlaps: where a prospect is weighing SentimentAI against Grace Hill Surveys, compete on scope, the benchmark set behind the score, and what happens after the score exists. Stay factual and sourced, never disparage them, and never discuss the commercial terms of the relationship. Tell the partnership owner after the deal, not before — they should not be surprised by something they could have handled."
     },
     "overlaps": [
       {
@@ -6567,10 +6567,10 @@
       }
     ],
     "doNotSay": [
-      "Never disparage EliseAI or characterize their product, service or company negatively.",
+      "Never disparage EliseAI or characterize their product, service or company negatively. Compete on what we do better, sourced — not on what they do badly.",
       "Never state, imply or speculate about any commercial terms of the Grace Hill / EliseAI relationship — revenue share, exclusivity, fees or anything else.",
-      "Do not use competitive battlecard language against EliseAI without explicit manager approval.",
-      "Do not claim EliseAI 'has no' surveys or benchmarking — SentimentAI exists; benchmarking against an external dataset is simply not described publicly."
+      "Do not claim EliseAI 'has no' surveys or benchmarking — SentimentAI exists; benchmarking against an external dataset is simply not described publicly.",
+      "Do not compete on their training content or the integration. Those ship inside our platform and are a reason to buy us, not a thing to argue with."
     ],
     "features": {
       "sv-resident": {
@@ -6737,7 +6737,7 @@
         "ask": "Do you need the survey results to drive training or action planning, or just to be visible?"
       }
     ],
-    "play": "Partner"
+    "play": "Sometimes in the room"
   },
   {
     "id": "eloomi",

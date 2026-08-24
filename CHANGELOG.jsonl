@@ -37,3 +37,6 @@
 {"date": "2026-08-23", "kind": "changed", "summary": "Retired the Legal escalation path — tasks now take the lower-risk wording and say what they avoided", "because": "No legal team exists", "tier": "2"}
 {"date": "2026-08-23", "kind": "changed", "summary": "Moved all task reporting to a private channel so it badges as unread", "because": "Slack DMs to myself do not generate an unread notification", "tier": "1"}
 {"date": "2026-08-23", "kind": "shipped", "summary": "policy.json, permission settings file, #ci-app-updates channel"}
+{"date": "2026-08-24", "kind": "heard", "summary": "Partners listed as non-competitors is wrong — a company can partner on one product and compete on another", "who": "VP of Product Marketing", "via": "DM"}
+{"date": "2026-08-24", "kind": "changed", "summary": "Retired the never-compete partner rule. Every partner record now carries full compete information; the partnership type is listed as context", "because": "Partners listed as non-competitors is wrong", "tier": "3"}
+{"date": "2026-08-24", "kind": "changed", "summary": "EliseAI moved from Partner to Sometimes in the room, with a verdict that names the partnership and the overlap side by side", "because": "Partners listed as non-competitors is wrong", "tier": "3"}
