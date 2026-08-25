@@ -229,6 +229,49 @@ for k, v in GHB.items():
     why = 'never reviewed by the SME' if not reviewed else f'changed {changed}, last SME review {reviewed}'
     D['N_sme_queue'].append((k, v.get('support'), why))
 
+# P. UNSHIPPED CAPABILITY LEAKING TO THE FIELD.  [MUST FIX]
+#
+# Roadmap is context for this system and never reaches a rep. A rep who hears roadmap
+# repeats roadmap, and a prospect who hears roadmap buys on it — and the person holding that
+# risk is the rep in the room, not whoever set the date. So any future-tense capability
+# language in a rep-facing field is a defect, including the softer forms that feel harmless.
+FUTURE = re.compile(r'\b(coming soon|on the roadmap|roadmapped|planned for|slated for|'
+                    r'will (?:be able to|soon|ship|launch|support)|in development|'
+                    r'expected (?:in|by|later)|next (?:quarter|release)|Q[1-4]\s?20\d\d|'
+                    r'due (?:in|by) 20\d\d|shipping (?:in|later))\b', re.I)
+# Naming a roadmap item in order to WARN a rep off it is the control working, not a defect.
+DISCLAIMED = re.compile(r'\b(not shipped|do not (?:promise|demo|repeat)|never promise|'
+                        r'named roadmap item, not shipped|not (?:yet )?available|'
+                        r'no date|nothing supports)\b', re.I)
+for c in C:
+    for path, txt in walk(c):
+        if not any(f in path for f in REP_FACING):
+            continue
+        if any(g in path for g in ('doNotSay', '.avoid', 'reviewNote', 'languageToAvoid')):
+            continue
+        m = FUTURE.search(txt)
+        if not m or DISCLAIMED.search(txt):
+            continue
+        # A quarter label is only a roadmap promise when it sits next to capability language.
+        # "Q2 2026 financial results" is a competitor's earnings, not something a rep would
+        # promise a buyer — and a detector that cries wolf on earnings gets switched off.
+        if re.match(r'^Q[1-4]\s?20\d\d$', m.group(0), re.I) and not re.search(
+                r'\b(ship\w*|launch\w*|availab\w*|deliver\w*|roadmap\w*|planned|introduc\w*|'
+                r'rollout|roll out|general availability|product release\w*|release note\w*)\b', txt, re.I):
+            continue
+        if ok('P_unshipped', c['id'], path, txt):
+            SUPPRESSED.append('P_unshipped'); continue
+        D['P_unshipped'].append((c['id'], path, f'future-tense capability "{m.group(0)}" :: {txt[:80]}'))
+
+for k, v in GHB.items():
+    if not isinstance(v, dict):
+        continue
+    for f in ('lead', 'limitLine', 'lookUp', 'note', 'approvedWording'):
+        txt = v.get(f) or ''
+        m = FUTURE.search(txt)
+        if m and not DISCLAIMED.search(txt):
+            D['P_unshipped'].append((k, f, f'future-tense capability "{m.group(0)}" :: {txt[:80]}'))
+
 # G. Grace Hill claims still resting on marketing pages or internal decks.
 for k,v in GHB.items():
     s=(v.get('source') or '')
@@ -240,8 +283,9 @@ for k,v in GHB.items():
 for k,v in GHB.items():
     if not (v.get('note') or '').strip(): D['H_no_note'].append((k,v.get('support'),''))
 
-order=['K_uncited_authority','M_currency_promise','J_customer_named','C_obligation','D_fear','A_absolute','B_aphorism','I_jargon','F_fairhousing_heavy','G_unsourced_GH','H_no_note','N_sme_queue']
-NAMES={'M_currency_promise':'Promised regulatory currency or a turnaround our policy refuses to promise  [MUST FIX]',
+order=['K_uncited_authority','M_currency_promise','P_unshipped','J_customer_named','C_obligation','D_fear','A_absolute','B_aphorism','I_jargon','F_fairhousing_heavy','G_unsourced_GH','H_no_note','N_sme_queue']
+NAMES={'P_unshipped':'Unshipped capability leaking to the field — no roadmap reaches a rep  [MUST FIX]',
+ 'M_currency_promise':'Promised regulatory currency or a turnaround our policy refuses to promise  [MUST FIX]',
  'K_uncited_authority':'Named a regulator, agency or statute with no citation  [MUST FIX]',
  'J_customer_named':'Grace Hill customer or prospect named  [MUST FIX]',
  'C_obligation':'Grace Hill implying it owns the customer\'s compliance  [MUST FIX]',
@@ -253,7 +297,7 @@ NAMES={'M_currency_promise':'Promised regulatory currency or a turnaround our po
  'G_unsourced_GH':'Grace Hill claim not yet sourced to AdminHQ  [ITERATIVE]',
  'H_no_note':'Yes/Partial/No with no note to hold the nuance  [MUST FIX]',
  'N_sme_queue':'Content claim awaiting SVP of Content sign-off  [SME QUEUE — does not block a build]'}
-MUST=['K_uncited_authority','M_currency_promise','J_customer_named','C_obligation','D_fear','A_absolute','H_no_note']
+MUST=['K_uncited_authority','M_currency_promise','P_unshipped','J_customer_named','C_obligation','D_fear','A_absolute','H_no_note']
 def summary():
     return {k:len(v) for k,v in D.items()}
 def gate():

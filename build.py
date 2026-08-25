@@ -27,6 +27,7 @@ data = {
     'ghContext':   L('gh-context'),
     # Deep-dive evidence, keyed by competitor id. Evidence, not approved copy —
     # the app labels it as such and a person promotes facts via promote.py.
+    'evidence':   json.load(open('data/evidence-hierarchy.json')),
     'conflicts':  json.load(open('data/gh-conflicts.json')),
     'deepdive':    {p.stem: json.load(open(p)) for p in sorted(pathlib.Path('data/deepdive').glob('*.json'))},
     'built':       'August 18, 2026',
@@ -52,8 +53,9 @@ try:
     findings = json.load(open('audit-findings.json'))
     MUST = ['J_customer_named', 'C_obligation', 'D_fear', 'A_absolute', 'H_no_note']
     must_n = sum(len(findings.get(k, [])) for k in MUST)
-    iter_n = sum(len(v) for k, v in findings.items() if k not in MUST)
-    print(f'editorial gate: {must_n} must-fix, {iter_n} iterative  (python3 audit.py for detail)')
+    sme_n = len(findings.get('N_sme_queue', []))
+    iter_n = sum(len(v) for k, v in findings.items() if k not in MUST and k != 'N_sme_queue')
+    print(f'editorial gate: {must_n} must-fix, {iter_n} iterative, {sme_n} awaiting SME  (python3 audit.py for detail)')
     if must_n and os.environ.get('CI_STRICT'):
         raise SystemExit(f'CI_STRICT set and {must_n} must-fix findings remain — see audit-findings.json')
 except FileNotFoundError:

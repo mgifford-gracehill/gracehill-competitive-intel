@@ -1,0 +1,120 @@
+{
+  "note": "How a decision gets made about whether something can be said, and by whom. The source-rank list answered 'which source wins'. This answers the harder question underneath it: what any given piece of evidence is actually good for.",
+  "why": "Rank alone was not enough. A rank-1 policy from 2017 can be stale, and a thing a rep heard in a live deal can be the most current signal in the building while being completely unverified. Those are different problems and one list cannot hold both.",
+  "updated": "2026-08-26",
+  "owner": "VP of Product Marketing",
+
+  "threeAxes": {
+    "_note": "Every piece of evidence gets scored on three independent things. The combination decides what a rep may do with it — not any one of them alone.",
+    "1_authority": "Who is saying it, and do they have standing to know? Our own documented policy has standing about us. A competitor's own documentation has standing about them. Neither has standing about the other.",
+    "2_verification": "Has anyone checked it? Confirmed by two independent sources, stated once by one source, or asserted by nobody checkable.",
+    "3_recency": "When was it true? This is independent of the other two and it is the axis most often forgotten. The Yardi fair housing approval is rank-1 evidence from the state of Texas — and it is from 2017, under a product name that no longer exists."
+  },
+
+  "tiers": [
+    {
+      "tier": "A",
+      "name": "Documented internal policy",
+      "examples": "GHU policies, AdminHQ knowledge library",
+      "authoritativeAbout": "What Grace Hill does, how our processes work, what we commit to and refuse to commit to.",
+      "neverAuthoritativeAbout": "Anything about a competitor. Anything about what the market believes.",
+      "repMayDo": "State it as fact. This is the only tier a rep may present as a Grace Hill capability without further checking.",
+      "label": "SOURCED",
+      "expiry": "Re-verify annually, or immediately when a release note touches the subject.",
+      "trap": "A policy can be internally correct and externally misleading. 'Approved in Texas' is true and becomes false the moment it is summarized as 'state-approved'."
+    },
+    {
+      "tier": "B",
+      "name": "Published first-party, the subject's own",
+      "examples": "A competitor's documentation, help centre, changelog, trust centre, pricing page, catalog.gracehill.com for our own courses",
+      "authoritativeAbout": "What that company says about itself, on the date you read it.",
+      "neverAuthoritativeAbout": "What they actually deliver, or anything they chose not to publish. Absence here is never evidence of absence in the product.",
+      "repMayDo": "Quote it with the date. Ask a question built on it. Never extend it — one named state does not become 'states'.",
+      "label": "SOURCED",
+      "expiry": "Re-check quarterly for Head-to-Head competitors. A published price or count is the fastest-decaying fact we hold.",
+      "trap": "This is where the Yardi error happened. Two true items on adjacent lines got merged into one false claim, and a plausible agency name was supplied to fill the gap."
+    },
+    {
+      "tier": "C",
+      "name": "First-party marketing",
+      "examples": "gracehill.com, a competitor's homepage and campaign pages",
+      "authoritativeAbout": "How a company positions itself and what it wants believed. Genuinely useful for anticipating their pitch.",
+      "neverAuthoritativeAbout": "Capability, scope, scale, or any number.",
+      "repMayDo": "Use it to predict what a competitor will claim in the room. Never repeat a figure from it as fact.",
+      "label": "OUR READ",
+      "expiry": "No expiry — it was never a fact.",
+      "trap": "Marketing copy reads like specification. Our own four conflicting HelloData unit counts are all tier C."
+    },
+    {
+      "tier": "D",
+      "name": "Structured third-party",
+      "examples": "Dated review-site entries with role and company size, public procurement awards, regulator directories, court and filing records",
+      "authoritativeAbout": "That someone independent recorded this, on a date.",
+      "neverAuthoritativeAbout": "Whether it is representative. Two reviews are not a trend.",
+      "repMayDo": "Use a recurring theme with dates and volume as a question, never as a characterization. Never say a competitor's product is bad; ask what the buyer has heard.",
+      "label": "SOURCED, with the evidence base named",
+      "expiry": "Carry the date always. A 2023 complaint about a fixed problem is worse than no complaint.",
+      "trap": "Volume looks like proof. Five complaints out of five thousand customers is not a pattern."
+    },
+    {
+      "tier": "E",
+      "name": "Point-in-time internal artifacts",
+      "examples": "RFP responses, past battlecards, old decks",
+      "authoritativeAbout": "What we said, in one deal, on one date, about one scope.",
+      "neverAuthoritativeAbout": "The platform. These are usually single-product, so the Intelligence+ story is absent and our answers read thinner than the product is. They may also reflect a customization rather than the standard offering.",
+      "repMayDo": "Use as context for what a buyer may already have been told. Never as a capability source. If it contradicts tier A, tier A wins and the RFP is narrow or stale.",
+      "label": "OUR READ",
+      "expiry": "Assume stale after two release cycles.",
+      "trap": "It is in our own voice and internally approved, which makes it feel authoritative. It is a snapshot of one negotiation."
+    },
+    {
+      "tier": "F",
+      "name": "Field intelligence",
+      "examples": "Gong call patterns, what a rep heard in a live deal, a prospect's account of a competitor's pricing or roadmap",
+      "authoritativeAbout": "What is being said in the market right now. Often the most CURRENT signal we have, and the only one that tells us which competitors actually matter rather than which exist.",
+      "neverAuthoritativeAbout": "Facts. A prospect repeating a competitor's sales claim is not evidence of the capability; it is evidence of the pitch.",
+      "repMayDo": "Treat as a lead to verify, never as a fact to repeat. It sets research priority — it does not settle anything.",
+      "label": "OUR READ, and never quoted verbatim. Patterns and counts only, no account names.",
+      "expiry": "Weeks. This is the most perishable and most current tier at the same time.",
+      "trap": "It arrives with emotional weight because a rep just lost a deal on it. Urgency is not verification."
+    },
+    {
+      "tier": "G",
+      "name": "Inference",
+      "examples": "Our synthesis across sources, competitive judgment, a ranking, a characterization",
+      "authoritativeAbout": "Nothing. It is reasoning, not evidence.",
+      "neverAuthoritativeAbout": "Anything presented as fact.",
+      "repMayDo": "Use it to shape the conversation. Never present it as sourced. Positioning is legitimate and we should keep doing it — it just has to be labelled.",
+      "label": "OUR POSITIONING",
+      "expiry": "Whenever the evidence under it moves.",
+      "trap": "This is the tier that reads most confidently, because it was written to be persuasive. Fluency is not a credibility signal."
+    }
+  ],
+
+  "verificationStates": {
+    "confirmed": "Two independent sources, or one tier-A/B source plus a date. Rep may state it.",
+    "single-source": "One source says it, nothing contradicts it. Rep may state it WITH the source named. This is most of what we hold.",
+    "unverified": "Heard, plausible, unchecked. Never rep-facing. Becomes a research task, not a claim.",
+    "contested": "Two sources disagree and rank cannot settle it. Goes in gh-conflicts.json. The rep gets the caution and a safe line — never an averaged answer."
+  },
+
+  "theDecisionItself": {
+    "_note": "Run in order. The first answer that stops you, stops you.",
+    "step1": "Does the source have STANDING on this subject? A competitor's marketing has no standing on our capability, and our RFP has no standing on their product.",
+    "step2": "Is it CURRENT? Name the date. If you cannot name a date, that is the finding.",
+    "step3": "Does the source support this EXACT claim, at this exact width? If you widened a noun — one state to states, one signal to a category, a process to a guarantee — go back to the narrow version.",
+    "step4": "Does anything CONTRADICT it? Check gh-conflicts.json and the record's own adjacent fields. The Yardi conflation was visible in the field next to it.",
+    "step5": "What is the COST OF BEING WRONG, and who pays it? A rep in a room pays for a capability error. A relationship pays for a partner error. Nobody pays for being slightly too cautious.",
+    "step6": "LABEL it. Sourced, our read, or our positioning. There is no unlabelled state."
+  },
+
+  "worked_example": {
+    "question": "Can a rep say Yardi Aspire's fair housing content is state-approved?",
+    "A_policy": "No standing. Our policy says nothing about Yardi.",
+    "B_their_published": "Their catalog says 'Federal Fair Housing Compliance (Approved in the State of Texas.)' — one state, named. A 2017 press release names TDHCA and the product as Yardi eLearning.",
+    "C_marketing": "Their homepage implies breadth. Not usable.",
+    "F_field": "A rep reports a prospect said Yardi is approved in several states. Unverified — becomes a research task, not a claim.",
+    "decision": "A rep may say: Texas lists them as an approved fair housing trainer, announced June 2017 under the predecessor product name, and it is the only fair housing state approval they publish. A rep may NOT say 'state-approved', may not name an agency the source does not name, and may not repeat the prospect's 'several states' without checking it.",
+    "whatWentWrongBefore": "Step 3 was skipped. The claim was widened from one named state to 'state-approved', and steps 1 and 6 were skipped when an agency name was supplied from general knowledge and presented at the same confidence as the sourced part."
+  }
+}

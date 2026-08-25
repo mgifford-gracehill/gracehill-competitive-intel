@@ -1294,6 +1294,26 @@ function ghContextHTML(){
       <td><strong style="color:var(--navy)">${esc(s.source)}</strong></td><td>${esc(s.what)}</td>
       <td>${s.rank>=5?`<span class="neg" style="display:block;margin:0">${esc(s.use)}</span>`:esc(s.use)}</td></tr>`).join('')}</tbody></table>`:''}
 
+    ${(()=>{const EV=D.evidence||{}; if(!EV.tiers)return '';
+      return `<h2 style="margin-top:22px">What each kind of evidence is good for</h2><hr class="rule">
+      <p class="src" style="margin:0 0 4px">Rank answers <em>which source wins</em>. This answers the harder question underneath it: what a given piece of evidence can actually support. Three things decide it, and they move independently —
+      <strong>standing</strong> (does this source have any business knowing?), <strong>verification</strong> (has anyone checked?), and <strong>recency</strong> (when was it true?).</p>
+      <p class="src" style="margin:0 0 10px">The last one is the one people forget. A policy from our own files can be authoritative and nine years stale at the same time.</p>
+      <table style="margin-bottom:14px"><thead><tr><th style="width:4%"></th><th style="width:22%">Kind of evidence</th><th style="width:26%">Good for</th><th style="width:26%">Never good for</th><th>What a rep may do</th></tr></thead><tbody>${
+        EV.tiers.map(t=>`<tr><td><strong style="color:var(--red);font-family:var(--fd)">${esc(t.tier)}</strong></td>
+        <td><strong style="color:var(--navy)">${esc(t.name)}</strong><br><span class="src">${esc(t.examples)}</span></td>
+        <td>${esc(t.authoritativeAbout)}</td>
+        <td><span class="neg" style="display:block;margin:0">${esc(t.neverAuthoritativeAbout)}</span></td>
+        <td>${esc(t.repMayDo)}<br><span class="src">Shows as <strong>${esc(t.label)}</strong> · re-check: ${esc(t.expiry)}</span></td></tr>`).join('')}</tbody></table>
+      ${EV.theDecisionItself?`<div class="card" style="margin-bottom:14px;border-left:4px solid var(--cer)">
+        <h4>The six questions, in order — the first one that stops you, stops you</h4><hr class="rule">
+        <ol class="tight" style="margin:0">${Object.entries(EV.theDecisionItself).filter(([k])=>k!=='_note').map(([k,v])=>`<li>${esc(v)}</li>`).join('')}</ol></div>`:''}
+      ${EV.worked_example?`<details class="deep" style="margin-bottom:18px"><summary>Worked example — the question that went wrong, run through the six</summary><div>
+        <p style="font-weight:700;color:var(--navy);margin:0 0 6px">${esc(EV.worked_example.question)}</p>
+        <ul class="tight">${['A_policy','B_their_published','C_marketing','F_field'].filter(k=>EV.worked_example[k]).map(k=>`<li><strong>${esc(k.split('_')[0])}</strong> — ${esc(EV.worked_example[k])}</li>`).join('')}</ul>
+        <div class="pt" style="margin-top:8px"><strong>Decision:</strong> ${esc(EV.worked_example.decision)}</div>
+        <div class="neg" style="margin-top:8px"><strong>What went wrong before:</strong> ${esc(EV.worked_example.whatWentWrongBefore)}</div></div></details>`:''}`})()}
+
     <h2 style="margin-top:22px">Where the facts come from</h2><hr class="rule">
     <div class="grid g2">
       <div class="card"><h4>Their side</h4><hr class="rule"><p style="margin:0;font-size:.92rem">${esc(H.competitorSide||'')}</p></div>

@@ -84,7 +84,8 @@
     "Route anything to a legal team. There is not one. Choose the lower-risk wording and say what you avoided.",
     "Name a regulator, agency, statute or docket that the source does not name. Write what the source says, at the level of specificity the source says it.",
     "Present a Jira Product Discovery item, an idea backlog entry, or anything from a discovery board as roadmap or as capability. Discovery is somebody thinking.",
-    "Widen what a source says. One state is not 'states'. One signal is not a category. A monitoring process is not a currency guarantee."
+    "Widen what a source says. One state is not 'states'. One signal is not a category. A monitoring process is not a currency guarantee.",
+    "Tell a rep about anything not yet launched and available. No dates, no quarters, no 'coming soon', no hints — roadmap is context for this system, never for the field."
   ],
   "partnerRule": "Changed 2026-08-23 by the VP of Product Marketing. A company can be a partner on one product and a competitor on another, and several are. Every partner record carries full compete information: verdict, gaps, questions, win themes, the lot. List the partnership TYPE as context. Never let it suppress the competitive read. The old 'never-compete' posture is retired — it left reps walking into real deals with nothing to say. What the partnership still governs: never disparage a partner, never discuss commercial terms, compete on the overlapping product and not on the parent company, and tell the partnership owner after a competitive deal — after, not for permission. Grace Hill companies are a separate category and remain non-competitors: Edge2Learn, Ellis Partners, EPMS, HelloData, Realync, SkillCat, Visto, Kingsley.",
   "sourceDiscipline": {
@@ -129,5 +130,18 @@
     "cadence": "Monthly at most, alongside the editorial audit. A content claim does not change often enough to justify more.",
     "recordOnApproval": "Set smeReviewedOn to the date and smeReviewedBy to the role. That is what keeps her out of the next round for the same claim.",
     "ifSheDisagrees": "Her answer wins on content truth without further debate. She is the source of truth on what our content actually is. If her correction changes what we should EMPHASIZE as well, that part goes to the VP of Product Marketing as a separate Tier 3 item — do not merge the two questions into one message."
+  },
+  "roadmapRule": {
+    "_added": "2026-08-26, VP of Product Marketing.",
+    "rule": "Roadmap is good CONTEXT for the tool and is NEVER presented to field teams. Nothing reaches a rep until it is confirmed launched and available. There is no 'coming soon', no 'planned for', no quarter, no hint.",
+    "why": "A rep who hears roadmap repeats roadmap, and a prospect who hears roadmap buys on it. The gap between 'committed internally' and 'in the customer's hands' is where deals go wrong, and the person carrying that risk is the rep in the room, not the person who set the date.",
+    "threeStates": {
+      "shipped": "Live and available to customers today. The only state that is rep-facing.",
+      "roadmap": "Committed internally, not yet available. Held as context for this system. Rep-facing answer is the honest current state — usually No — with no date and no hint that one exists.",
+      "discovery": "Jira Product Discovery, idea backlogs, opportunity boards. Somebody thinking. Never rep-facing in any form, and never described as roadmap."
+    },
+    "howToWriteIt": "If a capability is not shipped, the claim says what is true today and stops. `ai-proof` is the model: it moved from Roadmap to No, because Roadmap implied a date nothing supported. Saying No and owning it is more credible than a date we cannot name, and it tells the rep not to promise it.",
+    "whereRoadmapMayAppear": "Internal context files and my own reasoning about what to watch — so a sweep knows to re-check a subject when it ships. It may inform WHAT WE MONITOR. It may never inform what a rep says.",
+    "onShipping": "When something ships, it becomes a normal sourced claim through the usual route, with a release note as evidence."
   }
 }
