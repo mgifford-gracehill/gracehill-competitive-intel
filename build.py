@@ -27,6 +27,7 @@ data = {
     'ghContext':   L('gh-context'),
     # Deep-dive evidence, keyed by competitor id. Evidence, not approved copy —
     # the app labels it as such and a person promotes facts via promote.py.
+    'conflicts':  json.load(open('data/gh-conflicts.json')),
     'deepdive':    {p.stem: json.load(open(p)) for p in sorted(pathlib.Path('data/deepdive').glob('*.json'))},
     'built':       'August 18, 2026',
 }

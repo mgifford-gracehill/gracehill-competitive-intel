@@ -10092,7 +10092,7 @@
     "tier": "Tier 3",
     "verdict": {
       "stance": "Partial overlap",
-      "line": "isolved leads with 95,000+ courses, which sounds like it settles the content question and does not — volume from a general aggregated catalog is not the same as a fair housing course written for your states and kept current.",
+      "line": "isolved leads with 95,000+ courses, which sounds like it settles the content question and does not — volume from a general aggregated catalog is not the same as fair housing content written for multifamily roles and maintained on a documented review cycle.",
       "doInstead": "Do not try to out-count 95,000. Turn the number against itself: ask how many of those courses their regional manager would actually assign, who wrote the fair housing one, and what happens to it when a state changes its rules. Then position Grace Hill as the multifamily layer on top of an HR platform they keep."
     },
     "overlaps": [
@@ -10304,7 +10304,7 @@
       "note": "Reaches multifamily through the people and workforce stack — often already on an HR contract."
     },
     "whenItComesUp": {
-      "why": "Overlaps in part, not in whole. isolved leads with 95,000+ courses, which sounds like it settles the content question and does not — volume from a general aggregated catalog is not the same as a fair housing course written for your states and kept current.",
+      "why": "Overlaps in part, not in whole. isolved leads with 95,000+ courses, which sounds like it settles the content question and does not — volume from a general aggregated catalog is not the same as fair housing content written for multifamily roles and maintained on a documented review cycle.",
       "say": "Concede the part they genuinely own, then be specific about the part they don't. Partial overlap is where reps over-claim and lose credibility.",
       "avoid": "Do not claim the isolved catalog contains no fair housing course — 95,000 aggregated courses are not publicly enumerated. Ask instead.",
       "redirect": "Out of 95,000 courses, how many are on the assignment list a site team actually sees?",
@@ -12556,7 +12556,7 @@
     "objections": [
       {
         "objection": "Our teams love Learnie, it's how they actually learn.",
-        "response": "Keep it for tribal knowledge and quick how-tos — that is a real use case. Compliance content has to be authored, reviewed and kept current by someone accountable, and Learnie's model is that your team creates the content."
+        "response": "Keep it for tribal knowledge and quick how-tos — that is a real use case. Compliance content has to be authored, reviewed and maintained on a documented cycle by someone accountable, and Learnie's model is that your team creates the content."
       }
     ],
     "doNotSay": [
@@ -16356,7 +16356,7 @@
     "objections": [
       {
         "objection": "PowerDMS has better policy workflow features than you do.",
-        "response": "They have a mature policy engine and we don't dispute that. But every feature they have operates on text somebody still has to write. We give you the text — over a thousand multifamily policies already written and kept current — plus the acknowledgment, version and assignment machinery. Ask yourself which half is harder to build in-house."
+        "response": "They have a mature policy engine and we don't dispute that. But every feature they have operates on text somebody still has to write. We give you the text — over a thousand multifamily policies already written, and maintained through a documented legal-monitoring process — plus the acknowledgment, version and assignment machinery. Ask yourself which half is harder to build in-house."
       },
       {
         "objection": "They already work with big organizations, so they can handle multifamily.",
@@ -26311,8 +26311,10 @@
     "tier": "Tier 1",
     "verdict": {
       "stance": "Compete",
-      "line": "The most credible head-to-head LMS in the category — it has real multifamily content, state-approved fair housing, 100+ Spanish courses and AI authoring, so win on outcome proof (competency, shops, surveys, benchmarks) rather than on feature checklists.",
-      "doInstead": null
+      "line": "The strongest head-to-head LMS in the category on our read — real multifamily content, a Texas fair housing approval, 100+ Spanish courses and AI authoring. Win on outcome evidence — shop results, survey results, benchmarks — rather than on feature checklists.",
+      "doInstead": null,
+      "claimType": "positioning",
+      "claimNote": "This verdict is Grace Hill's competitive judgment, not a sourced fact about Yardi. The capability details inside it are sourced; the ranking is ours."
     },
     "overlaps": [
       {
@@ -26432,9 +26434,9 @@
       }
     ],
     "whyWeWin": [
-      "Grace Hill measures competency, not just completion — tie the conversation to what the team can demonstrate, not what they clicked through.",
+      "Grace Hill carries signals beyond completion — mystery shop results, resident and employee survey results, and in-course knowledge checks. Tie the conversation to those specific signals rather than to \"competency\" as a general claim.",
       "Aspire proves training happened; PerformanceHQ connects training to mystery shop scores, resident and employee survey results and reputation signals in one place.",
-      "Aspire publishes one fair housing state approval — Texas — and the announcement dates to June 2017. For a multi-state portfolio, ask how each additional jurisdiction is covered.",
+      "Aspire publishes one fair housing state approval — Texas — and the announcement dates to June 2017. For a multi-state portfolio, ask how each additional jurisdiction is covered. Know our own answer before you ask it: Grace Hill compliance content is built around federal law with a limited set of state, local or agency-specific exceptions, so the honest framing is a federal baseline you localize, not fifty state variants.",
       "Capability is tiered (Aspire / Plus / Platinum) — confirm which tier the quoted price actually buys before comparing features."
     ],
     "askThis": [
@@ -26451,7 +26453,7 @@
       },
       {
         "objection": "Yardi has AI course creation now.",
-        "response": "Authoring speed is a content-production feature. Our value is the content already being written, maintained and jurisdiction-current, plus the ability to connect what people learned to what happened at the property."
+        "response": "Authoring speed is a content-production feature. Our value is the content already being written, and maintained through a documented legal-monitoring process, plus the ability to connect what people learned to what happened at the property. Say the maintenance part carefully: the process is ongoing review with action when appropriate. It does not promise that every regulatory development produces an immediate content change, and it does not move the customer's compliance responsibility onto Grace Hill."
       },
       {
         "objection": "Yardi has Spanish content too.",
@@ -26603,7 +26605,7 @@
     },
     "whenItComesUp": {
       "why": "A genuine head-to-head, and the strongest LMS in the category. It arrives already inside the PMS the buyer pays for, so the consolidation argument is made before you get in the room.",
-      "say": "Aspire is a real product and the single sign-on is worth something — I'm not going to pretend otherwise. Where I'd push is what happens after login. Ask which tier you're being quoted, which states are actually covered, and whether you can show an auditor competency rather than completion.",
+      "say": "Aspire is a real product and the single sign-on is worth something — I'm not going to pretend otherwise. Where I'd push is what happens after login. Ask which tier you're being quoted, which states are actually covered, and what evidence you can show beyond a completion record — mystery shop results, survey results, knowledge checks.",
       "avoid": "Don't argue platform breadth against a platform, and don't repeat the retired claims — Aspire does have CEC-qualifying fair housing content, a large catalog, paid tiers, and active investment. Reps who say otherwise get corrected live.",
       "redirect": "If a fair housing rule changes in one of your states next month, what's the process for getting that into training — and how fast has it actually been?"
     },

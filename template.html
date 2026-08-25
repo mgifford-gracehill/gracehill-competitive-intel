@@ -131,6 +131,13 @@ body[data-den="full"] .more{display:none}
 .pv-src{background:#e6f7fd;color:#0b6b8a;text-decoration:none}
 a.pv-src:hover{background:#03B8EC;color:#fff}
 .pv-read{background:#fdf3e6;color:#8a5a0b}
+.pv-pos{background:#efe9f7;color:#5b3a8a}
+.claimbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:.75rem;color:var(--muted);margin-top:8px;padding-top:8px;border-top:1px solid rgba(255,255,255,.18)}
+.verdict .claimbar{color:rgba(255,255,255,.8)}
+.verdict .pv-pos{background:rgba(255,255,255,.2);color:#fff}
+.conflict{border-left:4px solid #FF0000;background:#fff6f6;padding:10px 12px;border-radius:0 8px 8px 0;margin:12px 0}
+.conflict h4{margin:0 0 4px;color:#a11}
+
 .provkey{font-size:.74rem;color:var(--muted);margin:0 0 10px}
 
 /* Ranked list — By product. A grid of boxes makes you hunt; a list you read top to bottom. */
@@ -727,8 +734,17 @@ function renderCompetitor(id){
   <div class="verdict ${vBg(v.stance)}">
     <div class="st">${esc(v.stance||'')}</div>
     <div class="ln">${esc(v.line||'')}</div>
+    ${v.claimType==='positioning'?`<div class="claimbar"><span class="pv pv-pos" style="margin-left:0">our positioning</span>
+      <span>${esc(v.claimNote||"Grace Hill's competitive judgment, not a sourced fact about them.")}</span></div>`:''}
     ${v.doInstead?`<div class="di"><b>Do this instead</b>${esc(v.doInstead)}</div>`:''}
   </div>
+  ${(()=>{const cf=(D.conflicts||{}).conflicts||[];
+    const lines=new Set((c.overlaps||[]).filter(o=>o.degree&&o.degree!=='None').map(o=>o.product));
+    const rel=cf.filter(x=>x.status&&x.status.startsWith('unresolved')
+      && (x.scope||[]).length && (x.scope||[]).some(sc=>lines.has(sc)));
+    return rel.length?`<div class="conflict noprint"><h4>Our own sources disagree on this — ${rel.length} open</h4>
+      ${rel.map(x=>`<div style="margin-bottom:6px"><strong>${esc(x.subject)}.</strong> ${esc(x.repFacing)}</div>`).join('')}
+      <div class="src">Recorded rather than smoothed over. When two Grace Hill sources conflict and rank cannot settle it, you get the caution, not an averaged number.</div></div>`:''})()}
 
   <div class="tabs noprint">${tabs.map(([k,l],i)=>`<button data-p="${k}" class="${i?'':'on'}" onclick="pane('${k}',this)">${esc(l)}</button>`).join('')}</div>
 
@@ -829,10 +845,10 @@ function renderCompetitor(id){
              job, quoting the documentation at length is not. */
           const lead=g.approvedWording||firstSent(g.note,120);
           const deep=[
-            g.note&&g.note!==lead?`<div><strong>Us, in full:</strong> ${esc(g.note)}</div>`:'',
+            g.note&&g.note!==lead?`<div style="border-left:3px solid var(--cer);padding-left:8px"><strong style="color:var(--navy)">GRACE HILL —</strong> ${esc(g.note)}</div>`:'',
             g.statedLimit?`<div style="margin-top:6px"><strong>Limit we state:</strong> ${esc(g.statedLimit)}</div>`:'',
             g.proof?`<div class="src" style="margin-top:6px">${esc(g.proof)}</div>`:'',
-            f.note?`<div style="margin-top:6px"><strong>Them, in full:</strong> ${esc(f.note)}</div>`:''
+            f.note?`<div style="margin-top:8px;border-left:3px solid var(--muted);padding-left:8px"><strong>${esc(c.name.toUpperCase())} —</strong> ${esc(f.note)}</div>`:''
           ].filter(Boolean).join('');
           return `${lead?`<div class="oneline">${g.approvedWording?'<strong>Say:</strong> ':''}${esc(lead)}</div>`:''}
           ${g.doNotSay?`<div class="oneline" style="margin-top:3px;color:var(--red)"><strong>Do not say:</strong> ${esc(firstSent(g.doNotSay,110))}</div>`:''}

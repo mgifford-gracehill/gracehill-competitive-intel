@@ -82,7 +82,9 @@
     "Treat an RFP response as authoritative.",
     "Send a message that asks for a reaction without saying what changes if she gives one.",
     "Route anything to a legal team. There is not one. Choose the lower-risk wording and say what you avoided.",
-    "Name a regulator, agency, statute or docket that the source does not name. Write what the source says, at the level of specificity the source says it."
+    "Name a regulator, agency, statute or docket that the source does not name. Write what the source says, at the level of specificity the source says it.",
+    "Present a Jira Product Discovery item, an idea backlog entry, or anything from a discovery board as roadmap or as capability. Discovery is somebody thinking.",
+    "Widen what a source says. One state is not 'states'. One signal is not a category. A monitoring process is not a currency guarantee."
   ],
   "partnerRule": "Changed 2026-08-23 by the VP of Product Marketing. A company can be a partner on one product and a competitor on another, and several are. Every partner record carries full compete information: verdict, gaps, questions, win themes, the lot. List the partnership TYPE as context. Never let it suppress the competitive read. The old 'never-compete' posture is retired — it left reps walking into real deals with nothing to say. What the partnership still governs: never disparage a partner, never discuss commercial terms, compete on the overlapping product and not on the parent company, and tell the partnership owner after a competitive deal — after, not for permission. Grace Hill companies are a separate category and remain non-competitors: Edge2Learn, Ellis Partners, EPMS, HelloData, Realync, SkillCat, Visto, Kingsley.",
   "sourceDiscipline": {
@@ -96,5 +98,13 @@
       "ABSENCE IS THE SAFE FORM. 'No other state approval is published' is a claim we can defend. 'Approved in 12 states' is not, unless twelve are listed."
     ],
     "repFacing": "Every strengths and gaps line now shows either SOURCED, which opens the page it came from, or OUR READ, which means no source is attached. There is no unlabelled state, because an unlabelled line was exactly what made a synthesized claim look identical to a sourced one."
+  },
+  "claimDiscipline": {
+    "_added": "2026-08-25, answering the five determinations the SME reviewer asked for by name.",
+    "1_whichSourceWins": "Rank decides: 1 GHU, 2 AdminHQ, 3 catalog.gracehill.com, 4 release notes, 5 RFP responses (context only), 6 gracehill.com marketing. Two sources of equal rank that disagree go to data/gh-conflicts.json and are resolved there, in writing, with the winner named. Never average two conflicting sources into a confident middle — that produces a number no source supports.",
+    "2_factVsRoadmap": "Three states, and they are never interchangeable. CURRENT-STATE is what ships today and is the only thing a rep may present as capability. ROADMAP is committed but unshipped — say 'not today' and stop; never attach a date the company has not published. DISCOVERY is Jira Product Discovery and idea backlogs — it is somebody thinking, it is NOT a commitment, and it is never rep-facing in any form. Treating a discovery ticket as a roadmap item is how a rep promises something nobody agreed to build.",
+    "3_narrowFactBroadConclusion": "A source supports exactly what it says and nothing wider. 'Approved in the State of Texas' does not support 'state-approved'. 'Mystery shop results exist' does not support 'we measure competency'. 'We monitor regulatory change' does not support 'we keep you jurisdiction-current'. When you catch yourself widening a noun — one state to states, one signal to a category, a process to a guarantee — stop and write the narrow version. The narrow version is almost always the more useful sentence on a call anyway, because it survives the follow-up question.",
+    "4_inferenceVsApprovedClaim": "Every rep-facing line is one of three things and must be visibly marked as such. SOURCED: a named source with a URL says it. OUR READ: our synthesis from the record, useful for shaping a conversation, not for repeating to a buyer as published fact. OUR POSITIONING: a competitive judgment we have made — a ranking, a characterization, a 'strongest' or 'deepest'. Positioning is legitimate and we should keep making it; it just must never wear the clothes of a sourced fact.",
+    "5_confidenceWhenAmbiguous": "Ambiguity is shown, not smoothed. If sources conflict and rank cannot settle it, the record says so and carries a safe line a rep can use in the meantime. If a fact is undated, say it is undated. If an approval is nine years old and names a predecessor product, say that. The polish of the presentation is exactly what makes a reader assume validation, so hedges have to be visible rather than implied."
   }
 }

@@ -180,6 +180,30 @@ for c in C:
             SUPPRESSED.append('K_uncited_authority'); continue
         D['K_uncited_authority'].append((c['id'], path, f'names "{m.group(0)}" with no citation :: {txt[:90]}'))
 
+# M. CURRENCY OR TURNAROUND PROMISED.  [MUST FIX]
+#
+# GHU 3816 is explicit that legal monitoring is ongoing review with action when appropriate,
+# and NOT a guarantee that every legal or regulatory development results in an immediate
+# content change. Language like "jurisdiction-current", "always up to date", or any implied
+# clock from a regulation changing to a course changing promises exactly the thing the policy
+# refuses to promise. It is the compliance-ownership problem wearing a different coat.
+CURRENCY = re.compile(r'\b(jurisdiction[- ]current|always (?:up[- ]to[- ]date|current)|'
+                      r'kept? (?:you |your )?(?:jurisdiction[- ])?current|automatically updated?|'
+                      r'as soon as the (?:law|regulation|rule) changes|'
+                      r'within \d+ (?:days|weeks|hours) of (?:a |any )?(?:law|regulation|rule|change))\b', re.I)
+for c in C:
+    for path, txt in walk(c):
+        if not any(f in path for f in REP_FACING):
+            continue
+        if any(g in path for g in ('doNotSay', '.avoid', 'reviewNote', 'languageToAvoid')):
+            continue
+        m = CURRENCY.search(txt)
+        if not m:
+            continue
+        if ok('M_currency_promise', c['id'], path, txt):
+            SUPPRESSED.append('M_currency_promise'); continue
+        D['M_currency_promise'].append((c['id'], path, f'promises currency: "{m.group(0)}" :: {txt[:80]}'))
+
 # G. Grace Hill claims still resting on marketing pages or internal decks.
 for k,v in GHB.items():
     s=(v.get('source') or '')
@@ -191,8 +215,9 @@ for k,v in GHB.items():
 for k,v in GHB.items():
     if not (v.get('note') or '').strip(): D['H_no_note'].append((k,v.get('support'),''))
 
-order=['K_uncited_authority','J_customer_named','C_obligation','D_fear','A_absolute','B_aphorism','I_jargon','F_fairhousing_heavy','G_unsourced_GH','H_no_note']
-NAMES={'K_uncited_authority':'Named a regulator, agency or statute with no citation  [MUST FIX]',
+order=['K_uncited_authority','M_currency_promise','J_customer_named','C_obligation','D_fear','A_absolute','B_aphorism','I_jargon','F_fairhousing_heavy','G_unsourced_GH','H_no_note']
+NAMES={'M_currency_promise':'Promised regulatory currency or a turnaround our policy refuses to promise  [MUST FIX]',
+ 'K_uncited_authority':'Named a regulator, agency or statute with no citation  [MUST FIX]',
  'J_customer_named':'Grace Hill customer or prospect named  [MUST FIX]',
  'C_obligation':'Grace Hill implying it owns the customer\'s compliance  [MUST FIX]',
  'D_fear':'Confrontational or fear-framed question  [MUST FIX]',
@@ -202,7 +227,7 @@ NAMES={'K_uncited_authority':'Named a regulator, agency or statute with no citat
  'F_fairhousing_heavy':'Over-indexed on Fair Housing as the differentiator  [ITERATIVE]',
  'G_unsourced_GH':'Grace Hill claim not yet sourced to AdminHQ  [ITERATIVE]',
  'H_no_note':'Yes/Partial/No with no note to hold the nuance  [MUST FIX]'}
-MUST=['K_uncited_authority','J_customer_named','C_obligation','D_fear','A_absolute','H_no_note']
+MUST=['K_uncited_authority','M_currency_promise','J_customer_named','C_obligation','D_fear','A_absolute','H_no_note']
 def summary():
     return {k:len(v) for k,v in D.items()}
 def gate():

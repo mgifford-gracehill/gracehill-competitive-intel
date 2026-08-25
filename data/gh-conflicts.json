@@ -1,0 +1,91 @@
+{
+  "note": "When two Grace Hill sources disagree, this is where it gets recorded and resolved. Ruth asked how the system decides which source is authoritative when sources conflict. The honest answer was that it had no mechanism — it took whichever source it read last. This file is that mechanism.",
+  "why": "A conflict resolved silently is worse than a conflict left open, because the losing source stays live for whoever reads it next. Recording the conflict means the person who finds the stale document knows it is stale.",
+  "rule": "Rank decides, and the resolution is written down. Where rank alone cannot settle it — two rank-1 sources disagreeing — it goes to the VP of Product Marketing and stays UNRESOLVED in the app until she rules. An unresolved conflict is shown to reps as a caution, never averaged into a confident middle.",
+  "updated": "2026-08-25",
+  "conflicts": [
+    {
+      "id": "recording-consent-states",
+      "subject": "All-party recording-consent state list for mystery shopping",
+      "sources": [
+        {
+          "ref": "GHU 1060",
+          "says": "14 states including Oregon",
+          "rank": 1
+        },
+        {
+          "ref": "GHU 1061",
+          "says": "14 states including Oregon",
+          "rank": 1
+        },
+        {
+          "ref": "GHU 1623",
+          "says": "13 states, omits Oregon",
+          "rank": 1
+        }
+      ],
+      "resolution": "14 is correct. GHU 1060 and 1061 win on agreement between two sources of equal rank against one.",
+      "resolvedBy": "VP of Product Marketing",
+      "resolvedOn": "2026-08-21",
+      "status": "resolved — GHU 1623 correction in progress",
+      "repFacing": "Use 14 states including Oregon. If you land on GHU 1623 it is short by one and is being corrected.",
+      "scope": [
+        "Mystery Shopping"
+      ]
+    },
+    {
+      "id": "hellodata-unit-count",
+      "subject": "HelloData® market coverage, units",
+      "sources": [
+        {
+          "ref": "HelloData site",
+          "says": "23.1M",
+          "rank": 6
+        },
+        {
+          "ref": "HelloData site",
+          "says": "25M",
+          "rank": 6
+        },
+        {
+          "ref": "HelloData site",
+          "says": "35M",
+          "rank": 6
+        },
+        {
+          "ref": "HelloData site",
+          "says": "38.5M",
+          "rank": 6
+        }
+      ],
+      "resolution": "UNRESOLVED. Four first-party figures are live simultaneously, none dated. Rank cannot settle a source against itself.",
+      "status": "unresolved — product marketing to pick one figure and date it",
+      "repFacing": "Do not quote a unit count. Say the coverage is national across major markets and offer to confirm the current figure. A prospect can find a different number on our own site than the one you just said.",
+      "scope": [
+        "HelloData®"
+      ]
+    },
+    {
+      "id": "instructional-design-policy-number",
+      "subject": "Policy number for Grace Hill Instructional Design Principles",
+      "sources": [
+        {
+          "ref": "SME feedback document appendix",
+          "says": "3813",
+          "rank": 1
+        },
+        {
+          "ref": "GHU manual 9482 lookup",
+          "says": "8313",
+          "rank": 1
+        }
+      ],
+      "resolution": "8313 is the number that resolves in GHU. 3813 appears to be a transposition.",
+      "status": "needs a five-second confirmation from the Content owner",
+      "repFacing": "Not rep-facing. Internal citation accuracy only.",
+      "scope": []
+    }
+  ],
+  "howToAdd": "Any task that finds two Grace Hill sources disagreeing adds an entry here rather than picking a winner quietly. If rank settles it, resolve it and say which rank won. If it does not, mark it unresolved and write the repFacing line so a rep has something safe to say in the meantime.",
+  "scopeNote": "A conflict is shown on a competitor record only when it touches a product line that record overlaps. A caution that appears on all 98 pages is wallpaper, and wallpaper is what people stop reading."
+}
