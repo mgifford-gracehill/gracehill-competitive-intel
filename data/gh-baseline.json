@@ -4,14 +4,24 @@
     "note": "Built for rental housing work, not repackaged generic business training. The documented design standard requires courses to be grounded in applicable law and regulation, recognized industry practice, internal and external subject matter experts, and legal counsel where risk warrants, using realistic property management scenarios. Every course moves through a defined pipeline: needs analysis, roadmap prioritization, development, quality assurance testing, senior leadership review and approval, then post-release monitoring. Two honest caveats. We do not publish a headline course count — catalog.gracehill.com is the source of truth for what exists today, and it is public with no login, so point a prospect at it rather than quoting a number. And compliance content is generally developed around federal law and not tailored to individual state or local requirements; the customer stays responsible for determining which requirements apply to them.",
     "proof": "GHU Policy 8313 sets the design standard and the SME and legal review expectations. GHU Policy 3812 documents the pipeline: needs analysis, development, QA testing, senior leadership approval, post-deployment monitoring. GHU Policy 7003 states the federal-baseline rule.",
     "source": "https://internal.performancehq.gracehill.com/manuals/9482/policies/1340488 · https://internal.performancehq.gracehill.com/manuals/9482/policies/564667 · https://internal.performancehq.gracehill.com/manuals/9418/policies/873080",
-    "verifiedOn": "2026-08-21"
+    "verifiedOn": "2026-08-21",
+    "lead": "Built for rental housing work, not repackaged generic business training. Every course moves through a documented pipeline — needs analysis, development, QA, senior leadership approval, then post-release monitoring.",
+    "limitLine": "Compliance content is built around federal law and is not tailored to individual state or local requirements. The customer stays responsible for determining what applies to them.",
+    "lookUp": "We do not publish a headline course count. catalog.gracehill.com is public with no login — point a prospect at it rather than quoting a number.",
+    "formVersion": "3-line",
+    "smeOwner": "SVP of Content"
   },
   "tr-vendor-maintained": {
     "support": "Yes",
     "note": "We watch legal and regulatory change and update the content, and the process is documented rather than asserted: ongoing monitoring, a bi-weekly review of developments that may affect the portfolio, periodic reviews with an annual review of priority compliance content, plus customer and field questions as an input. Each item resolves to one of five outcomes — Watch, Assess, Update or Develop, Escalate, or No Action — and higher-risk changes are approved by a Content leader with external counsel consulted when interpretation is needed. Two limits stated in the policy itself, and both are safer to say than to be caught on: monitoring is not a guarantee that every development produces an immediate content change, and it does not transfer the customer's compliance responsibility to Grace Hill. Monitoring is also scoped to topics in our portfolio, not to every federal, state and local requirement in existence.",
     "proof": "GHU Policy 3816, Content Legal Monitoring, documents the cadence, the named roles, the five outcome categories, the monitoring sources, and the two limits verbatim: \"Legal monitoring is an ongoing process rather than a guarantee that every legal or regulatory development results in an immediate content change\" and \"It does not constitute legal advice or transfer responsibility for an organization's compliance obligations to Grace Hill.\" The mechanism is visible in the monthly release notes, where courses are retired because the underlying law moved.",
     "source": "https://internal.performancehq.gracehill.com/manuals/9482/policies/943533 · https://adminhq.performancehq.gracehill.com/manuals/19822/policies/1284216",
-    "verifiedOn": "2026-08-21"
+    "verifiedOn": "2026-08-21",
+    "lead": "We watch legal and regulatory change and update the content, on a documented process rather than an assertion: ongoing monitoring, scheduled reviews, and every item resolved to a named outcome by a Content leader.",
+    "limitLine": "Monitoring is not a guarantee that every development produces an immediate content change, and it does not move the customer's compliance responsibility to Grace Hill. Say both before a prospect tests them.",
+    "lookUp": "Cadence, the five outcomes and the scope limits are in GHU Policy 3816. Monitoring covers topics in our portfolio, not every federal, state and local requirement in existence.",
+    "formVersion": "3-line",
+    "smeOwner": "SVP of Content"
   },
   "tr-fair-housing": {
     "support": "Yes",
@@ -20,14 +30,24 @@
     "source": "https://adminhq.performancehq.gracehill.com/manuals/19986/policies/1299606 · https://adminhq.performancehq.gracehill.com/manuals/19986/policies/1299538 · https://adminhq.performancehq.gracehill.com/manuals/19986/policies/1299919 · https://internal.performancehq.gracehill.com/manuals/11974/policies/1264261",
     "verifiedOn": "2026-08-21",
     "claimType": "mixed",
-    "claimNote": "Depth is our characterization; the course inventory behind it is sourced. State approvals are Virginia DPOR and Texas TDHCA only — do not extend that to other states, and do not confuse it with the Florida Human Trafficking content, which is a different subject."
+    "claimNote": "Depth is our characterization; the course inventory behind it is sourced. State approvals are Virginia DPOR and Texas TDHCA only — do not extend that to other states, and do not confuse it with the Florida Human Trafficking content, which is a different subject.",
+    "lead": "The deepest area in our library — a foundational course, role-specific versions including Maintenance, and topic courses down to assistance animals and VAWA. If Fair Housing is the buying criterion, this is where we win.",
+    "limitLine": "No TDHCA-approved version of Fair Housing for Maintenance, we do not cover every element of Affirmative Fair Housing Marketing, and the 2026 refresher pre-check cannot be disabled by a client.",
+    "lookUp": "Approvals are a short named list, not broad state coverage — AdminHQ Policy 110 has the current one. Check it before you name a state.",
+    "formVersion": "3-line",
+    "smeOwner": "SVP of Content"
   },
   "tr-state-specific": {
     "support": "Partial",
     "note": "The general rule, stated in policy: compliance content is developed around applicable federal laws, regulations and guidance, and is not tailored to individual state or local requirements. A limited number of state, local or agency-specific courses exist where there is a defined regulatory, approval or market need — currently select state-specific Sexual Harassment training, Florida-specific Human Trafficking training, and Fair Housing versions approved by Virginia DPOR and Texas TDHCA. Everything else is the federal baseline, and never present the federal baseline as state coverage. For a specific state question, the answer is in the digital catalog or the AdminHQ FAQs, not in an inference.",
     "proof": "GHU Policy 7003, Content Development - Federal and State Content, states the general rule and lists the current exceptions. AdminHQ Policy 110 answers individual state questions case by case — DC Human Rights Act no, Cal/OSHA federal only, Safety Series federal OSHA and CDC, Florida Human Trafficking yes in English and Spanish, North and South Carolina evaluate for fit.",
     "source": "https://internal.performancehq.gracehill.com/manuals/9418/policies/873080 · https://adminhq.performancehq.gracehill.com/manuals/19986/policies/1299606",
-    "verifiedOn": "2026-08-21"
+    "verifiedOn": "2026-08-21",
+    "lead": "A federal baseline you localize. Compliance content is built around federal law, with a limited set of state, local or agency-specific exceptions where there is a defined regulatory, approval or market need.",
+    "limitLine": "Never present the federal baseline as state coverage. That is the easiest way to lose a multi-state deal at implementation rather than in the room.",
+    "lookUp": "For a specific state question the answer is in the digital catalog or the AdminHQ FAQs — never in an inference.",
+    "formVersion": "3-line",
+    "smeOwner": "SVP of Content"
   },
   "tr-cec-eligible": {
     "support": "Partial",
@@ -38,21 +58,33 @@
     "statedLimit": "NAAEI-approved coursework covers up to 50% of the CECs needed for an NAA credential, not the full requirement; credentials are purchased and issued through Visto and NAAEI, not through the Training subscription.",
     "approvedBy": "VP of Product Marketing",
     "approvedOn": "2026-08-21",
-    "approvalNote": "Approved as changed. Change made on the 2026-08-21 GHU and AdminHQ sourcing pass: Downgraded from Yes to Partial — the highest-risk claim in the sweep. 'Credential-eligible' implies a learner earns CAM or CAPS from our catalog; they do not. GHU Policy 3521 also references NAAEI partnership changes effective Q2 2027, so this needs a review date rather than a one-time fix."
+    "approvalNote": "Approved as changed. Change made on the 2026-08-21 GHU and AdminHQ sourcing pass: Downgraded from Yes to Partial — the highest-risk claim in the sweep. 'Credential-eligible' implies a learner earns CAM or CAPS from our catalog; they do not. GHU Policy 3521 also references NAAEI partnership changes effective Q2 2027, so this needs a review date rather than a one-time fix.",
+    "lead": "Grace Hill is an NAA Alliance partner and the platform includes more than forty NAAEI-approved courses. Completing them earns continuing education credits toward maintaining an NAA credential, and the catalog filters to exactly which ones qualify.",
+    "limitLine": "NAAEI coursework covers up to half the CECs needed, not all of them. The credentials themselves are earned and issued through Visto with NAAEI, not through a Training subscription. Retire 'credential-eligible' — it reads as if a learner earns CAM from our catalog.",
+    "lookUp": "Per-course credit values are on gowithvisto.org. Also not ours to claim: the Lead and Asbestos courses are not OSHA-approved, Human Trafficking is not a DHS Blue Campaign pathway, and Workplace Violence alone does not satisfy California WVPP.",
+    "formVersion": "3-line",
+    "smeOwner": "SVP of Content"
   },
   "tr-role-assignment": {
     "support": "Yes",
     "note": "Rules assign and re-assign training by position, location or custom group — no manual roster work.",
     "proof": "gracehill.com: \"automate course assignments for your team by position, location, or a custom group,\" with recurring assignments and secure acknowledgments.",
     "source": "https://gracehill.com/solutions/property-management-training/",
-    "verifiedOn": "2026-08-11"
+    "verifiedOn": "2026-08-11",
+    "lead": "Rules assign and re-assign training by position, location or custom group — no manual roster work.",
+    "formVersion": "3-line",
+    "smeOwner": "SVP of Content"
   },
   "tr-competency": {
     "support": "Partial",
     "note": "Scored quizzes and activities per course, and mystery shop scores as outside evidence — but there's no standalone competency model or skills assessment engine.",
     "proof": "Interactive quizzes and activity assignments inside courses; shop results identify the specific skill gap and drive the Upskill assignment.",
     "source": "https://gracehill.com/solutions/property-management-training/",
-    "verifiedOn": "2026-08-11"
+    "verifiedOn": "2026-08-11",
+    "lead": "Scored quizzes and activities per course, plus mystery shop scores as outside evidence of what someone can actually do on the property.",
+    "limitLine": "No standalone competency model or skills assessment engine. Do not say we 'measure competency' — name the specific signals instead.",
+    "formVersion": "3-line",
+    "smeOwner": "SVP of Content"
   },
   "tr-compliance-reporting": {
     "support": "Partial",
@@ -62,42 +94,72 @@
     "verifiedOn": "2026-08-21",
     "approvedBy": "VP of Product Marketing",
     "approvedOn": "2026-08-21",
-    "approvalNote": "Approved as changed. Change made on the 2026-08-21 GHU and AdminHQ sourcing pass: Downgraded from Yes to Partial. Our own RFP response names the absence of a real-time manager dashboard as a limitation, and the record was claiming the capability without that caveat. Caveat added 2026-08-21: the limitation comes from a single product-scoped RFP response, so it may describe that deal's configuration rather than the platform. Confirm with product before the downgrade stands."
+    "approvalNote": "Approved as changed. Change made on the 2026-08-21 GHU and AdminHQ sourcing pass: Downgraded from Yes to Partial. Our own RFP response names the absence of a real-time manager dashboard as a limitation, and the record was claiming the capability without that caveat. Caveat added 2026-08-21: the limitation comes from a single product-scoped RFP response, so it may describe that deal's configuration rather than the platform. Confirm with product before the downgrade stands.",
+    "lead": "Reporting is genuinely strong: live assignment status, completion percentage, overdue counts and learner progress, a custom report builder that saves and schedules, and automated distribution to managers.",
+    "limitLine": "No real-time manager dashboard for team completion. Managers see direct reports; organization-wide visibility is delivered by scheduled report, not a live view. State it before a prospect finds it.",
+    "lookUp": "The six named learner alerts and the report builder options are documented in AdminHQ.",
+    "formVersion": "3-line",
+    "smeOwner": "SVP of Content"
   },
   "tr-scorm": {
     "support": "Yes",
     "note": "Inbound is broad and delivered through the Rustici Engine, which is the industry standard for content delivery: SCORM 1.2, SCORM 2004 3rd and 4th Edition, xAPI, cmi5 and AICC (HACP 2.2, 3.5, 4.0 — not the API flavor). SCORM 2004 2nd Edition is not supported, and Articulate defaults to it, so an Articulate export needs use_2004_suspendall_naveq set true before it will load. Rustici also gives native bookmarking and resume, governed by the package's suspend_data and lesson_location. Licensing Grace Hill courses OUT as SCORM for another LMS is still not a standard offering — exceptions and legacy arrangements exist, so confirm with product.",
     "proof": "AdminHQ Policy 3000 lists the supported standards, the 2004 2nd Edition exclusion and the authoring-tool export configurations. Policy 3113 covers upload into the Content Vault. The June 2026 RFP response names the Rustici Engine as the delivery layer and documents the per-course settings an admin configures: completion criteria, passing score, library visibility, recurring enrollment interval, prerequisites and certificate.",
     "source": "https://adminhq.performancehq.gracehill.com/manuals/18022/policies/1192638 · https://adminhq.performancehq.gracehill.com/manuals/18022/policies/1293137 · Grace Hill RFP response, LMS and Performance Management, June 2026 (internal — customer and pricing redacted)",
-    "verifiedOn": "2026-08-21"
+    "verifiedOn": "2026-08-21",
+    "lead": "Inbound is broad and delivered through the Rustici Engine, the industry standard for content delivery, so the mainstream standards load — with native bookmarking and resume.",
+    "limitLine": "SCORM 2004 2nd Edition is not supported and Articulate defaults to it, so an Articulate export needs a setting changed first. Licensing Grace Hill courses OUT as SCORM for another LMS is not a standard offering — exceptions and legacy arrangements exist, so confirm with product.",
+    "lookUp": "The supported version list and the Articulate export setting are in AdminHQ. Check there before committing to a package format.",
+    "formVersion": "3-line",
+    "smeOwner": "SVP of Content"
   },
   "tr-authoring": {
     "support": "Yes",
     "note": "Both halves hold. Admins build custom online courses in PerformanceHQ, adding documents, images, audio and video up to a gigabyte per file, plus SCORM, xAPI, cmi5 and AICC packages, and quizzes or surveys uploaded from a spreadsheet. Everything built lands in the Content Vault alongside Grace Hill content and any other subscribed provider, with versioning and reuse across courses and policies. For software walkthroughs, Capture Wizard records a click-by-click interactive tutorial of a browser or desktop process and drops it into courses, policies and the Vault, re-recordable without building a new course version — the practical answer when a team needs training on a system whose vendor keeps its own courses on its own platform. Be straight about the conditions: Capture Wizard is a paid add-on, it needs the iorad browser extension, only integration-provisioned iorad accounts work in-platform, its quizzes do not count toward course completion, and edits go live immediately everywhere the tutorial is used.",
     "proof": "AdminHQ Policy 3000 documents custom course building, the 1 GB per-file limit and supported formats. Policies 3112 and 3113 document the Content Vault, versioning and spreadsheet quiz upload. Policy 2140 documents Capture Wizard, its iorad dependency, the add-on requirement, and that Capture Wizard quizzes do not count toward completion.",
     "source": "https://adminhq.performancehq.gracehill.com/manuals/18022/policies/1192638 · https://adminhq.performancehq.gracehill.com/manuals/18022/policies/1277879 · https://adminhq.performancehq.gracehill.com/manuals/18017/policies/1300182",
-    "verifiedOn": "2026-08-21"
+    "verifiedOn": "2026-08-21",
+    "lead": "Admins build custom courses in PerformanceHQ and everything lands in the Content Vault alongside Grace Hill content, versioned and reusable. Capture Wizard records click-by-click software walkthroughs — the practical answer when a team needs training on a system whose vendor keeps its courses on its own platform.",
+    "limitLine": "Capture Wizard is a paid add-on, needs the iorad browser extension and an integration-provisioned account, its quizzes do not count toward course completion, and edits go live immediately everywhere the tutorial is used.",
+    "lookUp": "File size limits and the full list of supported package types are in AdminHQ.",
+    "formVersion": "3-line",
+    "smeOwner": "SVP of Content"
   },
   "tr-mobile": {
     "support": "Partial",
     "note": "Learners reach PerformanceHQ from a phone or tablet through the mobile browser, and we publish setup guidance for Apple and Android covering pop-ups, cookies, cross-site tracking and storage, plus a supported-browser list that needs JavaScript and cookies on, our domains allowed through any pop-up blocker, and audio for narration. The content team's stated aim is a learning ecosystem that adapts to different devices and works anywhere, which is why so much of the catalog is short-form. So yes, a maintenance tech can take a course on a phone in the boiler room — with a connection. Be honest about the limit: no offline or download-and-complete-later learner mode is described in GHU or AdminHQ as of 2026-08-21. Admins can download Content Vault items for offline reference, but that is a reference file, not a tracked completion. If a prospect's real requirement is basement dead zones, flag it as an open question rather than promising offline play.",
     "proof": "AdminHQ Policy 1005 gives Apple and Android browser setup for learners. Policy 1010 lists supported browsers and the JavaScript, cookie, pop-up and audio requirements. Policy 3113 describes admin-side Content Vault downloads for offline reference. No offline learner mode or native app is described in GHU or AdminHQ as of 2026-08-21.",
     "source": "https://adminhq.performancehq.gracehill.com/manuals/18015/policies/1176617 · https://adminhq.performancehq.gracehill.com/manuals/18015/policies/1172018 · https://internal.performancehq.gracehill.com/manuals/9482/policies/524203",
-    "verifiedOn": "2026-08-21"
+    "verifiedOn": "2026-08-21",
+    "lead": "Learners reach PerformanceHQ from a phone or tablet through the mobile browser, and much of the catalog is short-form for exactly that reason. A maintenance tech can take a course on a phone — with a connection.",
+    "limitLine": "No offline or download-and-complete-later learner mode. Admins can download Content Vault items for reference, but that is a reference file, not a tracked completion. If the real requirement is basement dead zones, flag it as an open question rather than promising offline play.",
+    "lookUp": "Device setup guidance and the supported-browser list are published in AdminHQ.",
+    "formVersion": "3-line",
+    "smeOwner": "SVP of Content"
   },
   "tr-bilingual": {
     "support": "Yes",
     "note": "Two capabilities, and policy says explicitly they are not interchangeable. A fully translated Spanish course gives the whole learning experience in Spanish — voiceover, on-screen text, activities, assessments, captions where applicable, and resources — and the learner picks English or Spanish. Language Support is different: it provides translated text to help a learner take a course delivered in another language. Availability varies course by course and is not catalog-wide, because translation is prioritized by demonstrated demand, topic importance, role relevance and regulatory need rather than translated all at once. Confirm any specific course in the digital catalog, which flags both English/Spanish availability and Language Support. Two things not to claim: Interplay courses are English only, and a learner's device-level tools such as a screen reader or OS live captions are not Grace Hill translation capabilities and must not be presented as ours.",
     "proof": "GHU Policy 3817, Grace Hill Content: Spanish and Language Support, defines both capabilities, states they should not be represented as interchangeable, lists the prioritization factors, and warns specifically against representing external accessibility features as Grace Hill translation. AdminHQ Policy 125 names the catalog as the authoritative list and states Interplay is English only; Policy 115 states captions are not translatable in the player.",
     "source": "https://internal.performancehq.gracehill.com/manuals/9482/policies/1340501 · https://adminhq.performancehq.gracehill.com/manuals/19986/policies/1299565 · https://catalog.gracehill.com/",
-    "verifiedOn": "2026-08-21"
+    "verifiedOn": "2026-08-21",
+    "lead": "Two different capabilities, and policy is explicit that they are not interchangeable. A fully translated Spanish course delivers the whole experience in Spanish and the learner picks the language. Language Support is different — it provides translated text to help a learner take a course delivered in another language.",
+    "limitLine": "Availability varies course by course and is not catalog-wide. Interplay courses are English only. A learner's own screen reader or OS captions are not Grace Hill capabilities and must never be presented as ours.",
+    "lookUp": "The digital catalog flags both English/Spanish availability and Language Support per course. Confirm the specific course there.",
+    "formVersion": "3-line",
+    "smeOwner": "SVP of Content"
   },
   "tr-pms-integration": {
     "support": "Partial",
     "note": "Keep the two data paths separate and you will never get caught. Training and policy users come from the HR system or the identity provider: a scheduled HRIS feed where the HRIS is the source of truth for hires, terminations and role changes, plus SAML single sign-on. Property management systems appear two other ways. On the survey side, resident programs are fed by resident data feeds. Inside PerformanceHQ, each location can be tagged with its property management system — Entrata, Yardi, RealPage or a custom name — so a portfolio can be filtered and grouped by tech stack and training targeted accordingly. Three limits to say out loud: that PMS field is a label for grouping and reporting, not a training data integration; there is one active HRIS feed per organization and no HRIS API today, with API planned; and Grace Hill training and policy content is not delivered inside a customer's PMS.",
     "proof": "AdminHQ Policy 2050 states the HRIS is the source of truth, one active feed per organization, and no API option today with plans for the future. Policy 2035 documents SAML SSO. The February 2026 release notes document the PMS field and filtering. GHU Policy 1002 states content is provided through PerformanceHQ rather than inside a customer's PMS.",
     "source": "https://adminhq.performancehq.gracehill.com/manuals/18017/policies/1189484 · https://adminhq.performancehq.gracehill.com/manuals/19822/policies/1284218 · https://internal.performancehq.gracehill.com/manuals/9448/policies/938695",
-    "verifiedOn": "2026-08-21"
+    "verifiedOn": "2026-08-21",
+    "lead": "Keep the two data paths separate and you will not get caught. Users come from the HR system or the identity provider. Inside PerformanceHQ each location can be tagged with its property management system, so a portfolio can be filtered and training targeted by tech stack.",
+    "limitLine": "That PMS field is a label for grouping and reporting, not a training data integration. One active HRIS feed per organization and no HRIS API today. Grace Hill training and policy content is not delivered inside a customer's PMS.",
+    "lookUp": "Feed configuration and the location tagging options are documented in AdminHQ.",
+    "formVersion": "3-line",
+    "smeOwner": "SVP of Content"
   },
   "tr-hris-integration": {
     "support": "Yes",
@@ -105,14 +167,24 @@
     "proof": "AdminHQ Policy 2050 states no API integration option today with plans for the future, and no user provisioning via an identity provider. Policy 2035 documents the SAML 2.0 / Cognito setup. The June 2026 RFP response names API-based HRIS integration as a roadmap item covering Workday and ADP, and documents the standard field set: employee ID, name, hire date, email, username, phone, position ID, location ID and supervisor employee ID.",
     "source": "https://adminhq.performancehq.gracehill.com/manuals/18017/policies/1189484 · https://adminhq.performancehq.gracehill.com/manuals/18017/policies/1203552 · Grace Hill RFP response, LMS and Performance Management, June 2026 (internal — customer and pricing redacted)",
     "verifiedOn": "2026-08-21",
-    "reviewNote": "Resolved 2026-08-21. The RFP confirms SFTP-only today with API named on the roadmap, so the gap is now stated with its own remedy rather than left as an unqualified claim."
+    "reviewNote": "Resolved 2026-08-21. The RFP confirms SFTP-only today with API named on the roadmap, so the gap is now stated with its own remedy rather than left as an unqualified claim.",
+    "lead": "Employee data moves both directions by SFTP feed — inbound hires, position changes and terminations, outbound completion records back to the HRIS on a schedule. ADP and Workday are configuration, not custom build. SSO is SAML 2.0 and works with any SAML identity provider.",
+    "limitLine": "No API-based HRIS integration today — it is a named roadmap item, not shipped. No user provisioning from the identity provider, so no SCIM.",
+    "lookUp": "Field mapping and sync scheduling options are in AdminHQ.",
+    "formVersion": "3-line",
+    "smeOwner": "SVP of Content"
   },
   "tr-benchmarking": {
     "support": "No",
     "note": "Correct, and worth saying before a prospect asks. Our benchmarking strength sits on the survey side: the Kingsley Index™ benchmarks resident, tenant and employee satisfaction, segmented by property type. No industry benchmark for training completion or training scores is described in GHU or AdminHQ as of 2026-08-21. On mystery shopping our stated position is that industry benchmarking today comes from a legacy program only, that inclusion in PerformanceHQ is planned, and that ranking reports let a company build its own internal benchmark — often more useful because it reflects that company's own expectations. Use the same framing for training: internal ranking and compliance reporting by location, position and group, measured against the standard the customer sets, not an industry average we publish.",
     "proof": "GHU Policy 9511 defines the Kingsley Index™ scope. GHU Policy 1623 states mystery shop industry benchmarking is legacy-program only with PerformanceHQ inclusion planned. No training benchmark is described in either source.",
     "source": "https://internal.performancehq.gracehill.com/manuals/9440/policies/648330 · https://internal.performancehq.gracehill.com/manuals/9489/policies/857384",
-    "verifiedOn": "2026-08-21"
+    "verifiedOn": "2026-08-21",
+    "lead": "No, and say it before a prospect asks. Our benchmarking strength is on the survey side, where the Kingsley Index™ benchmarks resident, tenant and employee satisfaction. For training, the useful framing is internal ranking by location, position and group against the standard the customer sets.",
+    "limitLine": "There is no industry benchmark for training completion or training scores. Do not imply one exists.",
+    "lookUp": "Kingsley Index™ scope is documented in GHU.",
+    "formVersion": "3-line",
+    "smeOwner": "SVP of Content"
   },
   "po-prewritten-library": {
     "support": "Yes",
@@ -636,7 +708,12 @@
     "proof": "The June 2026 RFP response gives the counts and the breakdown. The Grace Hill Digital Catalog at catalog.gracehill.com carries Sparks and Boosters as browsable categories and is public, so a prospect can be pointed at it directly.",
     "source": "Grace Hill RFP response, LMS and Performance Management, June 2026 (internal — customer and pricing redacted) · https://catalog.gracehill.com/",
     "verifiedOn": "2026-08-21",
-    "sourceClass": "RFP response — point-in-time context, not authoritative"
+    "sourceClass": "RFP response — point-in-time context, not authoritative",
+    "lead": "A large short-form library — Sparks, Leading Edge of Maintenance and Boosters, typically two to five minutes, covering leasing, service, retention, Fair Housing, compliance, leadership and maintenance. Assignable alone, in learning plans or in Pathways, and tracked like anything else. A failed Mystery Shop question maps to a specific one.",
+    "limitLine": "Counts come from a single point-in-time RFP response.",
+    "lookUp": "Confirm any number against catalog.gracehill.com before quoting it externally.",
+    "formVersion": "3-line",
+    "smeOwner": "SVP of Content"
   },
   "tr-performance-mgmt": {
     "support": "Partial",
@@ -644,7 +721,12 @@
     "proof": "Section 5 of the June 2026 RFP response states directly that a dedicated Performance Management module covering formal reviews, goal setting and automated review reminders is not offered, and that transparency on the point is preferred to overpromising. Section 11.1 lists it under Assumptions and Limitations.",
     "source": "Grace Hill RFP response, LMS and Performance Management, June 2026 (internal — customer and pricing redacted)",
     "verifiedOn": "2026-08-21",
-    "sourceClass": "RFP response — point-in-time context, not authoritative"
+    "sourceClass": "RFP response — point-in-time context, not authoritative",
+    "lead": "There is no dedicated Performance Management module — say it plainly, our own RFP response does. What exists is Pathways: a development or improvement plan with phases, dated tasks, required manager sign-off, timestamped comments and employee acknowledgment. A genuine two-party record, and enough to run a PIP. Lead with the loop from a performance signal to a plan, not with review cycles.",
+    "limitLine": "Performance reviews, automated review reminders and performance trend reporting are all answered No.",
+    "lookUp": "Sourced from one product-scoped RFP response reflecting an LMS-only evaluation without the Intelligence+ layer. Re-check the roadmap before repeating the gap list.",
+    "formVersion": "3-line",
+    "smeOwner": "SVP of Content"
   },
   "tr-data-retention": {
     "support": "Yes",
@@ -652,14 +734,24 @@
     "proof": "Section 6 of the June 2026 RFP response covers migration, retention, archiving and export.",
     "source": "Grace Hill RFP response, LMS and Performance Management, June 2026 (internal — customer and pricing redacted)",
     "verifiedOn": "2026-08-21",
-    "sourceClass": "RFP response — point-in-time context, not authoritative"
+    "sourceClass": "RFP response — point-in-time context, not authoritative",
+    "lead": "Training records are retained indefinitely by default — a deactivated user is flagged inactive but the history stays accessible, and nothing is purged on a rolling basis. Any date range is exportable. This is the answer to a litigation hold or a multi-year audit, and a real differentiator against a shared drive or a general-purpose LMS.",
+    "limitLine": "Sourced from one RFP response, and infrastructure detail changes without announcement.",
+    "lookUp": "Confirm with product or security before putting retention or backup specifics in writing for a prospect.",
+    "formVersion": "3-line",
+    "smeOwner": "SVP of Content"
   },
   "tr-content-types": {
     "support": "Yes",
     "note": "Content types are deliberately different, not interchangeable, and policy says so: a foundational compliance course, a Spark, an In the Know, a maintenance demonstration, an assessment and a reinforcement activity are not meant to use the same instructional approach. Position by what the learner needs to do. A full course is for foundational knowledge that has to hold up under scrutiny. Sparks are 2-to-5-minute microlearning for just-in-time reinforcement — 175+ of them. Leading Edge of Maintenance is short-form trade demonstration, 100+. Boosters are short skill lifts, 50+, and they are what a failed Mystery Shop question maps to. In the Know is supplemental and is how a regulatory development gets covered fast without waiting for a course revision. Refreshers re-cover a topic without re-running the full course. Never sell a Spark as a compliance course or a course as microlearning — the whole point is that the format follows the job.",
     "proof": "GHU Policy 8313, Grace Hill Instructional Design Principles: \"The way individual principles are applied may vary based on the learning need and content type\" and \"The goal is not to make every learning experience look or behave the same.\" Policy 3816 names In the Know as the supplemental format used when a legal development does not warrant a full course revision. Counts come from the June 2026 RFP response, which is point-in-time.",
     "source": "https://internal.performancehq.gracehill.com/manuals/9482/policies/1340488 · https://internal.performancehq.gracehill.com/manuals/9482/policies/943533",
-    "verifiedOn": "2026-08-21"
+    "verifiedOn": "2026-08-21",
+    "lead": "Content types are deliberately different, not interchangeable, and policy says so. Position by what the learner needs to do: a full course for foundational knowledge that has to hold up under scrutiny, Sparks for just-in-time reinforcement, Leading Edge of Maintenance for trade demonstration, Boosters for short skill lifts, In the Know to cover a regulatory development fast, Refreshers to re-cover a topic without re-running the course.",
+    "limitLine": "Never sell a Spark as a compliance course, or a course as microlearning. The format follows the job — that is the whole point.",
+    "lookUp": "Counts per content type are in the digital catalog.",
+    "formVersion": "3-line",
+    "smeOwner": "SVP of Content"
   },
   "po-review-approval": {
     "support": "Yes",
@@ -771,21 +863,34 @@
     "note": "Annual compliance refreshers were redesigned for 2026 off customer feedback. They release quarterly to spread compliance touchpoints and cut learner fatigue, each opens with a short scenario-based pre-check so learners who demonstrate mastery skip what they already know and still get full completion credit while others are routed to short targeted explanations, and each carries a required trending-topic module so the content stays current. One limit: the pre-check is core to the design and cannot be disabled at client level.",
     "proof": "GHU Policy 7341 describes the quarterly cadence and pre-check mechanics. GHU Policy 7346 states the strategy came from 2025 Voice of the Customer insights and that the pre-check is not client-configurable.",
     "source": "https://internal.performancehq.gracehill.com/manuals/11974/policies/1219242 · https://internal.performancehq.gracehill.com/manuals/11974/policies/1264261",
-    "verifiedOn": "2026-08-21"
+    "verifiedOn": "2026-08-21",
+    "lead": "Annual compliance refreshers were redesigned for 2026 off customer feedback. They release quarterly to spread compliance touchpoints and cut learner fatigue, and each opens with a short scenario-based pre-check so learners who demonstrate mastery skip what they already know and still get full completion credit.",
+    "limitLine": "The pre-check is core to the design and cannot be disabled at client level.",
+    "formVersion": "3-line",
+    "smeOwner": "SVP of Content"
   },
   "tr-pathways": {
     "support": "Yes",
     "note": "A template system for standardized onboarding and remediation journeys, distinct from learning plans. Admins build reusable task-and-rule templates for a job function, location or department, assign by individual, position, location or group, and edit a live template to improve future journeys without disrupting people already in flight. If the employee on a pathway changes, progress resets and the new assignee's existing training records are verified. Rule-based start dates follow the organization's hire-date or created-date setting; individually assigned pathways appear immediately.",
     "proof": "AdminHQ April 2026 release notes describe the template library, dynamic assignment, reset with record verification, and editing active templates. AdminHQ Policy 11 documents the start-date behaviour.",
     "source": "https://adminhq.performancehq.gracehill.com/manuals/19822/policies/1284214 · https://adminhq.performancehq.gracehill.com/manuals/18724/policies/1231333",
-    "verifiedOn": "2026-08-21"
+    "verifiedOn": "2026-08-21",
+    "lead": "A template system for standardized onboarding and remediation journeys, distinct from learning plans. Reusable task-and-rule templates by job function, location or department, and a live template can be edited to improve future journeys without disrupting people already in flight.",
+    "limitLine": "If the employee on a pathway changes, progress resets and the new assignee's existing training records are verified.",
+    "formVersion": "3-line",
+    "smeOwner": "SVP of Content"
   },
   "tr-partner-content": {
     "support": "Yes",
     "note": "Beyond Grace Hill courseware the catalog carries partner content, filterable by provider so a prospect sees exactly what comes from where — which matters in maintenance and technical skills conversations. Behavioural limits to know before promising anything: some partner content is delivered in the partner's own mobile app rather than our course player, one partner's courses can only be assigned as a curated learning plan rather than individually, and those assignments cannot be set to recur or completed a second time.",
     "proof": "GHU Policy 7001 documents the content-provider filter covering Grace Hill, Interplay Learning, Leap, Realync and SkillCat. AdminHQ Policy 3070 states SkillCat courses are not eligible for direct assignment and those learning plans cannot recur.",
     "source": "https://internal.performancehq.gracehill.com/manuals/9418/policies/1052204 · https://adminhq.performancehq.gracehill.com/manuals/18022/policies/1194761",
-    "verifiedOn": "2026-08-21"
+    "verifiedOn": "2026-08-21",
+    "lead": "The catalog carries partner content alongside Grace Hill courseware, filterable by provider so a prospect sees exactly what comes from where — which matters in maintenance and technical skills conversations.",
+    "limitLine": "Some partner content is delivered in the partner's own mobile app rather than our course player; one partner's courses can only be assigned as a curated learning plan, and those assignments cannot recur or be completed a second time.",
+    "lookUp": "Filter by provider in the digital catalog to see the current set.",
+    "formVersion": "3-line",
+    "smeOwner": "SVP of Content"
   },
   "md-expense-benchmarks": {
     "support": "Yes",

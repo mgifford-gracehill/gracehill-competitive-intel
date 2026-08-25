@@ -106,5 +106,28 @@
     "3_narrowFactBroadConclusion": "A source supports exactly what it says and nothing wider. 'Approved in the State of Texas' does not support 'state-approved'. 'Mystery shop results exist' does not support 'we measure competency'. 'We monitor regulatory change' does not support 'we keep you jurisdiction-current'. When you catch yourself widening a noun — one state to states, one signal to a category, a process to a guarantee — stop and write the narrow version. The narrow version is almost always the more useful sentence on a call anyway, because it survives the follow-up question.",
     "4_inferenceVsApprovedClaim": "Every rep-facing line is one of three things and must be visibly marked as such. SOURCED: a named source with a URL says it. OUR READ: our synthesis from the record, useful for shaping a conversation, not for repeating to a buyer as published fact. OUR POSITIONING: a competitive judgment we have made — a ranking, a characterization, a 'strongest' or 'deepest'. Positioning is legitimate and we should keep making it; it just must never wear the clothes of a sourced fact.",
     "5_confidenceWhenAmbiguous": "Ambiguity is shown, not smoothed. If sources conflict and rank cannot settle it, the record says so and carries a safe line a rep can use in the meantime. If a fact is undated, say it is undated. If an approval is nine years old and names a predecessor product, say that. The polish of the presentation is exactly what makes a reader assume validation, so hedges have to be visible rather than implied."
+  },
+  "smeReview": {
+    "_added": "2026-08-25. A second approver, with a deliberately high bar.",
+    "who": "SVP of Content owns CONTENT TRUTH — whether a claim about Grace Hill content is actually accurate. VP of Product Marketing owns POSITIONING — what we emphasize and how we characterize it. These are different questions about the same sentence and they need different people. A claim can be accurate and badly emphasized, or well emphasized and wrong.",
+    "whyTheBarIsHigh": "The VP of Product Marketing was drowning in approvals two days ago and the fix was to stop asking permission for things that could not cause harm. Repeating that mistake with a second reviewer would be worse, not better — an SME who gets a weekly pile stops reading it, and then the gate is decorative. Route only what genuinely needs subject expertise to judge.",
+    "goesToSME": [
+      "A Grace Hill CONTENT claim changing support value in either direction — Yes, Partial, No.",
+      "A new Grace Hill content capability claim being added.",
+      "A substantive rewrite of what a content claim asserts, including GENERALIZING it — shortening can drop a nuance only an SME knows is load-bearing.",
+      "Anything touching these subjects, where being wrong is a content-accuracy failure rather than a positioning one: federal versus state scope, course approvals and accreditation, Spanish and Language Support, content types and instructional approach, legal monitoring process and its limits, course and module counts, credential and CEC eligibility.",
+      "A conflict between two Grace Hill CONTENT sources that rank cannot settle."
+    ],
+    "doesNotGoToSME": [
+      "Anything about a competitor. Not her domain and not her time.",
+      "Wording polish, jargon removal, US English fixes, trademark corrections.",
+      "Adding a source URL or a date stamp to a claim whose substance is unchanged.",
+      "Positioning and emphasis decisions — which claim leads, what a rep says first. Those are the VP of Product Marketing's.",
+      "Anything already approved by her and unchanged since. Track with smeReviewedOn."
+    ],
+    "format": "Batch, never a stream. One message per review round, with a numbered list of what changed and what it says now. She reacts once per item. Cap at six items per round — over six, send the six that most need subject expertise and hold the rest for the next round. If nothing qualifies, send nothing at all.",
+    "cadence": "Monthly at most, alongside the editorial audit. A content claim does not change often enough to justify more.",
+    "recordOnApproval": "Set smeReviewedOn to the date and smeReviewedBy to the role. That is what keeps her out of the next round for the same claim.",
+    "ifSheDisagrees": "Her answer wins on content truth without further debate. She is the source of truth on what our content actually is. If her correction changes what we should EMPHASIZE as well, that part goes to the VP of Product Marketing as a separate Tier 3 item — do not merge the two questions into one message."
   }
 }

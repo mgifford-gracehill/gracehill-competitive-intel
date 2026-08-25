@@ -1,0 +1,69 @@
+{
+  "note": "How much detail a claim carries, and who decides. Written 2026-08-25 after the VP of Product Marketing asked whether generalizing some facts and pointing at the policy would make the tool less useful. The answer turned out to be that generalizing OUR OWN facts makes it both simpler and more accurate, while generalizing a COMPETITOR'S facts destroys the only thing that made them worth having.",
+
+  "theTest": {
+    "question": "What does the rep need this fact FOR? That decides the treatment, not how important the fact is.",
+    "toDecide": {
+      "means": "Compete here or not? Lead with what? Is this the buying criterion?",
+      "needs": "The SHAPE of the fact, not its values.",
+      "treatment": "GENERALIZE. Give the shape inline and point at the authoritative page for the values.",
+      "example": "A rep never needs to recite 'Virginia DPOR and Texas TDHCA'. They need to know our approvals are a short named list rather than broad state coverage — which is the thing that changes how they position."
+    },
+    "toSayOutLoud": {
+      "means": "A buyer asked a direct question and the rep answers now.",
+      "needs": "Precision, or they get corrected in the room.",
+      "treatment": "KEEP EXACT. This is where specificity earns its place.",
+      "example": "Their fair housing approval is from June 2017 under a predecessor product name. Generalize that to 'their approvals may be dated' and you have destroyed the only useful thing about it."
+    },
+    "toNotGetBurned": {
+      "means": "The limit, the caveat, the thing a prospect finds that the rep did not mention.",
+      "needs": "Bluntness.",
+      "treatment": "NEVER GENERALIZE. A vague guardrail is not a guardrail.",
+      "example": "'There is no TDHCA-approved version of Fair Housing for Maintenance' stays exactly as written. 'Some versions have limits' protects nobody."
+    }
+  },
+
+  "theRule": {
+    "ourFacts": "GENERALIZE AND POINT. Grace Hill facts have an authoritative home — GHU and AdminHQ — that is always more current than this app. Duplicating a value here creates a stale copy AND a surface for the system to fabricate on. The Fair Housing error happened precisely because the app was being specific about our own state approvals; had the record said 'a short named list, see Policy 110', there would have been nothing to invent.",
+    "theirFacts": "KEEP EXACT. A competitor fact has no authoritative home we can link to. This app IS the record. Dates, versions, product names and published limits are the whole value, and they are what a rep uses to ask a question the competitor cannot answer comfortably.",
+    "theAsymmetry": "This is deliberate and it is the opposite of what feels balanced. We are vaguer about ourselves than about them, because we can always look ourselves up and cannot always look them up."
+  },
+
+  "threeLineCeiling": {
+    "applies": "The default (Quick) view of any Grace Hill capability claim.",
+    "line1": "LEAD WITH — what this means for the deal. The decision, in one sentence.",
+    "line2": "SAY BEFORE THEY FIND IT — the single limit most likely to catch a rep out. Blunt, never softened.",
+    "line3": "WHERE THE LIVE ANSWER IS — the authoritative page, named, with what a rep should check before quoting a value.",
+    "everythingElse": "Stays in the record, behind the Detail toggle and in Full detail view. Nothing sourced is deleted — it moves.",
+    "why": "Median note length was 811 characters and 53 of 104 ran over 800. A rep on a call reads none of that. The three-line form is what they actually use; the rest is what they read while preparing, or what an SME checks."
+  },
+
+  "neverGeneralize": [
+    "Any stated limit or exception — these exist to stop a rep being caught.",
+    "Anything in doNotSay.",
+    "A competitor's dates, version numbers, product names, published prices or published counts.",
+    "The distinction between two things people conflate — fully translated Spanish courses versus the Language Support Tool is a capability difference, not a detail.",
+    "Whether a capability is current-state, roadmap, or discovery.",
+    "The compliance boundary: Grace Hill maintains the content, the customer keeps the obligation."
+  ],
+
+  "generalizeAndPoint": [
+    { "class": "State and agency approval lists", "inline": "That the list is short and named rather than broad coverage", "pointTo": "AdminHQ Policy 110 / 100" },
+    { "class": "Course, module and unit counts", "inline": "The order of magnitude and what it is counting", "pointTo": "catalog.gracehill.com" },
+    { "class": "Standard and version lists (SCORM, xAPI, cmi5, AICC)", "inline": "That the mainstream standards are supported via Rustici", "pointTo": "AdminHQ Policy on delivery standards" },
+    { "class": "Process cadences (bi-weekly review, annual recertification)", "inline": "That the process is documented and ongoing, and that it is not a guarantee of immediate change", "pointTo": "GHU Policy 3816" },
+    { "class": "Internal policy numbers", "inline": "Nothing — a rep does not cite policy numbers to a buyer", "pointTo": "Keep the number in the proof field, out of the rep-facing note" }
+  ],
+
+  "whereThisFails": [
+    "A link only helps if someone clicks it, and mid-call nobody does. The inline shape has to stand alone for the live conversation; the link serves preparation and verification.",
+    "GHU and AdminHQ need a login. Fine for prep, useless on a call with a prospect watching.",
+    "In the Us vs them comparison, generalizing our side while the competitor's stays specific makes us look thinner than we are. Generalize symmetrically in that view or not at all."
+  ],
+
+  "approval": {
+    "positioning": "VP of Product Marketing — what we emphasize, how we characterize, what a rep says.",
+    "contentTruth": "SVP of Content — whether a claim about Grace Hill content is actually accurate.",
+    "note": "These are different questions about the same sentence and they need different people. A claim can be perfectly accurate and badly emphasized, or well-emphasized and wrong."
+  }
+}

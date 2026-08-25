@@ -843,7 +843,10 @@ function renderCompetitor(id){
              Everything else — full note, policy numbers, stated limits — behind Detail.
              The source link stays visible at all times: pointing at the source is the
              job, quoting the documentation at length is not. */
-          const lead=g.approvedWording||firstSent(g.note,120);
+          /* Three-line form where a claim has one: the decision, the limit that catches a rep,
+             and where the live answer is. The full note is not deleted, it moves behind Detail —
+             which is what lets the same record serve a rep on a call and an SME checking accuracy. */
+          const lead=g.lead||g.approvedWording||firstSent(g.note,120);
           const deep=[
             g.note&&g.note!==lead?`<div style="border-left:3px solid var(--cer);padding-left:8px"><strong style="color:var(--navy)">GRACE HILL —</strong> ${esc(g.note)}</div>`:'',
             g.statedLimit?`<div style="margin-top:6px"><strong>Limit we state:</strong> ${esc(g.statedLimit)}</div>`:'',
@@ -851,6 +854,8 @@ function renderCompetitor(id){
             f.note?`<div style="margin-top:8px;border-left:3px solid var(--muted);padding-left:8px"><strong>${esc(c.name.toUpperCase())} —</strong> ${esc(f.note)}</div>`:''
           ].filter(Boolean).join('');
           return `${lead?`<div class="oneline">${g.approvedWording?'<strong>Say:</strong> ':''}${esc(lead)}</div>`:''}
+          ${g.limitLine?`<div class="oneline" style="margin-top:4px"><strong style="color:var(--red)">Say before they find it:</strong> ${esc(g.limitLine)}</div>`:''}
+          ${g.lookUp?`<div class="oneline src" style="margin-top:4px"><strong>Live answer:</strong> ${esc(g.lookUp)}</div>`:''}
           ${g.doNotSay?`<div class="oneline" style="margin-top:3px;color:var(--red)"><strong>Do not say:</strong> ${esc(firstSent(g.doNotSay,110))}</div>`:''}
           <div class="src" style="margin-top:4px">${srcLinks(g.source,'our source')}${f.source?` · <a class="src" href="${esc(f.source)}" target="_blank" rel="noopener">their source ↗</a>`:''}
             ${deep?` · <button class="more" data-more="Detail" data-less="Less" onclick="more(this)">Detail</button>`:''}</div>

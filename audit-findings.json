@@ -280,6 +280,118 @@
    "4 mentions"
   ]
  ],
+ "N_sme_queue": [
+  [
+   "tr-multifamily-content",
+   "Yes",
+   "never reviewed by the SME"
+  ],
+  [
+   "tr-vendor-maintained",
+   "Yes",
+   "never reviewed by the SME"
+  ],
+  [
+   "tr-fair-housing",
+   "Yes",
+   "never reviewed by the SME"
+  ],
+  [
+   "tr-state-specific",
+   "Partial",
+   "never reviewed by the SME"
+  ],
+  [
+   "tr-cec-eligible",
+   "Partial",
+   "never reviewed by the SME"
+  ],
+  [
+   "tr-role-assignment",
+   "Yes",
+   "never reviewed by the SME"
+  ],
+  [
+   "tr-competency",
+   "Partial",
+   "never reviewed by the SME"
+  ],
+  [
+   "tr-compliance-reporting",
+   "Partial",
+   "never reviewed by the SME"
+  ],
+  [
+   "tr-scorm",
+   "Yes",
+   "never reviewed by the SME"
+  ],
+  [
+   "tr-authoring",
+   "Yes",
+   "never reviewed by the SME"
+  ],
+  [
+   "tr-mobile",
+   "Partial",
+   "never reviewed by the SME"
+  ],
+  [
+   "tr-bilingual",
+   "Yes",
+   "never reviewed by the SME"
+  ],
+  [
+   "tr-pms-integration",
+   "Partial",
+   "never reviewed by the SME"
+  ],
+  [
+   "tr-hris-integration",
+   "Yes",
+   "never reviewed by the SME"
+  ],
+  [
+   "tr-benchmarking",
+   "No",
+   "never reviewed by the SME"
+  ],
+  [
+   "tr-microlearning",
+   "Yes",
+   "never reviewed by the SME"
+  ],
+  [
+   "tr-performance-mgmt",
+   "Partial",
+   "never reviewed by the SME"
+  ],
+  [
+   "tr-data-retention",
+   "Yes",
+   "never reviewed by the SME"
+  ],
+  [
+   "tr-content-types",
+   "Yes",
+   "never reviewed by the SME"
+  ],
+  [
+   "tr-refresher-strategy",
+   "Yes",
+   "never reviewed by the SME"
+  ],
+  [
+   "tr-pathways",
+   "Yes",
+   "never reviewed by the SME"
+  ],
+  [
+   "tr-partner-content",
+   "Yes",
+   "never reviewed by the SME"
+  ]
+ ],
  "G_unsourced_GH": [
   [
    "tr-multifamily-content",
