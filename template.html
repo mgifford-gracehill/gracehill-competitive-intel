@@ -366,6 +366,7 @@ details.deep>div{padding:0 16px 16px}
   <section class="view" id="v-search"></section>
   <section class="view" id="v-competitor"></section>
   <section class="view" id="v-gh"></section>
+  <section class="view" id="v-pitch"></section>
   <section class="view" id="v-news"></section>
   <div id="cardview"></div>
 </div>
@@ -530,7 +531,7 @@ function personasFor(c){
 const FEAT={}; F.lines.forEach(l=>l.features.forEach(f=>FEAT[f.id]={...f,line:l.line}));
 const byId=Object.fromEntries(C.map(c=>[c.id,c]));
 
-const TABS=[['start','Start here'],['home','Competitors'],['explore','Explore'],['news','What’s new']];
+const TABS=[['start','Start here'],['home','Competitors'],['explore','Explore'],['pitch','Pitch'],['news','What’s new']];
 function nav(){const n=$('#nav');TABS.forEach(([id,l])=>{const b=document.createElement('button');b.textContent=l;b.dataset.t=id;b.onclick=()=>go(id);n.appendChild(b)})}
 /* Views are pushed onto browser history. Without this, Back left the app entirely and
    landed on the Access sign-in — because the only history entry behind the app WAS the
@@ -544,6 +545,7 @@ function go(v,arg,fromPop){
   if(v==='competitor')renderCompetitor(arg);
   if(v==='gh')renderGH(arg);
   if(v==='explore')renderExplore(arg);
+  if(v==='pitch')renderPitch();
   window.scrollTo(0,0);
   if(!fromPop){
     const h='#'+v+(arg?'/'+encodeURIComponent(arg):'');
@@ -559,7 +561,7 @@ function route(){
   const h=(location.hash||'').replace(/^#/,'');
   if(!h)return {v:'start'};
   const [v,a]=h.split('/');
-  const ok=['start','home','explore','news','competitor','gh'];
+  const ok=['start','home','explore','pitch','news','competitor','gh'];
   if(!ok.includes(v))return {v:'start'};
   return {v:v,arg:a?decodeURIComponent(a):undefined};
 }
@@ -1251,10 +1253,6 @@ function renderStart(){
     <button onclick="go('explore')"><span class="et">Explore</span><span class="ed">When you don't have a name to search</span></button>
   </div>
 
-  ${live.length?`<div class="card" style="border-left:4px solid var(--red);margin:18px 0 0">
-    <h4>Named in live deals right now</h4><hr class="rule">
-    <div class="chips">${live.slice(0,12).map(c=>`<span class="chip ${playC(c.play)}" style="cursor:pointer;text-transform:none" onclick="go('competitor','${c.id}')">${esc(c.name)} →</span>`).join('')}</div></div>`:''}
-
   <h2 style="margin-top:26px">This week's watch</h2><hr class="rule">
   <p class="src" style="margin:0 0 12px">${esc((D.news||{}).weekOf||'')} · full feed under <strong>What's new</strong>.</p>
   ${watchItems().slice(0,3).map(i=>`<div class="watch">
@@ -1432,6 +1430,75 @@ function drawHome(){
 
 function goLine(l){HPLAY='';go('home');const s=$('#h-line');if(s){s.value=l;drawHome()}}
 
+function renderPitch(){
+  const P=PITCH||{}, M=MSG.messages||[], SQB=MSG.statusQuoBias||{};
+  const q=(title,body)=>`<details><summary>${title}</summary><div>${body}</div></details>`;
+  const list=a=>`<ul class="tight" style="margin:0">${(a||[]).map(x=>`<li>${x}</li>`).join('')}</ul>`;
+
+  $('#v-pitch').innerHTML=`
+  <h1>Pitch</h1><hr class="rule">
+  <p style="max-width:68ch;color:var(--muted);margin:0 0 16px">How we tell the Grace Hill story — before a competitor is even in the room. ${P.asOf?`Current as of ${esc(P.asOf)}.`:''}</p>
+
+  ${P.anchorPromise?`<div class="verdict compete" style="margin-bottom:14px">
+    <div class="st">The anchor promise</div><div class="ln">${esc(P.anchorPromise)}</div></div>`:''}
+
+  ${P.thirtySecond?`<div class="card" style="border-left:4px solid var(--red);margin-bottom:14px">
+    <h4 style="color:var(--red)">Thirty seconds — say this one out loud until it is yours</h4><hr class="rule">
+    <p style="margin:0;font-size:.98rem;line-height:1.6">${esc(P.thirtySecond)}</p>
+    ${P.closingLine?`<p style="margin:10px 0 0;font-family:var(--fd);font-weight:700;color:var(--navy)">${esc(P.closingLine)}</p>`:''}</div>`:''}
+
+  <div class="faq" style="margin-top:16px">
+    ${M.length?q('Which message — am I disrupting the status quo or protecting it?',
+      `<p style="margin:0 0 8px">${md((MSG.theBigIdea||''))}</p>
+       ${M.map(x=>`<div style="margin-bottom:12px;border-left:3px solid var(--cer);padding-left:10px">
+         <div style="font-family:var(--fd);font-weight:700;color:var(--navy)">${esc(x.name)}</div>
+         <div class="src">${esc(x.use||'')}</div>
+         <div style="font-size:.88rem;margin-top:4px"><strong>Goal:</strong> ${esc(x.goal||'')}</div>
+         ${has(x.steps)?list(x.steps.map(md)):''}</div>`).join('')}
+       ${SQB.warning?`<div class="neg">${esc(SQB.warning)}</div>`:''}`):''}
+
+    ${P.threeMinute?q('The three-minute version',
+      Object.entries(P.threeMinute).map(([k,v])=>`<div style="margin-bottom:8px"><span class="src"><strong>${esc(k.replace(/([A-Z])/g,' $1').toLowerCase())}</strong></span><div style="font-size:.9rem">${esc(v)}</div></div>`).join('')):''}
+
+    ${has(P.proof)?q('Proof points I can say out loud',
+      `${P.proof.map(x=>`<div style="margin-bottom:8px"><span style="font-family:var(--fd);font-weight:800;color:var(--red);font-size:1.1rem">${esc(x.stat)}</span>
+        <span style="font-size:.9rem"> — ${esc(x.label)}</span>${x.area?`<span class="chip c-cat" style="margin-left:6px">${esc(x.area)}</span>`:''}</div>`).join('')}
+       ${P.proofQuote?`<div class="pt" style="margin-top:8px">${dq(P.proofQuote.quote)}<div class="src" style="margin-top:3px">${esc(P.proofQuote.who||'')}</div></div>`:''}`):''}
+
+    ${has(P.objections)?q(`What they push back with (${P.objections.length})`,
+      P.objections.map(o=>`<div style="margin-bottom:10px"><div style="font-weight:700;color:var(--navy)">${dq(o.objection)}</div>
+        <div class="pt" style="margin-top:4px;font-size:.9rem">${esc(o.response)}</div></div>`).join('')):''}
+
+    ${has(P.stories)?q('Customer stories, and when to use each',
+      `${P.stories.map(st=>`<div style="margin-bottom:12px;border-left:3px solid var(--cer);padding-left:10px">
+        <div style="font-family:var(--fd);font-weight:700;color:var(--navy)">${esc(st.role||st.name||'')}</div>
+        ${st.useWhen?`<span class="chip c-ov-p">Use when: ${esc(st.useWhen)}</span>`:''}
+        <div style="font-size:.88rem;margin-top:5px">${esc(st.situation||'')} ${esc(st.pain||'')}</div>
+        ${st.impact?`<div class="pt" style="margin-top:4px;font-size:.88rem"><strong>Impact:</strong> ${esc(st.impact)}</div>`:''}
+        ${st.ask?`<div class="src" style="margin-top:4px"><strong>End on:</strong> ${esc(st.ask)}</div>`:''}</div>`).join('')}
+       ${P.storiesNote?`<p class="src" style="margin:0">${esc(P.storiesNote)}</p>`:''}`):''}
+
+    ${has(P.alternatives)?q('What else is on their shortlist — be fair to each',
+      `<table><thead><tr><th>Approach</th><th>Good for</th><th>Where it stops</th></tr></thead><tbody>${
+        P.alternatives.map(a=>`<tr><td><strong>${esc(a.approach)}</strong></td><td>${esc(a.goodFor||'')}</td><td>${esc(a.stops||'')}</td></tr>`).join('')}</tbody></table>
+       ${P.alternativesNote?`<p class="src" style="margin:8px 0 0">${esc(P.alternativesNote)}</p>`:''}`):''}
+
+    ${has(P.resolutionLoop)?q('Know, Act, Prove — the loop in three steps',
+      `${P.resolutionLoop.map(r=>`<div style="margin-bottom:6px"><span class="chip c-gh">${esc(r.step)}</span> ${esc(r.detail)}</div>`).join('')}
+       ${P.loopNote?`<p class="src" style="margin:6px 0 0">${esc(P.loopNote)}</p>`:''}`):''}
+
+    ${P.packaging?q('How it is packaged',
+      Object.entries(P.packaging).filter(([k])=>k!=='note').map(([k,v])=>`<div style="margin-bottom:6px"><span class="src"><strong>${esc(k)}</strong></span>
+        <div style="font-size:.9rem">${esc(typeof v==='string'?v:JSON.stringify(v))}</div></div>`).join('')
+      +(P.packaging.note?`<div class="neg">${esc(P.packaging.note)}</div>`:'')):''}
+
+    ${has(P.languageToAvoid)?q('Language to avoid',
+      `<div class="neg" style="margin:0">${(P.languageToAvoid||[]).map(esc).join('<br>')}</div>`):''}
+  </div>
+
+  <p class="src" style="margin-top:16px">${esc(P.source||'')}</p>`;
+}
+
 function renderExplore(which){
   const cur=which||'outcome';
   const BLURB={outcome:'Pick the outcome the buyer wants. Each one opens a different conversation.',
@@ -1546,8 +1613,17 @@ function productsHTML(){
 /* ---------- NEWS ---------- */
 function renderNews(){
   const N=D.news;
+  const live=Object.keys(HEARD).map(k=>byId[k]).filter(Boolean)
+    .sort((a,b)=>(HEARD[b.id].deals||0)-(HEARD[a.id].deals||0));
+  const fresh=(()=>{const ds=(N.items||[]).map(i=>i.date).filter(Boolean).sort();
+    return ds.length?ds[ds.length-1]:'';})();
   $('#v-news').innerHTML=`<h1>What's new</h1><hr class="rule">
-  <p style="color:var(--muted);margin:0 0 16px">${esc(N.weekOf)} · ${esc(N.coverageWindow)}</p>
+  <p style="color:var(--muted);margin:0 0 4px">${esc(N.weekOf)} · ${esc(N.coverageWindow)}</p>
+  <p class="src" style="margin:0 0 14px">Newest item ${esc(fresh)}. This feed is refreshed by the weekend sweep — if that date looks old, the sweep has not run, and it is worth saying so in the beta channel.</p>
+  ${live.length?`<div class="card" style="border-left:4px solid var(--red);margin:0 0 16px">
+    <h4>Named in live deals right now</h4><hr class="rule">
+    <p class="src" style="margin:0 0 6px">From call patterns, not from the news feed. These are the competitors buyers are actually naming.</p>
+    <div class="chips">${live.slice(0,12).map(c=>`<span class="chip ${playC(c.play)}" style="cursor:pointer;text-transform:none" onclick="go('competitor','${c.id}')">${esc(c.name)}${HEARD[c.id]&&HEARD[c.id].deals?' · '+HEARD[c.id].deals:''} →</span>`).join('')}</div></div>`:''}
   <div class="verdict compete" style="margin-bottom:20px"><div class="st">This week's talk track</div><div class="ln" style="font-size:1rem">${esc(N.talkTrack)}</div></div>
   ${N.items.slice().sort((a,b)=>String(b.date).localeCompare(String(a.date))).map(i=>`
     <div class="card" style="margin-bottom:10px">

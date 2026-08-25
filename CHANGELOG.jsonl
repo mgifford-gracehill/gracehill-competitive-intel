@@ -76,3 +76,10 @@
 {"date": "2026-08-25", "kind": "changed", "summary": "By product shows four per line with a Show-more", "because": "By product still shows too many records", "tier": "2"}
 {"date": "2026-08-25", "kind": "changed", "summary": "Quick and Full now differ by 37% on What's new and 5x on Explore", "because": "Quick vs Full detail toggle does not make enough difference", "tier": "2"}
 {"date": "2026-08-25", "kind": "changed", "summary": "Renamed the confusing limit heading to The catch", "because": "Say before they find it is the wrong headline", "tier": "2"}
+{"date": "2026-08-25", "kind": "heard", "summary": "Want a pitch and positioning section — elevator pitches etc", "who": "VP of Product Marketing", "via": "DM"}
+{"date": "2026-08-25", "kind": "heard", "summary": "Live deals section belongs in What's new", "who": "VP of Product Marketing", "via": "DM"}
+{"date": "2026-08-25", "kind": "heard", "summary": "What's new is still showing August 11 — when does it update", "who": "VP of Product Marketing", "via": "DM"}
+{"date": "2026-08-25", "kind": "heard", "summary": "Want a skill so employees can use this data in a Claude chat", "who": "VP of Product Marketing", "via": "DM"}
+{"date": "2026-08-25", "kind": "changed", "summary": "Added a Pitch tab — anchor promise and thirty-second pitch visible, everything else collapsed. It had been a section in Start here and I cut it in the UX pass", "because": "Want a pitch and positioning section", "tier": "2"}
+{"date": "2026-08-25", "kind": "changed", "summary": "Moved Named in live deals to What's new and added a freshness line showing the newest item date", "because": "Live deals section belongs in What's new", "tier": "2"}
+{"date": "2026-08-25", "kind": "changed", "summary": "Packaged the competitive data as a Claude skill — index plus per-competitor files so a chat loads only what it needs", "because": "Want a skill so employees can use this data in a Claude chat", "tier": "2"}
