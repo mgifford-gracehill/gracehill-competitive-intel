@@ -125,6 +125,14 @@ body[data-den="full"] .more{display:none}
 #den button{background:none;border:0;color:rgba(255,255,255,.72);font:inherit;font-size:.7rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:5px 9px;border-radius:4px;cursor:pointer;white-space:nowrap}
 #den button.on{background:#fff;color:var(--navy)}
 .oneline{font-size:.88rem;line-height:1.45}
+/* Provenance markers. Deliberately quiet but never absent — an unlabelled line was the
+   problem, so there is no unlabelled state. */
+.pv{display:inline-block;font-size:.62rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:1px 5px;border-radius:3px;vertical-align:1px;margin-left:5px;white-space:nowrap}
+.pv-src{background:#e6f7fd;color:#0b6b8a;text-decoration:none}
+a.pv-src:hover{background:#03B8EC;color:#fff}
+.pv-read{background:#fdf3e6;color:#8a5a0b}
+.provkey{font-size:.74rem;color:var(--muted);margin:0 0 10px}
+
 /* Ranked list — By product. A grid of boxes makes you hunt; a list you read top to bottom. */
 .rank{border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#fff}
 .rank button{display:grid;grid-template-columns:minmax(140px,1.1fr) 150px minmax(180px,2fr) 18px;gap:12px;align-items:baseline;width:100%;text-align:left;background:none;border:0;border-bottom:1px solid var(--border);padding:11px 14px;font:inherit;cursor:pointer;transition:.1s}
@@ -369,6 +377,16 @@ function srcLinks(u,label){
   if(!u)return '';
   return String(u).split('·').map(x=>x.trim()).filter(Boolean).slice(0,3)
     .slice(0,1).map(x=>`<a class="src" href="${esc(x)}" target="_blank" rel="noopener">${esc(label||'source')} ↗</a>`).join('');
+}
+function prov(x){
+  /* Three states, and the middle one is the whole point. A rep should never have to guess
+     which of these they are reading, because the confident-sounding sentence is exactly the
+     one most likely to have been synthesized rather than sourced. */
+  const u = x && (x.source || x.url);
+  if(u && /^https?:/.test(u))
+    return `<a class="pv pv-src" href="${esc(u)}" target="_blank" rel="noopener" title="Sourced — opens the page this came from">sourced ↗</a>`;
+  if(u) return `<span class="pv pv-src" title="${esc(u)}">sourced</span>`;
+  return `<span class="pv pv-read" title="No source URL on this line. It is our reading of the record — useful, but do not repeat it to a buyer as a published fact.">our read</span>`;
 }
 function partnerOf(c){
   const hay=((c.name||'')+' | '+(c.parent||'')+' | '+((c.aka||[]).join(' '))).toLowerCase();
@@ -877,14 +895,16 @@ function renderCompetitor(id){
       <div class="neg">${esc(c.doNotSay[0])}</div>
       ${c.doNotSay.length>1?`<button class="more" data-more="The other "+(c.doNotSay.length-1)" data-less="Hide" onclick="more(this)">The other ${c.doNotSay.length-1}</button><div class="dtl">${c.doNotSay.slice(1).map(d=>`<div class="neg">${esc(d)}</div>`).join('')}</div>`:''}</div>`:''}
     ${val(c.positioning)?`<div class="card" style="margin-bottom:14px"><h4>How they position themselves</h4><hr class="rule"><p style="margin:0">${esc(c.positioning.value)}</p></div>`:''}
-    ${(()=>{const li=(x)=>`<li>${esc(x.text)}${x.source?` <a class="src" href="${esc(x.source)}" target="_blank" rel="noopener">↗</a>`:''}</li>`;
+    ${(()=>{const li=(x)=>`<li>${esc(x.text)}${prov(x)}</li>`;
       const half=(t,arr)=>{ if(!has(arr))return `<div class="card"><h4>${t}</h4><hr class="rule"><p class="src">None recorded.</p></div>`;
         const top=arr.slice(0,4), rest=arr.slice(4);
         return `<div class="card"><h4>${t} <span class="src">(${arr.length})</span></h4><hr class="rule">
           <ul class="tight" style="margin:0">${top.map(li).join('')}</ul>
           ${rest.length?`<button class="more" data-more="${rest.length} more" data-less="Fewer" onclick="more(this)">${rest.length} more</button>
             <div class="dtl"><ul class="tight" style="margin:0">${rest.map(li).join('')}</ul></div>`:''}</div>`};
-      return `<div class="grid g2">${half('Their real strengths',c.strengths)}${half('Gaps and limits',c.gaps)}</div>`})()}
+      return `<p class="provkey"><span class="pv pv-src">sourced</span> the line came from a page we can open — click it.
+        <span class="pv pv-read">our read</span> no source on this line: it is our reading, useful for shaping the conversation, but do not repeat it to a buyer as a published fact.</p>
+        <div class="grid g2">${half('Their real strengths',c.strengths)}${half('Gaps and limits',c.gaps)}</div>`})()}
     ${(()=>{const sn=Object.entries(c.snapshot||{}).filter(([,o])=>val(o));
       return (sn.length||val(c.pricing))?`<div class="card" style="margin-top:14px"><h4>Snapshot</h4><hr class="rule"><table><tbody>${
       sn.map(([k,o])=>`<tr><td style="width:120px;color:var(--muted);text-transform:capitalize">${esc(k)}</td><td>${esc(o.value)}${o.source?` <a class="src" href="${esc(o.source)}" target="_blank" rel="noopener">↗</a>`:''}</td></tr>`).join('')}

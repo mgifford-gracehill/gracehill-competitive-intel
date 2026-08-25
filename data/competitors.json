@@ -26375,7 +26375,7 @@
     },
     "strengths": [
       {
-        "text": "State-approved fair housing content: fair housing courses approved by TDHCA and the Florida DBPR that qualify for continuing education credit.",
+        "text": "Texas lists them as an approved fair housing trainer: TDHCA added Yardi eLearning to the approved fair housing trainers directory, announced June 2017. That is the only fair housing state approval they publish.",
         "source": "https://www.yardi.com/product/aspire/",
         "verifiedOn": "2026-08-11"
       },
@@ -26422,20 +26422,24 @@
         "verifiedOn": "2026-08-11"
       },
       {
-        "text": "Fair housing state approvals named publicly are Texas (TDHCA) and Florida (DBPR); no broader multi-state fair housing approval list is published.",
+        "text": "Texas is the only fair housing state approval they publish, and the announcement is from June 2017 under the older Yardi eLearning name. No broader multi-state fair housing approval list is published.",
         "source": "https://www.yardi.com/product/aspire/",
         "verifiedOn": "2026-08-11"
+      },
+      {
+        "text": "Their one published fair housing state approval dates to June 2017 and names Yardi eLearning, the predecessor product. Nothing published confirms it carries to Aspire.",
+        "source": "https://www.yardi.com/news/state-texas-certifies-yardi-elearning-fair-housing-training-provider/"
       }
     ],
     "whyWeWin": [
       "Grace Hill measures competency, not just completion — tie the conversation to what the team can demonstrate, not what they clicked through.",
       "Aspire proves training happened; PerformanceHQ connects training to mystery shop scores, resident and employee survey results and reputation signals in one place.",
-      "Aspire's published fair housing state approvals are Texas and Florida — for a multi-state portfolio, ask how each additional jurisdiction is covered.",
+      "Aspire publishes one fair housing state approval — Texas — and the announcement dates to June 2017. For a multi-state portfolio, ask how each additional jurisdiction is covered.",
       "Capability is tiered (Aspire / Plus / Platinum) — confirm which tier the quoted price actually buys before comparing features."
     ],
     "askThis": [
       "Which Aspire tier is in the quote — base, Plus or Platinum? Which of the features you were shown are Platinum-only?",
-      "For the states your portfolio operates in beyond Texas and Florida, what fair housing approval or jurisdiction variant is provided?",
+      "Beyond Texas, what fair housing approval or jurisdiction variant is provided for the states your portfolio operates in?",
       "How do you know a leasing consultant can actually do the thing, versus that they finished the course?",
       "How would you compare your training completion against what the rest of the industry is doing?",
       "If your organization moves off Yardi Voyager, what happens to the training system and the completion history?"
@@ -26455,7 +26459,7 @@
       }
     ],
     "doNotSay": [
-      "They don't have fair housing content — they do, with published Texas and Florida approvals.",
+      "They don't have fair housing content — they do, and Texas lists them as an approved fair housing trainer.",
       "They don't have Spanish content — they publish 100+ bilingual courses.",
       "They can't do SCORM — SCORM compatibility is named in the Platinum tier.",
       "Any claim about Aspire's price, customer count or course count — none is published."
@@ -26475,7 +26479,7 @@
       },
       "tr-fair-housing": {
         "support": "Yes",
-        "note": "Federal Fair Housing training, approved in the State of Texas; fair housing courses approved by TDHCA and Florida DBPR.",
+        "note": "Course catalog lists Federal Fair Housing Compliance as approved in the State of Texas. TDHCA lists them in the approved fair housing trainers directory (June 2017, as Yardi eLearning). No continuing-education-credit claim is published, and no other state is named for fair housing.",
         "source": "https://www.yardi.com/product/aspire/",
         "verifiedOn": "2026-08-11"
       },
@@ -26585,6 +26589,11 @@
         "title": "About Us - Yardi",
         "url": "https://www.yardi.com/about-us/",
         "retrievedOn": "2026-08-11"
+      },
+      {
+        "title": "State of Texas Certifies Yardi eLearning as Fair Housing Training Provider (June 28, 2017)",
+        "url": "https://www.yardi.com/news/state-texas-certifies-yardi-elearning-fair-housing-training-provider/",
+        "retrievedOn": "2026-08-24"
       }
     ],
     "stackLayer": {
@@ -26609,7 +26618,7 @@
         "letter": "P",
         "stage": "Pain",
         "listenFor": "Capability is split across three purchase tiers — SCORM compatibility, embedded e-signature, live polling and Microsoft Teams integration are named as Platinum-tier features, so the base tier is not the same product.",
-        "ask": "For the states your portfolio operates in beyond Texas and Florida, what fair housing approval or jurisdiction variant is provided?"
+        "ask": "Beyond Texas, what fair housing approval or jurisdiction variant is provided for the states your portfolio operates in?"
       },
       {
         "letter": "I",
