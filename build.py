@@ -67,3 +67,14 @@ out = pathlib.Path('template.html').read_text().replace('__DATA__', p).replace('
 f = pathlib.Path('Grace-Hill-Competitive-Intelligence.html')
 f.write_text(out, encoding='utf-8')
 print(f'built {f} — {f.stat().st_size/1024/1024:.2f} MB · {len(data["competitors"])} competitors · keys: {", ".join(sorted(k for k in data if k != "built"))}')
+
+# ---- Publish target. Cloudflare Pages serves ./public, so the build lands there as well as
+# in the working copy. Committing the built file is deliberate: it makes a git push the whole
+# deploy, and removes any dependency on Cloudflare being able to run Python.
+import shutil as _sh, pathlib as _pl
+_pub = _pl.Path('public'); _pub.mkdir(exist_ok=True)
+_sh.copy('Grace-Hill-Competitive-Intelligence.html', _pub/'index.html')
+for _f in ('_headers', 'robots.txt'):
+    if _pl.Path('_ship', _f).exists():
+        _sh.copy(_pl.Path('_ship', _f), _pub/_f)
+print(f'published to public/ — {(_pub/"index.html").stat().st_size//1024} KB')

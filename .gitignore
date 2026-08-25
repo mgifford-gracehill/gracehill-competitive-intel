@@ -9,5 +9,6 @@ __pycache__/
 *.skill
 _dist/
 Grace-Hill-Competitive-Intelligence.html
+!public/index.html
 drive_dump.txt
 _skill/
