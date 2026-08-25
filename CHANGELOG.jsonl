@@ -65,3 +65,14 @@
 {"date": "2026-08-25", "kind": "changed", "summary": "Published the evidence hierarchy — seven kinds of evidence scored on standing, verification and recency, with the six questions a decision runs through and a worked example", "because": "Show the hierarchy of how decisions get made", "tier": "2"}
 {"date": "2026-08-25", "kind": "changed", "summary": "Roadmap and discovery can no longer reach a rep. Detector P blocks any build carrying future-tense capability language", "because": "Roadmap is good context but nothing reaches field teams before launch", "tier": "2"}
 {"date": "2026-08-25", "kind": "changed", "summary": "Split the SME queue out of the editorial count so a rising iterative number still means a defect was reintroduced", "because": "Reps need simplicity", "tier": "1"}
+{"date": "2026-08-25", "kind": "heard", "summary": "Start here too much detail and too many sections — use FAQ style, cut how the tool gets updated", "who": "VP of Product Marketing", "via": "DM"}
+{"date": "2026-08-25", "kind": "heard", "summary": "Say before they find it is the wrong headline — it makes me ask what it is trying to say", "who": "VP of Product Marketing", "via": "DM"}
+{"date": "2026-08-25", "kind": "heard", "summary": "Explore tabs should all look the same", "who": "VP of Product Marketing", "via": "DM"}
+{"date": "2026-08-25", "kind": "heard", "summary": "By product still shows too many records — top 3-5 before collapse", "who": "VP of Product Marketing", "via": "DM"}
+{"date": "2026-08-25", "kind": "heard", "summary": "Quick vs Full detail toggle does not make enough difference", "who": "VP of Product Marketing", "via": "DM"}
+{"date": "2026-08-25", "kind": "heard", "summary": "The Ask button is redundant inside Start here now that it is in the top nav", "who": "VP of Product Marketing", "via": "DM"}
+{"date": "2026-08-25", "kind": "changed", "summary": "Start here rebuilt as ten collapsed questions in a rep's own words — 17,400 characters down to 6,400, with everything about how the tool is maintained removed", "because": "Start here too much detail and too many sections", "tier": "2"}
+{"date": "2026-08-25", "kind": "changed", "summary": "All five Explore tabs now share one row component, so learning to read one teaches you all five", "because": "Explore tabs should all look the same", "tier": "2"}
+{"date": "2026-08-25", "kind": "changed", "summary": "By product shows four per line with a Show-more", "because": "By product still shows too many records", "tier": "2"}
+{"date": "2026-08-25", "kind": "changed", "summary": "Quick and Full now differ by 37% on What's new and 5x on Explore", "because": "Quick vs Full detail toggle does not make enough difference", "tier": "2"}
+{"date": "2026-08-25", "kind": "changed", "summary": "Renamed the confusing limit heading to The catch", "because": "Say before they find it is the wrong headline", "tier": "2"}

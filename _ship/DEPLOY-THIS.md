@@ -1,6 +1,6 @@
 # Deploy this folder
 
-**Everything in this zip is current as of August 21, 2026 (second build today — this one has the density switch and the Back-button fix).** It replaces every earlier
+**Everything in this zip is current as of August 26, 2026.** It replaces every earlier
 zip I sent you — you do not need any of them. If you have several lying around, this is
 the one with today's date in the filename.
 
@@ -30,31 +30,25 @@ You already have the project and Cloudflare Access set up, so this is just a re-
 
 Open the app and check these. All are new in this build:
 
-- **Top right of the header: a `QUICK | FULL DETAIL` switch.** Quick is the default. That
-  is the whole point of this build — front-line staff get the important thing at a glance,
-  and anyone validating a claim flips to Full detail.
-- **A competitor page → "Us vs them".** One line per capability now, with the source link
-  and a `DETAIL ▸` toggle. Claims with approved wording open with **Say:** in bold; claims
-  with a sentence to avoid show a red **Do not say:** line.
-- **A competitor page → "About them".** Three things only: what the research found, what
-  changed recently, and what their customers say. Methodology and the rest are behind one
-  toggle, and there is a **Download the full report** button at the bottom.
-- **Explore → By product.** A ranked list, one line per competitor, head-to-head first —
-  not a wall of boxes.
-- **The Back button.** Open a competitor, press Back. You should land on the list you came
-  from. Previously this dropped you at the sign-in page, because the app never wrote its own
-  history entries and the login was the only thing behind it.
+- **Start here is short.** Three ways in, this week's watch, then a list of collapsed
+  questions. If you see long sections explaining how the tool is sourced and maintained,
+  you are on the old build.
+- **Explore → all five tabs look the same.** Same row shape everywhere: name, one chip,
+  one line, a `+` or `›` to open. By product shows four per line with a **Show N more**.
+- **What's new** leads with why it matters; the background is behind a **Background** toggle.
+- **Quick / Full detail** now changes a lot. On Explore it is the difference between a
+  page you can scan and everything expanded.
+- **A competitor page → Us vs them** says **The catch:** in red where a limit applies.
 
 ## What changed in this one
 
-- Detail collapses instead of being deleted. Nothing that was researched was thrown away —
-  it moved behind a toggle, or into the downloadable report.
-- Us vs them is roughly a fifth of its former length in Quick view.
-- Personas show the pitch, what they're measured on, and who you're up against; goals,
-  blockers, and objections are one click away.
-- Deep-dive research on screen is the 3–5 findings that change a conversation, plus dated
-  movement and customer complaints. The full pass prints to PDF.
-- URLs now reflect where you are, so a link to a competitor card can be pasted to a colleague.
+- Start here rebuilt as a FAQ — 17,400 characters down to 6,400. Anything about how the
+  tool is maintained came out; it is not what a rep needs on a call.
+- All five Explore tabs share one row component, so learning to read one teaches you all five.
+- By product capped at four per line before a Show-more.
+- What's new collapses its background paragraphs.
+- The confusing "Say before they find it" heading is now "The catch".
+- The Ask button lives only in the top navigation now.
 
 ## If something looks wrong
 

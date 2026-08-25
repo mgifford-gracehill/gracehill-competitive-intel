@@ -125,6 +125,23 @@ body[data-den="full"] .more{display:none}
 #den button{background:none;border:0;color:rgba(255,255,255,.72);font:inherit;font-size:.7rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:5px 9px;border-radius:4px;cursor:pointer;white-space:nowrap}
 #den button.on{background:#fff;color:var(--navy)}
 .oneline{font-size:.88rem;line-height:1.45}
+/* Entry points. Three ways in, equal weight, no reading required to choose. */
+.entry{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.entry button{display:block;text-align:left;background:#fff;border:1px solid var(--border);border-left:3px solid var(--cer);border-radius:8px;padding:13px 15px;font:inherit;cursor:pointer;transition:.12s}
+.entry button:hover{border-color:var(--cer);box-shadow:0 2px 12px rgba(3,184,236,.14)}
+.entry .et{display:block;font-family:var(--fd);font-weight:700;color:var(--navy);font-size:.98rem}
+.entry .ed{display:block;font-size:.8rem;color:var(--muted);margin-top:2px}
+@media(max-width:760px){.entry{grid-template-columns:1fr}}
+/* FAQ. One question per row, closed by default, no nesting. */
+.faq details{border:1px solid var(--border);border-radius:8px;margin-bottom:7px;background:#fff}
+.faq details[open]{border-color:var(--cer)}
+.faq summary{cursor:pointer;padding:12px 15px;font-family:var(--fd);font-weight:700;color:var(--navy);font-size:.93rem;list-style:none;display:flex;justify-content:space-between;gap:10px;align-items:center}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";color:var(--cer);font-weight:700;font-size:1.1rem;flex:0 0 auto}
+.faq details[open] summary::after{content:"–"}
+.faq summary:hover{background:var(--wash)}
+.faq details>div{padding:0 15px 14px;font-size:.9rem;line-height:1.55}
+
 /* Provenance markers. Deliberately quiet but never absent — an unlabelled line was the
    problem, so there is no unlabelled state. */
 .pv{display:inline-block;font-size:.62rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:1px 5px;border-radius:3px;vertical-align:1px;margin-left:5px;white-space:nowrap}
@@ -142,13 +159,25 @@ a.pv-src:hover{background:#03B8EC;color:#fff}
 
 /* Ranked list — By product. A grid of boxes makes you hunt; a list you read top to bottom. */
 .rank{border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#fff}
-.rank button{display:grid;grid-template-columns:minmax(140px,1.1fr) 150px minmax(180px,2fr) 18px;gap:12px;align-items:baseline;width:100%;text-align:left;background:none;border:0;border-bottom:1px solid var(--border);padding:11px 14px;font:inherit;cursor:pointer;transition:.1s}
+.rank button{display:grid;grid-template-columns:minmax(140px,1.1fr) minmax(0,150px) minmax(180px,2fr) 18px;gap:12px;align-items:baseline;width:100%;text-align:left;background:none;border:0;border-bottom:1px solid var(--border);padding:11px 14px;font:inherit;cursor:pointer;transition:.1s}
 .rank button:last-child{border-bottom:0}
 .rank button:hover{background:var(--wash)}
 .rank .rn{font-family:var(--fd);font-weight:700;color:var(--navy);font-size:.94rem}
 .rank .rv{font-size:.85rem;color:var(--ink)}
 .rank .rx{color:var(--cer);font-weight:700;text-align:right}
+.rank .chip{max-width:100%;overflow:hidden;text-overflow:ellipsis;display:inline-block;vertical-align:bottom}
 .rank .rc{font-size:.78rem;color:var(--muted);display:block;font-weight:400;font-family:var(--fb)}
+.rank .xr{border-bottom:1px solid var(--border)}
+.rank .xr:last-child{border-bottom:0}
+.rank .xhead{display:grid;grid-template-columns:minmax(140px,1.1fr) minmax(0,150px) minmax(180px,2fr) 18px;gap:12px;align-items:baseline;width:100%;text-align:left;background:none;border:0;padding:11px 14px;font:inherit;cursor:pointer}
+.rank .xhead.nolink{cursor:default}
+.rank .xhead:hover:not(.nolink){background:var(--wash)}
+.rank .xr .dtl{margin:0;border-left:0;border-radius:0;padding:0 14px 14px 14px}
+.rank .xr .dtl .grid{margin-top:0}
+@media(max-width:760px){.rank .xhead{grid-template-columns:1fr auto;gap:4px}.rank .rv{grid-column:1/-1}}
+.showmore{display:block;width:100%;text-align:center;background:var(--wash);border:0;border-top:1px solid var(--border);padding:9px;font:inherit;font-size:.8rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--cer);cursor:pointer}
+.showmore:hover{background:#eef9fd;color:var(--navy)}
+
 @media(max-width:760px){.rank button{grid-template-columns:1fr auto;gap:4px}.rank .rv{grid-column:1/-1}.rank .rx{display:none}}
 
 .mx th:first-child,.mx td:first-child{position:sticky;left:0;background:#fff;z-index:4;border-right:1px solid var(--border);min-width:230px}
@@ -854,7 +883,7 @@ function renderCompetitor(id){
             f.note?`<div style="margin-top:8px;border-left:3px solid var(--muted);padding-left:8px"><strong>${esc(c.name.toUpperCase())} —</strong> ${esc(f.note)}</div>`:''
           ].filter(Boolean).join('');
           return `${lead?`<div class="oneline">${g.approvedWording?'<strong>Say:</strong> ':''}${esc(lead)}</div>`:''}
-          ${g.limitLine?`<div class="oneline" style="margin-top:4px"><strong style="color:var(--red)">Say before they find it:</strong> ${esc(g.limitLine)}</div>`:''}
+          ${g.limitLine?`<div class="oneline" style="margin-top:4px"><strong style="color:var(--red)">The catch:</strong> ${esc(g.limitLine)}</div>`:''}
           ${g.lookUp?`<div class="oneline src" style="margin-top:4px"><strong>Live answer:</strong> ${esc(g.lookUp)}</div>`:''}
           ${g.doNotSay?`<div class="oneline" style="margin-top:3px;color:var(--red)"><strong>Do not say:</strong> ${esc(firstSent(g.doNotSay,110))}</div>`:''}
           <div class="src" style="margin-top:4px">${srcLinks(g.source,'our source')}${f.source?` · <a class="src" href="${esc(f.source)}" target="_blank" rel="noopener">their source ↗</a>`:''}
@@ -1169,187 +1198,75 @@ function renderStart(){
   const n=p=>C.filter(c=>c.play===p).length;
   const live=Object.keys(HEARD).map(k=>byId[k]).filter(Boolean)
     .sort((a,b)=>(HEARD[b.id].deals||0)-(HEARD[a.id].deals||0));
-  const M=MSG.messages||[], SQB=MSG.statusQuoBias||{};
+
+  /* Start here answers questions a rep actually asks, in their words, collapsed.
+     What it deliberately does NOT explain any more: how the tool is maintained, how
+     sources were chosen, what changed and why. That is how the sausage is made — it
+     belongs to whoever runs the tool, not to someone with a call in ten minutes. */
+  const FAQ=[
+   ['A competitor just came up on a call. What do I do?',
+    `Type their name in the search box at the top. The line at the top of their card is the whole answer — read that and you are ready. Everything below it is for prep, not for live.`],
+
+   ['I do not have a name — just what the buyer said.',
+    `Type what they said into the same search box. "They already have something for surveys", "we use our PMS for this" — the search reads the problem as well as the name. Or open <strong>Explore</strong> and come at it by outcome, problem, persona or product.`],
+
+   ['What do Head-to-head, Sometimes in the room and Not our fight mean?',
+    `<ul class="tight" style="margin:0">${PLAYDEFS.map(([k,v])=>`<li><span class="chip ${playC(k)}">${esc(k)}</span> ${esc(v)}</li>`).join('')}</ul>
+     <p class="src" style="margin:8px 0 0">Today: ${n('Head-to-head')} head-to-head, ${n('Sometimes in the room')} sometimes in the room, ${n('Not our fight')} not our fight.</p>`],
+
+   ['What do Yes, Partial, No and Unknown mean on the comparison?',
+    `<strong>Yes</strong> and <strong>No</strong> are what you would expect. <strong>Partial</strong> means it exists with a real limit, and the limit is written next to it — read it before you promise anything.
+     <strong>Unknown</strong> means no public source states it either way. <strong>Never present Unknown as a No to a buyer.</strong> "I don't know" is a fine answer; "they can't" is a claim you cannot back.`],
+
+   ['Can I say this to a customer?',
+    `Look at the tag on the line.
+     <ul class="tight" style="margin:6px 0 0">
+     <li><span class="pv pv-src" style="margin-left:0">sourced</span> Someone published it. Click through and you will land on the page. Safe to say.</li>
+     <li><span class="pv pv-read" style="margin-left:0">our read</span> Our conclusion, not a published fact. Use it to steer the conversation. Do not repeat it as though it came from them.</li>
+     <li><span class="pv pv-pos" style="margin-left:0">our positioning</span> Our competitive judgment — a ranking, a characterization. True to what we believe; not a fact about them.</li></ul>`],
+
+   ['They are a partner AND a competitor. What now?',
+    `Both are true and you still compete. Partnership shapes what you say about the <em>relationship</em>, not whether you compete on the <em>product</em>. Compete on the overlapping product, never on the parent company, never disparage them, and never discuss commercial terms. The partner banner on their card tells you which programs they are in and what to watch for.`],
+
+   ['Which battlecard do I download?',
+    `<strong>Sales</strong> when a competitor is in a live deal and you have a call tomorrow. <strong>Product</strong> when you are in a demo or an RFP and need to be exact. <strong>Account management</strong> when a customer is being courted or you are cross-selling. The button is on every competitor card.`],
+
+   ['Why does this say Partial when I know we do that?',
+    `Because the claim is scoped to what our own documentation supports today. If you know something the documentation does not, that is worth telling us — use <strong>Something wrong here?</strong> on the card. That is how most of the corrections in here got made.`],
+
+   ['How do I know this is accurate?',
+    `Grace Hill claims come from our own policy and product documentation, and each one shows its source. Competitor claims come from what that competitor publishes, with the date. Anything we concluded rather than sourced is tagged <span class="pv pv-read" style="margin-left:0">our read</span>. If two of our own sources disagree, the card says so rather than picking one quietly.`],
+
+   ['Something here is wrong or missing.',
+    `Use <strong>Something wrong here?</strong> on the competitor card — it records which record and which field you were looking at, which is what makes it fixable fast. For anything broader, message the beta channel.`],
+  ];
+
   $('#v-start').innerHTML=`
   <h1>Start here</h1><hr class="rule">
-  <p style="max-width:70ch;color:var(--muted);margin:0 0 6px">Everything here is built to be read in the ten seconds you actually have.
-  <strong>Competitor named on a call?</strong> Search their name and read the line at the top.
-  <strong>Prepping?</strong> Open the card. <strong>Arming a champion?</strong> Download the PDF.
-  <strong>Heard a problem, not a name?</strong> Type what they said into the search box.</p>
+  <p style="max-width:68ch;color:var(--muted);margin:0 0 18px">Competitive intelligence for live conversations. Search a name, or describe what the buyer said.</p>
+
+  <div class="entry">
+    <button onclick="document.getElementById('omni').focus()"><span class="et">Search</span><span class="ed">A competitor's name, or what the buyer said</span></button>
+    <button onclick="go('home')"><span class="et">All competitors</span><span class="ed">${C.length} records, filter by product and play</span></button>
+    <button onclick="go('explore')"><span class="et">Explore</span><span class="ed">When you don't have a name to search</span></button>
+  </div>
+
+  ${live.length?`<div class="card" style="border-left:4px solid var(--red);margin:18px 0 0">
+    <h4>Named in live deals right now</h4><hr class="rule">
+    <div class="chips">${live.slice(0,12).map(c=>`<span class="chip ${playC(c.play)}" style="cursor:pointer;text-transform:none" onclick="go('competitor','${c.id}')">${esc(c.name)} →</span>`).join('')}</div></div>`:''}
 
   <h2 style="margin-top:26px">This week's watch</h2><hr class="rule">
-  <p class="src" style="margin:0 0 12px">${esc((D.news||{}).weekOf||'')} · pulled from the weekend sweep and from live deals. The full feed is under <strong>What's new</strong>.</p>
-  ${watchItems().map(i=>`<div class="watch">
+  <p class="src" style="margin:0 0 12px">${esc((D.news||{}).weekOf||'')} · full feed under <strong>What's new</strong>.</p>
+  ${watchItems().slice(0,3).map(i=>`<div class="watch">
     <div class="wq">${esc(i.date||'')} · ${esc(i.source||'')}</div>
     <div style="font-family:var(--fd);font-weight:700;color:var(--navy)">${esc(i.headline)}</div>
     <div style="font-size:.9rem">${esc(i.soWhat||i.summary||'')}</div></div>`).join('')}
-  ${live.length?`<div class="card" style="border-left:4px solid var(--red);margin-top:12px">
-    <h4>Named in live deals right now</h4><hr class="rule">
-    <div class="chips">${live.map(c=>`<span class="chip ${playC(c.play)}" style="cursor:pointer;text-transform:none;letter-spacing:.01em;font-weight:400" title="${esc(c.name)}" onclick="go('competitor','${c.id}')"><strong>${esc(c.name.length>42?c.name.slice(0,42).replace(/[\s,—-]+$/,'')+'…':c.name)}</strong> · ${HEARD[c.id].deals} →</span>`).join('')}</div>
-    <p class="src" style="margin:8px 0 0">From recorded calls in the ${esc(HEARDMETA.window||'current')} window. Patterns only — no accounts, no names, no quotes.</p></div>`:''}
 
-  <h2 style="margin-top:30px">What we sell, in one breath</h2><hr class="rule">
-  <div class="verdict compete" style="margin-bottom:8px"><div class="st">The anchor promise · 30 seconds</div>
-    <div class="ln">${esc(PITCH.thirtySecond||'')}</div></div>
-  <p class="src" style="margin:0 0 6px">The customer is the hero of that story. We are the guide. If a sentence makes Grace Hill the hero, it has turned back into a pitch.</p>
+  <h2 style="margin-top:26px">Questions people ask</h2><hr class="rule">
+  <div class="faq">${FAQ.map(([q,a])=>`<details><summary>${q}</summary><div>${a}</div></details>`).join('')}</div>
 
-  <h2 style="margin-top:30px">Sales and account management are not the same message</h2><hr class="rule">
-  <div class="verdict compete" style="margin-bottom:14px"><div class="st">The one idea to hold on to</div>
-    <div class="ln">${esc(MSG.headline||'')}</div></div>
-  <p style="margin:0 0 14px;max-width:74ch">${md(MSG.theBigIdea||'')}</p>
-
-  <div class="grid g3" style="margin-bottom:16px">${(SQB.roles||[]).map(r=>`
-    <div class="card" style="border-top:3px solid ${MC[r.color]}">
-      <h4 style="color:${MC[r.color]}">${esc(r.situation)}</h4><hr class="rule">
-      <p style="margin:0 0 6px;font-size:.82rem;color:var(--muted)">${esc(r.who)}</p>
-      <p style="margin:0;font-size:.92rem">${esc(r.role)}</p></div>`).join('')}</div>
-  <div class="neg" style="margin-bottom:22px">${esc(SQB.warning||'')}</div>
-
-  <table class="shift"><thead><tr><th style="width:22%"></th><th>Sales · new logo</th><th>Account management · renewal and expansion</th></tr></thead>
-  <tbody>${((MSG.salesVsAm||{}).rows||[]).map(r=>`<tr>
-    <td><strong>${esc(r.dim)}</strong></td><td>${esc(r.sales)}</td><td>${esc(r.am)}</td></tr>`).join('')}</tbody></table>
-  <p class="src" style="margin-top:10px">${esc(MSG.csNote||'')}
-    Full framework — the five-step structure for each message, and the four causes of status quo bias — is under <strong>Go deeper</strong> below.</p>
-
-  <h2 style="margin-top:30px">Which battlecard, when</h2><hr class="rule">
-  <div class="grid g3" style="margin-bottom:12px">${CARDS.map(([k,l,d])=>`
-    <div class="card"><h3>${esc(l)}</h3><hr class="rule">
-      <p style="margin:0 0 8px;font-size:.9rem"><strong>Use it when:</strong> ${esc(d)}</p>
-      <p style="margin:0;font-size:.88rem;color:var(--muted)">${esc(CARDWHAT[k])}</p></div>`).join('')}</div>
-  <div class="filters noprint">
-    <label class="src" for="bc-pick">Get a card for</label>
-    <select id="bc-pick">${C.slice().sort((a,b)=>a.name.localeCompare(b.name)).map(c=>`<option value="${esc(c.id)}">${esc(c.name)}</option>`).join('')}</select>
-    <select id="bc-type">${CARDS.map(([k,l])=>`<option value="${k}">${esc(l)} card</option>`).join('')}<option value="all">All three</option></select>
-    <button class="btn" onclick="downloadCard($('#bc-pick').value,$('#bc-type').value)">Download</button>
-    <span class="count">Opens your print dialog — choose “Save as PDF”.</span>
-  </div>
-
-  <h2 style="margin-top:30px">Every competitor, in four buckets</h2><hr class="rule">
-  <p class="src" style="margin:0 0 12px">One label each: what to do when they come up.</p>
-  <div class="card" style="margin:0 0 14px;border-left:4px solid var(--cer)">
-    <h4>How a label gets set, and who changes it</h4><hr class="rule">
-    <div class="grid g2">
-      <div><strong>The test, in order</strong>
-      <p style="margin:4px 0 0;font-size:.9rem">1. Is the company on a Grace Hill partner program, by name or by parent? If yes, it is <strong>Partner</strong>, regardless of overlap — the relationship outranks the competition.<br>
-      2. Does it overlap a Grace Hill product at High or Medium degree <em>and</em> get named by buyers in live deals? <strong>Head-to-head</strong>.<br>
-      3. Does it overlap a Grace Hill product, but buyers rarely raise it and it has not decided a deal? <strong>Sometimes in the room</strong>.<br>
-      4. Does it do a different job, so a feature comparison would mislead? <strong>Not our fight</strong> — the card shows how to position around it, never against it.</p></div>
-      <div><strong>What moves a label</strong>
-      <p style="margin:4px 0 0;font-size:.9rem">Only two things. <strong>Deal evidence</strong> — a competitor named in live opportunities moves up from Sometimes in the room; the weekly Gong sweep is what surfaces that. And a <strong>relationship change</strong> — a new partner program, or a partner program ending, moves a record into or out of Partner automatically, because the match runs on company and parent rather than a hand-kept list.</p>
-      <p style="margin:6px 0 0;font-size:.9rem">The label is a <strong>claim field</strong>, not a fact field. Nothing changes it automatically. A proposed move is queued for review with the evidence attached, and a person approves it. That is deliberate: the label tells a rep whether to compete, so a wrong one is worse than a stale one.</p></div>
-    </div>
-    <p class="src" style="margin:8px 0 0">Disagree with a label? Submit it through Ask — it routes to the same review queue, and the evidence you attach is what moves it.</p>
-  </div>
-  <div class="grid g2" style="margin-bottom:30px">${PLAYDEFS.map(([k,d])=>`
-    <button class="playcard" onclick="goPlay('${k}')">
-      <div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px">
-        <span class="pn">${esc(k)}</span><span class="chip ${playC(k)}">${n(k)}</span></div>
-      <div class="pd">${esc(d)}</div>
-      <div class="pc">See all ${n(k)} →</div>
-    </button>`).join('')}</div>
-
-  <h2>Hear this, say that</h2><hr class="rule">
-  <p class="src" style="margin:0 0 12px">The things that actually come up, and what to do with each.</p>
-  <table><thead><tr><th style="width:30%">If you hear</th><th style="width:22%">Likely in play</th><th>Say this</th></tr></thead><tbody>${
-    (PATH.hearThisSayThat||[]).map(h=>`<tr>
-      <td style="font-style:italic;color:var(--navy)">${esc(h.hear)}</td>
-      <td><span class="src">${esc(h.likely)}</span></td>
-      <td>${esc(h.say)}</td></tr>`).join('')}</tbody></table>
-
-  <div class="card" style="margin-top:26px;border-top:3px solid var(--cer)">
-    <h4>Something wrong, missing, or unclear?</h4><hr class="rule">
-    <p style="margin:0 0 10px">Every correction makes the next person's call better. Wrong facts and missing competitors are the two most useful things to report — and <strong>Ask / report</strong> sits in the bar at the top of every page, so you never have to come back here to use it.</p>
-    <button class="btn" onclick="openAsk()">Ask a question or report something</button>
-  </div>
-
-  <h2 style="margin-top:34px">Go deeper</h2><hr class="rule">
-  <p class="src" style="margin:0 0 12px">Everything that used to live in the Playbook and the Competitive Framework. Closed by default, because most of the time you do not need it.</p>
-  ${deepHTML()}
-  ${ghContextHTML()}
-  ${partnersHTML()}`;
+  <p class="src" style="margin-top:20px">How this tool is sourced, reviewed and updated is documented for the team that runs it — ask Product Marketing if you need it.</p>`;
 }
-const CARDWHAT={
-  sales:'Two pages. Their claim and where it stops, what to ask, the objection you will get, and the three questions their VP will ask your champion.',
-  product:'Where we actually differ, how they position, how they go to market, and what to pair with to close the gap.',
-  am:'Renewal and expansion. Why stay and why evolve, the signals to watch, and the cross-sell that closes the gap.'};
-function ghContextHTML(){
-  const S=GHCTX.statements||[], H=GHCTX.howSourcesWork||{};
-  if(!S.length)return '';
-  return `<details class="deep"><summary>What feeds this tool — and what we know about ourselves</summary><div>
-    <p class="src" style="margin:0 0 12px">${esc(GHCTX.note||'')}</p>
-    <div class="card" style="margin-bottom:14px;border-top:3px solid var(--red)">
-      <h4>Why this section exists</h4><hr class="rule">
-      <p style="margin:0">${esc(GHCTX.why||'')}</p></div>
-
-    <h2>What the tool must get right about us</h2><hr class="rule">
-    <table><thead><tr><th style="width:38%">What is true</th><th>What that means for how you say it</th></tr></thead><tbody>${
-      S.map(s=>`<tr><td><strong style="color:var(--navy)">${esc(s.claim)}</strong>
-        <br><span class="src">${esc(s.area)} · ${esc(s.confidence)}</span></td>
-        <td>${esc(s.soWhat)}</td></tr>`).join('')}</tbody></table>
-
-    ${has(GHCTX.sourceHierarchy)?`<h2 style="margin-top:22px">Which source wins when they disagree</h2><hr class="rule">
-    <p class="src" style="margin:0 0 10px">They will disagree. When they do, the higher rank is right and the lower one gets re-sourced — never averaged, never split.</p>
-    <table style="margin-bottom:20px"><thead><tr><th style="width:4%">#</th><th style="width:28%">Source</th><th style="width:30%">What it holds</th><th>How to use it</th></tr></thead><tbody>${
-      GHCTX.sourceHierarchy.map(s=>`<tr><td><strong style="color:var(--red);font-family:var(--fd)">${s.rank}</strong></td>
-      <td><strong style="color:var(--navy)">${esc(s.source)}</strong></td><td>${esc(s.what)}</td>
-      <td>${s.rank>=5?`<span class="neg" style="display:block;margin:0">${esc(s.use)}</span>`:esc(s.use)}</td></tr>`).join('')}</tbody></table>`:''}
-
-    ${(()=>{const EV=D.evidence||{}; if(!EV.tiers)return '';
-      return `<h2 style="margin-top:22px">What each kind of evidence is good for</h2><hr class="rule">
-      <p class="src" style="margin:0 0 4px">Rank answers <em>which source wins</em>. This answers the harder question underneath it: what a given piece of evidence can actually support. Three things decide it, and they move independently —
-      <strong>standing</strong> (does this source have any business knowing?), <strong>verification</strong> (has anyone checked?), and <strong>recency</strong> (when was it true?).</p>
-      <p class="src" style="margin:0 0 10px">The last one is the one people forget. A policy from our own files can be authoritative and nine years stale at the same time.</p>
-      <table style="margin-bottom:14px"><thead><tr><th style="width:4%"></th><th style="width:22%">Kind of evidence</th><th style="width:26%">Good for</th><th style="width:26%">Never good for</th><th>What a rep may do</th></tr></thead><tbody>${
-        EV.tiers.map(t=>`<tr><td><strong style="color:var(--red);font-family:var(--fd)">${esc(t.tier)}</strong></td>
-        <td><strong style="color:var(--navy)">${esc(t.name)}</strong><br><span class="src">${esc(t.examples)}</span></td>
-        <td>${esc(t.authoritativeAbout)}</td>
-        <td><span class="neg" style="display:block;margin:0">${esc(t.neverAuthoritativeAbout)}</span></td>
-        <td>${esc(t.repMayDo)}<br><span class="src">Shows as <strong>${esc(t.label)}</strong> · re-check: ${esc(t.expiry)}</span></td></tr>`).join('')}</tbody></table>
-      ${EV.theDecisionItself?`<div class="card" style="margin-bottom:14px;border-left:4px solid var(--cer)">
-        <h4>The six questions, in order — the first one that stops you, stops you</h4><hr class="rule">
-        <ol class="tight" style="margin:0">${Object.entries(EV.theDecisionItself).filter(([k])=>k!=='_note').map(([k,v])=>`<li>${esc(v)}</li>`).join('')}</ol></div>`:''}
-      ${EV.worked_example?`<details class="deep" style="margin-bottom:18px"><summary>Worked example — the question that went wrong, run through the six</summary><div>
-        <p style="font-weight:700;color:var(--navy);margin:0 0 6px">${esc(EV.worked_example.question)}</p>
-        <ul class="tight">${['A_policy','B_their_published','C_marketing','F_field'].filter(k=>EV.worked_example[k]).map(k=>`<li><strong>${esc(k.split('_')[0])}</strong> — ${esc(EV.worked_example[k])}</li>`).join('')}</ul>
-        <div class="pt" style="margin-top:8px"><strong>Decision:</strong> ${esc(EV.worked_example.decision)}</div>
-        <div class="neg" style="margin-top:8px"><strong>What went wrong before:</strong> ${esc(EV.worked_example.whatWentWrongBefore)}</div></div></details>`:''}`})()}
-
-    <h2 style="margin-top:22px">Where the facts come from</h2><hr class="rule">
-    <div class="grid g2">
-      <div class="card"><h4>Their side</h4><hr class="rule"><p style="margin:0;font-size:.92rem">${esc(H.competitorSide||'')}</p></div>
-      <div class="card"><h4>Our side</h4><hr class="rule"><p style="margin:0;font-size:.92rem">${esc(H.ourSide||'')}</p></div>
-    </div>
-    <div class="warn" style="margin-top:12px"><div class="wt">⚠ The known gap</div>
-      <div class="wl">${esc(H.gap||'')}</div>
-      <div class="wp">What would close it: ${esc(H.wanted||'')}</div></div>
-    <p class="src" style="margin-top:12px">Reviewed ${esc(GHCTX.reviewed||'')}. If a statement here is wrong, that is the most valuable thing you can report — it affects every competitor page at once, not one.</p>
-  </div></details>`;
-}
-function partnersHTML(){
-  return `<details class="deep"><summary>Partners — who is on our side, and who is both</summary><div>
-    <div class="warn" style="margin-bottom:14px"><div class="wt">The rule</div>
-      <div class="wl">${esc(PARTNERS.rule||'')}</div></div>
-    <p class="src" style="margin:0 0 12px">${esc(PARTNERS.note||'')} Reviewed ${esc(PARTNERS.reviewed||'')} ·
-      <a href="${esc(PARTNERS.source||'#')}" target="_blank" rel="noopener">gracehill.com/partnerships</a></p>
-    <h3 style="margin-bottom:6px">Tracked as competitors and listed as partners</h3>
-    <table style="margin-bottom:18px"><thead><tr><th style="width:26%">Record</th><th style="width:18%">Partner as</th><th>What that means for you</th></tr></thead><tbody>${
-      Object.entries(PFLAG).map(([id,f])=>{const c=byId[id];
-      return `<tr><td>${c?`<strong style="color:var(--navy);cursor:pointer" onclick="go('competitor','${id}')">${esc(c.name)} →</strong>`:esc(id)}</td>
-      <td>${esc(f.company)}<br>${progsOf(f).map(pr=>`<span class="chip ${POSTC[pr.posture]||'c-unk'}" style="margin:2px 2px 0 0">${esc(pr.short)}</span>`).join('')}</td><td>${esc(f.line)}</td></tr>`}).join('')}</tbody></table>
-    <h3 style="margin:0 0 6px">The six programs, and what each one actually means</h3>
-    <p class="src" style="margin:0 0 10px">"Partner" is not one thing. A Training Partner puts their content inside our LMS, which is a reason to buy us. An Integration Partner exchanges data. A Referral partner shares revenue. Each calls for different behaviour, so check the program before deciding how to act.</p>
-    ${(PARTNERS.programs||[]).map(p=>`<div class="card" style="margin-bottom:10px"><div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:8px">
-      <h4 style="margin:0">${esc(p.name)}</h4><span class="chip ${POSTC[p.posture]||'c-unk'}">${esc((p.posture||'').replace(/-/g,' '))}</span></div><hr class="rule">
-      <p style="margin:0 0 7px;font-size:.9rem"><em>Grace Hill's published description:</em> "${esc(p.official)}"</p>
-      <p style="margin:0 0 7px"><strong>What that means:</strong> ${esc(p.whatItMeans)}</p>
-      <p style="margin:0 0 7px"><strong>Your move:</strong> ${esc(p.repMove)}</p>
-      <div class="neg" style="margin:0 0 8px">${esc(p.watchFor)}</div>
-      <div class="chips">${(p.partners||[]).map(x=>`<span class="chip c-unk">${esc(x)}</span>`).join('')}</div></div>`).join('')}
-    ${has(PARTNERS.changes)?`<div class="card" style="border-left:4px solid var(--red)"><h4>Changes to confirm</h4><hr class="rule">${
-      PARTNERS.changes.map(ch=>`<div style="margin-bottom:8px"><strong>${esc(ch.what)}</strong><br><span class="src">Affects ${esc(ch.affects)} · ${esc(ch.confidence)}</span><div class="pt" style="margin-top:4px">${esc(ch.action)}</div></div>`).join('')}</div>`:''}
-  </div></details>`;
-}
-function goLine(l){HPLAY='';go('home');const s=$('#h-line');if(s){s.value=l;drawHome()}}
 
 /* ---------- ASK / REPORT ---------- */
 const ASKTO='mgifford@gracehill.com';
@@ -1430,79 +1347,56 @@ function personaCompetitors(p){
     return {n,c:m||null};
   });
 }
+/* The shared Explore row. Title, a chip, one line, expand. Every tab uses this so the
+   whole section reads as one thing rather than five designs stapled together. */
+function xrow(o){
+  const {title,chip,chipCls,line,onclick,detail,sub}=o;
+  const body=`<span class="rn">${esc(title)}${sub?`<span class="rc">${esc(sub)}</span>`:''}</span>
+    <span>${chip?`<span class="chip ${chipCls||'c-unk'}">${esc(chip)}</span>`:''}</span>
+    <span class="rv">${esc(line||'')}</span>
+    <span class="rx">${onclick?'›':(detail?'+':'')}</span>`;
+  if(onclick) return `<button onclick="${onclick}" title="${esc(title)}">${body}</button>`;
+  if(detail)  return `<div class="xr"><button class="xhead" onclick="xtoggle(this)">${body}</button><div class="dtl">${detail}</div></div>`;
+  return `<div class="xr"><div class="xhead nolink">${body}</div></div>`;
+}
+function xtoggle(btn){
+  const d=btn.nextElementSibling; if(!d)return;
+  const open=d.classList.toggle('open');
+  btn.classList.toggle('on',open);
+  const rx=btn.querySelector('.rx'); if(rx)rx.textContent=open?'–':'+';
+}
+function xtoggle2(btn){
+  const d=btn.previousElementSibling; if(!d)return;
+  const open=d.classList.toggle('open');
+  btn.textContent=open?'Show fewer':`Show ${d.children.length} more`;
+}
+function xlist(rows){ return `<div class="rank">${rows.join('')}</div>`; }
+function xhead(text){ return `<p class="src" style="margin:0 0 12px">${esc(text)}</p>`; }
 function personaHTML(){
-  return `<p class="src" style="margin:0 0 16px">Who is in the room, what they are measured on, and who you will be compared against when they are the one asking. Roles, not names — the first names in the persona deck are placeholders.</p>
-  ${PERS.map(p=>{
+  return xlist(PERS.map(p=>{
     const rivals=personaCompetitors(p);
     const prods=(p.topProducts||[]).map(clean).filter(Boolean);
-    return `<div class="card" style="margin-bottom:14px;border-left:4px solid var(--navy)">
-      <div style="display:flex;gap:10px;align-items:baseline;flex-wrap:wrap;margin-bottom:4px">
-        <h3>${esc(p.title)}</h3>
-        ${p.caresAbout?`<span class="src">${esc(clean(p.caresAbout))}</span>`:''}</div>
-      <hr class="rule">
-      ${p.elevatorPitch?`<div class="pt" style="margin-bottom:10px"><strong>Say this to them:</strong> ${esc(p.elevatorPitch)}</div>`:''}
-      ${has(p.metrics)?`<div style="margin-bottom:8px"><h4>Measured on</h4><div class="chips" style="margin-top:5px">${p.metrics.slice(0,4).map(m=>`<span class="chip c-cat">${esc(clean(m))}</span>`).join('')}</div></div>`:''}
-      ${(has(p.goals)||has(p.challenges)||has(p.objections)||prods.length)?`
-      <button class="more" data-more="What they want, what's in their way, what they push back with" data-less="Less" onclick="more(this)">What they want, what's in their way, what they push back with</button>
-      <div class="dtl">
+    return xrow({
+      title:p.title, sub:p.caresAbout?clean(p.caresAbout):'',
+      chip:(p.metrics||[]).length?cl(clean((p.metrics||[])[0]),22):'', chipCls:'c-cat',
+      line:firstSent(clean(p.elevatorPitch||''),150),
+      detail:`${p.elevatorPitch?`<div class="pt" style="margin-bottom:8px;font-size:.9rem"><strong>Say this to them:</strong> ${esc(clean(p.elevatorPitch))}</div>`:''}
+        ${has(p.metrics)?`<div style="margin-bottom:8px"><span class="src"><strong>Measured on</strong></span>
+          <div class="chips" style="margin-top:4px">${p.metrics.slice(0,5).map(m=>`<span class="chip c-cat">${esc(clean(m))}</span>`).join('')}</div></div>`:''}
         <div class="grid g2">
-          <div>
-            ${has(p.goals)?`<div style="margin-bottom:10px"><h4>What they are trying to do</h4>${ul(p.goals.slice(0,4).map(clean))}</div>`:''}
-            ${prods.length?`<div><h4>What they buy first</h4>
-              <div class="chips" style="margin-top:5px">${prods.map(x=>`<span class="chip c-gh">${esc(x)}</span>`).join('')}</div></div>`:''}
-          </div>
-          <div>
-            ${has(p.challenges)?`<div style="margin-bottom:10px"><h4>What is in their way</h4>${ul(p.challenges.slice(0,4).map(clean))}</div>`:''}
-            ${has(p.objections)?`<div><h4>What they push back with</h4>${ul(p.objections.slice(0,3).map(clean))}</div>`:''}
-          </div>
+          <div>${has(p.goals)?`<span class="src"><strong>What they are trying to do</strong></span>${ul(p.goals.slice(0,4).map(clean))}`:''}</div>
+          <div>${has(p.challenges)?`<span class="src"><strong>What is in their way</strong></span>${ul(p.challenges.slice(0,4).map(clean))}`:''}</div>
         </div>
-        ${p.buyingRole?`<div style="margin-top:10px"><h4>Their role in the decision</h4><div>${esc(p.buyingRole)}</div></div>`:''}
-      </div>`:''}
-      ${rivals.length?`<div style="margin-top:12px"><h4>Who you will be compared against</h4>
-        <div class="chips" style="margin-top:5px">${rivals.map(r=>r.c
-          ?`<span class="chip ${playC(r.c.play)}" style="cursor:pointer;text-transform:none;letter-spacing:.01em" title="${esc(r.c.name)}" onclick="go('competitor','${r.c.id}')"><strong>${esc(cl(r.c.name,38))}</strong> →</span>`
-          :`<span class="chip c-unk" style="text-transform:none" title="Named in the persona deck, no record here yet">${esc(cl(r.n,38))}</span>`).join('')}</div></div>`:''}
-    </div>`}).join('')}
-  <p class="src" style="margin-top:12px">A gray chip is a competitor the persona deck names that has no record in this database yet. If you meet one, use <strong>Ask / report</strong> so it gets added.</p>`;
-}
-function renderExplore(which){
-  const cur=which||'outcome';
-  $('#v-explore').innerHTML=`<h1>Explore</h1><hr class="rule">
-  <p style="color:var(--muted);max-width:68ch;margin:0 0 14px">Five ways in when you do not have a competitor's name — the outcome they want, the problem they described, who is in the room, the product you're selling, or a straight capability comparison.</p>
-  <div class="tabs noprint">${EXP.map(([k,l])=>`<button data-p="${k}" class="${k===cur?'on':''}" onclick="renderExplore('${k}')">${esc(l)}</button>`).join('')}</div>
-  <div id="exp-body"></div>`;
-  const b=$('#exp-body');
-  if(cur==='outcome'){
-    b.innerHTML=`<p class="src" style="margin:0 0 4px">${esc(PATH.frame||'')}</p>
-    ${PATH.frameNote?`<p class="src" style="margin:0 0 8px;font-style:italic">${esc(PATH.frameNote)}</p>`:''}
-    <p class="src" style="margin:0 0 14px">The goal label on each is where that outcome lands <em>first</em>, not the only thing it touches — risk work protects revenue and revenue work reduces risk. Use the label to pick an opening, not to draw a boundary.</p>
-    <div class="grid g3">${(PATH.pathways||[]).map(w=>`
-      <div class="card">
-        <div style="display:flex;gap:8px;align-items:baseline;flex-wrap:wrap"><h3>${esc(w.name)}</h3><span class="chip ${w.goal==='NOI'?'c-cat':'c-gh'}">${esc(w.goal)}</span></div>
-        <p style="margin:8px 0 10px;font-size:.9rem">${esc(w.oneLine)}</p>
-        <div class="chips">${(w.overlaps||[]).map(o=>`<span class="chip c-ov-p" style="cursor:pointer" onclick="goLine('${esc(o)}')">${esc(o)} →</span>`).join('')}</div>
-        <div class="pt" style="margin-top:10px;font-size:.86rem"><strong>Ask:</strong> ${esc(w.sayThat)}</div>
-      </div>`).join('')}</div>`;
-  } else if(cur==='problem'){
-    const byPath={};
-    JOBS.forEach(j=>{(byPath[j.pathway]=byPath[j.pathway]||[]).push(j)});
-    b.innerHTML=`<p class="src" style="margin:0 0 16px">${esc((D.jtbd||{}).formula||'')} — the buyer's sentence, not ours. If you heard something close to one of these, you are in that outcome.</p>
-    ${(PATH.pathways||[]).filter(w=>byPath[w.id]).map(w=>`
-      <h2 style="margin-top:22px">${esc(w.name)}</h2><hr class="rule">
-      ${byPath[w.id].map(jobCard).join('')}`).join('')}
-    <p class="src" style="margin-top:16px">${esc((D.jtbd||{}).source||'')}</p>`;
-  } else if(cur==='persona'){
-    b.innerHTML=personaHTML();
-  } else if(cur==='product'){
-    b.innerHTML=productsHTML();
-  } else {
-    b.innerHTML=compareHTML(); wireCompare();
-  }
-  $$('#v-explore .tabs button').forEach(x=>x.classList.toggle('on',x.dataset.p===cur));
-  window.scrollTo(0,0);
+        ${has(p.objections)?`<div style="margin-top:6px"><span class="src"><strong>What they push back with</strong></span>${ul(p.objections.slice(0,3).map(clean))}</div>`:''}
+        ${prods.length?`<div style="margin-top:8px"><span class="src"><strong>What they buy first</strong></span>
+          <div class="chips" style="margin-top:4px">${prods.map(x=>`<span class="chip c-gh">${esc(x)}</span>`).join('')}</div></div>`:''}
+        ${rivals.length?`<div style="margin-top:8px"><span class="src"><strong>Who you will be compared against</strong></span>
+          <div class="chips" style="margin-top:4px">${rivals.map(r=>r.c
+            ?`<span class="chip ${playC(r.c.play)}" style="cursor:pointer;text-transform:none" onclick="go('competitor','${r.c.id}')">${esc(cl(r.c.name,34))} →</span>`
+            :`<span class="chip c-unk" style="text-transform:none" title="Named in the persona deck, no record here yet">${esc(cl(r.n,34))}</span>`).join('')}</div></div>`:''}`});
+  }));
 }
 
-/* ---------- HOME = competitor browse ---------- */
 function renderHome(){
   const lines=uniq(C.flatMap(c=>(c.overlaps||[]).map(o=>o.product))).sort();
   $('#v-home').innerHTML=`<h1>Competitors</h1><hr class="rule">
@@ -1519,6 +1413,7 @@ function renderHome(){
   if(HPLAY){$('#h-play').value=HPLAY}
   drawHome();
 }
+
 function drawHome(){
   const fl=$('#h-line').value,fp=$('#h-play').value;
   let l=C.filter(c=>(!fl||(c.overlaps||[]).some(o=>o.product===fl))&&(!fp||c.play===fp));
@@ -1535,280 +1430,60 @@ function drawHome(){
     </tr>`}).join('')}</tbody></table></div>`:'<div class="empty">Nothing matches those filters.</div>';
 }
 
-/* ---------- PLAYBOOK: pitch · SPICED · how we think about competitors · the stack ---------- */
-function deepHTML(){
-  const P=PITCH, SB=SPICEDB, S=STACK, F2=FW;
-  const st=x=>`<div class="kpi"><div class="n" style="font-size:1.5rem">${esc(x.stat)}</div><div class="l" style="color:var(--charcoal)">${esc(x.label)}</div></div>`;
-  return `<details class="deep"><summary>The pitch — the 30 seconds, the market shift, the proof</summary><div>
-    <div class="verdict compete"><div class="st">The anchor promise · 30 seconds</div><div class="ln">${esc(P.thirtySecond||'')}</div></div>
-    ${P.marketShift?`<div class="card" style="margin-bottom:14px;border-top:3px solid var(--red)"><h4>The market shift</h4><hr class="rule">
-      <div class="grid g3"><div><strong>What changed</strong><br>${esc(P.marketShift.whatChanged)}</div>
-      <div><strong>What didn't</strong><br>${esc(P.marketShift.whatDidNot)}</div>
-      <div><strong>What it means</strong><br>${esc(P.marketShift.whatItMeans)}</div></div>
-      <p style="margin:10px 0 0;font-family:var(--fd);font-size:1.05rem;color:var(--navy)">${esc(P.marketShift.line)}</p></div>`:''}
-    ${has(P.resolutionLoop)?`<div class="card" style="margin-bottom:14px"><h4>The resolution loop — the product story</h4><hr class="rule">
-      <div class="grid g3">${P.resolutionLoop.map(r=>`<div><div style="font-family:var(--fd);font-weight:700;color:var(--red)">${r.n}. ${esc(r.step)}</div>
-      <div style="font-size:.88rem">${esc(r.detail)}</div></div>`).join('')}</div>
-      ${P.loopNote?`<div class="neg" style="margin-top:12px">${esc(P.loopNote)}</div>`:''}</div>`:''}
-    ${P.insight?`<div class="card" style="margin-bottom:14px"><h4>Our point of view</h4><hr class="rule">
-      <h3>${esc(P.insight.headline)}</h3><p style="margin:4px 0 12px">${esc(P.insight.sub)}</p>
-      <div class="grid g3">${(P.insight.stats||[]).map(st).join('')}</div>
-      <p style="margin:12px 0 0;font-family:var(--fd);color:var(--navy)">${esc(P.insight.close)}</p>
-      <p class="src" style="margin-top:6px">${esc(P.insight.sources||'')}</p></div>`:''}
-    ${P.pattern?`<div class="card" style="margin-bottom:14px"><h4>${esc(P.pattern.headline)}</h4><hr class="rule">
-      <table><thead><tr><th>What you see</th><th>Lands on</th><th>What's actually happening</th></tr></thead><tbody>${
-      P.pattern.rows.map(r=>`<tr><td><strong>${esc(r.seen)}</strong></td><td>${esc(r.owner)}</td><td>${esc(r.actual)}</td></tr>`).join('')}</tbody></table>
-      <p style="margin:10px 0 0"><strong>${esc(P.pattern.close)}</strong></p>
-      ${has(P.pattern.compounds)?`<div class="chips" style="margin:8px 0 4px">${P.pattern.compounds.map((c,ix)=>`<span class="chip c-lo">${ix+1}. ${esc(c)}</span>`).join('')}</div>
-      <div class="neg" style="margin:0 0 8px">${esc(P.pattern.compoundsNote||'')}</div>`:''}
-      <div class="pt" style="margin-top:8px;font-style:italic">${dq(P.pattern.ask)}</div></div>`:''}
-    ${P.paysTwice?`<div class="card" style="margin-bottom:14px"><h4>So what — it pays you twice</h4><hr class="rule">
-      <div class="grid g2"><div><strong>This year, in operations</strong><br>${esc(P.paysTwice.thisYear)}</div>
-      <div><strong>At exit, in asset value</strong><br>${esc(P.paysTwice.atExit)}</div></div>
-      <div class="pt" style="margin-top:10px"><strong>${esc(P.paysTwice.arithmetic)}</strong><br><span class="src">${esc(P.paysTwice.note)}</span></div></div>`:''}
-    ${P.worthIt?`<div class="card" style="margin-bottom:14px"><h4>What it's worth — ${esc(P.worthIt.headline)}</h4><hr class="rule">
-      <table><thead><tr><th>Input</th><th>Example</th><th>Theirs</th></tr></thead><tbody>${
-      P.worthIt.rows.map(r=>`<tr><td>${esc(r[0])}</td><td><strong>${esc(r[1])}</strong></td><td class="src">—</td></tr>`).join('')}</tbody></table>
-      <p class="src" style="margin:8px 0 0">${esc(P.worthIt.note)}</p></div>`:''}
-    ${has(P.alternatives)?`<div class="card" style="margin-bottom:14px"><h4>Their options — be fair to all four</h4><hr class="rule">
-      <table><thead><tr><th>Approach</th><th>Good for</th><th>Where it stops</th></tr></thead><tbody>${
-      P.alternatives.map(a=>`<tr><td><strong>${esc(a.approach)}</strong></td><td>${esc(a.goodFor)}</td><td>${esc(a.stops)}</td></tr>`).join('')}</tbody></table>
-      <p class="src" style="margin-top:8px">${esc(P.alternativesNote||'')}</p></div>`:''}
-    ${has(P.perfectWorld)?`<div class="card" style="margin-bottom:14px;border-top:3px solid var(--cer)"><h4>What good would look like — the hinge</h4><hr class="rule">
-      <div class="grid g2">${P.perfectWorld.map(x=>`<div><strong>${x.n}. ${esc(x.title)}</strong><br><span style="font-size:.9rem">${esc(x.detail)}</span></div>`).join('')}</div>
-      <p class="src" style="margin-top:10px">${esc(P.perfectWorldNote||'')}</p></div>`:''}
-    ${P.connectsBothSides?`<div class="card" style="margin-bottom:14px"><h4>Both sides of performance — the moat</h4><hr class="rule">
-      <div class="grid g3"><div><h4>Evidence</h4>${ul(P.connectsBothSides.evidence)}</div>
-      <div><h4>Context</h4>${ul(P.connectsBothSides.context)}</div><div><h4>Improvement</h4>${ul(P.connectsBothSides.improvement)}</div></div>
-      <p style="margin:10px 0 0;font-family:var(--fd);font-size:1.05rem;color:var(--navy)">${esc(P.connectsBothSides.moat)}</p>
-      <p class="src">${esc(P.connectsBothSides.note)}</p></div>`:''}
-    ${P.ai?`<div class="card" style="margin-bottom:14px"><h4>Where AI fits</h4><hr class="rule">
-      <div class="grid g2"><div><strong>What AI changed</strong><br>${esc(P.ai.changed)}</div><div><strong>What it hasn't</strong><br>${esc(P.ai.unchanged)}</div></div>
-      <p style="margin:10px 0 0">${esc(P.ai.close)}</p></div>`:''}
-    ${P.packaging?`<div class="card" style="margin-bottom:14px"><h4>How they'd buy it</h4><hr class="rule">
-      <div class="grid g2">${P.packaging.platform.map(t=>`<div><strong>${esc(t.tier)}</strong><br><span style="font-size:.9rem">${esc(t.includes)}</span></div>`).join('')}</div>
-      <div class="grid g2" style="margin-top:12px">${P.packaging.tracks.map(t=>`<div class="card" style="background:var(--gray)"><strong>${esc(t.track)}</strong> <span class="src">${esc(t.forWho)}</span>
-        <p style="margin:6px 0;font-size:.9rem">${esc(t.value)}</p><div class="src">${esc(t.loop)}</div>
-        <div class="src" style="margin-top:4px">Shows up in: ${esc(t.showsUpIn)}</div></div>`).join('')}</div>
-      <div class="chips" style="margin-top:10px">${P.packaging.addOns.map(a=>`<span class="chip c-unk">${esc(a)}</span>`).join('')}</div>
-      <p class="src" style="margin-top:8px">${esc(P.packaging.note)}</p></div>`:''}
-    ${P.fourThings?`<div class="card" style="margin-bottom:14px;border-top:3px solid var(--navy)"><h4>${esc(P.fourThings.headline)}</h4><hr class="rule">
-      <p class="src" style="margin:0 0 10px">${esc(P.fourThings.sub)}</p>
-      <div class="grid g2">${(P.fourThings.items||[]).map(x=>`<div class="pt" style="margin:0 0 6px">
-        <strong style="color:var(--navy)">${esc(x.name)}</strong><br><span style="font-size:.9rem">${esc(x.detail)}</span></div>`).join('')}</div>
-      <p class="src" style="margin:10px 0 0">${esc(P.fourThings.underneath)}</p>
-      <p style="margin:8px 0 0;font-family:var(--fd);font-size:1.05rem;color:var(--navy)">${esc(P.fourThings.close)}</p></div>`:''}
-    ${P.outcomeChain?`<div class="card" style="margin-bottom:14px"><h4>Where it lands</h4><hr class="rule">
-      <div class="chain">${(P.outcomeChain.steps||[]).map(s=>`<div class="stp on"><b>${esc(s)}</b></div>`).join('')}</div>
-      <div class="pt" style="margin-top:10px"><strong>${esc(P.outcomeChain.proof)}</strong><br><span class="src">${esc(P.outcomeChain.source)}</span></div></div>`:''}
-    ${has(P.stories)?`<div class="card" style="margin-bottom:14px;border-left:4px solid var(--cer)"><h4>Stories you can borrow</h4><hr class="rule">
-      <p class="src" style="margin:0 0 10px">${esc(P.storiesNote||'')}</p>
-      ${P.stories.map(s=>`<div style="margin-bottom:14px;padding-bottom:12px;border-bottom:1px solid var(--line)">
-      <div style="display:flex;flex-wrap:wrap;gap:8px;align-items:baseline;margin-bottom:6px">
-        <strong style="color:var(--navy);font-family:var(--fd)">${esc(s.name)}</strong>
-        <span class="src">${esc(s.role)}</span>
-        <span class="chip c-hi">Use when: ${esc(s.useWhen)}</span></div>
-      <p style="margin:0 0 5px"><span class="lbl src" style="font-weight:700;text-transform:uppercase;letter-spacing:.07em">Situation</span> ${esc(s.situation)}</p>
-      <p style="margin:0 0 5px"><span class="lbl src" style="font-weight:700;text-transform:uppercase;letter-spacing:.07em">Pain</span> ${esc(s.pain)}</p>
-      <p style="margin:0 0 7px"><span class="lbl src" style="font-weight:700;text-transform:uppercase;letter-spacing:.07em">Impact</span> ${esc(s.impact)}</p>
-      ${s.quote?`<div class="pt" style="margin:0 0 7px;font-style:italic">${dq(s.quote)} — ${esc(s.name)}, in her words</div>`:''}
-      <div class="neg" style="margin:0 0 7px">${esc(s.point)}</div>
-      <p style="margin:0;font-style:italic;color:var(--navy)">${dq(s.ask)}</p></div>`).join('')}
-      <p class="src" style="margin:2px 0 0">End on the question, not on us. The customer is the hero; we are the guide.</p></div>`:''}
-    ${has(P.proof)?`<div class="card" style="margin-bottom:14px"><h4>Proof</h4><hr class="rule"><div class="grid g3">${
-      P.proof.map(x=>`<div class="kpi"><div class="n" style="font-size:1.5rem">${esc(x.stat)}</div><div class="l" style="color:var(--charcoal)">${esc(x.label)}</div><div class="l">${esc(x.area)}</div></div>`).join('')}</div>
-      ${P.proofQuote?`<div class="pt" style="margin-top:12px;font-style:italic">${dq(P.proofQuote.quote)} — ${esc(P.proofQuote.who)}</div>`:''}</div>`:''}
-    ${has(P.objections)?`<div class="card" style="margin-bottom:14px"><h4>Fair questions</h4><hr class="rule">${
-      P.objections.map(o=>`<div style="margin-bottom:10px"><div style="font-weight:700;color:var(--navy)">${dq(o.objection)}</div><div class="pt" style="margin-top:5px">${esc(o.response)}</div></div>`).join('')}</div>`:''}
-    ${has(P.languageToAvoid)?`<div class="card" style="border-top:3px solid var(--red)"><h4>Language to avoid</h4><hr class="rule">${
-      P.languageToAvoid.map(x=>`<div class="neg">${esc(x)}</div>`).join('')}</div>`:''}
-  </div>
+function goLine(l){HPLAY='';go('home');const s=$('#h-line');if(s){s.value=l;drawHome()}}
 
-  </div></details>
+function renderExplore(which){
+  const cur=which||'outcome';
+  const BLURB={outcome:'Pick the outcome the buyer wants. Each one opens a different conversation.',
+    problem:"What the buyer actually said. Find the sentence closest to what you heard.",
+    persona:'Who is in the room, what they are measured on, and who you will be compared against.',
+    product:"Who you'll meet when you're selling each line. Head-to-head first.",
+    compare:'A straight capability comparison. Unknown is not a No.'};
+  $('#v-explore').innerHTML=`<h1>Explore</h1><hr class="rule">
+  <p style="color:var(--muted);max-width:66ch;margin:0 0 14px">Five ways in when you do not have a competitor's name.</p>
+  <div class="tabs noprint">${EXP.map(([k,l])=>`<button data-p="${k}" class="${k===cur?'on':''}" onclick="renderExplore('${k}')">${esc(l)}</button>`).join('')}</div>
+  <div id="exp-body"></div>`;
+  const b=$('#exp-body');
 
-  <details class="deep"><summary>SPICED — the discovery frame, stage by stage</summary><div>
-    <p class="src" style="margin:0 0 12px">${esc(SB.note||'')}</p>
-    ${(SB.stages||[]).map(x=>`<div class="card" style="margin-bottom:12px">
-      <div style="display:flex;gap:12px;align-items:baseline"><span style="font-family:var(--fd);font-size:1.6rem;color:var(--red);font-weight:700">${esc(x.letter)}</span>
-      <div><h3>${esc(x.stage)}</h3><p class="src" style="margin:2px 0 0">${esc(x.objective)}</p></div></div>
-      <div class="grid g2" style="margin-top:12px">
-        <div><h4>Ask it live</h4>${(x.askItLive||[]).map(q=>`<div class="pt" style="font-style:italic;color:var(--navy)">${dq(q)}</div>`).join('')}</div>
-        <div><h4>Deal review — what you must be able to answer</h4>${ul(x.dealReview)}</div></div></div>`).join('')}
-    ${has(SB.fitIndicators)?`<div class="card" style="margin-bottom:12px"><h4>Fit indicators to listen for</h4><hr class="rule">${ul(SB.fitIndicators)}</div>`:''}
-    ${SB.stage2Exit?`<div class="card" style="margin-bottom:12px;border-top:3px solid var(--red)"><h4>${esc(SB.stage2Exit.title)}</h4><hr class="rule">
-      <table><tbody>${SB.stage2Exit.criteria.map(c=>`<tr><td style="width:34%"><strong>${esc(c.item)}</strong></td><td>${esc(c.detail)}</td></tr>`).join('')}</tbody></table>
-      <p class="src" style="margin-top:8px">${esc(SB.stage2Exit.note)}</p></div>`:''}
-    ${has(SB.nextSteps)?`<div class="card"><h4>Next steps ladder</h4><hr class="rule"><div class="grid g2">${
-      SB.nextSteps.map(n=>`<div><span class="chip c-cat">${esc(n.when)}</span> <strong>${esc(n.what)}</strong><br><span style="font-size:.88rem">${esc(n.detail)}</span></div>`).join('')}</div></div>`:''}
-  </div>
+  if(cur==='outcome'){
+    b.innerHTML=xhead(BLURB.outcome)+xlist((PATH.pathways||[]).map(w=>xrow({
+      title:w.name, chip:w.goal, chipCls:w.goal==='NOI'?'c-cat':'c-gh',
+      line:firstSent(w.oneLine,150),
+      detail:`<div style="font-size:.9rem">${esc(w.oneLine)}</div>
+        ${w.sayThat?`<div class="pt" style="margin-top:8px;font-size:.88rem"><strong>Ask:</strong> ${esc(w.sayThat)}</div>`:''}
+        ${(w.overlaps||[]).length?`<div class="chips" style="margin-top:8px">${(w.overlaps||[]).map(o=>`<span class="chip c-ov-p" style="cursor:pointer" onclick="goLine('${esc(o)}')">${esc(o)} →</span>`).join('')}</div>`:''}`})))
+      +`<p class="src" style="margin-top:10px">The goal label is where an outcome lands first, not the only thing it touches.</p>`;
 
-  </div></details>
+  } else if(cur==='problem'){
+    const byPath={}; JOBS.forEach(j=>{(byPath[j.pathway]=byPath[j.pathway]||[]).push(j)});
+    b.innerHTML=xhead(BLURB.problem)+(PATH.pathways||[]).filter(w=>byPath[w.id]).map(w=>{
+      const rows=byPath[w.id].map(j=>{
+        const rivals=C.filter(c=>(c.overlaps||[]).some(o=>(w.overlaps||[]).includes(o.product)&&o.degree!=='None'));
+        const ord={'Head-to-head':0,'Sometimes in the room':1,'Partner':2,'Not our fight':3};
+        const rk=rivals.slice().sort((a,b)=>(ord[a.play]??9)-(ord[b.play]??9)||((HEARD[b.id]||{}).deals||0)-((HEARD[a.id]||{}).deals||0)||a.name.localeCompare(b.name)).slice(0,4);
+        return xrow({title:firstSent(j.job,90), chip:rivals.length?rivals.length+' rivals':'', chipCls:'c-unk',
+          line:firstSent(j.pain,130),
+          detail:`<div class="grid g2">
+            <div><span class="src"><strong>Where it hurts today</strong></span><div style="font-size:.9rem">${esc(j.pain)}</div></div>
+            <div><span class="src"><strong>What good looks like</strong></span><div style="font-size:.9rem">${esc(j.outcome)}</div></div></div>
+            ${w.sayThat?`<div class="pt" style="margin-top:8px;font-size:.88rem"><strong>Say this:</strong> ${esc(w.sayThat)}</div>`:''}
+            ${rk.length?`<div style="margin-top:8px"><span class="src"><strong>Most likely to come up</strong></span>
+              <div class="chips" style="margin-top:4px">${rk.map(c=>`<span class="chip ${playC(c.play)}" style="cursor:pointer" onclick="go('competitor','${c.id}')">${esc(c.name)} →</span>`).join('')}</div></div>`:''}`});
+      });
+      return `<h2 style="margin-top:22px;margin-bottom:8px">${esc(w.name)}</h2>`+xlist(rows);
+    }).join('');
 
-  <details class="deep"><summary>Who you sell to — roles, segments, and why we lose</summary><div>
-    <h2>Four roles</h2><hr class="rule">
-    <p class="src" style="margin:0 0 14px">Four lines each. Anything longer lives in the personas deck.</p>
-    <div class="grid g2" style="margin-bottom:26px">${ROLES.map(r=>`<div class="card">
-      <div style="display:flex;gap:8px;align-items:baseline;flex-wrap:wrap"><h3>${esc(r.name)}</h3><span class="chip c-cat">${esc(r.pathway)}</span></div>
-      <p style="margin:8px 0 6px;font-size:.92rem"><strong>Owns:</strong> ${esc(r.owns)}</p>
-      <p style="margin:0 0 6px;font-size:.92rem"><strong>Measured on:</strong> ${esc(r.measuredOn)}</p>
-      <p style="margin:0 0 10px;font-size:.92rem"><strong>Pushes back on:</strong> ${esc(r.pushesBackOn)}</p>
-      <div class="pt"><div style="font-style:italic;color:var(--navy)">${esc(r.hearThis)}</div>
-      <div style="margin-top:6px"><strong>Say:</strong> ${esc(r.sayThat)}</div></div>
-    </div>`).join('')}</div>
+  } else if(cur==='persona'){
+    b.innerHTML=xhead(BLURB.persona)+personaHTML();
 
-    <h2>Who we sell to</h2><hr class="rule">
-    <div class="grid g2" style="margin-bottom:20px">
-      <div class="card"><h4>${esc(SEG.sales.label)}</h4><hr class="rule">
-        <p class="src" style="margin:0 0 8px">${esc(SEG.sales.basis)}</p>
-        <table><tbody>${SEG.sales.rows.map(r=>`<tr><td style="width:46%"><strong>${esc(r.name)}</strong></td><td>${esc(r.rule)}</td></tr>`).join('')}</tbody></table></div>
-      <div class="card"><h4>${esc(SEG.cs.label)}</h4><hr class="rule">
-        <p class="src" style="margin:0 0 8px">${esc(SEG.cs.basis)}</p>
-        <table><tbody>${SEG.cs.rows.map(r=>`<tr><td style="width:46%"><strong>${esc(r.name)}</strong></td><td>${esc(r.rule)}</td></tr>`).join('')}</tbody></table></div>
-    </div>
+  } else if(cur==='product'){
+    b.innerHTML=xhead(BLURB.product)+productsHTML();
 
-    <h2>${esc(SEG.outcomeSegments.label)}</h2><hr class="rule">
-    <p class="src" style="margin:0 0 12px">${esc(SEG.outcomeSegments.why)}</p>
-    <table><thead><tr><th>Segment</th><th>What they want</th><th style="width:92px">Customers</th><th style="width:74px">Avg products</th></tr></thead><tbody>${
-      SEG.outcomeSegments.rows.map(r=>`<tr><td><strong style="color:var(--navy)">${esc(r.name)}</strong><br><span class="src">${esc(r.note)}</span></td>
-      <td>${esc(r.wants)}<br><span class="src">${esc(r.products)}</span></td>
-      <td>${r.customers.toLocaleString()}</td><td>${r.avgProducts}</td></tr>`).join('')}</tbody></table>
-
-    <div class="card" style="margin-top:20px;border-top:3px solid var(--red)"><h4>${esc(SEG.whyWeLose.label)} — ${esc(SEG.whyWeLose.headline)}</h4><hr class="rule">
-      ${ul(SEG.whyWeLose.points)}
-      <div class="pt" style="margin-top:8px">${esc(SEG.whyWeLose.useIt)}</div></div>
-
-    <div class="card" style="margin-top:14px"><h4>${esc(SEG.migration.label)}</h4><hr class="rule">${ul(SEG.migration.points)}</div>
-  </div>
-
-  </div></details>
-
-  <details class="deep"><summary>The buying committee — who is in the room and who they trust</summary><div>
-    <div class="verdict compete" style="margin-bottom:16px"><div class="st">The buying committee</div>
-      <div class="ln">${esc(CMTE.headline||'')}</div></div>
-
-    <div class="grid g2" style="margin-bottom:22px">${(CMTE.shape||[]).map(s=>`
-      <div class="kpi" style="text-align:left"><div class="n" style="font-size:1.7rem">${esc(s.n)}</div>
-      <div class="l" style="color:var(--charcoal);font-weight:700">${esc(s.label)}</div>
-      <div class="l">${esc(s.detail)}</div></div>`).join('')}</div>
-
-    <h2>${esc((CMTE.trust||{}).headline||'')}</h2><hr class="rule">
-    <table style="margin-bottom:10px"><tbody>${((CMTE.trust||{}).rows||[]).map(r=>`
-      <tr><td style="width:44%"><strong${r.us?' style="color:var(--red)"':(r.flag?' style="color:var(--dcer)"':'')}>${esc(r.who)}</strong>${r.us?' <span class="chip c-gh">us</span>':''}${r.flag?' <span class="chip c-live">the incumbent</span>':''}<br><span class="src">${esc(r.sphere||'')}</span></td>
-      <td><div style="display:flex;align-items:center;gap:8px">
-        <div style="height:9px;border-radius:5px;background:${r.us?'var(--red)':(r.flag?'#03B8EC':'var(--navy)')};width:${r.pct}%;max-width:80%"></div>
-        <span class="src">${r.pct}%</span></div></td></tr>`).join('')}</tbody></table>
-    <div class="grid g3" style="margin-bottom:12px">${((CMTE.trust||{}).spheres||[]).map(s=>`
-      <div class="card"><h4>${esc(s.name)}</h4><hr class="rule"><p style="margin:0;font-size:.88rem">${esc(s.what)}</p></div>`).join('')}</div>
-    <div class="pt" style="margin-bottom:12px">${esc((CMTE.trust||{}).soWhat||'')}</div>
-    ${(CMTE.trust||{}).theIncumbentProblem?`<div class="card" style="margin-bottom:24px;border-top:3px solid var(--red)">
-      <h4>Why we lose to the PMS</h4><hr class="rule">
-      <p style="margin:0">${md((CMTE.trust||{}).theIncumbentProblem)}</p></div>`:''}
-
-    <h2>${esc((CMTE.generations||{}).headline||'')}</h2><hr class="rule">
-    <p class="src" style="margin:0 0 10px">${esc((CMTE.generations||{}).mixNote||'')}</p>
-    <div class="grid g2" style="margin-bottom:12px">
-      <div class="card"><h4>Digital natives · how they prefer to learn</h4><hr class="rule">
-        <table><tbody>${(((CMTE.generations||{}).split||{}).digital||[]).map(([w,p],i)=>`<tr><td style="width:56%">${i===0?'<strong style="color:var(--red)">'+esc(w)+'</strong>':esc(w)}</td>
-        <td><div style="display:flex;align-items:center;gap:6px"><div style="height:8px;border-radius:4px;background:${i===0?'var(--red)':'var(--navy)'};width:${p*1.6}%"></div><span class="src">${p}%</span></div></td></tr>`).join('')}</tbody></table></div>
-      <div class="card"><h4>Boomers and Gen X</h4><hr class="rule">
-        <table><tbody>${(((CMTE.generations||{}).split||{}).older||[]).map(([w,p],i)=>`<tr><td style="width:56%">${i===0?'<strong style="color:var(--navy)">'+esc(w)+'</strong>':esc(w)}</td>
-        <td><div style="display:flex;align-items:center;gap:6px"><div style="height:8px;border-radius:4px;background:var(--navy);width:${p*1.6}%"></div><span class="src">${p}%</span></div></td></tr>`).join('')}</tbody></table></div>
-    </div>
-    <div class="pt" style="margin-bottom:14px">${esc((CMTE.generations||{}).soWhat||'')}</div>
-    <div class="grid g3" style="margin-bottom:10px">${((CMTE.generations||{}).late||[]).map(x=>`
-      <div class="kpi"><div class="n" style="font-size:1.5rem">${esc(x.n)}</div><div class="l">${esc(x.label)}</div></div>`).join('')}</div>
-    <div class="pt" style="margin-bottom:24px">${esc((CMTE.generations||{}).lateSoWhat||'')}</div>
-
-    <h2>${esc((CMTE.ai||{}).headline||'')}</h2><hr class="rule">
-    ${ul((CMTE.ai||{}).points||[])}
-    <div class="pt" style="margin:8px 0 24px">${esc((CMTE.ai||{}).soWhat||'')}</div>
-
-    <h2>Who is actually in the room</h2><hr class="rule">
-    <table><thead><tr><th style="width:18%">Seat</th><th style="width:22%">Usually</th><th style="width:26%">What they want</th><th>Give them</th></tr></thead><tbody>${
-      (CMTE.committee||[]).map(x=>`<tr><td><strong style="color:var(--navy)">${esc(x.role)}</strong></td>
-      <td class="src">${esc(x.who)}</td><td>${esc(x.wants)}</td><td>${esc(x.give)}</td></tr>`).join('')}</tbody></table>
-
-    <div class="card" style="margin-top:20px;border-top:3px solid var(--red)"><h4>What to do differently</h4><hr class="rule">
-      ${ul(CMTE.plays||[])}</div>
-    <p class="src" style="margin-top:12px">${esc(CMTE.source||'')}</p>
-  </div>
-
-  </div></details>
-
-  <details class="deep"><summary>Which message to use — why change, why stay, why evolve</summary><div>
-    <div class="card" style="margin-bottom:18px;border-top:3px solid var(--red)"><h4>Why this matters</h4><hr class="rule">
-      <ul class="tight">${(MSG.theProblem||[]).map(x=>`<li>${md(x)}</li>`).join('')}</ul>
-      <div class="pt" style="margin-top:8px">${esc(MSG.whyItMattersHere||'')}</div></div>
-
-    <h2>Status quo bias, and which side of it you are on</h2><hr class="rule">
-    <p style="margin:0 0 12px;max-width:74ch">${esc((MSG.statusQuoBias||{}).definition||'')}</p>
-    <div class="grid g3" style="margin-bottom:20px">${((MSG.statusQuoBias||{}).roles||[]).map(r=>`
-      <div class="card" style="border-top:3px solid ${MC[r.color]}">
-        <h4 style="color:${MC[r.color]}">${esc(r.situation)}</h4><hr class="rule">
-        <p class="src" style="margin:0 0 6px">${esc(r.who)}</p>
-        <p style="margin:0;font-size:.92rem">${esc(r.role)}</p></div>`).join('')}</div>
-
-    <h2>The three messages, step by step</h2><hr class="rule">
-    <div class="grid g3" style="margin-bottom:20px">${(MSG.messages||[]).map(m=>`
-      <div class="card" style="border-top:3px solid ${MC[m.id]}">
-        <h3 style="color:${MC[m.id]}">${esc(m.name)}</h3>
-        <p class="src" style="margin:4px 0 8px">${esc(m.use)}<br>${esc(m.segment)}</p>
-        <p style="margin:0 0 8px;font-size:.92rem"><strong>Goal:</strong> ${esc(m.goal)}</p>
-        <ol class="tight" style="padding-left:16px;font-size:.88rem">${(m.steps||[]).map(s=>`<li>${md(s)}</li>`).join('')}</ol>
-        <div class="pt" style="margin-top:8px;font-size:.86rem"><strong>The research:</strong> ${md(m.evidence)}</div>
-        <div class="neg" style="margin-top:8px;font-size:.86rem"><strong>Watch out.</strong> ${esc(m.watchOut)}</div>
-        <div class="src" style="margin-top:8px">${esc(m.theTrap||'')}</div>
-        <div style="margin-top:8px;font-style:italic;color:var(--navy);font-size:.9rem">${dq(m.ghExample)}</div>
-      </div>`).join('')}</div>
-
-    <h2>The four causes of status quo bias — one lever, three ways to pull it</h2><hr class="rule">
-    <p class="src" style="margin:0 0 12px">${esc((MSG.fourCauses||{}).note||'')}</p>
-    <div class="mx"><table><thead><tr>
-      <th style="width:22%">The cause</th>
-      <th style="width:26%;background:${MC.change}">Why change &mdash; defeat it</th>
-      <th style="width:26%;background:${MC.stay}">Why stay &mdash; reinforce it</th>
-      <th style="background:${MC.evolve}">Why evolve &mdash; shift it</th></tr></thead><tbody>${
-      ((MSG.fourCauses||{}).rows||[]).map(r=>`<tr>
-        <td><strong style="color:var(--navy)">${esc(r.cause)}</strong><br><span class="src">${esc(r.what)}</span></td>
-        ${['change','stay','evolve'].map(k=>`<td><strong style="color:${MC[k]}">${esc((r[k]||{}).move)}</strong><br>${esc((r[k]||{}).how)}</td>`).join('')}
-      </tr>`).join('')}</tbody></table></div>
-
-    <h2 style="margin-top:24px">Pick one</h2><hr class="rule">
-    <table><thead><tr><th style="width:40%">If this is the situation</th><th style="width:22%">Use</th><th>Because</th></tr></thead><tbody>${
-      (MSG.pickIt||[]).map(r=>`<tr><td>${esc(r.situation)}</td>
-      <td><strong style="color:var(--navy)">${esc(r.use)}</strong></td><td class="src">${esc(r.because||'')}</td></tr>`).join('')}</tbody></table>
-    <p class="src" style="margin-top:12px">${esc(MSG.source||'')}</p>
-  </div></details>
-
-  <details class="deep"><summary>Plays — the go-to-market motions</summary><div>
-    <div class="alert" style="border:1px solid var(--border);border-left:4px solid var(--amber);background:#FFFBF3;border-radius:8px;padding:12px 16px;margin-bottom:16px">
-      <strong>Status:</strong> ${esc(PLAYS.status||'')}</div>
-    ${has(PLAYS.rules)?`<div class="card" style="margin-bottom:16px;border-top:3px solid var(--red)"><h4>Two rules that apply to every play</h4><hr class="rule">${ul(PLAYS.rules)}</div>`:''}
-    <table><thead><tr><th style="width:52px">Play</th><th>Motion</th><th>Segment</th><th>Buyer</th><th>Note</th></tr></thead><tbody>${
-      (PLAYS.plays||[]).map(p=>`<tr><td><strong style="color:var(--red)">${esc(p.id)}</strong></td><td><strong>${esc(p.name)}</strong></td>
-      <td>${esc(p.segment)}</td><td>${esc(p.buyer)}${p.currentOwner?`<br><span class="src">currently owned by ${esc(p.currentOwner)}</span>`:''}</td>
-      <td>${esc(p.note||'')}</td></tr>`).join('')}</tbody></table>
-    ${PLAYS.addOns?`<div class="card" style="margin-top:16px"><h4>Add-ons</h4><hr class="rule"><p>${esc(PLAYS.addOns.note)}</p>
-      <div class="pt"><strong>Realync:</strong> ${esc(PLAYS.addOns.realync)}</div></div>`:''}
-  </div>
-
-  </div></details>
-
-  <details class="deep"><summary>How we categorize competitors</summary><div>
-    ${F2.foundationalQuestion?`<div class="verdict compete"><div class="st">The foundational question</div><div class="ln">${dq(F2.foundationalQuestion.question)}</div>
-      <div class="di">${esc(F2.foundationalQuestion.explanation||'')}</div></div>`:''}
-    ${has(F2.categories)?`<h2>The six categories</h2><hr class="rule">
-      <table><thead><tr><th>Category</th><th>The test</th><th>What it demands</th></tr></thead><tbody>${
-      F2.categories.map(c=>`<tr><td><strong>${esc(c.name)}</strong></td><td>${esc(c.test||'')}</td><td>${esc(c.demands||'')}</td></tr>`).join('')}</tbody></table>`:''}
-    ${has(F2.statusQuoForms)?`<h2 style="margin-top:24px">The four forms of status quo</h2><hr class="rule"><table><thead><tr><th>Form</th><th>Looks like</th><th>The counter</th></tr></thead><tbody>${
-      F2.statusQuoForms.map(x=>`<tr><td><strong>${esc(x.form)}</strong></td><td>${esc(x.looksLike)}</td><td>${esc(x.counter)}</td></tr>`).join('')}</tbody></table>`:''}
-    <p class="src" style="margin-top:14px">We no longer tier competitors. One label — how to play it — replaced the tier and the stance, because a tier tells you how much we care and a play tells you what to do.</p>
-  </div></details>
-
-`;
+  } else {
+    b.innerHTML=xhead(BLURB.compare)+compareHTML(); wireCompare();
+  }
 }
 
-/* ---------- COMPARE MATRIX ---------- */
 function compareHTML(){
   const lines=F.lines.map(l=>l.line);
   return `<div class="filters noprint">
@@ -1847,26 +1522,24 @@ function drawMatrix(){
 function productsHTML(){
   const lines=F.lines.map(l=>l.line);
   const pw={'Head-to-head':0,'Sometimes in the room':1,'Partner':2,'Not our fight':3};
-  return `<p style="color:var(--muted);max-width:62ch;margin:0 0 6px">Who you'll actually meet when you're selling each line. Head-to-head first, then the ones that sometimes show up, then the ones not worth your energy.</p>
-  <p class="src" style="margin:0 0 18px">One line each. Click a row for the full card.</p>
-  ${lines.map(l=>{
+  return `${lines.map(l=>{
     const set=C.filter(c=>(c.overlaps||[]).some(o=>o.product===l)||Object.keys(c.features||{}).some(k=>(FEAT[k]||{}).line===l));
     if(!set.length)return '';
-    set.sort((a,b)=>(pw[a.play]??9)-(pw[b.play]??9)||a.name.localeCompare(b.name));
-    const show=set.slice(0,14), rest=set.length-show.length;
+    set.sort((a,b)=>(pw[a.play]??9)-(pw[b.play]??9)||((HEARD[b.id]||{}).deals||0)-((HEARD[a.id]||{}).deals||0)||a.name.localeCompare(b.name));
+    const row=c=>`<button onclick="go('competitor','${c.id}')" title="${esc(c.name)}">
+        <span class="rn">${esc(c.name)}<span class="rc">${esc(c.toolCategory||'')}</span></span>
+        <span><span class="chip ${playC(c.play)}">${esc(c.play||'')}</span></span>
+        <span class="rv">${esc(firstSent((c.verdict||{}).line,165))}</span>
+        <span class="rx">›</span></button>`;
+    const show=set.slice(0,4), rest=set.slice(4);
     const n=k=>set.filter(c=>c.play===k).length;
     const counts=[['Head-to-head',n('Head-to-head')],['Sometimes in the room',n('Sometimes in the room')],['Not our fight',n('Not our fight')],['Partner',n('Partner')]]
       .filter(([,v])=>v).map(([k,v])=>`${v} ${k.toLowerCase()}`).join(' · ');
     return `<h2 style="margin-top:26px;margin-bottom:2px">${esc(l)}</h2>
     <p class="src" style="margin:0 0 8px">${esc(counts)}</p>
-    <div class="rank">${show.map(c=>`
-      <button onclick="go('competitor','${c.id}')" title="${esc(c.name)} — open the full card">
-        <span class="rn">${esc(c.name)}<span class="rc">${esc(c.toolCategory||'')}</span></span>
-        <span><span class="chip ${playC(c.play)}">${esc(c.play||'')}</span></span>
-        <span class="rv">${esc(firstSent((c.verdict||{}).line,165))}</span>
-        <span class="rx">›</span>
-      </button>`).join('')}</div>
-    ${rest>0?`<p class="src" style="margin-top:6px">${rest} more on this line — search by name, or open <strong>Competitors</strong>.</p>`:''}`;
+    <div class="rank">${show.map(c=>row(c)).join('')}
+      ${rest.length?`<div class="dtl" data-more-${esc(l).replace(/\W/g,'')}>${rest.map(c=>row(c)).join('')}</div>
+      <button class="showmore" onclick="xtoggle2(this)">Show ${rest.length} more</button>`:''}</div>`;
   }).join('')}`;
 }
 
@@ -1877,12 +1550,13 @@ function renderNews(){
   <p style="color:var(--muted);margin:0 0 16px">${esc(N.weekOf)} · ${esc(N.coverageWindow)}</p>
   <div class="verdict compete" style="margin-bottom:20px"><div class="st">This week's talk track</div><div class="ln" style="font-size:1rem">${esc(N.talkTrack)}</div></div>
   ${N.items.slice().sort((a,b)=>String(b.date).localeCompare(String(a.date))).map(i=>`
-    <div class="card" style="margin-bottom:12px">
-      <div class="src" style="margin-bottom:5px">${esc(i.date)} · ${esc(i.source)}</div>
-      <h3>${esc(i.headline)}</h3>
-      <p style="font-size:.9rem;margin:8px 0">${esc(i.summary)}</p>
-      <div class="pt" style="border-left-color:var(--red)"><strong style="font-size:.68rem;letter-spacing:.08em;text-transform:uppercase;color:var(--red);display:block;margin-bottom:2px">Why it matters</strong>${esc(i.soWhat)}</div>
-      <div class="src" style="margin-top:8px"><a href="${esc(i.url)}" target="_blank" rel="noopener">Read the source ↗</a></div></div>`).join('')}`;
+    <div class="card" style="margin-bottom:10px">
+      <div class="src" style="margin-bottom:4px">${esc(i.date)} · ${esc(i.source)}</div>
+      <h3 style="font-size:1rem">${esc(i.headline)}</h3>
+      <div class="pt" style="border-left-color:var(--red);margin-top:7px">${esc(i.soWhat)}</div>
+      <div class="src" style="margin-top:6px">
+        ${i.summary?`<button class="more" data-more="Background" data-less="Less" onclick="more(this)">Background</button> · `:''}<a href="${esc(i.url)}" target="_blank" rel="noopener">source ↗</a></div>
+      ${i.summary?`<div class="dtl">${esc(i.summary)}</div>`:''}</div>`).join('')}`;
 }
 
 /* ---------- BOOT ---------- */
