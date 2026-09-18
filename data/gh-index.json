@@ -147,7 +147,7 @@
     "whatItIs": "Intelligence+ reads every resident comment, tells you exactly what to fix first, and with Ask Gracie™ anyone on your team can just ask a question in plain English and get a sourced answer in seconds.",
     "why": "Intelligence+ is the AI-powered intelligence layer inside PerformanceHQ Surveys. It reads every resident survey comment, organizes the feedback into ten performance categories, and surfaces the risks and wins that matter — then attaches a specific recommendation and a trackable Action Plan, with an owner and a due date, to each one. With Ask Gracie™, anyone with the right role can type a plain-language question about a property, region, or portfolio and get a direct, sourced answer in seconds. And on the Mystery Shop side, a failed shop question maps to the exact Leasing Booster or Spark that fixes it, ready to assign. That's the loop no other platform closes.",
     "features": [
-      "Gracie AI reads every resident comment and organizes feedback across 13 insight categories",
+      "Gracie AI reads every resident comment and organizes feedback across ten insight categories",
       "Ask Gracie™ — plain-language Q&A on survey scores, portfolio rankings, comment themes, training compliance and executive summaries at portfolio, region or property level. Time-trend questions and overdue-assignment data are not supported yet, and responses cannot be exported (AdminHQ Policy 6010)",
       "Automated Training Recommendations — an insight card surfaces the gap, matches a Grace Hill course, assigns it in one click, and links the assignment back to the originating insight",
       "HelloData® comps in Intelligence+ — resident sentiment correlated with market comps in one response",
@@ -169,7 +169,7 @@
         "source": "Intelligence+ Playbook"
       },
       {
-        "stat": "13 insight categories",
+        "stat": "ten insight categories",
         "label": "Categories Gracie organizes every resident comment into",
         "source": "ask-gracie-flyer.pdf"
       },

@@ -95,7 +95,7 @@
     ],
     "whyWeWin": [
       "Grace Hill maintains the multifamily course library itself — the customer does not staff a content team to keep fair housing current.",
-      "Fair housing and state-specific compliance content ships with the product, not as a project.",
+      "Fair housing training ships with the product, along with state-specific versions where they exist today — select-state Sexual Harassment versions, and Fair Housing approved by Virginia DPOR and Texas TDHCA — not as a project the customer has to build.",
       "Role- and property-based assignment maps to how a portfolio is actually organized, not just to HR job codes."
     ],
     "askThis": [
@@ -2119,7 +2119,7 @@
       "note": "Owns the ledger. Records what happened; not built to improve it."
     },
     "whenItComesUp": {
-      "why": "AppFolio's training is product enablement — teaching customers to use AppFolio. It isn't a compliance or fair housing program, which makes AppFolio accounts effectively greenfield.",
+      "why": "AppFolio's training is product enablement — teaching customers to use AppFolio. It isn't a compliance or fair housing program, which makes AppFolio accounts effectively greenfield. In live deals it's also met as the property platform stretched into an ad hoc policy library — nothing connects a document to a person or a due date.",
       "say": "What AppFolio gives you is training on AppFolio — how to use the software. That's useful and it's not the same as fair housing, harassment or policy training for your onsite teams.",
       "avoid": "Don't imply AppFolio's training is poor. It's good at what it's for.",
       "redirect": "Where does your fair housing and compliance training come from today?"
@@ -5963,7 +5963,7 @@
     ],
     "whyWeWin": [
       "Grace Hill's library is built for property management specifically — leasing, maintenance and on-site roles — so relevance is not a curation project for the customer.",
-      "Grace Hill maintains its own compliance content as regulations change, so the customer is not tracking rule changes and re-authoring courses themselves.",
+      "Grace Hill maintains its own compliance content as regulations change, so the customer is not tracking rule changes and re-authoring courses themselves. We author and update the federal content; determining what applies to a specific property or state stays with the operator.",
       "Compliance reporting is framed around properties and roles, which is how multifamily owners and regulators ask the question."
     ],
     "askThis": [
@@ -8864,7 +8864,7 @@
     "features": {},
     "whenItComesUp": {
       "why": "Go1 is a documented loss driver: it arrives through an HRIS consolidation decision where training is a line item, not the subject. Field intel records a lost account where consolidation savings and a gap in commercial training content decided it.",
-      "say": "Go1 through your HRIS is a genuinely good consolidation play and the savings are real. What I'd want you to look at separately is what a leasing consultant or a maintenance tech actually gets, and who's on the hook when a state changes its requirements.",
+      "say": "Go1 through your HRIS is a genuinely good consolidation play and the savings are real. What I'd want you to look at separately is what a leasing consultant or a maintenance tech actually gets, and who owns keeping it current when a state changes its requirements.",
       "avoid": "Don't argue against consolidation, and don't compare catalog size. Both are losing exchanges.",
       "redirect": "When does the HRIS contract renew? That's the conversation where this actually gets decided."
     },
@@ -15225,14 +15225,24 @@
     },
     "strengths": [
       {
-        "text": "60,000+ pre-vetted courses in 70+ languages, positioned for seamless integration into the customer's existing LMS.",
+        "text": "68,000+ pre-vetted courses in 70+ languages as of 2026-08-18 (vendor-stated; not independently verified), positioned for seamless integration into the customer's existing LMS.",
         "source": "https://www.opensesame.com/",
-        "verifiedOn": "2026-08-11"
+        "verifiedOn": "2026-08-18"
+      },
+      {
+        "text": "2,000+ AI-related courses added to the catalog (vendor-stated; not independently verified).",
+        "source": "https://www.opensesame.com/",
+        "verifiedOn": "2026-08-23"
       },
       {
         "text": "Carries an exclusive IREM (Institute of Real Estate Management) collection in OpenSesame Plus — 246 courses spanning property/real estate management (residential and commercial), sustainability, public policy and advocacy, fair housing and compliance, and property maintenance.",
         "source": "https://www.opensesame.com/were-setting-the-bar-higher-still-gnc-irem-and-the-learning-rooms-are-now-available-in-opensesame-plus/",
         "verifiedOn": "2026-08-11"
+      },
+      {
+        "text": "Content partners named include MIT Sloan Management Review (65 courses), Second City Works (150 courses) and Vector Solutions (vendor-stated; not independently verified).",
+        "source": "https://www.opensesame.com/",
+        "verifiedOn": "2026-08-23"
       },
       {
         "text": "Combines human curation with AI-assisted shortlisting rather than dumping a raw catalog on the buyer.",
@@ -15567,7 +15577,8 @@
     ],
     "doNotSay": [
       "Do not suggest their review solicitation is review gating or non-compliant — there is no public source and the claim carries legal risk.",
-      "Do not quote a total price; the published figures are minimums and a setup fee, not a full quote."
+      "Do not quote a total price; the published figures are minimums and a setup fee, not a full quote.",
+      "Do not present Opiniion's SOC 2 as Type II — their published certification is Type I (controls designed at a point in time, not yet observed operating over a period). Type I and Type II are not interchangeable claims."
     ],
     "features": {
       "rm-monitoring": {
@@ -16636,7 +16647,8 @@
       "When your engagement score comes back, what are you comparing it against — all industries, or other apartment operators?",
       "Where do resident and commercial tenant feedback live? Same platform, or somewhere else?",
       "How long did it take from signing to your first usable portfolio-level report?",
-      "Once a finding lands, who assigns training and who verifies the behavior changed?"
+      "Once a finding lands, who assigns training and who verifies the behavior changed?",
+      "Qualtrics has been consolidating around healthcare experience since the Press Ganey/Forsta moves — who's your named support contact today, and do you know if that's still true a year from now?"
     ],
     "objections": [
       {
@@ -17939,254 +17951,6 @@
       }
     ],
     "play": "Not our fight"
-  },
-  {
-    "id": "rema-remington-evaluations",
-    "name": "REMA (Remington Evaluations)",
-    "aka": [
-      "Remington Evaluations LLC",
-      "REMysteryShops"
-    ],
-    "parent": null,
-    "website": "https://www.remysteryshops.com/",
-    "toolCategory": "Traditional mystery shopping provider, multifamily specialist",
-    "ciCategory": "Direct",
-    "tier": "Tier 1",
-    "verdict": {
-      "stance": "Compete",
-      "line": "A multifamily-native shop shop with published per-shop pricing and every shop type we run — compete on scoring consistency, benchmarking and the coaching-to-training handoff, not on whether they can shop an apartment.",
-      "doInstead": null
-    },
-    "overlaps": [
-      {
-        "product": "Mystery Shopping",
-        "degree": "High"
-      },
-      {
-        "product": "Surveys",
-        "degree": "Partial"
-      },
-      {
-        "product": "Training",
-        "degree": "None"
-      }
-    ],
-    "snapshot": {
-      "hq": {
-        "value": null,
-        "source": null,
-        "verifiedOn": null
-      },
-      "founded": {
-        "value": null,
-        "source": null,
-        "verifiedOn": null
-      },
-      "ownership": {
-        "value": "Private (Remington Evaluations LLC)",
-        "source": "https://www.remysteryshops.com/client-faqs.php",
-        "verifiedOn": "2026-08-11"
-      },
-      "size": {
-        "value": null,
-        "source": null,
-        "verifiedOn": null
-      },
-      "funding": {
-        "value": null,
-        "source": null,
-        "verifiedOn": null
-      }
-    },
-    "pricing": {
-      "value": "Public FAQ states shops run \"$55 to $170 per shop\" depending on level of detail and report length; rush service available for an additional charge.",
-      "source": "https://www.remysteryshops.com/client-faqs.php",
-      "verifiedOn": "2026-08-11"
-    },
-    "positioning": {
-      "value": "Multifamily-focused evaluation firm offering phone, onsite and email leasing consultant evaluations plus competitor, fair housing, customer service, potential-employee and video shops, with trending, graphing and benchmarking reports.",
-      "source": "https://www.remysteryshops.com/client-faqs.php",
-      "verifiedOn": "2026-08-11"
-    },
-    "strengths": [
-      {
-        "text": "Full shop-type coverage in one vendor: \"phone and onsite leasing consultant evaluations as well as email shops,\" plus competitor, fair housing, potential-employee, customer service and video shops.",
-        "source": "https://www.remysteryshops.com/client-faqs.php",
-        "verifiedOn": "2026-08-11"
-      },
-      {
-        "text": "Publishes a per-shop price range on the public site, which makes them easy for a buyer to budget against.",
-        "source": "https://www.remysteryshops.com/client-faqs.php",
-        "verifiedOn": "2026-08-11"
-      },
-      {
-        "text": "Offers trending, graphing and benchmarking reports alongside individual shop reports.",
-        "source": "https://www.remysteryshops.com/client-faqs.php",
-        "verifiedOn": "2026-08-11"
-      },
-      {
-        "text": "Multifamily is the core vertical; the same firm also serves mini storage, moving, retail, real estate and automotive.",
-        "source": "https://www.remysteryshops.com/client-faqs.php",
-        "verifiedOn": "2026-08-11"
-      }
-    ],
-    "gaps": [
-      {
-        "text": "Published standard turnaround is slow: \"Normally a report will take about 2 to 3 weeks,\" and the FAQ notes delays of 30+ days are possible when shopper or target scheduling breaks down.",
-        "source": "https://www.remysteryshops.com/client-faqs.php",
-        "verifiedOn": "2026-08-11"
-      },
-      {
-        "text": "Public site describes shop delivery and reporting; it does not describe linking shop results to assigned training or courseware.",
-        "source": "https://www.remysteryshops.com/client-faqs.php",
-        "verifiedOn": "2026-08-11"
-      }
-    ],
-    "whyWeWin": [
-      "Shop scores land in the same platform as the training assignment, so a low fair housing score becomes a course on that person's plate rather than a PDF in someone's inbox.",
-      "Benchmarking is drawn from a multifamily shop dataset built over decades, not a per-client trendline.",
-      "One vendor covers phone, email, onsite and video shops alongside surveys, training and policy in a single system of record."
-    ],
-    "askThis": [
-      "When a shop comes back at 60, what happens next in your process — who gets told, and what do they do that week?",
-      "How long from shop completion to a report a regional can act on? What's your contractual turnaround?",
-      "How is a shopper's score normalized across shoppers so a 78 in Dallas means the same as a 78 in Atlanta?",
-      "What are you benchmarking against — your own portfolio last quarter, or the industry?"
-    ],
-    "objections": [
-      {
-        "objection": "REMA quoted us $55 a shop.",
-        "response": "Price the outcome, not the shop. Ask what the shop costs plus what it costs to turn 400 shop reports into coaching that changes a score. If shops and training live in two systems, that second cost is a person's job."
-      },
-      {
-        "objection": "They do video shops too.",
-        "response": "So do we. The question isn't the format, it's what the video does after it's recorded — whether it's a file a manager may watch or a scored, benchmarked event that assigns the follow-up."
-      }
-    ],
-    "doNotSay": [
-      "Never say they can't do video or fair housing shops — their public FAQ lists both.",
-      "Never quote their pricing as a current number in a competitive deal; the published range is a website figure, not a quote."
-    ],
-    "features": {
-      "ms-human-shoppers": {
-        "support": "Yes",
-        "note": "Independent shoppers conduct evaluations; FAQ discusses shopper scheduling.",
-        "source": "https://www.remysteryshops.com/client-faqs.php",
-        "verifiedOn": "2026-08-11"
-      },
-      "ms-phone": {
-        "support": "Yes",
-        "note": "\"phone and onsite leasing consultant evaluations.\"",
-        "source": "https://www.remysteryshops.com/client-faqs.php",
-        "verifiedOn": "2026-08-11"
-      },
-      "ms-email": {
-        "support": "Yes",
-        "note": "\"as well as email shops.\"",
-        "source": "https://www.remysteryshops.com/client-faqs.php",
-        "verifiedOn": "2026-08-11"
-      },
-      "ms-onsite": {
-        "support": "Yes",
-        "note": "Onsite leasing consultant evaluations.",
-        "source": "https://www.remysteryshops.com/client-faqs.php",
-        "verifiedOn": "2026-08-11"
-      },
-      "ms-video": {
-        "support": "Yes",
-        "note": "Video shops listed among shop types.",
-        "source": "https://www.remysteryshops.com/client-faqs.php",
-        "verifiedOn": "2026-08-11"
-      },
-      "ms-rubric": {
-        "support": "Unknown",
-        "note": "Reports vary by \"level of detail and report length\"; a standardized cross-client rubric is not described publicly.",
-        "source": "https://www.remysteryshops.com/client-faqs.php",
-        "verifiedOn": "2026-08-11"
-      },
-      "ms-coaching": {
-        "support": "Unknown",
-        "note": "No public description of coaching linked to training assignment.",
-        "source": "https://www.remysteryshops.com/client-faqs.php",
-        "verifiedOn": "2026-08-11"
-      },
-      "ms-full-call-analysis": {
-        "support": "Unknown",
-        "note": "Public materials describe a sampled, per-shop program; analysis of all inbound calls is not described.",
-        "source": "https://www.remysteryshops.com/client-faqs.php",
-        "verifiedOn": "2026-08-11"
-      },
-      "ms-benchmarking": {
-        "support": "Partial",
-        "note": "\"trending and graphing reports...and also benchmarking reports\"; the benchmark dataset scale is not disclosed.",
-        "source": "https://www.remysteryshops.com/client-faqs.php",
-        "verifiedOn": "2026-08-11"
-      }
-    },
-    "health": {
-      "lastFullReview": "2026-08-11",
-      "confidence": "Medium",
-      "owner": null,
-      "autoUpdated": false,
-      "pendingReview": []
-    },
-    "news": [],
-    "sources": [
-      {
-        "title": "REMA / Remington Evaluations — Client FAQs",
-        "url": "https://www.remysteryshops.com/client-faqs.php",
-        "retrievedOn": "2026-08-11"
-      },
-      {
-        "title": "Revyse — Multifamily Mystery Shopping Solutions category",
-        "url": "https://revyse.com/categories/mystery-shops",
-        "retrievedOn": "2026-08-11"
-      }
-    ],
-    "stackLayer": {
-      "number": 5,
-      "name": "Resolution · The Resolution Layer for Multifamily",
-      "note": "Competes for the resolution layer position, or for one slice of it."
-    },
-    "whenItComesUp": {
-      "why": "A multifamily-native shopping firm with published per-shop pricing and every shop type we run. A straight head-to-head on execution, not on category.",
-      "say": "REMA is a real multifamily shop shop and their published pricing makes them easy to compare. Compete on scoring consistency, on benchmark depth, and on what happens after the shop — whether a low score routes into training and gets re-measured.",
-      "avoid": "Don't argue they can't shop an apartment. They can, and they've done it for years.",
-      "redirect": "After a shop comes back low, what happens? Who gets told, and how do you know it improved?"
-    },
-    "spiced": [
-      {
-        "letter": "S",
-        "stage": "Situation",
-        "listenFor": "They name Remington Evaluations LLC, REMysteryShops, or describe traditional mystery shopping provider, multifamily specialist already in place.",
-        "ask": "When a shop comes back at 60, what happens next in your process — who gets told, and what do they do that week?"
-      },
-      {
-        "letter": "P",
-        "stage": "Pain",
-        "listenFor": "Published standard turnaround is slow: \"Normally a report will take about 2 to 3 weeks,\" and the FAQ notes delays of 30+ days are possible when shopper or target scheduling breaks down.",
-        "ask": "How long from shop completion to a report a regional can act on? What's your contractual turnaround?"
-      },
-      {
-        "letter": "I",
-        "stage": "Impact",
-        "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
-        "ask": "If that stayed exactly as it is for another year, what does it cost you?"
-      },
-      {
-        "letter": "CE",
-        "stage": "Critical Event",
-        "listenFor": "A renewal date on the REMA (Remington Evaluations) contract, an audit, an acquisition, or new leadership asking what the data shows.",
-        "ask": "When does the REMA (Remington Evaluations) agreement come up, and what has to be decided before then?"
-      },
-      {
-        "letter": "D",
-        "stage": "Decision Process",
-        "listenFor": "Whether REMA (Remington Evaluations) sits on someone else's budget line — that changes who has to agree.",
-        "ask": "How is a shopper's score normalized across shoppers so a 78 in Dallas means the same as a 78 in Atlanta?"
-      }
-    ],
-    "play": "Head-to-head"
   },
   {
     "id": "yardi-rentcafe-reputation-management",
@@ -20568,7 +20332,7 @@
     ],
     "whyWeWin": [
       "Grace Hill supplies and maintains the multifamily curriculum; Sana supplies the platform and expects the customer to bring content.",
-      "Keeping fair housing and federal compliance content current is work Grace Hill does, so it is not an internal L&D project. State-specific coverage is by exception rather than across the board — check Policy 110 before promising a particular state."
+      "Keeping fair housing and federal compliance content current is work Grace Hill does, so it is not an internal L&D project — we author and update the federal content, and determining what applies to a specific state or property stays with the operator. State-specific coverage is by exception rather than across the board — check Policy 110 before promising a particular state."
     ],
     "askThis": [
       "Is this coming to you through Workday procurement rather than a training evaluation?",
@@ -20767,7 +20531,7 @@
     "tier": "Tier 1",
     "verdict": {
       "stance": "Compete",
-      "line": "Deep multifamily survey line paired with the ApartmentRatings review site under Internet Brands — compete on benchmark disclosure, commercial tenant coverage and the ability to close the loop into training and mystery shopping.",
+      "line": "Deep multifamily survey line paired with the ApartmentRatings review site under Internet Brands. They now publish a flat-rate LEO bundle, so don't compete as if pricing is fully opaque — compete on commercial tenant coverage and closing the loop into training, not on benchmark disclosure.",
       "doInstead": null
     },
     "overlaps": [
@@ -20967,13 +20731,12 @@
     ],
     "doNotSay": [
       "Never assert that SatisFacts or ApartmentRatings data is biased, manipulated or compromised because the survey vendor and review site share an owner. There is no public evidence for it, it is defamatory in tone, and it is a legal risk. Ask the neutral question instead — it is in askThis.",
-      "Do not say 'they have no benchmark' — the epIQ Index and their national awards program are public. Say that the survey benchmark's scale and history are not publicly disclosed.",
+      "The scale, national-average basis and thresholds (4.25+, 100 company / 25 community) are published — do not say there is no benchmark. Only the dataset size and history are undisclosed.",
       "Do not claim the 150,000+ figure is survey respondents. It is the number of communities profiled on ApartmentRatings.com.",
       "Do not attribute Internet Brands corporate facts (revenue, headcount, other properties) to SatisFacts.",
-      "Do not quote a SatisFacts price or client count — none are published.",
-      "Do not say SatisFacts does not do employee surveys — an Employee Feedback Survey is in their published line.",
-      "Do not claim SatisFacts manipulates ApartmentRatings ratings — there is no public source for that and it is legally risky.",
-      "Do not say they 'have no benchmarking' — say it is not described on their public product pages."
+      "Do not quote a SatisFacts price or client count — none are published, though the LEO bundle is now a published flat rate.",
+      "Do not say SatisFacts does not do employee surveys — they publish an Employee Feedback Survey.",
+      "Do not claim SatisFacts manipulates ApartmentRatings ratings — there is no public source for that and it is legally risky."
     ],
     "features": {
       "sv-resident": {
@@ -22066,9 +21829,9 @@
       "verifiedOn": "2026-08-11"
     },
     "positioning": {
-      "value": "An \"agentic AI workforce\" of Genius Agents for Local Search, Reputation and Social, deployed across every location of a multi-location brand.",
+      "value": "An “agentic AI workforce” of Genius Agents for Local Search, Reputation and Social, deployed across every location of a multi-location brand — not purely horizontal: SOCi also publishes property-management-specific benchmark research (the Local Visibility Index).",
       "source": "https://www.soci.ai/",
-      "verifiedOn": "2026-08-11"
+      "verifiedOn": "2026-08-24"
     },
     "strengths": [
       {
@@ -22969,6 +22732,10 @@
       {
         "objection": "They have benchmarks too.",
         "response": "They do — on select Question Bank questions, English only, requiring 30+ organizations. There's no multifamily cut. That's the difference between a benchmark and a relevant benchmark."
+      },
+      {
+        "objection": "SurveyMonkey rates higher on G2 (Fall 2026).",
+        "response": "G2 badge standing measures general survey-tool satisfaction, not fit for a multifamily benchmark program — counter on category fit, not badge count: ask what peer set they'd compare a property's score against."
       }
     ],
     "doNotSay": [
@@ -24326,7 +24093,7 @@
     "tier": "Tier 1",
     "verdict": {
       "stance": "Compete",
-      "line": "TourBuilder is LCP Media's product line, not a separate vendor — treat it as the same Yardi-owned account, and remember TourBuilder Go is the one module where the onsite team captures for itself.",
+      "line": "TourBuilder is LCP Media's product line, not a separate vendor — treat it as the same Yardi-owned account. Compete on publishing latency, embedding control and same-week refresh, not on whether self-capture exists.",
       "doInstead": null
     },
     "overlaps": [
@@ -24363,9 +24130,9 @@
       }
     },
     "pricing": {
-      "value": "Not published; the TourBuilder page directs to a sales contact.",
-      "source": "https://www.lcpmedia.com/tourbuilder",
-      "verifiedOn": "2026-08-11"
+      "value": "Not published separately — TourBuilder is LCP Media's product line under Yardi; pricing is single-sourced to the LCP Media record.",
+      "source": "https://www.yardi.com/product/lcp-media/",
+      "verifiedOn": "2026-08-23"
     },
     "positioning": {
       "value": "TourBuilder Go is positioned as 'Create unit-level virtual tours in just minutes using our mobile app and 360° camera kit—no experience needed.' The wider suite spans TourBuilder Pro (professionally captured), One, Connect (live video calls), Clips (short-form AI-generated video) and Insights (analytics).",
@@ -24429,7 +24196,8 @@
     ],
     "doNotSay": [
       "Do not present TourBuilder as a separate company from LCP Media — it is LCP Media's product line under Yardi.",
-      "Do not quote TourBuilder pricing; none is published.",
+      "Do not quote TourBuilder pricing directly — Yardi publishes it under LCP Media, not TourBuilder: One $150, Pro $104, Go $104, Essentials $20 + $120/capture, kit $1,600, session $420; 12-month auto-renewal, CPI-W cap, no published SLA.",
+      "Never quote the $20 tourbuilder.com plan — that is a different, self-serve listing from the Yardi rate card above.",
       "Do not assert what TourBuilder One or Pro cannot do — their capability detail is simply not published."
     ],
     "features": {
@@ -24550,7 +24318,7 @@
         "ask": "When a kit breaks or walks, what is the replacement process?"
       }
     ],
-    "play": "Head-to-head"
+    "play": "Not our fight"
   },
   {
     "id": "traliant",
@@ -26311,7 +26079,7 @@
     "tier": "Tier 1",
     "verdict": {
       "stance": "Compete",
-      "line": "The strongest head-to-head LMS in the category on our read — real multifamily content, a Texas fair housing approval, 100+ Spanish courses and AI authoring. Win on outcome evidence — shop results, survey results, benchmarks — rather than on feature checklists.",
+      "line": "Yardi Aspire publishes competency validation and ships surveys as a mid-tier capability, so don't compete as if either is missing — win on cross-customer benchmark data, the shop-to-training closed loop, and who actually does the reviewing.",
       "doInstead": null,
       "claimType": "positioning",
       "claimNote": "This verdict is Grace Hill's competitive judgment, not a sourced fact about Yardi. The capability details inside it are sourced; the ranking is ours."
@@ -26366,7 +26134,7 @@
       }
     },
     "pricing": {
-      "value": "Not published. Three named tiers exist — Aspire, Aspire Plus and Aspire Platinum.",
+      "value": "Not published on a list-price basis. Three named tiers exist — Aspire, Aspire Plus and Aspire Platinum. Where a basis has been reported it is per-unit licensing, not per-user. [Held: a specific 2022 procurement figure was approved pending confirmation the source agency is not a Grace Hill account — not yet added, needs that confirmation first.]",
       "source": "https://www.yardi.com/news/press-releases/yardi-launches-aspire-platinum-package-with-cutting-edge-ai-tools/",
       "verifiedOn": "2026-08-11"
     },
@@ -26431,6 +26199,11 @@
       {
         "text": "Their one published fair housing state approval dates to June 2017 and names Yardi eLearning, the predecessor product. Nothing published confirms it carries to Aspire.",
         "source": "https://www.yardi.com/news/state-texas-certifies-yardi-elearning-fair-housing-training-provider/"
+      },
+      {
+        "text": "Buyers in affordable and tax-credit portfolios report that current HOTMA content is not in the Aspire course catalog. This is what buyers report in live deals, not a confirmed absence beyond the published catalog — scope the claim to the catalog only.",
+        "source": "Field intelligence — buyer reports in live deals",
+        "verifiedOn": "2026-08-24"
       }
     ],
     "whyWeWin": [
@@ -26461,10 +26234,11 @@
       }
     ],
     "doNotSay": [
-      "They don't have fair housing content — they do, and Texas lists them as an approved fair housing trainer.",
-      "They don't have Spanish content — they publish 100+ bilingual courses.",
-      "They can't do SCORM — SCORM compatibility is named in the Platinum tier.",
-      "Any claim about Aspire's price, customer count or course count — none is published."
+      "Do not say Aspire is broadly \"state-approved for fair housing\" — only Texas (TDHCA, June 2017, under the Yardi eLearning name) is publicly documented. Never name Florida for fair housing; there is no public source for it.",
+      "Do not call their bilingual content “Spanish content” — they publish 100+ bilingual courses, not a standalone Spanish product line.",
+      "Do not claim SCORM export — only SCORM import is named, and only in the Platinum tier.",
+      "Do not quote Aspire pricing as per-user — where a pricing basis is documented, it is per-unit, not per-user.",
+      "Any other claim about Aspire's price, customer count or course count — none is otherwise published."
     ],
     "features": {
       "tr-multifamily-content": {
@@ -27423,5 +27197,345 @@
       }
     ],
     "play": "Sometimes in the room"
+  },
+  {
+    "id": "remington-evaluations",
+    "name": "Remington Evaluations",
+    "aka": [
+      "Remington Evaluations LLC",
+      "REMysteryShops"
+    ],
+    "parent": "REMA",
+    "website": "https://www.remysteryshops.com/",
+    "toolCategory": "Traditional mystery shopping provider, multifamily specialist",
+    "ciCategory": "Direct",
+    "tier": "Tier 1",
+    "verdict": {
+      "stance": "Compete",
+      "line": "Compete on what is disclosed, not on whether they can run a shop: no published scoring scale, weighting or calibration method, and the benchmark dataset and peer set are undisclosed. Their training plan is partner-delivered, not their own. Published per-shop pricing stays $55–$170.",
+      "doInstead": null
+    },
+    "overlaps": [
+      {
+        "product": "Mystery Shopping",
+        "degree": "High"
+      },
+      {
+        "product": "Surveys",
+        "degree": "Partial"
+      },
+      {
+        "product": "Training",
+        "degree": "Partial"
+      }
+    ],
+    "snapshot": {
+      "hq": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "founded": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "ownership": {
+        "value": "Private (Remington Evaluations LLC)",
+        "source": "https://www.remysteryshops.com/client-faqs.php",
+        "verifiedOn": "2026-08-11"
+      },
+      "size": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "funding": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "pricing": {
+      "value": "Public FAQ states shops run \"$55 to $170 per shop\" depending on level of detail and report length; rush service available for an additional charge.",
+      "source": "https://www.remysteryshops.com/client-faqs.php",
+      "verifiedOn": "2026-08-11"
+    },
+    "positioning": {
+      "value": "Multifamily-focused evaluation firm offering phone, onsite and email leasing consultant evaluations plus competitor, fair housing, customer service, potential-employee and video shops, with trending, graphing and benchmarking reports.",
+      "source": "https://www.remysteryshops.com/client-faqs.php",
+      "verifiedOn": "2026-08-11"
+    },
+    "strengths": [
+      {
+        "text": "Full shop-type coverage in one vendor: \"phone and onsite leasing consultant evaluations as well as email shops,\" plus competitor, fair housing, potential-employee, customer service and video shops.",
+        "source": "https://www.remysteryshops.com/client-faqs.php",
+        "verifiedOn": "2026-08-11"
+      },
+      {
+        "text": "Publishes a per-shop price range on the public site, which makes them easy for a buyer to budget against.",
+        "source": "https://www.remysteryshops.com/client-faqs.php",
+        "verifiedOn": "2026-08-11"
+      },
+      {
+        "text": "Offers trending, graphing and benchmarking reports alongside individual shop reports.",
+        "source": "https://www.remysteryshops.com/client-faqs.php",
+        "verifiedOn": "2026-08-11"
+      },
+      {
+        "text": "Multifamily is the core vertical; the same firm also serves mini storage, moving, retail, real estate and automotive.",
+        "source": "https://www.remysteryshops.com/client-faqs.php",
+        "verifiedOn": "2026-08-11"
+      }
+    ],
+    "gaps": [
+      {
+        "text": "Published standard turnaround is slow: \"Normally a report will take about 2 to 3 weeks,\" and the FAQ notes delays of 30+ days are possible when shopper or target scheduling breaks down.",
+        "source": "https://www.remysteryshops.com/client-faqs.php",
+        "verifiedOn": "2026-08-11"
+      },
+      {
+        "text": "Public site describes shop delivery and reporting; it does not describe linking shop results to assigned training or courseware.",
+        "source": "https://www.remysteryshops.com/client-faqs.php",
+        "verifiedOn": "2026-08-11"
+      }
+    ],
+    "whyWeWin": [
+      "Shop scores land in the same platform as the training assignment, so a low fair housing score becomes a course on that person's plate rather than a PDF in someone's inbox.",
+      "Benchmarking is drawn from a multifamily shop dataset built over decades, not a per-client trendline.",
+      "One vendor covers phone, email, onsite and video shops alongside surveys, training and policy in a single system of record."
+    ],
+    "askThis": [
+      "When a shop comes back at 60, what happens next in your process — who gets told, and what do they do that week?",
+      "How long from shop completion to a report a regional can act on? What's your contractual turnaround?",
+      "How is a shopper's score normalized across shoppers so a 78 in Dallas means the same as a 78 in Atlanta?",
+      "What are you benchmarking against — your own portfolio last quarter, or the industry?"
+    ],
+    "objections": [
+      {
+        "objection": "REMA quoted us $55 a shop.",
+        "response": "Price the outcome, not the shop. Ask what the shop costs plus what it costs to turn 400 shop reports into coaching that changes a score. If shops and training live in two systems, that second cost is a person's job."
+      },
+      {
+        "objection": "They do video shops too.",
+        "response": "So do we. The question isn't the format, it's what the video does after it's recorded — whether it's a file a manager may watch or a scored, benchmarked event that assigns the follow-up."
+      }
+    ],
+    "doNotSay": [
+      "Never say they can't do video or fair housing shops — their public FAQ lists both.",
+      "Never quote their pricing as a current number in a competitive deal; the published range is a website figure, not a quote."
+    ],
+    "features": {
+      "ms-human-shoppers": {
+        "support": "Yes",
+        "note": "Independent shoppers conduct evaluations; FAQ discusses shopper scheduling.",
+        "source": "https://www.remysteryshops.com/client-faqs.php",
+        "verifiedOn": "2026-08-11"
+      },
+      "ms-phone": {
+        "support": "Yes",
+        "note": "\"phone and onsite leasing consultant evaluations.\"",
+        "source": "https://www.remysteryshops.com/client-faqs.php",
+        "verifiedOn": "2026-08-11"
+      },
+      "ms-email": {
+        "support": "Yes",
+        "note": "\"as well as email shops.\"",
+        "source": "https://www.remysteryshops.com/client-faqs.php",
+        "verifiedOn": "2026-08-11"
+      },
+      "ms-onsite": {
+        "support": "Yes",
+        "note": "Onsite leasing consultant evaluations.",
+        "source": "https://www.remysteryshops.com/client-faqs.php",
+        "verifiedOn": "2026-08-11"
+      },
+      "ms-video": {
+        "support": "Yes",
+        "note": "Video shops listed among shop types.",
+        "source": "https://www.remysteryshops.com/client-faqs.php",
+        "verifiedOn": "2026-08-11"
+      },
+      "ms-rubric": {
+        "support": "Unknown",
+        "note": "Reports vary by \"level of detail and report length\"; a standardized cross-client rubric is not described publicly.",
+        "source": "https://www.remysteryshops.com/client-faqs.php",
+        "verifiedOn": "2026-08-11"
+      },
+      "ms-coaching": {
+        "support": "Unknown",
+        "note": "No public description of coaching linked to training assignment.",
+        "source": "https://www.remysteryshops.com/client-faqs.php",
+        "verifiedOn": "2026-08-11"
+      },
+      "ms-full-call-analysis": {
+        "support": "Unknown",
+        "note": "Public materials describe a sampled, per-shop program; analysis of all inbound calls is not described.",
+        "source": "https://www.remysteryshops.com/client-faqs.php",
+        "verifiedOn": "2026-08-11"
+      },
+      "ms-benchmarking": {
+        "support": "Partial",
+        "note": "\"trending and graphing reports...and also benchmarking reports\"; the benchmark dataset scale is not disclosed.",
+        "source": "https://www.remysteryshops.com/client-faqs.php",
+        "verifiedOn": "2026-08-11"
+      }
+    },
+    "health": {
+      "lastFullReview": "2026-08-11",
+      "confidence": "Medium",
+      "owner": null,
+      "autoUpdated": false,
+      "pendingReview": []
+    },
+    "news": [],
+    "sources": [
+      {
+        "title": "REMA / Remington Evaluations — Client FAQs",
+        "url": "https://www.remysteryshops.com/client-faqs.php",
+        "retrievedOn": "2026-08-11"
+      },
+      {
+        "title": "Revyse — Multifamily Mystery Shopping Solutions category",
+        "url": "https://revyse.com/categories/mystery-shops",
+        "retrievedOn": "2026-08-11"
+      }
+    ],
+    "stackLayer": {
+      "number": 5,
+      "name": "Resolution · The Resolution Layer for Multifamily",
+      "note": "Competes for the resolution layer position, or for one slice of it."
+    },
+    "whenItComesUp": {
+      "why": "A multifamily-native shopping firm with published per-shop pricing and every shop type we run. A straight head-to-head on execution, not on category.",
+      "say": "REMA is a real multifamily shop shop and their published pricing makes them easy to compare. Compete on scoring consistency, on benchmark depth, and on what happens after the shop — whether a low score routes into training and gets re-measured.",
+      "avoid": "Don't argue they can't shop an apartment. They can, and they've done it for years.",
+      "redirect": "After a shop comes back low, what happens? Who gets told, and how do you know it improved?"
+    },
+    "spiced": [
+      {
+        "letter": "S",
+        "stage": "Situation",
+        "listenFor": "They name Remington Evaluations LLC, REMysteryShops, or describe traditional mystery shopping provider, multifamily specialist already in place.",
+        "ask": "When a shop comes back at 60, what happens next in your process — who gets told, and what do they do that week?"
+      },
+      {
+        "letter": "P",
+        "stage": "Pain",
+        "listenFor": "Published standard turnaround is slow: \"Normally a report will take about 2 to 3 weeks,\" and the FAQ notes delays of 30+ days are possible when shopper or target scheduling breaks down.",
+        "ask": "How long from shop completion to a report a regional can act on? What's your contractual turnaround?"
+      },
+      {
+        "letter": "I",
+        "stage": "Impact",
+        "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+        "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+      },
+      {
+        "letter": "CE",
+        "stage": "Critical Event",
+        "listenFor": "A renewal date on the REMA (Remington Evaluations) contract, an audit, an acquisition, or new leadership asking what the data shows.",
+        "ask": "When does the REMA (Remington Evaluations) agreement come up, and what has to be decided before then?"
+      },
+      {
+        "letter": "D",
+        "stage": "Decision Process",
+        "listenFor": "Whether REMA (Remington Evaluations) sits on someone else's budget line — that changes who has to agree.",
+        "ask": "How is a shopper's score normalized across shoppers so a 78 in Dallas means the same as a 78 in Atlanta?"
+      }
+    ],
+    "play": "Head-to-head"
+  },
+  {
+    "id": "rema-report",
+    "name": "REMA Report",
+    "parent": "REMA",
+    "toolCategory": "REMA's non-multifamily line — retail/hospitality customer-experience evaluation. Distinct product from Remington Evaluations, REMA's multifamily mystery-shopping line.",
+    "ciCategory": "Potential",
+    "tier": "Watchlist",
+    "verdict": {
+      "stance": "Do not compete",
+      "line": "REMA's retail/hospitality CX offering — evidenced only by one 2023 Las Vegas engagement, with no multifamily deployment found. Nothing here to compete against yet.",
+      "doInstead": "Treat this as a different REMA product from Remington Evaluations. If a prospect names it, say we have not seen it used in multifamily and ask what they are being shown before saying anything else about it."
+    },
+    "overlaps": [
+      {
+        "product": "Mystery Shopping",
+        "degree": "None"
+      }
+    ],
+    "snapshot": {
+      "hq": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "founded": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "ownership": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "size": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "funding": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "pricing": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "positioning": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "strengths": [],
+    "gaps": [
+      {
+        "text": "No public multifamily case study, product page, or pricing found for this line as of the 2026-08-23 deep dive — the only documented engagement is 2023, Las Vegas, retail/hospitality.",
+        "source": null,
+        "verifiedOn": "2026-08-23"
+      }
+    ],
+    "whyWeWin": [],
+    "askThis": [
+      "Where else have you seen REMA Report used — is it being proposed for a multifamily program, or is that a different REMA product?"
+    ],
+    "objections": [],
+    "doNotSay": [
+      "Do not describe this as proven or deployed in multifamily — no evidence of that exists on file."
+    ],
+    "features": {},
+    "health": {
+      "lastFullReview": "2026-08-23",
+      "confidence": "Low",
+      "owner": null,
+      "autoUpdated": false,
+      "pendingReview": []
+    },
+    "news": [],
+    "sources": [
+      {
+        "title": "2023 Las Vegas retail/hospitality CX engagement — internal research note, no public source on file",
+        "url": null,
+        "retrievedOn": "2026-08-23"
+      }
+    ],
+    "stackLayer": null,
+    "whenItComesUp": null,
+    "spiced": null,
+    "play": "Not our fight"
   }
 ]

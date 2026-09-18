@@ -1,0 +1,9 @@
+# Cloudflare Workers config for the "ci" Worker (ci-gracehill.com).
+# This Worker serves pre-built static assets only — public/index.html is built
+# locally by `python3 build.py` and committed on purpose (see README.md).
+# No server-side code, no build step needed on Cloudflare's side.
+name = "ci"
+compatibility_date = "2026-09-18"
+
+[assets]
+directory = "public"

@@ -1,5 +1,10 @@
 import json, base64, pathlib
-A = pathlib.Path('/root/.claude/skills/synced/gracehill-branding-official/assets')
+# Logo lives in the repo now (assets/) rather than a cloud-session-only skill path --
+# that path was root-owned and unreadable from any other environment (a scheduled task
+# bound to this computer would have hit the same PermissionError). Falls back to the
+# skill path if present, for convenience inside a Claude session.
+_skill_assets = pathlib.Path('/root/.claude/skills/synced/gracehill-branding-official/assets')
+A = pathlib.Path('assets') if (pathlib.Path('assets') / 'GH-CorporateLogo-AllWhite.svg').exists() else _skill_assets
 L = lambda n: json.load(open(f'data/{n}.json'))
 
 # Every key the template reads. Keep this list in sync with `grep -o "D\.[a-zA-Z]*" template.html`.

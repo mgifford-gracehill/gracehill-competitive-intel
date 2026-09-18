@@ -2,11 +2,6 @@
  "B_aphorism": [
   [
    "absorb-lms",
-   "whyWeWin[1]",
-   "Fair housing and state-specific compliance content ships with the product, not as a project."
-  ],
-  [
-   "absorb-lms",
    "whyWeWin[2]",
    "Role- and property-based assignment maps to how a portfolio is actually organized, not just to HR job codes."
   ],
@@ -126,11 +121,6 @@
    "Market data inside a wider Grace Hill platform can be read against onsite execution signals, not only against "
   ],
   [
-   "rema-remington-evaluations",
-   "whyWeWin[1]",
-   "Benchmarking is drawn from a multifamily shop dataset built over decades, not a per-client trendline."
-  ],
-  [
    "yardi-rentcafe-reputation-management",
    "whyWeWin[1]",
    "PerformanceHQ ties the reputation signal to the training, policy and shop record, so the operator can prove a "
@@ -169,6 +159,11 @@
    "xoralia",
    "whyWeWin[3]",
    "Grace Hill assigns by location, position, group or employee \u2014 properties and regions, not just Entra ID groups"
+  ],
+  [
+   "remington-evaluations",
+   "whyWeWin[1]",
+   "Benchmarking is drawn from a multifamily shop dataset built over decades, not a per-client trendline."
   ]
  ],
  "I_jargon": [
@@ -227,7 +222,7 @@
   [
    "absorb-lms",
    "claim fields",
-   "3 mentions"
+   "4 mentions"
   ],
   [
    "cypher-learning",
@@ -255,11 +250,6 @@
    "3 mentions"
   ],
   [
-   "rema-remington-evaluations",
-   "claim fields",
-   "3 mentions"
-  ],
-  [
    "resman-residentiq-learning",
    "claim fields",
    "3 mentions"
@@ -277,7 +267,19 @@
   [
    "yardi-aspire",
    "claim fields",
-   "4 mentions"
+   "3 mentions"
+  ],
+  [
+   "remington-evaluations",
+   "claim fields",
+   "3 mentions"
+  ]
+ ],
+ "K_uncited_authority": [
+  [
+   "absorb-lms",
+   "whyWeWin[1]",
+   "names \"DPOR\" with no citation :: Fair housing training ships with the product, along with state-specific versions where the"
   ]
  ],
  "N_sme_queue": [
@@ -323,7 +325,7 @@
   ],
   [
    "tr-scorm",
-   "Yes",
+   "Partial",
    "never reviewed by the SME"
   ],
   [
@@ -338,7 +340,7 @@
   ],
   [
    "tr-bilingual",
-   "Yes",
+   "Partial",
    "never reviewed by the SME"
   ],
   [
@@ -348,7 +350,7 @@
   ],
   [
    "tr-hris-integration",
-   "Yes",
+   "Partial",
    "never reviewed by the SME"
   ],
   [
@@ -390,6 +392,23 @@
    "tr-partner-content",
    "Yes",
    "never reviewed by the SME"
+  ],
+  [
+   "tr-compliance-scope-limits",
+   "Partial",
+   "never reviewed by the SME"
+  ]
+ ],
+ "P_unshipped": [
+  [
+   "tr-cec-eligible",
+   "limitLine",
+   "future-tense capability \"Q1 2027\" :: NAAEI coursework covers part of the CECs needed, not all of them. The credential"
+  ],
+  [
+   "tr-cec-eligible",
+   "note",
+   "future-tense capability \"Q1 2027\" :: Say it this way: Grace Hill is an NAA Alliance partner and the platform includes"
   ]
  ],
  "G_unsourced_GH": [
@@ -534,9 +553,7 @@
    "https://www.hellodata.ai/ \u00b7 https://www.hellodata.ai/help-articles/which-markets"
   ]
  ],
- "K_uncited_authority": [],
  "M_currency_promise": [],
- "P_unshipped": [],
  "J_customer_named": [],
  "C_obligation": [],
  "D_fear": [],

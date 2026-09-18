@@ -141,9 +141,9 @@
     "legacyNames": [],
     "layer": "Action Out",
     "oneLiner": "Intelligence+ reads every resident comment, tells you exactly what to fix first, and with Ask Gracie™ anyone on your team can just ask a question in plain English and get a sourced answer in seconds.",
-    "pitch": "Intelligence+ is the AI-powered intelligence layer inside PerformanceHQ. It reads every resident survey comment, organizes the feedback into 13 categories, and surfaces the trends, risks, and wins that matter — then attaches a specific recommendation and a trackable action plan to each one. With Ask Gracie™, anyone on the team can type a plain-language question about a property, region, or portfolio and get a direct, sourced answer in seconds. And when a performance gap surfaces, Intelligence+ recommends the right Grace Hill course and assigns it in one click from the insight card. That's the loop no other platform closes.",
+    "pitch": "Intelligence+ is the AI-powered intelligence layer inside PerformanceHQ. It reads every resident survey comment, organizes the feedback into ten categories, and surfaces the trends, risks, and wins that matter — then attaches a specific recommendation and a trackable action plan to each one. With Ask Gracie™, anyone on the team can type a plain-language question about a property, region, or portfolio and get a direct, sourced answer in seconds. And when a performance gap surfaces, Intelligence+ recommends the right Grace Hill course and assigns it in one click from the insight card. That's the loop no other platform closes.",
     "features": [
-      "Gracie AI reads every resident comment and organizes feedback across 13 insight categories",
+      "Gracie AI reads every resident comment and organizes feedback across ten insight categories",
       "Ask Gracie™ — plain-language Q&A on survey scores, trends, portfolio rankings, comment themes, training compliance, overdue assignments and executive summaries at portfolio, region or property level",
       "Automated Training Recommendations — an insight card surfaces the gap, matches a Grace Hill course, assigns it in one click, and links the assignment back to the originating insight",
       "HelloData® comps in Intelligence+ — resident sentiment correlated with market comps in one response",
@@ -172,7 +172,7 @@
         "source": "Intelligence+ Playbook"
       },
       {
-        "stat": "13 insight categories",
+        "stat": "ten insight categories",
         "label": "Categories Gracie organizes every resident comment into",
         "source": "ask-gracie-flyer.pdf"
       },
