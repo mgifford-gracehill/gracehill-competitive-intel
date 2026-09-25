@@ -216,13 +216,18 @@
    "yardi-aspire",
    "sources[2].url",
    "cutting-edge"
+  ],
+  [
+   "lease-magnets",
+   "features.vl-analytics.note",
+   "robust"
   ]
  ],
  "F_fairhousing_heavy": [
   [
    "absorb-lms",
    "claim fields",
-   "4 mentions"
+   "3 mentions"
   ],
   [
    "cypher-learning",
@@ -273,13 +278,6 @@
    "remington-evaluations",
    "claim fields",
    "3 mentions"
-  ]
- ],
- "K_uncited_authority": [
-  [
-   "absorb-lms",
-   "whyWeWin[1]",
-   "names \"DPOR\" with no citation :: Fair housing training ships with the product, along with state-specific versions where the"
   ]
  ],
  "N_sme_queue": [
@@ -399,164 +397,13 @@
    "never reviewed by the SME"
   ]
  ],
- "P_unshipped": [
-  [
-   "tr-cec-eligible",
-   "limitLine",
-   "future-tense capability \"Q1 2027\" :: NAAEI coursework covers part of the CECs needed, not all of them. The credential"
-  ],
-  [
-   "tr-cec-eligible",
-   "note",
-   "future-tense capability \"Q1 2027\" :: Say it this way: Grace Hill is an NAA Alliance partner and the platform includes"
-  ]
- ],
- "G_unsourced_GH": [
-  [
-   "tr-multifamily-content",
-   "internal deck",
-   "https://internal.performancehq.gracehill.com/manuals/9482/policies/1340488 \u00b7 htt"
-  ],
-  [
-   "tr-role-assignment",
-   "marketing page / web",
-   "https://gracehill.com/solutions/property-management-training/"
-  ],
-  [
-   "tr-competency",
-   "marketing page / web",
-   "https://gracehill.com/solutions/property-management-training/"
-  ],
-  [
-   "tr-benchmarking",
-   "internal deck",
-   "https://internal.performancehq.gracehill.com/manuals/9440/policies/648330 \u00b7 http"
-  ],
-  [
-   "po-jurisdiction-variants",
-   "internal deck",
-   "https://internal.performancehq.gracehill.com/manuals/9418/policies/873080 \u00b7 http"
-  ],
-  [
-   "sv-benchmark-scale",
-   "internal deck",
-   "https://internal.performancehq.gracehill.com/manuals/9440/policies/648330"
-  ],
-  [
-   "sv-portfolio-rollup",
-   "marketing page / web",
-   "https://gracehill.com/solutions/satisfaction-surveys/"
-  ],
-  [
-   "sv-custom-questions",
-   "internal deck",
-   "https://internal.performancehq.gracehill.com/manuals/9440/policies/649165 \u00b7 http"
-  ],
-  [
-   "sv-published-pricing",
-   "internal deck",
-   "https://internal.performancehq.gracehill.com/manuals/9413/policies/521245 \u00b7 http"
-  ],
-  [
-   "rm-response-managed",
-   "internal deck",
-   "https://internal.performancehq.gracehill.com/manuals/9448/policies/938699 \u00b7 http"
-  ],
-  [
-   "ms-human-shoppers",
-   "internal deck",
-   "https://internal.performancehq.gracehill.com/manuals/9489/policies/857384 \u00b7 http"
-  ],
-  [
-   "ms-video",
-   "internal deck",
-   "https://internal.performancehq.gracehill.com/manuals/9448/policies/522883 \u00b7 http"
-  ],
-  [
-   "vl-diy-capture",
-   "internal deck",
-   "https://gracehill.com/solutions/virtual-leasing-and-video-tools/pre-recorded-vid"
-  ],
-  [
-   "vl-live-tours",
-   "marketing page / web",
-   "https://gracehill.com/solutions/virtual-leasing-and-video-tools/live-video-tours"
-  ],
-  [
-   "vl-3d",
-   "internal deck",
-   "https://internal.performancehq.gracehill.com/manuals/9448/policies/938703 \u00b7 http"
-  ],
-  [
-   "vl-self-guided",
-   "marketing page / web",
-   "https://gracehill.com/solutions/virtual-leasing-and-video-tools/self-guided-apar"
-  ],
-  [
-   "vl-crm-integration",
-   "internal deck",
-   "https://gracehill.com/solutions/virtual-leasing-and-video-tools/integrations/ \u00b7 "
-  ],
-  [
-   "vl-analytics",
-   "internal deck",
-   "https://gracehill.com/solutions/virtual-leasing-and-video-tools/analytics-dashbo"
-  ],
-  [
-   "vl-syndication",
-   "marketing page / web",
-   "https://gracehill.com/solutions/virtual-leasing-and-video-tools/integrations/"
-  ],
-  [
-   "md-coverage",
-   "marketing page / web",
-   "https://www.hellodata.ai/ \u00b7 https://www.hellodata.ai/help-articles/which-markets"
-  ],
-  [
-   "md-refresh",
-   "marketing page / web",
-   "https://docs.hellodata.ai/ \u00b7 https://www.hellodata.ai/help-articles/what-apartme"
-  ],
-  [
-   "md-submarket",
-   "marketing page / web",
-   "https://docs.hellodata.ai/api-reference/api-reference/market/market-search \u00b7 htt"
-  ],
-  [
-   "ai-rbac",
-   "marketing page / web",
-   "https://gracehill.com/solutions/satisfaction-surveys/intelligence-plus/"
-  ],
-  [
-   "tr-content-types",
-   "internal deck",
-   "https://internal.performancehq.gracehill.com/manuals/9482/policies/1340488 \u00b7 htt"
-  ],
-  [
-   "po-implementation",
-   "internal deck",
-   "https://internal.performancehq.gracehill.com/manuals/9448/policies/938697"
-  ],
-  [
-   "sv-international",
-   "internal deck",
-   "https://internal.performancehq.gracehill.com/manuals/9440/policies/522601 \u00b7 http"
-  ],
-  [
-   "tr-refresher-strategy",
-   "internal deck",
-   "https://internal.performancehq.gracehill.com/manuals/11974/policies/1219242 \u00b7 ht"
-  ],
-  [
-   "md-expense-benchmarks",
-   "marketing page / web",
-   "https://www.hellodata.ai/ \u00b7 https://www.hellodata.ai/help-articles/which-markets"
-  ]
- ],
+ "K_uncited_authority": [],
  "M_currency_promise": [],
+ "P_unshipped": [],
  "J_customer_named": [],
  "C_obligation": [],
  "D_fear": [],
  "A_absolute": [],
+ "G_unsourced_GH": [],
  "H_no_note": []
 }

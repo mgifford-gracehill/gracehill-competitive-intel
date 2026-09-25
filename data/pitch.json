@@ -234,38 +234,38 @@
   "packaging": {
     "platform": [
       {
-        "tier": "Core",
-        "includes": "Dashboards, single sign-on, integrations, cross-product reporting, advanced analytics, and market data essentials."
+        "tier": "PHQ Platform Core",
+        "includes": "Standard dashboards, SSO, integrations, Ask Gracie™ AI, cross-product reporting, Intelligence+, HelloData® Taster. Included with any track."
       },
       {
-        "tier": "Plus",
-        "includes": "Adds AI-generated action plans, full market data, and open API access for your own AI tooling."
+        "tier": "PHQ Platform Plus",
+        "includes": "Adds data integration through exposed APIs and an MCP connector for AI assistants, plus HelloData® Complete. +$0.59/unit/mo upgrade."
       }
     ],
     "tracks": [
       {
-        "track": "Workforce Excellence",
-        "forWho": "Typically L&D / Operations",
-        "value": "Develop people and drive operational consistency.",
-        "loop": "Know the gap → Teach the move → Reinforce it → Show progress",
-        "showsUpIn": "Training, policies, onboarding, mystery shop results, employee surveys, and role-based learning."
+        "track": "Track 1 — Workforce Excellence",
+        "forWho": "L&D / Operations",
+        "value": "People performance: develop people and drive operational consistency.",
+        "tiers": "Compliance ($0.79/unit/mo) → Core ($1.39/unit/mo) → Plus ($1.79/unit/mo).",
+        "showsUpIn": "Training, policies, onboarding, mystery shop results, employee surveys, role-based learning."
       },
       {
-        "track": "Resident & Prospect Satisfaction",
-        "forWho": "Typically Marketing / Operations",
-        "value": "Improve the resident and prospect experience.",
-        "loop": "Listen → Prioritize → Close the loop → Improve results",
-        "showsUpIn": "Surveys, reputation, benchmarking, feedback and sentiment, response diagnostics, and leasing experience."
+        "track": "Track 2 — Resident & Prospect Satisfaction",
+        "forWho": "Marketing",
+        "value": "Property performance: improve the resident and prospect experience.",
+        "tiers": "Two entry points — Sentiment Core ($0.79/unit/mo) or Leasing Core ($1.19/unit/mo) — or Plus ($1.79/unit/mo) which bundles both.",
+        "showsUpIn": "Surveys, reputation, benchmarking, feedback and sentiment, Realync leasing video, response diagnostics."
       }
     ],
     "addOns": [
-      "Extra content modules",
-      "Additional property visits",
-      "Video leasing tools",
+      "Extra training/policy modules",
+      "Additional mystery shops (per shop, beyond what's included)",
+      "Realync add-ons (Real360, Realync Journeys, Realync Studios)",
       "Certifications and credentials"
     ],
-    "note": "Everything priced per unit, per month — so cost scales with the portfolio, not a seat count. Lead with the single track whose budget owner is in the room; combined-track deals have longer cycles. Note for anyone reading an old RFP: single-product LMS responses have been quoted per user, per month. That is a product-scoped exception, not the model. The pricing books in Salesforce are the source of truth.",
-    "pricingSourceOfTruth": "Pricing books in Salesforce. Not an RFP response, and not this app."
+    "note": "Everything priced per unit, per month (mystery shops per shop) — so cost scales with the portfolio, not a seat count. This is the Sept 2026 Revenue Management Labs recommendation, presented to the GTM team Sept 16 and pending ELT alignment the week of Sept 25 — directionally locked but not yet final (the multi-year discount lever in particular is still being reworked). Applies to new-logo sales; existing clients stay on their current per-product pricing until a migration/renewal workflow is designed — see data/products.json for what's actually on a current contract, and data/packaging.json for the full detail, buyer-match framework, and open questions. Lead with the problem/outcome the buyer already cares about (people performance vs. property performance), not with 'which track are you.' Pricing books in Salesforce remain the source of truth for an actual quote.",
+    "pricingSourceOfTruth": "Pricing books in Salesforce for an actual quote. Structure and list-price context above is directional, from the Sept 2026 RML recommendation — not this app."
   },
   "languageToAvoid": [
     "signals (retired — say evidence, context and improvement, or property data and benchmarks)",

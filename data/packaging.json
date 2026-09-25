@@ -1,179 +1,387 @@
 {
-  "summary": "Grace Hill's August 2026 packaging strategy (prepared by Revenue Management Labs) starts from the observation that no single buyer naturally owns the full Grace Hill portfolio, which creates fragmented budgets and decision rights across L&D/HR, Marketing, Asset Management/BD and Operations. The response is a three-decision purchase structure: first choose a platform tier (PHQ Platform Core or PHQ Platform Plus), then choose one or both solution tracks (Track 1 Workforce Excellence for L&D/Ops, Track 2 Resident & Prospect Satisfaction for Marketing), then add à la carte add-ons that sit outside the tiers. An earlier Friday recommendation carried a third track, Market Advantage for Asset Mgmt/BD; in the revised structure HelloData® was rolled up into the platform layer instead (HelloData® Lite in Core, HelloData® Complete in Plus), while remaining available as a standalone solution for 'HelloData® purists' who explicitly do not want to adopt PHQ. Everything is priced per unit per month (additional mystery shops per shop), so cost scales with the portfolio rather than seat count. Because the track structure fits different buyers with different budgets and a combined sale has a long cycle, the go-to-market motion is to lead with one track and expand into others and add-ons — expansion is a tier upgrade, not new scope.",
-  "packages": [
+  "status": "RECOMMENDED — presented to the extended GTM team Sept 16, 2026 by Revenue Management Labs. Pending Steering Committee readout and ELT alignment, targeted week of Sept 25, 2026. Treat as directionally locked, not yet final. Supersedes the August 2026 three-track recommendation, kept below as packagingHistory for context.",
+  "asOf": "2026-09-18",
+  "source": "Revenue Management Labs, \"Pricing and Packaging Recommendations — Enablement Discussion,\" Sept 2026, plus the Sept 16 GTM pricing/packaging working session.",
+  "summary": "Today, Grace Hill's point solutions (Training, Surveys, Policies, Mystery Shopping, Reputation Management, Intelligence+, Realync, HelloData®) are each priced and packaged on their own, with no shared PHQ commercial structure. Result: no ready-to-go package puts related solutions together, ~79% of GH-Success and ~50% of Mid-Market/Enterprise customers buy only one product, and there's no clear expansion path. The new structure organizes around the two workflows buyers actually own — Workforce Excellence (L&D/Ops) and Resident & Prospect Satisfaction (Marketing) — with data & intelligence as a connective layer across both, and a standardized per-unit commercial model. It is a three-decision purchase: (1) pick your workflow track(s), (2) pick your data & intelligence tier, (3) add add-ons as needed.",
+  "buyerGroups": [
     {
-      "name": "PHQ Platform Core",
-      "positioning": "The base platform layer — the connected picture. Decision 1 of 3: choose your platform.",
-      "includes": [
-        "Standard Dashboards",
-        "SSO",
-        "Integrations",
-        "Ask Gracie™ AI",
-        "Cross-product reporting",
-        "Advanced Analytics",
-        "HelloData® Lite (Limited Data + Limited KPIs)"
-      ],
-      "buyer": "Required with any track; the exec sponsor above both functional buyers is needed for a full-platform buy.",
-      "whenToLead": "Broadest land is a full-platform entry at Core where the buyer wants both tracks live from day one on the base data layer — one platform of record across workforce, resident and prospect signals. Also the default entry for functional-buyer deals: lead with Core and show Plus at renewal.",
-      "notes": "Priced per unit per month. Expansion from Core to Plus is a tier upgrade, not new scope."
-    },
-    {
-      "name": "PHQ Platform Plus",
-      "positioning": "The upgrade tier — adds AI action plans, open data access and full market data on top of Core.",
-      "includes": [
-        "Everything in PHQ Platform Core",
-        "AI action plans",
-        "Data Integration through exposed APIs and MCP connector for AI assistants",
-        "HelloData® Complete"
-      ],
-      "buyer": "Buyers who own portfolio-level P&L accountability; enterprise buyers standardizing on the platform.",
-      "whenToLead": "Sell where the buyer needs full comp and market data to benchmark results against comps (HelloData® Complete is the differentiator), where the buyer owns portfolio-level P&L accountability, or in reputation-recovery deals needing market benchmarking against comps. Plus across the platform and both tracks is the enterprise-standard scenario — highest ACV, longest cycle.",
-      "notes": "Priced per unit per month. In the earlier Friday recommendation this tier was named 'PHQ Platform Advanced'; the revised structure names it Plus and moves HelloData® into the platform layer."
-    },
-    {
-      "name": "Track 1 — Workforce Excellence",
-      "positioning": "Develop people and drive operational consistency. Decision 2 of 3: choose your track(s).",
-      "includes": [
-        "Core: Core compliance training & policies",
-        "Core: Policies collaboration & acknowledgments",
-        "Core: Onboarding",
-        "Core: Awards",
-        "Core: Essential role-specific content + engaging learning formats",
-        "Core: Employee surveys",
-        "Core: Instructor-led and virtual classroom training",
-        "Plus adds: Additional role-specific content + custom courses",
-        "Plus adds: Role-based pathways",
-        "Plus adds: Combo mystery shops (2 / Property / Year)",
-        "Plus adds: Skill-gap insights and micro-learning courses",
-        "Plus adds: Capture wizard"
-      ],
-      "buyer": "L&D / Ops (budget owner: L&D, HR, Operations). Primary need: workforce capability and compliance to support consistent property operations and employee development.",
-      "whenToLead": "Compliance-driven entry — L&D/Ops needs mandated training (fair housing, safety, harassment) to close an audit or insurance gap. This is the fastest cycle and highest volume; lead with Core and show Plus at renewal. Performance-driven entry — a buyer chasing on-site execution who wants Mystery Shopping and Employee Surveys from day one; larger operator, longer cycle, with mystery shops and employee surveys acting as the wedge.",
-      "notes": "Available at Core or Plus. Underlying solutions: Training, Policies, Mystery Shopping, Employee Surveys."
-    },
-    {
-      "name": "Track 2 — Resident & Prospect Satisfaction",
-      "positioning": "Improve the resident and prospect experience. Decision 2 of 3: choose your track(s).",
-      "includes": [
-        "Core: Resident (MTM) and prospect surveys",
-        "Core: Kingsley benchmarking",
-        "Core: ORM — Reputation monitoring and response",
-        "Plus adds: Survey customization",
-        "Plus adds: ORM — Feedback and sentiment analysis (AI)"
-      ],
-      "buyer": "Marketing (budget owner: Marketing, Operations). Primary need: resident and prospect experience to drive leasing performance, retention and reputation.",
-      "whenToLead": "Resident satisfaction entry — Marketing owns reputation scores and wants resident sentiment and survey data; a Marketing-led land with Track 2 Core as the wedge and Track 1 as the later cross-sell. Prospect conversion entry — buyer focused on tour-to-lease conversion who wants mystery shopping of the leasing funnel, where prospect-side shops are the differentiator. Reputation-recovery entry — a portfolio with weak review scores needing diagnostics plus a remediation plan; urgency-driven, pair with Platform Plus for market benchmarking against comps.",
-      "notes": "Available at Core or Plus. Underlying solutions: Resident & Prospect Surveys, Reputation Management, Realync."
-    },
-    {
-      "name": "Track 3 — Market Advantage",
-      "status": "draft",
-      "positioning": "Competitive intelligence and benchmarking to support day-to-day operations as well as acquisitions. Proposed in the Friday packaging recommendation and NOT carried into the revised packaging structure — do not present as current.",
-      "includes": [
-        "Core: Rent comps",
-        "Core: Unit-level market data",
-        "Plus adds: Automated comp selection",
-        "Plus adds: Portfolio & multi-market analysis / Financial Analysis (acquisition specific)",
-        "Plus adds: Rent-roll and underwriting insights",
-        "Plus adds: AI-generated reports"
-      ],
-      "buyer": "Asset Mgmt / BD (budget owner: Asset Mgmt, BD, Operations).",
-      "whenToLead": "Not applicable — superseded.",
-      "notes": "Dropped in the revised structure. Feedback (pushbacks) was that every operational buyer needs comp data, so HelloData® must span all tracks, and that HelloData® purists resist being PHQ customers — so Market Advantage doesn't need its own track since HelloData®-only buyers skip the other tracks. HelloData® was rolled up into the platform layer (HelloData® Lite in Core, HelloData® Complete in Plus) while remaining available as a separate standalone solution for HelloData® purists who explicitly do not want to adopt PHQ."
-    },
-    {
-      "name": "Add-Ons (à la carte, outside the tiers)",
-      "positioning": "Decision 3 of 3: choose your add-ons. Sold outside the tier structure.",
-      "includes": [
-        "Additional Training Modules",
-        "Additional mystery shops (charged per shop)",
-        "Realync",
-        "Policy Modules",
-        "Certifications and credentials"
-      ],
-      "buyer": "Any track buyer.",
-      "whenToLead": "Attach to a track deal rather than leading with them; used as expansion beyond the initial track.",
-      "notes": "Priced à la carte; additional mystery shops are charged per shop rather than per unit per month."
-    },
-    {
-      "name": "HelloData® standalone",
-      "positioning": "HelloData® remains available as a separate standalone solution for 'HelloData® purists' who explicitly do not want to adopt PHQ.",
-      "includes": [],
-      "buyer": "HelloData®-only buyers who skip the PHQ tracks.",
-      "whenToLead": "When the buyer explicitly does not want to adopt PerformanceHQ.",
-      "notes": "The source states this as a carve-out from the platform roll-up rather than describing its contents; no component list is given in the deck."
-    }
-  ],
-  "principles": [
-    "No single buyer naturally owns the full Grace Hill portfolio, creating fragmented budgets and decision rights.",
-    "Buyer and budget ownership patterns imply the solution tracks — package around who holds the budget, not around the product catalog.",
-    "Three decisions, not a long menu: 1) choose your platform, 2) choose your track(s), 3) choose your add-ons.",
-    "Everything priced per unit per month (additional shops per shop), so cost scales with the portfolio rather than with a seat count.",
-    "The track structure fits different buyers with different budgets, which means a combined sales cycle is long — lead with one track and expand to others and add-ons.",
-    "Every operational buyer needs comp data, so HelloData® must span all tracks — it sits in the platform layer (Lite in Core, Complete in Plus) rather than in its own track.",
-    "Market Advantage doesn't need its own track since HelloData®-only buyers skip the other tracks.",
-    "Known risk to manage: packaging can feel 'siloed' — the cross-signal promise isn't visible unless buyers purchase multiple tracks.",
-    "Expansion is a tier upgrade, not new scope — say so plainly to the buyer.",
-    "A platform buy (both tracks) requires an exec sponsor above both functional buyers.",
-    "Lead with Core and show Plus at renewal on the fastest-cycle functional deals."
-  ],
-  "gtmScenarios": [
-    {
-      "group": "Platform buyer (requires exec sponsor above both functional buyers) — new sell",
-      "scenarios": [
-        {
-          "scenario": "Full-platform entry at Core: buyer wants both tracks live from day one on the base data layer — one platform of record across workforce, resident, and prospect signals.",
-          "shape": "Platform Core + Track 1 Core + Track 2 Core",
-          "comment": "Broadest land. Expansion is a tier upgrade, not new scope."
-        },
-        {
-          "scenario": "Data-depth upgrade: same two-track footprint, but buyer needs full comp and market data to benchmark results against comps.",
-          "shape": "Platform Plus + Track 1 Core + Track 2 Core",
-          "comment": "HelloData® Complete is the differentiator. Sell where the buyer owns portfolio-level P&L accountability."
-        },
-        {
-          "scenario": "Enterprise standard: Plus across platform and both tracks — workforce excellence, surveys and full market data as the operating system for the portfolio.",
-          "shape": "Platform Plus + Track 1 Plus + Track 2 Plus",
-          "comment": "Highest ACV, longest cycle."
-        }
+      "group": "L&D / Operations",
+      "owns": "Workforce Excellence track",
+      "question": "How do we onboard and develop employees, manage compliance and policy requirements, and assess/improve on-site performance?",
+      "products": [
+        "Training",
+        "Policies",
+        "Mystery Shopping"
       ]
     },
     {
-      "group": "L&D functional buyer — new sell",
-      "scenarios": [
-        {
-          "scenario": "Compliance-driven entry: L&D/Ops needs mandated training (fair housing, safety, harassment) to close an audit or insurance gap.",
-          "shape": "Platform Core + Track 1 Core",
-          "comment": "Fastest cycle, highest volume. Lead with Core and show Plus at renewal."
-        },
-        {
-          "scenario": "Performance-driven entry: buyer chasing on-site execution — they want Mystery Shopping and Employee Surveys from day one.",
-          "shape": "Platform Core + Track 1 Plus",
-          "comment": "Larger operator, longer cycle. Mystery shops and employee surveys act as the wedge."
-        }
+      "group": "Marketing",
+      "owns": "Resident & Prospect Satisfaction track",
+      "question": "How do we understand resident and prospect sentiment, strengthen reputation and attract prospects, and improve leasing engagement and conversion?",
+      "products": [
+        "Surveys",
+        "Reputation Management",
+        "Realync"
       ]
     },
     {
-      "group": "Marketing functional buyer — new sell",
-      "scenarios": [
-        {
-          "scenario": "Resident satisfaction entry: Marketing owns reputation scores and wants resident sentiment and survey data.",
-          "shape": "Platform Core + Track 2 Core",
-          "comment": "Marketing-led land. Track 2 Core as the wedge, Track 1 as the later cross-sell."
-        },
-        {
-          "scenario": "Prospect conversion entry: buyer focused on tour-to-lease conversion and wants mystery shopping of the leasing funnel.",
-          "shape": "Platform Core + Track 2 Core + add-ons",
-          "comment": "Prospect-side shops is the differentiator."
-        },
-        {
-          "scenario": "Reputation-recovery entry: portfolio with weak review scores needs diagnostics plus a remediation plan.",
-          "shape": "Platform Plus + Track 2 Core",
-          "comment": "Urgency-driven. Platform Plus for market benchmarking against comps."
-        }
+      "group": "Shared across both buyers",
+      "owns": "Data & Intelligence layer",
+      "question": "How do we benchmark market performance and competitive position?",
+      "products": [
+        "HelloData®"
       ]
     }
   ],
-  "migrationNotes": "The deck does not lay out a migration path for existing customers onto the new packaging. The only statements bearing on movement between packages are that expansion is a tier upgrade rather than new scope, that the recommended motion is to lead with one track and expand to other tracks and add-ons later, that Core buyers should be shown Plus at renewal, and that HelloData® — although rolled up into the platform layer — remains available as a separate standalone solution for HelloData® purists who explicitly do not want to adopt PerformanceHQ.",
-  "pricingNote": "Internal pricing figures were deliberately excluded from this file. The source deck states only the pricing structure — everything priced per unit per month, with additional mystery shops charged per shop — which is retained here as positioning. No per-unit rates, discount ladders or floor prices are included."
+  "packagingGuidelines": [
+    {
+      "guideline": "Buyer-aligned entry points",
+      "why": "No single buyer owns the full Grace Hill portfolio; needs and budgets sit across distinct functional teams.",
+      "response": "Organize around the workflows buyers already own — Workforce Excellence for L&D/Ops, Resident & Prospect Satisfaction for Marketing."
+    },
+    {
+      "guideline": "Focused entry, clear expansion",
+      "why": "Customers, especially larger operators, want to start with a focused need and expand as value is proven.",
+      "response": "Preserve clear entry points with a path to broader adoption: Core → Plus → cross-track."
+    },
+    {
+      "guideline": "Data & Intelligence as the connective layer",
+      "why": "Connected data, cross-product insights and AI are increasingly important sources of platform value.",
+      "response": "Connect workflows through a shared PHQ intelligence layer — Core across every package, Plus for deeper intelligence and integration."
+    },
+    {
+      "guideline": "Simpler commercial model",
+      "why": "Competitors are unifying point solutions into a clear package progression with a standardized pricing unit.",
+      "response": "Standardize the core commercial logic: common per-unit pricing, consistent tiers, targeted add-ons."
+    }
+  ],
+  "architecture": {
+    "step": "1 of 3 — choose your workflow track(s). Everything priced per unit per month unless noted; additional mystery shops priced per shop.",
+    "tracks": [
+      {
+        "track": "Track 1 — Workforce Excellence",
+        "buyer": "L&D / Ops",
+        "outcomeFraming": "People performance: develop people and drive operational consistency.",
+        "tiers": [
+          {
+            "tier": "Compliance",
+            "price": "$0.79 / unit / month",
+            "includes": [
+              "Essential compliance courses & related microlearning",
+              "4 core policy modules: Emergency, Management & Operations, Maintenance, Leasing & Marketing",
+              "Risk management",
+              "Policy collaboration & acknowledgments",
+              "Instructor-led and virtual classroom training"
+            ]
+          },
+          {
+            "tier": "Core",
+            "price": "$1.39 / unit / month",
+            "includes": [
+              "Everything in Compliance",
+              "Extended training access (role-specific courses + full Spark access)",
+              "Onboarding + Pathways",
+              "Safety series",
+              "Semi-annual mystery shops per property/year + upskill training",
+              "Regional Manager Handbook"
+            ]
+          },
+          {
+            "tier": "Plus",
+            "price": "$1.79 / unit / month",
+            "includes": [
+              "Everything in Core",
+              "Quarterly mystery shops per property/year + upskill training",
+              "Employee Engagement Survey",
+              "Capture Wizard (build your own courses)",
+              "Policy modules: custom manual capability"
+            ]
+          }
+        ],
+        "underlyingProducts": [
+          "Training",
+          "Policies",
+          "Mystery Shopping",
+          "Employee Surveys"
+        ]
+      },
+      {
+        "track": "Track 2 — Resident & Prospect Satisfaction",
+        "buyer": "Marketing",
+        "outcomeFraming": "Property performance: improve the resident and prospect experience.",
+        "tiers": [
+          {
+            "tier": "Sentiment Core (entry point A)",
+            "price": "$0.79 / unit / month",
+            "includes": [
+              "Resident and prospect surveys (SKU: MTM Multifamily Essentials) + Kingsley Index benchmarking",
+              "Ad-hoc survey",
+              "Text message survey delivery",
+              "Reputation Management — Essentials"
+            ]
+          },
+          {
+            "tier": "Leasing Core (entry point B)",
+            "price": "$1.19 / unit / month",
+            "includes": [
+              "Realync Core: hosting + general sharing + integrations + analytics + video recording/editing + tracked sharing + live video tour"
+            ]
+          },
+          {
+            "tier": "Plus (integrated resident & prospect experience)",
+            "price": "$1.79 / unit / month",
+            "includes": [
+              "Includes both cores — Sentiment and Leasing",
+              "Extended survey benchmarks by class & market (roadmap feature, not yet shipped)"
+            ]
+          }
+        ],
+        "underlyingProducts": [
+          "Resident & Prospect Surveys",
+          "Reputation Management",
+          "Realync"
+        ],
+        "note": "Sentiment Core and Leasing Core are two distinct entry points for two distinct needs — they don't build on each other. A customer who only wants Realync buys Leasing Core, not a step on the way to Sentiment Core. Plus is the option that bundles both."
+      }
+    ]
+  },
+  "dataIntelligenceLayer": {
+    "step": "2 of 3 — choose your data & intelligence tier. Included with every track purchase; not sold standalone to PHQ buyers.",
+    "tiers": [
+      {
+        "tier": "PHQ Platform Core",
+        "price": "Included",
+        "includes": [
+          "Standard dashboards",
+          "SSO",
+          "Integrations",
+          "Ask Gracie™ AI",
+          "Cross-product reporting",
+          "Intelligence+",
+          "HelloData® Taster (limited locations + limited comps + limited KPIs)"
+        ]
+      },
+      {
+        "tier": "PHQ Platform Plus",
+        "price": "+$0.59 / unit / month upgrade",
+        "includes": [
+          "Everything in Core",
+          "Data integration through exposed APIs and an MCP connector for AI assistants",
+          "HelloData® Complete"
+        ]
+      }
+    ],
+    "note": "A $0.20/unit Platform Core price is embedded in every track's list price; it is netted out for customers buying across tracks to avoid double-counting. HelloData® also continues to exist as its own standalone purchase for 'HelloData® purists' (e.g., banks, investment institutions doing acquisition diligence) who explicitly do not want the PHQ platform — that entry point is not going away."
+  },
+  "addOns": {
+    "step": "3 of 3 — add-ons, sold outside the tier structure.",
+    "note": "Existing implementation fees and niche-use-case add-ons (custom implementation, FTP feed, commercial/construction/tax-credit courses and manuals, CRE manual, employee results presentations, survey customization, custom resident data integration, survey translation) remain priced and structured as-is — no changes recommended. Realync add-on pricing (Real360, Realync Journeys, Realync Studios) has moved to a per-unit basis.",
+    "mysteryShopFlexibility": "Default included shop is Onsite (Non-Recorded) + Phone (Recorded/Non-Recorded), at semi-annual frequency in Core and quarterly in Plus. Customers can swap shop type (e.g., add Internet, upgrade to Audio or Video recording) at their included frequency without changing tier. Increasing frequency beyond what's included (e.g., twice-a-quarter, monthly) requires being on Plus — frequency upgrades don't create a back-door path around the Core→Plus decision. Customers can also always buy additional on-demand/a-la-carte shops above what's in the package."
+  },
+  "priceSheetExamples": {
+    "note": "Marginal $/unit/month rates at list; blended customer pricing applies volume tiers across the unit count. Representative scenarios, not a quote — Salesforce pricing books remain the source of truth for an actual deal.",
+    "volumeDiscountSteps": {
+      "1000-3999": "list",
+      "4000-9999": "-10%",
+      "10000-19999": "-17.5%",
+      "20000+": "-17.5%"
+    },
+    "scenarios": [
+      {
+        "shape": "Single track — Track 1 Compliance only",
+        "listPrice": "$0.79/unit/mo"
+      },
+      {
+        "shape": "Single track — Track 2 Sentiment Core only",
+        "listPrice": "$0.79/unit/mo"
+      },
+      {
+        "shape": "Single track — Track 1 Core",
+        "listPrice": "$1.39/unit/mo"
+      },
+      {
+        "shape": "Single track — Track 1 or Track 2 Plus",
+        "listPrice": "$2.38/unit/mo (tier Plus $1.79 + Platform Plus $0.59)"
+      },
+      {
+        "shape": "Cross-track — Track 1 Compliance + Track 2 Sentiment Core",
+        "listPrice": "$1.38/unit/mo before cross-track discount",
+        "discount": "8% cross-track stacking discount applies → $1.27/unit/mo at list volume"
+      },
+      {
+        "shape": "Cross-track — Track 1 Core + Track 2 Leasing Core",
+        "listPrice": "$2.38/unit/mo before discount",
+        "discount": "8% → $2.19/unit/mo"
+      },
+      {
+        "shape": "Power user — Plus + Plus + Platform Plus (everything)",
+        "listPrice": "$3.97/unit/mo before discount",
+        "discount": "10% power-user discount → $3.57/unit/mo at list volume"
+      }
+    ]
+  },
+  "discountFramework": [
+    {
+      "lever": "Stacking discount",
+      "how": "Discount for adopting additional tracks; rewards power users.",
+      "recommended": "Cross-track buyer (both tracks): 8%. Power user (all Plus): 10%. Replaces today's 0% / 5% / 8% by count-of-solutions ladder — every new package already has a bundled discount baked into its list price, so the old “buy a 2nd point solution, get 5% off” step goes away."
+    },
+    {
+      "lever": "Volume discount",
+      "how": "Standardized unit-count tiers; per-unit rate falls as the portfolio grows.",
+      "recommended": "Same step-downs across every package: 1,000–3,999 = list; 4,000–9,999 = -10%; 10,000–19,999 = -17.5%; 20,000+ = -17.5%. Today the buckets and rates vary by point solution (lowest: Training, highest: Policies) — this standardizes them."
+    },
+    {
+      "lever": "Multi-year discount",
+      "how": "Discount tied to contract length.",
+      "recommended": "Proposed in the deck as a new 10% discount for 3+ year terms, standard annual price increases still apply. CONTESTED IN THE ROOM (Sept 16): Sales leadership (Ashlee Horn) pushed back hard on making a multi-year discount standard — 56% of this quarter's contracts sold multi-year with no discount offered, and giving away margin by default risks eating into deal size given packages are already bundled/discounted. RML (Navi) agreed to take it offline and revisit an alternative: 3-year term as the standard list price, with a modest premium for a more flexible 1- or 2-year term, rather than a discount for going long. Do not present the 10%-for-3-years figure as settled until this is resolved."
+    },
+    {
+      "lever": "Discretionary discount",
+      "how": "Applied case-by-case at the deal level.",
+      "recommended": "No change recommended. New sales: up to 5% auto-approved, >5-10% Sales Director, >10-18% VP, >18% CRO. Renewals: 8%+ resulting price increase auto-approved, 5-<8% CS Director, <5% VP+."
+    }
+  ],
+  "buyerMatchFramework": {
+    "purpose": "Standard workflow for matching a new customer to a package. This is a decision the sales rep makes for the customer, not a menu the customer picks from — use it to guide the conversation, not to read off as a script.",
+    "matchTheNeed": [
+      {
+        "q": "Q1. Who is the primary buyer?",
+        "branches": "L&D/HR/Ops → Workforce Excellence track. Marketing → Resident & Prospect Satisfaction track."
+      },
+      {
+        "q": "Q2. What's the primary need within that track?",
+        "branches": "Workforce Excellence: Compliance need → Compliance tier. Broader workforce excellence need → Core/Plus path. Resident & Prospect: Sentiment need → Sentiment Core. Leasing need → Leasing Core. Both → Plus path."
+      },
+      {
+        "q": "Q3. Does the buyer need advanced HelloData® / integration?",
+        "branches": "No → PHQ Core. Yes → PHQ Plus."
+      }
+    ],
+    "configureThePackage": [
+      {
+        "q": "Q4. How many units are you onboarding?",
+        "drives": "Volume discount"
+      },
+      {
+        "q": "Q5. What contract tenure can you commit to?",
+        "drives": "Tenure discount (pending resolution — see discountFramework multi-year note)"
+      },
+      {
+        "q": "Q6. Budget constraints restricting adoption, or a strategic win?",
+        "drives": "May qualify for a discretionary discount"
+      }
+    ],
+    "problemFirstNote": "Ashlee Horn flagged in the Sept 16 working session that this buyer-first / persona-first framing reads as a step back from the problem-based selling motion the team has spent Q1–Q2 training reps on, and that it doesn't sound like how the sales team talks to customers today. Mandy agreed and proposed reframing: instead of opening with “who's the buyer,” open with the outcome the buyer cares about — people performance outcomes (Track 1) versus property performance outcomes (Track 2) — and let the buyer-match questions above sit underneath that framing as the configuration logic, not the opening pitch. This buyer-match table is the internal package-selection tool for reps; the customer-facing conversation should lead with the problemFirstMessaging block below, not with these six questions."
+  },
+  "problemFirstMessaging": {
+    "howToUse": "Outside-in, VBF order (Value → Benefit → Feature) per Grace Hill's messaging framework: open with the problem/outcome the buyer already cares about, then the benefit, then how Grace Hill delivers it — the package and its features come last, as the mechanism, not the headline. This directly answers the reframe Mandy and Ashlee agreed to on the Sept 16 call: stop opening with ‘who is the buyer’ and start with the outcome.",
+    "tracks": [
+      {
+        "track": "Track 1 — Workforce Excellence",
+        "problem": "Your team's execution is inconsistent from property to property, compliance risk sits on whoever happens to be on shift, and you can't tell whether that's a training gap, a policy gap, or a people problem until something has already gone wrong.",
+        "outcome": "People performance: every employee, at every property, working to the same standard — fewer compliance incidents, faster onboarding, and execution that doesn't depend on your one strong regional manager.",
+        "benefit": "You get ahead of the audit or the incident instead of reacting to it, and you can prove — not just hope — that your team is trained, policy-acknowledged, and performing to standard.",
+        "howWeDeliverIt": "Training, policies, and mystery shopping working together under one PHQ Platform — industry-specific courseware, policy acknowledgment tracking, and on-site performance verification — packaged as Compliance, Core, or Plus depending on how far past baseline compliance you need to go."
+      },
+      {
+        "track": "Track 2 — Resident & Prospect Satisfaction",
+        "problem": "You don't have a reliable read on how residents and prospects actually feel about your properties until they leave a bad review, don't renew, or don't tour — and by then it's too late to do anything but react.",
+        "outcome": "Property performance: leasing and retention that improve because you catch sentiment and friction early — in the resident relationship and in the leasing funnel — instead of finding out from a lost renewal or a 2-star review.",
+        "benefit": "Fewer surprises at renewal, a reputation that supports (instead of undercuts) your marketing spend, and a leasing experience that converts more of the tours you're already paying for.",
+        "howWeDeliverIt": "Resident and prospect surveys, reputation management, and Realync's leasing video tools working off the same PHQ data layer — packaged as Sentiment Core, Leasing Core, or Plus depending on whether the bigger gap is sentiment, conversion, or both."
+      }
+    ],
+    "sharedLayer": {
+      "problem": "You're making decisions about your portfolio without knowing how you stack up against the market — rents, comps, competitive positioning — which means every pricing and positioning call is a guess.",
+      "outcome": "Confidence that your people-performance and property-performance decisions are grounded in real market data, not internal signals alone.",
+      "howWeDeliverIt": "HelloData®, included as a taster in every PHQ package and available at full depth in Plus — or standalone for teams (e.g., acquisitions, investment) that only need market data, not the workflow tracks."
+    }
+  },
+  "purchasingFlexibility": {
+    "scenario": "A third-party operator manages properties for multiple ownership groups with different priorities — e.g., wants Workforce Core broadly across the portfolio, but only certain ownership groups want Realync/Leasing Core.",
+    "options": [
+      {
+        "option": "1. Guided flexibility",
+        "what": "Standard packages applied across defined portfolio subsets — different subsets of properties can be on different tracks/tiers, pricing follows the units within each subset, requires eligibility and approval guardrails.",
+        "recommendedFor": "Upper Mid-Market + Enterprise."
+      },
+      {
+        "option": "2. Bespoke / CPQ",
+        "what": "Custom configuration for a complex account; package can vary property by property. Highest quoting and administrative burden; reserved where account complexity/economics justify it.",
+        "recommendedFor": "Strategic accounts."
+      }
+    ],
+    "guardrail": "GH Success and lower Mid-Market remain on a single standard package configuration across the portfolio, without property-level mix-and-match."
+  },
+  "objectionHandling": [
+    {
+      "q": "Why are you changing the way Grace Hill is packaged? How does this benefit me?",
+      "a": "We're simplifying how customers buy Grace Hill. Instead of buying related capabilities one product at a time, you start with the business need and a package built around it — fewer buying decisions and a clearer path to expand over time."
+    },
+    {
+      "q": "Why should I choose Grace Hill instead of a competitor?",
+      "a": "Grace Hill brings together a breadth of multifamily capabilities that's hard to replicate with a single alternative. You solve more needs within one ecosystem, and the value multiplies as those capabilities work together through PHQ rather than across disconnected systems."
+    },
+    {
+      "q": "Why should I consolidate more of my technology with Grace Hill?",
+      "a": "Consolidation simplifies your tech stack and unlocks the additional value of PHQ Intelligence+ — training, policies, performance measurement, resident feedback, leasing and market signals informing one another instead of sitting in separate systems."
+    },
+    {
+      "q": "I only need Training / Surveys / Realync. Why do I need to move to a broader package?",
+      "a": "You don't need to buy the entire Grace Hill ecosystem. Start with the narrowest standard package that solves the need you have today, then expand only when another use case becomes relevant. The packages themselves stay intact — this preserves focused entry points without recreating à-la-carte complexity."
+    },
+    {
+      "q": "Do all of my properties have to be on the same package?",
+      "a": "No. We can match the package to the parts of your portfolio where it makes sense, rather than forcing every property into the same configuration. GH Success and lower Mid-Market stay on one standard configuration; for eligible larger portfolios, Guided Flexibility can apply different standard packages across defined property groups; true property-level customization is Bespoke/CPQ, reserved for strategic accounts."
+    },
+    {
+      "q": "My unit count changes throughout the year. How do you account for that?",
+      "a": "Pricing adjusts with your portfolio — we reconcile unit counts monthly, so additions and removals are reflected as your portfolio changes rather than locking you to the unit count at signing. This is the same process Grace Hill uses today."
+    },
+    {
+      "q": "What if I need more mystery shops, or want to allocate them differently across my portfolio?",
+      "a": "You have flexibility beyond what's included in the package. Core includes semi-annual shops and Plus includes quarterly, but you can change the shop type or increase the frequency based on your needs, and you can always purchase additional shops on demand, above what's in the package."
+    },
+    {
+      "q": "I only want a one-year contract. Why do I have to commit to multiple years?",
+      "a": "You don't have to — one-year contracts remain available. NOTE: the exact multi-year incentive structure (discount-for-3-years vs. premium-for-flexibility) was still being resolved as of Sept 16 — see discountFramework."
+    },
+    {
+      "q": "This is a big price increase. Why should I pay more?",
+      "a": "The new price reflects a broader set of capabilities than what you're buying today, not simply a higher price for the same product. We'll work with you to make sure the package matches the needs you actually have, and if the change is significant, we can help manage the transition over time."
+    }
+  ],
+  "openQuestions": [
+    {
+      "topic": "Multi-year discount structure",
+      "status": "Contested on the Sept 16 call. Sales leadership does not want a standard 10%-for-3-years discount; RML agreed to revisit a 3-year-standard-price-with-premium-for-flexibility model instead. Do not treat the 10% figure as final."
+    },
+    {
+      "topic": "HelloData® freemium → PHQ conversion motion",
+      "status": "Open. Today's HelloData® freemium funnel is a significant demand driver on its own, sold to a different buyer (banks, investment orgs) than the typical PHQ buyer. Whether/how freemium HelloData® signups convert into the PHQ motion (and whether that risks the freemium funnel itself) was flagged as unresolved by both Mandy and Ashlee Horn; may need Gavin (demand gen) pulled in."
+    },
+    {
+      "topic": "Existing-customer migration & renewal workflow",
+      "status": "Not covered in this deck. A follow-up session is planned specifically on migration/renewal mechanics — e.g., how a large existing multi-product account (raised as a GrayStar example) gets bundled into one bundled price from several separate point-solution prices."
+    },
+    {
+      "topic": "Problem/outcome-first customer-facing language",
+      "status": "Agreed in principle on the Sept 16 call (see buyerMatchFramework.problemFirstNote and the new problemFirstMessaging block above); RML is setting up a follow-up focus-group discussion to align the language before it goes in front of a broader audience."
+    }
+  ],
+  "nextSteps": [
+    {
+      "item": "Incorporate feedback from the Sept 16 discussion",
+      "champion": "RML / Grace Hill",
+      "timeline": "Sept 18, 2026"
+    },
+    {
+      "item": "Steering Committee readout for ELT alignment",
+      "champion": "RML / Grace Hill",
+      "timeline": "Sept 25, 2026"
+    }
+  ],
+  "legacyNote": "Existing clients are NOT being force-migrated by this document. Willow Walker confirmed on the Sept 16 call that new pricing/packaging applies to new-logo sales going forward; renewals are a separate, still-to-be-designed workflow. The legacy per-product catalog (data/products.json) remains the accurate reference for what an existing client is actually on and how that's priced today — use it, not this package structure, when talking to a current customer about their existing contract.",
+  "packagingHistory": "See CHANGELOG for the August 2026 three-track (including a since-dropped 'Market Advantage' track) recommendation this supersedes."
 }

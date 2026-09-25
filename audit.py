@@ -272,11 +272,34 @@ for k, v in GHB.items():
         if m and not DISCLAIMED.search(txt):
             D['P_unshipped'].append((k, f, f'future-tense capability "{m.group(0)}" :: {txt[:80]}'))
 
-# G. Grace Hill claims still resting on marketing pages or internal decks.
+# G. Grace Hill claims still resting on marketing pages, with no internal policy backing.
+#
+# 2026-09-18 correction: this used to require the literal substring "adminhq" in the
+# source field, which mis-flagged claims that are genuinely sourced to Grace Hill
+# University's internal policy manuals (internal.performancehq.gracehill.com/manuals/.../
+# policies/...) -- a real, authoritative internal system, just a different subdomain than
+# AdminHQ's own knowledge library (adminhq.performancehq.gracehill.com). Verified live
+# against GHU Search_Policies before widening this: the previously-flagged GHU manual
+# citations (e.g. Policy 3813 "Grace Hill Instructional Design Principles", Policy 7003
+# "Content Development - Federal and State Content") are real policies whose text matches
+# the claims citing them.
+#
+# 2026-09-21, item 7/3 of the Sept 1 backlog ("detector 8"): Mandy's call, narrower than
+# either original option (full re-source vs. accept any marketing page). GHU/AdminHQ will
+# never document a third-party vendor's own API or methodology, so for md-* capabilities
+# that describe the HelloData market-data integration specifically, hellodata.ai's own
+# docs ARE the right source -- those are now accepted. Everything else that rests only on
+# a gracehill.com marketing page (our own virtual-leasing capabilities, vl-self-guided and
+# vl-syndication as of this date) still gets flagged; that re-sourcing work is still open.
+HELLODATA_CAPS = {k for k in GHB if k.startswith('md-')}
 for k,v in GHB.items():
     s=(v.get('source') or '')
     sl = s.lower()
-    if not any(ok in sl for ok in ('adminhq', 'rfp response', 'catalog.gracehill.com')):
+    ok_list = ['adminhq', 'rfp response', 'catalog.gracehill.com',
+               'internal.performancehq.gracehill.com', 'ghu policy', 'admin hq']
+    if k in HELLODATA_CAPS:
+        ok_list = ok_list + ['hellodata.ai']
+    if not any(ok in sl for ok in ok_list):
         tag='no source' if not s else ('internal deck' if ('battle card' in s.lower() or 'playbook' in s.lower() or 'internal' in s.lower()) else 'marketing page / web')
         D['G_unsourced_GH'].append((k,tag,s[:80]))
 # H. A four-way value carrying no note to hold the nuance.
@@ -294,7 +317,7 @@ NAMES={'P_unshipped':'Unshipped capability leaking to the field — no roadmap r
  'B_aphorism':'Punchy aphorism in a claim field — "sounds generated"  [ITERATIVE]',
  'I_jargon':'Jargon flagged by brand voice / Punchy  [ITERATIVE]',
  'F_fairhousing_heavy':'Over-indexed on Fair Housing as the differentiator  [ITERATIVE]',
- 'G_unsourced_GH':'Grace Hill claim not yet sourced to AdminHQ  [ITERATIVE]',
+ 'G_unsourced_GH':'Grace Hill claim resting on a public source, not internal policy  [ITERATIVE]',
  'H_no_note':'Yes/Partial/No with no note to hold the nuance  [MUST FIX]',
  'N_sme_queue':'Content claim awaiting SVP of Content sign-off  [SME QUEUE — does not block a build]'}
 MUST=['K_uncited_authority','M_currency_promise','P_unshipped','J_customer_named','C_obligation','D_fear','A_absolute','H_no_note']

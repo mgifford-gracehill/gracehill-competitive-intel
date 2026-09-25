@@ -2,16 +2,16 @@
   "note": "Grace Hill's six published partner programs, taken from gracehill.com/partnerships. The point of this file is that 'partner' is not one thing. A Training Partner means their content sits inside our LMS, which is a reason to buy us. An Integration Partner means data moves between the platforms. A Referral or Reseller Partner means revenue moves. Those three call for completely different behavior from a rep, and the old version of this file collapsed them into one warning.",
   "source": "https://gracehill.com/partnerships",
   "reviewed": "2026-08-23",
-  "rule": "Partnership is context, not a gag order. A company can be a partner on one product and a competitor on another, and several of these are exactly that. Every partner record carries full compete information — the same verdict, gaps, questions and win themes as any other competitor. What the partnership changes is what you say about the RELATIONSHIP, not whether you compete on the PRODUCT.",
+  "rule": "Partnership is context, not a gag order. A company can be a partner on one product and a competitor on another, and several of these are exactly that. Every partner record carries full compete information \u2014 the same verdict, gaps, questions and win themes as any other competitor. What the partnership changes is what you say about the RELATIONSHIP, not whether you compete on the PRODUCT.",
   "programs": [
     {
       "id": "training",
       "name": "Training Partner Program",
       "short": "Training Partner",
       "official": "brings together Grace Hill and industry partners to deliver high-quality training content for free to Grace Hill Training customers.",
-      "whatItMeans": "Their training content is delivered inside PerformanceHQ Training, free to our Training customers. If a property runs both companies' products, their people take that partner's training in the same place as everything else — one login, one transcript, one compliance report.",
-      "repMove": "Lead with the consolidation: the customer keeps the partner they like and stops managing a second system to get its training. If the deal ALSO has you competing with this company on a different product line, that is normal — compete there on the merits, and keep this line as the proof that we are not asking them to rip the partner out.",
-      "watchFor": "Do not present the partner's contributed content as proof of our own authoring depth. And do not assume the partnership covers their whole line — the overlap that matters is usually elsewhere in their catalog.",
+      "whatItMeans": "Their training content is delivered inside PerformanceHQ Training, free to our Training customers. If a property runs both companies' products, their people take that partner's training in the same place as everything else \u2014 one login, one transcript, one compliance report.",
+      "repMove": "Lead with the consolidation: the customer keeps the partner they like and stops managing a second system to get its training. If the deal ALSO has you competing with this company on a different product line, that is normal \u2014 compete there on the merits, and keep this line as the proof that we are not asking them to rip the partner out.",
+      "watchFor": "Do not present the partner's contributed content as proof of our own authoring depth. And do not assume the partnership covers their whole line \u2014 the overlap that matters is usually elsewhere in their catalog.",
       "posture": "reason-to-buy",
       "partners": [
         "EliseAI",
@@ -26,9 +26,9 @@
       "name": "Integration Partnerships",
       "short": "Integration Partner",
       "official": "seamless access to partner solutions within our products or pushes customer data to the partner solutions they prefer.",
-      "whatItMeans": "The two platforms exchange data. Either their solution is reachable from inside ours, or we push customer data out to theirs. Several of these companies also sell products that compete with ours — that is normal and it is why the program exists.",
+      "whatItMeans": "The two platforms exchange data. Either their solution is reachable from inside ours, or we push customer data out to theirs. Several of these companies also sell products that compete with ours \u2014 that is normal and it is why the program exists.",
       "repMove": "Compete on the specific module that overlaps, and only that module. If the prospect already runs the partner's platform, the integration is a buying reason: their data flows into ours on day one. Both things are true at once and a rep should say both.",
-      "watchFor": "Never characterize the parent company, its quality, or its roadmap. A Yardi or Entrata product competing with us does not make Yardi or Entrata a competitor — and the integration does not make their competing module off-limits.",
+      "watchFor": "Never characterize the parent company, its quality, or its roadmap. A Yardi or Entrata product competing with us does not make Yardi or Entrata a competitor \u2014 and the integration does not make their competing module off-limits.",
       "posture": "compete-on-the-module",
       "partners": [
         "Apartments.com",
@@ -61,8 +61,8 @@
       "short": "Survey Partner",
       "official": "connects survey clients with innovative solutions that directly address areas of improvement identified through resident and tenant feedback.",
       "whatItMeans": "When a survey surfaces a problem, these are the partners we point customers at to fix it. They sit downstream of our data, on the action side of the loop rather than the measurement side.",
-      "repMove": "Use it as evidence the loop closes: the survey finds the issue and there is already a named route to fixing it. Where the same partner also sells measurement, compete there normally — separate the fix they provide from the measurement they sell before you say anything comparative.",
-      "watchFor": "Do not compete with a Survey Partner on the fix they provide; that is the part that makes us stronger. Do compete on measurement and benchmarking if they sell it — being downstream of us on one thing does not make them a partner on everything.",
+      "repMove": "Use it as evidence the loop closes: the survey finds the issue and there is already a named route to fixing it. Where the same partner also sells measurement, compete there normally \u2014 separate the fix they provide from the measurement they sell before you say anything comparative.",
+      "watchFor": "Do not compete with a Survey Partner on the fix they provide; that is the part that makes us stronger. Do compete on measurement and benchmarking if they sell it \u2014 being downstream of us on one thing does not make them a partner on everything.",
       "posture": "downstream-of-us",
       "partners": [
         "Zark",
@@ -80,8 +80,8 @@
       "short": "Referral / Reseller Partner",
       "official": "partners receive qualified leads or Grace Hill receives referrals; select cases include reseller agreements for distributing partner content.",
       "whatItMeans": "Revenue moves between us. We send them leads, they send us leads, and in some cases we resell their content. A person on their side may be compensated on a deal we source.",
-      "repMove": "Compete normally on any overlapping product — but keep every word strictly factual and sourced, and tell the partnership owner afterwards. Revenue moves between us and a person on their side may be compensated on a deal we sourced, so a loose comparative remark can land somewhere expensive.",
-      "watchFor": "The highest-sensitivity program in the list. Nothing unsourced, nothing about their company, nothing about the commercial terms. If a prospect asks directly whether we compete, the answer is yes on this product and we work together on that one — then bring in the partnership owner.",
+      "repMove": "Compete normally on any overlapping product \u2014 but keep every word strictly factual and sourced, and tell the partnership owner afterwards. Revenue moves between us and a person on their side may be compensated on a deal we sourced, so a loose comparative remark can land somewhere expensive.",
+      "watchFor": "The highest-sensitivity program in the list. Nothing unsourced, nothing about their company, nothing about the commercial terms. If a prospect asks directly whether we compete, the answer is yes on this product and we work together on that one \u2014 then bring in the partnership owner.",
       "posture": "relationship-sensitive",
       "partners": [
         "SkillCat",
@@ -96,7 +96,7 @@
       "short": "Thought Leadership Partner",
       "official": "co-branded education and industry insights, including webinars, content, sponsorships, and visibility.",
       "whatItMeans": "Industry bodies and trade press we publish alongside. No product relationship. Often a route into a room rather than anything a rep sells against.",
-      "repMove": "Use the co-branded material as credibility and the relationship as an introduction path. If the body also runs a credential or a commercial training arm, that arm is a competitor and gets a normal competitive read — the association and its commercial arm are two different things.",
+      "repMove": "Use the co-branded material as credibility and the relationship as an introduction path. If the body also runs a credential or a commercial training arm, that arm is a competitor and gets a normal competitive read \u2014 the association and its commercial arm are two different things.",
       "watchFor": "Separate the association from its commercial arm before you say anything comparative. Never imply an industry body endorses us because we published alongside it.",
       "posture": "relationship-sensitive",
       "partners": [
@@ -114,8 +114,8 @@
       "name": "Content Creation Partnerships",
       "short": "Content Creation Partner",
       "official": "partners develop high-quality training or thought leadership content for distribution on Grace Hill platforms.",
-      "whatItMeans": "They build course or thought-leadership content that ships on our platforms. Distinct from the Training Partner Program, where a partner contributes their existing content free — here they are building it for distribution with us.",
-      "repMove": "Part of the answer to \"is your library deep enough?\" — named specialist partners built parts of it. Say who, and what they specialize in. Where the same company sells a competing platform, compete on the platform and keep the content credit intact.",
+      "whatItMeans": "They build course or thought-leadership content that ships on our platforms. Distinct from the Training Partner Program, where a partner contributes their existing content free \u2014 here they are building it for distribution with us.",
+      "repMove": "Part of the answer to \"is your library deep enough?\" \u2014 named specialist partners built parts of it. Say who, and what they specialize in. Where the same company sells a competing platform, compete on the platform and keep the content credit intact.",
       "watchFor": "Do not imply we authored content a partner built, and do not present a partner's specialist library as proof of our own authoring capacity.",
       "posture": "reason-to-buy",
       "partners": [
@@ -128,8 +128,8 @@
   ],
   "alerts": {
     "elevate-mystery-shopping": {
-      "title": "Name collision — this is not our Elevate",
-      "line": "This is a separate company at elevatemysteryshopping.com, unrelated to Grace Hill Elevate. Say the full company name out loud, and never let “Elevate” stand alone in a conversation where both could be meant."
+      "title": "Name collision \u2014 this is not our Elevate",
+      "line": "This is a separate company at elevatemysteryshopping.com, unrelated to Grace Hill Elevate. Say the full company name out loud, and never let \u201cElevate\u201d stand alone in a conversation where both could be meant."
     }
   },
   "changes": [
@@ -149,7 +149,7 @@
       "programs": [
         "integration"
       ],
-      "line": "Yardi is an Integration Partner. Their individual products compete with ours; the company does not. Compete on the product in front of you, on the merits. If the prospect already runs Yardi PMS, the integration is a buying reason — say both things."
+      "line": "Yardi is an Integration Partner. Their individual products compete with ours; the company does not. Compete on the product in front of you, on the merits. If the prospect already runs Yardi PMS, the integration is a buying reason \u2014 say both things."
     },
     {
       "company": "Entrata",
@@ -181,7 +181,7 @@
       "programs": [
         "integration"
       ],
-      "line": "Knock is an Integration Partner, now inside RealPage — the integration is with Knock specifically, not with RealPage. Overlap is narrow and rarely decides a deal."
+      "line": "Knock is an Integration Partner, now inside RealPage \u2014 the integration is with Knock specifically, not with RealPage. Overlap is narrow and rarely decides a deal."
     },
     {
       "company": "Funnel",
@@ -214,7 +214,7 @@
         "integration",
         "survey"
       ],
-      "line": "EliseAI is in three programs — Training, Survey and Integration — AND competes with us on resident sentiment collection through SentimentAI. Both are true. Their training content sits inside PerformanceHQ, which is a reason to buy; their sentiment product overlaps our Surveys line, which is a deal you compete in. Stay factual, never disparage, never discuss commercial terms."
+      "line": "EliseAI is in three programs \u2014 Training, Survey and Integration \u2014 AND competes with us on resident sentiment collection through SentimentAI. Both are true. Their training content sits inside PerformanceHQ, which is a reason to buy; their sentiment product overlaps our Surveys line, which is a deal you compete in. Stay factual, never disparage, never discuss commercial terms."
     },
     {
       "company": "Interplay Learning",
@@ -225,7 +225,7 @@
         "integration",
         "content"
       ],
-      "line": "Interplay Learning is both an Integration Partner and a Content Creation Partner — they build maintenance and trades content that ships on our platform. That content is not a thing to argue with; if library depth comes up, name them as the specialist behind that part of it. Anywhere their own platform overlaps ours, compete normally — factual and sourced — and tell the partnership owner afterwards."
+      "line": "Interplay Learning is both an Integration Partner and a Content Creation Partner \u2014 they build maintenance and trades content that ships on our platform. That content is not a thing to argue with; if library depth comes up, name them as the specialist behind that part of it. Anywhere their own platform overlaps ours, compete normally \u2014 factual and sourced \u2014 and tell the partnership owner afterwards."
     },
     {
       "company": "PetScreening",
@@ -248,7 +248,7 @@
       "programs": [
         "referral"
       ],
-      "line": "SkillCat is a Referral and Reseller Partner and a Grace Hill company. Never a competitor, and never comparative — revenue moves between us."
+      "line": "SkillCat is a Referral and Reseller Partner and a Grace Hill company. Never a competitor, and never comparative \u2014 revenue moves between us."
     },
     {
       "company": "Incentco",
@@ -269,7 +269,7 @@
       "programs": [
         "integration"
       ],
-      "line": "Matterport is owned by CoStar, which also owns Apartments.com — and Apartments.com is the Integration Partner, not Matterport and not CoStar. Compete on the 3D and virtual-tour overlap normally. The partnership sits elsewhere in the corporate family and is not a reason to soften this comparison, but it is a reason not to characterize CoStar as a company."
+      "line": "Matterport is owned by CoStar, which also owns Apartments.com \u2014 and Apartments.com is the Integration Partner, not Matterport and not CoStar. Compete on the 3D and virtual-tour overlap normally. The partnership sits elsewhere in the corporate family and is not a reason to soften this comparison, but it is a reason not to characterize CoStar as a company."
     },
     {
       "company": "CoStar (parent of Apartments.com)",
@@ -279,7 +279,7 @@
       "programs": [
         "integration"
       ],
-      "line": "Read this carefully, because the relationship runs the opposite way to the Yardi one. CoStar owns Apartments.com, and Apartments.com is the Integration Partner — CoStar itself is not. CoStar's market-data and analytics products compete with ours directly, so compete there. Never position against Apartments.com, and never characterize the partnership when discussing CoStar's data business. If a prospect conflates the two, separate them out loud."
+      "line": "Read this carefully, because the relationship runs the opposite way to the Yardi one. CoStar owns Apartments.com, and Apartments.com is the Integration Partner \u2014 CoStar itself is not. CoStar's market-data and analytics products compete with ours directly, so compete there. Never position against Apartments.com, and never characterize the partnership when discussing CoStar's data business. If a prospect conflates the two, separate them out loud."
     },
     {
       "company": "Apartments.com",
@@ -290,7 +290,7 @@
       "programs": [
         "integration"
       ],
-      "line": "Apartments.com is an Integration Partner. Note it also feeds review data that flows into reputation scoring across the industry, so a change on their side moves scores our customers see. CoStar owns Apartments.com — the partnership is with Apartments.com specifically, not with CoStar."
+      "line": "Apartments.com is an Integration Partner. Note it also feeds review data that flows into reputation scoring across the industry, so a change on their side moves scores our customers see. CoStar owns Apartments.com \u2014 the partnership is with Apartments.com specifically, not with CoStar."
     },
     {
       "company": "National Apartment Association",
@@ -303,7 +303,7 @@
         "integration",
         "thought-leadership"
       ],
-      "line": "The NAA is both an Integration Partner and a Thought Leadership Partner, and it underpins Visto's credential position. Separate the association from any commercial platform before saying anything comparative. Internal note: the partnership is reported to end after Q1 2027 — confirm before relying on it."
+      "line": "The NAA is both an Integration Partner and a Thought Leadership Partner, and it underpins Visto's credential position. Separate the association from any commercial platform before saying anything comparative. Internal note: the partnership is reported to end after Q1 2027 \u2014 confirm before relying on it."
     },
     {
       "company": "TransUnion",
@@ -314,7 +314,7 @@
       "programs": [
         "training"
       ],
-      "line": "TransUnion is a Training Partner — their content is delivered free inside our Training product. Not a competitor."
+      "line": "TransUnion is a Training Partner \u2014 their content is delivered free inside our Training product. Not a competitor."
     },
     {
       "company": "Snappt",
@@ -376,7 +376,7 @@
       "programs": [
         "survey"
       ],
-      "line": "Fetch is a Survey Partner. Match carefully — 'fetch' is a common word, so confirm the company before applying this."
+      "line": "Fetch is a Survey Partner. Match carefully \u2014 'fetch' is a common word, so confirm the company before applying this."
     },
     {
       "company": "Mindstone AI",
@@ -386,7 +386,7 @@
       "programs": [
         "referral"
       ],
-      "line": "Mindstone AI is a Referral partner and our answer for in-depth AI-skills training, which our own catalog does not cover. Compete normally on any product of theirs that overlaps ours — keep it factual and sourced, and tell the partnership owner afterwards."
+      "line": "Mindstone AI is a Referral partner and our answer for in-depth AI-skills training, which our own catalog does not cover. Compete normally on any product of theirs that overlaps ours \u2014 keep it factual and sourced, and tell the partnership owner afterwards."
     },
     {
       "company": "Rustici Software",
@@ -469,7 +469,7 @@
       "programs": [
         "integration"
       ],
-      "line": "Zoom is an Integration Partner for instructor-led training delivery. Match carefully — 'zoom' appears in unrelated copy."
+      "line": "Zoom is an Integration Partner for instructor-led training delivery. Match carefully \u2014 'zoom' appears in unrelated copy."
     },
     {
       "company": "HD Supply",
@@ -499,7 +499,7 @@
       "programs": [
         "thought-leadership"
       ],
-      "line": "Multifamily Insiders is a Thought Leadership Partner — trade press, not a competitor."
+      "line": "Multifamily Insiders is a Thought Leadership Partner \u2014 trade press, not a competitor."
     },
     {
       "company": "Multifamily Executive",
@@ -509,7 +509,7 @@
       "programs": [
         "thought-leadership"
       ],
-      "line": "Multifamily Executive is a Thought Leadership Partner — trade press, and the media partner on J Turner's ORA Power Rankings."
+      "line": "Multifamily Executive is a Thought Leadership Partner \u2014 trade press, and the media partner on J Turner's ORA Power Rankings."
     },
     {
       "company": "Commercial Property Executive",
@@ -519,7 +519,7 @@
       "programs": [
         "thought-leadership"
       ],
-      "line": "Commercial Property Executive is a Thought Leadership Partner — trade press, not a competitor."
+      "line": "Commercial Property Executive is a Thought Leadership Partner \u2014 trade press, not a competitor."
     },
     {
       "company": "North Virginia Apartment Association",
@@ -548,15 +548,23 @@
     "Compete on the product in front of you. A partner's product competing with ours does not make the parent company a competitor, and a partnership on one line does not protect their product on another.",
     "Name the partnership out loud when it comes up. A prospect who already runs the partner will hear about it eventually; hearing it from you first is worth more than the thirty seconds it costs.",
     "Never disparage a partner, their product, or their company. Compete on what we do better, sourced, not on what they do badly.",
-    "Never state, imply, or speculate about the commercial terms of any partnership — revenue share, exclusivity, fees, or anything else.",
-    "Where the partnership is genuinely a reason to buy — their content already lives in our platform, their data already flows into ours — lead with that. It is a stronger position than competing.",
-    "Tell the partnership owner after a competitive deal against a partner. Not before, and not for permission — so the relationship side is never surprised by something they could have handled."
+    "Never state, imply, or speculate about the commercial terms of any partnership \u2014 revenue share, exclusivity, fees, or anything else.",
+    "Where the partnership is genuinely a reason to buy \u2014 their content already lives in our platform, their data already flows into ours \u2014 lead with that. It is a stronger position than competing.",
+    "Tell the partnership owner after a competitive deal against a partner. Not before, and not for permission \u2014 so the relationship side is never surprised by something they could have handled.",
+    "A partner being \u2018never a competitor\u2019 is a company-level rule. A specific module of a partner's product can still block a Grace Hill product in a live deal without the partner itself becoming a competitor \u2014 see moduleLevelNote. Log that at the deal level; don't add the partner to competitors.json."
   ],
   "postureMeaning": {
-    "reason-to-buy": "The partnership is an asset in the deal. Lead with it — and still compete on any product that overlaps.",
+    "reason-to-buy": "The partnership is an asset in the deal. Lead with it \u2014 and still compete on any product that overlaps.",
     "compete-on-the-module": "Compete on the overlapping product only. The parent company is not the competitor; their module is.",
     "downstream-of-us": "They act on what our data finds. Compete only where they also measure, and use the rest as proof the loop closes.",
     "relationship-sensitive": "Compete normally, but every word factual and sourced, and tell the partnership owner afterwards. Money or reputation moves between the companies."
   },
-  "retiredPosture": "'never-compete' was retired on 2026-08-23 by the VP of Product Marketing. It suppressed compete information on companies that genuinely compete with us on a product line, which left reps walking into those deals with nothing. Partnership type is now listed as context on every record and the compete information stays live."
+  "retiredPosture": "'never-compete' was retired on 2026-08-23 by the VP of Product Marketing. It suppressed compete information on companies that genuinely compete with us on a product line, which left reps walking into those deals with nothing. Partnership type is now listed as context on every record and the compete information stays live.",
+  "moduleLevelNote": {
+    "added": "2026-09-21",
+    "decidedBy": "Mandy Gifford",
+    "why": "A live maintenance-training deal named two vendors on this partner list as the stated reason a Grace Hill product could not be justified \u2014 an operations platform the buyer is adopting next year that covers overlapping ground at no extra cost, and a prior training vendor whose engagement had lapsed. Per editorial rule 6, partners are never written up as competitors here, so neither is named in this file.",
+    "rule": "This file's \u2018never a competitor\u2019 status is set at the company level. A specific module of a partner's product can still be the stated reason a Grace Hill product loses or narrows in a live deal, without the partner company becoming a competitor or getting a competitors.json record. When that happens, capture it as deal-level intel (CRM/Gong notes), not as a new competitor record or a named entry in this file.",
+    "source": "Sept 1, 2026 CI backlog digest \u2014 item 3 of 7 in the 'still a decision' bucket"
+  }
 }
