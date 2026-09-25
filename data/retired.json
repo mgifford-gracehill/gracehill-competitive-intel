@@ -1,0 +1,594 @@
+[
+  {
+    "id": "escal8",
+    "name": "Escal8",
+    "aka": [
+      "Escal8 LMS",
+      "Escal8 Network",
+      "escal8.com",
+      "old.escal8.com"
+    ],
+    "parent": "Founded by partner organizations EPC and Vidalta",
+    "website": "https://escal8.com/",
+    "toolCategory": "Formerly a multifamily talent-development LMS; the current live site presents an AI workforce/talent intelligence assessment platform, not a course library",
+    "ciCategory": "Potential",
+    "tier": "Watchlist",
+    "verdict": {
+      "stance": "Do not compete",
+      "line": "Escal8's live site now sells an AI talent-assessment platform with no course library described — the multifamily LMS content sits only on its legacy domains, so treat it as a watchlist item, not a shortlist rival.",
+      "doInstead": "If a prospect names Escal8, confirm which product they actually saw — the current AI assessment platform or the legacy multifamily LMS. If it's the assessment platform, it does not solve compliance training; position Grace Hill on the training and compliance job and do not attack their product. Escalate to CI if you see Escal8 on a live shortlist with multifamily LMS content."
+    },
+    "overlaps": [
+      {
+        "product": "Training",
+        "degree": "Partial"
+      },
+      {
+        "product": "Policies",
+        "degree": "None"
+      },
+      {
+        "product": "Surveys",
+        "degree": "Partial"
+      },
+      {
+        "product": "Mystery Shopping",
+        "degree": "None"
+      },
+      {
+        "product": "Reputation Management",
+        "degree": "None"
+      }
+    ],
+    "snapshot": {
+      "hq": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "founded": {
+        "value": "2019, by partner organizations EPC and Vidalta",
+        "source": "https://escal8network.com/about/",
+        "verifiedOn": "2026-08-11"
+      },
+      "ownership": {
+        "value": "Private; founded by EPC and Vidalta",
+        "source": "https://escal8network.com/about/",
+        "verifiedOn": "2026-08-11"
+      },
+      "size": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "funding": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "pricing": {
+      "value": "Not published. The legacy site described three plans — Standard, Multifamily Industry, and Customized — with individual course purchase or full-package discount; no prices given. The current site publishes no pricing.",
+      "source": "https://old.escal8.com/faqs/",
+      "verifiedOn": "2026-08-11"
+    },
+    "positioning": {
+      "value": "Current site positions Escal8 as an AI-powered talent intelligence platform assessing employees across eight dimensions (skills, performance, growth, digital fluency, automation, capacity, culture, risk) to answer what to automate, who to develop and who to invest in. The legacy site positioned it as a comprehensive talent development program focused on the multifamily real estate industry.",
+      "source": "https://escal8.com/en/",
+      "verifiedOn": "2026-08-11"
+    },
+    "strengths": [
+      {
+        "text": "Originally purpose-built for multifamily — legacy site describes a Multifamily Industry Plan with leasing agent, assistant community manager and property manager essential training tracks.",
+        "source": "https://old.escal8.com/faqs/",
+        "verifiedOn": "2026-08-11"
+      },
+      {
+        "text": "Legacy platform offered white-label branding, curated third-party content from publishers including Harvard and TED, monthly webinars and discussion forums.",
+        "source": "https://old.escal8.com/faqs/",
+        "verifiedOn": "2026-08-11"
+      },
+      {
+        "text": "Legacy platform described integration capability with CRMs, web conferencing and HRIS platforms, and no minimum employee requirement.",
+        "source": "https://old.escal8.com/faqs/",
+        "verifiedOn": "2026-08-11"
+      },
+      {
+        "text": "Current AI assessment product is a genuinely differentiated adjacent capability — conversational assessment delivered via WhatsApp, Slack or web, producing organizational scores in four weeks.",
+        "source": "https://escal8.com/en/",
+        "verifiedOn": "2026-08-11"
+      }
+    ],
+    "gaps": [
+      {
+        "text": "The current live site describes an AI talent-assessment platform with no LMS or course library mentioned; the multifamily training content appears only on the legacy domains (old.escal8.com, escal8network.com).",
+        "source": "https://escal8.com/en/",
+        "verifiedOn": "2026-08-11"
+      },
+      {
+        "text": "The current site's stated target is companies seeking data-driven talent decisions, not multifamily real estate specifically.",
+        "source": "https://escal8.com/en/",
+        "verifiedOn": "2026-08-11"
+      },
+      {
+        "text": "Legacy site's credential offering is a digital certificate with a QR code verifying authenticity; no accredited state approval, CEC or NAA credential eligibility is described.",
+        "source": "https://old.escal8.com/faqs/",
+        "verifiedOn": "2026-08-11"
+      },
+      {
+        "text": "No fair housing, state-specific compliance, SCORM, mobile, or bilingual course capability is described on either the current or legacy sites.",
+        "source": "https://old.escal8.com/faqs/",
+        "verifiedOn": "2026-08-11"
+      },
+      {
+        "text": "Headquarters, size and current customer base are not published on either site.",
+        "source": "https://escal8network.com/about/",
+        "verifiedOn": "2026-08-11"
+      }
+    ],
+    "whyWeWin": [
+      "A talent-assessment platform doesn't discharge a fair housing training obligation — the two products answer different questions.",
+      "Legacy multifamily content carries no published fair housing or state accreditation, which is the core reason multifamily buys training.",
+      "Content maintained by a vendor that has publicly repositioned away from the vertical carries currency risk — ask who is updating it."
+    ],
+    "askThis": [
+      "Which Escal8 product were you shown — the AI talent assessment, or the multifamily course library?",
+      "Does the offering include fair housing training, and is it accredited in your states?",
+      "Who maintains the multifamily course content today, and when was it last updated?",
+      "If you need to prove training completion in an audit, what does the report look like?"
+    ],
+    "objections": [
+      {
+        "objection": "Escal8 gives us AI insight into our people that you don't.",
+        "response": "That's a different product and it may be worth having. It doesn't produce compliance training records or fair housing coverage — those are separate obligations."
+      },
+      {
+        "objection": "They were built for multifamily.",
+        "response": "The legacy site says so. Their current site positions the platform for general workforce intelligence. Worth asking which product is on their roadmap and who maintains the multifamily content now."
+      }
+    ],
+    "doNotSay": [
+      "Escal8 is out of business or abandoned multifamily — the public evidence shows a repositioned live site and legacy multifamily domains, not a shutdown.",
+      "Any ROI, adoption or turnover-reduction figure from Escal8's own marketing — these are unverified vendor claims.",
+      "Any claim about Escal8's price, headcount or customer count — none is published."
+    ],
+    "features": {
+      "tr-multifamily-content": {
+        "support": "Partial",
+        "note": "Legacy site describes a Multifamily Industry Plan with leasing agent, assistant community manager and property manager essential training. The current live site describes no course library.",
+        "source": "https://old.escal8.com/faqs/",
+        "verifiedOn": "2026-08-11"
+      },
+      "tr-vendor-maintained": {
+        "support": "Unknown",
+        "note": "No update cadence or content-maintenance commitment is published on either site.",
+        "source": null,
+        "verifiedOn": null
+      },
+      "tr-fair-housing": {
+        "support": "Unknown",
+        "note": "Not described on either the current or legacy sites.",
+        "source": null,
+        "verifiedOn": null
+      },
+      "tr-state-specific": {
+        "support": "Unknown",
+        "note": "Not described on either the current or legacy sites.",
+        "source": null,
+        "verifiedOn": null
+      },
+      "tr-cec-eligible": {
+        "support": "Unknown",
+        "note": "Digital certificates with QR verification are described; no accredited CEC or credential eligibility is stated.",
+        "source": null,
+        "verifiedOn": null
+      },
+      "tr-role-assignment": {
+        "support": "Partial",
+        "note": "Legacy site describes curated learning pathways by role (leasing agent, ACM, property manager); automatic role- and property-based assignment is not described.",
+        "source": "https://escal8network.com/about/",
+        "verifiedOn": "2026-08-11"
+      },
+      "tr-competency": {
+        "support": "Unknown",
+        "note": "Current site describes an eight-dimension talent assessment, but not course-level competency measurement.",
+        "source": null,
+        "verifiedOn": null
+      },
+      "tr-compliance-reporting": {
+        "support": "Partial",
+        "note": "Legacy site describes progress tracking and completion monitoring; compliance/audit reporting is not described.",
+        "source": "https://old.escal8.com/faqs/",
+        "verifiedOn": "2026-08-11"
+      },
+      "tr-scorm": {
+        "support": "Unknown",
+        "note": "Not described on either site.",
+        "source": null,
+        "verifiedOn": null
+      },
+      "tr-authoring": {
+        "support": "Partial",
+        "note": "Legacy site describes support for custom course development and white-label platform setup; a self-serve authoring tool is not described.",
+        "source": "https://old.escal8.com/faqs/",
+        "verifiedOn": "2026-08-11"
+      },
+      "tr-mobile": {
+        "support": "Unknown",
+        "note": "Current site describes assessment delivery via WhatsApp, Slack and web; course mobile access is not described.",
+        "source": null,
+        "verifiedOn": null
+      },
+      "tr-bilingual": {
+        "support": "Unknown",
+        "note": "The corporate site is published in Spanish and English, but course-content language support is not stated.",
+        "source": null,
+        "verifiedOn": null
+      },
+      "tr-pms-integration": {
+        "support": "Unknown",
+        "note": "Not described on either site.",
+        "source": null,
+        "verifiedOn": null
+      },
+      "tr-hris-integration": {
+        "support": "Partial",
+        "note": "Legacy site states integration capability with CRMs, web conferencing and HRIS platforms; no named systems.",
+        "source": "https://old.escal8.com/faqs/",
+        "verifiedOn": "2026-08-11"
+      },
+      "tr-benchmarking": {
+        "support": "Unknown",
+        "note": "Not described on either site.",
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "health": {
+      "lastFullReview": "2026-08-11",
+      "confidence": "Low",
+      "owner": null,
+      "autoUpdated": true,
+      "pendingReview": []
+    },
+    "news": [],
+    "sources": [
+      {
+        "title": "escal8 — current corporate site (English)",
+        "url": "https://escal8.com/en/",
+        "retrievedOn": "2026-08-11"
+      },
+      {
+        "title": "About Our Professional Education Opportunities | Old Escal8",
+        "url": "https://escal8network.com/about/",
+        "retrievedOn": "2026-08-11"
+      },
+      {
+        "title": "FAQs | Old Escal8",
+        "url": "https://old.escal8.com/faqs/",
+        "retrievedOn": "2026-08-11"
+      }
+    ],
+    "stackLayer": {
+      "number": 4,
+      "name": "People and Workforce",
+      "note": "Reaches multifamily through the people and workforce stack — often already on an HR contract."
+    },
+    "whenItComesUp": {
+      "why": "The company appears to have pivoted away from the multifamily talent-development LMS a prospect may be remembering. Confirm which product they actually saw before responding.",
+      "say": "Escal8's changed direction — worth checking which product you looked at, because it isn't the multifamily LMS it used to be.",
+      "avoid": "Don't assume you know what they saw. Guessing here makes you look uninformed.",
+      "redirect": "When did you see it, and what were they showing you?"
+    },
+    "spiced": [
+      {
+        "letter": "S",
+        "stage": "Situation",
+        "listenFor": "They name Escal8 LMS, Escal8 Network, escal8.com, old.escal8.com, or describe formerly a multifamily talent-development lms; the current live site presents an ai workforce/talent intelligence assessment platform, not a course library already in place.",
+        "ask": "Which Escal8 product were you shown — the AI talent assessment, or the multifamily course library?"
+      },
+      {
+        "letter": "P",
+        "stage": "Pain",
+        "listenFor": "The current live site describes an AI talent-assessment platform with no LMS or course library mentioned; the multifamily training content appears only on the legacy domains (old.escal8.com, escal8network.com).",
+        "ask": "Does the offering include fair housing training, and is it accredited in your states?"
+      },
+      {
+        "letter": "I",
+        "stage": "Impact",
+        "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+        "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+      },
+      {
+        "letter": "CE",
+        "stage": "Critical Event",
+        "listenFor": "A renewal date on the Escal8 contract, an audit, an acquisition, or new leadership asking what the data shows.",
+        "ask": "When does the Escal8 agreement come up, and what has to be decided before then?"
+      },
+      {
+        "letter": "D",
+        "stage": "Decision Process",
+        "listenFor": "Whether Escal8 sits on someone else's budget line — that changes who has to agree.",
+        "ask": "Who maintains the multifamily course content today, and when was it last updated?"
+      }
+    ],
+    "play": "Not our fight",
+    "status": {
+      "value": "retired",
+      "decidedOn": "2026-09-21",
+      "decidedBy": "Mandy Gifford",
+      "reason": "Live site now sells an AI talent-assessment platform with no course library described; the multifamily LMS content survives only on legacy domains. No dated rebrand announcement exists — this is a judgment call on current-state evidence, not a sourced event — and Mandy chose to retire rather than hold on watchlist.",
+      "reactivateIf": "A prospect or field report names Escal8 with live multifamily LMS content, not the assessment platform."
+    }
+  },
+  {
+    "id": "learnie",
+    "name": "Learnie",
+    "aka": [
+      "Learnie Community Microlearning",
+      "MyLearnie"
+    ],
+    "parent": null,
+    "website": "https://www.learnie.app/",
+    "toolCategory": "Microlearning app built on user-generated video",
+    "ciCategory": "Potential",
+    "tier": "Watchlist",
+    "verdict": {
+      "stance": "Do not compete",
+      "line": "Learnie's premise is that your own team records the training — a social-feed microlearning app whose content model is peer-generated video, which is the opposite of what a fair housing obligation requires.",
+      "doInstead": "Do not pitch against it; it is not bought to satisfy a compliance requirement. If a customer likes it for tribal knowledge capture, say so and keep the compliance curriculum with Grace Hill — the two can coexist without a platform fight."
+    },
+    "overlaps": [
+      {
+        "product": "Training",
+        "degree": "Partial"
+      },
+      {
+        "product": "Policies",
+        "degree": "None"
+      }
+    ],
+    "snapshot": {
+      "hq": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "founded": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "ownership": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "size": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "funding": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "pricing": {
+      "value": "Not published. A free plan is offered; paid tier pricing requires a demo or sign-up.",
+      "source": "https://www.learnie.app/",
+      "verifiedOn": "2026-08-11"
+    },
+    "positioning": {
+      "value": "\"An AI-powered web and mobile microlearning app made for how people actually learn\" — built to \"capture your team's knowledge\" and \"build a microlearning community.\"",
+      "source": "https://www.learnie.app/",
+      "verifiedOn": "2026-08-11"
+    },
+    "strengths": [
+      {
+        "text": "Combines AI generation of bite-sized lessons, quizzes and learning paths with human-recorded video from the team itself.",
+        "source": "https://www.learnie.app/",
+        "verifiedOn": "2026-08-11"
+      },
+      {
+        "text": "Social-feed consumption model — scroll, like, share, collaborate — aimed at deskless and frontline employees.",
+        "source": "https://www.learnie.app/",
+        "verifiedOn": "2026-08-11"
+      },
+      {
+        "text": "Generates microlessons in minutes from a website URL or an uploaded document (PDF, DOCX, TXT).",
+        "source": "https://www.learnie.app/",
+        "verifiedOn": "2026-08-11"
+      }
+    ],
+    "gaps": [
+      {
+        "text": "Learnie's content model is knowledge captured from the customer's own team plus AI generation from customer material; no vendor-authored regulated content library is published.",
+        "source": "https://www.learnie.app/",
+        "verifiedOn": "2026-08-11"
+      },
+      {
+        "text": "Named topic areas are HR, leadership, sales, customer service, and safety & compliance generally; no housing, fair housing or property-management content is named.",
+        "source": "https://www.learnie.app/",
+        "verifiedOn": "2026-08-11"
+      }
+    ],
+    "whyWeWin": [
+      "Peer-recorded video is a good way to pass on tribal knowledge and a poor way to evidence fair housing training.",
+      "Grace Hill supplies vendor-authored, maintained multifamily content with compliance reporting built for portfolios."
+    ],
+    "askThis": [
+      "Would you hand a peer-recorded video to a regulator as evidence of fair housing training?",
+      "Who reviews team-generated content before it is published to everyone?"
+    ],
+    "objections": [
+      {
+        "objection": "Our teams love Learnie, it's how they actually learn.",
+        "response": "Keep it for tribal knowledge and quick how-tos — that is a real use case. Compliance content has to be authored, reviewed and maintained on a documented cycle by someone accountable, and Learnie's model is that your team creates the content."
+      }
+    ],
+    "doNotSay": [
+      "Do not cite Learnie's lesson-library figure as a comparable content library; it is user- and AI-generated microlearning.",
+      "Do not quote Learnie pricing beyond the existence of a free plan."
+    ],
+    "features": {
+      "tr-multifamily-content": {
+        "support": "No",
+        "note": "No multifamily or property-management content is published; the content model is team-captured and AI-generated from customer material.",
+        "source": "https://www.learnie.app/",
+        "verifiedOn": "2026-08-11"
+      },
+      "tr-vendor-maintained": {
+        "support": "No",
+        "note": "Content is created by the customer's own team or generated by AI from customer material.",
+        "source": "https://www.learnie.app/",
+        "verifiedOn": "2026-08-11"
+      },
+      "tr-fair-housing": {
+        "support": "No",
+        "note": "No vendor-authored regulated content library exists, therefore no fair housing course.",
+        "source": "https://www.learnie.app/",
+        "verifiedOn": "2026-08-11"
+      },
+      "tr-state-specific": {
+        "support": "No",
+        "note": "No vendor-authored content library exists, therefore no state-specific variants.",
+        "source": "https://www.learnie.app/",
+        "verifiedOn": "2026-08-11"
+      },
+      "tr-cec-eligible": {
+        "support": "No",
+        "note": "No vendor-supplied credential-eligible content.",
+        "source": "https://www.learnie.app/",
+        "verifiedOn": "2026-08-11"
+      },
+      "tr-role-assignment": {
+        "support": "Unknown",
+        "note": "Learning paths are supported; role- or property-based auto-assignment is not documented.",
+        "source": "https://www.learnie.app/",
+        "verifiedOn": "2026-08-11"
+      },
+      "tr-competency": {
+        "support": "Partial",
+        "note": "AI-generated quizzes are offered; competency assessment beyond quizzing is not documented.",
+        "source": "https://www.learnie.app/",
+        "verifiedOn": "2026-08-11"
+      },
+      "tr-compliance-reporting": {
+        "support": "Partial",
+        "note": "Real-time engagement and ROI analytics are marketed; compliance completion reporting is not specifically documented.",
+        "source": "https://www.learnie.app/",
+        "verifiedOn": "2026-08-11"
+      },
+      "tr-scorm": {
+        "support": "Unknown",
+        "note": "Not documented on the page reviewed.",
+        "source": "https://www.learnie.app/",
+        "verifiedOn": "2026-08-11"
+      },
+      "tr-authoring": {
+        "support": "Yes",
+        "note": "Core product — AI lesson generation from URLs or documents, plus in-app video capture.",
+        "source": "https://www.learnie.app/",
+        "verifiedOn": "2026-08-11"
+      },
+      "tr-mobile": {
+        "support": "Partial",
+        "note": "Web and mobile app aimed at deskless and frontline employees; offline access is not documented.",
+        "source": "https://www.learnie.app/",
+        "verifiedOn": "2026-08-11"
+      },
+      "tr-bilingual": {
+        "support": "Unknown",
+        "note": "Not documented on the page reviewed.",
+        "source": "https://www.learnie.app/",
+        "verifiedOn": "2026-08-11"
+      },
+      "tr-pms-integration": {
+        "support": "Unknown",
+        "note": "No property management system integration is named.",
+        "source": "https://www.learnie.app/",
+        "verifiedOn": "2026-08-11"
+      },
+      "tr-hris-integration": {
+        "support": "Unknown",
+        "note": "Not documented on the page reviewed.",
+        "source": "https://www.learnie.app/",
+        "verifiedOn": "2026-08-11"
+      },
+      "tr-benchmarking": {
+        "support": "Unknown",
+        "note": "Not documented.",
+        "source": "https://www.learnie.app/",
+        "verifiedOn": "2026-08-11"
+      }
+    },
+    "health": {
+      "lastFullReview": "2026-08-11",
+      "confidence": "Medium",
+      "owner": null,
+      "autoUpdated": true,
+      "pendingReview": []
+    },
+    "news": [],
+    "sources": [
+      {
+        "title": "Learnie — homepage",
+        "url": "https://www.learnie.app/",
+        "retrievedOn": "2026-08-11"
+      }
+    ],
+    "stackLayer": {
+      "number": 4,
+      "name": "People and Workforce",
+      "note": "Reaches multifamily through the people and workforce stack — often already on an HR contract."
+    },
+    "whenItComesUp": {
+      "why": "User-generated microlearning video. It's bought for culture and peer knowledge sharing, not to satisfy a compliance requirement.",
+      "say": "Learnie's a peer-to-peer video thing — teams recording tips for each other. Honestly it's a decent culture tool. It just isn't what you'd point a regulator at.",
+      "avoid": "Don't position it as a failed LMS. It isn't trying to be one.",
+      "redirect": "Is this about people sharing what works, or about proving what they were required to know?"
+    },
+    "spiced": [
+      {
+        "letter": "S",
+        "stage": "Situation",
+        "listenFor": "They name Learnie Community Microlearning, MyLearnie, or describe microlearning app built on user-generated video already in place.",
+        "ask": "Would you hand a peer-recorded video to a regulator as evidence of fair housing training?"
+      },
+      {
+        "letter": "P",
+        "stage": "Pain",
+        "listenFor": "Learnie's content model is knowledge captured from the customer's own team plus AI generation from customer material; no vendor-authored regulated content library is published.",
+        "ask": "Who reviews team-generated content before it is published to everyone?"
+      },
+      {
+        "letter": "I",
+        "stage": "Impact",
+        "listenFor": "Whether the gap costs them money, time or exposure — or is just an annoyance.",
+        "ask": "If that stayed exactly as it is for another year, what does it cost you?"
+      },
+      {
+        "letter": "CE",
+        "stage": "Critical Event",
+        "listenFor": "A renewal date on the Learnie contract, an audit, an acquisition, or new leadership asking what the data shows.",
+        "ask": "When does the Learnie agreement come up, and what has to be decided before then?"
+      },
+      {
+        "letter": "D",
+        "stage": "Decision Process",
+        "listenFor": "Whether Learnie sits on someone else's budget line — that changes who has to agree.",
+        "ask": "Who else has to be comfortable with this, and what do they need to see?"
+      }
+    ],
+    "play": "Not our fight",
+    "status": {
+      "value": "retired",
+      "decidedOn": "2026-09-21",
+      "decidedBy": "Mandy Gifford",
+      "reason": "Nothing announced or changed on learnie.app since October 2025; not a compliance-training substitute to begin with.",
+      "reactivateIf": "Learnie ships compliance/fair-housing content or is named in a live deal."
+    }
+  }
+]
