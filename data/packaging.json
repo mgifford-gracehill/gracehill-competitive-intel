@@ -1,12 +1,12 @@
 {
-  "status": "DECIDED — names, packages and prices are finalized per the \"Grace Hill GTM Messaging Framework (Pilot Final)\" deck, September 2026: Team Performance and Property Performance are the customer-facing track names (this corrects the Sept 29 update, which had used \"Leasing & Resident Experience\" from an earlier Pilot WIP draft of this same deck — the Final deck explicitly retires that label along with Workforce Excellence, Resident & Prospect Experience, Resident & Prospect Satisfaction, Sentiment Core, Leasing Core and Platform Plus; see namingFinal below). Feedback & Reputation and Virtual Leasing remain the Property Performance tier names. The data & intelligence layer is PerformanceHQ (the foundation, included in every package) with PerformanceHQ Plus as the paid upgrade (+$0.59/unit/month) — not \"PerformanceHQ Pro.\" Underlying structure and list pricing are unchanged from the Sept 16 recommendation. Per the Final deck: names, packages and prices are decided; the words used to sell them are still being tested in the pilot. Pilot launched this week (week of Oct 5, 2026) — live, not yet broadly rolled out — per Mandy (Sept 30), it's specifically the new pricing/packaging references (the track/tier names and prices) that should stay low-key until the pilot concludes, not the rest of the Products & Packages tab, which can be shown normally.",
+  "status": "DECIDED — the naming reversed again. Per the “Grace Hill GTM Messaging Framework, October 2026” deck (file name ends ‘_3’, suggesting at least a third iteration), the customer-facing names revert to the original RML names: Workforce Excellence (Track 1) and Resident & Prospect Experience (Track 2), with Sentiment Core / Leasing Core / Plus as the Track 2 tiers, and PHQ Platform Core / PHQ Platform Plus as the data & intelligence layer. The October deck explicitly retires the names this file used from Sept 30 — Team Performance, Property Performance, Feedback & Reputation, Virtual Leasing, and PerformanceHQ Plus — calling them out by name as retired ‘working names.’ Underlying structure and list pricing are unchanged across all three naming iterations (Aug 2026 RML recommendation → Sept 29 WIP rename → Sept 30 Final-deck rename → this Oct reversal back to RML names). The core sell-it framing also shifted: “Know what matters. Act on it. Prove it worked.” is now “Know what matters. Act on it. See what changed.” — see corePitch. Names, packages and prices are decided as of this deck; the exact words are still being sharpened in the pilot (live since Oct 5, 2026). IMPORTANT: this is the third naming change in eight days — anything built from an earlier naming pass (demo scripts, Storylane captures, decks, emails) needs to be rechecked against namingFinal below before it goes out.",
   "asOf": "2026-10-05",
-  "source": "Revenue Management Labs, \"Pricing and Packaging Recommendations — Enablement Discussion,\" Sept 2026, plus the Sept 16 GTM pricing/packaging working session; naming, messaging and pilot plan finalized per the \"Grace Hill GTM Messaging Framework (Pilot Final)\" deck, September 2026 — supersedes the same deck's earlier Pilot WIP draft on track naming (see namingFinal and packagingHistory).",
-  "summary": "Today, Grace Hill's point solutions (Training, Surveys, Policies, Mystery Shopping, Reputation Management, Intelligence+, Realync, HelloData®) are each priced and packaged on their own, with no shared PerformanceHQ commercial structure. Result: no ready-to-go package puts related solutions together, ~79% of GH-Success and ~50% of Mid-Market/Enterprise customers buy only one product, and there's no clear expansion path. The new structure organizes around the two workflows buyers actually own — Team Performance (L&D/Ops) and Property Performance (Marketing) — with PerformanceHQ as the connective data & intelligence layer across both, included as the foundation of every package, and a standardized per-unit commercial model. It is a three-decision purchase: (1) pick your workflow track(s), (2) pick your data & intelligence tier — PerformanceHQ (foundation, included) or PerformanceHQ Plus (+$0.59/unit/month upgrade), (3) add add-ons as needed. The Final deck's one-line version: know what matters, act on it, prove it worked — because keeping a resident protects NOI (a move-out costs about $3,872 to turn the unit, plus lost rent), and most tools show what happened without saying what to do next.",
+  "source": "Revenue Management Labs, “Pricing and Packaging Recommendations — Enablement Discussion,” Sept 2026, plus the Sept 16 GTM pricing/packaging working session; naming reverted to the original RML names per “Grace Hill GTM Messaging Framework, October 2026” (v3) — supersedes the Sept 30 update's naming (Team Performance / Property Performance / PerformanceHQ Plus), which itself had superseded the Sept 29 rename. See namingFinal and packagingHistory for the full chain.",
+  "summary": "Today, Grace Hill's point solutions (Training, Surveys, Policies, Mystery Shopping, Reputation Management, Intelligence+, Realync, HelloData®) are each priced and packaged on their own, with no shared PHQ commercial structure. Result: no ready-to-go package puts related solutions together, ~79% of GH-Success and ~50% of Mid-Market/Enterprise customers buy only one product, and there's no clear expansion path. The new structure organizes around the two workflows buyers actually own — Workforce Excellence (L&D/Ops) and Resident & Prospect Experience (Marketing) — with PHQ Platform Core as the included data & intelligence foundation across both, and a standardized per-unit commercial model. It is a three-decision purchase: (1) pick your workflow track(s), (2) pick your data & intelligence tier — PHQ Platform Core (foundation, included) or PHQ Platform Plus (+$0.59/unit/month upgrade), (3) add add-ons as needed. The October deck's one-line version: know what matters, act on it, see what changed — because NOI pressure never stops, and seeing where performance falls short is not the same as knowing how to improve it.",
   "buyerGroups": [
     {
       "group": "L&D / Operations",
-      "owns": "Team Performance track",
+      "owns": "Workforce Excellence track",
       "question": "How do we onboard and develop employees, manage compliance and policy requirements, and assess/improve on-site performance?",
       "products": [
         "Training",
@@ -16,7 +16,7 @@
     },
     {
       "group": "Marketing",
-      "owns": "Property Performance track",
+      "owns": "Resident & Prospect Experience track",
       "question": "How do we understand resident and prospect sentiment, strengthen reputation and attract prospects, and improve leasing engagement and conversion?",
       "products": [
         "Surveys",
@@ -26,7 +26,7 @@
     },
     {
       "group": "Shared across both buyers",
-      "owns": "Data & Intelligence layer (PerformanceHQ)",
+      "owns": "Data & Intelligence layer (PHQ Platform)",
       "question": "How do we benchmark market performance and competitive position?",
       "products": [
         "HelloData®"
@@ -34,17 +34,17 @@
     }
   ],
   "speakToTheLevel": {
-    "note": "New in the Final deck — same story, different level of detail depending on who's in the room. Use to tailor the open of a conversation, not as six separate pitches.",
+    "note": "Per the October deck — same story, different level of detail depending on who's in the room. Use to tailor the open of a conversation, not as six separate pitches.",
     "audiences": [
       {
         "audience": "Owners & Executives",
         "caresAbout": "NOI, asset value, consistency.",
-        "leadWith": "Keeping residents protects NOI and revenue."
+        "leadWith": "Knowing what needs attention, acting on it and seeing what changed."
       },
       {
         "audience": "Operations Leaders",
         "caresAbout": "What needs attention first, and why.",
-        "leadWith": "Where to focus, what to do, proof it worked."
+        "leadWith": "Where to focus, what to do next, and what changed."
       },
       {
         "audience": "Training, HR & Operations",
@@ -72,7 +72,7 @@
     {
       "guideline": "Buyer-aligned entry points",
       "why": "No single buyer owns the full Grace Hill portfolio; needs and budgets sit across distinct functional teams.",
-      "response": "Organize around the workflows buyers already own — Team Performance for L&D/Ops, Property Performance for Marketing."
+      "response": "Organize around the workflows buyers already own — Workforce Excellence for L&D/Ops, Resident & Prospect Experience for Marketing."
     },
     {
       "guideline": "Focused entry, clear expansion",
@@ -82,7 +82,7 @@
     {
       "guideline": "Data & Intelligence as the connective layer",
       "why": "Connected data, cross-product insights and AI are increasingly important sources of platform value.",
-      "response": "Connect workflows through PerformanceHQ, the shared intelligence layer — PerformanceHQ is the foundation in every package, PerformanceHQ Plus for deeper intelligence and integration."
+      "response": "Connect workflows through PHQ Platform Core, the shared intelligence layer in every package — PHQ Platform Plus for deeper intelligence and integration."
     },
     {
       "guideline": "Simpler commercial model",
@@ -94,46 +94,55 @@
     "step": "1 of 3 — choose your workflow track(s). Everything priced per unit per month unless noted; additional mystery shops priced per shop.",
     "tracks": [
       {
-        "track": "Team Performance",
+        "track": "Workforce Excellence",
         "buyer": "L&D / Ops",
-        "outcomeFraming": "People performance: teams ready on day one and improving every day after, so residents get service worth renewing for.",
+        "outcomeFraming": "Build the team behind a consistent experience: know what needs attention, act on it, see what changed.",
         "tiers": [
           {
             "tier": "Compliance",
             "price": "$0.79 / unit / month",
-            "outcome": "One clear standard, with proof on demand — reduce risk with one clear standard.",
+            "outcome": "Keep employees current on the rules that carry risk, with proof when it is needed. Economic result: reduce avoidable compliance exposure.",
+            "problemItSolves": "Training and policies vary, and there is no quick proof when an auditor or attorney asks.",
+            "usuallyAFitFor": "Operators focused on keeping teams compliant and policies current. The step-down when Core is more than needed.",
             "includes": [
-              "Essential compliance courses & related microlearning",
-              "4 core policy modules: Emergency, Management & Operations, Maintenance, Leasing & Marketing",
-              "Risk management",
-              "Policy collaboration & acknowledgments",
-              "Instructor-led and virtual classroom training"
-            ]
+              "Essential compliance courses and microlearning",
+              "Live and virtual classroom training",
+              "Risk management training",
+              "4 core policy manuals: emergency, maintenance, leasing and marketing, management and operations",
+              "Policy collaboration and employee sign-offs"
+            ],
+            "customizeWith": "Specialty manuals (tax credit, student housing, commercial, construction, accounting) · employee handbook · leadership and tax credit training"
           },
           {
             "tier": "Core",
             "price": "$1.39 / unit / month",
-            "outcome": "Day-one ready, better every month — recommended start.",
+            "outcome": "Get new hires ready faster, then verify that training shows up on site. Economic result: faster ramp and more consistent service reduce the disruption caused by turnover.",
+            "problemItSolves": "Everyone gets trained, but results still vary, and new hires take months to ramp.",
+            "usuallyAFitFor": "Operators going beyond compliance to develop teams and measure day-to-day performance. The default starting point.",
             "includes": [
               "Everything in Compliance",
-              "Extended training access (role-specific courses + full Spark access)",
-              "Onboarding + Pathways",
-              "Safety series",
-              "Two mystery shops a year per property, with follow-up training",
-              "Regional Manager Handbook"
-            ]
+              "Role-based courses and the full course library",
+              "Onboarding and learning pathways",
+              "Safety series, plus maintenance, resident experience, reputation and data security training",
+              "Regional Manager Handbook",
+              "2 mystery shops a year (onsite and phone) with follow-up training"
+            ],
+            "customizeWith": "Richer shop types · extra shops on demand · leadership development"
           },
           {
             "tier": "Plus",
             "price": "$1.79 / unit / month",
-            "outcome": "Keep every team improving, every quarter.",
+            "outcome": "Catch performance and engagement gaps earlier, before they become service or staffing problems. Economic result: more consistent service and fewer avoidable replacement costs.",
+            "problemItSolves": "Twice a year is not enough to catch slipping service, and employee engagement is a blind spot.",
+            "usuallyAFitFor": "Operators needing more frequent measurement, employee feedback, or content built to their own standards.",
             "includes": [
               "Everything in Core",
-              "A mystery shop every quarter, with follow-up training",
-              "Employee Engagement Survey",
-              "Capture Wizard (build your own courses)",
-              "Policy modules: custom manual capability"
-            ]
+              "4 mystery shops a year with follow-up training",
+              "Employee engagement survey",
+              "Custom content built to the operator's standards",
+              "Custom policy manuals"
+            ],
+            "customizeWith": "Richer shop types · 2x-quarterly or monthly shops (Plus only) · employee results presentation"
           }
         ],
         "underlyingProducts": [
@@ -144,41 +153,50 @@
         ]
       },
       {
-        "track": "Property Performance",
+        "track": "Resident & Prospect Experience",
         "buyer": "Marketing",
-        "outcomeFraming": "Property performance: see the whole resident story, from first tour to renewal, so more residents stay and units fill faster.",
+        "outcomeFraming": "Improve the experience from tour through renewal: know what needs attention, act on it, see what changed.",
         "tiers": [
           {
-            "tier": "Feedback & Reputation (entry point A — recommended start)",
+            "tier": "Sentiment Core (recommended start)",
             "price": "$0.79 / unit / month",
-            "outcome": "Know who's unhappy before renewal.",
+            "outcome": "Hear resident concerns while there is still time to act. Economic result: support renewals and avoid preventable turns.",
+            "problemItSolves": "Renewal rates drop, the reason shows up at move-out, and reviews go unanswered.",
+            "usuallyAFitFor": "Operators focused on resident sentiment, reputation and renewals. The default starting point.",
             "includes": [
-              "Resident and prospect surveys (SKU: MTM Multifamily Essentials) sent automatically from the property system, + Kingsley Index benchmarking",
-              "Ad-hoc survey",
+              "Resident and prospect surveys at key moments (SKU: MTM Multifamily Essentials) + Kingsley Index benchmarking",
               "Text message survey delivery",
-              "Reputation Management — Essentials, with every review in one place and unanswered ones flagged"
-            ]
+              "Ad-hoc surveys",
+              "Review management essentials",
+              "Resident satisfaction benchmarks"
+            ],
+            "customizeWith": "Survey customization and translation · results presentation · custom resident data integration · advanced review and listings management"
           },
           {
-            "tier": "Virtual Leasing (entry point B — for communities with empty units)",
+            "tier": "Leasing Core",
             "price": "$1.19 / unit / month",
-            "outcome": "More tours. Same team.",
+            "outcome": "Give more prospects a way to tour and engage without adding leasing staff. Economic result: more opportunities to lease and fewer vacant days lost waiting for a tour.",
+            "problemItSolves": "Occupancy trails the market, and the leasing team cannot reach every prospect.",
+            "usuallyAFitFor": "Operators focused on virtual engagement, leasing reach and conversion.",
             "includes": [
-              "Realync Core: hosting + general sharing + integrations + analytics + video recording/editing + tracked sharing + live video tour",
-              "Prospects tour the actual unit any time; live video tours with the leasing team from anywhere",
-              "Track which prospects watched, and follow up while interest is high"
-            ]
+              "Realync video tour recording and editing",
+              "Live video tours with the leasing team",
+              "Publishing and integrations",
+              "Tracked sharing and view analytics"
+            ],
+            "customizeWith": "360-degree tours · guided video journeys · professional video production"
           },
           {
-            "tier": "Plus (both together)",
+            "tier": "Plus",
             "price": "$1.79 / unit / month",
-            "outcome": "See the whole resident story, from first tour to renewal.",
+            "outcome": "See where the experience breaks from first tour through renewal, then act on the right step. Economic result: support stronger conversion, retention and occupancy.",
+            "problemItSolves": "Leasing and resident feedback tell different stories, and ownership wants one answer.",
+            "usuallyAFitFor": "Operators with real needs across both resident sentiment and leasing.",
             "includes": [
-              "Includes both entry points — Feedback & Reputation and Virtual Leasing",
-              "Leasing and resident feedback side by side, so you can see where things go wrong: the tour, move-in or renewal",
-              "Extended survey benchmarks by class & market (roadmap feature, not yet shipped)",
-              "Add-on: Review Pro"
-            ]
+              "Everything in Sentiment Core and Leasing Core, for less than buying both",
+              "Extended survey benchmarks by class and market (roadmap feature, not yet shipped)"
+            ],
+            "customizeWith": "Advanced review management · 360-degree tours · guided video journeys"
           }
         ],
         "underlyingProducts": [
@@ -186,49 +204,49 @@
           "Reputation Management",
           "Realync"
         ],
-        "note": "Feedback & Reputation and Virtual Leasing are two distinct entry points for two distinct needs — they don't build on each other. A customer who only wants Realync buys Virtual Leasing, not a step on the way to Feedback & Reputation. Plus is the option that bundles both."
+        "note": "Sentiment Core and Leasing Core are two distinct entry points for two distinct needs — they don't build on each other. A customer who only wants Realync buys Leasing Core, not a step on the way to Sentiment Core. Plus is the option that bundles both, for less than buying both separately."
       }
     ]
   },
   "dataIntelligenceLayer": {
-    "step": "2 of 3 — choose your data & intelligence tier. PerformanceHQ is the foundation, included with every track purchase; PerformanceHQ Plus is the upgrade. Not sold standalone to PHQ buyers.",
+    "step": "2 of 3 — choose your data & intelligence tier. PHQ Platform Core is the foundation, included with every track purchase; PHQ Platform Plus is the upgrade. Not sold standalone to PHQ buyers.",
     "tiers": [
       {
-        "tier": "PerformanceHQ",
+        "tier": "PHQ Platform Core",
         "price": "Included — the foundation, in every package",
-        "outcome": "What needs attention, what to do, and whether it worked — no finding sits in a separate report.",
+        "outcome": "Know what needs attention and what to do next.",
+        "problemItSolves": "Results live in separate tools, and operators can't tell what to act on first.",
+        "usuallyAFitFor": "Every customer. It comes with every package.",
         "includes": [
-          "Standard dashboards",
-          "SSO",
-          "Integrations",
-          "Ask Gracie™ AI",
-          "Cross-product reporting",
-          "Intelligence+",
-          "Connected data, benchmarks, guided action and proof of impact",
-          "HelloData® Lite (limited locations + limited comps + limited KPIs)"
-        ]
+          "Dashboards and cross-product reporting",
+          "Plain-language answers from the operator's own data",
+          "AI action plans: the next step for each finding",
+          "SSO and integrations",
+          "HelloData® Lite: market data for a limited set of locations, comps and KPIs"
+        ],
+        "customizeWith": "Data feeds (SFTP) as a one-time setup"
       },
       {
-        "tier": "PerformanceHQ Plus",
+        "tier": "PHQ Platform Plus",
         "price": "+$0.59 / unit / month upgrade",
-        "outcome": "Every decision made with the full picture.",
+        "outcome": "Make pricing and portfolio decisions with the full market picture, and bring Grace Hill data into the tools where those decisions happen.",
+        "problemItSolves": "Market data covers only a sample, and Grace Hill data sits outside the BI and AI tools teams use.",
+        "usuallyAFitFor": "Operators who have seen HelloData Lite and want the full market view, or who run their own BI and AI tools.",
         "includes": [
-          "Everything in PerformanceHQ",
-          "Full market comps behind every pricing and investment call",
-          "Grace Hill data joined with property, leasing and financial data",
-          "APIs and an MCP connector for AI assistants",
-          "Partner integrations and data feeds",
-          "Answers in the systems and AI tools teams already use",
-          "HelloData® Complete"
-        ]
+          "Everything in PHQ Platform Core",
+          "HelloData® Complete: full comp sets and KPIs for every location",
+          "API connectors to Grace Hill data",
+          "MCP connector for AI assistants"
+        ],
+        "customizeWith": "Data feeds (SFTP) as a one-time setup"
       }
     ],
-    "note": "A $0.20/unit PerformanceHQ (foundation) price is embedded in every track's list price; it is netted out for customers buying across tracks to avoid double-counting. HelloData® also continues to exist as its own standalone purchase for 'HelloData® purists' (e.g., banks, investment institutions doing acquisition diligence) who explicitly do not want the PerformanceHQ platform — that entry point is not going away; the Final deck's own line is \"Market data only? HelloData is also sold standalone.\""
+    "note": "A $0.20/unit PHQ Platform Core price is embedded in every track's list price; it is netted out for customers buying across tracks to avoid double-counting. HelloData® also continues to exist as its own standalone purchase for 'HelloData® purists' (e.g., banks, investment institutions doing acquisition diligence) who explicitly do not want the PHQ platform — that entry point is not going away."
   },
   "addOns": {
-    "step": "3 of 3 — add-ons, sold outside the tier structure. Per the Final deck: more mystery shops, policy and training modules, custom content, survey services, Review Pro, and 360 tours.",
-    "note": "Existing implementation fees and niche-use-case add-ons (custom implementation, FTP feed, commercial/construction/tax-credit courses and manuals, CRE manual, employee results presentations, survey customization, custom resident data integration, survey translation) remain priced and structured as-is — no changes recommended. Realync add-on pricing (Real360, Realync Journeys, Realync Studios) has moved to a per-unit basis.",
-    "mysteryShopFlexibility": "Default included shop is Onsite (Non-Recorded) + Phone (Recorded/Non-Recorded), at semi-annual frequency in Core and quarterly in Plus. Customers can swap shop type (e.g., add Internet, upgrade to Audio or Video recording) at their included frequency without changing tier. Increasing frequency beyond what's included (e.g., twice-a-quarter, monthly) requires being on Plus — frequency upgrades don't create a back-door path around the Core→Plus decision. Customers can also always buy additional on-demand/a-la-carte shops above what's in the package."
+    "step": "3 of 3 — add-ons, sold outside the tier structure, tailored to how the business runs. See each tier's customizeWith field above for what's available at that level.",
+    "note": "Existing implementation fees and niche-use-case add-ons (custom implementation, FTP feed, commercial/construction/tax-credit courses and manuals, CRE manual, employee results presentations, survey customization, custom resident data integration, survey translation) remain priced and structured as-is — no changes recommended. Realync add-on pricing (360-degree tours, guided video journeys, professional video production) has moved to a per-unit basis.",
+    "mysteryShopFlexibility": "Default included shop is Onsite (Non-Recorded) + Phone (Recorded/Non-Recorded), at twice-a-year frequency in Core and quarterly (4x/year) in Plus. Customers can swap shop type (e.g., add Internet, upgrade to Audio or Video recording) at their included frequency without changing tier. Increasing frequency beyond what's included (2x-quarterly or monthly) requires being on Plus — frequency upgrades don't create a back-door path around the Core→Plus decision. Customers can also always buy additional on-demand/a-la-carte shops above what's in the package."
   },
   "priceSheetExamples": {
     "note": "Marginal $/unit/month rates at list; blended customer pricing applies volume tiers across the unit count. Representative scenarios, not a quote — Salesforce pricing books remain the source of truth for an actual deal.",
@@ -240,33 +258,33 @@
     },
     "scenarios": [
       {
-        "shape": "Single track — Team Performance Compliance only",
+        "shape": "Single track — Workforce Excellence Compliance only",
         "listPrice": "$0.79/unit/mo"
       },
       {
-        "shape": "Single track — Property Performance Feedback & Reputation only",
+        "shape": "Single track — Resident & Prospect Experience Sentiment Core only",
         "listPrice": "$0.79/unit/mo"
       },
       {
-        "shape": "Single track — Team Performance Core",
+        "shape": "Single track — Workforce Excellence Core",
         "listPrice": "$1.39/unit/mo"
       },
       {
-        "shape": "Single track — Team Performance or Property Performance Plus",
-        "listPrice": "$2.38/unit/mo (tier Plus $1.79 + PerformanceHQ Plus $0.59)"
+        "shape": "Single track — Workforce Excellence or Resident & Prospect Experience Plus",
+        "listPrice": "$2.38/unit/mo (tier Plus $1.79 + PHQ Platform Plus $0.59)"
       },
       {
-        "shape": "Cross-track — Team Performance Compliance + Property Performance Feedback & Reputation",
+        "shape": "Cross-track — Workforce Excellence Compliance + Resident & Prospect Experience Sentiment Core",
         "listPrice": "$1.38/unit/mo before cross-track discount",
         "discount": "8% cross-track stacking discount applies → $1.27/unit/mo at list volume"
       },
       {
-        "shape": "Cross-track — Team Performance Core + Property Performance Virtual Leasing",
+        "shape": "Cross-track — Workforce Excellence Core + Resident & Prospect Experience Leasing Core",
         "listPrice": "$2.38/unit/mo before discount",
         "discount": "8% → $2.19/unit/mo"
       },
       {
-        "shape": "Power user — Plus + Plus + PerformanceHQ Plus (everything)",
+        "shape": "Power user — Plus + Plus + PHQ Platform Plus (everything)",
         "listPrice": "$3.97/unit/mo before discount",
         "discount": "10% power-user discount → $3.57/unit/mo at list volume"
       }
@@ -286,7 +304,7 @@
     {
       "lever": "Multi-year discount",
       "how": "Discount tied to contract length.",
-      "recommended": "Proposed in the Sept 16 working session as a new 10% discount for 3+ year terms, standard annual price increases still apply. CONTESTED IN THE ROOM (Sept 16): Sales leadership (Ashlee Horn) pushed back hard on making a multi-year discount standard — 56% of this quarter's contracts sold multi-year with no discount offered, and giving away margin by default risks eating into deal size given packages are already bundled/discounted. RML (Navi) agreed to take it offline and revisit an alternative: 3-year term as the standard list price, with a modest premium for a more flexible 1- or 2-year term, rather than a discount for going long. The Final deck (Sept 2026) does not resolve this — it covers naming, packaging and the pilot plan, not discount mechanics. Do not present the 10%-for-3-years figure as settled until this is resolved."
+      "recommended": "Proposed in the Sept 16 working session as a new 10% discount for 3+ year terms, standard annual price increases still apply. CONTESTED IN THE ROOM (Sept 16): Sales leadership (Ashlee Horn) pushed back hard on making a multi-year discount standard — 56% of this quarter's contracts sold multi-year with no discount offered, and giving away margin by default risks eating into deal size given packages are already bundled/discounted. RML (Navi) agreed to take it offline and revisit an alternative: 3-year term as the standard list price, with a modest premium for a more flexible 1- or 2-year term, rather than a discount for going long. Neither the Sept 30 nor the October messaging deck resolves this — they cover naming, packaging and the pilot plan, not discount mechanics. Do not present the 10%-for-3-years figure as settled until this is resolved."
     },
     {
       "lever": "Discretionary discount",
@@ -295,19 +313,19 @@
     }
   ],
   "buyerMatchFramework": {
-    "purpose": "Standard workflow for matching a new customer to a package. This is a decision the sales rep makes for the customer, not a menu the customer picks from — use it to guide the conversation, not to read off as a script.",
+    "purpose": "Standard workflow for matching a new customer to a package. This is a decision the sales rep makes for the customer, not a menu the customer picks from — use it to guide the conversation, not to read off as a script. The October deck's own version of this is the matchNeedToPackage table below — lead with that in a customer conversation.",
     "matchTheNeed": [
       {
         "q": "Q1. Who is the primary buyer?",
-        "branches": "L&D/HR/Ops → Team Performance track. Marketing → Property Performance track."
+        "branches": "L&D/HR/Ops → Workforce Excellence track. Marketing → Resident & Prospect Experience track."
       },
       {
         "q": "Q2. What's the primary need within that track?",
-        "branches": "Team Performance: Compliance need → Compliance tier. Broader team-performance need → Core/Plus path. Property Performance: Sentiment/retention need → Feedback & Reputation. Leasing/occupancy need → Virtual Leasing. Both → Plus path."
+        "branches": "Workforce Excellence: Compliance need → Compliance tier. Broader team-performance need → Core/Plus path. Resident & Prospect Experience: Sentiment/retention need → Sentiment Core. Leasing/occupancy need → Leasing Core. Both → Plus path."
       },
       {
         "q": "Q3. Does the buyer need advanced HelloData® / integration?",
-        "branches": "No → PerformanceHQ (foundation). Yes → PerformanceHQ Plus."
+        "branches": "No → PHQ Platform Core. Yes → PHQ Platform Plus."
       }
     ],
     "configureThePackage": [
@@ -324,61 +342,100 @@
         "drives": "May qualify for a discretionary discount"
       }
     ],
-    "problemFirstNote": "Ashlee Horn flagged in the Sept 16 working session that this buyer-first / persona-first framing reads as a step back from the problem-based selling motion the team has spent Q1–Q2 training reps on, and that it doesn't sound like how the sales team talks to customers today. Mandy agreed and proposed reframing: instead of opening with “who's the buyer,” open with the outcome the buyer cares about — people performance outcomes (Team Performance) versus property performance outcomes (Property Performance) — and let the buyer-match questions above sit underneath that framing as the configuration logic, not the opening pitch. The Final deck's discoveryQuestions and talkTrack (below) are the finished version of that reframe — lead with those in a customer conversation, not with this six-question table."
+    "problemFirstNote": "Ashlee Horn flagged in the Sept 16 working session that this buyer-first / persona-first framing reads as a step back from the problem-based selling motion the team has spent Q1–Q2 training reps on, and that it doesn't sound like how the sales team talks to customers today. Mandy agreed and proposed reframing: instead of opening with “who's the buyer,” open with the outcome the buyer cares about, and let the buyer-match questions above sit underneath that framing as the configuration logic, not the opening pitch. The talkTrack and discoveryQuestions below are the finished version of that reframe — lead with those in a customer conversation, not with this six-question table."
+  },
+  "matchNeedToPackage": {
+    "note": "October deck, slide 24 — “start with the result. The package follows.”",
+    "rows": [
+      {
+        "need": "Keep teams current and prove compliance",
+        "startWith": "Compliance"
+      },
+      {
+        "need": "Get new hires ready and verify performance",
+        "startWith": "Workforce Excellence Core"
+      },
+      {
+        "need": "Catch performance and engagement gaps earlier",
+        "startWith": "Workforce Excellence Plus"
+      },
+      {
+        "need": "Hear resident concerns while there is time to act",
+        "startWith": "Sentiment Core"
+      },
+      {
+        "need": "Reach more prospects",
+        "startWith": "Leasing Core"
+      },
+      {
+        "need": "Understand the experience from tour through renewal",
+        "startWith": "Resident & Prospect Experience Plus"
+      },
+      {
+        "need": "Need full market context or connected data",
+        "startWith": "PHQ Platform Plus"
+      },
+      {
+        "need": "Need something specialized",
+        "startWith": "Add-on"
+      }
+    ],
+    "closingNote": "PHQ Platform Core is included in every package. Add the other track when both sides of the experience matter."
   },
   "corePitch": {
-    "source": "Final deck, slide 2 — \"the whole pitch in four lines.\"",
-    "pressure": "Keeping residents protects NOI and revenue. Every move-out costs lost rent plus about $3,872 to turn the unit — it's operators' #1 outcome.",
-    "whatKeepsThem": "Residents stay because of the experience: how the team treats residents, and how well the property works.",
-    "theProblem": "Most tools show what happened, not what to do next. Operators see renewals and review scores drop, but not why, or what to do.",
-    "whatGraceHillDoes": "Know what matters. Act on it. Prove it worked.",
-    "knowActProve": [
+    "source": "October 2026 messaging deck, slide 2 — “the Grace Hill pitch, on one page.” Replaces the Sept 30 version's “Prove it worked” framing with “See what changed.”",
+    "theProblem": "NOI pressure never stops. Seeing where performance falls short is not the same as knowing how to improve it. Operators have plenty of data. The harder part is knowing what matters, what to do next and what changed.",
+    "forWhom": "Multifamily owners and operators. Mid-market and enterprise.",
+    "whyGraceHill": "Grace Hill connects experience, performance and the market. PerformanceHQ brings together feedback, team and property performance, 30+ years of benchmarks and market context, then connects findings to action.",
+    "whyNow": "Teams are being asked to improve more with fewer resources. Another report is not enough.",
+    "whatGraceHillDoes": "Know what matters. Act on it. See what changed. Surface the priority. Recommend the next step. Get action to the right person. See how performance moves.",
+    "knowActSee": [
       {
         "step": "Know",
         "what": "Know what matters.",
-        "detail": "See how teams perform, what residents say and how the property compares, so teams work on what matters most first."
+        "detail": "Feedback, team and property performance, benchmarks and market context show where attention is needed."
       },
       {
         "step": "Act",
         "what": "Act on it.",
-        "detail": "Every finding comes with a next step: the training to assign, the coaching to give, the repair to make."
+        "detail": "Recommend the training, policy, coaching, service or leasing action and get it to the person who can act."
       },
       {
-        "step": "Prove",
-        "what": "Prove it worked.",
-        "detail": "See whether renewals, move-outs and staff turnover changed. Then repeat what worked."
+        "step": "See",
+        "what": "See what changed.",
+        "detail": "Measure again, compare performance and decide what deserves attention next."
       }
     ],
-    "whyGraceHillCanDoIt": "It sees what others see in pieces: training and policies, mystery shops, employee and resident surveys, reviews and virtual tours, market data, and 30+ years of benchmarks — connected under PerformanceHQ, instead of scattered across separate tools that each show what happened."
+    "whyGraceHillCanDoIt": "It sees what others see in pieces: resident and employee feedback, mystery shops, property performance, 30+ years of benchmarks, and HelloData market and competitive context — connected under PerformanceHQ, instead of scattered across separate tools (training completion, survey scores, review ratings, leasing results, operational data, market comps, spreadsheets) that each show only part of the picture."
   },
   "problemFirstMessaging": {
     "howToUse": "Outside-in, VBF order (Value → Benefit → Feature) per Grace Hill's messaging framework: open with the problem/outcome the buyer already cares about, then the benefit, then how Grace Hill delivers it — the package and its features come last, as the mechanism, not the headline. corePitch above is the master four-line version of this; the per-track detail below is the expanded version for each buyer.",
     "tracks": [
       {
-        "track": "Team Performance",
+        "track": "Workforce Excellence",
         "problem": "Your team's execution is inconsistent from property to property, compliance risk sits on whoever happens to be on shift, and you can't tell whether that's a training gap, a policy gap, or a people problem until something has already gone wrong.",
-        "outcome": "People performance: every employee, at every property, working to the same standard — fewer compliance incidents, faster onboarding, and execution that doesn't depend on your one strong regional manager.",
+        "outcome": "Build the team behind a consistent experience — every employee, at every property, working to the same standard, with the gap caught and closed before residents feel it.",
         "benefit": "You get ahead of the audit or the incident instead of reacting to it, and you can prove — not just hope — that your team is trained, policy-acknowledged, and performing to standard.",
         "howWeDeliverIt": "Training, policies, and mystery shopping working together under PerformanceHQ — industry-specific courseware, policy acknowledgment tracking, and on-site performance verification — packaged as Compliance, Core, or Plus depending on how far past baseline compliance you need to go.",
         "proof": "64% of positive resident reviews mention the onsite team; one new hire costs about $4,700; 500,000+ multifamily professionals trained at 2,800+ companies."
       },
       {
-        "track": "Property Performance",
+        "track": "Resident & Prospect Experience",
         "problem": "You don't have a reliable read on how residents and prospects actually feel about your properties until they leave a bad review, don't renew, or don't tour — and by then it's too late to do anything but react.",
-        "outcome": "Property performance: leasing and retention that improve because you catch sentiment and friction early — in the resident relationship and in the leasing funnel — instead of finding out from a lost renewal or a 2-star review.",
+        "outcome": "Improve the experience from tour through renewal — catching sentiment and leasing friction early enough to act on it, instead of finding out from a lost renewal or a 2-star review.",
         "benefit": "Fewer surprises at renewal, a reputation that supports (instead of undercuts) your marketing spend, and a leasing experience that converts more of the tours you're already paying for.",
-        "howWeDeliverIt": "Resident and prospect surveys, reputation management, and Realync's leasing video tools working off the same PerformanceHQ data layer — packaged as Feedback & Reputation, Virtual Leasing, or Plus depending on whether the bigger gap is sentiment, conversion, or both.",
+        "howWeDeliverIt": "Resident and prospect surveys, reputation management, and Realync's leasing video tools working off the same PerformanceHQ data layer — packaged as Sentiment Core, Leasing Core, or Plus depending on whether the bigger gap is sentiment, conversion, or both.",
         "proof": "41% of negative reviews during unit turnover are about maintenance; a turn costs about $3,872; up to 20% higher renewal intent than the national average with more than one Grace Hill tool."
       }
     ],
     "sharedLayer": {
       "problem": "You're making decisions about your portfolio without knowing how you stack up against the market — rents, comps, competitive positioning — which means every pricing and positioning call is a guess.",
       "outcome": "Confidence that your people-performance and property-performance decisions are grounded in real market data, not internal signals alone.",
-      "howWeDeliverIt": "HelloData®, included as HelloData® Lite in every PerformanceHQ package and available at full depth (HelloData® Complete) in PerformanceHQ Plus — or standalone for teams (e.g., acquisitions, investment) that only need market data, not the workflow tracks."
+      "howWeDeliverIt": "HelloData®, included as HelloData® Lite in every PHQ Platform Core package and available at full depth (HelloData® Complete) in PHQ Platform Plus — or standalone for teams (e.g., acquisitions, investment) that only need market data, not the workflow tracks."
     }
   },
   "talkTrack": {
-    "note": "Final deck, slide 23 — \"ask first, show second, same words every call.\"",
+    "note": "October 2026 deck, slide 22 — “ask first, show second, same words every call.” Step 4 (Frame) wording changed from the Sept 30 version.",
     "steps": [
       {
         "step": "1. Pressure",
@@ -394,7 +451,7 @@
       },
       {
         "step": "4. Frame",
-        "say": "Most tools tell you what happened. Grace Hill shows you what matters, helps you act on it, and proves it worked."
+        "say": "Grace Hill connects what residents and employees experience, how teams and properties perform, and how each property compares to the market. Then PerformanceHQ helps identify what needs attention, recommends the next action and shows what changed afterward."
       },
       {
         "step": "5. Recommend",
@@ -440,7 +497,7 @@
       "ask": "Is this about the basics, getting everyone consistent, or improving every quarter?"
     },
     {
-      "toFind": "Their tools (PerformanceHQ Plus)",
+      "toFind": "Their tools (PHQ Platform Plus)",
       "ask": "Do you need this inside Grace Hill only, or in your other systems and AI tools?"
     },
     {
@@ -449,8 +506,8 @@
     }
   ],
   "jobsToBeDone": {
-    "note": "Final deck, slides 25–26.",
-    "teamPerformance": [
+    "note": "October 2026 deck, slides 25–26. Several outcome descriptions were reworded from the Sept 30 version — this replaces that content.",
+    "workforceExcellence": [
       {
         "job": "Onboarding",
         "inTheirWords": "When a new employee joins, I need them ready across systems and expectations.",
@@ -460,7 +517,7 @@
       {
         "job": "Compliance",
         "inTheirWords": "When regulations or risks change, I need everyone compliant, and able to prove it.",
-        "outcome": "Fewer claims, and audit answers in minutes",
+        "outcome": "Consistent compliance records and proof available quickly",
         "howGraceHillHelps": "Compliance courses, current policies and a sign-off record (Compliance)"
       },
       {
@@ -472,7 +529,7 @@
       {
         "job": "Skill gaps",
         "inTheirWords": "When team performance varies, I need to find the gap and assign the right training.",
-        "outcome": "Gaps closed before residents feel them",
+        "outcome": "Gaps addressed before residents feel them",
         "howGraceHillHelps": "A missed shop question assigns the matching training (Core, Plus)"
       },
       {
@@ -490,7 +547,7 @@
       {
         "job": "Staff turnover",
         "inTheirWords": "When turnover is high, I need training and development that keeps people.",
-        "outcome": "Lower staff turnover, at about $4,700 per hire avoided",
+        "outcome": "Earlier visibility into engagement and turnover risk",
         "howGraceHillHelps": "Employee surveys show what gets in the way; development paths follow (Plus)"
       },
       {
@@ -500,17 +557,17 @@
         "howGraceHillHelps": "Shop and training baselines for the new team (Core)"
       }
     ],
-    "propertyPerformanceAndPerformanceHQ": [
+    "residentProspectExperienceAndPerformanceHQ": [
       {
         "job": "Retention",
         "inTheirWords": "When resident satisfaction declines, I need the drivers, so I can improve retention.",
-        "outcome": "More renewals, and fewer turns at about $3,872 each",
-        "howGraceHillHelps": "Surveys at move-in, after repairs and before renewal, benchmarked (Feedback & Reputation)"
+        "outcome": "Earlier visibility into renewal risk while there is still time to act",
+        "howGraceHillHelps": "Surveys at move-in, after repairs and before renewal, benchmarked (Sentiment Core)"
       },
       {
         "job": "Repeat issues",
         "inTheirWords": "When feedback shows the same issue, I need to turn it into training.",
-        "outcome": "The issue drops out of the next survey",
+        "outcome": "The next survey shows whether the issue changed",
         "howGraceHillHelps": "Survey themes point to the training to assign (both tracks, in PerformanceHQ)"
       },
       {
@@ -522,37 +579,37 @@
       {
         "job": "Leasing",
         "inTheirWords": "When leasing drops, I need to know why, so I can act fast and protect revenue.",
-        "outcome": "Fewer vacant days, and more tours that turn into leases",
-        "howGraceHillHelps": "Virtual tours with view tracking; shops show leasing-desk gaps (Virtual Leasing, Core)"
+        "outcome": "More prospects can tour, and engagement can be tracked",
+        "howGraceHillHelps": "Virtual tours with view tracking; shops show leasing-desk gaps (Leasing Core, Core)"
       },
       {
         "job": "Consistency",
         "inTheirWords": "When results depend on one person or team, I need a standard that holds.",
         "outcome": "The same experience, whoever is on shift",
-        "howGraceHillHelps": "Standards built into training, then checked by mystery shops (Team Performance)"
+        "howGraceHillHelps": "Standards built into training, then checked by mystery shops (Workforce Excellence)"
       },
       {
         "job": "Investment",
         "inTheirWords": "When results vary, I need to know where to invest to improve NOI.",
-        "outcome": "Capital and coaching spent where they move NOI",
-        "howGraceHillHelps": "Results compared to benchmarks and market comps (PerformanceHQ; full comps in PerformanceHQ Plus)"
+        "outcome": "Investment decisions informed by benchmarks and market context",
+        "howGraceHillHelps": "Results compared to benchmarks and market comps (PerformanceHQ; full comps in PHQ Platform Plus)"
       },
       {
         "job": "Priorities",
         "inTheirWords": "When reviewing feedback, I need clear priorities, so teams work on what moves results.",
-        "outcome": "Team time spent on what moves renewals",
-        "howGraceHillHelps": "PerformanceHQ ranks what needs attention first"
+        "outcome": "Team time spent on what matters most",
+        "howGraceHillHelps": "PerformanceHQ shows what needs attention first"
       },
       {
         "job": "Across tools",
         "inTheirWords": "When looking across tools, I need to see what matters, and act without second-guessing.",
         "outcome": "Faster decisions, and less manual reporting",
-        "howGraceHillHelps": "PerformanceHQ connects the data; PerformanceHQ Plus sends it to other systems"
+        "howGraceHillHelps": "PerformanceHQ connects the data; PHQ Platform Plus sends it to other systems"
       }
     ]
   },
   "proofPoints": {
-    "note": "Consolidated stat block, Final deck slide 18. Use these — don't approximate or round differently.",
+    "note": "Consolidated stat block, October deck slide 17 (unchanged from the Sept 30 version). Use these — don't approximate or round differently.",
     "stats": [
       {
         "stat": "64%",
@@ -587,19 +644,19 @@
     ]
   },
   "provingItPlan": {
-    "note": "Final deck, slide 19 — \"every customer sees the before and after.\"",
+    "note": "October deck, slide 18 — “How Grace Hill will show what changed” (renamed from the Sept 30 version's “prove it worked”). Every customer sees the before and after.",
     "forEveryCustomer": [
       {
-        "step": "1. Start with a baseline",
-        "detail": "Pick the two or three numbers on the customer's package slide, and record where they start."
+        "step": "1. Establish the baseline",
+        "detail": "Record the relevant measures before action."
       },
       {
-        "step": "2. Check in at 90 days",
-        "detail": "Show what changed in PerformanceHQ, and what to do next."
+        "step": "2. Review progress",
+        "detail": "At 90 days, show what changed and what deserves attention next."
       },
       {
-        "step": "3. Review before renewal",
-        "detail": "Show the before and after to whoever signs off on the budget, in the customer's own numbers."
+        "step": "3. Show the before and after",
+        "detail": "Before renewal, show the relevant measures over time in the operator's own data."
       }
     ],
     "acrossGraceHill": [
@@ -618,7 +675,7 @@
     ]
   },
   "purchasingFlexibility": {
-    "scenario": "A third-party operator manages properties for multiple ownership groups with different priorities — e.g., wants Team Performance Core broadly across the portfolio, but only certain ownership groups want Realync/Virtual Leasing.",
+    "scenario": "A third-party operator manages properties for multiple ownership groups with different priorities — e.g., wants Workforce Excellence Core broadly across the portfolio, but only certain ownership groups want Realync/Leasing Core.",
     "options": [
       {
         "option": "1. Guided flexibility",
@@ -635,12 +692,20 @@
   },
   "objectionHandling": [
     {
-      "q": "\"The PMS does this.\"",
-      "a": "It records what happened. Grace Hill shows why, what to do next, and whether it worked."
+      "q": "\"Why new packaging?\"",
+      "a": "Buying starts with the business need, not a product list: fewer decisions, and a clear path to add more later."
     },
     {
-      "q": "\"We already have a vendor.\" / We use point solutions / best-of-breed tools.",
-      "a": "Separate tools each show one piece. A package connects them, so one finding leads to the next step. Most orgs run 20+ vendors — teams spend 40+ hours a month just reconciling them manually. Grace Hill is large enough to be a full platform — 1 of 4-5, not 1 of 20+."
+      "q": "\"Why Grace Hill?\"",
+      "a": "Grace Hill connects what residents and employees experience with how teams and properties perform, 30+ years of benchmarks, and market and competitive context. Then it connects those findings to actions through training, policies, coaching and PerformanceHQ action plans."
+    },
+    {
+      "q": "\"We only need training.\"",
+      "a": "One product answers one question. Shops find the gap, training addresses it, and the package shows what changed."
+    },
+    {
+      "q": "\"The PMS does this.\"",
+      "a": "It shows one part of performance. Grace Hill connects the parts, recommends the next action, and shows what changed."
     },
     {
       "q": "\"Not a priority right now.\"",
@@ -651,32 +716,16 @@
       "a": "Keep them. Compliance adds the training and sign-off record that proves every employee knows them."
     },
     {
-      "q": "\"Teams won't adopt it.\"",
-      "a": "PerformanceHQ comes with every package. PerformanceHQ Plus puts the data in the systems already in use."
+      "q": "\"Our unit count changes.\"",
+      "a": "Units are reconciled monthly, so pricing follows the business instead of the count at signing."
     },
     {
-      "q": "\"Why price per unit?\"",
-      "a": "Price scales with units managed, so it fits the size of the business."
-    },
-    {
-      "q": "\"Can this prove ROI?\"",
-      "a": "Every customer sets a baseline, checks in at 90 days, and sees the before and after before renewal."
-    },
-    {
-      "q": "\"We only want market data.\"",
-      "a": "HelloData is sold on its own. PerformanceHQ Plus puts it next to operating results."
-    },
-    {
-      "q": "Why are you changing the way Grace Hill is packaged? How does this benefit me?",
-      "a": "We're simplifying how customers buy Grace Hill. Instead of buying related capabilities one product at a time, you start with the business need and a package built around it — fewer buying decisions and a clearer path to expand over time."
+      "q": "\"It costs more.\"",
+      "a": "The package covers more than what is bought today. For current customers, any increase is phased in over time."
     },
     {
       "q": "Why should I choose Grace Hill instead of a competitor?",
       "a": "Grace Hill brings together a breadth of multifamily capabilities that's hard to replicate with a single alternative. You solve more needs within one ecosystem, and the value multiplies as those capabilities work together through PerformanceHQ rather than across disconnected systems."
-    },
-    {
-      "q": "Why should I consolidate more of my technology with Grace Hill?",
-      "a": "Consolidation simplifies your tech stack and unlocks the additional value of PerformanceHQ's Intelligence+ — training, policies, performance measurement, resident feedback, leasing and market signals informing one another instead of sitting in separate systems."
     },
     {
       "q": "I only need Training / Surveys / Realync. Why do I need to move to a broader package?",
@@ -687,38 +736,34 @@
       "a": "No. We can match the package to the parts of your portfolio where it makes sense, rather than forcing every property into the same configuration. GH Success and lower Mid-Market stay on one standard configuration; for eligible larger portfolios, Guided Flexibility can apply different standard packages across defined property groups; true property-level customization is Bespoke/CPQ, reserved for strategic accounts."
     },
     {
-      "q": "My unit count changes throughout the year. How do you account for that?",
-      "a": "Pricing adjusts with your portfolio — we reconcile unit counts monthly, so additions and removals are reflected as your portfolio changes rather than locking you to the unit count at signing. This is the same process Grace Hill uses today."
-    },
-    {
       "q": "What if I need more mystery shops, or want to allocate them differently across my portfolio?",
-      "a": "You have flexibility beyond what's included in the package. Core includes two shops a year and Plus includes quarterly, but you can change the shop type or increase the frequency based on your needs, and you can always purchase additional shops on demand, above what's in the package."
+      "a": "You have flexibility beyond what's included in the package. Core includes two shops a year and Plus includes four, but you can change the shop type or increase the frequency based on your needs, and you can always purchase additional shops on demand, above what's in the package."
     },
     {
       "q": "I only want a one-year contract. Why do I have to commit to multiple years?",
       "a": "You don't have to — one-year contracts remain available. NOTE: the exact multi-year incentive structure (discount-for-3-years vs. premium-for-flexibility) was still being resolved as of Sept 16 — see discountFramework."
-    },
-    {
-      "q": "This is a big price increase. Why should I pay more?",
-      "a": "The new price reflects a broader set of capabilities than what you're buying today, not simply a higher price for the same product. We'll work with you to make sure the package matches the needs you actually have, and if the change is significant, we can help manage the transition over time."
     }
   ],
   "openQuestions": [
     {
       "topic": "Multi-year discount structure",
-      "status": "Contested on the Sept 16 call. Sales leadership does not want a standard 10%-for-3-years discount; RML agreed to revisit a 3-year-standard-price-with-premium-for-flexibility model instead. The Final deck doesn't resolve this. Do not treat the 10% figure as final."
+      "status": "Contested on the Sept 16 call. Sales leadership does not want a standard 10%-for-3-years discount; RML agreed to revisit a 3-year-standard-price-with-premium-for-flexibility model instead. Neither the Sept 30 nor the October deck resolves this. Do not treat the 10% figure as final."
     },
     {
-      "topic": "HelloData® freemium → PerformanceHQ conversion motion",
-      "status": "Open. Today's HelloData® freemium funnel is a significant demand driver on its own, sold to a different buyer (banks, investment orgs) than the typical PerformanceHQ buyer. Whether/how freemium HelloData® signups convert into the PerformanceHQ motion (and whether that risks the freemium funnel itself) was flagged as unresolved by both Mandy and Ashlee Horn; may need Gavin (demand gen) pulled in."
+      "topic": "HelloData® freemium → PHQ conversion motion",
+      "status": "Open. Today's HelloData® freemium funnel is a significant demand driver on its own, sold to a different buyer (banks, investment orgs) than the typical PHQ buyer. Whether/how freemium HelloData® signups convert into the PHQ motion (and whether that risks the freemium funnel itself) was flagged as unresolved by both Mandy and Ashlee Horn; may need Gavin (demand gen) pulled in."
     },
     {
       "topic": "Existing-customer migration & renewal workflow",
-      "status": "Final deck's pilot plan (see nextSteps) resolves the pilot-specific version of this: current customers in the pilot get mapped to one package each to keep migration simple. The broader migration/renewal mechanics for the full existing base (e.g., how a large existing multi-product account, raised as a GrayStar example, gets bundled into one bundled price from several separate point-solution prices) still needs its own follow-up session."
+      "status": "The pilot plan (see nextSteps) resolves the pilot-specific version of this: current customers in the pilot get mapped to one package each to keep migration simple. The broader migration/renewal mechanics for the full existing base (e.g., how a large existing multi-product account, raised as a GrayStar example, gets bundled into one bundled price from several separate point-solution prices) still needs its own follow-up session."
+    },
+    {
+      "topic": "Naming stability",
+      "status": "Open, and now the most operationally urgent item on this list. The customer-facing names have changed three times in two weeks: Aug 2026 RML names (Workforce Excellence / Resident & Prospect Satisfaction / Sentiment Core / Leasing Core / PHQ Platform Core & Plus) → Sept 29 WIP rename (Team Performance / Leasing & Resident Experience / Feedback & Reputation / Virtual Leasing / PerformanceHQ Pro) → Sept 30 Final-deck rename (Team Performance / Property Performance / Feedback & Reputation / Virtual Leasing / PerformanceHQ Plus) → this October reversal back to the original RML names. Anything built from an earlier pass — decks, demo scripts, the Storylane walkthrough, draft emails — needs a naming recheck before it ships. Worth deciding who owns final sign-off on naming before the next iteration, so this doesn't cost a fourth rename."
     },
     {
       "topic": "Problem/outcome-first customer-facing language",
-      "status": "Resolved by the Final deck for the pilot — see corePitch, talkTrack and discoveryQuestions above, which are the finished version of the Sept 16 reframe (see buyerMatchFramework.problemFirstNote). Per the deck: names, packages and prices are decided; the exact words are still being tested and sharpened during the pilot — comment on the slide it's about."
+      "status": "The October deck keeps refining this — see corePitch, talkTrack and discoveryQuestions above. Per the deck: names, packages and prices are decided; the exact words (e.g., “see what changed” vs. the Sept 30 version's “prove it worked”) are still being tested and sharpened during the pilot — comment on the slide it's about."
     }
   ],
   "nextSteps": [
@@ -733,50 +778,54 @@
       "timeline": "Sept 25, 2026"
     },
     {
-      "item": "Pilot is live as of Monday, Oct 5 — roughly 20 current customers plus new logos, 2 sellers. Current customers are each mapped to one package to keep migration simple; new logos get the full new packaging. Every call is recorded and flagged in Salesforce. Pilot is testing: whether a better experience keeps more residents, where teams get stuck acting on problems, which words land (\"act\" or \"resolve\"), and whether the buyer can sell it to their boss.",
+      "item": "Pilot is live as of Monday, Oct 5 — roughly 20 current customers plus new logos, 2 sellers. Current customers are each mapped to one package to keep migration simple; new logos get the full new packaging. Every call is recorded and flagged in Salesforce. Pilot is testing: whether a better experience keeps more residents, where teams get stuck acting on problems, which words land and which need work, and whether the buyer can sell it to their boss.",
       "champion": "Sales (2 sellers)",
       "timeline": "Week of Oct 5, 2026"
     }
   ],
   "legacyNote": "Existing clients are NOT being force-migrated by this document. Willow Walker confirmed on the Sept 16 call that new pricing/packaging applies to new-logo sales going forward; the pilot maps a small set of existing customers to one package each to keep that test simple, but the broader renewal workflow is still to be designed. The legacy per-product catalog (data/products.json) remains the accurate reference for what an existing client is actually on and how that's priced today — use it, not this package structure, when talking to a current customer about their existing contract.",
-  "packagingHistory": "See CHANGELOG for the August 2026 three-track (including a since-dropped 'Market Advantage' track) recommendation this supersedes; the Sept 29 rename that replaced 'Workforce Excellence' / 'Resident & Prospect Satisfaction' / 'Sentiment Core' / 'Leasing Core' with names drawn from the Pilot WIP deck (including 'Leasing & Resident Experience' for the second track); and this Sept 30 correction, which aligns everything to the Pilot Final deck instead — renaming the second track from 'Leasing & Resident Experience' to 'Property Performance,' and the data-layer upgrade from 'PHQ Platform Plus' to 'PerformanceHQ Plus' (the app-facing demo script had also drifted to calling it 'PerformanceHQ Pro,' now corrected). It also adds the Final deck's talk track, discovery questions, jobs-to-be-done tables, consolidated proof points, and the 'prove it worked' pilot measurement plan. See namingFinal for the authoritative name list.",
+  "packagingHistory": "See CHANGELOG for the full chain: the August 2026 three-track recommendation (including a since-dropped 'Market Advantage' track); the Sept 29 rename to names drawn from a Pilot WIP deck (Team Performance / Leasing & Resident Experience / Feedback & Reputation / Virtual Leasing / PerformanceHQ Pro); the Sept 30 correction to the Pilot Final deck's names (Team Performance / Property Performance / Feedback & Reputation / Virtual Leasing / PerformanceHQ Plus); and this October reversal, per the “Grace Hill GTM Messaging Framework, October 2026” deck, back to the original RML names (Workforce Excellence / Resident & Prospect Experience / Sentiment Core / Leasing Core / PHQ Platform Core / PHQ Platform Plus) — which that deck explicitly calls out as retiring the Sept 30 names. It also updates the core pitch framing (“see what changed” replaces “prove it worked”), the objection-handling set, and several jobs-to-be-done outcome descriptions, and adds per-tier problemItSolves/usuallyAFitFor/customizeWith detail that wasn't captured before. See namingFinal for the authoritative name list as of this update.",
   "namingFinal": {
-    "note": "Final deck, slide 22 — \"the names are set, use them everywhere.\" Anything in retiredNames should not appear in customer-facing content going forward.",
-    "renames": [
+    "note": "October 2026 deck, slide 21 — “the deck uses the RML names … use the RML names everywhere.” This supersedes the Sept 30 namingFinal block below it in spirit (kept here for the full history). Anything in retiredNames should not appear in customer-facing content going forward — that list now includes the Sept 30 “final” names themselves.",
+    "currentNames": [
       {
-        "oldName": "Workforce Excellence track",
-        "finalName": "Team Performance",
-        "why": "Clearest at first hearing, names the real problem, and no competitor owns it."
+        "level": "Track 1",
+        "name": "Workforce Excellence",
+        "notes": "How teams are trained, kept compliant and measured."
       },
       {
-        "oldName": "Resident & Prospect Experience track",
-        "finalName": "Property Performance",
-        "why": "Covers the whole resident and prospect experience with the property. Pairs with Team Performance: team and property."
+        "level": "Track 2",
+        "name": "Resident & Prospect Experience",
+        "notes": "Resident and prospect feedback, reputation and leasing."
       },
       {
-        "oldName": "Compliance · Core · Plus",
-        "finalName": "Compliance · Core · Plus",
-        "why": "Unchanged — the first tier says why people buy it, and the ladder is easy to follow."
+        "level": "Track 1 tiers",
+        "name": "Compliance · Core · Plus",
+        "notes": "Core is the recommended start."
       },
       {
-        "oldName": "Sentiment Core · Leasing Core · Plus",
-        "finalName": "Feedback & Reputation · Virtual Leasing · Plus",
-        "why": "Says what's inside and shows two different doors."
+        "level": "Track 2 tiers",
+        "name": "Sentiment Core · Leasing Core · Plus",
+        "notes": "Sentiment Core is the recommended start."
       },
       {
-        "oldName": "PHQ Platform Plus",
-        "finalName": "PerformanceHQ Plus",
-        "why": "Plus always means the most complete option. Avoids Entrata Pro. Always the full name, never \"Plus\" on its own."
+        "level": "Platform",
+        "name": "PHQ Platform Core · PHQ Platform Plus",
+        "notes": "Platform Core is in every package. Platform Plus is the upgrade."
       }
     ],
     "retiredNames": [
-      "Workforce Excellence",
-      "Resident & Prospect Experience",
+      "Workforce Excellence (as a retired name — historical, pre-Sept-29 generic references only; see note)",
       "Resident & Prospect Satisfaction",
-      "Sentiment Core",
-      "Leasing Core",
-      "Platform Plus",
-      "Leasing & Resident Experience"
-    ]
+      "Leasing & Resident Experience",
+      "Team Performance",
+      "Property Performance",
+      "Feedback & Reputation",
+      "Virtual Leasing",
+      "PerformanceHQ Pro",
+      "PerformanceHQ Plus",
+      "Platform Plus"
+    ],
+    "namingInstabilityWarning": "Workforce Excellence and Resident & Prospect Experience both appear in this file's retiredNames for historical completeness (they were 'retired working names' listed in the Sept 30 version, before this October deck un-retired Workforce Excellence and reinstated Resident & Prospect Experience as the current names). Read currentNames above as the single source of truth as of this update, not the retiredNames list in isolation — a name can appear in both this file's history and its current table across different dates. If in doubt, check this field's note and date (asOf) before using a name anywhere customer-facing."
   }
 }
