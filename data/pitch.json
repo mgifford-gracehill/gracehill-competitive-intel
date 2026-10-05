@@ -234,27 +234,27 @@
   "packaging": {
     "platform": [
       {
-        "tier": "PHQ Platform Core",
-        "includes": "Standard dashboards, SSO, integrations, Ask Gracie™ AI, cross-product reporting, Intelligence+, HelloData® Taster. Included with any track."
+        "tier": "PerformanceHQ",
+        "includes": "Standard dashboards, SSO, integrations, Ask Gracie™ AI, cross-product reporting, Intelligence+, HelloData® Lite. The foundation, included with any track."
       },
       {
-        "tier": "PHQ Platform Plus",
-        "includes": "Adds data integration through exposed APIs and an MCP connector for AI assistants, plus HelloData® Complete. +$0.59/unit/mo upgrade."
+        "tier": "PerformanceHQ Plus",
+        "includes": "Adds full market comps, Grace Hill data joined with the rest of the tech stack via exposed APIs and an MCP connector for AI assistants, partner integrations, data feeds, and HelloData® Complete. +$0.59/unit/mo upgrade."
       }
     ],
     "tracks": [
       {
-        "track": "Track 1 — Workforce Excellence",
+        "track": "Team Performance",
         "forWho": "L&D / Operations",
-        "value": "People performance: develop people and drive operational consistency.",
+        "value": "People performance: teams ready on day one and improving every day after.",
         "tiers": "Compliance ($0.79/unit/mo) → Core ($1.39/unit/mo) → Plus ($1.79/unit/mo).",
         "showsUpIn": "Training, policies, onboarding, mystery shop results, employee surveys, role-based learning."
       },
       {
-        "track": "Track 2 — Resident & Prospect Satisfaction",
+        "track": "Property Performance",
         "forWho": "Marketing",
-        "value": "Property performance: improve the resident and prospect experience.",
-        "tiers": "Two entry points — Sentiment Core ($0.79/unit/mo) or Leasing Core ($1.19/unit/mo) — or Plus ($1.79/unit/mo) which bundles both.",
+        "value": "Property performance: see the whole resident story, from first tour to renewal.",
+        "tiers": "Two entry points — Feedback & Reputation ($0.79/unit/mo) or Virtual Leasing ($1.19/unit/mo) — or Plus ($1.79/unit/mo) which bundles both.",
         "showsUpIn": "Surveys, reputation, benchmarking, feedback and sentiment, Realync leasing video, response diagnostics."
       }
     ],
@@ -264,7 +264,7 @@
       "Realync add-ons (Real360, Realync Journeys, Realync Studios)",
       "Certifications and credentials"
     ],
-    "note": "Everything priced per unit, per month (mystery shops per shop) — so cost scales with the portfolio, not a seat count. This is the Sept 2026 Revenue Management Labs recommendation, presented to the GTM team Sept 16 and pending ELT alignment the week of Sept 25 — directionally locked but not yet final (the multi-year discount lever in particular is still being reworked). Applies to new-logo sales; existing clients stay on their current per-product pricing until a migration/renewal workflow is designed — see data/products.json for what's actually on a current contract, and data/packaging.json for the full detail, buyer-match framework, and open questions. Lead with the problem/outcome the buyer already cares about (people performance vs. property performance), not with 'which track are you.' Pricing books in Salesforce remain the source of truth for an actual quote.",
+    "note": "Everything priced per unit, per month (mystery shops per shop) — so cost scales with the portfolio, not a seat count. Names, packages and prices are finalized per the “Grace Hill GTM Messaging Framework (Pilot Final)” deck, September 2026: Team Performance / Property Performance are the customer-facing track names, PerformanceHQ is the included foundation, PerformanceHQ Plus is the upgrade. The words used to sell it are still being tested in the pilot starting the week of Oct 5, 2026 (~20 current customers + new logos, 2 sellers). Applies to new-logo sales; existing clients stay on their current per-product pricing until a migration/renewal workflow is designed beyond the pilot's own current-customer mapping — see data/products.json for what's actually on a current contract, and data/packaging.json for the full detail, buyer-match framework, talk track, and open questions. Lead with the problem/outcome the buyer already cares about (people performance vs. property performance), not with 'which track are you.' Pricing books in Salesforce remain the source of truth for an actual quote.",
     "pricingSourceOfTruth": "Pricing books in Salesforce for an actual quote. Structure and list-price context above is directional, from the Sept 2026 RML recommendation — not this app."
   },
   "languageToAvoid": [

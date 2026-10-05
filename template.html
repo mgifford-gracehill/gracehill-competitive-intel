@@ -1567,7 +1567,7 @@ function renderProducts(){
     ${has(PK.architecture&&PK.architecture.tracks)?q('The two tracks (new packaging — lead with the problem, not the track name)',
       PK.architecture.tracks.map(trackCard).join('')+(PK.architecture.step?`<p class="src" style="margin:4px 0 0">${esc(PK.architecture.step)}</p>`:'')):''}
 
-    ${PK.dataIntelligenceLayer?q('Data & Intelligence layer (Platform Core / Plus)',
+    ${PK.dataIntelligenceLayer?q('Data & Intelligence layer (PerformanceHQ / PerformanceHQ Plus)',
       `<table><thead><tr><th>Tier</th><th>Price</th><th>Includes</th></tr></thead><tbody>${
         (PK.dataIntelligenceLayer.tiers||[]).map(t=>`<tr><td><strong>${esc(t.tier)}</strong></td><td>${esc(t.price)}</td><td style="font-size:.86rem">${esc((t.includes||[]).join(' · '))}</td></tr>`).join('')}</tbody></table>
       ${PK.dataIntelligenceLayer.note?`<p class="src" style="margin:8px 0 0">${esc(PK.dataIntelligenceLayer.note)}</p>`:''}`):''}

@@ -1,6 +1,6 @@
 {
-  "status": "DECIDED — names, packages and prices are finalized per the \"Grace Hill GTM Messaging Framework (Pilot Final)\" deck, September 2026: Team Performance and Property Performance are the customer-facing track names (this corrects the Sept 29 update, which had used \"Leasing & Resident Experience\" from an earlier Pilot WIP draft of this same deck — the Final deck explicitly retires that label along with Workforce Excellence, Resident & Prospect Experience, Resident & Prospect Satisfaction, Sentiment Core, Leasing Core and Platform Plus; see namingFinal below). Feedback & Reputation and Virtual Leasing remain the Property Performance tier names. The data & intelligence layer is PerformanceHQ (the foundation, included in every package) with PerformanceHQ Plus as the paid upgrade (+$0.59/unit/month) — not \"PerformanceHQ Pro.\" Underlying structure and list pricing are unchanged from the Sept 16 recommendation. Per the Final deck: names, packages and prices are decided; the words used to sell them are still being tested in the pilot. Currently in pilot, not yet broadly rolled out — per Mandy (Sept 30), it's specifically the new pricing/packaging references (the track/tier names and prices) that should stay low-key until the pilot concludes, not the rest of the Products & Packages tab, which can be shown normally.",
-  "asOf": "2026-09-30",
+  "status": "DECIDED — names, packages and prices are finalized per the \"Grace Hill GTM Messaging Framework (Pilot Final)\" deck, September 2026: Team Performance and Property Performance are the customer-facing track names (this corrects the Sept 29 update, which had used \"Leasing & Resident Experience\" from an earlier Pilot WIP draft of this same deck — the Final deck explicitly retires that label along with Workforce Excellence, Resident & Prospect Experience, Resident & Prospect Satisfaction, Sentiment Core, Leasing Core and Platform Plus; see namingFinal below). Feedback & Reputation and Virtual Leasing remain the Property Performance tier names. The data & intelligence layer is PerformanceHQ (the foundation, included in every package) with PerformanceHQ Plus as the paid upgrade (+$0.59/unit/month) — not \"PerformanceHQ Pro.\" Underlying structure and list pricing are unchanged from the Sept 16 recommendation. Per the Final deck: names, packages and prices are decided; the words used to sell them are still being tested in the pilot. Pilot launched this week (week of Oct 5, 2026) — live, not yet broadly rolled out — per Mandy (Sept 30), it's specifically the new pricing/packaging references (the track/tier names and prices) that should stay low-key until the pilot concludes, not the rest of the Products & Packages tab, which can be shown normally.",
+  "asOf": "2026-10-05",
   "source": "Revenue Management Labs, \"Pricing and Packaging Recommendations — Enablement Discussion,\" Sept 2026, plus the Sept 16 GTM pricing/packaging working session; naming, messaging and pilot plan finalized per the \"Grace Hill GTM Messaging Framework (Pilot Final)\" deck, September 2026 — supersedes the same deck's earlier Pilot WIP draft on track naming (see namingFinal and packagingHistory).",
   "summary": "Today, Grace Hill's point solutions (Training, Surveys, Policies, Mystery Shopping, Reputation Management, Intelligence+, Realync, HelloData®) are each priced and packaged on their own, with no shared PerformanceHQ commercial structure. Result: no ready-to-go package puts related solutions together, ~79% of GH-Success and ~50% of Mid-Market/Enterprise customers buy only one product, and there's no clear expansion path. The new structure organizes around the two workflows buyers actually own — Team Performance (L&D/Ops) and Property Performance (Marketing) — with PerformanceHQ as the connective data & intelligence layer across both, included as the foundation of every package, and a standardized per-unit commercial model. It is a three-decision purchase: (1) pick your workflow track(s), (2) pick your data & intelligence tier — PerformanceHQ (foundation, included) or PerformanceHQ Plus (+$0.59/unit/month upgrade), (3) add add-ons as needed. The Final deck's one-line version: know what matters, act on it, prove it worked — because keeping a resident protects NOI (a move-out costs about $3,872 to turn the unit, plus lost rent), and most tools show what happened without saying what to do next.",
   "buyerGroups": [
@@ -380,71 +380,241 @@
   "talkTrack": {
     "note": "Final deck, slide 23 — \"ask first, show second, same words every call.\"",
     "steps": [
-      { "step": "1. Pressure", "say": "What are you under the most pressure to improve right now?" },
-      { "step": "2. Why they leave", "say": "When residents leave, what's usually behind it?" },
-      { "step": "3. Where it breaks", "say": "When a property isn't getting the result you want, what's hardest?" },
-      { "step": "4. Frame", "say": "Most tools tell you what happened. Grace Hill shows you what matters, helps you act on it, and proves it worked." },
-      { "step": "5. Recommend", "say": "For that, we'd start with [package]. It [outcome], and you'll see it in [their number]." },
-      { "step": "6. Show", "say": "Two or three moments in PerformanceHQ. Stop when the buyer sees their own problem." },
-      { "step": "7. Their boss", "say": "Who signs off on this? What would they need to hear to say yes?" },
-      { "step": "8. Price", "say": "Your price per unit is [X] on a 3-year plan." }
+      {
+        "step": "1. Pressure",
+        "say": "What are you under the most pressure to improve right now?"
+      },
+      {
+        "step": "2. Why they leave",
+        "say": "When residents leave, what's usually behind it?"
+      },
+      {
+        "step": "3. Where it breaks",
+        "say": "When a property isn't getting the result you want, what's hardest?"
+      },
+      {
+        "step": "4. Frame",
+        "say": "Most tools tell you what happened. Grace Hill shows you what matters, helps you act on it, and proves it worked."
+      },
+      {
+        "step": "5. Recommend",
+        "say": "For that, we'd start with [package]. It [outcome], and you'll see it in [their number]."
+      },
+      {
+        "step": "6. Show",
+        "say": "Two or three moments in PerformanceHQ. Stop when the buyer sees their own problem."
+      },
+      {
+        "step": "7. Their boss",
+        "say": "Who signs off on this? What would they need to hear to say yes?"
+      },
+      {
+        "step": "8. Price",
+        "say": "Your price per unit is [X] on a 3-year plan."
+      }
     ]
   },
   "discoveryQuestions": [
-    { "toFind": "The pressure", "ask": "What are you under the most pressure to improve right now?" },
-    { "toFind": "Why they leave", "ask": "When residents leave, what's usually behind it?" },
-    { "toFind": "Where it breaks", "ask": "When a property isn't getting the result you want, what's hardest?" },
-    { "toFind": "After a flag", "ask": "When something's flagged at a property, what would you want to happen next?" },
-    { "toFind": "The side (track)", "ask": "What are you trying to improve: how your teams perform, how residents experience the property, or both?" },
-    { "toFind": "The size (tier)", "ask": "Is this about the basics, getting everyone consistent, or improving every quarter?" },
-    { "toFind": "Their tools (PerformanceHQ Plus)", "ask": "Do you need this inside Grace Hill only, or in your other systems and AI tools?" },
-    { "toFind": "Timing", "ask": "What else are you under contract for, and when does it end?" }
+    {
+      "toFind": "The pressure",
+      "ask": "What are you under the most pressure to improve right now?"
+    },
+    {
+      "toFind": "Why they leave",
+      "ask": "When residents leave, what's usually behind it?"
+    },
+    {
+      "toFind": "Where it breaks",
+      "ask": "When a property isn't getting the result you want, what's hardest?"
+    },
+    {
+      "toFind": "After a flag",
+      "ask": "When something's flagged at a property, what would you want to happen next?"
+    },
+    {
+      "toFind": "The side (track)",
+      "ask": "What are you trying to improve: how your teams perform, how residents experience the property, or both?"
+    },
+    {
+      "toFind": "The size (tier)",
+      "ask": "Is this about the basics, getting everyone consistent, or improving every quarter?"
+    },
+    {
+      "toFind": "Their tools (PerformanceHQ Plus)",
+      "ask": "Do you need this inside Grace Hill only, or in your other systems and AI tools?"
+    },
+    {
+      "toFind": "Timing",
+      "ask": "What else are you under contract for, and when does it end?"
+    }
   ],
   "jobsToBeDone": {
     "note": "Final deck, slides 25–26.",
     "teamPerformance": [
-      { "job": "Onboarding", "inTheirWords": "When a new employee joins, I need them ready across systems and expectations.", "outcome": "New hires productive sooner, with service steady while they ramp", "howGraceHillHelps": "Role-based onboarding paths, then shops show whether training stuck (Core)" },
-      { "job": "Compliance", "inTheirWords": "When regulations or risks change, I need everyone compliant, and able to prove it.", "outcome": "Fewer claims, and audit answers in minutes", "howGraceHillHelps": "Compliance courses, current policies and a sign-off record (Compliance)" },
-      { "job": "Rollouts", "inTheirWords": "When leadership launches an initiative, I need it rolled out the same way everywhere.", "outcome": "One standard, adopted and tracked", "howGraceHillHelps": "Training and policy updates assigned by role, tracked in PerformanceHQ" },
-      { "job": "Skill gaps", "inTheirWords": "When team performance varies, I need to find the gap and assign the right training.", "outcome": "Gaps closed before residents feel them", "howGraceHillHelps": "A missed shop question assigns the matching training (Core, Plus)" },
-      { "job": "Root cause", "inTheirWords": "When a performance issue comes up, I need to know if it's skill, process or effort.", "outcome": "The right response the first time", "howGraceHillHelps": "Shops, employee surveys and training records side by side in PerformanceHQ" },
-      { "job": "Maintenance", "inTheirWords": "When onboarding maintenance techs, I need them doing core tasks quickly and correctly.", "outcome": "Work orders done right the first time, and fewer maintenance complaints", "howGraceHillHelps": "Maintenance and safety training paths (Core)" },
-      { "job": "Staff turnover", "inTheirWords": "When turnover is high, I need training and development that keeps people.", "outcome": "Lower staff turnover, at about $4,700 per hire avoided", "howGraceHillHelps": "Employee surveys show what gets in the way; development paths follow (Plus)" },
-      { "job": "Acquisitions", "inTheirWords": "When acquiring a new asset, I need to assess team capability and risk.", "outcome": "A clear readiness plan from the first day of ownership", "howGraceHillHelps": "Shop and training baselines for the new team (Core)" }
+      {
+        "job": "Onboarding",
+        "inTheirWords": "When a new employee joins, I need them ready across systems and expectations.",
+        "outcome": "New hires productive sooner, with service steady while they ramp",
+        "howGraceHillHelps": "Role-based onboarding paths, then shops show whether training stuck (Core)"
+      },
+      {
+        "job": "Compliance",
+        "inTheirWords": "When regulations or risks change, I need everyone compliant, and able to prove it.",
+        "outcome": "Fewer claims, and audit answers in minutes",
+        "howGraceHillHelps": "Compliance courses, current policies and a sign-off record (Compliance)"
+      },
+      {
+        "job": "Rollouts",
+        "inTheirWords": "When leadership launches an initiative, I need it rolled out the same way everywhere.",
+        "outcome": "One standard, adopted and tracked",
+        "howGraceHillHelps": "Training and policy updates assigned by role, tracked in PerformanceHQ"
+      },
+      {
+        "job": "Skill gaps",
+        "inTheirWords": "When team performance varies, I need to find the gap and assign the right training.",
+        "outcome": "Gaps closed before residents feel them",
+        "howGraceHillHelps": "A missed shop question assigns the matching training (Core, Plus)"
+      },
+      {
+        "job": "Root cause",
+        "inTheirWords": "When a performance issue comes up, I need to know if it's skill, process or effort.",
+        "outcome": "The right response the first time",
+        "howGraceHillHelps": "Shops, employee surveys and training records side by side in PerformanceHQ"
+      },
+      {
+        "job": "Maintenance",
+        "inTheirWords": "When onboarding maintenance techs, I need them doing core tasks quickly and correctly.",
+        "outcome": "Work orders done right the first time, and fewer maintenance complaints",
+        "howGraceHillHelps": "Maintenance and safety training paths (Core)"
+      },
+      {
+        "job": "Staff turnover",
+        "inTheirWords": "When turnover is high, I need training and development that keeps people.",
+        "outcome": "Lower staff turnover, at about $4,700 per hire avoided",
+        "howGraceHillHelps": "Employee surveys show what gets in the way; development paths follow (Plus)"
+      },
+      {
+        "job": "Acquisitions",
+        "inTheirWords": "When acquiring a new asset, I need to assess team capability and risk.",
+        "outcome": "A clear readiness plan from the first day of ownership",
+        "howGraceHillHelps": "Shop and training baselines for the new team (Core)"
+      }
     ],
     "propertyPerformanceAndPerformanceHQ": [
-      { "job": "Retention", "inTheirWords": "When resident satisfaction declines, I need the drivers, so I can improve retention.", "outcome": "More renewals, and fewer turns at about $3,872 each", "howGraceHillHelps": "Surveys at move-in, after repairs and before renewal, benchmarked (Feedback & Reputation)" },
-      { "job": "Repeat issues", "inTheirWords": "When feedback shows the same issue, I need to turn it into training.", "outcome": "The issue drops out of the next survey", "howGraceHillHelps": "Survey themes point to the training to assign (both tracks, in PerformanceHQ)" },
-      { "job": "Maintenance", "inTheirWords": "When negative feedback comes in, I need the maintenance issue behind it.", "outcome": "Fewer maintenance-driven move-outs (41% of negative turnover reviews)", "howGraceHillHelps": "Reviews and surveys flag service themes; action plans assign follow-up" },
-      { "job": "Leasing", "inTheirWords": "When leasing drops, I need to know why, so I can act fast and protect revenue.", "outcome": "Fewer vacant days, and more tours that turn into leases", "howGraceHillHelps": "Virtual tours with view tracking; shops show leasing-desk gaps (Virtual Leasing, Core)" },
-      { "job": "Consistency", "inTheirWords": "When results depend on one person or team, I need a standard that holds.", "outcome": "The same experience, whoever is on shift", "howGraceHillHelps": "Standards built into training, then checked by mystery shops (Team Performance)" },
-      { "job": "Investment", "inTheirWords": "When results vary, I need to know where to invest to improve NOI.", "outcome": "Capital and coaching spent where they move NOI", "howGraceHillHelps": "Results compared to benchmarks and market comps (PerformanceHQ; full comps in PerformanceHQ Plus)" },
-      { "job": "Priorities", "inTheirWords": "When reviewing feedback, I need clear priorities, so teams work on what moves results.", "outcome": "Team time spent on what moves renewals", "howGraceHillHelps": "PerformanceHQ ranks what needs attention first" },
-      { "job": "Across tools", "inTheirWords": "When looking across tools, I need to see what matters, and act without second-guessing.", "outcome": "Faster decisions, and less manual reporting", "howGraceHillHelps": "PerformanceHQ connects the data; PerformanceHQ Plus sends it to other systems" }
+      {
+        "job": "Retention",
+        "inTheirWords": "When resident satisfaction declines, I need the drivers, so I can improve retention.",
+        "outcome": "More renewals, and fewer turns at about $3,872 each",
+        "howGraceHillHelps": "Surveys at move-in, after repairs and before renewal, benchmarked (Feedback & Reputation)"
+      },
+      {
+        "job": "Repeat issues",
+        "inTheirWords": "When feedback shows the same issue, I need to turn it into training.",
+        "outcome": "The issue drops out of the next survey",
+        "howGraceHillHelps": "Survey themes point to the training to assign (both tracks, in PerformanceHQ)"
+      },
+      {
+        "job": "Maintenance",
+        "inTheirWords": "When negative feedback comes in, I need the maintenance issue behind it.",
+        "outcome": "Fewer maintenance-driven move-outs (41% of negative turnover reviews)",
+        "howGraceHillHelps": "Reviews and surveys flag service themes; action plans assign follow-up"
+      },
+      {
+        "job": "Leasing",
+        "inTheirWords": "When leasing drops, I need to know why, so I can act fast and protect revenue.",
+        "outcome": "Fewer vacant days, and more tours that turn into leases",
+        "howGraceHillHelps": "Virtual tours with view tracking; shops show leasing-desk gaps (Virtual Leasing, Core)"
+      },
+      {
+        "job": "Consistency",
+        "inTheirWords": "When results depend on one person or team, I need a standard that holds.",
+        "outcome": "The same experience, whoever is on shift",
+        "howGraceHillHelps": "Standards built into training, then checked by mystery shops (Team Performance)"
+      },
+      {
+        "job": "Investment",
+        "inTheirWords": "When results vary, I need to know where to invest to improve NOI.",
+        "outcome": "Capital and coaching spent where they move NOI",
+        "howGraceHillHelps": "Results compared to benchmarks and market comps (PerformanceHQ; full comps in PerformanceHQ Plus)"
+      },
+      {
+        "job": "Priorities",
+        "inTheirWords": "When reviewing feedback, I need clear priorities, so teams work on what moves results.",
+        "outcome": "Team time spent on what moves renewals",
+        "howGraceHillHelps": "PerformanceHQ ranks what needs attention first"
+      },
+      {
+        "job": "Across tools",
+        "inTheirWords": "When looking across tools, I need to see what matters, and act without second-guessing.",
+        "outcome": "Faster decisions, and less manual reporting",
+        "howGraceHillHelps": "PerformanceHQ connects the data; PerformanceHQ Plus sends it to other systems"
+      }
     ]
   },
   "proofPoints": {
     "note": "Consolidated stat block, Final deck slide 18. Use these — don't approximate or round differently.",
     "stats": [
-      { "stat": "64%", "label": "of positive resident reviews mention the onsite team", "source": "Widewail via Multifamily Dive, 2024" },
-      { "stat": "41%", "label": "of negative reviews during unit turnover are about maintenance", "source": "Widewail via Multifamily Dive, 2024" },
-      { "stat": "$3,872", "label": "average cost to turn one unit when a resident moves out", "source": "Zego via Multifamily Dive, 2023" },
-      { "stat": "~$4,700", "label": "average cost to hire one employee", "source": "SHRM benchmarking, 2022" },
-      { "stat": "Up to 20%", "label": "higher renewal intent than the national average with more than one Grace Hill tool", "source": "Grace Hill" },
-      { "stat": "500K+", "label": "multifamily professionals trained at 2,800+ companies, with 30+ years of benchmarks", "source": "Grace Hill" }
+      {
+        "stat": "64%",
+        "label": "of positive resident reviews mention the onsite team",
+        "source": "Widewail via Multifamily Dive, 2024"
+      },
+      {
+        "stat": "41%",
+        "label": "of negative reviews during unit turnover are about maintenance",
+        "source": "Widewail via Multifamily Dive, 2024"
+      },
+      {
+        "stat": "$3,872",
+        "label": "average cost to turn one unit when a resident moves out",
+        "source": "Zego via Multifamily Dive, 2023"
+      },
+      {
+        "stat": "~$4,700",
+        "label": "average cost to hire one employee",
+        "source": "SHRM benchmarking, 2022"
+      },
+      {
+        "stat": "Up to 20%",
+        "label": "higher renewal intent than the national average with more than one Grace Hill tool",
+        "source": "Grace Hill"
+      },
+      {
+        "stat": "500K+",
+        "label": "multifamily professionals trained at 2,800+ companies, with 30+ years of benchmarks",
+        "source": "Grace Hill"
+      }
     ]
   },
   "provingItPlan": {
     "note": "Final deck, slide 19 — \"every customer sees the before and after.\"",
     "forEveryCustomer": [
-      { "step": "1. Start with a baseline", "detail": "Pick the two or three numbers on the customer's package slide, and record where they start." },
-      { "step": "2. Check in at 90 days", "detail": "Show what changed in PerformanceHQ, and what to do next." },
-      { "step": "3. Review before renewal", "detail": "Show the before and after to whoever signs off on the budget, in the customer's own numbers." }
+      {
+        "step": "1. Start with a baseline",
+        "detail": "Pick the two or three numbers on the customer's package slide, and record where they start."
+      },
+      {
+        "step": "2. Check in at 90 days",
+        "detail": "Show what changed in PerformanceHQ, and what to do next."
+      },
+      {
+        "step": "3. Review before renewal",
+        "detail": "Show the before and after to whoever signs off on the budget, in the customer's own numbers."
+      }
     ],
     "acrossGraceHill": [
-      { "workstream": "Customer stories", "detail": "At least one per track, with real numbers, published with permission." },
-      { "workstream": "Operator research", "detail": "What operators say keeps residents, and where they get stuck, in their own words." },
-      { "workstream": "Product research", "detail": "How training and resident feedback affect how fast units lease, so Grace Hill can say \"do this, expect this much.\"" }
+      {
+        "workstream": "Customer stories",
+        "detail": "At least one per track, with real numbers, published with permission."
+      },
+      {
+        "workstream": "Operator research",
+        "detail": "What operators say keeps residents, and where they get stuck, in their own words."
+      },
+      {
+        "workstream": "Product research",
+        "detail": "How training and resident feedback affect how fast units lease, so Grace Hill can say \"do this, expect this much.\""
+      }
     ]
   },
   "purchasingFlexibility": {
@@ -563,7 +733,7 @@
       "timeline": "Sept 25, 2026"
     },
     {
-      "item": "Pilot: starts Monday, Oct 5 — roughly 20 current customers plus new logos, 2 sellers. Current customers are each mapped to one package to keep migration simple; new logos get the full new packaging. Every call is recorded and flagged in Salesforce. Pilot is testing: whether a better experience keeps more residents, where teams get stuck acting on problems, which words land (\"act\" or \"resolve\"), and whether the buyer can sell it to their boss.",
+      "item": "Pilot is live as of Monday, Oct 5 — roughly 20 current customers plus new logos, 2 sellers. Current customers are each mapped to one package to keep migration simple; new logos get the full new packaging. Every call is recorded and flagged in Salesforce. Pilot is testing: whether a better experience keeps more residents, where teams get stuck acting on problems, which words land (\"act\" or \"resolve\"), and whether the buyer can sell it to their boss.",
       "champion": "Sales (2 sellers)",
       "timeline": "Week of Oct 5, 2026"
     }
@@ -573,11 +743,31 @@
   "namingFinal": {
     "note": "Final deck, slide 22 — \"the names are set, use them everywhere.\" Anything in retiredNames should not appear in customer-facing content going forward.",
     "renames": [
-      { "oldName": "Workforce Excellence track", "finalName": "Team Performance", "why": "Clearest at first hearing, names the real problem, and no competitor owns it." },
-      { "oldName": "Resident & Prospect Experience track", "finalName": "Property Performance", "why": "Covers the whole resident and prospect experience with the property. Pairs with Team Performance: team and property." },
-      { "oldName": "Compliance · Core · Plus", "finalName": "Compliance · Core · Plus", "why": "Unchanged — the first tier says why people buy it, and the ladder is easy to follow." },
-      { "oldName": "Sentiment Core · Leasing Core · Plus", "finalName": "Feedback & Reputation · Virtual Leasing · Plus", "why": "Says what's inside and shows two different doors." },
-      { "oldName": "PHQ Platform Plus", "finalName": "PerformanceHQ Plus", "why": "Plus always means the most complete option. Avoids Entrata Pro. Always the full name, never \"Plus\" on its own." }
+      {
+        "oldName": "Workforce Excellence track",
+        "finalName": "Team Performance",
+        "why": "Clearest at first hearing, names the real problem, and no competitor owns it."
+      },
+      {
+        "oldName": "Resident & Prospect Experience track",
+        "finalName": "Property Performance",
+        "why": "Covers the whole resident and prospect experience with the property. Pairs with Team Performance: team and property."
+      },
+      {
+        "oldName": "Compliance · Core · Plus",
+        "finalName": "Compliance · Core · Plus",
+        "why": "Unchanged — the first tier says why people buy it, and the ladder is easy to follow."
+      },
+      {
+        "oldName": "Sentiment Core · Leasing Core · Plus",
+        "finalName": "Feedback & Reputation · Virtual Leasing · Plus",
+        "why": "Says what's inside and shows two different doors."
+      },
+      {
+        "oldName": "PHQ Platform Plus",
+        "finalName": "PerformanceHQ Plus",
+        "why": "Plus always means the most complete option. Avoids Entrata Pro. Always the full name, never \"Plus\" on its own."
+      }
     ],
     "retiredNames": [
       "Workforce Excellence",
