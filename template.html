@@ -367,7 +367,6 @@ details.deep>div{padding:0 16px 16px}
   <section class="view" id="v-competitor"></section>
   <section class="view" id="v-gh"></section>
   <section class="view" id="v-pitch"></section>
-  <section class="view" id="v-products"></section>
   <section class="view" id="v-news"></section>
   <div id="cardview"></div>
 </div>
@@ -392,7 +391,7 @@ const ul=a=>has(a)?`<ul class="tight">${a.map(x=>`<li>${esc(x)}</li>`).join('')}
 const C=D.competitors, F=D.features, GHB=D.ghBaseline||{}, STACK=D.stack||{}, FW=D.framework||{};
 const C_ACTIVE=C.filter(c=>!(c.status&&(c.status.value==='retired'||c.status.value==='consolidated')));
 const HEARD=(D.heard||{}).competitors||{}, HEARDMETA=D.heard||{};
-const PRODUCTS=D.products||[], PACKAGING=D.packaging||{}, PLAYBOOK=D.playbook||{};
+const PRODUCTS=D.products||[], PLAYBOOK=D.playbook||{};
 const ROLES=(D.roles||{}).roles||[], SEG=D.segments||{}, PATH=D.pathways||{}, CMTE=D.committee||{}, MSG=D.messages||{};
 const JOBS=(D.jtbd||{}).jobs||[], PARTNERS=D.partners||{}, PALERT=PARTNERS.alerts||{};
 const PROG=Object.fromEntries((PARTNERS.programs||[]).map(p=>[p.id,p]));
@@ -549,7 +548,7 @@ function personasFor(c){
 const FEAT={}; F.lines.forEach(l=>l.features.forEach(f=>FEAT[f.id]={...f,line:l.line}));
 const byId=Object.fromEntries(C.map(c=>[c.id,c]));
 
-const TABS=[['start','Start here'],['home','Competitors'],['explore','Explore'],['pitch','Pitch'],['products','Products & Packages'],['news','What’s new']];
+const TABS=[['start','Start here'],['home','Competitors'],['explore','Explore'],['pitch','Pitch'],['news','What’s new']];
 function nav(){const n=$('#nav');TABS.forEach(([id,l])=>{const b=document.createElement('button');b.textContent=l;b.dataset.t=id;b.onclick=()=>go(id);n.appendChild(b)})}
 /* Views are pushed onto browser history. Without this, Back left the app entirely and
    landed on the Access sign-in — because the only history entry behind the app WAS the
@@ -564,7 +563,6 @@ function go(v,arg,fromPop){
   if(v==='gh')renderGH(arg);
   if(v==='explore')renderExplore(arg);
   if(v==='pitch')renderPitch();
-  if(v==='products')renderProducts();
   window.scrollTo(0,0);
   if(!fromPop){
     const h='#'+v+(arg?'/'+encodeURIComponent(arg):'');
@@ -580,7 +578,7 @@ function route(){
   const h=(location.hash||'').replace(/^#/,'');
   if(!h)return {v:'start'};
   const [v,a]=h.split('/');
-  const ok=['start','home','explore','pitch','products','news','competitor','gh'];
+  const ok=['start','home','explore','pitch','news','competitor','gh'];
   if(!ok.includes(v))return {v:'start'};
   return {v:v,arg:a?decodeURIComponent(a):undefined};
 }
@@ -1507,10 +1505,13 @@ function renderPitch(){
       `${P.resolutionLoop.map(r=>`<div style="margin-bottom:6px"><span class="chip c-gh">${esc(r.step)}</span> ${esc(r.detail)}</div>`).join('')}
        ${P.loopNote?`<p class="src" style="margin:6px 0 0">${esc(P.loopNote)}</p>`:''}`):''}
 
-    ${P.packaging?q('How it is packaged',
-      Object.entries(P.packaging).filter(([k])=>k!=='note').map(([k,v])=>`<div style="margin-bottom:6px"><span class="src"><strong>${esc(k)}</strong></span>
-        <div style="font-size:.9rem">${esc(typeof v==='string'?v:JSON.stringify(v))}</div></div>`).join('')
-      +(P.packaging.note?`<div class="neg">${esc(P.packaging.note)}</div>`:'')):''}
+    ${q(`Legacy products (${PRODUCTS.length}) — what a client is actually on`,
+      `<p class="src" style="margin:0 0 10px">Per-product pricing and packaging, as sold today. Use this when talking to a customer about their actual product mix and contract.</p>
+       ${PRODUCTS.slice().sort((a,b)=>a.name.localeCompare(b.name)).map(pr=>`<div class="card" style="margin-bottom:10px">
+         <h4 style="margin:0 0 4px">${esc(pr.name)}</h4>
+         <p style="font-size:.9rem;margin:0 0 6px">${esc(pr.oneLiner||'')}</p>
+         <p class="src" style="margin:0">${esc(pr.pricingNotes||'Pricing: see the current pricing sheet in the internal portal.')}</p>
+       </div>`).join('')}`)}
 
     ${has(P.languageToAvoid)?q('Language to avoid',
       `<div class="neg" style="margin:0">${(P.languageToAvoid||[]).map(esc).join('<br>')}</div>`):''}
@@ -1519,92 +1520,6 @@ function renderPitch(){
   <p class="src" style="margin-top:16px">${esc(P.source||'')}</p>`;
 }
 
-
-/* ---------- PRODUCTS & PACKAGES ---------- */
-function renderProducts(){
-  const PK=PACKAGING||{}, PB=PLAYBOOK||{};
-  const q=(title,body)=>`<details><summary>${title}</summary><div>${body}</div></details>`;
-  const list=a=>`<ul class="tight" style="margin:0">${(a||[]).map(x=>`<li>${x}</li>`).join('')}</ul>`;
-
-  const trackCard=t=>{
-    const pf=(PK.problemFirstMessaging&&PK.problemFirstMessaging.tracks||[]).find(x=>x.track===t.track)||{};
-    return `<div class="card" style="border-left:4px solid var(--red);margin-bottom:12px">
-      <h3 style="margin:0 0 2px">${esc(t.track)}</h3>
-      <p class="src" style="margin:0 0 8px">${esc(t.buyer)} · ${esc(t.outcomeFraming||'')}</p>
-      ${pf.problem?`<div class="pt" style="margin:0 0 8px"><strong>Problem:</strong> ${esc(pf.problem)}</div>`:''}
-      ${pf.outcome?`<div style="font-size:.92rem;margin:0 0 6px"><strong>Outcome:</strong> ${esc(pf.outcome)}</div>`:''}
-      ${pf.benefit?`<div style="font-size:.92rem;margin:0 0 6px"><strong>Benefit:</strong> ${esc(pf.benefit)}</div>`:''}
-      ${pf.howWeDeliverIt?`<div style="font-size:.88rem;color:var(--muted);margin:0 0 10px"><strong>How we deliver it:</strong> ${esc(pf.howWeDeliverIt)}</div>`:''}
-      <table><thead><tr><th>Tier</th><th>Price</th><th>Includes</th></tr></thead><tbody>
-      ${(t.tiers||[]).map(tier=>`<tr><td><strong>${esc(tier.tier)}</strong></td><td>${esc(tier.price)}</td><td style="font-size:.86rem">${esc((tier.includes||[]).join(' · '))}</td></tr>`).join('')}
-      </tbody></table>
-      ${t.note?`<p class="src" style="margin:8px 0 0">${esc(t.note)}</p>`:''}
-    </div>`;
-  };
-
-  const legacyCard=pr=>`<div class="card" style="margin-bottom:10px">
-    <h4 style="margin:0 0 4px">${esc(pr.name)}</h4>
-    <p style="font-size:.9rem;margin:0 0 6px">${esc(pr.oneLiner||'')}</p>
-    <p class="src" style="margin:0">${esc(pr.pricingNotes||'Pricing: see the current pricing sheet in the internal portal.')}</p>
-  </div>`;
-
-  const roiCard=m=>`<div class="card" style="margin-bottom:10px">
-    <h4 style="margin:0 0 4px">${esc(m.name)}</h4>
-    <p style="font-size:.9rem;margin:0 0 6px">${esc(m.description||'')}</p>
-    ${has(m.details)?list(m.details.map(esc)):''}
-    <p class="src" style="margin:6px 0 0">Source: ${esc(m.source||'')}</p>
-  </div>`;
-
-  $('#v-products').innerHTML=`
-  <h1>Products & Packages</h1><hr class="rule">
-  <p style="max-width:70ch;color:var(--muted);margin:0 0 12px">What Grace Hill actually sells today (legacy, per-product — what an existing client is on) and where packaging is headed (new tracks & tiers, for new-logo sales). Lead conversations with the problem/outcome, not the package name.</p>
-
-  ${PK.status?`<div class="neg" style="margin:0 0 16px"><strong>Status:</strong> ${esc(PK.status)}</div>`:''}
-
-  <div class="faq" style="margin-bottom:16px">
-    ${PK.summary?q('New packaging — summary', `<p style="margin:0">${esc(PK.summary)}</p>${PK.source?`<p class="src" style="margin:8px 0 0">${esc(PK.source)}</p>`:''}`):''}
-
-    ${has(PK.architecture&&PK.architecture.tracks)?q('The two tracks (new packaging — lead with the problem, not the track name)',
-      PK.architecture.tracks.map(trackCard).join('')+(PK.architecture.step?`<p class="src" style="margin:4px 0 0">${esc(PK.architecture.step)}</p>`:'')):''}
-
-    ${PK.dataIntelligenceLayer?q('Data & Intelligence layer (PHQ Platform Core / PHQ Platform Plus)',
-      `<table><thead><tr><th>Tier</th><th>Price</th><th>Includes</th></tr></thead><tbody>${
-        (PK.dataIntelligenceLayer.tiers||[]).map(t=>`<tr><td><strong>${esc(t.tier)}</strong></td><td>${esc(t.price)}</td><td style="font-size:.86rem">${esc((t.includes||[]).join(' · '))}</td></tr>`).join('')}</tbody></table>
-      ${PK.dataIntelligenceLayer.note?`<p class="src" style="margin:8px 0 0">${esc(PK.dataIntelligenceLayer.note)}</p>`:''}`):''}
-
-    ${has(PK.discountFramework)?q('Discount framework',
-      PK.discountFramework.map(d=>`<div style="margin-bottom:10px"><div style="font-weight:700;color:var(--navy)">${esc(d.lever)}</div>
-        <div style="font-size:.88rem;margin-top:2px">${esc(d.how)}</div>
-        <div class="pt" style="margin-top:4px;font-size:.88rem">${esc(d.recommended)}</div></div>`).join('')):''}
-
-    ${has(PK.objectionHandling)?q(`Customer questions & objection handling (${PK.objectionHandling.length})`,
-      PK.objectionHandling.map(o=>`<div style="margin-bottom:10px"><div style="font-weight:700;color:var(--navy)">${dq(o.q)}</div>
-        <div class="pt" style="margin-top:4px;font-size:.9rem">${esc(o.a)}</div></div>`).join('')):''}
-
-    ${PK.purchasingFlexibility?q('Purchasing flexibility (portfolios that don’t fit one package cleanly)',
-      `<p style="font-size:.9rem;margin:0 0 8px">${esc(PK.purchasingFlexibility.scenario||'')}</p>
-       ${(PK.purchasingFlexibility.options||[]).map(o=>`<div style="margin-bottom:6px"><strong>${esc(o.option)}</strong> — ${esc(o.what)} <span class="src">(${esc(o.recommendedFor)})</span></div>`).join('')}
-       ${PK.purchasingFlexibility.guardrail?`<p class="src" style="margin:6px 0 0">${esc(PK.purchasingFlexibility.guardrail)}</p>`:''}`):''}
-
-    ${has(PK.openQuestions)?q(`Still open / not yet resolved (${PK.openQuestions.length})`,
-      PK.openQuestions.map(o=>`<div style="margin-bottom:8px"><strong>${esc(o.topic)}</strong><div style="font-size:.88rem;margin-top:2px">${esc(o.status)}</div></div>`).join('')):''}
-
-    ${has(PK.buyerMatchFramework&&PK.buyerMatchFramework.matchTheNeed)?q('Rep tool: buyer-match framework (internal — not the customer-facing script)',
-      `<p class="src" style="margin:0 0 8px">${esc((PK.buyerMatchFramework||{}).problemFirstNote||'')}</p>
-       ${PK.buyerMatchFramework.matchTheNeed.map(x=>`<div style="margin-bottom:4px"><strong>${esc(x.q)}</strong> — ${esc(x.branches)}</div>`).join('')}
-       ${(PK.buyerMatchFramework.configureThePackage||[]).map(x=>`<div style="margin-bottom:4px"><strong>${esc(x.q)}</strong> → ${esc(x.drives)}</div>`).join('')}`):''}
-
-    ${has(PB.roiModels)?q(`ROI & savings calculators (${PB.roiModels.length}) — sourced reference, not a live calculator`,
-      `<p class="src" style="margin:0 0 8px">These are the sourced ROI models behind Grace Hill's calculator links and case-study proof points. Use the numbers as directional talking points and pull the live calculator link for an exact quote — don't do the math live on a call.</p>
-       ${PB.roiModels.map(roiCard).join('')}`):''}
-
-    ${q(`Legacy products (${PRODUCTS.length}) — what an existing client is actually on`,
-      `<p class="src" style="margin:0 0 10px">Per-product pricing and packaging, unchanged for existing clients until a migration workflow is designed. Use this, not the new tracks above, when talking to a current customer about their existing contract.</p>
-       ${PRODUCTS.slice().sort((a,b)=>a.name.localeCompare(b.name)).map(legacyCard).join('')}`)}
-
-    ${PK.legacyNote?`<div class="neg" style="margin-top:4px">${esc(PK.legacyNote)}</div>`:''}
-  </div>`;
-}
 
 function renderExplore(which){
   const cur=which||'outcome';

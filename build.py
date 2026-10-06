@@ -31,8 +31,11 @@ data = {
     'partners':    L('partners'),
     'ghContext':   L('gh-context'),
     'products':    L('products'),
-    'packaging':   L('packaging'),
     'playbook':    L('playbook'),
+    # 'packaging' (data/packaging.json) is deliberately NOT loaded into the published
+    # app right now — the new packaging is still in pilot, not everyone is aware of it,
+    # and the names/structure could still change. The file stays in the repo as source
+    # material; re-add the line above when it's ready to go live broadly.
     # Deep-dive evidence, keyed by competitor id. Evidence, not approved copy —
     # the app labels it as such and a person promotes facts via promote.py.
     'evidence':   json.load(open('data/evidence-hierarchy.json')),
