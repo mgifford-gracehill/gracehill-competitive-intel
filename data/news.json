@@ -1,65 +1,65 @@
 {
-  "edition": "Week of October 5, 2026",
-  "weekOf": "Week of October 5, 2026",
-  "coverageWindow": "September 28 – October 5, 2026",
-  "generated": "2026-10-05",
-  "talkTrack": "Siro didn't stand still this week: on October 1 it added native in-app calling and an Outlook integration for AI-drafted follow-ups, folding phone and email into the same coaching record it already built around in-person conversations. Reps are hearing AI call-coaching pitched as a replacement for mystery shopping — it isn't one, because the two do different jobs. AI coaching is always-on: it listens to every conversation and surfaces in-the-moment feedback, the way Gong records sales calls and flags patterns against a general playbook. Mystery shopping is a deliberate, periodic deep dive, curated to probe specific topics on a schedule the property doesn't control, the way a sales manager joins one call and gives feedback tied to that rep's own deal, process, and talk track. The two sit alongside each other rather than compete, and an always-on recorder still doesn't resolve two-party consent disclosure in the states that require it, guarantee every leasing agent uses the tool, or settle who owns the device and the time it takes to turn a transcript into an actual coaching conversation. When that pitch comes up, ask the operations leader across the table one question: who on your team is accountable for proving a shop happened, on a schedule the property does not control?",
-  "coverageGaps": "This edition combines the team's October 5 weekly digest in #industry-competitive_intel (35 items reviewed, field reports from live deals) with an independent sweep of public filings and trade press for the same window. Normal weekly cadence — not a backlog catch-up.",
+  "edition": "Week of October 12, 2026",
+  "weekOf": "Week of October 12, 2026",
+  "coverageWindow": "October 2 – October 11, 2026",
+  "generated": "2026-10-12",
+  "talkTrack": "One buyer this month raised a pay-as-you-go mystery-shop vendor as a reason to push back on our standard contract terms — the pitch being that they can rewrite the shop questionnaire any time, with no multi-year commitment. That flexibility is also the catch: if the criteria can change the week after a bad score, the score isn't measuring anything you can compare over time. Ask the operations leader this: when you pull up this quarter's shop results next to last year's, are you actually looking at the same test?",
+  "coverageGaps": "This edition is the team's October 12 weekly digest in #industry-competitive_intel (137 items reviewed), as approved and posted there. Items from internal Gong analysis and field reports have no public link, so their source link points to the channel. Only the RealPage court item was re-checked against its primary source (the California Attorney General's release).",
   "doNotMisdate": [
-    "RealPage had two separate court outcomes two days apart, and they cut opposite ways: an October 2 preliminary injunction pausing New York's algorithmic rent-pricing ban (a RealPage win, on First Amendment/commercial-speech grounds), and an October 4 ruling letting the multistate antitrust claims proceed despite the federal DOJ settlement (a RealPage loss). Present both, not just one — and don't conflate either with the September 18 Federal Register filing (last edition) or the May 2026 federal settlement, which are earlier, separate steps in the same overall matter.",
-    "EliseAI is a listed Grace Hill partner. Its $350M raise is a scale signal, not itself a reason to treat it as a straight competitor — the actual competitive flashpoint is narrower: its new mystery-shop product, which is showing up in at least one live renewal conversation (CRC) and one open deal this month.",
-    "Siro is still scored \"do not compete\" as of this edition — its October 1 feature additions (native calling, Outlook integration) are a reason to re-check that posture soon, not a signal the posture has already changed."
+    "RealPage court ruling: the California Attorney General's release is dated October 2, 2026 and describes a ruling in the U.S. District Court for the Middle District of North Carolina; the release does not state the ruling date. Earlier editions dated this ruling October 4 and described it as landing two days after the New York injunction. Neither claim is supported, so cite the release date and do not say 'two days apart.'",
+    "RealPage pausing EliseAI integrations is an internal field report (customer notice on October 7), not a public announcement. Existing sites are reported as unaffected. Do not repeat it to a customer as confirmed fact.",
+    "Yardi Aspire and Cirrus counts come from Gong competitive-mention analysis of open deals this month. They count deals where the name came up, not market share or win-loss."
   ],
   "items": [
     {
-      "headline": "RealPage's week in court: a First Amendment win pausing New York's algorithmic-pricing ban, and a multistate antitrust loss letting state claims proceed",
-      "date": "2026-10-04",
-      "source": "Multifamily Dive / Hoodline / MLex",
-      "url": "https://www.multifamilydive.com/news/realpage-injunction-new-york-algorithmic-rent-setting-ban/832045/",
-      "tag": "regulatory",
+      "headline": "A pay-as-you-go mystery-shop vendor just became a live objection — Cirrus",
+      "date": "2026-10-11",
+      "source": "Internal: Gong competitive-mention analysis",
+      "url": "https://grace-hill.slack.com/archives/CD5JVAM4P",
+      "tag": "competitor-move",
       "priority": 0,
-      "summary": "Two rulings landed two days apart. On October 2, a federal judge in the Southern District of New York granted RealPage a preliminary injunction pausing enforcement of New York's algorithmic rent-pricing ban, ruling that algorithmically-informed pricing recommendations are commercial speech protected by the First Amendment — a win for RealPage. On October 4, a federal judge in North Carolina refused to dismiss the multistate antitrust case brought by eight state attorneys general (California, Colorado, Connecticut, Illinois, Massachusetts, Minnesota, North Carolina, and Tennessee, led by California AG Rob Bonta), finding a \"plausible conspiracy among RealPage and the landlords to contribute confidential data\" — and confirming the May 2026 federal DOJ settlement does not moot the states' own Sherman Act claims, which continue against RealPage and named property managers including Pinnacle, Camden Property Trust, and Willow Bridge.",
-      "soWhat": "This is not a settled matter, and it does not resolve in one direction. If a prospect raises the New York ruling as \"RealPage won, it's over,\" the accurate answer is: that ruling pauses one state's ban on First Amendment grounds, while a separate multistate antitrust case over the same underlying pricing-data practice just cleared a motion to dismiss two days later. Ask what their own compliance sign-off looks like today, independent of which case they heard about."
+      "summary": "A buyer cited Cirrus, an ad hoc, pay-as-you-go mystery-shopping vendor that lets them revise their questionnaire any time with no commitment, naming it as a reason to hesitate on our standard contract terms.",
+      "soWhat": "Named in 1 open deal this month — a commitment-free, revisable scorecard cuts against the consistency a buyer needs to compare performance over time, and this is a new name for the database."
     },
     {
-      "headline": "EliseAI raises $350M at a $4B valuation as ARR passes $200M — but the piece that matters is its new mystery-shop product",
-      "date": "2026-09-29",
-      "source": "GlobeNewswire / The AI Insider",
-      "url": "https://www.globenewswire.com/news-release/2026/09/29/3370681/0/en/eliseai-raises-350-million-at-4-billion-valuation-to-bring-ai-deeper-into-housing-and-healthcare-operations.html",
+      "headline": "Yardi Aspire named in 3 open deals this month — with no news to go with it",
+      "date": "2026-10-11",
+      "source": "Internal: Gong competitive-mention analysis",
+      "url": "https://grace-hill.slack.com/archives/CD5JVAM4P",
       "tag": "competitor-move",
       "priority": 1,
-      "summary": "EliseAI closed a $350 million round led by Andreessen Horowitz and Bessemer Venture Partners (with Ontario Teachers' Pension Plan, Sapphire Ventures, and Navitas Capital participating), nearly doubling its valuation to $4 billion. The company reports $200M+ in ARR as of June 2026, having doubled revenue year-over-year for five straight years, and says it now powers one in six U.S. apartments. Funds are earmarked for expanding automation across customer operations and standing up a second engineering hub in San Francisco. Separately, and more immediately relevant: EliseAI is now offering its own mystery-shop product, which reps are tracking as a live factor in at least one renewal conversation (an existing account reportedly leaning toward leaving Grace Hill to use it) and one open new-logo deal this month.",
-      "soWhat": "EliseAI is a listed Grace Hill partner, and the funding headline alone isn't the competitive story — the mystery-shop product is. Where it surfaces, confirm current posture with Amy Price before engaging, and don't let the scale of the raise distract from the narrower, more immediate fact: a partner is now selling into a category we lead."
+      "summary": "Buyers in three active deals cite Yardi Aspire's LMS as lacking virtual training capabilities and employee-development content, though contract terms running into 2027 are keeping two of them on a dual-system timeline rather than an immediate switch.",
+      "soWhat": "Named in 3 open deals this month with no public news from Yardi — that's itself the finding; ask what Aspire doesn't cover today and when the contract renews."
     },
     {
-      "headline": "Yardi unveils Virtuoso Enterprise, a cross-portfolio AI platform with a native Claude connector",
-      "date": "2026-10-05",
-      "source": "PR Newswire",
-      "url": "https://prnewswire.com/news-releases/yardi-unveils-virtuoso-enterprise-a-complete-ai-platform-for-real-estate-ahead-of-yasc-san-diego-302898226.html",
-      "tag": "competitor-move",
+      "headline": "Court keeps RealPage's rent-pricing antitrust case alive, denies motion to dismiss",
+      "date": "2026-10-02",
+      "source": "California Department of Justice, Office of the Attorney General",
+      "url": "https://oag.ca.gov/news/press-releases/court-sides-attorney-general-bonta-realpage-case-denies-realpage-and-landlords%E2%80%99",
+      "tag": "regulatory",
       "priority": 2,
-      "summary": "Ahead of YASC San Diego, Yardi introduced Virtuoso Enterprise: AI embedded natively across its existing solutions (report building, invoice coding, resident assistance, maintenance analytics), plus \"Connectors\" for natural-language access to live Yardi data through third-party AI tools — a Claude connector is available now, with Microsoft Copilot, ChatGPT, and Gemini planned — and purpose-built automation agents (Smart Approval Agent, Lease Audit Agent, Month-End Close Agent). CEO Rob Teel frames the pitch as \"complete, connected data,\" from a single system managing the whole portfolio. No performance benchmarks or quantified efficiency claims were included in the announcement.",
-      "soWhat": "This is Yardi's answer to the same question PerformanceHQ and Ask Gracie™ already answer: what do you do with everything a PMS records. The difference worth naming to a prospect: Yardi connects its own systems of record to AI; Grace Hill connects training, policy, survey, shop, reputation and market data — plus 30+ years of benchmarks — to AI. A PMS vendor's AI layer still only sees what that PMS already recorded."
+      "summary": "A federal court denied RealPage's bid to dismiss the multistate antitrust suit over its rent-pricing algorithm, along with exit attempts by several co-defendant landlords. Two other defendants (LivCor and Greystar) have already settled separately; claims continue against RealPage, Camden, Pinnacle, and Willow Bridge. The release is dated October 2, 2026 and does not give the ruling date.",
+      "soWhat": "RealPage's pricing business carries unresolved legal exposure into next year — a fact worth having on hand if algorithmic pricing comes up."
     },
     {
-      "headline": "AppFolio expands Realm-X with memory, a knowledge base, and specialized \"Performer\" agents for leasing, maintenance, and accounting",
-      "date": "2026-09-29",
-      "source": "AppFolio Investor Relations",
-      "url": "https://ir.appfolioinc.com/news-releases/news-release-details/appfolio-introduces-new-realm-x-built-platform-already-knows",
+      "headline": "RealPage has paused new EliseAI integrations",
+      "date": "2026-10-07",
+      "source": "#industry-competitive_intel (field report)",
+      "url": "https://grace-hill.slack.com/archives/CD5JVAM4P",
       "tag": "competitor-move",
       "priority": 3,
-      "summary": "AppFolio announced an expanded Realm-X: memory that recalls prior conversations, a Knowledge Base that references a customer's own documents and policies, reusable \"Skills\" prompts, and plain-language \"Prompt-to-Flow\" and \"Prompt-to-Dashboard\" tools. It also introduced specialized \"Performer\" agents for leasing, maintenance, resident messaging, accounting, and a new Receptionist Performer for call handling. AppFolio says Realm-X AI actions are up 7x year-over-year, and cites one customer with 57 Realm-X flows completing 25,000+ workflows in the past year.",
-      "soWhat": "Another PMS-native AI layer, same underlying limit as Yardi's: it automates what's already inside AppFolio's own system of record. Worth knowing cold before a demo where a prospect brings this up unprompted — three of our named competitors (AppFolio, Yardi, EliseAI) all made a major AI-agent announcement within the same calendar week."
+      "summary": "RealPage told customers on October 7 that it is pausing future EliseAI site activations over a product dispute. Existing sites are unaffected. This is a field report from the team's weekly digest, not a public announcement.",
+      "soWhat": "Useful context before a renewal or expansion conversation assumes a RealPage/EliseAI pairing still works out of the box."
     },
     {
-      "headline": "Rilla's price is becoming the objection, not the pitch — quotes now ranging $1,800–$2,650 per leasing agent per year, full prepayment at the high end",
-      "date": "2026-10-05",
-      "source": "#industry-competitive_intel",
-      "url": "https://grace-hill.slack.com/archives/CD5JVAM4P/p1791222995288519",
+      "headline": "Self-built training is still the most common incumbent",
+      "date": "2026-10-12",
+      "source": "#industry-competitive_intel (field intel)",
+      "url": "https://grace-hill.slack.com/archives/CD5JVAM4P",
       "tag": "competitor-move",
       "priority": 4,
-      "summary": "Reps reported a widening range of Rilla quotes this week — $1,800 to $2,650 per leasing agent per year, with full-contract prepayment required at the high end. One prospect called the terms unreasonable and passed, naming Siro specifically as the lower-priced comparison that integrates with their PMS. This follows last edition's confirmed data point ($2,650/agent, five-agent minimum, paid upfront).",
-      "soWhat": "Price is now working against Rilla in live deals, not for it — and Siro is the name prospects are bringing up unprompted as the cheaper alternative. Worth having Siro's own positioning (also AI call-coaching, also not a mystery-shop replacement) ready alongside Rilla's, rather than treating them as separate conversations."
+      "summary": "Excel trackers, a homegrown \"university\" program, and one person running all training alone showed up in 3 of 37 open deals this month — the same count as the top named vendor. None could show who completed what training, or when.",
+      "soWhat": "The status quo is as common in live deals as the top named vendor. Ask how they would show who completed what training, and when."
     }
   ]
 }
