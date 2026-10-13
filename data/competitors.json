@@ -29670,5 +29670,194 @@
       }
     ],
     "play": "Head-to-head"
+  },
+  {
+    "id": "cirrus",
+    "name": "Cirrus Marketing Intelligence",
+    "aka": [
+      "Cirrus",
+      "Cirrus Marketing"
+    ],
+    "parent": null,
+    "website": "https://www.cirrusmktg.com/",
+    "toolCategory": "Mystery shopping and customer-experience measurement firm with an apartment/multifamily vertical",
+    "ciCategory": "Replacement",
+    "tier": "Tier 3",
+    "verdict": {
+      "stance": "Compete",
+      "line": "A mystery-shop provider that advertises no long-term contract, no setup fees and no monthly minimums, so it comes up as a flexibility objection to our contract terms rather than a product comparison.",
+      "doInstead": "Do not argue price or contract length first. Ask what they will compare this quarter's results against, and whether the questions will be the same test next year. Flexibility is a real benefit; consistency over time is what a score is for."
+    },
+    "overlaps": [
+      {
+        "product": "Mystery Shopping",
+        "degree": "Direct"
+      }
+    ],
+    "snapshot": {
+      "hq": {
+        "value": "Not stated on the site (a Calabasas, CA phone number is listed)",
+        "source": "https://www.cirrusmktg.com/",
+        "verifiedOn": "2026-10-13"
+      },
+      "founded": {
+        "value": null,
+        "source": null,
+        "verifiedOn": "2026-10-13"
+      },
+      "ownership": {
+        "value": null,
+        "source": null,
+        "verifiedOn": "2026-10-13"
+      },
+      "size": {
+        "value": null,
+        "source": null,
+        "verifiedOn": "2026-10-13"
+      },
+      "funding": {
+        "value": null,
+        "source": null,
+        "verifiedOn": "2026-10-13"
+      }
+    },
+    "pricing": {
+      "value": "No rates published. Site states no long-term contract restrictions, set-up fees or monthly minimums.",
+      "source": "https://www.cirrusmktg.com/faqs",
+      "verifiedOn": "2026-10-13"
+    },
+    "positioning": {
+      "value": "Customer-experience measurement across industries, with custom programs, an online dashboard and instant reporting. Claims 30+ years of experience and coverage across the US and Canada.",
+      "source": "https://www.cirrusmktg.com/",
+      "verifiedOn": "2026-10-13"
+    },
+    "strengths": [
+      {
+        "text": "States no long-term contract, set-up fees or monthly minimums.",
+        "source": "https://www.cirrusmktg.com/faqs",
+        "verifiedOn": "2026-10-13"
+      },
+      {
+        "text": "Says an already-built program can be running in 5 to 7 days and a new program in under 2 weeks at no additional cost.",
+        "source": "https://www.cirrusmktg.com/faqs",
+        "verifiedOn": "2026-10-13"
+      },
+      {
+        "text": "Lists Apartment / Multifamily / Real Estate as a specialty, measuring telephone skills, on-site skills, lead utilization and fair housing compliance.",
+        "source": "https://www.cirrusmktg.com/industries",
+        "verifiedOn": "2026-10-13"
+      },
+      {
+        "text": "Offers phone, in-person and online shops, audio-recorded shops, competitor shops and CSAT/ESAT surveys.",
+        "source": "https://www.cirrusmktg.com/services",
+        "verifiedOn": "2026-10-13"
+      }
+    ],
+    "gaps": [
+      {
+        "text": "Does not say how a changed questionnaire stays comparable with earlier results.",
+        "source": "https://www.cirrusmktg.com/faqs",
+        "verifiedOn": "2026-10-13"
+      },
+      {
+        "text": "Pricing, turnaround on reports and per-shop cost are not published.",
+        "source": "https://www.cirrusmktg.com/faqs",
+        "verifiedOn": "2026-10-13"
+      },
+      {
+        "text": "No training or policy product is described, so shop findings do not connect to courses.",
+        "source": "https://www.cirrusmktg.com/services",
+        "verifiedOn": "2026-10-13"
+      }
+    ],
+    "whyWeWin": [],
+    "askThis": [
+      "When you put this quarter's shop results next to last year's, are you looking at the same test?",
+      "If the questionnaire can change after a bad score, how do you show a property its trend?",
+      "Once a shop shows a gap, what happens next for that team member?"
+    ],
+    "objections": [],
+    "doNotSay": [
+      "Never state a price for Cirrus. None is published.",
+      "Never say Cirrus lacks fair housing shopping. The site lists fair housing compliance as a measurement."
+    ],
+    "features": {
+      "ms-human-shoppers": {
+        "support": "Yes",
+        "note": "Uses mystery shoppers across phone, in-person and online channels.",
+        "source": "https://www.cirrusmktg.com/services",
+        "verifiedOn": "2026-10-13"
+      },
+      "ms-phone": {
+        "support": "Yes",
+        "note": "Phone is listed as a shop channel; multifamily page lists telephone skills.",
+        "source": "https://www.cirrusmktg.com/industries",
+        "verifiedOn": "2026-10-13"
+      },
+      "ms-email": {
+        "support": "Unknown",
+        "note": "Email or lead shops are not described; the multifamily page mentions lead utilization.",
+        "source": "https://www.cirrusmktg.com/industries",
+        "verifiedOn": "2026-10-13"
+      },
+      "ms-onsite": {
+        "support": "Yes",
+        "note": "In-person shopping and on-site skills are listed.",
+        "source": "https://www.cirrusmktg.com/industries",
+        "verifiedOn": "2026-10-13"
+      },
+      "ms-video": {
+        "support": "Unknown",
+        "note": "Video is mentioned only as a costlier alternative to audio recording.",
+        "source": "https://www.cirrusmktg.com/services",
+        "verifiedOn": "2026-10-13"
+      },
+      "ms-questionnaire-customization": {
+        "support": "Yes",
+        "note": "Says it builds forms from concept to completion. How revisions are tracked is not described.",
+        "source": "https://www.cirrusmktg.com/faqs",
+        "verifiedOn": "2026-10-13"
+      },
+      "ms-benchmarking": {
+        "support": "Unknown",
+        "note": "Dashboard analytics are described; cross-client benchmarks are not.",
+        "source": "https://www.cirrusmktg.com/",
+        "verifiedOn": "2026-10-13"
+      }
+    },
+    "health": {
+      "lastFullReview": "2026-10-13",
+      "confidence": "Low",
+      "owner": null,
+      "autoUpdated": false,
+      "pendingReview": [
+        "Confirm 'Cirrus' in the October deal is this company",
+        "Confirm pay-as-you-go terms with the rep who heard it"
+      ]
+    },
+    "news": [],
+    "sources": [
+      {
+        "title": "Cirrus Marketing Intelligence — home",
+        "url": "https://www.cirrusmktg.com/",
+        "retrievedOn": "2026-10-13"
+      },
+      {
+        "title": "Cirrus — FAQs",
+        "url": "https://www.cirrusmktg.com/faqs",
+        "retrievedOn": "2026-10-13"
+      },
+      {
+        "title": "Cirrus — Industries",
+        "url": "https://www.cirrusmktg.com/industries",
+        "retrievedOn": "2026-10-13"
+      },
+      {
+        "title": "Cirrus — Services",
+        "url": "https://www.cirrusmktg.com/services",
+        "retrievedOn": "2026-10-13"
+      }
+    ],
+    "play": "Sometimes in the room"
   }
 ]
