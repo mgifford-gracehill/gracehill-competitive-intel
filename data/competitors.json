@@ -29859,5 +29859,349 @@
       }
     ],
     "play": "Sometimes in the room"
+  },
+  {
+    "id": "ukg-learning",
+    "name": "UKG Learning (UKG Pro / UKG Ready)",
+    "aka": [
+      "UKG Learning",
+      "UKG Pro Learning",
+      "UKG Ready Learning"
+    ],
+    "parent": "UKG Inc.",
+    "website": "https://www.ukg.com/",
+    "toolCategory": "Learning module inside an HR, payroll and workforce-management suite",
+    "ciCategory": "Indirect",
+    "tier": "Tier 3",
+    "verdict": {
+      "stance": "Partial overlap",
+      "line": "UKG Learning is the learning module inside UKG Pro and UKG Ready. It is a platform: the compliance and professional content comes from third-party providers, so what is covered and how fast it is updated depends on those providers. UKG's own pages describe no housing or fair housing content. Grace Hill's difference is that it writes and maintains its own multifamily content.",
+      "doInstead": "Do not claim UKG lacks fair housing content, and do not claim its content providers update late or are not housing-focused; neither is confirmed. A content partner lists a real estate management publisher with fair housing topics, and it is not confirmed whether that catalog is in a given customer's UKG. Ask the buyer to open their UKG catalog and find the fair housing courses, then ask who writes them, who owns keeping them current, when they were last updated, and whether they are written for leasing and maintenance roles. Let them keep UKG for HR onboarding and harassment training."
+    },
+    "overlaps": [
+      {
+        "product": "Training",
+        "degree": "Partial"
+      },
+      {
+        "product": "Policies",
+        "degree": "Partial"
+      },
+      {
+        "product": "Surveys",
+        "degree": "Partial"
+      }
+    ],
+    "snapshot": {
+      "hq": {
+        "value": null,
+        "source": null,
+        "verifiedOn": "2026-10-15"
+      },
+      "founded": {
+        "value": null,
+        "source": null,
+        "verifiedOn": "2026-10-15"
+      },
+      "ownership": {
+        "value": null,
+        "source": null,
+        "verifiedOn": "2026-10-15"
+      },
+      "size": {
+        "value": null,
+        "source": null,
+        "verifiedOn": "2026-10-15"
+      },
+      "funding": {
+        "value": null,
+        "source": null,
+        "verifiedOn": "2026-10-15"
+      }
+    },
+    "pricing": {
+      "value": "No pricing published on the pages reviewed. Whether learning is included in a UKG Pro or UKG Ready contract is not stated.",
+      "source": "https://marketplace.ukg.com/en-US/apps/321559/ukg-learning/overview",
+      "verifiedOn": "2026-10-15"
+    },
+    "positioning": {
+      "value": "A learning solution for UKG Pro and UKG Ready with thousands of mobile-optimized courses on topics including compliance, leadership and safety, from the Schoox Content Marketplace, with customizable content packages.",
+      "source": "https://marketplace.ukg.com/en-US/apps/321559/ukg-learning/overview",
+      "verifiedOn": "2026-10-15"
+    },
+    "strengths": [
+      {
+        "text": "Delivered inside UKG Pro and UKG Ready, so employee records and logins are already in the same suite.",
+        "source": "https://marketplace.ukg.com/en-US/apps/321559/ukg-learning/overview",
+        "verifiedOn": "2026-10-15"
+      },
+      {
+        "text": "Compliance courses can be marked and tracked on a team dashboard, with compliance determined by an active certificate or 100% completion.",
+        "source": "https://support.learning.ukg.com/hc/en-us/articles/21538051942423-Manage-Academy-Compliance-Courses",
+        "verifiedOn": "2026-10-15"
+      },
+      {
+        "text": "Third-party content is embedded from partners; OpenSesame states 60,000+ courses across compliance and safety, leadership and professional development.",
+        "source": "https://marketplace.ukg.com/en-US/apps/436684/opensesame/features",
+        "verifiedOn": "2026-10-15"
+      },
+      {
+        "text": "Customers can build a custom content package, and the content provider handles updates.",
+        "source": "https://marketplace.ukg.com/en-US/apps/321559/ukg-learning/overview",
+        "verifiedOn": "2026-10-15"
+      },
+      {
+        "text": "OpenSesame states more than 3,500 compliance courses, with named topics including harassment prevention, ethics, data privacy, HR compliance and business law.",
+        "source": "https://www.opensesame.com/solutions/compliance",
+        "verifiedOn": "2026-10-16"
+      },
+      {
+        "text": "UKG Document Manager stores documents and supports e-signature and employee acknowledgment, so a customer already in UKG can handle basic policy sign-off there.",
+        "source": "https://www.ukg.com/resources/product-info/ukg-document-manager-product-profile",
+        "verifiedOn": "2026-10-16"
+      },
+      {
+        "text": "UKG offers employee pulse surveys, and talent management covers performance and coaching, recruiting and onboarding alongside learning.",
+        "source": "https://www.ukg.com/products/features/employee-communication-and-collaboration",
+        "verifiedOn": "2026-10-16"
+      }
+    ],
+    "gaps": [
+      {
+        "text": "UKG's own learning pages reviewed name compliance, leadership and safety as topics but list no housing, fair housing or property management content.",
+        "source": "https://marketplace.ukg.com/en-US/apps/321559/ukg-learning/overview",
+        "verifiedOn": "2026-10-15"
+      },
+      {
+        "text": "The compliance article names no subject areas, no content provider and no industry-specific coverage; it describes tracking, not content.",
+        "source": "https://support.learning.ukg.com/hc/en-us/articles/21538051942423-Manage-Academy-Compliance-Courses",
+        "verifiedOn": "2026-10-15"
+      },
+      {
+        "text": "Catalog categories are set up per academy and no providers are named, so what a given customer sees depends on what was licensed.",
+        "source": "https://support.learning.ukg.com/hc/en-us/articles/29571084027543-Navigate-the-Catalog",
+        "verifiedOn": "2026-10-15"
+      },
+      {
+        "text": "OpenSesame's compliance page and its 2026 mandatory-compliance article name workplace topics (harassment, safety, privacy, cybersecurity, AI governance) and do not name fair housing or housing compliance.",
+        "source": "https://www.opensesame.com/solutions/compliance",
+        "verifiedOn": "2026-10-16"
+      },
+      {
+        "text": "OpenSesame says IREM, a property management training publisher with fair housing among its focus areas, is available in its OpenSesame Plus subscription. OpenSesame does not say that this catalog is included in the UKG integration.",
+        "source": "https://www.opensesame.com/were-setting-the-bar-higher-still-gnc-irem-and-the-learning-rooms-are-now-available-in-opensesame-plus/",
+        "verifiedOn": "2026-10-16"
+      },
+      {
+        "text": "The Document Manager page does not describe acknowledgment tracking reports, version control, policy distribution, or any housing policy content.",
+        "source": "https://www.ukg.com/resources/product-info/ukg-document-manager-product-profile",
+        "verifiedOn": "2026-10-16"
+      },
+      {
+        "text": "UKG's survey features described are for employees; no resident surveys, no peer benchmarking, and no mystery shopping, reputation, video leasing or market data features were found on the pages reviewed.",
+        "source": "https://www.ukg.com/products/features/employee-communication-and-collaboration",
+        "verifiedOn": "2026-10-16"
+      },
+      {
+        "text": "Housing-specific content is not authored by UKG; the pages reviewed name no provider commitment on update timing or housing coverage.",
+        "source": "https://marketplace.ukg.com/en-US/apps/321559/ukg-learning/overview",
+        "verifiedOn": "2026-10-16"
+      }
+    ],
+    "whyWeWin": [
+      "Grace Hill writes and maintains its own multifamily content. UKG is the platform, and its compliance content comes from third-party providers, so coverage and update timing depend on them. Ask who owns keeping housing content current.",
+      "Grace Hill's Fair Housing curriculum is built for housing roles: foundational, refresher and topic courses, including maintenance, reasonable accommodations and modifications, assistance animals, disparate impact, and limited English proficiency.",
+      "Grace Hill updated its Fair Housing content in April 2026 to add supplemental guidance on federal enforcement changes, and distributes the update to learners who have already finished the course.",
+      "Grace Hill has a documented legal-monitoring process for its content with dated update notes, and it states its own limits: its Fair Housing courses are based on federal law, and it does not offer a Washington, DC-specific course.",
+      "Beyond training, Grace Hill pairs policies, resident surveys with Kingsley benchmarks, mystery shopping and reputation in one platform; the UKG pages reviewed show only employee-side equivalents for policies and surveys."
+    ],
+    "askThis": [
+      "Can you open your UKG catalog and show me the fair housing courses? Who is the provider, and when were they last updated?",
+      "Who owns keeping those courses current, and what timing does that provider state?",
+      "Are those courses written for leasing and maintenance roles, or for employees in general?",
+      "How do you track policy acknowledgment and version history today, and where does a resident or prospect survey live?",
+      "If a fair housing complaint came in, is the UKG completion report the training record you would give your counsel?"
+    ],
+    "objections": [
+      {
+        "objection": "We are moving everything into UKG to cut costs.",
+        "response": "That makes sense for HR onboarding and harassment training, and you should keep UKG for those. For housing, the question is who writes and keeps the fair housing and role-specific content current, because UKG is the platform and the content comes from other providers. Let's look at what your UKG catalog actually includes before we decide what moves. If you have fewer locations, we can also right-size what you keep with us."
+      }
+    ],
+    "doNotSay": [
+      "Never claim UKG lacks fair housing content. Unknown is not No: a UKG content partner lists a real estate management publisher with fair housing topics, and it is unconfirmed whether a given customer has it.",
+      "Never say UKG's content providers are not multifamily-focused or do not update on time. Neither is confirmed; ask who owns the updates instead.",
+      "Never say UKG Learning is free or included. Pricing is not published.",
+      "Never quote UKG pricing, customer counts or course counts as UKG facts; the 60,000+ figure is OpenSesame's own statement.",
+      "Never tell a client what the law requires. Give them the question to ask their counsel."
+    ],
+    "features": {
+      "tr-multifamily-content": {
+        "support": "Unknown",
+        "note": "No housing content on UKG's own pages; OpenSesame Plus includes a property management publisher (IREM), and its availability inside UKG is not stated.",
+        "source": "https://www.opensesame.com/were-setting-the-bar-higher-still-gnc-irem-and-the-learning-rooms-are-now-available-in-opensesame-plus/",
+        "verifiedOn": "2026-10-15"
+      },
+      "tr-vendor-maintained": {
+        "support": "Partial",
+        "note": "Content is supplied by third-party providers; UKG's page says the content provider handles updates to a custom package.",
+        "source": "https://marketplace.ukg.com/en-US/apps/321559/ukg-learning/overview",
+        "verifiedOn": "2026-10-15"
+      },
+      "tr-fair-housing": {
+        "support": "Unknown",
+        "note": "Not on UKG's own pages. OpenSesame lists IREM (246 courses, fair housing among its focus areas) in its OpenSesame Plus subscription; whether that is licensed through UKG for a given customer is not stated.",
+        "source": "https://www.opensesame.com/were-setting-the-bar-higher-still-gnc-irem-and-the-learning-rooms-are-now-available-in-opensesame-plus/",
+        "verifiedOn": "2026-10-16"
+      },
+      "tr-state-specific": {
+        "support": "Unknown",
+        "note": "Not stated.",
+        "source": "https://marketplace.ukg.com/en-US/apps/321559/ukg-learning/overview",
+        "verifiedOn": "2026-10-15"
+      },
+      "tr-cec-eligible": {
+        "support": "Unknown",
+        "note": "Not stated.",
+        "source": "https://marketplace.ukg.com/en-US/apps/321559/ukg-learning/overview",
+        "verifiedOn": "2026-10-15"
+      },
+      "tr-role-assignment": {
+        "support": "Unknown",
+        "note": "Not confirmed on the pages reviewed.",
+        "source": "https://support.learning.ukg.com/hc/en-us/articles/29571084027543-Navigate-the-Catalog",
+        "verifiedOn": "2026-10-15"
+      },
+      "tr-competency": {
+        "support": "Unknown",
+        "note": "Not stated.",
+        "source": "https://marketplace.ukg.com/en-US/apps/321559/ukg-learning/overview",
+        "verifiedOn": "2026-10-15"
+      },
+      "tr-compliance-reporting": {
+        "support": "Yes",
+        "note": "Compliance courses can be marked and tracked on a team dashboard.",
+        "source": "https://support.learning.ukg.com/hc/en-us/articles/21538051942423-Manage-Academy-Compliance-Courses",
+        "verifiedOn": "2026-10-15"
+      },
+      "tr-scorm": {
+        "support": "Unknown",
+        "note": "Not stated on the pages reviewed.",
+        "source": "https://marketplace.ukg.com/en-US/apps/321559/ukg-learning/overview",
+        "verifiedOn": "2026-10-15"
+      },
+      "tr-authoring": {
+        "support": "Unknown",
+        "note": "Not stated on the pages reviewed.",
+        "source": "https://marketplace.ukg.com/en-US/apps/321559/ukg-learning/overview",
+        "verifiedOn": "2026-10-15"
+      },
+      "tr-mobile": {
+        "support": "Partial",
+        "note": "Courses are described as mobile-optimized; offline access is not described.",
+        "source": "https://marketplace.ukg.com/en-US/apps/321559/ukg-learning/overview",
+        "verifiedOn": "2026-10-15"
+      },
+      "tr-bilingual": {
+        "support": "Partial",
+        "note": "The catalog can be filtered by language; Spanish housing content is not described.",
+        "source": "https://support.learning.ukg.com/hc/en-us/articles/29571084027543-Navigate-the-Catalog",
+        "verifiedOn": "2026-10-15"
+      },
+      "tr-pms-integration": {
+        "support": "Unknown",
+        "note": "No property management system integration named.",
+        "source": "https://marketplace.ukg.com/en-US/apps/321559/ukg-learning/overview",
+        "verifiedOn": "2026-10-15"
+      },
+      "tr-hris-integration": {
+        "support": "Yes",
+        "note": "Native: the learning solution is part of UKG Pro and UKG Ready.",
+        "source": "https://marketplace.ukg.com/en-US/apps/321559/ukg-learning/overview",
+        "verifiedOn": "2026-10-15"
+      },
+      "tr-benchmarking": {
+        "support": "Unknown",
+        "note": "No benchmarking dataset described.",
+        "source": "https://marketplace.ukg.com/en-US/apps/321559/ukg-learning/overview",
+        "verifiedOn": "2026-10-15"
+      }
+    },
+    "health": {
+      "lastFullReview": "2026-10-16",
+      "confidence": "Medium",
+      "owner": null,
+      "autoUpdated": false,
+      "pendingReview": [
+        "Confirm which content catalogs the requesting client has in UKG, including whether OpenSesame Plus is licensed",
+        "Search the client's UKG catalog for IREM fair housing courses and note the last-updated date",
+        "Confirm which Grace Hill products the requesting client uses, to see how much a move to UKG would replace",
+        "Check whether UKG Document Manager tracks acknowledgments and versions and whether UKG surveys extend beyond employees"
+      ]
+    },
+    "news": [],
+    "sources": [
+      {
+        "title": "UKG Marketplace — UKG Learning",
+        "url": "https://marketplace.ukg.com/en-US/apps/321559/ukg-learning/overview",
+        "retrievedOn": "2026-10-15"
+      },
+      {
+        "title": "UKG Learning help — Manage Academy Compliance Courses",
+        "url": "https://support.learning.ukg.com/hc/en-us/articles/21538051942423-Manage-Academy-Compliance-Courses",
+        "retrievedOn": "2026-10-15"
+      },
+      {
+        "title": "UKG Learning help — Navigate the Catalog",
+        "url": "https://support.learning.ukg.com/hc/en-us/articles/29571084027543-Navigate-the-Catalog",
+        "retrievedOn": "2026-10-15"
+      },
+      {
+        "title": "UKG Marketplace — OpenSesame features",
+        "url": "https://marketplace.ukg.com/en-US/apps/436684/opensesame/features",
+        "retrievedOn": "2026-10-15"
+      },
+      {
+        "title": "OpenSesame — Institute of Real Estate Management publisher page",
+        "url": "https://www.opensesame.com/publishers/institute-of-real-estate-management",
+        "retrievedOn": "2026-10-15"
+      },
+      {
+        "title": "OpenSesame — UKG partner awards (partner press release)",
+        "url": "https://www.opensesame.com/blog/opensesame-ukg-partner-of-the-year-2025",
+        "retrievedOn": "2026-10-15"
+      },
+      {
+        "title": "OpenSesame — Compliance solutions",
+        "url": "https://www.opensesame.com/solutions/compliance",
+        "retrievedOn": "2026-10-16"
+      },
+      {
+        "title": "OpenSesame — IREM now in OpenSesame Plus",
+        "url": "https://www.opensesame.com/were-setting-the-bar-higher-still-gnc-irem-and-the-learning-rooms-are-now-available-in-opensesame-plus/",
+        "retrievedOn": "2026-10-16"
+      },
+      {
+        "title": "UKG — Document Manager product profile",
+        "url": "https://www.ukg.com/resources/product-info/ukg-document-manager-product-profile",
+        "retrievedOn": "2026-10-16"
+      },
+      {
+        "title": "UKG — Employee communication and collaboration",
+        "url": "https://www.ukg.com/products/features/employee-communication-and-collaboration",
+        "retrievedOn": "2026-10-16"
+      },
+      {
+        "title": "UKG — Talent management",
+        "url": "https://www.ukg.com/products/features/talent-management",
+        "retrievedOn": "2026-10-16"
+      }
+    ],
+    "stackLayer": {
+      "number": 4,
+      "name": "People and Workforce",
+      "note": "Reaches multifamily through the people and workforce stack, often already on an HR contract."
+    },
+    "play": "Sometimes in the room"
   }
 ]
